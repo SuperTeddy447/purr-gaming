@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RoomCameraConfig" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/camera/room_camera_config.gd" id="1_c302m"]
+
+[resource]
+script = ExtResource("1_c302m")
+default_camera_position = Vector2(470.5, 836)
+min_zoom = 0.82
+default_zoom = 1.0
+max_zoom = 1.35
+pan_bounds = Rect2(0, 0, 941, 1672)
