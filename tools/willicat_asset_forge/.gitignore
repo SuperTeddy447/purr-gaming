@@ -1,0 +1,22 @@
+# WilliCat Asset Forge — transient data
+inbox/*
+!inbox/.gitkeep
+workspace/*
+!workspace/.gitkeep
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,10 @@
+{
+  "id": "serve",
+  "display_name": "Serve",
+  "default_fps": 8,
+  "loop": false,
+  "requires_direction": false,
+  "recommended_frames": 4,
+  "runtime_folder": "serve",
+  "semantic_action": "serve"
+}

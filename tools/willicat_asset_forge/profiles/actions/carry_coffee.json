@@ -1,0 +1,10 @@
+{
+  "id": "carry_coffee",
+  "display_name": "Carry Coffee",
+  "default_fps": 8,
+  "loop": true,
+  "requires_direction": true,
+  "recommended_frames": 8,
+  "runtime_folder": "carry_coffee",
+  "semantic_action": "carry_coffee"
+}

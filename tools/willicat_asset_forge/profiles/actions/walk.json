@@ -1,0 +1,10 @@
+{
+  "id": "walk",
+  "display_name": "Walk",
+  "default_fps": 8,
+  "loop": true,
+  "requires_direction": true,
+  "recommended_frames": 8,
+  "runtime_folder": "walk",
+  "semantic_action": "walk"
+}

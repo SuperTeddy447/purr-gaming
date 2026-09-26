@@ -1,0 +1,21 @@
+{
+  "id": "mochi",
+  "display_name": "Mochi",
+  "canonical_reference": "docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png",
+  "target_gameplay_height": 150,
+  "default_runtime_frame_size": [320, 320],
+  "default_fps": 8,
+  "horizontal_mirror_policy": "disabled",
+  "identity_notes": [
+    "orange tabby",
+    "cream muzzle",
+    "forehead M marking",
+    "warm brown almond eyes",
+    "asymmetrical ears",
+    "jade Art Deco apron",
+    "cream shirt",
+    "rust neckerchief",
+    "striped S-curved tail"
+  ],
+  "runtime_animation_root": "assets/characters/mochi/animations"
+}
