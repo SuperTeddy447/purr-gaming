@@ -1,9 +1,19 @@
-[gd_resource type="Resource" script_class="MochiAnimationSet" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="MochiAnimationSet" load_steps=4 format=3]
 
 [ext_resource type="Script" path="res://scripts/characters/mochi_animation_set.gd" id="1_set"]
 [ext_resource type="SpriteFrames" path="res://assets/characters/mochi/animations/walk/mochi_walk_side_right_prototype_v1.tres" id="2_walk_side_right_temp"]
+[ext_resource type="SpriteFrames" path="res://assets/characters/mochi/animations/prepare_coffee/mochi_prepare_coffee_v1.tres" id="3_prepare_coffee_temp"]
 
 [resource]
 script = ExtResource("1_set")
 temp_frames = ExtResource("2_walk_side_right_temp")
+clip_frames_temp = {
+&"prepare_coffee": ExtResource("3_prepare_coffee_temp")
+}
 allow_side_mirror = false
+foot_y_by_clip = {
+&"prepare_coffee": 441.0
+}
+visible_height_by_clip = {
+&"prepare_coffee": 412.0
+}

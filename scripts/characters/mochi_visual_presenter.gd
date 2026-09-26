@@ -171,7 +171,7 @@ func _apply_resolution(force_restart: bool) -> void:
 		layered_idle.show_static_fallback()
 		animated_sprite.visible = false
 	else:
-		var frames: SpriteFrames = animation_set.frames_for(next_source)
+		var frames: SpriteFrames = animation_set.frames_for(next_source, next_clip)
 		animated_sprite.sprite_frames = frames
 		if changed or force_restart:
 			animated_sprite.animation = next_clip

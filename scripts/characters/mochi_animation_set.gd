@@ -26,6 +26,9 @@ const CONTRACTS: Dictionary = {
 
 @export var final_frames: SpriteFrames
 @export var temp_frames: SpriteFrames
+## Dedicated SpriteFrames per clip name (StringName -> SpriteFrames).
+@export var clip_frames_final: Dictionary = {}
+@export var clip_frames_temp: Dictionary = {}
 ## Disable if Mochi's asymmetric details must use dedicated left-facing frames.
 @export var allow_side_mirror: bool = true
 ## Optional registration metadata, keyed by SpriteFrames clip name. A clip's frames
@@ -55,9 +58,10 @@ func direction_suffix(direction: StringName) -> String:
 
 
 func resolve(action_id: StringName, direction: StringName) -> Dictionary:
+	var can_mirror_action: bool = allow_side_mirror and action_id != &"prepare_coffee"
 	var result: Dictionary = {
 		"source": &"STATIC", "clip": &"", "resolved_action": &"idle",
-		"flip_h": direction == &"LEFT" and allow_side_mirror, "used_fallback": true
+		"flip_h": direction == &"LEFT" and can_mirror_action, "used_fallback": true
 	}
 	if not is_semantic_action(action_id):
 		return result
@@ -66,10 +70,11 @@ func resolve(action_id: StringName, direction: StringName) -> Dictionary:
 	while current != &"" and not visited.has(current):
 		visited[current] = true
 		var candidates: Array[Dictionary] = []
+		var can_mirror_current: bool = allow_side_mirror and current != &"prepare_coffee"
 		match direction:
 			&"LEFT":
 				candidates.append({"clip": StringName("%s_left" % String(current)), "flip_h": false})
-				if allow_side_mirror:
+				if can_mirror_current:
 					candidates.append({"clip": StringName("%s_side" % String(current)), "flip_h": true})
 			&"RIGHT":
 				candidates.append({"clip": StringName("%s_right" % String(current)), "flip_h": false})
@@ -78,11 +83,11 @@ func resolve(action_id: StringName, direction: StringName) -> Dictionary:
 				candidates.append({"clip": StringName("%s_%s" % [String(current), direction_suffix(direction)]), "flip_h": false})
 			&"SIDE":
 				candidates.append({"clip": StringName("%s_side" % String(current)), "flip_h": false})
-		candidates.append({"clip": current, "flip_h": direction == &"LEFT" and allow_side_mirror})
+		candidates.append({"clip": current, "flip_h": direction == &"LEFT" and can_mirror_current})
 		for source in [&"FINAL", &"TEMP"]:
-			var frames: SpriteFrames = final_frames if source == &"FINAL" else temp_frames
 			for candidate in candidates:
 				var clip: StringName = candidate["clip"]
+				var frames: SpriteFrames = frames_for(source, clip)
 				if _has_usable_clip(frames, clip):
 					return {
 						"source": source, "clip": clip, "resolved_action": current,
@@ -92,8 +97,16 @@ func resolve(action_id: StringName, direction: StringName) -> Dictionary:
 	return result
 
 
-func frames_for(source: StringName) -> SpriteFrames:
-	return final_frames if source == &"FINAL" else temp_frames if source == &"TEMP" else null
+func frames_for(source: StringName, clip: StringName = &"") -> SpriteFrames:
+	var clip_dict: Dictionary = clip_frames_final if source == &"FINAL" else clip_frames_temp if source == &"TEMP" else {}
+	if clip != &"" and clip_dict.has(clip):
+		return clip_dict[clip] as SpriteFrames
+	var default_frames: SpriteFrames = final_frames if source == &"FINAL" else temp_frames if source == &"TEMP" else null
+	if default_frames != null and (clip == &"" or default_frames.has_animation(clip)):
+		return default_frames
+	if clip != &"" and clip_dict.has(clip):
+		return clip_dict[clip] as SpriteFrames
+	return default_frames
 
 
 func validate_fallback_chain() -> bool:

@@ -1,6 +1,6 @@
 # Mochi production animation pipeline V1
 
-Status: **hybrid presentation runtime READY; SIDE RIGHT walk TEMP TRUE-SLICE ACCEPTED; remaining final action art REQUIRED**. `MOCHI_WALK_SIDE_RIGHT_V1` is assigned to the shared semantic animation set as a TEMP candidate only for rightward horizontal movement. It is not FINAL and does not complete the directional walk set. Idle/ambient idle use the layered procedural contract in `MOCHI_LAYERED_IDLE_PRODUCTION_V1.md`; action states retain this SpriteFrames pipeline. No gameplay states or animation-driven completion are added. The canonical House Style Lock image remains unchanged and is the safe idle fallback.
+Status: **hybrid presentation runtime READY; SIDE RIGHT walk TEMP TRUE-SLICE ACCEPTED; PREPARE COFFEE V1 CANDIDATE / HUMAN REVIEW REQUIRED; remaining final action art REQUIRED**. `MOCHI_WALK_SIDE_RIGHT_V1` is assigned to the shared semantic animation set as a TEMP candidate only for rightward horizontal movement. `MOCHI_PREPARE_COFFEE_V1` is assigned to the shared semantic animation set as a TEMP candidate for generic station-facing coffee preparation (8 frames, 8 FPS, looping). Neither is marked FINAL. Idle/ambient idle use the layered procedural contract in `MOCHI_LAYERED_IDLE_PRODUCTION_V1.md`; action states retain this SpriteFrames pipeline. No gameplay states or animation-driven completion are added. The canonical House Style Lock image remains unchanged and is the safe idle fallback.
 
 ## Runtime hierarchy and authority
 
@@ -30,7 +30,7 @@ All frames keep the actor root at the feet. Standing visible height is approxima
 | `idle` | Procedural, indefinite | Fixed canonical Home-facing; feet fixed | Immediately work-interruptible; no event | LayeredIdleVisual → canonical TEMP; see layered-idle contract |
 | `ambient_idle` | Procedural, indefinite; slightly more activity | Fixed canonical Home-facing; feet fixed | Immediately work-interruptible; no event | Same LayeredIdleVisual with ambient timing profile |
 | `walk` | Loop while the existing mover advances | Direction from route, no root motion; feet fixed | Ambient walk cancellable by work; no animation completion event | RIGHT → TEMP `walk_side`; missing directions → `idle` static; `walk/` |
-| `prepare_coffee` | Loop or repeated short cycle for ~2.0 s NORMAL brew | Station-facing; foot at CoffeeAction | Ambient cannot interrupt; timer ends preparation on `coffee_prepare_completed` | `idle` → static; `prepare_coffee/` |
+| `prepare_coffee` | Loop for ~2.0 s NORMAL brew timer | Station-facing generic; foot at CoffeeAction | Ambient cannot interrupt; timer ends preparation on `coffee_prepare_completed` | TEMP `prepare_coffee` (8 frames, 8 FPS); `prepare_coffee/` |
 | `carry_coffee` | Loop along Model C route / while awaiting serve tap | Route/customer-facing; separate cup at CarryAnchor | Ambient cannot interrupt; begins at `coffee_pickup` | `walk` → `idle` → static; `carry_coffee/` |
 | `serve` | One-shot, ~0.45 s NORMAL service | Customer-facing; foot stays at service point | No duplicate completion; `coffee_served`/cup removal comes from gameplay timer | `idle` → static; `serve/` |
 | `return_idle` | Walk-like loop until WorkerIdle | Route-facing; foot remains on authored waypoints | Ambient waits for customer exit; `worker_returned_idle` is gameplay event | `walk` → `idle` → static; optional dedicated clip may live in `walk/` |
@@ -94,9 +94,34 @@ Known production polish issue (not a temporary True Slice blocker): frames 1, 4,
 
 Manual review: open and run the existing preview scene, use **3** then **D** to verify the normal semantic right-walk resolution, or press **8** to toggle the isolated prototype preview. Watch at least three loops at the default 150 px ruler; use the live frame readout and **Space** to pause on frames 1, 4, 5, and 8 (displayed one-based) to inspect the top ear tips. Also check whether the head/body visibly slide, the apron ornament morphs, the S-tail clips, and frame 8 → frame 1 loops cleanly. Press **8** again or **1** to restore canonical idle.
 
+## MOCHI_PREPARE_COFFEE_V1
+
+Status: **CANDIDATE / HUMAN REVIEW REQUIRED**. Direction is **generic / station-facing**; the shared gameplay `MochiAnimationSet` selects it for `prepare_coffee` as temporary art across all facings. It is not marked FINAL. The animation contains character-only gesture without espresso machine, cup, counter, or station props baked into the frames.
+
+The source delivery package (`MochiPrepareCoffeeRuntime_GodotReady.zip`) was extracted and inspected:
+- Provenance documentation is preserved in `docs/source_assets/mochi/prepare_coffee_v1/` (`.gdignore`, `MOCHI_PREPARE_COFFEE_RUNTIME_METADATA_V1.json`, `README_GODOT.md`, `MOCHI_PREPARE_COFFEE_EDGE_DIAGNOSTIC.png`, `MOCHI_PREPARE_COFFEE_150PX_PREVIEW.png`).
+- Authoritative runtime atlas: `res://assets/characters/mochi/animations/prepare_coffee/mochi_prepare_coffee_v1.png` (3104×474 RGBA, eight 388×474 px cells in an 8×1 horizontal layout).
+- Authoritative SpriteFrames resource: `res://assets/characters/mochi/animations/prepare_coffee/mochi_prepare_coffee_v1.tres` (8 frames, 8.0 FPS, `loop = true`). Clean project-relative paths with no Downloads or foreign references.
+- Safe transparent padding: all cells have safe transparent padding >= 32 px (top gutter: 32–37 px, bottom gutter: 28–29 px, left gutter: 32–64 px, right gutter: 51–80 px). No ear tips or tail curves touch cell edges.
+- Geometry & registration: stable feet/root in cell at (194, 441). Maximum visible character height is 412 px. At target gameplay height of 150 px, uniform scale is 150 / 412 ≈ **0.364078**. Registered via `visible_height_by_clip[&"prepare_coffee"] = 412.0` and `foot_y_by_clip[&"prepare_coffee"] = 441.0` in `mochi_animation_set.tres`. Sprite offset is (-194, -441), placing the authored feet exactly on the actor gameplay root at (0, 0).
+- Station relationship: visual separation is preserved. Composition consists of Mochi's prepare_coffee AnimatedSprite2D + existing EspressoStation + existing coffee progress/steam FX + existing ContactShadow + DepthSortedLayer behind CounterFront occluder.
+- Direction policy: station-working pose; treated as generic prepare_coffee without directional variants and without auto-flipping (`flip_h = false`).
+- True Vertical Slice: seamlessly plays during `SliceWorker.State.PREPARING_COFFEE` in both Manual and Auto modes. Looping playback matches the gameplay preparation timer (~2.0 s in Normal mode) without modifying gameplay logic, order timers, or reward handling.
+
+Human review gate checklist:
+1. Mochi identity: orange tabby markings, almond eye, cream muzzle, asymmetric ears, jade apron, neckerchief.
+2. Animation smoothness: small barista working / prepare-coffee arm and body gesture at 8 FPS.
+3. Feet/root stability: feet remain grounded on ContactShadow at the CoffeeAction marker without root drift.
+4. Apron and face stability: no ornament morphing or facial distortion.
+5. Tail behavior: natural swaying posture behind character.
+6. Loop transition: clean cycle between frame 8 and frame 1.
+7. Station composition: natural gesture reading beside EspressoStation behind CounterFront.
+8. Gameplay scale: ~150 px scale hides minor raster artifacts.
+9. Alpha fringe: edge diagnostics confirm clean alpha with no white or dark halo against café background.
+
 ## Independent preview
 
-Open `scenes/dev/mochi_animation_preview.tscn`. Keys: **1–7** choose idle, ambient_idle, walk, prepare, carry, serve, and return_idle; **3** then **D** verifies the normal semantic `walk + RIGHT` resolution; **8** toggles the isolated right-facing TEMP walk-side preview; **W/A/S/D** select UP/LEFT/DOWN/RIGHT for ordinary action clips; **Space** pauses/resumes; **R** restarts; **G** toggles guides. The preview shows the floor pivot, 150-design-px height ruler, CarryAnchor, TEMP pivot guides, eye state, and actual source/clip status. It uses the same presenter as Home but does not change café gameplay. It is a development view, not a production character editor.
+Open `scenes/dev/mochi_animation_preview.tscn`. Keys: **1–7** choose idle, ambient_idle, walk, prepare, carry, serve, and return_idle; press **4** to inspect `prepare_coffee` at ~150 px gameplay scale; **3** then **D** verifies the normal semantic `walk + RIGHT` resolution; **8** toggles the isolated right-facing TEMP walk-side preview; **W/A/S/D** select UP/LEFT/DOWN/RIGHT for ordinary action clips; **Space** pauses/resumes; **R** restarts; **G** toggles guides. The preview shows the floor pivot, 150-design-px height ruler, CarryAnchor, TEMP pivot guides, eye state, and actual source/clip status with live frame readout. It uses the same presenter as Home but does not change café gameplay. It is a development view, not a production character editor.
 
 ## Artist delivery checklist and blockers
 

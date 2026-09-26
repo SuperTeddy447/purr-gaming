@@ -77,6 +77,12 @@ func _update_label() -> void:
 	var prototype_frame_status: String = ""
 	if _walk_side_prototype_active and presenter.animated_sprite.visible:
 		prototype_frame_status = "Prototype frame %d/%d at 8 FPS" % [presenter.animated_sprite.frame + 1, WALK_SIDE_PROTOTYPE_FRAME_COUNT]
+	elif presenter.animated_sprite.visible and presenter.animated_sprite.sprite_frames != null:
+		var anim: StringName = presenter.animated_sprite.animation
+		if presenter.animated_sprite.sprite_frames.has_animation(anim):
+			var count: int = presenter.animated_sprite.sprite_frames.get_frame_count(anim)
+			var fps: float = presenter.animated_sprite.sprite_frames.get_animation_speed(anim)
+			prototype_frame_status = "Action frame %d/%d at %.0f FPS (%s)" % [presenter.animated_sprite.frame + 1, count, fps, String(anim)]
 	info_label.text = "MOCHI ANIMATION — DEV PREVIEW\n%s\nIdle layers: %s\n%s\n1 idle  •  2 ambient_idle  •  3 walk  •  4 prepare  •  5 carry  •  6 serve  •  7 return_idle\n8 toggle RIGHT walk_side prototype (%s)\nW/A/S/D direction  •  Space pause/play  •  R restart  •  G guides" % [presenter.status_line(), presenter.layered_idle.status_line(), prototype_frame_status, walk_test_state]
 
 

@@ -1,0 +1,209 @@
+{
+  "source": "mochi_s_espresso_action_sprite_sheet.png",
+  "frames": 8,
+  "layout": {
+    "columns": 8,
+    "rows": 1
+  },
+  "cell_size_px": {
+    "width": 388,
+    "height": 474
+  },
+  "root_in_cell_px": {
+    "x": 194,
+    "y": 441
+  },
+  "safe_padding_px": 32,
+  "max_visible_character_height_px": 412,
+  "target_gameplay_height_px": 150,
+  "recommended_godot_scale": 0.3640776699029126,
+  "recommended_animation_fps": 8.0,
+  "split_edges_px": [
+    0,
+    276,
+    552,
+    835,
+    1108,
+    1376,
+    1639,
+    1904,
+    2172
+  ],
+  "notes": [
+    "All visible artwork remains at original scale.",
+    "Cells are centered on the feet/root, not on tail width.",
+    "Visible RGBA artwork was not regenerated or repainted.",
+    "Only isolated effectively invisible alpha=1 specks far outside the artwork were excluded.",
+    "Recommended Godot import: Mipmaps OFF, Fix Alpha Border ON, Repeat Disabled, Linear filter."
+  ],
+  "frames_detail": [
+    {
+      "frame": 1,
+      "split_x": [
+        0,
+        276
+      ],
+      "raw_width": 276,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        166,
+        275,
+        577
+      ],
+      "root_x": 161.86214237276096,
+      "baseline_y": 575,
+      "left_extent": 161.86214237276096,
+      "right_extent": 113.13785762723904,
+      "top_extent": 409,
+      "visible_height": 412
+    },
+    {
+      "frame": 2,
+      "split_x": [
+        276,
+        552
+      ],
+      "raw_width": 276,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        168,
+        275,
+        578
+      ],
+      "root_x": 146.93337581724782,
+      "baseline_y": 576,
+      "left_extent": 146.93337581724782,
+      "right_extent": 128.06662418275218,
+      "top_extent": 408,
+      "visible_height": 411
+    },
+    {
+      "frame": 3,
+      "split_x": [
+        552,
+        835
+      ],
+      "raw_width": 283,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        171,
+        282,
+        577
+      ],
+      "root_x": 139.69825039638306,
+      "baseline_y": 575,
+      "left_extent": 139.69825039638306,
+      "right_extent": 142.30174960361694,
+      "top_extent": 404,
+      "visible_height": 407
+    },
+    {
+      "frame": 4,
+      "split_x": [
+        835,
+        1108
+      ],
+      "raw_width": 273,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        172,
+        272,
+        577
+      ],
+      "root_x": 129.96575491936676,
+      "baseline_y": 575,
+      "left_extent": 129.96575491936676,
+      "right_extent": 142.03424508063324,
+      "top_extent": 403,
+      "visible_height": 406
+    },
+    {
+      "frame": 5,
+      "split_x": [
+        1108,
+        1376
+      ],
+      "raw_width": 268,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        170,
+        267,
+        577
+      ],
+      "root_x": 130.49686051709563,
+      "baseline_y": 575,
+      "left_extent": 130.49686051709563,
+      "right_extent": 136.50313948290437,
+      "top_extent": 405,
+      "visible_height": 408
+    },
+    {
+      "frame": 6,
+      "split_x": [
+        1376,
+        1639
+      ],
+      "raw_width": 263,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        168,
+        262,
+        576
+      ],
+      "root_x": 136.50682905389775,
+      "baseline_y": 575,
+      "left_extent": 136.50682905389775,
+      "right_extent": 125.49317094610225,
+      "top_extent": 407,
+      "visible_height": 409
+    },
+    {
+      "frame": 7,
+      "split_x": [
+        1639,
+        1904
+      ],
+      "raw_width": 265,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        169,
+        264,
+        577
+      ],
+      "root_x": 145.45502799558386,
+      "baseline_y": 575,
+      "left_extent": 145.45502799558386,
+      "right_extent": 118.54497200441614,
+      "top_extent": 406,
+      "visible_height": 409
+    },
+    {
+      "frame": 8,
+      "split_x": [
+        1904,
+        2172
+      ],
+      "raw_width": 268,
+      "raw_height": 724,
+      "alpha_bounds": [
+        0,
+        166,
+        267,
+        577
+      ],
+      "root_x": 149.3613319651579,
+      "baseline_y": 575,
+      "left_extent": 149.3613319651579,
+      "right_extent": 117.63866803484211,
+      "top_extent": 409,
+      "visible_height": 412
+    }
+  ]
+}

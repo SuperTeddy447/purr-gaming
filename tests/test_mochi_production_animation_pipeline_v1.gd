@@ -101,8 +101,10 @@ func _check_map_and_resolution() -> bool:
 	var serve_right: Dictionary = set.resolve(&"serve", &"RIGHT")
 	if not _check(carry_right["source"] == &"TEMP" and carry_right["resolved_action"] == &"walk" \
 		and return_right["source"] == &"TEMP" and return_right["resolved_action"] == &"walk" \
-		and prepare_right["source"] == &"STATIC" and serve_right["source"] == &"STATIC",
-		"The existing prepare/carry/serve semantic fallback chain must remain intact"):
+		and prepare_right["source"] == &"TEMP" and prepare_right["clip"] == &"prepare_coffee" \
+		and prepare_right["resolved_action"] == &"prepare_coffee" and not prepare_right["flip_h"] \
+		and serve_right["source"] == &"STATIC",
+		"The existing prepare/carry/serve semantic fallback chain must remain intact with prepare_coffee resolving to TEMP"):
 		return false
 	for action in set.ACTIONS:
 		var contract: Dictionary = set.contract_for(action)
@@ -110,15 +112,23 @@ func _check_map_and_resolution() -> bool:
 			and contract.has("interruptible") and contract.has("asset_dir"),
 			"Missing action contract for %s" % String(action)):
 			return false
-		if not _check(set.resolve(action, &"UP")["source"] == &"STATIC",
-			"Missing action art must retain the canonical fallback"):
-			return false
+		if action != &"prepare_coffee":
+			if not _check(set.resolve(action, &"UP")["source"] == &"STATIC",
+				"Missing action art must retain the canonical fallback"):
+				return false
+		else:
+			if not _check(set.resolve(action, &"UP")["source"] == &"TEMP" \
+				and set.resolve(action, &"UP")["clip"] == &"prepare_coffee",
+				"Prepare coffee must resolve to generic TEMP for UP direction"):
+				return false
 	var working := set.duplicate(true) as MochiAnimationSet
 	# Exercise the generic resolver's optional mirror capability independently;
 	# the shared asymmetric Mochi runtime set deliberately disables it.
 	working.allow_side_mirror = true
 	working.final_frames = SpriteFrames.new()
 	working.temp_frames = SpriteFrames.new()
+	working.clip_frames_temp = {}
+	working.clip_frames_final = {}
 	for clip in [&"idle", &"walk", &"walk_side", &"walk_up"]:
 		_add_reference_frame(working.final_frames, clip)
 	_add_reference_frame(working.temp_frames, &"serve")
