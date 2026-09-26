@@ -126,8 +126,9 @@ func _check_resolution_and_contracts() -> bool:
 		"walk RIGHT must still resolve to unflipped TEMP:walk_side"):
 		return false
 	var walk_left: Dictionary = set.resolve(&"walk", &"LEFT")
-	if not _check(walk_left["source"] == &"STATIC" and not walk_left["flip_h"],
-		"walk LEFT must still fall back to STATIC"):
+	if not _check(walk_left["source"] == &"TEMP" and walk_left["clip"] == &"walk_side" \
+		and walk_left["flip_h"],
+		"walk LEFT must resolve to mirrored TEMP:walk_side"):
 		return false
 
 	# Fallback chain for other actions remains intact

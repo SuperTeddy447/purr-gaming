@@ -80,21 +80,34 @@ func _check_map_and_resolution() -> bool:
 		return false
 	var integrated_right_walk: Dictionary = set.resolve(&"walk", &"RIGHT")
 	if not _check(set.temp_frames == RUNTIME_WALK_FRAMES and set.final_frames == null \
-		and not set.allow_side_mirror \
+		and set.allow_side_mirror \
 		and integrated_right_walk["source"] == &"TEMP" \
 		and integrated_right_walk["clip"] == &"walk_side" \
 		and integrated_right_walk["resolved_action"] == &"walk" \
 		and not integrated_right_walk["flip_h"],
 		"The shared semantic set must select the unflipped TEMP side-right walk clip"):
 		return false
-	for direction in [&"LEFT", &"DOWN", &"UP"]:
-		var unsupported_walk: Dictionary = set.resolve(&"walk", direction)
-		if not _check(unsupported_walk["source"] == &"STATIC" \
-			and unsupported_walk["clip"] == &"" \
-			and unsupported_walk["resolved_action"] == &"idle" \
-			and not unsupported_walk["flip_h"],
-			"Unsupported %s walk must keep the canonical static fallback without mirroring" % String(direction)):
-			return false
+	var integrated_left_walk: Dictionary = set.resolve(&"walk", &"LEFT")
+	if not _check(integrated_left_walk["source"] == &"TEMP" \
+		and integrated_left_walk["clip"] == &"walk_side" \
+		and integrated_left_walk["resolved_action"] == &"walk" \
+		and integrated_left_walk["flip_h"],
+		"The shared semantic set must select the mirrored TEMP side walk clip for LEFT"):
+		return false
+	var integrated_up_walk: Dictionary = set.resolve(&"walk", &"UP")
+	if not _check(integrated_up_walk["source"] == &"TEMP" \
+		and integrated_up_walk["clip"] == &"walk_up" \
+		and integrated_up_walk["resolved_action"] == &"walk" \
+		and not integrated_up_walk["flip_h"],
+		"The shared semantic set must select the unflipped TEMP walk_up clip"):
+		return false
+	var integrated_down_walk: Dictionary = set.resolve(&"walk", &"DOWN")
+	if not _check(integrated_down_walk["source"] == &"TEMP" \
+		and integrated_down_walk["clip"] == &"walk_down" \
+		and integrated_down_walk["resolved_action"] == &"walk" \
+		and not integrated_down_walk["flip_h"],
+		"The shared semantic set must select the unflipped TEMP walk_down clip"):
+		return false
 	var carry_right: Dictionary = set.resolve(&"carry_coffee", &"RIGHT")
 	var return_right: Dictionary = set.resolve(&"return_idle", &"RIGHT")
 	var prepare_right: Dictionary = set.resolve(&"prepare_coffee", &"RIGHT")
@@ -112,11 +125,11 @@ func _check_map_and_resolution() -> bool:
 			and contract.has("interruptible") and contract.has("asset_dir"),
 			"Missing action contract for %s" % String(action)):
 			return false
-		if action != &"prepare_coffee":
+		if action not in [&"prepare_coffee", &"walk", &"carry_coffee", &"return_idle"]:
 			if not _check(set.resolve(action, &"UP")["source"] == &"STATIC",
 				"Missing action art must retain the canonical fallback"):
 				return false
-		else:
+		elif action == &"prepare_coffee":
 			if not _check(set.resolve(action, &"UP")["source"] == &"TEMP" \
 				and set.resolve(action, &"UP")["clip"] == &"prepare_coffee",
 				"Prepare coffee must resolve to generic TEMP for UP direction"):
@@ -226,8 +239,10 @@ func _check_preview_and_geometry() -> bool:
 	_send_preview_key(preview, KEY_A)
 	_send_preview_key(preview, KEY_3)
 	if not _check(presenter.requested_action == &"walk" and presenter.direction == &"LEFT" \
-		and presenter.resolved_source == &"STATIC" and not presenter.animated_sprite.visible,
-		"Normal semantic preview must keep the LEFT walk on the safe static fallback"):
+		and presenter.resolved_source == &"TEMP" and presenter.resolved_clip == &"walk_side" \
+		and presenter.animated_sprite.visible and presenter.animated_sprite.flip_h \
+		and preview.info_label.text.contains("walk LEFT → TEMP:walk_side"),
+		"Normal semantic preview must resolve the mirrored TEMP side-right clip for LEFT"):
 		return false
 	_send_preview_key(preview, KEY_D)
 	if not _check(presenter.direction == &"RIGHT" and presenter.resolved_source == &"TEMP" \
@@ -236,14 +251,16 @@ func _check_preview_and_geometry() -> bool:
 		"Normal semantic preview 3 then D must resolve the TEMP side-right clip"):
 		return false
 	_send_preview_key(preview, KEY_W)
-	if not _check(presenter.direction == &"UP" and presenter.resolved_source == &"STATIC" \
-		and not presenter.animated_sprite.visible,
-		"Normal semantic preview must not use the side-right clip for UP movement"):
+	if not _check(presenter.direction == &"UP" and presenter.resolved_source == &"TEMP" \
+		and presenter.resolved_clip == &"walk_up" and presenter.animated_sprite.visible \
+		and not presenter.animated_sprite.flip_h and preview.info_label.text.contains("walk UP → TEMP:walk_up"),
+		"Normal semantic preview must resolve the walk_up clip for UP movement"):
 		return false
 	_send_preview_key(preview, KEY_S)
-	if not _check(presenter.direction == &"DOWN" and presenter.resolved_source == &"STATIC" \
-		and not presenter.animated_sprite.visible,
-		"Normal semantic preview must not use the side-right clip for DOWN movement"):
+	if not _check(presenter.direction == &"DOWN" and presenter.resolved_source == &"TEMP" \
+		and presenter.resolved_clip == &"walk_down" and presenter.animated_sprite.visible \
+		and not presenter.animated_sprite.flip_h and preview.info_label.text.contains("walk DOWN → TEMP:walk_down"),
+		"Normal semantic preview must resolve the walk_down clip for DOWN movement"):
 		return false
 	_send_preview_key(preview, KEY_1)
 	var set := presenter.animation_set.duplicate(true) as MochiAnimationSet

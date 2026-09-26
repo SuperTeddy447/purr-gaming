@@ -88,11 +88,80 @@ At a 150 px target height, the runtime node scale is 150/320 = **0.46875**. Visi
 
 The silhouette retains the orange tabby markings, side-view almond eye, cream muzzle, asymmetric ears, jade apron with Art Deco detail, cream shirt, rust neckerchief, and striped tail. Close source inspection shows mild frame-to-frame line/detail variation, especially around small face and apron ornament marks; no major identity or costume loss was observed. Human review in the runtime preview accepted the motion, identity at gameplay scale, and loop for TEMP True Slice use.
 
-The preview in `scenes/dev/mochi_animation_preview.tscn` retains **8** to toggle the RIGHT-facing TEMP walk test and return to idle. The normal semantic preview path is **3** (request `walk`) then **D** (RIGHT); its status should read `walk RIGHT → TEMP:walk_side`. **A**, **W**, or **S** keep LEFT/UP/DOWN on fallback. The preview disables side mirroring for its duplicated test set. The runtime integration changes only clip resolution; Home routes, root, CarryAnchor, ContactShadow, idle layering, and gameplay state are unchanged.
+The preview in `scenes/dev/mochi_animation_preview.tscn` supports full directional testing for semantic walk:
+- **3** then **D**: `walk RIGHT → TEMP:walk_side` (unflipped, TEMP TRUE-SLICE ACCEPTED).
+- **3** then **A**: `walk LEFT → TEMP:walk_side [flip_h]` (mirrored, TEMP MIRRORED TRUE-SLICE).
+- **3** then **W**: `walk UP → TEMP:walk_up` (unflipped, CANDIDATE / HUMAN REVIEW REQUIRED).
+- **3** then **S**: `walk DOWN → TEMP:walk_down` (unflipped, CANDIDATE / HUMAN REVIEW REQUIRED).
+- **8** toggles the isolated RIGHT-facing prototype test.
+- The runtime integration changes only presentation clip resolution; Home routes, root, CarryAnchor, ContactShadow, idle layering, and gameplay state are untouched.
 
-Known production polish issue (not a temporary True Slice blocker): frames 1, 4, 5, and 8 touch the top cell edge, leaving minimal/zero transparent headroom above the ear tips. Human runtime review found no blocker for temporary True Slice use. Do not alter, crop, or regenerate these frames in this integration. The final replacement should include safe transparent headroom. Remaining whole-silhouette bounds variation is largely tail-driven; no per-frame root correction is introduced.
+Known production polish issue on SIDE RIGHT (not a temporary True Slice blocker): frames 1, 4, 5, and 8 touch the top cell edge, leaving minimal/zero transparent headroom above the ear tips. Human runtime review found no blocker for temporary True Slice use. Do not alter, crop, or regenerate these frames in this integration. The final replacement should include safe transparent headroom. Remaining whole-silhouette bounds variation is largely tail-driven; no per-frame root correction is introduced.
 
-Manual review: open and run the existing preview scene, use **3** then **D** to verify the normal semantic right-walk resolution, or press **8** to toggle the isolated prototype preview. Watch at least three loops at the default 150 px ruler; use the live frame readout and **Space** to pause on frames 1, 4, 5, and 8 (displayed one-based) to inspect the top ear tips. Also check whether the head/body visibly slide, the apron ornament morphs, the S-tail clips, and frame 8 → frame 1 loops cleanly. Press **8** again or **1** to restore canonical idle.
+## MOCHI_DIRECTIONAL_WALK_RUNTIME_V1
+
+Directional status summary:
+- **RIGHT**: **TEMP TRUE-SLICE ACCEPTED** (`walk + RIGHT` → `TEMP:walk_side`, unflipped).
+- **LEFT**: **TEMP MIRRORED TRUE-SLICE** (`walk + LEFT` → `TEMP:walk_side`, `flip_h = true`). Temporary prototype mirror only; asymmetric ears, markings, and tail will receive dedicated production left art later.
+- **UP**: **CANDIDATE / HUMAN REVIEW REQUIRED** (`walk + UP` → `TEMP:walk_up`, unflipped).
+- **DOWN**: **CANDIDATE / HUMAN REVIEW REQUIRED** (`walk + DOWN` → `TEMP:walk_down`, unflipped).
+- **BACK IDLE**: **SOURCE REFERENCE ONLY** (`docs/source_assets/mochi/back_idle_reference_v1/`). Preserved as directional/pose reference only; does NOT replace `LayeredIdleVisual`.
+
+### Directional Walk QA & Asset Contracts
+
+| Property | UP Walk (`walk_up`) | DOWN Walk (`walk_down`) | SIDE RIGHT (`walk_side`) | SIDE LEFT (Mirror) |
+| --- | --- | --- | --- | --- |
+| Source PNG | `back_walk_walk_up.png` (5120×640) | `front_walk_walk_down.png` (5120×640) | `front_walk_walk.png` (5120×640) | Mirrored from SIDE RIGHT |
+| WebP Reference | 640×640, 8 frames @ 8 FPS looping | 640×640, 8 frames @ 8 FPS looping | 640×640, 8 frames @ 8 FPS looping | N/A |
+| Runtime Atlas | `mochi_walk_up_v1.png` (2560×320) | `mochi_walk_down_v1.png` (2560×320) | `mochi_walk_side_right_prototype_v1.png` (2560×320) | Shared `walk_side` texture |
+| Cell Dimensions | 320×320 px | 320×320 px | 320×320 px | 320×320 px |
+| Frame Count & FPS | 8 frames @ 8.0 FPS, `loop = true` | 8 frames @ 8.0 FPS, `loop = true` | 8 frames @ 8.0 FPS, `loop = true` | 8 frames @ 8.0 FPS, `loop = true` |
+| Side Gutters (min) | Left: 61 px, Right: 53 px | Left: 92 px, Right: 78 px | Left: 19 px, Right: 60 px | Inverted from RIGHT |
+| Baseline / Foot Contact | Frame 0 touches Y=320; max H=320 | Frames 0,1,4,5 touch Y=320; max H=320 | Frame 0 touches Y=320; max H=320 | Identical to RIGHT |
+| Gameplay Scale | 150/320 = 0.46875 (~150 px) | 150/320 = 0.46875 (~150 px) | 150/320 = 0.46875 (~150 px) | 150/320 = 0.46875 (~150 px) |
+| Root Offset | `(-160, -320)` | `(-160, -320)` | `(-160, -320)` | `(-160, -320)` |
+| `flip_h` State | `false` | `false` | `false` | `true` |
+| CarryAnchor Pos | `(28, -80)` | `(28, -80)` | `(28, -80)` | `(-28, -80)` |
+| ContactShadow | Aligned to root (0, 0) | Aligned to root (0, 0) | Aligned to root (0, 0) | Aligned to root (0, 0) |
+
+Alpha bounds per frame in runtime 320×320 cells:
+- **`walk_up`**:
+  - Frame 0: `(61, 0, 205, 320)`
+  - Frame 1: `(67, 4, 199, 310)`
+  - Frame 2: `(70, 3, 189, 303)`
+  - Frame 3: `(69, 0, 193, 318)`
+  - Frame 4: `(69, 0, 191, 318)`
+  - Frame 5: `(66, 0, 195, 317)`
+  - Frame 6: `(65, 4, 199, 301)`
+  - Frame 7: `(68, 1, 199, 315)`
+- **`walk_down`**:
+  - Frame 0: `(98, 0, 136, 320)`
+  - Frame 1: `(98, 6, 144, 314)`
+  - Frame 2: `(98, 13, 136, 295)`
+  - Frame 3: `(94, 0, 140, 306)`
+  - Frame 4: `(97, 13, 136, 307)`
+  - Frame 5: `(92, 15, 142, 305)`
+  - Frame 6: `(94, 6, 139, 308)`
+  - Frame 7: `(94, 0, 140, 309)`
+
+Visual Identity Observations:
+- **`walk_up`**: Back-facing walk. Crossed apron straps, back apron bow, neckerchief, back head tabby stripes, tail curl and rhythm are distinct and consistent.
+- **`walk_down`**: Front-facing walk toward camera. Tabby 'M' forehead marking, almond eye contours, apron front with Art Deco motifs, neckerchief, and tail swing are well registered.
+- **Root stability**: Root is grounded at bottom-center (160, 320) across all clips. No per-frame gameplay positional hacks. Contact shadow remains anchored to actor origin.
+- **Mirroring reset**: Switching from LEFT to RIGHT, UP, DOWN, or IDLE cleanly resets `flip_h` and restores CarryAnchor to `+28 px`.
+
+Manual review instructions for directional walk:
+1. Open and run `scenes/dev/mochi_animation_preview.tscn`.
+2. Press **3** to enter semantic WALK.
+3. Press **D** to test RIGHT walk (unflipped `walk_side`, CarryAnchor at +28 px).
+4. Press **A** to test LEFT walk (mirrored `walk_side`, `[flip_h]` in status line, CarryAnchor at -28 px).
+5. Press **W** to test UP walk (back-facing `walk_up`, CarryAnchor at +28 px).
+6. Press **S** to test DOWN walk (front-facing `walk_down`, CarryAnchor at +28 px).
+7. Press **G** to toggle guides on/off to verify the 150 px ruler and floor baseline.
+8. Press **Space** to pause/resume and **R** to restart at frame 1.
+9. Press **4** to verify `prepare_coffee` transitions cleanly without flip.
+10. Press **1** to return to layered idle; verify `flip_h` is cleared.
+11. Run `scenes/home/home_scene.tscn` to observe real route movement across all directions.
 
 ## MOCHI_PREPARE_COFFEE_V1
 

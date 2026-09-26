@@ -4,7 +4,7 @@ Every item below belongs to the single coffee-service flow or the portion of Hom
 
 | Group / asset ID | Status / current TEMP source | Final requirement | Slot / owner; visual target bounds and pivot | Animation requirement | Gate |
 | --- | --- | --- | --- | --- | --- |
-| CHARACTER `mochi_action_set_01` | Action SpriteFrames runtime **READY**; `SIDE RIGHT` walk **TEMP ACCEPTED**; `PREPARE COFFEE V1` **CANDIDATE / HUMAN REVIEW REQUIRED**; final action art **REQUIRED**. TEMP canonical body remains fallback for missing clips (`carry_coffee`, `serve`, `return_idle`); no FINAL SpriteFrames installed | House-style coherent `walk`, `prepare_coffee`, `carry_coffee`, `serve`, and `return_idle` clips plus the missing directional variants; stable per-clip registration | `MochiAnimationSlot/ActionAnimatedSprite` with `assets/characters/mochi/runtime/mochi_animation_set.tres`; ~145–150 px visible at default framing, feet fixed at actor root, separate `ContactShadow` | Action semantic fallback and gameplay ownership in `MOCHI_PRODUCTION_ANIMATION_PIPELINE_V1.md` | B |
+| CHARACTER `mochi_action_set_01` | Action SpriteFrames runtime **READY**; `RIGHT` walk **TEMP TRUE-SLICE ACCEPTED**; `LEFT` walk **TEMP MIRRORED TRUE-SLICE**; `UP` walk **CANDIDATE / HUMAN REVIEW REQUIRED**; `DOWN` walk **CANDIDATE / HUMAN REVIEW REQUIRED**; `PREPARE COFFEE V1` **CANDIDATE / HUMAN REVIEW REQUIRED**; `BACK IDLE` **SOURCE REFERENCE ONLY**; final action art **REQUIRED**. TEMP canonical body remains fallback for missing clips (`carry_coffee`, `serve`, `return_idle`); no FINAL SpriteFrames installed | House-style coherent `walk`, `prepare_coffee`, `carry_coffee`, `serve`, and `return_idle` clips plus the missing directional variants; stable per-clip registration | `MochiAnimationSlot/ActionAnimatedSprite` with `assets/characters/mochi/runtime/mochi_animation_set.tres`; ~145–150 px visible at default framing, feet fixed at actor root, separate `ContactShadow` | Action semantic fallback and gameplay ownership in `MOCHI_PRODUCTION_ANIMATION_PIPELINE_V1.md` | B |
 | CHARACTER `mochi_layered_idle_set_01` | Layered Idle Runtime Pipeline: **READY**. Production Layer Artwork: **REQUIRED**. Current visible art is canonical TEMP fallback; no layer art is installed | Six registered transparent layers: `mochi_body_base_v1.png`, `mochi_tail_v1.png`, `mochi_ear_twitch_v1.png`, and `mochi_eyes_{open,half,closed}_v1.png` | `MochiAnimationSlot/LayeredIdleVisual`; ~145–150 px full composited height, canonical feet unchanged, separate `ContactShadow` | `MOCHI_LAYERED_IDLE_PRODUCTION_V1.md`; procedural idle is immediately action-interruptible and never owns gameplay state | B |
 | CHARACTER `mochi_carry_attachment_01` | Runtime `CarryAnchor` **READY**; final cup/hand art **REQUIRED**. TEMP `PrototypeCarryVisual` draw code follows the anchor | Cup/hand attachment coordinated with body facing and service pose; left-side mirror requires art review | Existing root `CarryAnchor` local (28,-80) on right, mirrored x on approved left; actor foot pivot unchanged | Carry/serve alignment, disappear at successful serve | B |
 | ENVIRONMENT `architecture_home_01` | TEMP modular `HomeBakedBaseSlot` and entrance frame | Final café room skin/entrance frame coherent with Mochi | `architecture_full_canvas` 941×1672 top-left; `architecture_entrance_frame` 408×384 wall-mount center | None | B |
@@ -31,13 +31,14 @@ Haptics are optional semantic hooks (`valid_tap`, `coffee_ready`, `serve_success
 
 ## Mochi walk directional status
 
-The current side-right sequence is a temporary True Slice visual, not a complete or FINAL walk set. The resolver reads the existing `SliceMover` direction; the shared animation set disables side mirroring so asymmetric Mochi artwork is never silently flipped.
+The directional walk set is integrated for True Vertical Slice evaluation, but is **not globally FINAL**. The resolver reads movement direction from the existing `SliceMover` / movement target:
 
 | Direction | Status | Runtime behavior |
 | --- | --- | --- |
-| SIDE RIGHT | **TEMP ACCEPTED** | `walk + RIGHT` → `TEMP:walk_side`, unflipped |
-| SIDE LEFT | **REQUIRED / TEMP FALLBACK** | Canonical static fallback; no mirrored prototype |
-| DOWN | **REQUIRED / FALLBACK** | Canonical static fallback; side-right clip is not used |
-| UP | **REQUIRED / FALLBACK** | Canonical static fallback; side-right clip is not used |
+| RIGHT | **TEMP TRUE-SLICE ACCEPTED** | `walk + RIGHT` → `TEMP:walk_side`, unflipped |
+| LEFT | **TEMP MIRRORED TRUE-SLICE** | `walk + LEFT` → `TEMP:walk_side`, `flip_h = true` (temporary prototype mirror; asymmetric ears/markings/tail require dedicated production LEFT asset later) |
+| UP | **CANDIDATE / HUMAN REVIEW REQUIRED** | `walk + UP` → `TEMP:walk_up`, unflipped (derived from `back_walk_walk_up.png`, 8 frames @ 8 FPS looping) |
+| DOWN | **CANDIDATE / HUMAN REVIEW REQUIRED** | `walk + DOWN` → `TEMP:walk_down`, unflipped (derived from `front_walk_walk_down.png`, 8 frames @ 8 FPS looping) |
+| BACK IDLE | **SOURCE REFERENCE ONLY** | Preserved in `docs/source_assets/mochi/back_idle_reference_v1/`; does NOT enter runtime gameplay. Layered idle remains `LayeredIdleVisual`. |
 
-Walk is **not globally FINAL**. Next missing animation asset: a true **SIDE LEFT walk** sequence; DOWN and UP remain required as well.
+Directional walk remains under review. A dedicated production SIDE LEFT asset and final sign-off on UP and DOWN are required before marking the directional walk set FINAL.

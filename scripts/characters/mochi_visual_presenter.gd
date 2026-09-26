@@ -128,10 +128,12 @@ func install_animation_set(next_set: MochiAnimationSet) -> void:
 func status_line() -> String:
 	if presentation_mode == &"LAYERED_IDLE":
 		return "%s → %s" % [String(requested_action), layered_idle.status_line()]
-	return "%s %s → %s:%s%s" % [
+	var mirror_str: String = " [flip_h]" if (animated_sprite != null and animated_sprite.flip_h) else ""
+	return "%s %s → %s:%s%s%s" % [
 		String(requested_action), String(direction), String(resolved_source),
 		String(resolved_clip) if resolved_clip != &"" else "canonical static",
-		" (fallback)" if used_fallback else ""
+		" (fallback)" if used_fallback else "",
+		mirror_str
 	]
 
 
@@ -146,6 +148,7 @@ func _apply_resolution(force_restart: bool) -> void:
 		resolved_clip = &""
 		used_fallback = not layered_idle.production_layers_complete
 		static_sprite.flip_h = false
+		animated_sprite.flip_h = false
 		animated_sprite.visible = false
 		layered_idle.visible = true
 		layered_idle.start_idle(requested_action, force_restart or changed_to_layered)
@@ -169,6 +172,7 @@ func _apply_resolution(force_restart: bool) -> void:
 	if next_source == &"STATIC":
 		layered_idle.visible = true
 		layered_idle.show_static_fallback()
+		animated_sprite.flip_h = false
 		animated_sprite.visible = false
 	else:
 		var frames: SpriteFrames = animation_set.frames_for(next_source, next_clip)

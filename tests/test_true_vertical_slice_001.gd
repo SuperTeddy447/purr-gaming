@@ -196,12 +196,21 @@ func _check_mochi_walk_resolution() -> bool:
 		and not presenter.animated_sprite.flip_h and presenter.animated_sprite.visible,
 		"The real Home/True Slice presenter must resolve RIGHT walk to the temporary side clip"):
 		return false
-	for direction in [&"LEFT", &"DOWN", &"UP"]:
-		presenter.set_direction(direction)
-		if not _check(presenter.resolved_source == &"STATIC" and not presenter.animated_sprite.visible \
-			and not presenter.static_sprite.flip_h,
-			"True Slice %s walk must retain canonical fallback without mirroring" % String(direction)):
-			return false
+	presenter.set_direction(&"LEFT")
+	if not _check(presenter.resolved_source == &"TEMP" and presenter.resolved_clip == &"walk_side" \
+		and presenter.animated_sprite.flip_h and presenter.animated_sprite.visible,
+		"The real Home/True Slice presenter must resolve LEFT walk to mirrored TEMP walk_side"):
+		return false
+	presenter.set_direction(&"UP")
+	if not _check(presenter.resolved_source == &"TEMP" and presenter.resolved_clip == &"walk_up" \
+		and not presenter.animated_sprite.flip_h and presenter.animated_sprite.visible,
+		"The real Home/True Slice presenter must resolve UP walk to TEMP walk_up"):
+		return false
+	presenter.set_direction(&"DOWN")
+	if not _check(presenter.resolved_source == &"TEMP" and presenter.resolved_clip == &"walk_down" \
+		and not presenter.animated_sprite.flip_h and presenter.animated_sprite.visible,
+		"The real Home/True Slice presenter must resolve DOWN walk to TEMP walk_down"):
+		return false
 	presenter.play_action(&"idle")
 	if not _check(presenter.presentation_mode == &"LAYERED_IDLE" and presenter.layered_idle.is_idle_active \
 		and not presenter.animated_sprite.visible and actor.global_position == actor_root \
