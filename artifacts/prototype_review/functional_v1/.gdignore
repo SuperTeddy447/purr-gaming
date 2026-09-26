@@ -1,0 +1,1 @@
+# Review-only Godot viewport captures; keep them out of runtime asset imports.

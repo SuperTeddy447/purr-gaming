@@ -20,6 +20,7 @@ extends Node2D
 @export var accent_color: Color = Color(0.18, 0.35, 0.28) # Barista green apron
 @export var character_scale: float = 1.0
 @export var idle_bob_enabled: bool = true
+@export var show_role_badge: bool = true
 
 var _time_elapsed: float = 0.0
 
@@ -33,13 +34,12 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if idle_bob_enabled:
 		_time_elapsed += delta * 3.0
-		# Gentle idle breathing bob
-		var bob_offset: float = sin(_time_elapsed) * 2.0
-		position.y += bob_offset * delta * 4.0
+		queue_redraw()
 
 
 func _draw() -> void:
 	var flip: float = 1.0 if facing_right else -1.0
+	var bob_offset: float = sin(_time_elapsed) * 2.0 if idle_bob_enabled else 0.0
 
 	# Dimensions (proportional to ~130px tall cat in reference design coordinate space)
 	var body_w: float = 38.0 * character_scale
@@ -47,7 +47,16 @@ func _draw() -> void:
 	var head_r: float = 28.0 * character_scale
 
 	# Foot shadow on floor (centered at foot pivot (0, 0))
-	draw_ellipse(Vector2.ZERO, body_w * 0.8, 8.0 * character_scale, Color(0.05, 0.05, 0.05, 0.35))
+	var shadow_radius_x: float = body_w * 0.8
+	var shadow_radius_y: float = 8.0 * character_scale
+	var shadow_points := PackedVector2Array()
+	for i in range(24):
+		var angle: float = TAU * float(i) / 24.0
+		shadow_points.append(Vector2(cos(angle) * shadow_radius_x, sin(angle) * shadow_radius_y))
+	draw_colored_polygon(shadow_points, Color(0.05, 0.05, 0.05, 0.35))
+
+	# Bob the character art while keeping the floor shadow and Y-sort foot pivot stable.
+	draw_set_transform(Vector2(0.0, bob_offset), 0.0, Vector2.ONE)
 
 	# Body (standing upwards from feet at Y=0 towards Y=-body_h)
 	var body_rect: Rect2 = Rect2(-body_w * 0.5, -body_h, body_w, body_h)
@@ -94,15 +103,10 @@ func _draw() -> void:
 	draw_circle(Vector2(eye_offset_x, eye_y + 8.0 * character_scale), 6.0 * character_scale, secondary_color)
 	draw_circle(Vector2(eye_offset_x, eye_y + 6.0 * character_scale), 2.0 * character_scale, Color(0.9, 0.4, 0.5))
 
-	# Role badge over head
-	var badge_y: float = head_center.y - head_r - 12.0 * character_scale
-	var badge_text: String = "[%s] %s" % [role, character_name]
-	draw_string(
-		ThemeDB.fallback_font,
-		Vector2(-70.0, badge_y),
-		badge_text,
-		HORIZONTAL_ALIGNMENT_CENTER,
-		140.0,
-		11,
-		Color(1.0, 1.0, 1.0, 0.9)
-	)
+	if show_role_badge:
+		var badge_y: float = head_center.y - head_r - 12.0 * character_scale
+		var badge_text: String = "[%s] %s" % [role, character_name]
+		draw_string(ThemeDB.fallback_font, Vector2(-70.0, badge_y), badge_text,
+			HORIZONTAL_ALIGNMENT_CENTER, 140.0, 11, Color(1.0, 1.0, 1.0, 0.9))
+
+	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)

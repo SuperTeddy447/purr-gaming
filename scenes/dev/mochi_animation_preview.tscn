@@ -1,0 +1,87 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/mochi_animation_preview.gd" id="1_preview"]
+[ext_resource type="Texture2D" path="res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png" id="2_mochi"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_visual_presenter.gd" id="3_presenter"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_contact_shadow.gd" id="4_shadow"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_layered_idle_visual.gd" id="5_layered_idle"]
+[ext_resource type="Resource" path="res://data/mochi_layered_idle_config.tres" id="6_idle_config"]
+[ext_resource type="SpriteFrames" path="res://assets/characters/mochi/animations/walk/mochi_walk_side_right_prototype_v1.tres" id="7_walk_side_prototype"]
+
+[node name="MochiAnimationPreview" type="Node2D" node_paths=PackedStringArray("actor", "static_sprite", "presenter", "carry_anchor", "info_label")]
+script = ExtResource("1_preview")
+actor = NodePath("Actor")
+static_sprite = NodePath("Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion/BodyBase")
+presenter = NodePath("Actor/MochiAnimationSlot")
+carry_anchor = NodePath("Actor/CarryAnchor")
+info_label = NodePath("InfoLabel")
+walk_side_prototype_frames = ExtResource("7_walk_side_prototype")
+
+[node name="Actor" type="Node2D" parent="."]
+
+[node name="ContactShadow" type="Node2D" parent="Actor"]
+script = ExtResource("4_shadow")
+
+[node name="MochiAnimationSlot" type="Node2D" parent="Actor" node_paths=PackedStringArray("static_sprite", "animated_sprite", "layered_idle", "carry_anchor", "contact_shadow")]
+script = ExtResource("3_presenter")
+static_sprite = NodePath("LayeredIdleVisual/BodyMotion/BodyBase")
+animated_sprite = NodePath("ActionAnimatedSprite")
+layered_idle = NodePath("LayeredIdleVisual")
+canonical_reference_texture = ExtResource("2_mochi")
+carry_anchor = NodePath("../CarryAnchor")
+contact_shadow = NodePath("../ContactShadow")
+
+[node name="LayeredIdleVisual" type="Node2D" parent="Actor/MochiAnimationSlot" node_paths=PackedStringArray("body_motion", "body_base", "tail_pivot", "tail_sprite", "ear_pivot", "ear_sprite", "face_layers", "eyes_open", "eyes_half", "eyes_closed")]
+script = ExtResource("5_layered_idle")
+config = ExtResource("6_idle_config")
+canonical_reference_texture = ExtResource("2_mochi")
+body_motion = NodePath("BodyMotion")
+body_base = NodePath("BodyMotion/BodyBase")
+tail_pivot = NodePath("TailPivot")
+tail_sprite = NodePath("TailPivot/Tail")
+ear_pivot = NodePath("EarPivot")
+ear_sprite = NodePath("EarPivot/EarTwitch")
+face_layers = NodePath("BodyMotion/FaceLayers")
+eyes_open = NodePath("BodyMotion/FaceLayers/EyesOpen")
+eyes_half = NodePath("BodyMotion/FaceLayers/EyesHalf")
+eyes_closed = NodePath("BodyMotion/FaceLayers/EyesClosed")
+
+[node name="BodyMotion" type="Node2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual"]
+
+[node name="BodyBase" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion"]
+texture = ExtResource("2_mochi")
+
+[node name="FaceLayers" type="Node2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion"]
+
+[node name="EyesOpen" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="EyesHalf" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="EyesClosed" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="TailPivot" type="Node2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual"]
+visible = false
+
+[node name="Tail" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/TailPivot"]
+
+[node name="EarPivot" type="Node2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual"]
+visible = false
+
+[node name="EarTwitch" type="Sprite2D" parent="Actor/MochiAnimationSlot/LayeredIdleVisual/EarPivot"]
+
+[node name="ActionAnimatedSprite" type="AnimatedSprite2D" parent="Actor/MochiAnimationSlot"]
+visible = false
+
+[node name="CarryAnchor" type="Marker2D" parent="Actor"]
+position = Vector2(28, -80)
+
+[node name="InfoLabel" type="Label" parent="."]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 850.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 19
+theme_override_colors/font_color = Color(0.9, 0.85, 0.7, 1)

@@ -1,0 +1,104 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/mochi_scale_test.gd" id="1_test"]
+[ext_resource type="Texture2D" path="res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png" id="2_mochi"]
+[ext_resource type="Script" path="res://scripts/slice/slice_mover.gd" id="3_mover"]
+[ext_resource type="Script" path="res://scripts/slice/slice_worker.gd" id="4_worker"]
+[ext_resource type="Script" path="res://scripts/slice/prototype_carry_visual.gd" id="5_carry"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_visual_presenter.gd" id="6_presentation"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_contact_shadow.gd" id="7_shadow"]
+[ext_resource type="Script" path="res://scripts/characters/mochi_layered_idle_visual.gd" id="8_layered_idle"]
+[ext_resource type="Resource" path="res://data/mochi_layered_idle_config.tres" id="9_idle_config"]
+
+[node name="MochiScaleTestDEV" type="Node2D" node_paths=PackedStringArray("sprite", "visual_presenter")]
+script = ExtResource("1_test")
+sprite = NodePath("MochiAnimationSlot/LayeredIdleVisual/BodyMotion/BodyBase")
+visual_presenter = NodePath("MochiAnimationSlot")
+
+[node name="ContactShadow" type="Node2D" parent="."]
+script = ExtResource("7_shadow")
+
+[node name="MochiAnimationSlot" type="Node2D" parent="." node_paths=PackedStringArray("static_sprite", "animated_sprite", "layered_idle", "carry_anchor", "contact_shadow")]
+script = ExtResource("6_presentation")
+static_sprite = NodePath("LayeredIdleVisual/BodyMotion/BodyBase")
+animated_sprite = NodePath("ActionAnimatedSprite")
+layered_idle = NodePath("LayeredIdleVisual")
+canonical_reference_texture = ExtResource("2_mochi")
+carry_anchor = NodePath("../CarryAnchor")
+contact_shadow = NodePath("../ContactShadow")
+
+[node name="LayeredIdleVisual" type="Node2D" parent="MochiAnimationSlot" node_paths=PackedStringArray("body_motion", "body_base", "tail_pivot", "tail_sprite", "ear_pivot", "ear_sprite", "face_layers", "eyes_open", "eyes_half", "eyes_closed")]
+script = ExtResource("8_layered_idle")
+config = ExtResource("9_idle_config")
+canonical_reference_texture = ExtResource("2_mochi")
+body_motion = NodePath("BodyMotion")
+body_base = NodePath("BodyMotion/BodyBase")
+tail_pivot = NodePath("TailPivot")
+tail_sprite = NodePath("TailPivot/Tail")
+ear_pivot = NodePath("EarPivot")
+ear_sprite = NodePath("EarPivot/EarTwitch")
+face_layers = NodePath("BodyMotion/FaceLayers")
+eyes_open = NodePath("BodyMotion/FaceLayers/EyesOpen")
+eyes_half = NodePath("BodyMotion/FaceLayers/EyesHalf")
+eyes_closed = NodePath("BodyMotion/FaceLayers/EyesClosed")
+
+[node name="BodyMotion" type="Node2D" parent="MochiAnimationSlot/LayeredIdleVisual"]
+
+[node name="BodyBase" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/BodyMotion"]
+texture = ExtResource("2_mochi")
+
+[node name="FaceLayers" type="Node2D" parent="MochiAnimationSlot/LayeredIdleVisual/BodyMotion"]
+
+[node name="EyesOpen" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="EyesHalf" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="EyesClosed" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/BodyMotion/FaceLayers"]
+visible = false
+
+[node name="TailPivot" type="Node2D" parent="MochiAnimationSlot/LayeredIdleVisual"]
+visible = false
+
+[node name="Tail" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/TailPivot"]
+
+[node name="EarPivot" type="Node2D" parent="MochiAnimationSlot/LayeredIdleVisual"]
+visible = false
+
+[node name="EarTwitch" type="Sprite2D" parent="MochiAnimationSlot/LayeredIdleVisual/EarPivot"]
+
+[node name="ActionAnimatedSprite" type="AnimatedSprite2D" parent="MochiAnimationSlot"]
+visible = false
+
+[node name="CarryAnchor" type="Marker2D" parent="."]
+position = Vector2(28, -80)
+
+[node name="FXAnchors" type="Node2D" parent="."]
+
+[node name="HeadFX" type="Marker2D" parent="FXAnchors"]
+position = Vector2(0, -150)
+
+[node name="ActionFX" type="Marker2D" parent="FXAnchors"]
+position = Vector2(0, -85)
+
+[node name="SliceMover" type="Node" parent="."]
+script = ExtResource("3_mover")
+
+[node name="SliceWorker" type="Node" parent="."]
+script = ExtResource("4_worker")
+
+[node name="CarryCupPlaceholder" type="Node2D" parent="." node_paths=PackedStringArray("carry_anchor")]
+position = Vector2(28, -80)
+script = ExtResource("5_carry")
+carry_anchor = NodePath("../CarryAnchor")
+
+[node name="WorkerActionLabel" type="Label" parent="."]
+visible = false
+offset_left = -72.0
+offset_top = -214.0
+offset_right = 72.0
+offset_bottom = -188.0
+mouse_filter = 2
+z_index = 0
+horizontal_alignment = 1

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="MochiAnimationSet" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/characters/mochi_animation_set.gd" id="1_set"]
+[ext_resource type="SpriteFrames" path="res://assets/characters/mochi/animations/walk/mochi_walk_side_right_prototype_v1.tres" id="2_walk_side_right_temp"]
+
+[resource]
+script = ExtResource("1_set")
+temp_frames = ExtResource("2_walk_side_right_temp")
+allow_side_mirror = false

@@ -1,37 +1,171 @@
-[gd_scene load_steps=10 format=3]
+[gd_scene load_steps=29 format=3]
 
 [ext_resource type="Script" path="res://scripts/home/home_scene.gd" id="1_home"]
 [ext_resource type="Resource" path="res://data/room_main_cafe_camera.tres" id="2_camera_cfg"]
 [ext_resource type="Script" path="res://scripts/camera/camera_controller.gd" id="3_camera_ctrl"]
 [ext_resource type="Script" path="res://scripts/home/dynamic_sign.gd" id="4_dynamic_sign"]
 [ext_resource type="Script" path="res://scripts/home/gameplay_marker.gd" id="5_marker"]
-[ext_resource type="Script" path="res://scripts/home/character_placeholder.gd" id="6_char"]
 [ext_resource type="Script" path="res://scripts/debug/debug_overlay.gd" id="7_debug"]
 [ext_resource type="Script" path="res://scripts/debug/bounds_drawer.gd" id="8_bounds"]
 [ext_resource type="Texture2D" uid="uid://cia5icxp74g00" path="res://docs/references/WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png" id="9_ref_art"]
+[ext_resource type="PackedScene" path="res://scenes/characters/customer_placeholder.tscn" id="10_customer"]
+[ext_resource type="Script" path="res://scripts/slice/vertical_slice_controller.gd" id="11_slice"]
+[ext_resource type="Resource" path="res://data/slice_coffee_order.tres" id="12_order"]
+[ext_resource type="PackedScene" path="res://scenes/dev/mochi_scale_test.tscn" id="13_mochi_test"]
+[ext_resource type="Texture2D" path="res://docs/references/home/WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png" id="14_visual_master"]
+[ext_resource type="Resource" path="res://data/home_visual_asset_catalog.tres" id="15_asset_catalog"]
+[ext_resource type="Script" path="res://scripts/home/home_asset_slot.gd" id="16_asset_slot"]
+[ext_resource type="Script" path="res://scripts/home/counter_system.gd" id="17_counter_system"]
+[ext_resource type="Script" path="res://scripts/home/home_worker_region.gd" id="18_worker_region"]
+[ext_resource type="Resource" path="res://data/home_prototype_timing.tres" id="19_timing"]
+[ext_resource type="Script" path="res://scripts/home/prototype_door_controller.gd" id="20_prototype_door"]
+[ext_resource type="Script" path="res://scripts/home/home_interaction_controller.gd" id="21_interaction"]
+[ext_resource type="Script" path="res://scripts/home/prototype_selection_feedback.gd" id="22_selection_feedback"]
+[ext_resource type="Script" path="res://scripts/slice/prototype_preparation_feedback.gd" id="23_preparation_feedback"]
+[ext_resource type="Script" path="res://scripts/slice/prototype_coffee_readability_cue.gd" id="24_coffee_readability"]
+[ext_resource type="Script" path="res://scripts/home/home_spatial_routes.gd" id="25_spatial_routes"]
+[ext_resource type="Script" path="res://scripts/home/home_spatial_route_debug.gd" id="26_spatial_debug"]
+[ext_resource type="Script" path="res://scripts/home/living_cafe_ambient_controller.gd" id="27_ambient"]
+[ext_resource type="Script" path="res://scripts/slice/true_slice_presentation.gd" id="28_true_presentation"]
+[ext_resource type="Script" path="res://scripts/slice/true_slice_moment_fx.gd" id="29_true_moment_fx"]
 
-[node name="HomeScene" type="Node2D" node_paths=PackedStringArray("camera_controller", "debug_overlay", "dev_reference_node", "bounds_drawer")]
+[node name="HomeScene" type="Node2D" node_paths=PackedStringArray("debug_overlay", "dev_reference_node", "bounds_drawer", "dev_visual_master_node")]
 script = ExtResource("1_home")
 room_id = &"room_main_cafe"
-room_camera_config = ExtResource("2_camera_cfg")
-camera_controller = NodePath("CameraRig")
 debug_overlay = NodePath("UI/DebugOverlay")
 dev_reference_node = NodePath("World/StructuralBase/DEV_REFERENCE_ONLY")
 bounds_drawer = NodePath("BoundsDrawer")
+dev_visual_master_node = NodePath("World/StructuralBase/DEV_VISUAL_MASTER")
 
 [node name="World" type="Node2D" parent="."]
 
 [node name="StructuralBase" type="Node2D" parent="World"]
 
 [node name="DEV_REFERENCE_ONLY" type="Sprite2D" parent="World/StructuralBase"]
+visible = false
 texture = ExtResource("9_ref_art")
+centered = false
+
+[node name="HomeBakedBaseSlot" type="Node2D" parent="World/StructuralBase" groups=["production_asset_slot"]]
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"architecture_home_01"
+slot_role = &"architecture_full_canvas"
+display_label = "ARCHITECTURE"
+
+[node name="EntranceDoorwayPlateSlot" type="Node2D" parent="World/StructuralBase/HomeBakedBaseSlot" groups=["production_asset_slot"]]
+
+[node name="DEV_VISUAL_MASTER" type="Sprite2D" parent="World/StructuralBase"]
+visible = false
+texture = ExtResource("14_visual_master")
 centered = false
 
 [node name="RoomSkinLayer" type="Node2D" parent="World"]
 z_index = 10
 
+[node name="FloorSkinSlot" type="Node2D" parent="World/RoomSkinLayer" groups=["production_asset_slot"]]
+
+[node name="WallSurfaceSkinSlot" type="Node2D" parent="World/RoomSkinLayer" groups=["production_asset_slot"]]
+
+[node name="RoomThemeOverlaySlot" type="Node2D" parent="World/RoomSkinLayer" groups=["production_asset_slot"]]
+
 [node name="BackDecorLayer" type="Node2D" parent="World"]
 z_index = 20
+
+[node name="CounterBackSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(465, 520)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"counter_basic_01"
+slot_role = &"counter_back"
+display_label = "COUNTER BACK"
+
+[node name="EspressoStationSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(402, 445)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"espresso_basic_01"
+slot_role = &"espresso_machine"
+display_label = "ESPRESSO"
+
+[node name="PreparationFeedback" type="Node2D" parent="World/BackDecorLayer/EspressoStationSlot" node_paths=PackedStringArray("debug_overlay")]
+script = ExtResource("23_preparation_feedback")
+debug_overlay = NodePath("../../../../UI/DebugOverlay")
+
+[node name="GrinderSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(510, 445)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"grinder_basic_01"
+slot_role = &"grinder"
+display_label = "GRINDER"
+
+[node name="PastryDisplaySlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(658, 500)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"pastry_case_basic_01"
+slot_role = &"pastry_case_shell"
+display_label = "PASTRY CASE"
+
+[node name="PastrySlot01" type="Node2D" parent="World/BackDecorLayer/PastryDisplaySlot" groups=["production_asset_slot"]]
+position = Vector2(-52, -75)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"pastry_set_basic_01"
+slot_role = &"pastry_croissant_display"
+variant_override = &"croissant"
+display_label = "CROISSANT"
+
+[node name="PastrySlot02" type="Node2D" parent="World/BackDecorLayer/PastryDisplaySlot" groups=["production_asset_slot"]]
+position = Vector2(0, -75)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"pastry_set_basic_01"
+slot_role = &"pastry_muffin_display"
+variant_override = &"muffin"
+display_label = "MUFFIN"
+
+[node name="PastrySlot03" type="Node2D" parent="World/BackDecorLayer/PastryDisplaySlot" groups=["production_asset_slot"]]
+position = Vector2(52, -75)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"pastry_set_basic_01"
+slot_role = &"pastry_tart_display"
+variant_override = &"tart"
+display_label = "TART"
+
+[node name="POSSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(314, 435)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"pos_basic_01"
+slot_role = &"pos_terminal"
+display_label = "POS"
+
+[node name="MainSignFrameSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(372, 180)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"sign_main_01"
+slot_role = &"main_sign_frame"
+display_label = "MAIN SIGN FRAME"
+
+[node name="HangingSignFrameSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(97, 540)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"sign_hanging_01"
+slot_role = &"hanging_sign_frame"
+display_label = "HANGING SIGN"
+
+[node name="MenuSignFrameSlot" type="Node2D" parent="World/BackDecorLayer" groups=["production_asset_slot"]]
+position = Vector2(705, 342)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"sign_menu_01"
+slot_role = &"menu_sign_frame"
+display_label = "MENU SIGN"
 
 [node name="EspressoStation" type="Node2D" parent="World/BackDecorLayer" groups=["debug_geometry"]]
 visible = false
@@ -66,36 +200,88 @@ color = Color(0.72, 0.58, 0.38, 0.6)
 y_sort_enabled = true
 z_index = 50
 
-[node name="WorkerCatPlaceholder" type="Node2D" parent="World/DepthSortedLayer"]
-position = Vector2(552, 509)
-script = ExtResource("6_char")
-character_id = &"worker_barista_01"
-character_name = "Barista Milo"
-role = "Worker"
-facing_right = false
-primary_color = Color(0.95, 0.62, 0.32, 1)
-secondary_color = Color(0.98, 0.94, 0.88, 1)
-accent_color = Color(0.12, 0.32, 0.22, 1)
+[node name="Table1Slot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(270, 930)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"table_round_01"
+slot_role = &"table_guest_area_a"
+display_label = "TABLE 01"
 
-[node name="CustomerPlaceholder" type="Node2D" parent="World/DepthSortedLayer"]
-position = Vector2(347, 595)
-script = ExtResource("6_char")
-character_id = &"customer_luna_01"
-character_name = "Luna"
-role = "Customer"
-facing_right = true
-primary_color = Color(0.75, 0.75, 0.8, 1)
-secondary_color = Color(0.98, 0.98, 0.98, 1)
-accent_color = Color(0.7, 0.2, 0.25, 1)
+[node name="TableVaseSlot" type="Node2D" parent="World/DepthSortedLayer/Table1Slot" groups=["production_asset_slot"]]
+position = Vector2(38, -82)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"vase_basic_01"
+slot_role = &"table_a_vase"
+display_label = "VASE"
 
-[node name="CharacterBehindTable" type="Node2D" parent="World/DepthSortedLayer" groups=["debug_geometry"]]
+[node name="Table2Slot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(540, 1260)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"table_round_01"
+slot_role = &"table_guest_area_bc"
+display_label = "TABLE 02"
+
+[node name="ChairTable1LeftSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(210, 915)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"chair_jade_01"
+slot_role = &"chair_seat_a"
+variant_override = &"chair_left"
+display_label = "CHAIR"
+
+[node name="ChairTable2LeftSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(460, 1230)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"chair_jade_01"
+slot_role = &"chair_seat_bc_left"
+variant_override = &"chair_left"
+display_label = "CHAIR"
+
+[node name="ChairTable2RightSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(620, 1260)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"chair_jade_01"
+slot_role = &"chair_seat_c_right"
+variant_override = &"chair_right"
+display_label = "CHAIR"
+
+[node name="EntranceDoorLeftLeafSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(426, 1506)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"entrance_door_01"
+slot_role = &"entrance_door_left"
+variant_override = &"door_left"
+display_label = "DOOR LEFT"
+
+[node name="EntranceDoorRightLeafSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(426, 1506)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"entrance_door_01"
+slot_role = &"entrance_door_right"
+variant_override = &"door_right"
+display_label = "DOOR RIGHT"
+
+[node name="MochiScaleTestDEV" parent="World/DepthSortedLayer" node_paths=PackedStringArray("marker_root", "camera_controller", "debug_overlay") instance=ExtResource("13_mochi_test")]
+position = Vector2(620, 445)
+marker_root = NodePath("../../../GameplayNodes")
+camera_controller = NodePath("../../../CameraRig")
+debug_overlay = NodePath("../../../UI/DebugOverlay")
+scale_mode = 2
+test_position = 0
+
+[node name="CharacterBehindTable" parent="World/DepthSortedLayer" groups=["debug_geometry"] instance=ExtResource("10_customer")]
 visible = false
 position = Vector2(270, 905)
-script = ExtResource("6_char")
 character_id = &"cat_depth_behind"
 character_name = "Behind Table Cat"
-role = "Customer"
-facing_right = true
 primary_color = Color(0.85, 0.45, 0.6, 1)
 secondary_color = Color(0.98, 0.94, 0.88, 1)
 accent_color = Color(0.4, 0.2, 0.5, 1)
@@ -156,14 +342,11 @@ offset_right = -18.0
 offset_bottom = 0.0
 color = Color(0.2, 0.5, 0.25, 1)
 
-[node name="CharacterInFrontOfTable" type="Node2D" parent="World/DepthSortedLayer" groups=["debug_geometry"]]
+[node name="CharacterInFrontOfTable" parent="World/DepthSortedLayer" groups=["debug_geometry"] instance=ExtResource("10_customer")]
 visible = false
 position = Vector2(270, 960)
-script = ExtResource("6_char")
 character_id = &"cat_depth_front"
 character_name = "In Front Cat"
-role = "Customer"
-facing_right = true
 primary_color = Color(0.45, 0.75, 0.85, 1)
 secondary_color = Color(0.98, 0.94, 0.88, 1)
 accent_color = Color(0.15, 0.35, 0.6, 1)
@@ -298,6 +481,51 @@ z_index = 60
 [node name="ForegroundOccluderLayer" type="Node2D" parent="World"]
 z_index = 80
 
+[node name="CounterFrontSlot" type="Node2D" parent="World/ForegroundOccluderLayer" groups=["production_asset_slot"]]
+position = Vector2(465, 625)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"counter_basic_01"
+slot_role = &"counter_front"
+variant_override = &"counter_front"
+display_label = "COUNTER FRONT"
+
+[node name="CounterPlantSlot" type="Node2D" parent="World/ForegroundOccluderLayer" groups=["production_asset_slot"]]
+position = Vector2(540, 440)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"plant_counter_01"
+slot_role = &"counter_plant"
+display_label = "COUNTER PLANT"
+
+[node name="EntranceForegroundSlot" type="Node2D" parent="World/ForegroundOccluderLayer" groups=["production_asset_slot"]]
+position = Vector2(426, 1620)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"architecture_home_01"
+slot_role = &"architecture_entrance_frame"
+variant_override = &"entrance_frame"
+display_label = "ENTRANCE FRAME"
+
+[node name="ForegroundPlantsSlot" type="Node2D" parent="World/ForegroundOccluderLayer" groups=["production_asset_slot"]]
+position = Vector2(100, 1600)
+
+[node name="FloorPlantLeftSlot" type="Node2D" parent="World/ForegroundOccluderLayer/ForegroundPlantsSlot" groups=["production_asset_slot"]]
+position = Vector2(40, 0)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"plant_floor_01"
+slot_role = &"floor_plant_left"
+display_label = "FLOOR PLANT"
+
+[node name="FloorPlantRightSlot" type="Node2D" parent="World/ForegroundOccluderLayer/ForegroundPlantsSlot" groups=["production_asset_slot"]]
+position = Vector2(775, -110)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"plant_floor_01"
+slot_role = &"floor_plant_right"
+display_label = "FLOOR PLANT"
+
 [node name="CounterFrontOccluder" type="Node2D" parent="World/ForegroundOccluderLayer" groups=["debug_geometry"]]
 visible = false
 position = Vector2(465, 625)
@@ -355,6 +583,53 @@ color = Color(0.18, 0.28, 0.22, 0.4)
 [node name="FXLayer" type="Node2D" parent="World"]
 z_index = 100
 
+[node name="CoffeeSteamSlot" type="Node2D" parent="World/FXLayer" groups=["production_asset_slot"]]
+
+[node name="EspressoActionFXSlot" type="Node2D" parent="World/FXLayer" groups=["production_asset_slot"]]
+
+[node name="ServeFeedbackSlot" type="Node2D" parent="World/FXLayer" groups=["production_asset_slot"]]
+
+[node name="PastryHighlightSlot" type="Node2D" parent="World/FXLayer" groups=["production_asset_slot"]]
+
+[node name="SignFreestandingSlot" type="Node2D" parent="World/DepthSortedLayer" groups=["production_asset_slot"]]
+position = Vector2(855, 1470)
+script = ExtResource("16_asset_slot")
+catalog = ExtResource("15_asset_catalog")
+asset_id = &"sign_freestanding_01"
+slot_role = &"freestanding_sign"
+display_label = "FREESTANDING SIGN"
+
+[node name="CounterSystem" type="Node" parent="." node_paths=PackedStringArray("counter_back_path", "counter_front_path", "worker_region_path", "counter_top_prop_anchors_path", "interaction_anchors_path")]
+script = ExtResource("17_counter_system")
+counter_back_path = NodePath("../World/BackDecorLayer/CounterBackSlot")
+counter_front_path = NodePath("../World/ForegroundOccluderLayer/CounterFrontSlot")
+worker_region_path = NodePath("WorkerRegion")
+counter_top_prop_anchors_path = NodePath("CounterTopPropAnchors")
+interaction_anchors_path = NodePath("../GameplayNodes")
+
+[node name="WorkerRegion" type="Node2D" parent="CounterSystem"]
+position = Vector2(250, 392)
+script = ExtResource("18_worker_region")
+
+[node name="CounterTopPropAnchors" type="Node2D" parent="CounterSystem"]
+
+[node name="EspressoAnchor" type="Marker2D" parent="CounterSystem/CounterTopPropAnchors"]
+position = Vector2(402, 445)
+
+[node name="GrinderAnchor" type="Marker2D" parent="CounterSystem/CounterTopPropAnchors"]
+position = Vector2(510, 445)
+
+[node name="POSAnchor" type="Marker2D" parent="CounterSystem/CounterTopPropAnchors"]
+position = Vector2(314, 435)
+
+[node name="PastryCaseAnchor" type="Marker2D" parent="CounterSystem/CounterTopPropAnchors"]
+position = Vector2(658, 500)
+
+[node name="CounterPlantAnchor" type="Marker2D" parent="CounterSystem/CounterTopPropAnchors"]
+position = Vector2(540, 440)
+
+[node name="InteractionAnchors" type="Node2D" parent="CounterSystem"]
+
 [node name="GameplayNodes" type="Node2D" parent="."]
 
 [node name="CustomerSpawn" type="Marker2D" parent="GameplayNodes"]
@@ -382,15 +657,15 @@ display_name = "Order Point"
 gizmo_color = Color(0.75, 0.35, 0.95, 0.95)
 
 [node name="ServePoint" type="Marker2D" parent="GameplayNodes"]
-position = Vector2(518, 603)
+position = Vector2(100, 785)
 script = ExtResource("5_marker")
 marker_id = &"counter_serve_01"
 category = &"station"
-display_name = "Serve Node"
+display_name = "Serve Lane"
 gizmo_color = Color(0.85, 0.3, 0.75, 0.95)
 
 [node name="WorkerIdle" type="Marker2D" parent="GameplayNodes"]
-position = Vector2(552, 509)
+position = Vector2(620, 445)
 script = ExtResource("5_marker")
 marker_id = &"worker_idle_01"
 category = &"staff"
@@ -416,7 +691,7 @@ display_name = "Seat A"
 gizmo_color = Color(0.95, 0.25, 0.65, 0.95)
 
 [node name="SeatB" type="Marker2D" parent="GameplayNodes/Seats"]
-position = Vector2(386, 1228)
+position = Vector2(445, 1230)
 script = ExtResource("5_marker")
 marker_id = &"seat_main_b"
 category = &"seat"
@@ -424,7 +699,7 @@ display_name = "Seat B"
 gizmo_color = Color(0.95, 0.25, 0.65, 0.95)
 
 [node name="SeatC" type="Marker2D" parent="GameplayNodes/Seats"]
-position = Vector2(680, 1260)
+position = Vector2(638, 1260)
 script = ExtResource("5_marker")
 marker_id = &"seat_main_c"
 category = &"seat"
@@ -432,7 +707,7 @@ display_name = "Seat C"
 gizmo_color = Color(0.95, 0.25, 0.65, 0.95)
 
 [node name="SeatD" type="Marker2D" parent="GameplayNodes/Seats"]
-position = Vector2(145, 713)
+position = Vector2(360, 935)
 script = ExtResource("5_marker")
 marker_id = &"seat_main_d"
 category = &"seat"
@@ -465,6 +740,45 @@ category = &"ambient"
 display_name = "Ambient C"
 gizmo_color = Color(0.3, 0.85, 0.4, 0.95)
 
+[node name="PrototypeDoorController" type="Node" parent="." node_paths=PackedStringArray("left_leaf", "right_leaf")]
+script = ExtResource("20_prototype_door")
+left_leaf = NodePath("../World/DepthSortedLayer/EntranceDoorLeftLeafSlot")
+right_leaf = NodePath("../World/DepthSortedLayer/EntranceDoorRightLeafSlot")
+timing_config = ExtResource("19_timing")
+
+[node name="SliceWaypoints" type="Node2D" parent="."]
+script = ExtResource("25_spatial_routes")
+
+[node name="CustomerEntry" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(350, 1370)
+
+[node name="CustomerAisle" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(235, 1080)
+
+[node name="CounterExitRear" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(165, 445)
+
+[node name="CounterExitFront" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(165, 700)
+
+[node name="WorkerFloorAisle" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(165, 1050)
+
+[node name="RightAisle" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(700, 1050)
+
+[node name="ServiceApproachA" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(170, 985)
+
+[node name="ServiceApproachB" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(375, 1230)
+
+[node name="ServiceApproachC" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(695, 1230)
+
+[node name="ServiceApproachD" type="Marker2D" parent="SliceWaypoints"]
+position = Vector2(435, 940)
+
 [node name="DynamicSignage" type="Node2D" parent="."]
 z_index = 70
 
@@ -477,7 +791,6 @@ offset_right = 465.0
 offset_bottom = 260.0
 script = ExtResource("4_dynamic_sign")
 sign_id = &"sign_cafe_name"
-debug_placeholder_text = "[CAFÉ NAME]"
 font_size = 20
 
 [node name="HangingSignSurface" type="Control" parent="DynamicSignage"]
@@ -489,7 +802,6 @@ offset_right = 172.0
 offset_bottom = 562.0
 script = ExtResource("4_dynamic_sign")
 sign_id = &"sign_hanging"
-debug_placeholder_text = "[HANGING SIGN]"
 font_size = 14
 
 [node name="MenuSloganSurface" type="Control" parent="DynamicSignage"]
@@ -501,7 +813,6 @@ offset_right = 780.0
 offset_bottom = 375.0
 script = ExtResource("4_dynamic_sign")
 sign_id = &"sign_menu_slogan"
-debug_placeholder_text = "[MENU / SLOGAN]"
 font_size = 14
 
 [node name="FreestandingSignSurface" type="Control" parent="DynamicSignage"]
@@ -513,7 +824,6 @@ offset_right = 930.0
 offset_bottom = 1338.0
 script = ExtResource("4_dynamic_sign")
 sign_id = &"sign_freestanding"
-debug_placeholder_text = "[FREESTANDING SIGN]"
 font_size = 13
 
 [node name="BoundsDrawer" type="Node2D" parent="." node_paths=PackedStringArray("camera_controller")]
@@ -539,6 +849,28 @@ anchor_bottom = 0.11
 grow_horizontal = 2
 mouse_filter = 2
 
+[node name="PrototypeCoinsLabel" type="Label" parent="UI/TopHUDSafeArea"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 22.0
+offset_right = 240.0
+offset_bottom = 54.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 16
+text = "COINS: 0"
+
+[node name="PrototypeStatusLabel" type="Label" parent="UI/TopHUDSafeArea"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 57.0
+offset_right = 510.0
+offset_bottom = 105.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.31, 0.25, 0.19, 1)
+autowrap_mode = 2
+text = "A customer is on the way"
+
 [node name="BottomNavSafeArea" type="Control" parent="UI"]
 layout_mode = 3
 anchors_preset = 12
@@ -549,7 +881,70 @@ grow_horizontal = 2
 grow_vertical = 0
 mouse_filter = 2
 
-[node name="DebugOverlay" type="CanvasLayer" parent="UI" node_paths=PackedStringArray("camera_controller")]
+[node name="DebugOverlay" type="CanvasLayer" parent="UI" node_paths=PackedStringArray("camera_controller", "slice_controller", "mochi_scale_test")]
 layer = 120
 script = ExtResource("7_debug")
 camera_controller = NodePath("../../CameraRig")
+slice_controller = NodePath("../../VerticalSliceController")
+mochi_scale_test = NodePath("../../World/DepthSortedLayer/MochiScaleTestDEV")
+
+[node name="VerticalSliceController" type="Node" parent="." node_paths=PackedStringArray("depth_layer", "marker_root", "worker_actor", "fx_layer", "coins_label", "customer_entry_waypoint", "customer_aisle_waypoint", "spatial_routes", "door_controller")]
+script = ExtResource("11_slice")
+depth_layer = NodePath("../World/DepthSortedLayer")
+marker_root = NodePath("../GameplayNodes")
+worker_actor = NodePath("../World/DepthSortedLayer/MochiScaleTestDEV")
+fx_layer = NodePath("../World/FXLayer")
+coins_label = NodePath("../UI/TopHUDSafeArea/PrototypeCoinsLabel")
+customer_entry_waypoint = NodePath("../SliceWaypoints/CustomerEntry")
+customer_aisle_waypoint = NodePath("../SliceWaypoints/CustomerAisle")
+spatial_routes = NodePath("../SliceWaypoints")
+customer_scene = ExtResource("10_customer")
+coffee_order = ExtResource("12_order")
+timing_config = ExtResource("19_timing")
+door_controller = NodePath("../PrototypeDoorController")
+
+[node name="LivingCafeAmbientController" type="Node2D" parent="." node_paths=PackedStringArray("slice_controller", "depth_layer", "debug_overlay")]
+z_index = 90
+script = ExtResource("27_ambient")
+slice_controller = NodePath("../VerticalSliceController")
+depth_layer = NodePath("../World/DepthSortedLayer")
+debug_overlay = NodePath("../UI/DebugOverlay")
+
+[node name="PrototypeSelectionFeedback" type="Node2D" parent="World/FXLayer" groups=["prototype_feedback"]]
+script = ExtResource("22_selection_feedback")
+
+[node name="PrototypeCoffeeReadabilityCue" type="Node2D" parent="World/FXLayer" node_paths=PackedStringArray("slice_controller", "station_slot")]
+script = ExtResource("24_coffee_readability")
+slice_controller = NodePath("../../../VerticalSliceController")
+station_slot = NodePath("../../BackDecorLayer/EspressoStationSlot")
+
+[node name="TrueSliceMomentFX" type="Node2D" parent="World/FXLayer" node_paths=PackedStringArray("presentation", "slice_controller", "station_slot")]
+script = ExtResource("29_true_moment_fx")
+presentation = NodePath("../../../TrueSlicePresentation")
+slice_controller = NodePath("../../../VerticalSliceController")
+station_slot = NodePath("../../BackDecorLayer/EspressoStationSlot")
+
+[node name="HomeSpatialRouteDebug" type="Node2D" parent="World/FXLayer" node_paths=PackedStringArray("slice_controller", "spatial_routes", "debug_overlay")]
+script = ExtResource("26_spatial_debug")
+slice_controller = NodePath("../../../VerticalSliceController")
+spatial_routes = NodePath("../../../SliceWaypoints")
+debug_overlay = NodePath("../../../UI/DebugOverlay")
+
+[node name="HomeInteractionController" type="Node2D" parent="." node_paths=PackedStringArray("camera_controller", "slice_controller", "debug_overlay", "feedback_label", "selection_feedback", "door_controller", "ambient_controller")]
+script = ExtResource("21_interaction")
+camera_controller = NodePath("../CameraRig")
+slice_controller = NodePath("../VerticalSliceController")
+debug_overlay = NodePath("../UI/DebugOverlay")
+feedback_label = NodePath("../UI/TopHUDSafeArea/PrototypeStatusLabel")
+selection_feedback = NodePath("../World/FXLayer/PrototypeSelectionFeedback")
+door_controller = NodePath("../PrototypeDoorController")
+ambient_controller = NodePath("../LivingCafeAmbientController")
+
+[node name="TrueSlicePresentation" type="Node" parent="." node_paths=PackedStringArray("slice_controller", "ambient_controller", "door_controller", "interaction_controller", "mochi_animation_slot", "debug_overlay")]
+script = ExtResource("28_true_presentation")
+slice_controller = NodePath("../VerticalSliceController")
+ambient_controller = NodePath("../LivingCafeAmbientController")
+door_controller = NodePath("../PrototypeDoorController")
+interaction_controller = NodePath("../HomeInteractionController")
+mochi_animation_slot = NodePath("../World/DepthSortedLayer/MochiScaleTestDEV/MochiAnimationSlot")
+debug_overlay = NodePath("../UI/DebugOverlay")

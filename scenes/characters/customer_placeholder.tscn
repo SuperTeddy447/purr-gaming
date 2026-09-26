@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/home/character_placeholder.gd" id="1_character"]
+[ext_resource type="Script" path="res://scripts/slice/slice_mover.gd" id="2_mover"]
+[ext_resource type="Script" path="res://scripts/slice/slice_customer.gd" id="3_customer"]
+[ext_resource type="Script" path="res://scripts/slice/prototype_customer_readability_cue.gd" id="4_readability"]
+
+[node name="CustomerPlaceholder" type="Node2D"]
+script = ExtResource("1_character")
+character_id = &"customer_luna_01"
+character_name = "Luna"
+role = "Customer"
+facing_right = true
+primary_color = Color(0.75, 0.75, 0.8, 1)
+secondary_color = Color(0.98, 0.98, 0.98, 1)
+accent_color = Color(0.7, 0.2, 0.25, 1)
+show_role_badge = false
+
+[node name="SliceMover" type="Node" parent="."]
+script = ExtResource("2_mover")
+
+[node name="SliceCustomer" type="Node" parent="."]
+script = ExtResource("3_customer")
+
+[node name="CustomerAnimationSlot" type="Node2D" parent="."]
+
+[node name="CustomerReadabilityCue" type="Node2D" parent="."]
+script = ExtResource("4_readability")

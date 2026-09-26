@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/home/character_placeholder.gd" id="1_character"]
+[ext_resource type="Script" path="res://scripts/slice/slice_mover.gd" id="2_mover"]
+[ext_resource type="Script" path="res://scripts/slice/slice_worker.gd" id="3_worker"]
+
+[node name="WorkerCatPlaceholder" type="Node2D"]
+script = ExtResource("1_character")
+character_id = &"worker_barista_01"
+character_name = "Barista Milo"
+role = "Worker"
+facing_right = false
+primary_color = Color(0.95, 0.62, 0.32, 1)
+secondary_color = Color(0.98, 0.94, 0.88, 1)
+accent_color = Color(0.12, 0.32, 0.22, 1)
+
+[node name="SliceMover" type="Node" parent="."]
+script = ExtResource("2_mover")
+
+[node name="SliceWorker" type="Node" parent="."]
+script = ExtResource("3_worker")
+
+[node name="WorkerActionLabel" type="Label" parent="."]
+visible = false
+offset_left = -65.0
+offset_top = -185.0
+offset_right = 65.0
+offset_bottom = -157.0
+mouse_filter = 2
+z_index = 60
+horizontal_alignment = 1

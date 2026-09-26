@@ -1,0 +1,479 @@
+[gd_resource type="Resource" script_class="HomeAssetCatalog" load_steps=48 format=3]
+
+[ext_resource type="Script" path="res://scripts/home/home_asset_definition.gd" id="1_definition"]
+[ext_resource type="Script" path="res://scripts/home/home_asset_catalog.gd" id="2_catalog"]
+[ext_resource type="PackedScene" path="res://scenes/home/home_modular_prop.tscn" id="3_prop"]
+[ext_resource type="Script" path="res://scripts/home/home_asset_slot_contract.gd" id="4_contract"]
+
+[sub_resource type="Resource" id="architecture_full_canvas"]
+script = ExtResource("4_contract")
+slot_role = &"architecture_full_canvas"
+visual_variant = &"architecture"
+owner_layer = &"StructuralBase"
+target_bounds = Vector2(941, 1672)
+fit_policy = "NATIVE_REFERENCE_SCALE"
+pivot_type = "FULL_CANVAS_TOP_LEFT"
+occlusion_role = &"BACKGROUND_ARCHITECTURE"
+replaceability = "REPLACEABLE_FULL_CANVAS"
+
+[sub_resource type="Resource" id="architecture_entrance_frame"]
+script = ExtResource("4_contract")
+slot_role = &"architecture_entrance_frame"
+visual_variant = &"entrance_frame"
+owner_layer = &"ForegroundOccluderLayer"
+default_local_position = Vector2(426, 1620)
+target_bounds = Vector2(408, 384)
+pivot_type = "WALL_MOUNT_CENTER"
+occlusion_role = &"ENTRANCE_FOREGROUND_FRAME"
+replaceability = "REPLACEABLE_VISUAL"
+
+[sub_resource type="Resource" id="counter_back"]
+script = ExtResource("4_contract")
+slot_role = &"counter_back"
+visual_variant = &"counter_back"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(465, 520)
+target_bounds = Vector2(540, 200)
+pivot_type = "COUNTER_BACK_SURFACE_CENTER"
+occlusion_role = &"COUNTER_BACK_SURFACE"
+
+[sub_resource type="Resource" id="counter_front"]
+script = ExtResource("4_contract")
+slot_role = &"counter_front"
+visual_variant = &"counter_front"
+owner_layer = &"ForegroundOccluderLayer"
+default_local_position = Vector2(465, 625)
+target_bounds = Vector2(560, 225)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "COUNTER_FRONT_BOTTOM_CENTER"
+occlusion_role = &"COUNTER_FRONT_OCCLUDER"
+interaction_role = &"COUNTER_INSPECT"
+
+[sub_resource type="Resource" id="espresso_machine"]
+script = ExtResource("4_contract")
+slot_role = &"espresso_machine"
+visual_variant = &"espresso"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(402, 445)
+target_bounds = Vector2(110, 130)
+pivot_type = "COUNTERTOP_BASE_CENTER"
+interaction_role = &"COFFEE_STATION"
+
+[sub_resource type="Resource" id="grinder"]
+script = ExtResource("4_contract")
+slot_role = &"grinder"
+visual_variant = &"grinder"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(510, 445)
+target_bounds = Vector2(70, 130)
+pivot_type = "COUNTERTOP_BASE_CENTER"
+
+[sub_resource type="Resource" id="pos_terminal"]
+script = ExtResource("4_contract")
+slot_role = &"pos_terminal"
+visual_variant = &"pos"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(314, 435)
+target_bounds = Vector2(72, 70)
+pivot_type = "COUNTERTOP_BASE_CENTER"
+interaction_role = &"POS_INSPECT"
+
+[sub_resource type="Resource" id="pastry_case_shell"]
+script = ExtResource("4_contract")
+slot_role = &"pastry_case_shell"
+visual_variant = &"pastry_case"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(658, 500)
+target_bounds = Vector2(196, 150)
+pivot_type = "COUNTERTOP_BASE_CENTER"
+interaction_role = &"PASTRY_CASE_INSPECT"
+
+[sub_resource type="Resource" id="pastry_croissant_display"]
+script = ExtResource("4_contract")
+slot_role = &"pastry_croissant_display"
+visual_variant = &"croissant"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(-52, -75)
+target_bounds = Vector2(42, 28)
+pivot_type = "CENTER"
+occlusion_role = &"PASTRY_CASE_CONTENT"
+
+[sub_resource type="Resource" id="pastry_muffin_display"]
+script = ExtResource("4_contract")
+slot_role = &"pastry_muffin_display"
+visual_variant = &"muffin"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(0, -75)
+target_bounds = Vector2(42, 28)
+pivot_type = "CENTER"
+occlusion_role = &"PASTRY_CASE_CONTENT"
+
+[sub_resource type="Resource" id="pastry_tart_display"]
+script = ExtResource("4_contract")
+slot_role = &"pastry_tart_display"
+visual_variant = &"tart"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(52, -75)
+target_bounds = Vector2(42, 28)
+pivot_type = "CENTER"
+occlusion_role = &"PASTRY_CASE_CONTENT"
+
+[sub_resource type="Resource" id="table_guest_area_a"]
+script = ExtResource("4_contract")
+slot_role = &"table_guest_area_a"
+visual_variant = &"round_table"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(270, 930)
+target_bounds = Vector2(145, 90)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_FURNITURE"
+
+[sub_resource type="Resource" id="table_guest_area_bc"]
+script = ExtResource("4_contract")
+slot_role = &"table_guest_area_bc"
+visual_variant = &"round_table"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(540, 1260)
+target_bounds = Vector2(145, 90)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_FURNITURE"
+
+[sub_resource type="Resource" id="table_a_vase"]
+script = ExtResource("4_contract")
+slot_role = &"table_a_vase"
+visual_variant = &"vase"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(38, -82)
+target_bounds = Vector2(44, 50)
+pivot_type = "CENTER"
+y_sort_required = true
+occlusion_role = &"TABLETOP_DECOR"
+
+[sub_resource type="Resource" id="chair_seat_a"]
+script = ExtResource("4_contract")
+slot_role = &"chair_seat_a"
+visual_variant = &"chair_left"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(210, 915)
+target_bounds = Vector2(64, 80)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_FURNITURE"
+
+[sub_resource type="Resource" id="chair_seat_bc_left"]
+script = ExtResource("4_contract")
+slot_role = &"chair_seat_bc_left"
+visual_variant = &"chair_left"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(460, 1230)
+target_bounds = Vector2(64, 80)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_FURNITURE"
+
+[sub_resource type="Resource" id="chair_seat_c_right"]
+script = ExtResource("4_contract")
+slot_role = &"chair_seat_c_right"
+visual_variant = &"chair_right"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(620, 1260)
+target_bounds = Vector2(64, 80)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_FURNITURE"
+
+[sub_resource type="Resource" id="floor_plant_left"]
+script = ExtResource("4_contract")
+slot_role = &"floor_plant_left"
+visual_variant = &"plant_floor"
+owner_layer = &"ForegroundOccluderLayer"
+default_local_position = Vector2(40, 0)
+target_bounds = Vector2(100, 160)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+occlusion_role = &"FOREGROUND_PLANT_OCCLUDER"
+
+[sub_resource type="Resource" id="floor_plant_right"]
+script = ExtResource("4_contract")
+slot_role = &"floor_plant_right"
+visual_variant = &"plant_floor"
+owner_layer = &"ForegroundOccluderLayer"
+default_local_position = Vector2(775, -110)
+target_bounds = Vector2(100, 160)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+occlusion_role = &"FOREGROUND_PLANT_OCCLUDER"
+
+[sub_resource type="Resource" id="counter_plant"]
+script = ExtResource("4_contract")
+slot_role = &"counter_plant"
+visual_variant = &"plant_counter"
+owner_layer = &"ForegroundOccluderLayer"
+default_local_position = Vector2(540, 440)
+target_bounds = Vector2(70, 100)
+pivot_type = "COUNTERTOP_BASE_CENTER"
+occlusion_role = &"COUNTERTOP_OCCLUDER"
+
+[sub_resource type="Resource" id="entrance_door_left"]
+script = ExtResource("4_contract")
+slot_role = &"entrance_door_left"
+visual_variant = &"door_left"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(426, 1506)
+target_bounds = Vector2(150, 160)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_DOOR_LEAF"
+interaction_role = &"ENTRANCE_DOOR"
+animation_policy = &"RUNTIME_TRANSFORM_STATES"
+
+[sub_resource type="Resource" id="entrance_door_right"]
+script = ExtResource("4_contract")
+slot_role = &"entrance_door_right"
+visual_variant = &"door_right"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(426, 1506)
+target_bounds = Vector2(150, 160)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_DOOR_LEAF"
+animation_policy = &"RUNTIME_TRANSFORM_STATES"
+
+[sub_resource type="Resource" id="main_sign_frame"]
+script = ExtResource("4_contract")
+slot_role = &"main_sign_frame"
+visual_variant = &"sign_main"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(372, 180)
+target_bounds = Vector2(350, 130)
+pivot_type = "WALL_MOUNT_CENTER"
+occlusion_role = &"WALL_SIGN_FRAME"
+
+[sub_resource type="Resource" id="hanging_sign_frame"]
+script = ExtResource("4_contract")
+slot_role = &"hanging_sign_frame"
+visual_variant = &"sign_hanging"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(97, 540)
+target_bounds = Vector2(150, 70)
+pivot_type = "WALL_MOUNT_CENTER"
+occlusion_role = &"WALL_SIGN_FRAME"
+
+[sub_resource type="Resource" id="menu_sign_frame"]
+script = ExtResource("4_contract")
+slot_role = &"menu_sign_frame"
+visual_variant = &"sign_menu"
+owner_layer = &"BackDecorLayer"
+default_local_position = Vector2(705, 342)
+target_bounds = Vector2(160, 104)
+pivot_type = "WALL_MOUNT_CENTER"
+occlusion_role = &"WALL_SIGN_FRAME"
+
+[sub_resource type="Resource" id="freestanding_sign"]
+script = ExtResource("4_contract")
+slot_role = &"freestanding_sign"
+visual_variant = &"sign_freestanding"
+owner_layer = &"DepthSortedLayer"
+default_local_position = Vector2(855, 1470)
+target_bounds = Vector2(130, 170)
+fit_policy = "PIVOT_LOCKED"
+pivot_type = "FLOOR_CONTACT_BOTTOM_CENTER"
+y_sort_required = true
+occlusion_role = &"DEPTH_SORTED_SIGN"
+
+[sub_resource type="Resource" id="architecture_home_01"]
+script = ExtResource("1_definition")
+asset_id = &"architecture_home_01"
+display_name = "Architecture"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"architecture"
+semantic_category = &"ARCHITECTURE"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("architecture_full_canvas"), SubResource("architecture_entrance_frame")])
+status = "TEMP PLACEHOLDER"
+transparent_alpha_required = false
+texture_top_left_origin = true
+
+[sub_resource type="Resource" id="counter_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"counter_basic_01"
+display_name = "Counter Assembly"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"counter_back"
+semantic_category = &"COUNTER_ASSEMBLY"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("counter_back"), SubResource("counter_front")])
+status = "TEMP PLACEHOLDER"
+tintable_candidate = true
+
+[sub_resource type="Resource" id="espresso_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"espresso_basic_01"
+display_name = "Espresso Station"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"espresso"
+semantic_category = &"COFFEE_STATION"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("espresso_machine")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="grinder_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"grinder_basic_01"
+display_name = "Grinder"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"grinder"
+semantic_category = &"COFFEE_PREP_PROP"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("grinder")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="pos_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"pos_basic_01"
+display_name = "POS"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"pos"
+semantic_category = &"POINT_OF_SALE"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("pos_terminal")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="pastry_case_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"pastry_case_basic_01"
+display_name = "Pastry Case"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"pastry_case"
+semantic_category = &"DISPLAY_CASE"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("pastry_case_shell")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="pastry_set_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"pastry_set_basic_01"
+display_name = "Pastry"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"croissant"
+semantic_category = &"DISPLAY_CONTENT"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("pastry_croissant_display"), SubResource("pastry_muffin_display"), SubResource("pastry_tart_display")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="table_round_01"]
+script = ExtResource("1_definition")
+asset_id = &"table_round_01"
+display_name = "Round Table"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"round_table"
+semantic_category = &"FURNITURE_TABLE"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("table_guest_area_a"), SubResource("table_guest_area_bc")])
+status = "TEMP PLACEHOLDER"
+y_sort_required = true
+floor_contact_pivot = true
+
+[sub_resource type="Resource" id="chair_jade_01"]
+script = ExtResource("1_definition")
+asset_id = &"chair_jade_01"
+display_name = "Jade Chair"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"chair_left"
+semantic_category = &"FURNITURE_CHAIR"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("chair_seat_a"), SubResource("chair_seat_bc_left"), SubResource("chair_seat_c_right")])
+status = "TEMP PLACEHOLDER"
+y_sort_required = true
+floor_contact_pivot = true
+
+[sub_resource type="Resource" id="plant_floor_01"]
+script = ExtResource("1_definition")
+asset_id = &"plant_floor_01"
+display_name = "Floor Plant"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"plant_floor"
+semantic_category = &"FOREGROUND_DECOR"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("floor_plant_left"), SubResource("floor_plant_right")])
+status = "TEMP PLACEHOLDER"
+floor_contact_pivot = true
+
+[sub_resource type="Resource" id="plant_counter_01"]
+script = ExtResource("1_definition")
+asset_id = &"plant_counter_01"
+display_name = "Counter Plant"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"plant_counter"
+semantic_category = &"COUNTERTOP_DECOR"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("counter_plant")])
+status = "TEMP PLACEHOLDER"
+floor_contact_pivot = true
+
+[sub_resource type="Resource" id="vase_basic_01"]
+script = ExtResource("1_definition")
+asset_id = &"vase_basic_01"
+display_name = "Table Vase"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"vase"
+semantic_category = &"TABLETOP_DECOR"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("table_a_vase")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="entrance_door_01"]
+script = ExtResource("1_definition")
+asset_id = &"entrance_door_01"
+display_name = "Entrance Door Leaf"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"door_left"
+semantic_category = &"ENTRANCE_DOOR"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("entrance_door_left"), SubResource("entrance_door_right")])
+status = "TEMP PLACEHOLDER"
+y_sort_required = true
+floor_contact_pivot = true
+future_animation_states = PackedStringArray("closed", "opening", "open", "closing")
+
+[sub_resource type="Resource" id="sign_main_01"]
+script = ExtResource("1_definition")
+asset_id = &"sign_main_01"
+display_name = "Main Sign Frame"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"sign_main"
+semantic_category = &"SIGNAGE_FRAME"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("main_sign_frame")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="sign_hanging_01"]
+script = ExtResource("1_definition")
+asset_id = &"sign_hanging_01"
+display_name = "Hanging Sign Frame"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"sign_hanging"
+semantic_category = &"SIGNAGE_FRAME"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("hanging_sign_frame")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="sign_menu_01"]
+script = ExtResource("1_definition")
+asset_id = &"sign_menu_01"
+display_name = "Menu Sign Frame"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"sign_menu"
+semantic_category = &"SIGNAGE_FRAME"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("menu_sign_frame")])
+status = "TEMP PLACEHOLDER"
+
+[sub_resource type="Resource" id="sign_freestanding_01"]
+script = ExtResource("1_definition")
+asset_id = &"sign_freestanding_01"
+display_name = "Freestanding Sign"
+visual_scene = ExtResource("3_prop")
+visual_variant = &"sign_freestanding"
+semantic_category = &"SIGNAGE_FRAME"
+slot_contracts = Array[ExtResource("4_contract")]([SubResource("freestanding_sign")])
+status = "TEMP PLACEHOLDER"
+y_sort_required = true
+floor_contact_pivot = true
+
+[resource]
+script = ExtResource("2_catalog")
+definitions = Array[ExtResource("1_definition")]([SubResource("architecture_home_01"), SubResource("counter_basic_01"), SubResource("espresso_basic_01"), SubResource("grinder_basic_01"), SubResource("pos_basic_01"), SubResource("pastry_case_basic_01"), SubResource("pastry_set_basic_01"), SubResource("table_round_01"), SubResource("chair_jade_01"), SubResource("plant_floor_01"), SubResource("plant_counter_01"), SubResource("vase_basic_01"), SubResource("entrance_door_01"), SubResource("sign_main_01"), SubResource("sign_hanging_01"), SubResource("sign_menu_01"), SubResource("sign_freestanding_01")])

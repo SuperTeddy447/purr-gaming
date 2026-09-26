@@ -1,7 +1,7 @@
 class_name DebugOverlay
 extends CanvasLayer
 ## Debug overlay providing two clearly distinct visual states:
-## - NORMAL DEV VIEW: Clean V2.1 reference café, minimal runtime placeholders, zero debug clutter.
+## - NORMAL DEV VIEW: Modular Home mock, runtime actors, zero debug clutter.
 ## - DEBUG VIEW: Marker targets, camera bounds, safe areas, depth test helpers, occluder guides, stats.
 ## Toggled via F1 or D key, or the on-screen master toggle button.
 
@@ -13,6 +13,8 @@ signal safe_areas_toggled(visible: bool)
 signal camera_reset_requested
 
 @export var camera_controller: CameraController
+@export var slice_controller: VerticalSliceController
+@export var mochi_scale_test: MochiScaleTest
 @export var master_debug_active: bool = false:
 	set(value):
 		master_debug_active = value
@@ -21,7 +23,7 @@ signal camera_reset_requested
 @export var show_markers: bool = true
 @export var show_bounds: bool = true
 @export var show_safe_areas: bool = true
-@export var dev_reference_visible: bool = true
+@export var dev_reference_visible: bool = false
 
 var _stats_panel: PanelContainer
 var _stats_label: Label
@@ -72,16 +74,22 @@ func _process(_delta: float) -> void:
 		var target_zoom_val: float = camera_controller.target_zoom
 		var pos_val: Vector2 = camera_controller.global_position
 		var bounds: Rect2 = camera_controller.pan_bounds
+		var viewport_size: Vector2 = camera_controller.get_viewport_rect().size
+		var viewport_aspect: float = viewport_size.x / viewport_size.y if viewport_size.y > 0.0 else 0.0
 
 		_stats_label.text = (
 			"=== WilliCat Foundation [DEBUG VIEW] ===\n" +
-			"Camera Zoom: %.2fx (Target: %.2fx | Min: %.2f | Max: %.2f)\n" % [
-				zoom_val, target_zoom_val, camera_controller.min_zoom, camera_controller.max_zoom
+			"Camera Zoom: %.2fx (Target: %.2fx | Design Min: %.2f | Effective Min: %.2f | Max: %.2f)\n" % [
+				zoom_val, target_zoom_val, camera_controller.design_min_zoom,
+				camera_controller.effective_min_zoom, camera_controller.max_zoom
 			] +
+			"Viewport: %.0f x %.0f (aspect %.3f)\n" % [viewport_size.x, viewport_size.y, viewport_aspect] +
 			"Camera Pos: (%.1f, %.1f)\n" % [pos_val.x, pos_val.y] +
 			"Pan Bounds: X[%.0f..%.0f] Y[%.0f..%.0f]\n" % [
 				bounds.position.x, bounds.end.x, bounds.position.y, bounds.end.y
 			] +
+			(mochi_scale_test.debug_summary() + "\n" if mochi_scale_test != null else "") +
+			(slice_controller.debug_summary() + "\n" if slice_controller != null else "") +
 			"Shortcuts: [F1/D] Toggle Debug | [R] Ref Art | [M] Markers | [B] Bounds | [S] Safe | [Space] Reset"
 		)
 

@@ -19,7 +19,7 @@ signal tap_unhandled(world_position: Vector2)
 @export var camera_node: Camera2D
 
 @export_group("Zoom Limits")
-@export_range(0.5, 1.0, 0.01) var min_zoom: float = 0.82
+@export_range(0.5, 1.0, 0.01) var design_min_zoom: float = 0.82
 @export_range(0.8, 1.5, 0.01) var default_zoom: float = 1.0
 @export_range(1.0, 2.5, 0.01) var max_zoom: float = 1.35
 @export var zoom_step_factor: float = 1.08
@@ -29,13 +29,15 @@ signal tap_unhandled(world_position: Vector2)
 @export var drag_threshold: float = 8.0
 
 @export_group("Pan Bounds")
-## World boundary rectangle outside of which the camera cannot pan (defaults to reference design coordinate space).
-@export var pan_bounds: Rect2 = Rect2(0, 0, 941, 1672)
+## Drawable world extents, supplied by each room's camera configuration.
+@export var pan_bounds: Rect2 = Rect2()
 
 # Runtime state
 var target_position: Vector2 = Vector2.ZERO
 var target_zoom: float = 1.0
 var current_zoom: float = 1.0
+var effective_min_zoom: float = 1.0
+var _initial_position: Vector2 = Vector2.ZERO
 
 # Touch & Mouse tracking
 var _touch_points: Dictionary = {} # int -> Vector2
@@ -47,29 +49,64 @@ var _last_mouse_pos: Vector2 = Vector2.ZERO
 
 
 func _ready() -> void:
+	_initial_position = global_position
 	if camera_node == null:
 		camera_node = get_node_or_null("Camera2D") as Camera2D
 		if camera_node == null:
 			camera_node = find_child("Camera2D", false, false) as Camera2D
+	get_viewport().size_changed.connect(_on_viewport_size_changed)
 
 	if room_config != null:
 		apply_room_config(room_config)
 	else:
-		target_zoom = default_zoom
-		current_zoom = default_zoom
-		target_position = global_position
+		_update_effective_min_zoom()
+		target_zoom = clampf(default_zoom, effective_min_zoom, _effective_max_zoom())
+		current_zoom = target_zoom
+		target_position = clamp_position(_initial_position, target_zoom)
 		_snap_to_target()
 
 
 func apply_room_config(config: RoomCameraConfig) -> void:
-	min_zoom = config.min_zoom
+	design_min_zoom = config.design_min_zoom
 	default_zoom = config.default_zoom
 	max_zoom = config.max_zoom
 	pan_bounds = config.pan_bounds
-	target_zoom = clampf(config.default_zoom, min_zoom, max_zoom)
+	_update_effective_min_zoom()
+	target_zoom = clampf(config.default_zoom, effective_min_zoom, _effective_max_zoom())
 	current_zoom = target_zoom
 	target_position = clamp_position(config.default_camera_position, target_zoom)
 	_snap_to_target()
+
+
+static func calculate_effective_min_zoom(viewport_size: Vector2, bounds: Rect2, design_min: float) -> float:
+	var safe_design_min: float = design_min if design_min > 0.0 else 1.0
+	if viewport_size.x <= 0.0 or viewport_size.y <= 0.0 or bounds.size.x <= 0.0 or bounds.size.y <= 0.0:
+		return safe_design_min
+	return maxf(safe_design_min, maxf(viewport_size.x / bounds.size.x, viewport_size.y / bounds.size.y))
+
+
+func _update_effective_min_zoom() -> void:
+	effective_min_zoom = calculate_effective_min_zoom(get_viewport_rect().size, pan_bounds, design_min_zoom)
+
+
+func _effective_max_zoom() -> float:
+	return maxf(max_zoom, effective_min_zoom)
+
+
+func _on_viewport_size_changed() -> void:
+	var previous_zoom: float = current_zoom
+	var previous_position: Vector2 = global_position
+	_update_effective_min_zoom()
+	target_zoom = clampf(target_zoom, effective_min_zoom, _effective_max_zoom())
+	current_zoom = clampf(current_zoom, effective_min_zoom, _effective_max_zoom())
+	target_position = clamp_position(target_position, target_zoom)
+	global_position = clamp_position(global_position, current_zoom)
+	if camera_node != null:
+		camera_node.zoom = Vector2(current_zoom, current_zoom)
+	if not is_equal_approx(previous_zoom, current_zoom):
+		camera_zoom_changed.emit(current_zoom)
+	if previous_position != global_position:
+		camera_panned.emit(global_position)
 
 
 func _snap_to_target() -> void:
@@ -83,31 +120,32 @@ func _snap_to_target() -> void:
 func _process(delta: float) -> void:
 	if delta <= 0.0:
 		return
+	var smoothing_weight: float = clampf(smoothing_speed * delta, 0.0, 1.0)
 
 	# Smooth zoom
 	if not is_equal_approx(current_zoom, target_zoom):
-		current_zoom = lerpf(current_zoom, target_zoom, clampf(smoothing_speed * delta, 0.0, 1.0))
+		current_zoom = maxf(lerpf(current_zoom, target_zoom, smoothing_weight), effective_min_zoom)
 		if camera_node != null:
 			camera_node.zoom = Vector2(current_zoom, current_zoom)
 		camera_zoom_changed.emit(current_zoom)
 
-	# Clamped target position based on current zoom
-	var clamped_target: Vector2 = clamp_position(target_position, current_zoom)
-	target_position = clamped_target
+	# Clamp the destination at its zoom and the rendered camera at its current zoom.
+	target_position = clamp_position(target_position, target_zoom)
+	var next_position: Vector2 = global_position.lerp(target_position, smoothing_weight)
+	next_position = clamp_position(next_position, current_zoom)
 
-	# Smooth position
-	if global_position.distance_squared_to(target_position) > 0.01:
-		global_position = global_position.lerp(target_position, clampf(smoothing_speed * delta, 0.0, 1.0))
+	if global_position != next_position:
+		global_position = next_position
 		camera_panned.emit(global_position)
 
 
-## Clamps the camera position so the viewport never exposes empty space outside pan_bounds.
+## Keeps the visible rectangle inside valid room bounds at a safe zoom.
 func clamp_position(pos: Vector2, zoom: float) -> Vector2:
-	if zoom <= 0.001 or not is_inside_tree() or get_viewport() == null:
+	if zoom <= 0.0 or pan_bounds.size.x <= 0.0 or pan_bounds.size.y <= 0.0 or not is_inside_tree():
 		return pos
 
 	var vp_size: Vector2 = get_viewport_rect().size
-	if vp_size == Vector2.ZERO:
+	if vp_size.x <= 0.0 or vp_size.y <= 0.0:
 		return pos
 	var half_w: float = (vp_size.x * 0.5) / zoom
 	var half_h: float = (vp_size.y * 0.5) / zoom
@@ -238,7 +276,7 @@ func _handle_mouse_motion(event: InputEventMouseMotion) -> void:
 
 
 func set_zoom_target(new_zoom: float) -> void:
-	target_zoom = clampf(new_zoom, min_zoom, max_zoom)
+	target_zoom = clampf(new_zoom, effective_min_zoom, _effective_max_zoom())
 	target_position = clamp_position(target_position, target_zoom)
 
 
@@ -246,5 +284,8 @@ func reset_to_default() -> void:
 	if room_config != null:
 		apply_room_config(room_config)
 	else:
-		target_zoom = default_zoom
-		target_position = clamp_position(Vector2(470.5, 836.0), target_zoom)
+		_update_effective_min_zoom()
+		target_zoom = clampf(default_zoom, effective_min_zoom, _effective_max_zoom())
+		current_zoom = target_zoom
+		target_position = clamp_position(_initial_position, target_zoom)
+		_snap_to_target()
