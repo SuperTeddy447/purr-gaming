@@ -1,0 +1,23 @@
+{
+  "asset_id": "plant_small_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular plant small home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/plant_small_home_v2_01/source_v1.png",
+  "source_sha256": "31f2e626d2c4b92ed2adcf47f8c46ea94b168b320915687a45409cd1160fd3cc",
+  "source_dimensions": [
+    1237,
+    1272
+  ],
+  "forge_runtime_dimensions": [
+    1129,
+    1173
+  ],
+  "forge_pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "First generated candidate. Subjective style and gameplay-scale review pending."
+}

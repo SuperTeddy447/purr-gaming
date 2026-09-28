@@ -262,3 +262,40 @@ func agent_for(cat_id: StringName) -> Agent:
 
 func occupied_zone_count() -> int:
 	return reservations.size()
+
+
+func register_optional_zone(zone_id: StringName, world_position: Vector2) -> void:
+	## V2-only semantic destinations; base Living Café choice rules are unchanged.
+	if zone_id == &"" or _zones.has(zone_id):
+		return
+	_zones[zone_id] = world_position
+
+
+func begin_external_ambient_moment(cat_id: StringName, target_zone: StringName) -> bool:
+	## Temporarily borrows one non-worker agent without creating another AI loop.
+	var agent: Agent = agent_for(cat_id)
+	if agent == null or cat_id == &"Mochi" or agent.work_priority or agent.mover.is_moving \
+		or not _zones.has(target_zone) or reservations.has(target_zone):
+		return false
+	if reservations.get(agent.zone) == cat_id:
+		reservations.erase(agent.zone)
+	reservations[target_zone] = cat_id
+	agent.work_priority = true
+	agent.target_zone = target_zone
+	agent.activity = &"STORY_APPROACH"
+	agent.mover.move_route(_route_to(agent, target_zone))
+	ambient_changed.emit(cat_id, agent.activity, target_zone)
+	return true
+
+
+func end_external_ambient_moment(cat_id: StringName) -> void:
+	var agent: Agent = agent_for(cat_id)
+	if agent == null or not agent.work_priority:
+		return
+	if agent.target_zone != &"":
+		agent.zone = agent.target_zone
+		agent.target_zone = &""
+	agent.work_priority = false
+	agent.activity = &"LOOK_AROUND"
+	agent.time_left = timing.duration(_rng, timing.activity_min, timing.activity_max)
+	ambient_changed.emit(cat_id, agent.activity, agent.zone)

@@ -1,0 +1,39 @@
+{
+  "asset_id": "plant_hanging_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/plant_hanging_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/plant_hanging_home_v2_01/plant_hanging_home_v2_01.png",
+  "source_sha256": "3feeb1d27e2f004d594592dbb3c59cd1d1f6acd534d5bce08e4a7ef6eb595565",
+  "runtime_sha256": "afca97f4e6d10424bc5fd44b7d28852bc116a565b0de5899af62f8e8b2fe266e",
+  "source_dimensions": [
+    1024,
+    1536
+  ],
+  "runtime_dimensions": [
+    915,
+    1530
+  ],
+  "source_visual_bounds": [
+    76,
+    16,
+    959,
+    1514
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    899,
+    1514
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    457.5,
+    765.0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 43743,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

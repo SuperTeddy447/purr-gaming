@@ -1,0 +1,39 @@
+{
+  "asset_id": "cat_bed_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cat_bed_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cat_bed_home_v2_01/cat_bed_home_v2_01.png",
+  "source_sha256": "c98dd521c9870f76ed1a44455eb37c837d667de99663217270b437a7df4fe945",
+  "runtime_sha256": "3f983f11a7a526771ef739a377f252572eb5562b5dc8d947f8f531a1923a53ef",
+  "source_dimensions": [
+    1380,
+    1140
+  ],
+  "runtime_dimensions": [
+    1190,
+    948
+  ],
+  "source_visual_bounds": [
+    111,
+    110,
+    1269,
+    1042
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1174,
+    948
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    595.0,
+    948
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 7668,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

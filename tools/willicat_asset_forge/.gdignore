@@ -1,0 +1,2 @@
+# Asset Forge tooling directory: Python scripts, venv, workspaces, test fixtures.
+# Never scan or import into Godot runtime.

@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+
+[node name="SeasonalDisplay" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"seasonal_display"
+kind = "seasonal"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -7)
+script = ExtResource("2")
+footprint_size = Vector2(53, 28)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="InspectSlot" parent="." instance=ExtResource("3")]
+action_type = &"inspect"
+allowed_categories = PackedStringArray("cat", "customer", "worker")
+character_action = &"Inspect"
+object_action = &"Glowing"
+camera_shot_id = &"event_focus"
+
+[node name="ApproachAnchor" parent="InspectSlot" index="0"]
+position = Vector2(0, 41)
+
+[node name="ActionAnchor" parent="InspectSlot" index="1"]
+position = Vector2(0, 35)
+
+[node name="ExitAnchor" parent="InspectSlot" index="2"]
+position = Vector2(0, 41)
+
+[node name="CameraEventFocus" type="Marker2D" parent="."]
+position = Vector2(0, -43)
+
+[node name="FXAnchor" type="Marker2D" parent="."]
+position = Vector2(0, -67)
+
+[editable path="InspectSlot"]

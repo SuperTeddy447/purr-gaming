@@ -1,0 +1,39 @@
+{
+  "asset_id": "grinder_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/grinder_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/grinder_home_v2_01/grinder_home_v2_01.png",
+  "source_sha256": "6ce5be0705c04b1582b9fc940fddad4ba56f65e93c542ce2bd653cf8865a2c67",
+  "runtime_sha256": "602fe8769675c3636ee5944b8a3dd7670fd792829760426d9f004d63284c88bd",
+  "source_dimensions": [
+    1024,
+    1536
+  ],
+  "runtime_dimensions": [
+    602,
+    1381
+  ],
+  "source_visual_bounds": [
+    250,
+    91,
+    820,
+    1456
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    586,
+    1381
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    301.0,
+    1381
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 10511,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

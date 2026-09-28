@@ -1,0 +1,39 @@
+{
+  "asset_id": "cat_inspection_basket_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cat_inspection_basket_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cat_inspection_basket_home_v2_01/cat_inspection_basket_home_v2_01.png",
+  "source_sha256": "59ca028defb39d0591aed36c7930141c0f80bc74c7674fa61e4d06138602430e",
+  "runtime_sha256": "16314d263908a725cd884cf5ab0d39e6fb520a50027f85c0c11a77b338690990",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_dimensions": [
+    1351,
+    846
+  ],
+  "source_visual_bounds": [
+    112,
+    115,
+    1431,
+    945
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1335,
+    846
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    675.5,
+    846
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 11630,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

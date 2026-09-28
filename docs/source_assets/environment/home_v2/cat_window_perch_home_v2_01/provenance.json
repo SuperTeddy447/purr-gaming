@@ -1,0 +1,23 @@
+{
+  "asset_id": "cat_window_perch_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular cat window perch home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/cat_window_perch_home_v2_01/source_v1.png",
+  "source_sha256": "5bc73b1c6eabab46efccdc4696f23004b12f9d7a37b7620c668d104ac9803001",
+  "source_dimensions": [
+    1426,
+    1103
+  ],
+  "forge_runtime_dimensions": [
+    1370,
+    915
+  ],
+  "forge_pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "First generated candidate. Subjective style and gameplay-scale review pending."
+}

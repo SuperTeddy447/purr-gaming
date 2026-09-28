@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://duxrswc86mmop"]
+
+[node name="GodotAIConnectionTest" type="Node2D" unique_id=864891108]
+
+[node name="ConnectionProbe" type="Marker2D" parent="." unique_id=1377514757]
+position = Vector2(64, 96)

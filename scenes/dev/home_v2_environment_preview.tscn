@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/home/home_scene.tscn" id="1_home"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_visual_installer.gd" id="2_installer"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_cat_life.gd" id="3_cat_life"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_espresso_steam.gd" id="4_steam"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_counter_registration_debug.gd" id="5_counter_debug"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_composition_registration.gd" id="6_composition"]
+[ext_resource type="Script" path="res://scripts/home/home_v2_composition_guides.gd" id="7_guides"]
+
+[node name="HomeV2EnvironmentPreview" instance=ExtResource("1_home")]
+
+[node name="WorkerIdle" parent="GameplayNodes" index="4"]
+position = Vector2(620, 525)
+
+[node name="CoffeeAction" parent="GameplayNodes" index="5"]
+position = Vector2(402, 525)
+
+[node name="CounterExitRear" parent="SliceWaypoints" index="2"]
+position = Vector2(165, 525)
+
+[node name="SeatA" parent="GameplayNodes/Seats" index="0"]
+position = Vector2(155, 895)
+
+[node name="SeatB" parent="GameplayNodes/Seats" index="1"]
+position = Vector2(430, 1220)
+
+[node name="SeatC" parent="GameplayNodes/Seats" index="2"]
+position = Vector2(680, 1235)
+
+[node name="AmbientB" parent="GameplayNodes/AmbientNodes" index="1"]
+position = Vector2(100, 680)
+
+[node name="AmbientC" parent="GameplayNodes/AmbientNodes" index="2"]
+position = Vector2(880, 1120)
+
+[node name="SeatD" parent="GameplayNodes/Seats" index="3"]
+position = Vector2(335, 900)
+
+[node name="V2VisualInstaller" type="Node" parent="."]
+script = ExtResource("2_installer")
+
+[node name="V2CatLife" type="Node2D" parent="."]
+script = ExtResource("3_cat_life")
+
+[node name="V2EspressoSteam" type="Node2D" parent="World/FXLayer"]
+script = ExtResource("4_steam")
+
+[node name="V2CounterRegistrationDebug" type="Node2D" parent="World/FXLayer"]
+script = ExtResource("5_counter_debug")
+
+[node name="V2CompositionRegistration" type="Node" parent="."]
+script = ExtResource("6_composition")
+
+[node name="V2CompositionGuides" type="Node2D" parent="World/FXLayer"]
+script = ExtResource("7_guides")

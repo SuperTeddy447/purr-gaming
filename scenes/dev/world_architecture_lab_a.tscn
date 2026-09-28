@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://b4gic6tnygtwr"]
+
+[ext_resource type="Script" uid="uid://0bdguve7gtn" path="res://scripts/dev/world_lab/lab_world.gd" id="1"]
+[ext_resource type="Script" uid="uid://p0fslvjg8r08" path="res://scripts/dev/world_lab/lab_floor.gd" id="2"]
+[ext_resource type="Script" uid="uid://6yv5i2642yp5" path="res://scripts/dev/world_lab/lab_destination.gd" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/counter_station.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/table_round.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/chair.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/cat_bed.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/plant.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/entrance.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_lab/lab_actor.tscn" id="10"]
+
+[sub_resource type="NavigationPolygon" id="WalkableFloor"]
+vertices = PackedVector2Array(16, 16, 504, 16, 504, 834, 16, 834)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+
+[node name="WorldArchitectureLabA" type="Node2D" unique_id=1446323533]
+script = ExtResource("1")
+
+[node name="Architecture" type="Node2D" parent="." unique_id=1795061162]
+
+[node name="Floor" type="Node2D" parent="Architecture" unique_id=564953989]
+z_index = -10
+script = ExtResource("2")
+
+[node name="Navigation" type="NavigationRegion2D" parent="." unique_id=463374357]
+navigation_polygon = SubResource("WalkableFloor")
+
+[node name="LevelAnchors" type="Node2D" parent="." unique_id=581763684]
+
+[node name="CatIdle" type="Marker2D" parent="LevelAnchors" unique_id=1952915900]
+position = Vector2(420, 735)
+script = ExtResource("3")
+semantic_id = &"cat_idle"
+
+[node name="DepthSortedLayer" type="Node2D" parent="." unique_id=1287106066]
+y_sort_enabled = true
+
+[node name="WorldObjects" type="Node2D" parent="DepthSortedLayer" unique_id=1974437162]
+y_sort_enabled = true
+
+[node name="CounterStation" parent="DepthSortedLayer/WorldObjects" unique_id=1119017010 instance=ExtResource("4")]
+position = Vector2(270, 220)
+
+[node name="TableRound" parent="DepthSortedLayer/WorldObjects" unique_id=631613680 instance=ExtResource("5")]
+position = Vector2(365, 550)
+
+[node name="ChairA" parent="DepthSortedLayer/WorldObjects" unique_id=523488000 instance=ExtResource("6")]
+position = Vector2(285, 595)
+stable_id = &"chair_a"
+
+[node name="ChairB" parent="DepthSortedLayer/WorldObjects" unique_id=1457975554 instance=ExtResource("6")]
+position = Vector2(435, 595)
+stable_id = &"chair_b"
+
+[node name="CatBed" parent="DepthSortedLayer/WorldObjects" unique_id=835354000 instance=ExtResource("7")]
+position = Vector2(425, 665)
+
+[node name="Plant" parent="DepthSortedLayer/WorldObjects" unique_id=618889613 instance=ExtResource("8")]
+position = Vector2(420, 380)
+
+[node name="Entrance" parent="DepthSortedLayer/WorldObjects" unique_id=1883439047 instance=ExtResource("9")]
+position = Vector2(255, 760)
+
+[node name="Worker" parent="DepthSortedLayer" unique_id=1716159178 instance=ExtResource("10")]
+role_name = "worker"
+
+[node name="Customer" parent="DepthSortedLayer" unique_id=2016586679 instance=ExtResource("10")]
+role_name = "customer"
+
+[node name="AmbientCat" parent="DepthSortedLayer" unique_id=849920184 instance=ExtResource("10")]
+role_name = "cat"
+
+[node name="Camera" type="Camera2D" parent="." unique_id=191283544]
+position = Vector2(260, 425)
+zoom = Vector2(1.7, 1.7)

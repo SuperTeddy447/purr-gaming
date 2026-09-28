@@ -1,0 +1,23 @@
+{
+  "asset_id": "signage_blank_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular signage blank home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/signage_blank_home_v2_01/source_v1.png",
+  "source_sha256": "355ef6d88300b1b1c5a39bb0d3fcd1c389eee2d7d88556d845674721bd90db69",
+  "source_dimensions": [
+    1214,
+    1295
+  ],
+  "forge_runtime_dimensions": [
+    1189,
+    1233
+  ],
+  "forge_pivot": "WALL_MOUNT_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "First generated candidate. Subjective style and gameplay-scale review pending."
+}

@@ -1,0 +1,39 @@
+{
+  "asset_id": "counter_front_occluder_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/counter_front_occluder_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/counter_front_occluder_home_v2_01/counter_front_occluder_home_v2_01.png",
+  "source_sha256": "244cbc6663c96b769b08b305e846a8017f6b0422bdad3b3362a561b45a26fb8d",
+  "runtime_sha256": "442f2b25dd0c5228b4b143f06fa43070936245cb81e96f058941f6471125c3ed",
+  "source_dimensions": [
+    1983,
+    793
+  ],
+  "runtime_dimensions": [
+    1918,
+    687
+  ],
+  "source_visual_bounds": [
+    53,
+    76,
+    1939,
+    747
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1902,
+    687
+  ],
+  "pivot": "COUNTER_FRONT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    959.0,
+    687
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 13595,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

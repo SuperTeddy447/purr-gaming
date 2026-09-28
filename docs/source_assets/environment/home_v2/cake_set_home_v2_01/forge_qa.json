@@ -1,0 +1,39 @@
+{
+  "asset_id": "cake_set_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cake_set_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cake_set_home_v2_01/cake_set_home_v2_01.png",
+  "source_sha256": "d7e6072986e7beb1ff59e3a36417a2296454f7c84bf0d4cd739112a93ac11945",
+  "runtime_sha256": "f3d1d41d5879eb7221e74c342c54a7880917b09575e3b8a8f6920245d631e83b",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "runtime_dimensions": [
+    1066,
+    1026
+  ],
+  "source_visual_bounds": [
+    115,
+    130,
+    1149,
+    1140
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1050,
+    1026
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    533.0,
+    1026
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 8813,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

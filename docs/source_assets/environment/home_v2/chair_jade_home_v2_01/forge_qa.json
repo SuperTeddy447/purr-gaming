@@ -1,0 +1,39 @@
+{
+  "asset_id": "chair_jade_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/chair_jade_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/chair_jade_home_v2_01/chair_jade_home_v2_01.png",
+  "source_sha256": "5567c1b1c56f61b63d347ac11284e6e1d11132b17b68cd20920694eefb7b7de1",
+  "runtime_sha256": "de5adfb84d9f59aa291c31ecf5c1e70c2b904f52c9ccf99f8ca633ad138f68f3",
+  "source_dimensions": [
+    1225,
+    1284
+  ],
+  "runtime_dimensions": [
+    864,
+    1050
+  ],
+  "source_visual_bounds": [
+    218,
+    128,
+    1050,
+    1162
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    848,
+    1050
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    432.0,
+    1050
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 8838,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

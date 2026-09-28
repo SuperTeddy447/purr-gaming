@@ -1,0 +1,39 @@
+{
+  "asset_id": "table_round_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/table_round_home_v2_01/source_v2.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/table_round_home_v2_01/table_round_home_v2_01.png",
+  "source_sha256": "613bd9cee2b930a1c4f198b61a7f04d85127b1c85b42ca507a5c1ccd8b67352e",
+  "runtime_sha256": "b8edd8b57fd3afb30b71e584210e8afde289aa280137fbe46ae01d3c5b6b6c49",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "runtime_dimensions": [
+    1172,
+    823
+  ],
+  "source_visual_bounds": [
+    266,
+    91,
+    1406,
+    898
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1156,
+    823
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    586.0,
+    823
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 6414,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

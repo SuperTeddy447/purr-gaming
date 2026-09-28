@@ -1,0 +1,39 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/world_architecture_hardening_lab.tscn" id="1"]
+
+[node name="WorldArchitectureHardeningEventRoom" instance=ExtResource("1")]
+initial_event_active = true
+
+[node name="CounterShell" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="0"]
+position = Vector2(115, 230)
+
+[node name="EspressoStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="1"]
+position = Vector2(370, 235)
+
+[node name="Table" parent="DepthSortedLayer/WorldObjects" index="1"]
+position = Vector2(315, 480)
+
+[node name="ChairA" parent="DepthSortedLayer/WorldObjects" index="2"]
+position = Vector2(125, 590)
+
+[node name="ChairB" parent="DepthSortedLayer/WorldObjects" index="3"]
+position = Vector2(425, 610)
+
+[node name="CatBed" parent="DepthSortedLayer/WorldObjects" index="4"]
+position = Vector2(175, 745)
+
+[node name="Plant" parent="DepthSortedLayer/WorldObjects" index="5"]
+position = Vector2(425, 760)
+
+[node name="ScratchPost" parent="DepthSortedLayer/WorldObjects" index="6"]
+position = Vector2(440, 375)
+
+[node name="SeasonalDisplay" parent="DepthSortedLayer/EventLayer" index="0"]
+position = Vector2(80, 390)
+
+[node name="CustomerA" parent="DepthSortedLayer/Characters" index="1"]
+position = Vector2(75, 455)
+
+[node name="CustomerB" parent="DepthSortedLayer/Characters" index="2"]
+position = Vector2(420, 810)

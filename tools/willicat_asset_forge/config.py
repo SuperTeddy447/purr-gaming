@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-VERSION = "1.0.0"
+VERSION = "1.2.0"
 PRODUCT_NAME = "WilliCat Asset Forge"
 SUBSYSTEM_NAME = "WilliCat Asset Agent Pipeline"
 

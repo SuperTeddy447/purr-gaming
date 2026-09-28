@@ -1,0 +1,39 @@
+{
+  "asset_id": "cat_window_perch_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cat_window_perch_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cat_window_perch_home_v2_01/cat_window_perch_home_v2_01.png",
+  "source_sha256": "5bc73b1c6eabab46efccdc4696f23004b12f9d7a37b7620c668d104ac9803001",
+  "runtime_sha256": "82ed789a105ffafcfc59d87e89e4c9d2171be4962f28c2fa588cc4584d3f190b",
+  "source_dimensions": [
+    1426,
+    1103
+  ],
+  "runtime_dimensions": [
+    1370,
+    915
+  ],
+  "source_visual_bounds": [
+    47,
+    117,
+    1385,
+    1016
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1354,
+    915
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    685.0,
+    915
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 19649,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

@@ -1,0 +1,39 @@
+{
+  "asset_id": "flower_vase_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/flower_vase_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/flower_vase_home_v2_01/flower_vase_home_v2_01.png",
+  "source_sha256": "f959dd69824b4d7c31eaca149158df5defd3472c385a237a5511a0d8df8a224d",
+  "runtime_sha256": "4271bf059bcee4cfe70aa5238a464a6d9f7e26c54ae17979be1f702cef8f4f3d",
+  "source_dimensions": [
+    1244,
+    1264
+  ],
+  "runtime_dimensions": [
+    1200,
+    1151
+  ],
+  "source_visual_bounds": [
+    47,
+    49,
+    1215,
+    1184
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1184,
+    1151
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    600.0,
+    1151
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 41687,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

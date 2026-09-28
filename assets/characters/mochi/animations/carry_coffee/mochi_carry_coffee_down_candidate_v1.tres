@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cuogofh40r1ff"]
+
+[ext_resource type="Texture2D" uid="uid://dpjbvqob7jgev" path="res://assets/characters/mochi/animations/carry_coffee/mochi_carry_coffee_down_candidate_v1.png" id="1_atlas"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_0"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_1"]
+atlas = ExtResource("1_atlas")
+region = Rect2(800, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_2"]
+atlas = ExtResource("1_atlas")
+region = Rect2(1600, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_3"]
+atlas = ExtResource("1_atlas")
+region = Rect2(2400, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_4"]
+atlas = ExtResource("1_atlas")
+region = Rect2(3200, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_5"]
+atlas = ExtResource("1_atlas")
+region = Rect2(4000, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_6"]
+atlas = ExtResource("1_atlas")
+region = Rect2(4800, 0, 800, 850)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_7"]
+atlas = ExtResource("1_atlas")
+region = Rect2(5600, 0, 800, 850)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frame_7")
+}],
+"loop": 1,
+"name": &"carry_coffee_down",
+"speed": 8.0
+}]

@@ -1,0 +1,39 @@
+{
+  "asset_id": "signage_blank_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/signage_blank_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/signage_blank_home_v2_01/signage_blank_home_v2_01.png",
+  "source_sha256": "355ef6d88300b1b1c5a39bb0d3fcd1c389eee2d7d88556d845674721bd90db69",
+  "runtime_sha256": "f4ac8098f23b156d3796151bc5f75d1ed1634d8dcf0edcfd609aaf055671489b",
+  "source_dimensions": [
+    1214,
+    1295
+  ],
+  "runtime_dimensions": [
+    1189,
+    1233
+  ],
+  "source_visual_bounds": [
+    28,
+    17,
+    1185,
+    1218
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1173,
+    1217
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    594.5,
+    616.5
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 11137,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

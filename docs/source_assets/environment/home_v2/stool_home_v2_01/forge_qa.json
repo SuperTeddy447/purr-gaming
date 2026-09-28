@@ -1,0 +1,39 @@
+{
+  "asset_id": "stool_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/stool_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/stool_home_v2_01/stool_home_v2_01.png",
+  "source_sha256": "5e345977a9a8ec927c96c4da6ed80a7262d36553e98e74c01c84ff2e02592b4e",
+  "runtime_sha256": "3069122b2105863f9c641e05dccddca3c99471db6a63d16a99d71df023de0f90",
+  "source_dimensions": [
+    1226,
+    1283
+  ],
+  "runtime_dimensions": [
+    843,
+    1000
+  ],
+  "source_visual_bounds": [
+    213,
+    159,
+    1024,
+    1143
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    827,
+    1000
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    421.5,
+    1000
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 19374,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

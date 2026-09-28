@@ -112,13 +112,21 @@ func _run() -> void:
 		return
 	print("[PASS] CoffeeAction uses normal Y-sort and DepthSortedLayer < CounterFrontOccluder; no Mochi z override.")
 
-	var zoom_targets: Array[float] = [baseline_zoom, camera.effective_min_zoom, 1.2, camera.max_zoom]
-	var zoom_names: Array[String] = ["default", "effective minimum", "1.2x", "maximum"]
+	# Device-safe CameraRig clamps a requested 1.2x when the effective minimum
+	# exceeds it (for this viewport, 1.2195x). Test the request AND its clamp.
+	var requested_mid_zoom: float = 1.2
+	var effective_max: float = maxf(camera.max_zoom, camera.effective_min_zoom)
+	var zoom_targets: Array[float] = [baseline_zoom, camera.effective_min_zoom,
+		clampf(requested_mid_zoom, camera.effective_min_zoom, effective_max), effective_max]
+	var zoom_names: Array[String] = ["default", "effective minimum", "requested 1.2x clamp", "maximum"]
 	for index in range(zoom_targets.size()):
 		if index == 0:
 			camera.reset_to_default()
 		else:
-			camera.set_zoom_target(zoom_targets[index])
+			camera.set_zoom_target(requested_mid_zoom if index == 2 else zoom_targets[index])
+		if absf(camera.target_zoom - zoom_targets[index]) > 0.001:
+			_fail("Camera target did not clamp the %s zoom request" % zoom_names[index])
+			return
 		if not await _wait_for_zoom(camera, zoom_targets[index], 240):
 			_fail("Camera did not reach the %s test zoom" % zoom_names[index])
 			return

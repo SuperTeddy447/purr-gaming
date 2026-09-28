@@ -1,0 +1,39 @@
+{
+  "asset_id": "pastry_set_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/pastry_set_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/pastry_set_home_v2_01/pastry_set_home_v2_01.png",
+  "source_sha256": "36b0c7d2cdb2098a3febc75fbb5ad60136b9483390b7c57d724331c4a3aecc7d",
+  "runtime_sha256": "133e1cf616ce26833731a5c26db32c850e28b8a0429d529cdf4ccbaafbe7b4aa",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_dimensions": [
+    1378,
+    834
+  ],
+  "source_visual_bounds": [
+    95,
+    134,
+    1441,
+    952
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1362,
+    834
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    689.0,
+    834
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 8864,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

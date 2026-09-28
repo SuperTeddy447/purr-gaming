@@ -1,0 +1,23 @@
+{
+  "asset_id": "pastry_set_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular pastry set home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/pastry_set_home_v2_01/source_v1.png",
+  "source_sha256": "36b0c7d2cdb2098a3febc75fbb5ad60136b9483390b7c57d724331c4a3aecc7d",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "forge_runtime_dimensions": [
+    1378,
+    834
+  ],
+  "forge_pivot": "COUNTERTOP_BASE_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "Warm ambient halo around tray requires human review; not in runtime preview."
+}

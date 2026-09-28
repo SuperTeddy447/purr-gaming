@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/steam_fx.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/cup_visual.gd" id="5"]
+
+[node name="EspressoStation" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"espresso_station"
+kind = "espresso"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -18)
+script = ExtResource("2")
+footprint_size = Vector2(73, 45)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="CoffeeActionSlot" parent="." instance=ExtResource("3")]
+action_type = &"work_coffee"
+allowed_categories = PackedStringArray("worker")
+action_duration = 1.6
+character_action = &"WorkCoffee"
+object_action = &"Brewing"
+fx_trigger = &"steam"
+camera_shot_id = &"brew_closeup"
+
+[node name="ApproachAnchor" parent="CoffeeActionSlot" index="0"]
+position = Vector2(0, 47)
+
+[node name="ActionAnchor" parent="CoffeeActionSlot" index="1"]
+position = Vector2(0, 47)
+
+[node name="ExitAnchor" parent="CoffeeActionSlot" index="2"]
+position = Vector2(50, 47)
+
+[node name="SteamFXAnchor" type="Marker2D" parent="."]
+position = Vector2(0, -68)
+
+[node name="Steam" type="Node2D" parent="SteamFXAnchor"]
+visible = false
+script = ExtResource("4")
+
+[node name="CupSpawnAnchor" type="Marker2D" parent="."]
+position = Vector2(22, -22)
+
+[node name="Cup" type="Node2D" parent="CupSpawnAnchor"]
+visible = false
+script = ExtResource("5")
+
+[node name="CameraBrewFocus" type="Marker2D" parent="."]
+position = Vector2(0, -41)
+
+[node name="CameraCupReveal" type="Marker2D" parent="."]
+position = Vector2(22, -18)
+
+[editable path="CoffeeActionSlot"]

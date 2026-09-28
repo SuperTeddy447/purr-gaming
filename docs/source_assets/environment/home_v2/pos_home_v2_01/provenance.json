@@ -1,0 +1,23 @@
+{
+  "asset_id": "pos_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular pos home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/pos_home_v2_01/source_v1.png",
+  "source_sha256": "571f131b21d9bf9234d796b5f4b1e0fce782be881d1d6e41f82ffb818bf26c98",
+  "source_dimensions": [
+    1269,
+    1239
+  ],
+  "forge_runtime_dimensions": [
+    1029,
+    1096
+  ],
+  "forge_pivot": "COUNTERTOP_BASE_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "First generated candidate. Subjective style and gameplay-scale review pending."
+}

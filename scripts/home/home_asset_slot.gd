@@ -36,28 +36,7 @@ func _ready() -> void:
 	_validate_placement()
 	var selected_texture: Texture2D = definition.texture_variants.get(selected_variant, definition.texture) as Texture2D
 	if selected_texture != null:
-		visual_node = Node2D.new()
-		visual_node.name = "FinalTextureVisual"
-		var sprite := Sprite2D.new()
-		sprite.texture = selected_texture
-		var floor_pivot: bool = contract.uses_floor_contact_pivot()
-		var top_left_pivot: bool = contract.pivot_type == "FULL_CANVAS_TOP_LEFT"
-		sprite.centered = not floor_pivot and not top_left_pivot
-		var source_size: Vector2 = selected_texture.get_size()
-		if source_size.x > 0.0 and source_size.y > 0.0:
-			if contract.fit_policy == "NATIVE_REFERENCE_SCALE":
-				sprite.scale = Vector2.ONE
-			else:
-				var uniform_scale: float = minf(contract.target_bounds.x / source_size.x,
-					contract.target_bounds.y / source_size.y)
-				sprite.scale = Vector2.ONE * uniform_scale
-		if floor_pivot:
-			sprite.offset = Vector2(-source_size.x * 0.5, -source_size.y)
-		elif top_left_pivot:
-			sprite.offset = Vector2.ZERO
-		visual_node.add_child(sprite)
-		add_child(visual_node)
-		move_child(visual_node, 0)
+		apply_candidate_texture(selected_texture)
 	elif definition.visual_scene != null:
 		visual_node = definition.visual_scene.instantiate() as Node2D
 		if visual_node == null:
@@ -70,6 +49,37 @@ func _ready() -> void:
 			visual_node.call("configure", definition, selected_variant, display_label)
 	else:
 		push_error("Home asset '%s' has no visual scene or texture." % String(asset_id))
+
+
+func apply_candidate_texture(texture: Texture2D) -> void:
+	## Visual-only override for development variants; semantic slot and gameplay remain unchanged.
+	if texture == null or contract == null:
+		return
+	if visual_node != null:
+		remove_child(visual_node)
+		visual_node.queue_free()
+	visual_node = Node2D.new()
+	visual_node.name = "FinalTextureVisual"
+	var sprite := Sprite2D.new()
+	sprite.texture = texture
+	var floor_pivot: bool = contract.uses_floor_contact_pivot()
+	var top_left_pivot: bool = contract.pivot_type == "FULL_CANVAS_TOP_LEFT"
+	sprite.centered = not floor_pivot and not top_left_pivot
+	var source_size: Vector2 = texture.get_size()
+	if source_size.x > 0.0 and source_size.y > 0.0:
+		if contract.fit_policy == "NATIVE_REFERENCE_SCALE":
+			sprite.scale = Vector2.ONE
+		else:
+			var uniform_scale: float = minf(contract.target_bounds.x / source_size.x,
+				contract.target_bounds.y / source_size.y)
+			sprite.scale = Vector2.ONE * uniform_scale
+	if floor_pivot:
+		sprite.offset = Vector2(-source_size.x * 0.5, -source_size.y)
+	elif top_left_pivot:
+		sprite.offset = Vector2.ZERO
+	visual_node.add_child(sprite)
+	add_child(visual_node)
+	move_child(visual_node, 0)
 
 
 func _validate_placement() -> void:

@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://dckhiurlimwwc"]
+
+[ext_resource type="Script" uid="uid://bousbs4paqgye" path="res://scripts/dev/world_hardening/hardening_world.gd" id="1"]
+[ext_resource type="Script" uid="uid://p0fslvjg8r08" path="res://scripts/dev/world_lab/lab_floor.gd" id="2"]
+[ext_resource type="Script" uid="uid://cd87ib1d37re4" path="res://scripts/dev/world_hardening/hardening_navigation.gd" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/counter_shell.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/espresso_station.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/table.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/chair.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/cat_bed.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/plant.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/scratch_post.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/seasonal_display.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/actor.tscn" id="12"]
+[ext_resource type="Script" uid="uid://vbl2hfwawwgk" path="res://scripts/dev/world_hardening/camera_input.gd" id="13"]
+[ext_resource type="Script" uid="uid://bilxvrd3shqq6" path="res://scripts/dev/world_hardening/camera_director.gd" id="14"]
+[ext_resource type="Script" uid="uid://b4xigcb6dq5gk" path="res://scripts/dev/world_hardening/event_fx.gd" id="15"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/debug_overlay.gd" id="16"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_capture.gd" id="17"]
+
+[node name="WorldArchitectureHardeningLab" type="Node2D" unique_id=1246965171]
+script = ExtResource("1")
+
+[node name="Architecture" type="Node2D" parent="." unique_id=1316118937]
+
+[node name="Floor" type="Node2D" parent="Architecture" unique_id=85081185]
+z_index = -10
+script = ExtResource("2")
+
+[node name="Navigation" type="NavigationRegion2D" parent="." unique_id=1627976445]
+script = ExtResource("3")
+
+[node name="DepthSortedLayer" type="Node2D" parent="." unique_id=465961326]
+y_sort_enabled = true
+
+[node name="WorldObjects" type="Node2D" parent="DepthSortedLayer" unique_id=1288894745]
+y_sort_enabled = true
+
+[node name="CounterServiceZone" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=63951171]
+y_sort_enabled = true
+
+[node name="CounterShell" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1314145905 instance=ExtResource("4")]
+position = Vector2(145, 205)
+
+[node name="EspressoStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=802739451 instance=ExtResource("5")]
+position = Vector2(330, 216)
+
+[node name="Table" parent="DepthSortedLayer/WorldObjects" unique_id=2034653159 instance=ExtResource("6")]
+position = Vector2(255, 455)
+
+[node name="ChairA" parent="DepthSortedLayer/WorldObjects" unique_id=665073746 instance=ExtResource("7")]
+position = Vector2(145, 600)
+stable_id = &"chair_a"
+
+[node name="ChairB" parent="DepthSortedLayer/WorldObjects" unique_id=271282826 instance=ExtResource("7")]
+position = Vector2(385, 595)
+stable_id = &"chair_b"
+
+[node name="CatBed" parent="DepthSortedLayer/WorldObjects" unique_id=1808818140 instance=ExtResource("8")]
+position = Vector2(115, 727)
+
+[node name="Plant" parent="DepthSortedLayer/WorldObjects" unique_id=856014172 instance=ExtResource("9")]
+position = Vector2(395, 710)
+
+[node name="ScratchPost" parent="DepthSortedLayer/WorldObjects" unique_id=1726413612 instance=ExtResource("10")]
+position = Vector2(435, 365)
+
+[node name="EventLayer" type="Node2D" parent="DepthSortedLayer" unique_id=119374478]
+visible = false
+y_sort_enabled = true
+
+[node name="SeasonalDisplay" parent="DepthSortedLayer/EventLayer" unique_id=1811840046 instance=ExtResource("11")]
+position = Vector2(76, 365)
+
+[node name="EventFX" type="Node2D" parent="DepthSortedLayer/EventLayer/SeasonalDisplay" unique_id=1703185880]
+script = ExtResource("15")
+
+[node name="Characters" type="Node2D" parent="DepthSortedLayer" unique_id=1465054651]
+y_sort_enabled = true
+
+[node name="Worker" parent="DepthSortedLayer/Characters" unique_id=1661984501 instance=ExtResource("12")]
+position = Vector2(452, 208)
+category = "worker"
+
+[node name="CustomerA" parent="DepthSortedLayer/Characters" unique_id=556268617 instance=ExtResource("12")]
+position = Vector2(75, 455)
+category = "customer"
+
+[node name="CustomerB" parent="DepthSortedLayer/Characters" unique_id=911409210 instance=ExtResource("12")]
+position = Vector2(430, 790)
+category = "customer"
+
+[node name="CatA" parent="DepthSortedLayer/Characters" unique_id=378260090 instance=ExtResource("12")]
+position = Vector2(100, 665)
+
+[node name="CatB" parent="DepthSortedLayer/Characters" unique_id=1041437843 instance=ExtResource("12")]
+position = Vector2(155, 720)
+
+[node name="CatC" parent="DepthSortedLayer/Characters" unique_id=942414676 instance=ExtResource("12")]
+position = Vector2(454, 453)
+
+[node name="CrossTableTarget" type="Marker2D" parent="." unique_id=128462201]
+position = Vector2(445, 455)
+
+[node name="DebugOverlay" type="Node2D" parent="."]
+visible = false
+z_index = 100
+script = ExtResource("16")
+
+[node name="CaptureHarness" type="Node" parent="."]
+script = ExtResource("17")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=1564740043]
+position = Vector2(260, 425)
+limit_left = -100
+limit_top = -100
+limit_right = 620
+limit_bottom = 950
+
+[node name="CameraInput" type="Node" parent="." unique_id=1616663809]
+script = ExtResource("13")
+camera = NodePath("../Camera")
+
+[node name="CameraDirector" type="Node" parent="." unique_id=1185582321]
+script = ExtResource("14")
+camera = NodePath("../Camera")
+camera_input = NodePath("../CameraInput")
+hud = NodePath("../HUD")
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=809940317]
+
+[node name="Status" type="Label" parent="HUD" unique_id=2092802897]
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 520.0
+offset_bottom = 49.0
+theme_override_font_sizes/font_size = 12
+text = "WORLD HARDENING LAB  |  F8 MOVE  F9 DEMO  F10 EVENT  F11 FOCUS"

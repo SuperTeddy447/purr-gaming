@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+
+[node name="CounterShell" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"counter_shell"
+kind = "counter"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -22)
+script = ExtResource("2")
+footprint_size = Vector2(224, 55)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="OrderPoint" type="Marker2D" parent="."]
+position = Vector2(-74, 55)
+
+[node name="ServePoint" type="Marker2D" parent="."]
+position = Vector2(72, 55)
+
+[node name="CustomerApproach" type="Marker2D" parent="."]
+position = Vector2(0, 75)
+
+[node name="WorkerIdle" type="Marker2D" parent="."]
+position = Vector2(-83, -88)

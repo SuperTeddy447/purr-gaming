@@ -1,0 +1,39 @@
+{
+  "asset_id": "cat_rest_cushion_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cat_rest_cushion_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cat_rest_cushion_home_v2_01/cat_rest_cushion_home_v2_01.png",
+  "source_sha256": "cb2b2976d0074a75d1ea3b60926f6d738d5f33b17c32d13bdc1a0e64e98cbd74",
+  "runtime_sha256": "8e841db91ff55910ebdcba04f6d7b330d586bb7328507812e1e5f83141fdcaa9",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_dimensions": [
+    1444,
+    726
+  ],
+  "source_visual_bounds": [
+    68,
+    176,
+    1480,
+    886
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1428,
+    726
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    722.0,
+    726
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 12087,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

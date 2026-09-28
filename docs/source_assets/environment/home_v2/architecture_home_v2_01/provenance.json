@@ -1,0 +1,23 @@
+{
+  "asset_id": "architecture_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular architecture home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/architecture_home_v2_01/source_v2.png",
+  "source_sha256": "ea511c4e6a67aceea4217edd6d0f7c49c6020937429e2cb4a7121c4340a9b0fe",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "forge_runtime_dimensions": [
+    941,
+    1672
+  ],
+  "forge_pivot": "FULL_CANVAS_TOP_LEFT",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "Second candidate removed baked furniture/signage; fixed structure only. Full canvas has no proven overscan."
+}

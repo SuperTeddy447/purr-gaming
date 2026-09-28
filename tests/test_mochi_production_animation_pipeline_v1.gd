@@ -6,6 +6,7 @@ const HOME: PackedScene = preload("res://scenes/home/home_scene.tscn")
 const REFERENCE: Texture2D = preload("res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png")
 const SOURCE_PNG_PATH: String = "res://docs/source_assets/mochi/walk_side_v1/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT_front_walk_walk.png"
 const RUNTIME_WALK_FRAMES: SpriteFrames = preload("res://assets/characters/mochi/animations/walk/mochi_walk_side_right_prototype_v1.tres")
+const RUNTIME_CARRY_DOWN_FRAMES: SpriteFrames = preload("res://assets/characters/mochi/animations/carry_coffee/mochi_carry_coffee_down_candidate_v1.tres")
 
 
 func _init() -> void:
@@ -109,9 +110,25 @@ func _check_map_and_resolution() -> bool:
 		"The shared semantic set must select the unflipped TEMP walk_down clip"):
 		return false
 	var carry_right: Dictionary = set.resolve(&"carry_coffee", &"RIGHT")
+	var carry_down: Dictionary = set.resolve(&"carry_coffee", &"DOWN")
+	var carry_left: Dictionary = set.resolve(&"carry_coffee", &"LEFT")
+	var carry_up: Dictionary = set.resolve(&"carry_coffee", &"UP")
 	var return_right: Dictionary = set.resolve(&"return_idle", &"RIGHT")
 	var prepare_right: Dictionary = set.resolve(&"prepare_coffee", &"RIGHT")
 	var serve_right: Dictionary = set.resolve(&"serve", &"RIGHT")
+	if not _check(RUNTIME_CARRY_DOWN_FRAMES.has_animation(&"carry_coffee_down") \
+		and RUNTIME_CARRY_DOWN_FRAMES.get_frame_count(&"carry_coffee_down") == 8 \
+		and RUNTIME_CARRY_DOWN_FRAMES.get_animation_loop(&"carry_coffee_down") \
+		and is_equal_approx(RUNTIME_CARRY_DOWN_FRAMES.get_animation_speed(&"carry_coffee_down"), 8.0) \
+		and RUNTIME_CARRY_DOWN_FRAMES.get_frame_texture(&"carry_coffee_down", 0).get_size() == Vector2(800.0, 850.0),
+		"DOWN carry candidate must provide eight looping 800x850 frames at 8 FPS"):
+		return false
+	if not _check(carry_down["source"] == &"TEMP" and carry_down["clip"] == &"carry_coffee_down" \
+		and carry_down["resolved_action"] == &"carry_coffee" and not carry_down["flip_h"] \
+		and carry_left["resolved_action"] == &"walk" and carry_right["resolved_action"] == &"walk" \
+		and carry_up["resolved_action"] == &"walk",
+		"Only DOWN carry may use the candidate until a cup-free LEFT source is available; RIGHT/UP and LEFT must retain fallback"):
+		return false
 	if not _check(carry_right["source"] == &"TEMP" and carry_right["resolved_action"] == &"walk" \
 		and return_right["source"] == &"TEMP" and return_right["resolved_action"] == &"walk" \
 		and prepare_right["source"] == &"TEMP" and prepare_right["clip"] == &"prepare_coffee" \
@@ -198,6 +215,15 @@ func _check_preview_and_geometry() -> bool:
 		and presenter.static_sprite.visible and not presenter.animated_sprite.visible,
 		"Preview must start with 150 px layered idle using the canonical TEMP fallback"):
 		return false
+	presenter.play_action(&"carry_coffee")
+	if not _check(presenter.resolved_source == &"TEMP" and presenter.resolved_clip == &"carry_coffee_down" \
+		and presenter.animated_sprite.animation == &"carry_coffee_down" \
+		and is_equal_approx(475.0 * presenter.animated_sprite.scale.y, 150.0) \
+		and is_equal_approx((presenter.animated_sprite.offset.y + 700.0) * presenter.animated_sprite.scale.y, 0.0) \
+		and preview.carry_anchor.global_position == carry_before and actor.global_position == foot_before,
+		"DOWN carry preview must keep the 150 px height, registered root and separate CarryAnchor"):
+		return false
+	presenter.play_action(&"idle")
 	var spritecook_toggle := InputEventKey.new()
 	spritecook_toggle.keycode = KEY_8
 	spritecook_toggle.pressed = true

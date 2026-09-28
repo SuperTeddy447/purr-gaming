@@ -1,0 +1,39 @@
+{
+  "asset_id": "cat_scratch_post_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/cat_scratch_post_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/cat_scratch_post_home_v2_01/cat_scratch_post_home_v2_01.png",
+  "source_sha256": "a3a767f8fc84c521dac4b1ef7165b50dd423cc99289533aab5a92355627cfd2f",
+  "runtime_sha256": "8a1d0d71ae89dfa8327c018e8f1e38da634aa939cc1ced16d0d4a41c400a956b",
+  "source_dimensions": [
+    1024,
+    1536
+  ],
+  "runtime_dimensions": [
+    762,
+    1398
+  ],
+  "source_visual_bounds": [
+    148,
+    74,
+    878,
+    1456
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    746,
+    1398
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    381.0,
+    1398
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 18318,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

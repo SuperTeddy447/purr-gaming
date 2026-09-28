@@ -1,0 +1,39 @@
+{
+  "asset_id": "espresso_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/espresso_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/espresso_home_v2_01/espresso_home_v2_01.png",
+  "source_sha256": "69269fbd86b67067513437cdb50a35d564a3124f14aeb84823fdc5fc4aff4c32",
+  "runtime_sha256": "600878327f17f55211fae7687771d4f3ccda9a4c81c2f548cad29041955265fd",
+  "source_dimensions": [
+    1152,
+    1365
+  ],
+  "runtime_dimensions": [
+    1122,
+    1234
+  ],
+  "source_visual_bounds": [
+    39,
+    93,
+    1129,
+    1311
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1106,
+    1234
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    561.0,
+    1234
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 14120,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

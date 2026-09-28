@@ -1,8 +1,6 @@
-[gd_resource type="Resource" script_class="SliceCoffeeOrder" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="SliceCoffeeOrder" format=3 uid="uid://dokud32853430"]
 
-[ext_resource type="Script" path="res://scripts/slice/slice_coffee_order.gd" id="1_order"]
+[ext_resource type="Script" uid="uid://b2pqu5odct68a" path="res://scripts/slice/slice_coffee_order.gd" id="1_order"]
 
 [resource]
 script = ExtResource("1_order")
-order_id = &"order_coffee_basic_01"
-reward_coins = 5

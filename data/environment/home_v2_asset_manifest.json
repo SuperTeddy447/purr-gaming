@@ -1,0 +1,473 @@
+{
+  "version": "WILLICAT_VISUAL_UNIVERSE_V2_PRODUCTION_MASTER_BATCH_01",
+  "status": "CANDIDATE",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "preview_scene": "scenes/dev/home_v2_environment_preview.tscn",
+  "source_root": "docs/source_assets/environment/home_v2",
+  "assets": [
+    {
+      "asset_id": "architecture_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/architecture_home_v2_01/source_v2.png",
+      "runtime_png": "assets/environment/home_v2/architecture_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/architecture_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        941,
+        1672
+      ],
+      "pivot": "FULL_CANVAS_TOP_LEFT",
+      "pivot_pixel": [
+        0,
+        0
+      ],
+      "floor_contact": false,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": "No verified world overscan; camera bounds must be visually reviewed."
+    },
+    {
+      "asset_id": "cake_set_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cake_set_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cake_set_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cake_set_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1066,
+        1026
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        533,
+        1026
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": null
+    },
+    {
+      "asset_id": "cat_bed_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cat_bed_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cat_bed_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cat_bed_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1190,
+        948
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        595,
+        948
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "preview_prop_placement": "cat_rest_01",
+      "warning": null
+    },
+    {
+      "asset_id": "cat_inspection_basket_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cat_inspection_basket_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cat_inspection_basket_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cat_inspection_basket_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1351,
+        846
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        675.5,
+        846
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "preview_prop_placement": "cat_inspect_basket_01",
+      "warning": null
+    },
+    {
+      "asset_id": "cat_rest_cushion_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cat_rest_cushion_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cat_rest_cushion_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cat_rest_cushion_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1444,
+        726
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        722,
+        726
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": null
+    },
+    {
+      "asset_id": "cat_scratch_post_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cat_scratch_post_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cat_scratch_post_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cat_scratch_post_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        762,
+        1398
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        381,
+        1398
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": null
+    },
+    {
+      "asset_id": "cat_window_perch_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/cat_window_perch_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/cat_window_perch_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/cat_window_perch_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1370,
+        915
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        685,
+        915
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": null
+    },
+    {
+      "asset_id": "chair_jade_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/chair_jade_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/chair_jade_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/chair_jade_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        864,
+        1050
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        432,
+        1050
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "counter_front_occluder_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/counter_front_occluder_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/counter_front_occluder_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/counter_front_occluder_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1918,
+        687
+      ],
+      "pivot": "COUNTER_FRONT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        959,
+        687
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "counter_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/counter_home_v2_01/source_v2.png",
+      "runtime_png": "assets/environment/home_v2/counter_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/counter_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1927,
+        624
+      ],
+      "pivot": "COUNTER_BACK_SURFACE_CENTER",
+      "pivot_pixel": [
+        963.5,
+        312
+      ],
+      "floor_contact": false,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "espresso_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/espresso_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/espresso_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/espresso_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1122,
+        1234
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        561,
+        1234
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "flower_vase_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/flower_vase_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/flower_vase_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/flower_vase_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1200,
+        1151
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        600,
+        1151
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "grinder_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/grinder_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/grinder_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/grinder_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        602,
+        1381
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        301,
+        1381
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "pastry_case_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/pastry_case_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/pastry_case_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/pastry_case_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1229,
+        1064
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        614.5,
+        1064
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "pastry_set_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/pastry_set_home_v2_01/source_v1.png",
+      "runtime_png": null,
+      "forge_qa": "docs/source_assets/environment/home_v2/pastry_set_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1378,
+        834
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        689,
+        834
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": "Generated warm shadow/glow surrounds tray; source not integrated pending review."
+    },
+    {
+      "asset_id": "plant_floor_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/plant_floor_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/plant_floor_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/plant_floor_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1003,
+        1426
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        501.5,
+        1426
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "plant_hanging_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/plant_hanging_home_v2_01/source_v1.png",
+      "runtime_png": null,
+      "forge_qa": "docs/source_assets/environment/home_v2/plant_hanging_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        915,
+        1530
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        457.5,
+        765
+      ],
+      "floor_contact": false,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": "Background glow is visible; not integrated pending review."
+    },
+    {
+      "asset_id": "plant_small_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/plant_small_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/plant_small_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/plant_small_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1129,
+        1173
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        564.5,
+        1173
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "pos_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/pos_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/pos_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/pos_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1029,
+        1096
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        514.5,
+        1096
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "signage_blank_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/signage_blank_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/signage_blank_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/signage_blank_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1189,
+        1233
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        594.5,
+        616.5
+      ],
+      "floor_contact": false,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    },
+    {
+      "asset_id": "stool_home_v2_01",
+      "priority": "P1",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/stool_home_v2_01/source_v1.png",
+      "runtime_png": "assets/environment/home_v2/stool_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/stool_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        843,
+        1000
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        421.5,
+        1000
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": false,
+      "warning": null
+    },
+    {
+      "asset_id": "table_round_home_v2_01",
+      "priority": "P0",
+      "status": "CANDIDATE",
+      "source": "docs/source_assets/environment/home_v2/table_round_home_v2_01/source_v2.png",
+      "runtime_png": "assets/environment/home_v2/table_round_home_v2_01.png",
+      "forge_qa": "docs/source_assets/environment/home_v2/table_round_home_v2_01/forge_qa.json",
+      "runtime_dimensions": [
+        1172,
+        823
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        586,
+        823
+      ],
+      "floor_contact": true,
+      "technical_qa": "PASS",
+      "integrated_slot": true,
+      "warning": null
+    }
+  ]
+}

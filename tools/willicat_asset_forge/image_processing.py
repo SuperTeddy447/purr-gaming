@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import math
+
 from PIL import Image
 
 from . import config
@@ -103,3 +105,52 @@ def detect_alpha_halo(
                     return True
 
     return suspect_count > 0
+
+
+def root_preserving_expand(
+    frame: Image.Image,
+    runtime_width: int,
+    runtime_height: int,
+    root_x: int,
+    baseline_y: int,
+    source_root_x: float | int,
+    source_baseline_y: int,
+) -> Image.Image:
+    """Place *frame* onto a transparent canvas of (runtime_width × runtime_height).
+
+    The frame is positioned so that its registration point
+    (source_root_x, source_baseline_y) maps to (root_x, baseline_y)
+    in the output canvas.  No resizing — original pixels are preserved.
+
+    The integer translation is:
+        dx = root_x - round(source_root_x)
+        dy = baseline_y - source_baseline_y
+
+    Pixels that fall outside the canvas are silently clipped (should not
+    happen if canvas size is chosen properly).
+
+    Args:
+        frame: Source RGBA image (variable width × source height).
+        runtime_width: Width of the output cell.
+        runtime_height: Height of the output cell.
+        root_x: Target X position of the character root in the output.
+        baseline_y: Target Y position of the character baseline in the output.
+        source_root_x: X position of the character root in the source frame.
+        source_baseline_y: Y position of the baseline in the source frame.
+
+    Returns:
+        RGBA image of exactly (runtime_width × runtime_height).
+    """
+    rgba = ensure_rgba(frame)
+
+    # Integer translation.
+    # Use traditional round-half-up (floor(x + 0.5)) instead of Python's
+    # banker's rounding (round()) to match the known-good registration
+    # pipeline.  Python round(154.5) == 154 (even), but the reference
+    # pipeline computes floor(154.5 + 0.5) == 155.
+    dx = root_x - int(math.floor(source_root_x + 0.5))
+    dy = baseline_y - source_baseline_y
+
+    canvas = Image.new("RGBA", (runtime_width, runtime_height), (0, 0, 0, 0))
+    canvas.paste(rgba, (dx, dy))
+    return canvas

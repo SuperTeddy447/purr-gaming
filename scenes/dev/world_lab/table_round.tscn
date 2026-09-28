@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_lab/lab_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_lab/lab_destination.gd" id="2"]
+
+[sub_resource type="CircleShape2D" id="Footprint"]
+radius = 18.0
+
+[node name="TableRound" type="Node2D"]
+script = ExtResource("1")
+kind = "table"
+stable_id = &"table_round"
+
+[node name="Collision" type="StaticBody2D" parent="."]
+position = Vector2(0, -10)
+collision_layer = 2
+collision_mask = 0
+
+[node name="Footprint" type="CollisionShape2D" parent="Collision"]
+shape = SubResource("Footprint")
+
+[node name="TableApproach" type="Marker2D" parent="."]
+position = Vector2(0, 54)
+script = ExtResource("2")
+semantic_id = &"table_approach"
+

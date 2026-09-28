@@ -1,0 +1,39 @@
+{
+  "asset_id": "counter_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/counter_home_v2_01/source_v2.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/counter_home_v2_01/counter_home_v2_01.png",
+  "source_sha256": "45cc2c82cd915f0dcf35e8c4b8e4e9f9219c08314b55dbba0c2023cd04870188",
+  "runtime_sha256": "edb6eb5de02916965ca8ab9d24790a45324cb1fb89ee58f6de792d49db15e6ed",
+  "source_dimensions": [
+    1983,
+    793
+  ],
+  "runtime_dimensions": [
+    1927,
+    624
+  ],
+  "source_visual_bounds": [
+    58,
+    95,
+    1953,
+    687
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1911,
+    608
+  ],
+  "pivot": "COUNTER_BACK_SURFACE_CENTER",
+  "pivot_pixel": [
+    963.5,
+    312.0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 12571,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

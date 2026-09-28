@@ -1,0 +1,39 @@
+{
+  "asset_id": "plant_floor_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/plant_floor_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/plant_floor_home_v2_01/plant_floor_home_v2_01.png",
+  "source_sha256": "8b690c30a338d81341d517e738ac91e2466c16296273d7bf266933ec3fcb9153",
+  "runtime_sha256": "0239b9e3238e2f1a79f74be77fba47d3785657c9cf19b7078bc0b4af1b09c8cd",
+  "source_dimensions": [
+    1024,
+    1536
+  ],
+  "runtime_dimensions": [
+    1003,
+    1426
+  ],
+  "source_visual_bounds": [
+    34,
+    47,
+    1005,
+    1457
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    987,
+    1426
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    501.5,
+    1426
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 21351,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

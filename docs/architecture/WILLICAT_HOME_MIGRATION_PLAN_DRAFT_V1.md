@@ -1,0 +1,15 @@
+# Home migration plan draft V1 — requires human approval
+
+**Status: draft only. No Home migration was performed in the bootcamp.** The existing playable Home and True Vertical Slice remain the product/regression baseline. Do not start these stages until a human reviews the two labs, visual depth evidence, interaction feel, and the recommendation.
+
+1. **Freeze behavior and identity contracts.** Catalogue the 17 stable asset IDs, Home camera/aspect profiles, current CustomerSpawn/Exit, Seat A–D, station/worker markers, routes, depth layers, tap areas, and all manual/auto loop tests. Save before/after viewport evidence. Do not alter rewards, timing, or Mochi scale.
+2. **Design a semantic resolver and migration adapter.** Define stable room/object/seat instance IDs, role queries, duplicate-role selection, occupancy, live registration/invalidation, and failure reporting. First map the existing global Home markers into this API without moving them. Existing `vertical_slice_controller.gd` remains the loop source of truth.
+3. **Spike one object only in a duplicate development room.** Author a CounterStation with local anchors/front occluder or, if movable separately, an EspressoStation subscene. Prove transform inheritance and tap/route/depth contracts. Leave production Home unchanged.
+4. **Convert seating and entrance in a new authored room.** Make Chair own SeatAnchor/ApproachAnchor and Entrance own threshold anchors. Preserve seat A–D identity and sequential customer ownership. Validate moving each root moves its gameplay points.
+5. **Establish room navigation and depth.** Author/bake walkable clearance around true object footprints, including dynamic decoration policy. Test customer and cat routes, counter/table/plant occlusion, carried cup depth, portrait camera pan/zoom and all supported aspects. Do not rely on the simplified rectangular lab navmesh.
+6. **Port one full coffee loop behind a switch/adapter.** Reuse existing order, service, reward-once, and reset state machines. Compare manual/auto timing and outcomes to current Home; add semantic-destination and relocation tests before changing defaults.
+7. **Visual/content parity and cutover decision.** Apply approved art through stable asset slots only after behavioral parity. Compare locked Visual Master, screen captures, mobile readability, memory/performance, signage, and multi-loop stability. Cut over only by explicit review; keep original Home intact and readily selectable until the new room passes.
+
+At each stage: isolate changes, run Godot editor scan plus relevant regression tests, capture real viewport evidence, and maintain a reversible scene/feature switch. Stop rather than silently repositioning approved art or changing gameplay when a spatial contract fails.
+
+Open decisions: whether coffee action is owned by CounterStation or a removable EspressoStation; whether decoration warrants an invisible grid now; navmesh rebake policy; duplicate station selection; save schema/stable instance IDs; actual mobile draw/path budget. These require design/technical review, not assumptions baked into the prototype.

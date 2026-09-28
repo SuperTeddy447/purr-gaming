@@ -15,6 +15,10 @@ venv/
 *.egg-info/
 dist/
 build/
+.pytest_cache/
+
+# Streamlit
+.streamlit/
 
 # IDE
 .idea/

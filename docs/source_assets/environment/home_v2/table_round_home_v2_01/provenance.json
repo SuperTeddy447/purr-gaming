@@ -1,0 +1,23 @@
+{
+  "asset_id": "table_round_home_v2_01",
+  "status": "CANDIDATE",
+  "generated_on": "2026-09-28",
+  "reference_style": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_PRODUCTION_STYLE_LOCK_V1.png",
+  "reference_composition": "docs/references/home/home/v2/WILLICAT_HOME_ENVIRONMENT_V2_GAMEPLAY_TRANSLATION_V1.png",
+  "generation_intent": "Standalone modular table round home v2 01 in WilliCat V2 warm cream/walnut/jade/copper matte illustrated style; preserve complete silhouette, transparent background except full-canvas architecture; no characters or lettering.",
+  "prompt_record_note": "Generation intent summary, not a verbatim copy of the image-model prompt.",
+  "selected_source": "docs/source_assets/environment/home_v2/table_round_home_v2_01/source_v2.png",
+  "source_sha256": "613bd9cee2b930a1c4f198b61a7f04d85127b1c85b42ca507a5c1ccd8b67352e",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "forge_runtime_dimensions": [
+    1172,
+    823
+  ],
+  "forge_pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "forge_qa": "PASS (technical only)",
+  "human_review": "REQUIRED",
+  "notes": "Second candidate has broader low table proportions for target slot."
+}

@@ -1,0 +1,39 @@
+{
+  "asset_id": "pos_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/pos_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/pos_home_v2_01/pos_home_v2_01.png",
+  "source_sha256": "571f131b21d9bf9234d796b5f4b1e0fce782be881d1d6e41f82ffb818bf26c98",
+  "runtime_sha256": "9a54262f76a7ca2ebd9172b2ff06f1834c9e67b8dda4a9e9d40473265eb4e88a",
+  "source_dimensions": [
+    1269,
+    1239
+  ],
+  "runtime_dimensions": [
+    1029,
+    1096
+  ],
+  "source_visual_bounds": [
+    169,
+    103,
+    1166,
+    1183
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1013,
+    1096
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    514.5,
+    1096
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 10493,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

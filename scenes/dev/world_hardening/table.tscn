@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+
+[node name="Table" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"table"
+kind = "table"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -24)
+script = ExtResource("2")
+footprint_size = Vector2(108, 80)

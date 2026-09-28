@@ -1,3 +1,42 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python & Developer Tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Addon temporary files
+addons/.godot_ai_update/
+
+# Source asset intermediate frame extractions & local diagnostics
+docs/source_assets/**/raw_splits/
+docs/source_assets/**/runtime_frames/
+docs/source_assets/**/*_PREVIEW.png
+docs/source_assets/**/*_DIAGNOSTIC.png
+
+# Local prototype review capture screenshots
+artifacts/prototype_review/**/*.png

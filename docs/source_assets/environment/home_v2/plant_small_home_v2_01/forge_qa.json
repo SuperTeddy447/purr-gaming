@@ -1,0 +1,39 @@
+{
+  "asset_id": "plant_small_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/plant_small_home_v2_01/source_v1.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/plant_small_home_v2_01/plant_small_home_v2_01.png",
+  "source_sha256": "31f2e626d2c4b92ed2adcf47f8c46ea94b168b320915687a45409cd1160fd3cc",
+  "runtime_sha256": "948e955c0502fa3ce47f5bd3970fbf483eb386e3fa094d9fe8fc7b25ba423bd6",
+  "source_dimensions": [
+    1237,
+    1272
+  ],
+  "runtime_dimensions": [
+    1129,
+    1173
+  ],
+  "source_visual_bounds": [
+    109,
+    56,
+    1206,
+    1213
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1113,
+    1173
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    564.5,
+    1173
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 21590,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

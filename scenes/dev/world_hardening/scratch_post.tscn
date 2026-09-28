@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+
+[node name="ScratchPost" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"scratch_post"
+kind = "scratch"
+shared_capacity = 1
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -5)
+script = ExtResource("2")
+footprint_size = Vector2(42, 25)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="ScratchSlot" parent="." instance=ExtResource("3")]
+action_type = &"scratch"
+allowed_categories = PackedStringArray("cat")
+character_action = &"Scratch"
+
+[node name="ApproachAnchor" parent="ScratchSlot" index="0"]
+position = Vector2(0, 35)
+
+[node name="ActionAnchor" parent="ScratchSlot" index="1"]
+position = Vector2(0, 22)
+
+[node name="ExitAnchor" parent="ScratchSlot" index="2"]
+position = Vector2(0, 35)
+
+[node name="StretchSlot" parent="." instance=ExtResource("3")]
+action_type = &"stretch"
+allowed_categories = PackedStringArray("cat")
+character_action = &"Stretch"
+
+[node name="ApproachAnchor" parent="StretchSlot" index="0"]
+position = Vector2(0, 35)
+
+[node name="ActionAnchor" parent="StretchSlot" index="1"]
+position = Vector2(0, 22)
+
+[node name="ExitAnchor" parent="StretchSlot" index="2"]
+position = Vector2(0, 35)
+
+[editable path="ScratchSlot"]
+[editable path="StretchSlot"]

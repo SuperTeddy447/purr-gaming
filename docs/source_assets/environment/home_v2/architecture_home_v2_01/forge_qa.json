@@ -1,0 +1,39 @@
+{
+  "asset_id": "architecture_home_v2_01",
+  "status": "CANDIDATE",
+  "source_path": "/Users/teddywoot/willi-cat/docs/source_assets/environment/home_v2/architecture_home_v2_01/source_v2.png",
+  "runtime_path": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/output/home_v2/architecture_home_v2_01/architecture_home_v2_01.png",
+  "source_sha256": "ea511c4e6a67aceea4217edd6d0f7c49c6020937429e2cb4a7121c4340a9b0fe",
+  "runtime_sha256": "ea511c4e6a67aceea4217edd6d0f7c49c6020937429e2cb4a7121c4340a9b0fe",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "runtime_dimensions": [
+    941,
+    1672
+  ],
+  "source_visual_bounds": [
+    0,
+    0,
+    941,
+    1672
+  ],
+  "runtime_visual_bounds": [
+    0,
+    0,
+    941,
+    1672
+  ],
+  "pivot": "FULL_CANVAS_TOP_LEFT",
+  "pivot_pixel": [
+    0,
+    0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": null,
+  "padding": 0,
+  "low_alpha_fringe_pixels_removed": 0,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}
