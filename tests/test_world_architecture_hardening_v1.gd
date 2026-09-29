@@ -25,6 +25,12 @@ func _run() -> void:
 	_check(footprint.footprint_size.x < 150.0, "Footprint mistakenly uses full artwork bounds")
 	var start := (world.actors.get_node("CustomerA") as HardeningActor).global_position
 	var target := (world.get_node("CrossTableTarget") as Marker2D).global_position
+	var path := PackedVector2Array()
+	for frame in 30:
+		path = NavigationServer2D.map_get_path(nav.get_navigation_map(), start, target, true)
+		if path.size() >= 3:
+			break
+		await physics_frame
 	print("HARDENING nav iteration=%d map=%s regionmap=%s worldmap=%s nearest=%s/%s" % [
 		NavigationServer2D.map_get_iteration_id(nav.get_navigation_map()), str(nav.get_navigation_map()),
 		str(NavigationServer2D.region_get_map(nav.get_rid())), str(world.get_world_2d().navigation_map),
@@ -36,7 +42,6 @@ func _run() -> void:
 		str(NavigationServer2D.map_is_active(nav.get_navigation_map())),
 		NavigationServer2D.region_get_iteration_id(nav.get_rid()),
 		str(NavigationServer2D.region_get_closest_point(nav.get_rid(), start))])
-	var path := NavigationServer2D.map_get_path(nav.get_navigation_map(), start, target, true)
 	print("HARDENING table path=%s footprint=%s" % [str(path), str(footprint.global_bounds())])
 	_check(path.size() >= 3, "Table path did not bend around obstacle")
 	var path_length := 0.0
@@ -95,6 +100,27 @@ func _run() -> void:
 	rest.enabled = true
 	_check(not world.find_object(&"espresso_station").get_node("CoffeeActionSlot").reserve(cat_a),
 		"Cat reserved worker-only coffee slot")
+	_check(cat_a.request_interaction_on(&"cat_bed", &"sleep"),
+		"Interrupted-action probe could not reserve SleepSlot")
+	cat_a.cancel_action(&"test_interrupt")
+	_check(sleep.use_count() == 0 and bed.shared_use_count() == 0,
+		"Interrupted action left bed reserved")
+	var chair_b_authored := chair_b.global_position
+	_check(world.move_object(&"chair_b", Vector2(-180, -180)),
+		"Navigation-failure probe could not stage inaccessible chair")
+	await physics_frame
+	_check(customer_b.request_interaction_on(&"chair_b", &"sit"),
+		"Navigation-failure probe could not reserve chair")
+	for frame in 450:
+		if customer_b.phase == HardeningActor.Phase.IDLE:
+			break
+		await physics_frame
+	_check(customer_b.phase == HardeningActor.Phase.IDLE and customer_b.failed_navigation
+		and seat_b.use_count() == 0,
+		"Navigation failure did not release inaccessible Chair B")
+	_check(world.move_object(&"chair_b", chair_b_authored),
+		"Navigation-failure probe did not restore Chair B")
+	await physics_frame
 
 	# Reset the probe actor near its authored starting point; this is test staging,
 	# not generic behavior or an authored destination constant.
@@ -255,6 +281,25 @@ func _run() -> void:
 	await process_frame
 	_check(director.mode == HardeningCameraDirector.Mode.GAMEPLAY and controls.input_enabled,
 		"Freed focus anchor left camera stuck")
+	var emotion := HardeningCameraShot.new()
+	emotion.shot_id = &"emotion_compatibility"
+	emotion.transition_in = 0.08
+	emotion.hold_duration = -1.0
+	emotion.follow_target = true
+	var emotion_anchor := customer_a.get_node("CameraEmotionFocus") as Marker2D
+	_check(director.request_shot(emotion_anchor, emotion),
+		"Character-owned emotion focus rejected")
+	for frame in 120:
+		if director.is_holding():
+			break
+		await process_frame
+	customer_a.global_position += Vector2(12, 0)
+	await process_frame
+	_check(director.is_holding() and camera.global_position.is_equal_approx(emotion_anchor.global_position),
+		"Camera did not follow moving character-owned focus anchor")
+	director.cancel(&"emotion_done")
+	_check(director.mode == HardeningCameraDirector.Mode.GAMEPLAY,
+		"Emotion shot did not restore gameplay ownership")
 
 	world.set_event_active(true)
 	_check(world.find_object(&"seasonal_display") != null and world.all_slots(&"inspect").size() == 1,
@@ -321,8 +366,19 @@ func _run() -> void:
 		and event_cat.phase == HardeningActor.Phase.IDLE and not event_cat.failed_navigation,
 		"Shared actors failed in second event room")
 	_check(event_room.all_reservations_clear(), "Event-room reservations leaked")
+	await _wait_camera_idle(event_room.camera_director, 360)
+	var exit_reasons: Array[StringName] = []
+	event_room.camera_director.shot_ended.connect(
+		func(_shot_id: StringName, reason: StringName) -> void: exit_reasons.append(reason))
+	var exit_shot := HardeningCameraShot.new()
+	exit_shot.shot_id = &"scene_exit_probe"
+	exit_shot.hold_duration = -1.0
+	_check(event_room.camera_director.request_shot(
+		event_room.find_object(&"espresso_station").get_node("CameraBrewFocus"), exit_shot),
+		"Scene-exit focus did not start")
 	event_room.queue_free()
 	await process_frame
+	_check(exit_reasons.has(&"scene_exit"), "Scene exit failed to release camera ownership")
 	if _ok:
 		print("--- WORLD ARCHITECTURE HARDENING V1 PASSED ---")
 	quit(0 if _ok else 1)

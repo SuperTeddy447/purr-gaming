@@ -14,6 +14,8 @@ signal demo_completed()
 @onready var actors: Node2D = $DepthSortedLayer/Characters
 
 @export var initial_event_active := false
+@export_range(1.0, 5.0, 0.05) var brew_shot_zoom := 2.45
+@export_range(1.0, 5.0, 0.05) var cup_shot_zoom := 2.65
 var event_active := false
 var demo_running := false
 var _move_step := 0
@@ -117,7 +119,7 @@ func move_object(id: StringName, new_global_position: Vector2) -> bool:
 	return true
 
 
-func validate_placement(id: StringName, position: Vector2, angle: float = 0.0) -> bool:
+func validate_placement(id: StringName, candidate_position: Vector2, angle: float = 0.0) -> bool:
 	## Conservative decoration-placement gate; does not silently move authored objects.
 	var object := find_object(id)
 	if object == null:
@@ -126,9 +128,9 @@ func validate_placement(id: StringName, position: Vector2, angle: float = 0.0) -
 	if footprint == null:
 		return false
 	var candidate := PackedVector2Array()
-	var transform := Transform2D(angle, position)
+	var candidate_transform := Transform2D(angle, candidate_position)
 	for corner in footprint.navigation_outline():
-		candidate.append(transform * object.to_local(corner))
+		candidate.append(candidate_transform * object.to_local(corner))
 	for corner in candidate:
 		if not navigation.walkable_bounds.has_point(corner):
 			return false
@@ -151,11 +153,11 @@ func _collect_footprints(node: Node, result: Array[HardeningFootprint]) -> void:
 		_collect_footprints(child, result)
 
 
-func place_object(id: StringName, position: Vector2, angle: float) -> bool:
-	if not validate_placement(id, position, angle):
+func place_object(id: StringName, new_position: Vector2, angle: float) -> bool:
+	if not validate_placement(id, new_position, angle):
 		return false
 	var object := find_object(id)
-	object.global_position = position
+	object.global_position = new_position
 	object.global_rotation = angle
 	return rebuild_navigation()
 
@@ -269,7 +271,7 @@ func _on_worker_action_started(slot: HardeningInteractionSlot) -> void:
 	$DepthSortedLayer/WorldObjects/CounterServiceZone/EspressoStation/CupSpawnAnchor/Cup.visible = false
 	var brew := HardeningCameraShot.new()
 	brew.shot_id = &"brew_closeup"
-	brew.zoom = 2.45
+	brew.zoom = brew_shot_zoom
 	brew.hold_duration = -1.0
 	brew.priority = 20
 	camera_director.request_shot($DepthSortedLayer/WorldObjects/CounterServiceZone/EspressoStation/CameraBrewFocus, brew)
@@ -283,7 +285,7 @@ func _on_worker_action_completed(slot: HardeningInteractionSlot) -> void:
 	$DepthSortedLayer/WorldObjects/CounterServiceZone/EspressoStation/CupSpawnAnchor/Cup.visible = true
 	var reveal := HardeningCameraShot.new()
 	reveal.shot_id = &"cup_reveal"
-	reveal.zoom = 2.65
+	reveal.zoom = cup_shot_zoom
 	reveal.transition_in = 0.22
 	reveal.hold_duration = 0.55
 	reveal.transition_out = 0.34

@@ -49,8 +49,8 @@ func accepts(actor: Node) -> bool:
 		return true
 	if _holders.size() >= capacity:
 		return false
-	var owner := _object_owner()
-	return owner == null or owner.can_accept_actor(actor)
+	var world_object := _object_owner()
+	return world_object == null or world_object.can_accept_actor(actor)
 
 
 func reserve(actor: Node) -> bool:
@@ -59,8 +59,8 @@ func reserve(actor: Node) -> bool:
 	var id := actor.get_instance_id()
 	if _holders.has(id):
 		return true
-	var owner := _object_owner()
-	if owner != null and not owner.claim_actor(actor):
+	var world_object := _object_owner()
+	if world_object != null and not world_object.claim_actor(actor):
 		return false
 	_holders[id] = &"reserved"
 	_actor_refs[id] = weakref(actor)
@@ -100,9 +100,9 @@ func _release_id(id: int, reason: StringName) -> void:
 			actor.tree_exiting.disconnect(callback)
 	_holders.erase(id)
 	_actor_refs.erase(id)
-	var owner := _object_owner()
-	if owner != null:
-		owner.release_actor(id)
+	var world_object := _object_owner()
+	if world_object != null:
+		world_object.release_actor(id)
 	released.emit(id, reason)
 
 

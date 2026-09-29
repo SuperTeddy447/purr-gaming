@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/seasonal_display.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/v3_fx_preview.gd" id="2"]
+
+[node name="SeasonalDisplay" instance=ExtResource("1")]
+
+[node name="EventFX" type="Node2D" parent="FXAnchor" index="0"]
+script = ExtResource("2")
+tint = Color(0.87, 0.62, 0.72, 1)
+short_label = "EVENT"
+
+[editable path="FXAnchor"]

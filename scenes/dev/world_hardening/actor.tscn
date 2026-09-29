@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=4 format=3]
 
 [ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_actor.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/v3_fx_preview.gd" id="2"]
 
 [sub_resource type="CircleShape2D" id="Feet"]
 radius = 8.0
@@ -14,3 +15,30 @@ script = ExtResource("1")
 shape = SubResource("Feet")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+
+[node name="CameraEmotionFocus" type="Marker2D" parent="."]
+position = Vector2(0, -46)
+
+[node name="HeadFX" type="Marker2D" parent="."]
+position = Vector2(0, -54)
+
+[node name="HeartFX" type="Marker2D" parent="."]
+position = Vector2(18, -65)
+
+[node name="Preview" type="Node2D" parent="HeartFX"]
+visible = false
+script = ExtResource("2")
+tint = Color(0.9, 0.45, 0.5, 1)
+short_label = "HEART"
+
+[node name="PurrFX" type="Marker2D" parent="."]
+position = Vector2(-17, -44)
+
+[node name="Preview" type="Node2D" parent="PurrFX"]
+visible = false
+script = ExtResource("2")
+tint = Color(0.68, 0.5, 0.76, 1)
+short_label = "PURR"
+
+[node name="FeetFX" type="Marker2D" parent="."]
+position = Vector2(0, -3)

@@ -1,0 +1,190 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_proof_world.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_proof_backdrop.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_proof_slot.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_proof_lamp.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/contact_shadow.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/world_atmosphere_director.gd" id="6"]
+[ext_resource type="Resource" path="res://scenes/dev/atmosphere/atmosphere_catalog.tres" id="7"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_state.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/window_lighting_controller.gd" id="9"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_proof_capture.gd" id="10"]
+[ext_resource type="Texture2D" path="res://docs/references/characters/WILLICAT_ORANGE_PROTAGONIST_FINAL_MASTER_V1.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/dev/home_v3/real_art_lighting_proof_v1/home_v3_lighting_sample_architecture_v1.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/dev/home_v3/real_art_lighting_proof_v1/home_v3_lighting_sample_window_v1.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/dev/home_v3/real_art_lighting_proof_v1/home_v3_lighting_sample_lamp_v1.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/dev/home_v3/real_art_lighting_proof_v1/home_v3_lighting_sample_furniture_v1.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/dev/home_v3/real_art_lighting_proof_v1/willi_orange_protagonist_proof_cutout_v1.png" id="16"]
+
+[sub_resource type="Resource" id="InitialState"]
+script = ExtResource("8")
+
+[sub_resource type="AtlasTexture" id="OrangeStandingReference"]
+atlas = ExtResource("11")
+region = Rect2(0, 0, 435, 390)
+
+[node name="HomeV3RealArtLightingProofV1" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Architecture" type="Node2D" parent="."]
+
+[node name="NeutralBackdrop" type="Node2D" parent="Architecture"]
+z_index = -10
+script = ExtResource("2")
+
+[node name="ArchitectureSample" type="Node2D" parent="Architecture"]
+position = Vector2(340, 350)
+script = ExtResource("3")
+asset_id = &"home_v3_lighting_sample_architecture_v1"
+expected_canvas_px = Vector2i(1400, 920)
+pivot_px = Vector2i(700, 600)
+world_scale = 0.25
+candidate_texture = ExtResource("12")
+placeholder_rect = Rect2(-155, -130, 310, 185)
+placeholder_color = Color(0.85, 0.8, 0.7, 0.48)
+
+[node name="Visual" type="Sprite2D" parent="Architecture/ArchitectureSample"]
+visible = false
+
+[node name="WindowLighting" type="Node2D" parent="Architecture"]
+position = Vector2(585, 446)
+script = ExtResource("9")
+
+[node name="PointLight2D" type="PointLight2D" parent="Architecture/WindowLighting"]
+position = Vector2(-60, 80)
+shadow_enabled = false
+
+[node name="WindowSample" type="Node2D" parent="Architecture"]
+position = Vector2(585, 446)
+script = ExtResource("3")
+asset_id = &"home_v3_lighting_sample_window_v1"
+expected_canvas_px = Vector2i(256, 768)
+pivot_px = Vector2i(128, 384)
+world_scale = 0.25
+candidate_texture = ExtResource("13")
+placeholder_rect = Rect2(-20, -86, 40, 172)
+placeholder_color = Color(0.5, 0.7, 0.67, 0.28)
+
+[node name="Visual" type="Sprite2D" parent="Architecture/WindowSample"]
+visible = false
+
+[node name="PracticalLamp" type="Node2D" parent="Architecture"]
+position = Vector2(156, 460)
+script = ExtResource("4")
+radius = 168.0
+
+[node name="PointLight2D" type="PointLight2D" parent="Architecture/PracticalLamp"]
+position = Vector2(0, 8)
+shadow_enabled = false
+
+[node name="LampSample" type="Node2D" parent="Architecture/PracticalLamp"]
+script = ExtResource("3")
+asset_id = &"home_v3_lighting_sample_lamp_v1"
+expected_canvas_px = Vector2i(256, 320)
+pivot_px = Vector2i(128, 200)
+world_scale = 0.25
+candidate_texture = ExtResource("14")
+placeholder_rect = Rect2(-18, -42, 36, 55)
+placeholder_color = Color(0.75, 0.59, 0.29, 0.23)
+
+[node name="Visual" type="Sprite2D" parent="Architecture/PracticalLamp/LampSample"]
+visible = false
+
+[node name="BulbVisual" type="Sprite2D" parent="Architecture/PracticalLamp/LampSample"]
+visible = false
+centered = false
+position = Vector2(-32, -50)
+scale = Vector2(0.25, 0.25)
+
+[node name="Furniture" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="ChairSample" type="Node2D" parent="Furniture"]
+position = Vector2(310, 795)
+script = ExtResource("3")
+asset_id = &"home_v3_lighting_sample_furniture_v1"
+expected_canvas_px = Vector2i(320, 320)
+pivot_px = Vector2i(160, 260)
+world_scale = 0.25
+candidate_texture = ExtResource("15")
+placeholder_rect = Rect2(-24, -44, 48, 44)
+placeholder_color = Color(0.19, 0.37, 0.33, 0.68)
+
+[node name="ContactShadow" type="Node2D" parent="Furniture/ChairSample"]
+script = ExtResource("5")
+
+[node name="Visual" type="Sprite2D" parent="Furniture/ChairSample"]
+visible = false
+
+[node name="Characters" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="OrangeProtagonistSample" type="Node2D" parent="Characters"]
+position = Vector2(380, 420)
+script = ExtResource("3")
+asset_id = &"willi_orange_protagonist_proof_cutout_v1"
+expected_canvas_px = Vector2i(512, 512)
+pivot_px = Vector2i(256, 452)
+world_scale = 0.356
+candidate_texture = ExtResource("16")
+placeholder_rect = Rect2(-68, -132, 136, 132)
+placeholder_color = Color(0.89, 0.5, 0.25, 0.2)
+
+[node name="ContactShadow" type="Node2D" parent="Characters/OrangeProtagonistSample"]
+script = ExtResource("5")
+
+[node name="Visual" type="Sprite2D" parent="Characters/OrangeProtagonistSample"]
+visible = false
+
+[node name="OpaqueSourcePreview" type="Sprite2D" parent="Characters/OrangeProtagonistSample"]
+texture = SubResource("OrangeStandingReference")
+centered = false
+position = Vector2(-73, -130)
+scale = Vector2(0.333, 0.333)
+
+[node name="SourceWarning" type="Label" parent="Characters/OrangeProtagonistSample"]
+offset_left = -80.0
+offset_top = -150.0
+offset_right = 90.0
+offset_bottom = -128.0
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.48, 0.16, 0.1, 1)
+text = "OPAQUE RGB PREVIEW / NOT LIGHTING VALID"
+
+[node name="WorldTint" type="CanvasModulate" parent="."]
+
+[node name="SunLight" type="DirectionalLight2D" parent="."]
+shadow_enabled = false
+
+[node name="AtmosphereDirector" type="Node" parent="."]
+script = ExtResource("6")
+catalog = ExtResource("7")
+initial_state = SubResource("InitialState")
+canvas_modulate_path = NodePath("../WorldTint")
+sun_path = NodePath("../SunLight")
+lamp_path = NodePath("../Architecture/PracticalLamp")
+window_path = NodePath("../Architecture/WindowLighting")
+
+[node name="CaptureHarness" type="Node" parent="."]
+script = ExtResource("10")
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2(320, 540)
+zoom = Vector2(1.8, 1.8)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="StatusBackdrop" type="ColorRect" parent="HUD"]
+anchor_right = 1.0
+offset_bottom = 62.0
+color = Color(0.91, 0.87, 0.77, 0.94)
+
+[node name="Status" type="Label" parent="HUD"]
+anchor_right = 1.0
+offset_left = 10.0
+offset_top = 7.0
+offset_right = -10.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.11, 0.15, 0.17, 1)

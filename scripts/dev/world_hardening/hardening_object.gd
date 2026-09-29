@@ -4,7 +4,7 @@ extends Node2D
 ## Small reusable object identity and shared-capacity boundary for the dev lab.
 
 @export var stable_id: StringName = &""
-@export_enum("counter", "espresso", "table", "chair", "bed", "plant", "scratch", "seasonal") var kind := "table":
+@export_enum("counter", "espresso", "table", "chair", "bed", "plant", "scratch", "seasonal", "grinder", "pos", "pastry", "perch", "entrance", "waiting") var kind := "table":
 	set(value):
 		kind = value
 		queue_redraw()
@@ -62,6 +62,23 @@ func _draw() -> void:
 		"seasonal":
 			draw_rect(Rect2(-27, -57, 54, 54), Color("#b48a85"))
 			draw_circle(Vector2(0, -67), 15, Color("#e3b6bf"))
+		"grinder":
+			draw_rect(Rect2(-24, -54, 48, 51), Color("#86817b"))
+			draw_circle(Vector2(0, -54), 15, Color("#b3a69a"))
+		"pos":
+			draw_rect(Rect2(-29, -46, 58, 43), Color("#6e7c78"))
+			draw_rect(Rect2(-21, -39, 42, 23), Color("#b9cabd"))
+		"pastry":
+			draw_rect(Rect2(-44, -52, 88, 49), Color("#ad8e72"))
+			draw_rect(Rect2(-38, -45, 76, 30), Color("#e2c8a0"))
+		"perch":
+			draw_rect(Rect2(-43, -47, 86, 44), Color("#a2b8ad"))
+			draw_rect(Rect2(-38, -42, 76, 27), Color("#d0dfd7"))
+		"entrance":
+			draw_rect(Rect2(-49, -66, 98, 68), Color("#a57d63"), false, 4)
+			draw_rect(Rect2(-7, -65, 14, 65), Color("#c49c7e"))
+		"waiting":
+			draw_arc(Vector2.ZERO, 29, 0, TAU, 32, Color("#94aaa1"), 3.0)
 	draw_string(ThemeDB.fallback_font, Vector2(-55, -82), String(stable_id), HORIZONTAL_ALIGNMENT_CENTER, 110, 10, Color("#4b3c35"))
 
 

@@ -1,0 +1,7 @@
+# Orange protagonist proof-mask provenance
+
+`orange_protagonist_3q_mask_v1.png` is a **derived grayscale alpha mask**, not an alternate character painting. It was generated locally with Apple Vision `VNGenerateForegroundInstanceMaskRequest` from crop `(0,0,435,390)` of the immutable `docs/references/characters/WILLICAT_ORANGE_PROTAGONIST_FINAL_MASTER_V1.png` (SHA-256 `f9c7f29bbafe6ada4c51968a473a135d6327ff9d8110e0025a865da705e9a8e7`). The selected top-left pose is the standing three-quarter four-paw pose. The 435×390 mask is retained so rebuilding the candidate is deterministic without rerunning the segmentation model.
+
+The crop's original RGB was combined with this saved mask and placed **without scaling** at `(38,74)` on a transparent 512×512 canvas. Among 69,509 fully opaque output pixels, RGB equals the corresponding original source pixels exactly (maximum channel difference 0). No fur, eye, muzzle, ear, tail or paw pixels were repainted. Edge/whisker quality still needs human review on dark backgrounds. The baked floor shadow was excluded by the mask; Godot owns the contact shadow.
+
+Rebuild the cropped RGB from the master with `ffmpeg -i MASTER -vf crop=435:390:0:0 -frames:v 1 crop.png`, then combine with the retained mask using `alphamerge,pad=512:512:38:74:color=black@0,format=rgba`. The final dev-only cutout is at `assets/dev/home_v3/real_art_lighting_proof_v1/willi_orange_protagonist_proof_cutout_v1.png`. Do not edit the master or promote this derivative to production art.

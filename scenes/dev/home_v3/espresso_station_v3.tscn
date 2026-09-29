@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/espresso_station.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/v3_fx_preview.gd" id="2"]
+
+[node name="EspressoStation" instance=ExtResource("1")]
+
+[node name="BrewFXAnchor" type="Marker2D" parent="."]
+position = Vector2(-15, -45)
+
+[node name="Preview" type="Node2D" parent="BrewFXAnchor"]
+visible = false
+script = ExtResource("2")
+short_label = "BREW"
+
+[node name="CupRevealFXAnchor" type="Marker2D" parent="."]
+position = Vector2(22, -28)
+
+[node name="Preview" type="Node2D" parent="CupRevealFXAnchor"]
+visible = false
+script = ExtResource("2")
+short_label = "CUP"

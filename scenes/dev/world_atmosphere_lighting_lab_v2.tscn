@@ -1,0 +1,78 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3_level_design_pass_01.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_lab_world.gd" id="2"]
+[ext_resource type="Resource" path="res://scenes/dev/atmosphere/atmosphere_catalog.tres" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/world_atmosphere_director.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_lamp.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/window_lighting_controller.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/contact_shadow.gd" id="7"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_capture.gd" id="8"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_state.gd" id="9"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_debug_overlay.gd" id="10"]
+
+[sub_resource type="Resource" id="InitialState"]
+script = ExtResource("9")
+
+[node name="WorldAtmosphereLightingLabV2" instance=ExtResource("1")]
+script = ExtResource("2")
+
+[node name="AtmosphereLamp" type="Node2D" parent="Architecture" index="1"]
+position = Vector2(156, 460)
+script = ExtResource("5")
+
+[node name="PointLight2D" type="PointLight2D" parent="Architecture/AtmosphereLamp" index="0"]
+position = Vector2(0, 8)
+shadow_enabled = false
+
+[node name="WindowLighting" type="Node2D" parent="Architecture" index="2"]
+position = Vector2(585, 446)
+script = ExtResource("6")
+
+[node name="PointLight2D" type="PointLight2D" parent="Architecture/WindowLighting" index="0"]
+position = Vector2(-60, 80)
+shadow_enabled = false
+
+[node name="ChairContactShadow" type="Node2D" parent="DepthSortedLayer/WorldObjects/ChairA" index="0"]
+script = ExtResource("7")
+
+[node name="WorkerContactShadow" type="Node2D" parent="DepthSortedLayer/Characters/Worker" index="0"]
+script = ExtResource("7")
+
+[node name="WorldTint" type="CanvasModulate" parent="." index="8"]
+
+[node name="SunLight" type="DirectionalLight2D" parent="." index="9"]
+energy = 0.0
+shadow_enabled = false
+
+[node name="AtmosphereDirector" type="Node" parent="." index="10"]
+script = ExtResource("4")
+catalog = ExtResource("3")
+initial_state = SubResource("InitialState")
+canvas_modulate_path = NodePath("../WorldTint")
+sun_path = NodePath("../SunLight")
+lamp_path = NodePath("../Architecture/AtmosphereLamp")
+window_path = NodePath("../Architecture/WindowLighting")
+
+[node name="AtmosphereDebugOverlay" type="Node2D" parent="." index="11"]
+visible = false
+z_index = 101
+script = ExtResource("10")
+lamp_path = NodePath("../Architecture/AtmosphereLamp")
+window_path = NodePath("../Architecture/WindowLighting")
+director_path = NodePath("../AtmosphereDirector")
+
+[node name="CaptureHarness" parent="." index="7"]
+script = ExtResource("8")
+
+[node name="Status" parent="HUD" index="0"]
+text = "ATMOSPHERE LAB  |  4-7 PROFILES  T DAY/NIGHT  Y CLEAR/RAIN  L LAMP  G EVENT  F6 CAPTURE  F7 DEBUG"
+
+[node name="AtmosphereDebug" type="Label" parent="HUD" index="1"]
+visible = false
+offset_left = 12.0
+offset_top = 44.0
+offset_right = 525.0
+offset_bottom = 136.0
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.06, 0.09, 0.1, 1)

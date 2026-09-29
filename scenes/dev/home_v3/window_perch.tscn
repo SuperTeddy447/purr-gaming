@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+
+[node name="WindowPerch" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"window_perch"
+kind = "perch"
+shared_capacity = 1
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -9)
+script = ExtResource("2")
+footprint_size = Vector2(86, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="WatchSlot" parent="." instance=ExtResource("3")]
+action_type = &"watch"
+allowed_categories = PackedStringArray("cat")
+action_duration = 1.8
+character_action = &"WindowWatch"
+object_action = &"Occupied"
+
+[node name="ApproachAnchor" parent="WatchSlot" index="0"]
+position = Vector2(-55, 38)
+
+[node name="ActionAnchor" parent="WatchSlot" index="1"]
+position = Vector2(0, 0)
+
+[node name="ExitAnchor" parent="WatchSlot" index="2"]
+position = Vector2(-55, 38)
+
+[node name="CameraWindowFocus" type="Marker2D" parent="."]
+position = Vector2(0, -45)
+
+[editable path="WatchSlot"]

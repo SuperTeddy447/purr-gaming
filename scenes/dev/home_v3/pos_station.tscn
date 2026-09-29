@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+
+[node name="POSStation" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"pos_station"
+kind = "pos"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -10)
+script = ExtResource("2")
+footprint_size = Vector2(58, 30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="POSSlot" parent="." instance=ExtResource("3")]
+action_type = &"operate_pos"
+allowed_categories = PackedStringArray("worker")
+character_action = &"OperatePOS"
+object_action = &"Active"
+
+[node name="ApproachAnchor" parent="POSSlot" index="0"]
+position = Vector2(0, 39)
+
+[node name="ActionAnchor" parent="POSSlot" index="1"]
+position = Vector2(0, 29)
+
+[node name="ExitAnchor" parent="POSSlot" index="2"]
+position = Vector2(0, 39)
+
+[editable path="POSSlot"]

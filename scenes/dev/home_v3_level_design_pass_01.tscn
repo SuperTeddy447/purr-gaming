@@ -1,0 +1,113 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3_world_authoring_lab.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/pass01_world.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/pass01_floor.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/pass01_capture.gd" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/waiting_spot.tscn" id="5"]
+
+[node name="HomeV3LevelDesignPass01" instance=ExtResource("1")]
+script = ExtResource("2")
+brew_shot_zoom = 3.25
+cup_shot_zoom = 3.45
+
+[node name="Floor" parent="Architecture" index="0"]
+script = ExtResource("3")
+
+[node name="CounterShell" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="0"]
+position = Vector2(160, 380)
+
+[node name="EspressoStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="1"]
+position = Vector2(360, 350)
+
+[node name="GrinderStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="2"]
+position = Vector2(485, 350)
+
+[node name="POSStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="3"]
+position = Vector2(90, 235)
+
+[node name="PastryCase" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" index="4"]
+position = Vector2(245, 230)
+
+[node name="TableA" parent="DepthSortedLayer/WorldObjects" index="1"]
+position = Vector2(210, 700)
+
+[node name="ChairA" parent="DepthSortedLayer/WorldObjects" index="2"]
+position = Vector2(105, 795)
+
+[node name="ChairB" parent="DepthSortedLayer/WorldObjects" index="3"]
+position = Vector2(310, 795)
+
+[node name="TableB" parent="DepthSortedLayer/WorldObjects" index="4"]
+position = Vector2(445, 840)
+
+[node name="ChairC" parent="DepthSortedLayer/WorldObjects" index="5"]
+position = Vector2(350, 935)
+
+[node name="ChairD" parent="DepthSortedLayer/WorldObjects" index="6"]
+position = Vector2(545, 935)
+
+[node name="CatBed" parent="DepthSortedLayer/WorldObjects" index="7"]
+position = Vector2(175, 550)
+
+[node name="WindowPerch" parent="DepthSortedLayer/WorldObjects" index="8"]
+position = Vector2(515, 520)
+
+[node name="Plant" parent="DepthSortedLayer/WorldObjects" index="9"]
+position = Vector2(530, 680)
+
+[node name="ScratchPost" parent="DepthSortedLayer/WorldObjects" index="10"]
+position = Vector2(100, 985)
+
+[node name="WaitingSpot" parent="DepthSortedLayer/WorldObjects" index="11"]
+position = Vector2(235, 1060)
+self_modulate = Color(1, 1, 1, 0)
+
+[node name="EntranceDoor" parent="DepthSortedLayer/WorldObjects" index="12"]
+position = Vector2(320, 1165)
+
+[node name="FreeFloorIdle" parent="DepthSortedLayer/WorldObjects" index="13"]
+position = Vector2(295, 620)
+
+[node name="WaitingSpotB" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("5")]
+position = Vector2(405, 1040)
+self_modulate = Color(1, 1, 1, 0)
+stable_id = &"waiting_spot_b"
+
+[node name="WaitingSpotC" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("5")]
+position = Vector2(150, 1080)
+self_modulate = Color(1, 1, 1, 0)
+stable_id = &"waiting_spot_c"
+
+[node name="SeasonalDisplayZone" parent="DepthSortedLayer/EventLayer" index="0"]
+position = Vector2(510, 1060)
+
+[node name="SeasonalDisplay" parent="DepthSortedLayer/EventLayer" index="1"]
+position = Vector2(510, 1105)
+
+[node name="Worker" parent="DepthSortedLayer/Characters" index="0"]
+position = Vector2(380, 420)
+
+[node name="CustomerA" parent="DepthSortedLayer/Characters" index="1"]
+position = Vector2(265, 1230)
+
+[node name="CustomerB" parent="DepthSortedLayer/Characters" index="2"]
+position = Vector2(375, 1230)
+
+[node name="CatA" parent="DepthSortedLayer/Characters" index="3"]
+position = Vector2(265, 595)
+
+[node name="CatB" parent="DepthSortedLayer/Characters" index="4"]
+position = Vector2(480, 720)
+
+[node name="CatC" parent="DepthSortedLayer/Characters" index="5"]
+position = Vector2(470, 575)
+
+[node name="CrossTableTarget" parent="." index="5"]
+position = Vector2(315, 700)
+
+[node name="CaptureHarness" parent="." index="7"]
+script = ExtResource("4")
+
+[node name="Status" parent="HUD" index="0"]
+text = "HOME V3 PASS 01  |  F5 CROWD  F6 CAPTURE  F7 DEBUG  F9 DEMO  F10 EVENT"

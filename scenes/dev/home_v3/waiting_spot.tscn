@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="2"]
+
+[node name="WaitingSpot" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"waiting_spot"
+kind = "waiting"
+
+[node name="WaitSlot" parent="." instance=ExtResource("2")]
+action_type = &"wait"
+allowed_categories = PackedStringArray("customer")
+action_duration = 0.45
+character_action = &"Wait"
+object_action = &"Occupied"
+
+[node name="ApproachAnchor" parent="WaitSlot" index="0"]
+position = Vector2(0, 0)
+
+[node name="ActionAnchor" parent="WaitSlot" index="1"]
+position = Vector2(0, 0)
+
+[node name="ExitAnchor" parent="WaitSlot" index="2"]
+position = Vector2(0, 0)
+
+[editable path="WaitSlot"]

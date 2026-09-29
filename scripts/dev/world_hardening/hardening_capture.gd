@@ -117,7 +117,7 @@ func _capture_tall_view() -> bool:
 	# Godot viewport renders the SAME lab scene at a real tall-phone raster.
 	var view := SubViewport.new()
 	view.size = Vector2i(539, 1168)
-	view.own_world_2d = true
+	view.world_2d = World2D.new()
 	view.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 	get_tree().root.add_child(view)
 	var lab_scene: PackedScene = load("res://scenes/dev/world_architecture_hardening_lab.tscn")
@@ -125,17 +125,14 @@ func _capture_tall_view() -> bool:
 	view.add_child(tall_world)
 	await get_tree().physics_frame
 	await get_tree().physics_frame
-	var shot := HardeningCameraShot.new()
-	shot.shot_id = &"tall_phone_focus"
-	shot.zoom = 2.25
-	shot.hold_duration = -1.0
-	var focus := tall_world.find_object(&"espresso_station").get_node("CameraBrewFocus") as Marker2D
-	if not tall_world.camera_director.request_shot(focus, shot):
+	var worker := tall_world.actors.get_node("Worker") as HardeningActor
+	if not worker.request_interaction_on(&"espresso_station", &"work_coffee"):
 		view.queue_free()
 		return false
 	var held := false
-	for i in 300:
-		if tall_world.camera_director.is_holding():
+	for i in 500:
+		if tall_world.camera_director.current_shot_id == &"brew_closeup" \
+				and tall_world.camera_director.is_holding():
 			held = true
 			break
 		await get_tree().process_frame

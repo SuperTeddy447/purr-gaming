@@ -1,0 +1,276 @@
+[gd_resource type="Resource" load_steps=28 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/atmosphere_catalog.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/location_profile.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/season_profile.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/time_profile.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/weather_profile.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/event_lighting_modifier.gd" id="6"]
+
+[sub_resource type="Resource" id="Japan"]
+script = ExtResource("2")
+profile_id = &"japan_reference"
+latitude_band = &"temperate_mid"
+humidity = 0.52
+haze = 0.12
+daylight_contrast = 0.98
+sky_bias = Color(0.98, 1, 1, 1)
+indoor_balance = 0.52
+allowed_seasons = PackedStringArray("spring", "summer", "autumn", "winter")
+exterior_family = &"temperate_garden"
+default_window_profile = &"street_garden"
+
+[sub_resource type="Resource" id="Thailand"]
+script = ExtResource("2")
+profile_id = &"thailand_reference"
+latitude_band = &"tropical_low"
+humidity = 0.86
+haze = 0.21
+daylight_contrast = 0.93
+sky_bias = Color(1, 1, 0.98, 1)
+indoor_balance = 0.62
+allowed_seasons = PackedStringArray("summer", "rainy_season")
+exterior_family = &"tropical_garden"
+default_window_profile = &"courtyard"
+
+[sub_resource type="Resource" id="Europe"]
+script = ExtResource("2")
+profile_id = &"europe_reference"
+latitude_band = &"temperate_upper_mid"
+humidity = 0.59
+haze = 0.18
+daylight_contrast = 0.89
+sky_bias = Color(0.98, 0.99, 1, 1)
+indoor_balance = 0.64
+allowed_seasons = PackedStringArray("spring", "summer", "autumn", "winter")
+exterior_family = &"temperate_street"
+default_window_profile = &"street_trees"
+
+[sub_resource type="Resource" id="China"]
+script = ExtResource("2")
+profile_id = &"china_reference"
+latitude_band = &"temperate_mid_reference"
+humidity = 0.48
+haze = 0.22
+daylight_contrast = 0.95
+sky_bias = Color(1, 0.99, 0.98, 1)
+indoor_balance = 0.58
+allowed_seasons = PackedStringArray("spring", "summer", "autumn", "winter")
+exterior_family = &"temperate_courtyard"
+default_window_profile = &"courtyard_trees"
+
+[sub_resource type="Resource" id="Spring"]
+script = ExtResource("3")
+profile_id = &"spring"
+daylight_duration_bias = 0.04
+sun_warmth = 1.02
+sun_elevation_bias = 1.02
+ambient_saturation = 1.02
+foliage_amount = 0.72
+window_multiplier = 1.02
+exterior_palette = Color(0.91, 1, 0.9, 1)
+atmosphere_fx = &"petals_optional"
+
+[sub_resource type="Resource" id="Summer"]
+script = ExtResource("3")
+profile_id = &"summer"
+daylight_duration_bias = 0.16
+sun_warmth = 1.03
+sun_elevation_bias = 1.14
+ambient_saturation = 1.04
+foliage_amount = 0.92
+window_multiplier = 1.1
+exterior_palette = Color(0.94, 1, 0.88, 1)
+
+[sub_resource type="Resource" id="Autumn"]
+script = ExtResource("3")
+profile_id = &"autumn"
+daylight_duration_bias = -0.08
+sun_warmth = 1.12
+sun_elevation_bias = 0.82
+ambient_saturation = 0.96
+foliage_amount = 0.55
+extra_haze = 0.04
+window_multiplier = 0.92
+exterior_palette = Color(1, 0.88, 0.72, 1)
+atmosphere_fx = &"leaves_optional"
+
+[sub_resource type="Resource" id="Winter"]
+script = ExtResource("3")
+profile_id = &"winter"
+daylight_duration_bias = -0.18
+sun_warmth = 0.89
+sun_elevation_bias = 0.7
+ambient_saturation = 0.82
+foliage_amount = 0.2
+extra_haze = 0.05
+window_multiplier = 0.82
+exterior_palette = Color(0.86, 0.92, 1, 1)
+atmosphere_fx = &"snow_optional"
+
+[sub_resource type="Resource" id="RainySeason"]
+script = ExtResource("3")
+profile_id = &"rainy_season"
+daylight_duration_bias = 0.06
+sun_warmth = 0.98
+sun_elevation_bias = 1.03
+ambient_saturation = 0.95
+foliage_amount = 0.94
+extra_haze = 0.1
+window_multiplier = 0.84
+exterior_palette = Color(0.87, 0.94, 0.9, 1)
+atmosphere_fx = &"humid_haze_optional"
+
+[sub_resource type="Resource" id="Dawn"]
+script = ExtResource("4")
+profile_id = &"dawn"
+ambient_color = Color(0.77, 0.79, 0.91, 1)
+ambient_energy = 0.69
+direct_color = Color(1, 0.69, 0.48, 1)
+direct_energy = 0.28
+sun_angle_degrees = -65.0
+window_energy = 0.32
+exterior_brightness = 0.64
+lamp_demand = 0.66
+shadow_strength = 0.35
+
+[sub_resource type="Resource" id="Morning"]
+script = ExtResource("4")
+profile_id = &"morning"
+ambient_color = Color(0.96, 0.98, 1, 1)
+ambient_energy = 0.92
+direct_color = Color(1, 0.93, 0.82, 1)
+direct_energy = 0.55
+sun_angle_degrees = -45.0
+window_energy = 0.78
+exterior_brightness = 0.94
+lamp_demand = 0.0
+shadow_strength = 0.55
+
+[sub_resource type="Resource" id="Midday"]
+script = ExtResource("4")
+profile_id = &"midday"
+ambient_color = Color(0.97, 0.99, 1, 1)
+ambient_energy = 1.0
+direct_color = Color(1, 0.98, 0.94, 1)
+direct_energy = 0.68
+sun_angle_degrees = -18.0
+window_energy = 0.92
+exterior_brightness = 1.0
+lamp_demand = 0.0
+shadow_strength = 0.65
+
+[sub_resource type="Resource" id="Afternoon"]
+script = ExtResource("4")
+profile_id = &"afternoon"
+ambient_color = Color(0.98, 0.97, 0.94, 1)
+ambient_energy = 0.94
+direct_color = Color(1, 0.9, 0.75, 1)
+direct_energy = 0.56
+sun_angle_degrees = 25.0
+window_energy = 0.78
+exterior_brightness = 0.94
+lamp_demand = 0.06
+shadow_strength = 0.56
+
+[sub_resource type="Resource" id="Sunset"]
+script = ExtResource("4")
+profile_id = &"sunset"
+ambient_color = Color(0.83, 0.77, 0.78, 1)
+ambient_energy = 0.74
+direct_color = Color(1, 0.62, 0.42, 1)
+direct_energy = 0.34
+sun_angle_degrees = 64.0
+window_energy = 0.48
+exterior_brightness = 0.72
+lamp_demand = 0.62
+shadow_strength = 0.42
+
+[sub_resource type="Resource" id="Evening"]
+script = ExtResource("4")
+profile_id = &"evening"
+ambient_color = Color(0.66, 0.72, 0.84, 1)
+ambient_energy = 0.63
+direct_color = Color(0.74, 0.81, 1, 1)
+direct_energy = 0.06
+sun_angle_degrees = 78.0
+window_energy = 0.16
+exterior_brightness = 0.36
+lamp_demand = 0.9
+shadow_strength = 0.15
+
+[sub_resource type="Resource" id="Night"]
+script = ExtResource("4")
+profile_id = &"night"
+ambient_color = Color(0.58, 0.67, 0.83, 1)
+ambient_energy = 0.57
+direct_color = Color(0.64, 0.75, 1, 1)
+direct_energy = 0.045
+sun_angle_degrees = 92.0
+window_energy = 0.08
+exterior_brightness = 0.25
+lamp_demand = 1.0
+shadow_strength = 0.08
+
+[sub_resource type="Resource" id="Clear"]
+script = ExtResource("5")
+profile_id = &"clear"
+direct_multiplier = 1.0
+diffuse_multiplier = 1.0
+diffuse_color = Color(1, 1, 1, 1)
+cloud_cover = 0.06
+shadow_softness = 0.18
+
+[sub_resource type="Resource" id="Cloudy"]
+script = ExtResource("5")
+profile_id = &"cloudy"
+direct_multiplier = 0.34
+diffuse_multiplier = 0.98
+diffuse_color = Color(0.88, 0.93, 0.99, 1)
+cloud_cover = 0.82
+extra_haze = 0.08
+shadow_softness = 0.78
+
+[sub_resource type="Resource" id="Rain"]
+script = ExtResource("5")
+profile_id = &"rain"
+direct_multiplier = 0.19
+diffuse_multiplier = 0.88
+diffuse_color = Color(0.81, 0.9, 0.98, 1)
+cloud_cover = 0.92
+rain_amount = 0.55
+wetness = 0.55
+extra_haze = 0.16
+shadow_softness = 0.86
+weather_fx = &"rain"
+
+[sub_resource type="Resource" id="HeavyRain"]
+script = ExtResource("5")
+profile_id = &"heavy_rain"
+direct_multiplier = 0.09
+diffuse_multiplier = 0.77
+diffuse_color = Color(0.76, 0.85, 0.95, 1)
+cloud_cover = 1.0
+rain_amount = 1.0
+wetness = 0.9
+extra_haze = 0.26
+shadow_softness = 0.96
+weather_fx = &"heavy_rain"
+
+[sub_resource type="Resource" id="LanternNight"]
+script = ExtResource("6")
+profile_id = &"lantern_night"
+ambient_tint = Color(1, 0.86, 0.72, 1)
+ambient_weight = 0.12
+lamp_bonus = 0.28
+window_tint = Color(1, 0.72, 0.47, 1)
+window_weight = 0.25
+local_fx = &"lantern_glow_hook"
+
+[resource]
+script = ExtResource("1")
+locations = Array[ExtResource("2")]([SubResource("Japan"), SubResource("Thailand"), SubResource("Europe"), SubResource("China")])
+seasons = Array[ExtResource("3")]([SubResource("Spring"), SubResource("Summer"), SubResource("Autumn"), SubResource("Winter"), SubResource("RainySeason")])
+times = Array[ExtResource("4")]([SubResource("Dawn"), SubResource("Morning"), SubResource("Midday"), SubResource("Afternoon"), SubResource("Sunset"), SubResource("Evening"), SubResource("Night")])
+weathers = Array[ExtResource("5")]([SubResource("Clear"), SubResource("Cloudy"), SubResource("Rain"), SubResource("HeavyRain")])
+events = Array[ExtResource("6")]([SubResource("LanternNight")])

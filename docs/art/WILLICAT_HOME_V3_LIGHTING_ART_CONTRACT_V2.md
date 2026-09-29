@@ -1,0 +1,13 @@
+# Home V3 lighting/art contract V2
+
+Status: **neutral-base rule for future art generation**. The locked V3 layout is unchanged; visual production is still paused pending human review of the atmosphere lab and device test. `WILLICAT_HOME_V3_VISUAL_TARGET_V1` was not found in the current repository during this task. If provided later, treat it as **MOOD REFERENCE ONLY**, not a light-baking template. Its exact light placement has not been inspected here.
+
+Base architecture/furniture sprites should retain intrinsic painted form, material identity, soft non-directional AO and controlled contact darkening inside the object. Supply transparent edges and enough glow padding where the object owns an emissive fixture. Do **not** bake long warm window streaks, directional cast shadows, a permanent golden-hour wash, fixed night blue, a lamp pool across floor/other objects, rain-darkened entire interiors or a single season's atmospheric tint into the neutral base. Window glow and the exterior should be distinct runtime layers; the gameplay WindowPerch stays at its locked location.
+
+Shadow ownership: a movable object may carry its own soft contact blob/anchor, but must leave no painted floor shadow behind when moved. Characters need runtime grounding. Architecture may retain subtle AO where geometry never moves. Sun and lamp shadow policies belong to the room/fixture renderer, not individual animation frames. Final Mochi art and canonical scale are outside this task.
+
+Material notes: matte wood, plaster, jade paint, textiles and plants should read without normal maps; brass, ceramic and glass may be separately tested for mild authored normal/specular/shader response. Keep highlights restrained and legible under clear morning, cloudy evening, rain afternoon and lamp-lit night. A one-size-fits-all normal map is prohibited until tested on final art and phone hardware.
+
+Asset Forge may **flag**, not render or automatically alter: directional shadows extending beyond movable-object bounds; heavy global-light color baked into isolated sprites; mismatched neutral-light assumptions; clipped glow padding; absent contact-shadow metadata for movable items; and missing lamp/window light anchors where applicable. These are review warnings with human override, not a new image processor. Forge must not become the lighting engine.
+
+Prompt/handoff line for future artists: “Neutral storybook illustration with preserved material/form shading and subtle AO; no time-of-day grade, cast sun streak, lamp spill on unrelated surfaces, weather overlay or fixed seasonal tint. Deliver independent window exterior, emissive/glow and contact-shadow elements where needed.”

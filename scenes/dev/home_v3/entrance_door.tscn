@@ -1,0 +1,70 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="2"]
+
+[node name="EntranceDoor" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"entrance_door"
+kind = "entrance"
+
+[node name="EnterSlot" parent="." instance=ExtResource("2")]
+action_type = &"enter"
+allowed_categories = PackedStringArray("customer")
+action_duration = 0.25
+character_action = &"Enter"
+object_action = &"Open"
+
+[node name="ApproachAnchor" parent="EnterSlot" index="0"]
+position = Vector2(0, 56)
+
+[node name="ActionAnchor" parent="EnterSlot" index="1"]
+position = Vector2(0, -15)
+
+[node name="ExitAnchor" parent="EnterSlot" index="2"]
+position = Vector2(0, -55)
+
+[node name="LeaveSlot" parent="." instance=ExtResource("2")]
+action_type = &"leave"
+allowed_categories = PackedStringArray("customer")
+action_duration = 0.25
+character_action = &"Leave"
+object_action = &"Open"
+
+[node name="ApproachAnchor" parent="LeaveSlot" index="0"]
+position = Vector2(0, -70)
+
+[node name="ActionAnchor" parent="LeaveSlot" index="1"]
+position = Vector2(0, -15)
+
+[node name="ExitAnchor" parent="LeaveSlot" index="2"]
+position = Vector2(0, 56)
+
+[node name="StorySlot" parent="." instance=ExtResource("2")]
+action_type = &"story"
+allowed_categories = PackedStringArray("cat", "customer")
+action_duration = 1.1
+character_action = &"StoryReact"
+object_action = &"StoryBeat"
+
+[node name="ApproachAnchor" parent="StorySlot" index="0"]
+position = Vector2(-67, -45)
+
+[node name="ActionAnchor" parent="StorySlot" index="1"]
+position = Vector2(-53, -43)
+
+[node name="ExitAnchor" parent="StorySlot" index="2"]
+position = Vector2(-67, -45)
+
+[node name="DoorStoryPoint" type="Marker2D" parent="."]
+position = Vector2(-50, -57)
+
+[node name="CameraStoryFocus" type="Marker2D" parent="."]
+position = Vector2(0, -44)
+
+[node name="DoorFXAnchor" type="Marker2D" parent="."]
+position = Vector2(0, -67)
+
+[editable path="EnterSlot"]
+[editable path="LeaveSlot"]
+[editable path="StorySlot"]

@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="3"]
+
+[node name="GrinderStation" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"grinder_station"
+kind = "grinder"
+
+[node name="PhysicalFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -12)
+script = ExtResource("2")
+footprint_size = Vector2(48, 35)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PhysicalFootprint"]
+
+[node name="GrindSlot" parent="." instance=ExtResource("3")]
+action_type = &"grind"
+allowed_categories = PackedStringArray("worker")
+character_action = &"Grind"
+object_action = &"Grinding"
+
+[node name="ApproachAnchor" parent="GrindSlot" index="0"]
+position = Vector2(0, 41)
+
+[node name="ActionAnchor" parent="GrindSlot" index="1"]
+position = Vector2(0, 30)
+
+[node name="ExitAnchor" parent="GrindSlot" index="2"]
+position = Vector2(0, 41)
+
+[node name="GrindFXAnchor" type="Marker2D" parent="."]
+position = Vector2(0, -56)
+
+[editable path="GrindSlot"]

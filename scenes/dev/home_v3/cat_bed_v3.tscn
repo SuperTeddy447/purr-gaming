@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/cat_bed.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/v3_fx_preview.gd" id="2"]
+
+[node name="CatBed" instance=ExtResource("1")]
+
+[node name="SleepFXAnchor" type="Marker2D" parent="."]
+position = Vector2(0, -39)
+
+[node name="Preview" type="Node2D" parent="SleepFXAnchor"]
+visible = false
+script = ExtResource("2")
+tint = Color(0.52, 0.66, 0.81, 1)
+short_label = "SLEEP"

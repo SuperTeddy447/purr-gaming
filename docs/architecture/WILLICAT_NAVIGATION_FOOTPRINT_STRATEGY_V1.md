@@ -1,0 +1,13 @@
+# Navigation and footprint strategy V1
+
+Status: isolated lab proof, Godot 4.7.2.
+
+`PhysicalFootprint` is the floor area occupied by a WorldObject, **not** the sprite's transparent rectangle. It owns a physics rectangle and provides a transformed four-corner outline to the room's nav bake. A table blocks its tabletop base on the floor; the plant blocks its pot, not its leaves. Art can change without silently changing collision/pathing. Object root position/rotation is authoritative for visual, collision, footprint and slots.
+
+The room's `HardeningNavigation` builds a walkable `NavigationPolygon` and submits object obstruction outlines through `NavigationMeshSourceGeometryData2D`/`NavigationServer2D.bake_from_source_geometry_data`. The proof path around Table bends below the 108×80 floor footprint; test samples ensure both the server path and traversed actor feet stay outside. `NavigationObstacle2D` avoidance is not substituted for navmesh geometry. Actor-to-actor avoidance is deliberately not claimed by this test; collision and capacity prevent invalid slot sharing, but a crowded café will need a separate movement/queuing QA pass.
+
+Static architecture is authored in Room scenes and baked on load. Movable furniture keeps stable IDs and local footprints. `validate_placement` rejects out-of-room and footprint-overlapping rotated placements; `place_object` applies an approved transform and rebakes the room; `placement_snapshot` emits ID/kind/position/rotation as a future save seed. This is not decoration UI or production persistence. The lab's direct `move_object` is a debug move proof, not the user-facing placement path.
+
+The synchronous bake/forced map update is intentionally limited to a tiny test room. For mobile production: debounce placement batches; rebuild only the affected room, preferably asynchronously where Godot's baking API and scene lifecycle permit; wait for server map synchronization before demanding a fresh path; invalidate/refind actor destinations; cache semantic registry membership; profile bake time and memory on lowest supported device. Avoid rebaking each animation frame. Furniture that moves continuously requires a separate dynamic steering/collision strategy rather than constant navmesh baking.
+
+Y-sort is independent of footprint/pathfinding. Actor origin remains feet; object visual front/back sections and foreground pieces must be authored under compatible CanvasItem sorting ancestry. No per-action actor z-index hack is part of this contract. An optional invisible placement grid may be added later for decoration snapping, never as the rendered style source.
