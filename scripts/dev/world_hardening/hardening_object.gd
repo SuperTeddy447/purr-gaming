@@ -34,6 +34,10 @@ func shared_use_count() -> int:
 
 
 func _draw() -> void:
+	if has_node("RuntimeVisual"):
+		if Engine.is_editor_hint() or get_tree().debug_collisions_hint:
+			draw_string(ThemeDB.fallback_font, Vector2(-55, -82), String(stable_id), HORIZONTAL_ALIGNMENT_CENTER, 110, 10, Color("#4b3c35"))
+		return
 	match kind:
 		"counter":
 			draw_rect(Rect2(-112, -54, 224, 62), Color("#8d6e5c"))
@@ -79,7 +83,8 @@ func _draw() -> void:
 			draw_rect(Rect2(-7, -65, 14, 65), Color("#c49c7e"))
 		"waiting":
 			draw_arc(Vector2.ZERO, 29, 0, TAU, 32, Color("#94aaa1"), 3.0)
-	draw_string(ThemeDB.fallback_font, Vector2(-55, -82), String(stable_id), HORIZONTAL_ALIGNMENT_CENTER, 110, 10, Color("#4b3c35"))
+	if Engine.is_editor_hint() or get_tree().debug_collisions_hint:
+		draw_string(ThemeDB.fallback_font, Vector2(-55, -82), String(stable_id), HORIZONTAL_ALIGNMENT_CENTER, 110, 10, Color("#4b3c35"))
 
 
 func draw_ellipse_shape(center: Vector2, radii: Vector2, fill: Color) -> void:

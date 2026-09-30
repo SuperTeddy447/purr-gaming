@@ -46,6 +46,8 @@ def package_static_prop(
     alpha_threshold: int = 16,
     padding: int = 16,
     opaque: bool = False,
+    preserve_canvas: bool = False,
+    expected_size: tuple[int, int] | None = None,
 ) -> dict:
     """Build one runtime PNG and JSON QA record without changing the source."""
     source_path = Path(source).resolve()
@@ -60,6 +62,8 @@ def package_static_prop(
         raise ValueError(f"Unsupported status: {status}")
     if not 0 <= alpha_threshold <= 254 or padding < 0:
         raise ValueError("alpha_threshold must be 0..254 and padding non-negative.")
+    if preserve_canvas and (opaque or pivot != "FULL_CANVAS_TOP_LEFT"):
+        raise ValueError("Preserved transparent canvas requires FULL_CANVAS_TOP_LEFT and no --opaque.")
     runtime_path = target_dir / f"{asset_id}.png"
     metadata_path = target_dir / f"{asset_id}.runtime.json"
     if runtime_path == source_path or metadata_path == source_path:
@@ -70,14 +74,20 @@ def package_static_prop(
         if image.format != "PNG":
             raise ValueError("Static source must be PNG data.")
         source_size = image.size
+        if expected_size is not None and source_size != expected_size:
+            raise ValueError(f"Source dimensions {source_size} do not match {expected_size}.")
+        edge_touch = {"left": False, "top": False, "right": False, "bottom": False}
         if opaque:
             if pivot != "FULL_CANVAS_TOP_LEFT":
                 raise ValueError("Opaque architecture requires FULL_CANVAS_TOP_LEFT pivot.")
+            if image.convert("RGBA").getchannel("A").getextrema() != (255, 255):
+                raise ValueError("Opaque architecture contains transparent pixels.")
             runtime = None
             source_bbox = (0, 0, image.width, image.height)
             content_bbox = source_bbox
             pivot_pixel = (0, 0)
             fringe_pixels = 0
+            edge_touch = {"left": True, "top": True, "right": True, "bottom": True}
         else:
             rgba = image.convert("RGBA")
             alpha = rgba.getchannel("A")
@@ -90,40 +100,53 @@ def package_static_prop(
             source_bbox = clean_alpha.getbbox()
             if source_bbox is None:
                 raise ValueError("No visible pixels above alpha threshold.")
-            if (
+            edge_touch = {
+                "left": source_bbox[0] == 0,
+                "top": source_bbox[1] == 0,
+                "right": source_bbox[2] == image.width,
+                "bottom": source_bbox[3] == image.height,
+            }
+            if preserve_canvas:
+                # Fixed room layers use one shared top-left registration. Trimming
+                # or recentering would silently break the locked scene alignment.
+                runtime = None
+                content_bbox = source_bbox
+                pivot_pixel = (0, 0)
+            elif (
                 source_bbox[0] == 0
                 or source_bbox[1] == 0
                 or source_bbox[2] == image.width
                 or source_bbox[3] == image.height
             ):
                 raise ValueError("Visible source artwork touches a source edge.")
-            crop = rgba.crop(source_bbox)
-            crop.putalpha(clean_alpha.crop(source_bbox))
-            bottom_padding = 0 if pivot in CONTACT_PIVOTS else padding
-            runtime = Image.new(
-                "RGBA",
-                (
-                    crop.width + padding * 2,
-                    crop.height + padding + bottom_padding,
-                ),
-                (0, 0, 0, 0),
-            )
-            runtime.alpha_composite(crop, (padding, padding))
-            content_bbox = (
-                padding,
-                padding,
-                padding + crop.width,
-                padding + crop.height,
-            )
-            if pivot in CONTACT_PIVOTS:
-                pivot_pixel = (runtime.width / 2, runtime.height)
-            elif pivot == "FULL_CANVAS_TOP_LEFT":
-                pivot_pixel = (0, 0)
             else:
-                pivot_pixel = (runtime.width / 2, runtime.height / 2)
+                crop = rgba.crop(source_bbox)
+                crop.putalpha(clean_alpha.crop(source_bbox))
+                bottom_padding = 0 if pivot in CONTACT_PIVOTS else padding
+                runtime = Image.new(
+                    "RGBA",
+                    (
+                        crop.width + padding * 2,
+                        crop.height + padding + bottom_padding,
+                    ),
+                    (0, 0, 0, 0),
+                )
+                runtime.alpha_composite(crop, (padding, padding))
+                content_bbox = (
+                    padding,
+                    padding,
+                    padding + crop.width,
+                    padding + crop.height,
+                )
+                if pivot in CONTACT_PIVOTS:
+                    pivot_pixel = (runtime.width / 2, runtime.height)
+                elif pivot == "FULL_CANVAS_TOP_LEFT":
+                    pivot_pixel = (0, 0)
+                else:
+                    pivot_pixel = (runtime.width / 2, runtime.height / 2)
 
     target_dir.mkdir(parents=True, exist_ok=True)
-    if opaque:
+    if opaque or preserve_canvas:
         shutil.copyfile(source_path, runtime_path)
         runtime_size = source_size
     else:
@@ -147,8 +170,11 @@ def package_static_prop(
         "pivot_pixel": list(pivot_pixel),
         "floor_contact": pivot in CONTACT_PIVOTS,
         "alpha_threshold": alpha_threshold if not opaque else None,
-        "padding": padding if not opaque else 0,
-        "low_alpha_fringe_pixels_removed": fringe_pixels,
+        "padding": 0 if opaque or preserve_canvas else padding,
+        "low_alpha_fringe_pixels_removed": 0 if preserve_canvas else fringe_pixels,
+        "preserve_canvas": preserve_canvas,
+        "edge_touch": edge_touch,
+        "expected_size": list(expected_size) if expected_size is not None else None,
         "technical_qa": "PASS",
         "status_note": "Technical packaging only; subjective visual approval remains pending.",
     }

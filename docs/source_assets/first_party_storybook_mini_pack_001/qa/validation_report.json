@@ -1,0 +1,1203 @@
+{
+  "tree_0": {
+    "source_region": [
+      0,
+      0,
+      768,
+      512
+    ],
+    "alpha_bounds": [
+      155,
+      33,
+      633,
+      494
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "tree_1": {
+    "source_region": [
+      768,
+      0,
+      1536,
+      512
+    ],
+    "alpha_bounds": [
+      140,
+      33,
+      637,
+      494
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "tree_2": {
+    "source_region": [
+      0,
+      512,
+      768,
+      1024
+    ],
+    "alpha_bounds": [
+      151,
+      28,
+      636,
+      487
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "tree_3": {
+    "source_region": [
+      768,
+      512,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      148,
+      27,
+      625,
+      486
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "tree_normalized": {
+    "canvas": [
+      512,
+      640
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        26,
+        156,
+        486,
+        600
+      ],
+      [
+        26,
+        173,
+        486,
+        600
+      ],
+      [
+        26,
+        165,
+        486,
+        600
+      ],
+      [
+        26,
+        157,
+        486,
+        600
+      ]
+    ],
+    "sha256": [
+      "c964610407a34a0594156fbe6595ef0749815bbbf6ad8bf5fe301e4e5dfe9969",
+      "9777296fe88c4208b4ec7d88831b8ff48789b513e87105cf33253eb24f40ea72",
+      "c0d79dfbeb766df732de6e45f9fed21a4b72b65cbcf94a6825152a216eb2097b",
+      "d50615e60da696b7c85e7ef2c4c416dd1949a56301e378f985cf6d4c61909ed0"
+    ]
+  },
+  "chair_back_0": {
+    "source_region": [
+      0,
+      0,
+      768,
+      490
+    ],
+    "alpha_bounds": [
+      194,
+      35,
+      610,
+      469
+    ],
+    "cell_size": [
+      768,
+      490
+    ]
+  },
+  "chair_back_1": {
+    "source_region": [
+      768,
+      0,
+      1536,
+      490
+    ],
+    "alpha_bounds": [
+      141,
+      32,
+      659,
+      478
+    ],
+    "cell_size": [
+      768,
+      490
+    ]
+  },
+  "chair_back_2": {
+    "source_region": [
+      0,
+      490,
+      768,
+      1024
+    ],
+    "alpha_bounds": [
+      207,
+      23,
+      654,
+      472
+    ],
+    "cell_size": [
+      768,
+      534
+    ]
+  },
+  "chair_back_3": {
+    "source_region": [
+      768,
+      490,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      139,
+      9,
+      641,
+      513
+    ],
+    "cell_size": [
+      768,
+      534
+    ]
+  },
+  "chair_front_0": {
+    "source_region": [
+      0,
+      0,
+      768,
+      525
+    ],
+    "alpha_bounds": [
+      186,
+      33,
+      627,
+      502
+    ],
+    "cell_size": [
+      768,
+      525
+    ]
+  },
+  "chair_front_1": {
+    "source_region": [
+      768,
+      0,
+      1536,
+      525
+    ],
+    "alpha_bounds": [
+      146,
+      24,
+      626,
+      523
+    ],
+    "cell_size": [
+      768,
+      525
+    ]
+  },
+  "chair_front_2": {
+    "source_region": [
+      0,
+      525,
+      768,
+      1024
+    ],
+    "alpha_bounds": [
+      206,
+      6,
+      654,
+      452
+    ],
+    "cell_size": [
+      768,
+      499
+    ]
+  },
+  "chair_front_3": {
+    "source_region": [
+      768,
+      525,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      122,
+      7,
+      645,
+      477
+    ],
+    "cell_size": [
+      768,
+      499
+    ]
+  },
+  "chair_normalized": {
+    "canvas": [
+      384,
+      384
+    ],
+    "frame_count": 8,
+    "alpha_bounds": [
+      [
+        36,
+        38,
+        348,
+        364
+      ],
+      [
+        25,
+        76,
+        359,
+        364
+      ],
+      [
+        29,
+        38,
+        354,
+        364
+      ],
+      [
+        29,
+        38,
+        354,
+        364
+      ],
+      [
+        38,
+        38,
+        345,
+        364
+      ],
+      [
+        35,
+        38,
+        349,
+        364
+      ],
+      [
+        28,
+        38,
+        355,
+        364
+      ],
+      [
+        25,
+        64,
+        359,
+        364
+      ]
+    ],
+    "sha256": [
+      "88dc476fa8c2a5881a43bfaca25b1ff16c8d0d0c33cacb3f2bbbd7685231dc1b",
+      "ed291f9588c3d3f54a8a2253927d295193fd0fc46df5489cc3d7c416bdb1826e",
+      "a1d47485bb040c43ada912c80cc57e4f86cc56c919af6ce56e4f948312adab4b",
+      "48d2b9fd1a13073fcbb8a4497b59e41928605e8b30f3957b7bfb816e99fb5b2a",
+      "55586107338fe330506c45a8cecf8f22951c03c1a03cbcb7560fbef99a2e6c2a",
+      "e899f969b766ac269ff63b7a4353d8fd7fcc0cfbe0b71a52bd55671e25be9fc2",
+      "3c7aecbfa3d5a28bb6503c2012e1ac7ab543e77ad5f668f7f3e2860acd4d6aee",
+      "5958ccf0b35e51a365af6c4972022f96004e0a84a3de322c3cc6662da2f12343"
+    ]
+  },
+  "water_ripple_0": {
+    "source_region": [
+      0,
+      0,
+      768,
+      512
+    ],
+    "alpha_bounds": [
+      212,
+      211,
+      610,
+      392
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "water_ripple_1": {
+    "source_region": [
+      768,
+      0,
+      1536,
+      512
+    ],
+    "alpha_bounds": [
+      145,
+      210,
+      604,
+      409
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "water_ripple_2": {
+    "source_region": [
+      0,
+      512,
+      768,
+      1024
+    ],
+    "alpha_bounds": [
+      155,
+      185,
+      655,
+      381
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "water_ripple_3": {
+    "source_region": [
+      768,
+      512,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      141,
+      193,
+      639,
+      383
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "water_ripple_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        18,
+        124,
+        238,
+        224
+      ],
+      [
+        18,
+        129,
+        238,
+        224
+      ],
+      [
+        18,
+        138,
+        238,
+        224
+      ],
+      [
+        18,
+        140,
+        238,
+        224
+      ]
+    ],
+    "sha256": [
+      "32a502f7957a303bb5a12cd48c11df8a619959aaca2c8c8b0fb33906442c33e7",
+      "799d266abc1d46192e678a7330cd584c7db30cb46667b1399eb4bee983b20a68",
+      "c03bf5485c4bfdf1ac80cc1ed08df6b0cb6dcf320cc406ceac97f412c1c77e14",
+      "d4dc6d878cad84a30e1115d5e92c7930126a342bc5e51f8b9c57219dcb7be52c"
+    ]
+  },
+  "coffee_fx_0": {
+    "source_region": [
+      0,
+      0,
+      768,
+      512
+    ],
+    "alpha_bounds": [
+      346,
+      175,
+      489,
+      395
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "coffee_fx_1": {
+    "source_region": [
+      768,
+      0,
+      1536,
+      512
+    ],
+    "alpha_bounds": [
+      251,
+      97,
+      434,
+      410
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "coffee_fx_2": {
+    "source_region": [
+      0,
+      512,
+      768,
+      1024
+    ],
+    "alpha_bounds": [
+      320,
+      33,
+      567,
+      396
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "coffee_fx_3": {
+    "source_region": [
+      768,
+      512,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      248,
+      29,
+      450,
+      419
+    ],
+    "cell_size": [
+      768,
+      512
+    ]
+  },
+  "coffee_fx_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        61,
+        19,
+        194,
+        224
+      ],
+      [
+        68,
+        19,
+        188,
+        224
+      ],
+      [
+        58,
+        19,
+        197,
+        224
+      ],
+      [
+        75,
+        19,
+        181,
+        224
+      ]
+    ],
+    "sha256": [
+      "7d97b5ace867053b142d5f0f134f5ad4ccdc3c210b54c9664b9af9559ea10e73",
+      "337c9ad6394bbcd064b42829e1eec859393f2f3e6edd9339865907852725a76c",
+      "15d9968ebcc4630c6282489af69bf95cd506a3eb5efeffe8c138366bfff9332e",
+      "a9b96e4f1cec8791811f370f95d6907c2d40788f60d518049a63043c3cf24d3e"
+    ]
+  },
+  "orange_down_0": {
+    "source_region": [
+      0,
+      0,
+      652,
+      587
+    ],
+    "alpha_bounds": [
+      215,
+      36,
+      627,
+      577
+    ],
+    "cell_size": [
+      652,
+      587
+    ]
+  },
+  "orange_down_1": {
+    "source_region": [
+      652,
+      0,
+      1305,
+      587
+    ],
+    "alpha_bounds": [
+      118,
+      39,
+      508,
+      581
+    ],
+    "cell_size": [
+      653,
+      587
+    ]
+  },
+  "orange_down_2": {
+    "source_region": [
+      0,
+      587,
+      652,
+      1206
+    ],
+    "alpha_bounds": [
+      220,
+      8,
+      634,
+      571
+    ],
+    "cell_size": [
+      652,
+      619
+    ]
+  },
+  "orange_down_rejected_pose": "bottom-right frame overlaps the row boundary; two authored walk poses retained",
+  "orange_down_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 3,
+    "alpha_bounds": [
+      [
+        48,
+        22,
+        208,
+        232
+      ],
+      [
+        52,
+        22,
+        203,
+        232
+      ],
+      [
+        51,
+        22,
+        205,
+        232
+      ]
+    ],
+    "sha256": [
+      "ac844aa20d9ed485f3b3665cac49be01182bf1d6431c14fbc1f60ff34f6b86b2",
+      "a84fd7c6c532e72d38bb4b1462196246d7d7f6edcb19d1fdbbac879c2c1d5a7f",
+      "a63c5f0fc7e4366d2a8a74505748c1700ff3fa2f5dffdc9820b3668839843d99"
+    ]
+  },
+  "orange_up_0": {
+    "source_region": [
+      0,
+      0,
+      724,
+      543
+    ],
+    "alpha_bounds": [
+      215,
+      50,
+      641,
+      508
+    ],
+    "cell_size": [
+      724,
+      543
+    ]
+  },
+  "orange_up_1": {
+    "source_region": [
+      724,
+      0,
+      1448,
+      543
+    ],
+    "alpha_bounds": [
+      110,
+      50,
+      551,
+      508
+    ],
+    "cell_size": [
+      724,
+      543
+    ]
+  },
+  "orange_up_2": {
+    "source_region": [
+      0,
+      543,
+      724,
+      1086
+    ],
+    "alpha_bounds": [
+      216,
+      32,
+      644,
+      492
+    ],
+    "cell_size": [
+      724,
+      543
+    ]
+  },
+  "orange_up_3": {
+    "source_region": [
+      724,
+      543,
+      1448,
+      1086
+    ],
+    "alpha_bounds": [
+      111,
+      32,
+      561,
+      491
+    ],
+    "cell_size": [
+      724,
+      543
+    ]
+  },
+  "orange_up_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        30,
+        22,
+        225,
+        232
+      ],
+      [
+        27,
+        22,
+        229,
+        232
+      ],
+      [
+        30,
+        22,
+        225,
+        232
+      ],
+      [
+        25,
+        22,
+        231,
+        232
+      ]
+    ],
+    "sha256": [
+      "bac77317d642cc7238f0f2ae8bed3b44e13805f6e81b2904158051c47195658c",
+      "2d362ab505c130ede039b078188fae8d7a4d6fe47b4ab78d3b7cc9c607b3012f",
+      "1d2d7732742b1a8a962bbc56762344c0858ea33d6ea53b5c8c513821f43651b8",
+      "238b16dd77341278ad49d25eaf7d55c90aa01da1b60422f510c447fb4a932ffc"
+    ]
+  },
+  "orange_left_0": {
+    "source_region": [
+      0,
+      0,
+      724,
+      550
+    ],
+    "alpha_bounds": [
+      81,
+      67,
+      696,
+      530
+    ],
+    "cell_size": [
+      724,
+      550
+    ]
+  },
+  "orange_left_1": {
+    "source_region": [
+      724,
+      0,
+      1448,
+      550
+    ],
+    "alpha_bounds": [
+      49,
+      78,
+      654,
+      526
+    ],
+    "cell_size": [
+      724,
+      550
+    ]
+  },
+  "orange_left_2": {
+    "source_region": [
+      0,
+      550,
+      724,
+      1086
+    ],
+    "alpha_bounds": [
+      86,
+      32,
+      692,
+      477
+    ],
+    "cell_size": [
+      724,
+      536
+    ]
+  },
+  "orange_left_3": {
+    "source_region": [
+      724,
+      550,
+      1448,
+      1086
+    ],
+    "alpha_bounds": [
+      39,
+      38,
+      666,
+      477
+    ],
+    "cell_size": [
+      724,
+      536
+    ]
+  },
+  "orange_left_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        12,
+        57,
+        244,
+        232
+      ],
+      [
+        12,
+        60,
+        244,
+        232
+      ],
+      [
+        12,
+        62,
+        244,
+        232
+      ],
+      [
+        12,
+        70,
+        244,
+        232
+      ]
+    ],
+    "sha256": [
+      "db21825d7180d7fd946acca01f59c4a2df1002dbf8cc134128f6e832d350b61a",
+      "9dfb33f4c1a94fd448a51f16eedf3d135a36ab2db3d2ab6f3139bda689f78b87",
+      "26432ca7e7228cf69d104d096b2732f877342d2b4cdbf694f8aa895b07a5875c",
+      "468dbaf8b44370c7fe1c304b4442d49ecd7e634c1e63f39208d7e3fcf4e48d83"
+    ]
+  },
+  "orange_right_0": {
+    "source_region": [
+      0,
+      0,
+      724,
+      520
+    ],
+    "alpha_bounds": [
+      77,
+      19,
+      668,
+      499
+    ],
+    "cell_size": [
+      724,
+      520
+    ]
+  },
+  "orange_right_1": {
+    "source_region": [
+      724,
+      0,
+      1448,
+      520
+    ],
+    "alpha_bounds": [
+      57,
+      30,
+      663,
+      498
+    ],
+    "cell_size": [
+      724,
+      520
+    ]
+  },
+  "orange_right_2": {
+    "source_region": [
+      0,
+      520,
+      724,
+      1086
+    ],
+    "alpha_bounds": [
+      80,
+      17,
+      702,
+      497
+    ],
+    "cell_size": [
+      724,
+      566
+    ]
+  },
+  "orange_right_3": {
+    "source_region": [
+      724,
+      520,
+      1448,
+      1086
+    ],
+    "alpha_bounds": [
+      64,
+      26,
+      664,
+      497
+    ],
+    "cell_size": [
+      724,
+      566
+    ]
+  },
+  "orange_right_normalized": {
+    "canvas": [
+      256,
+      256
+    ],
+    "frame_count": 4,
+    "alpha_bounds": [
+      [
+        12,
+        44,
+        244,
+        232
+      ],
+      [
+        12,
+        53,
+        244,
+        232
+      ],
+      [
+        12,
+        53,
+        244,
+        232
+      ],
+      [
+        12,
+        50,
+        244,
+        232
+      ]
+    ],
+    "sha256": [
+      "15d5489f60de588246e4212afd395bedc9b055944a012219179c9c1c5e0b4739",
+      "e3063cf27613b1c99a0470d2e52bdd4a9daac777c72cf304e35c892de7c2a792",
+      "45249309c4f1cb2440f1fb9c12405e93b29d9aee18d94cbf975bdb6beacea527",
+      "3ef4836ccb7f3b16b945407fb72819e8848ba3c2101aeacaed3fea5a270e7872"
+    ]
+  },
+  "button_0": {
+    "source_region": [
+      0,
+      0,
+      1144,
+      458
+    ],
+    "alpha_bounds": [
+      76,
+      110,
+      1068,
+      438
+    ],
+    "cell_size": [
+      1144,
+      458
+    ]
+  },
+  "button_1": {
+    "source_region": [
+      0,
+      458,
+      1144,
+      916
+    ],
+    "alpha_bounds": [
+      76,
+      67,
+      1068,
+      395
+    ],
+    "cell_size": [
+      1144,
+      458
+    ]
+  },
+  "button_2": {
+    "source_region": [
+      0,
+      916,
+      1144,
+      1375
+    ],
+    "alpha_bounds": [
+      76,
+      36,
+      1068,
+      362
+    ],
+    "cell_size": [
+      1144,
+      459
+    ]
+  },
+  "button_normalized": {
+    "canvas": [
+      320,
+      128
+    ],
+    "frame_count": 3,
+    "alpha_bounds": [
+      [
+        10,
+        17,
+        310,
+        116
+      ],
+      [
+        10,
+        17,
+        310,
+        116
+      ],
+      [
+        10,
+        17,
+        310,
+        116
+      ]
+    ],
+    "sha256": [
+      "9aa23f89a66e6012366747d9aca56c43bef223605726fe9e3ec6be4fd3d40197",
+      "a7d60c4ddf790afce34482a94b5519e5f81dd30c5d695154873a9f92258172b8",
+      "6be7ccba7526d40e4115cb238af73c17b1af2ca17c68cec3c550174404cdc4a4"
+    ]
+  },
+  "grass_seam_mean_rgb": 5.1,
+  "water_base_seam_mean_rgb": 4.3,
+  "cafe_floor_seam_mean_rgb": 2.95,
+  "path_seam_mean_rgb": 5.73,
+  "river_bank_0": {
+    "source_region": [
+      0,
+      0,
+      880,
+      530
+    ],
+    "alpha_bounds": [
+      145,
+      144,
+      816,
+      447
+    ],
+    "cell_size": [
+      880,
+      530
+    ]
+  },
+  "river_bank_1": {
+    "source_region": [
+      880,
+      0,
+      1536,
+      530
+    ],
+    "alpha_bounds": [
+      64,
+      111,
+      511,
+      518
+    ],
+    "cell_size": [
+      656,
+      530
+    ]
+  },
+  "river_bank_2": {
+    "source_region": [
+      0,
+      530,
+      740,
+      1024
+    ],
+    "alpha_bounds": [
+      165,
+      3,
+      683,
+      410
+    ],
+    "cell_size": [
+      740,
+      494
+    ]
+  },
+  "river_bank_3": {
+    "source_region": [
+      740,
+      530,
+      1536,
+      1024
+    ],
+    "alpha_bounds": [
+      72,
+      66,
+      655,
+      407
+    ],
+    "cell_size": [
+      796,
+      494
+    ]
+  },
+  "cafe_front_left": {
+    "source_region": [
+      0,
+      0,
+      887,
+      887
+    ],
+    "alpha_bounds": [
+      40,
+      246,
+      759,
+      681
+    ],
+    "cell_size": [
+      887,
+      887
+    ]
+  },
+  "cafe_front_right": {
+    "source_region": [
+      887,
+      0,
+      1774,
+      887
+    ],
+    "alpha_bounds": [
+      128,
+      244,
+      847,
+      680
+    ],
+    "cell_size": [
+      887,
+      887
+    ]
+  },
+  "direction_correction": {
+    "left": "orange_right_source_v1",
+    "right": "orange_left_source_v1"
+  },
+  "frame_counts": {
+    "tree": 4,
+    "water_ripple": 4,
+    "coffee_fx": 4,
+    "orange_down": 3,
+    "orange_up": 4,
+    "orange_left": 4,
+    "orange_right": 4
+  },
+  "source_sha256": {
+    "river_bank_source_v1.png": "cf79fe3faba8522dc85de34b223e68acc7af00fd1b12d131db21a71ba1b4b21f",
+    "orange_up_source_v1.png": "af3396bb09ec7eb6fa4fc0c175829e30c7997df0e6687fb200bdf1b65c1e0a04",
+    "button_source_v1.png": "5151d2e677afe3d37e7cca289882f2b95accc54819c8584909ae00562c1b9f72",
+    "path_source_v1.png": "3590b6dabccfe9ee0a416cc21ea64b87ef9480424f34ba98fae2c0e53fbadeff",
+    "orange_right_source_v1.png": "cbfa0f2d1dcf75887919891dad77d482dff56489382195046412db7f88d664f3",
+    "tree_sheet_rejected_v2.png": "3e52e9754dbe13512a353deea8a892e16b7082c99bf3ecf90a5bd669e86741c5",
+    "cafe_floor_source_v1.png": "a21e53c0e5131b5b1315f2254b97ed3a4415805da089ccac01a03b018163865d",
+    "tree_sheet_v3.png": "882ca6a9b7aa92f96fd879ce18b80fd05db27e0cfa9c86cd30cb8c54da44711a",
+    "tree_sheet_rejected_v1.png": "17ef571963b23acd3ed15ccb4d0fea6f18f2cdad2ed96e744b5ac1cf9491df66",
+    "cafe_back_wall_source_v2.png": "5c2eac77e821cff4544bddfd6ac2e38e4a2781bdd45c4ff159a84e0cd3bb575f",
+    "water_base_source_v1.png": "cfaa3172c3fc3de6a22a8b6c4b3647f490e0ac731d7109611de86952b49dc641",
+    "grass_source_v1.png": "98659dee7e5740f972556f2c9e883514fb1a4acd113c577c47b633e6b94d4143",
+    "chair_front_sheet_v3.png": "a2120e1483a859394a9ca2c14e722851757638a9f1342c369cb0068d403a1fbf",
+    "cafe_shell_source_v1.png": "bbc7c95e0eb7f5a2f5d101fe89f543641640d5d7e1f5972f8e558a160c4b1fbd",
+    "water_ripple_source_v1.png": "95ae5e4d4c6430928c6ce5969e36bc50608c359287b8d537459c3ca61624fe55",
+    "orange_left_source_v1.png": "42b3ae2a998c5b21e1c2b07b784f1864d2ed1ec264a7cb133cfba6a938a06bb0",
+    "chair_sheet_rejected_v2.png": "45415e7203f03481e30406056ffb6f481a54b972195fdfd85147e64a79b90423",
+    "orange_down_source_v1.png": "09ba351c7d25085160294bb9efc94a4f77163b8aea09b25ab4dfa3dcb2677b65",
+    "contact_shadow_source_v1.png": "a98ed934b72ea0e177d78fc081a17ff22cc71c34d62657eb80cc023825d34c83",
+    "chair_sheet_rejected_v1.png": "f107782325dd1a0c9f8e93535d8bfc71c1264fd3dfa2123ce4c8b6311352cb63",
+    "cafe_front_rail_source_v2.png": "cbf1aadc78b8831e21c0653ed825dfd330d571203cb8cb5c382dda53ac86786a",
+    "chair_back_sheet_v3.png": "d0482451e45ca322da0186c584e01fcc046e72a58427528ab0aaa517a56a0ce2",
+    "coffee_fx_source_v1.png": "b4e517555738990048836505dcdbd6ada9ff427a77ce65fde24fd7b53a262856"
+  },
+  "failures": []
+}

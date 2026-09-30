@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3_real_art_lighting_proof_v1.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_revision_world.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_revision_backdrop.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/atmosphere/real_art_revision_window.gd" id="4"]
+
+[node name="HomeV3RealArtLightingProofRevisionV1" instance=ExtResource("1")]
+script = ExtResource("2")
+
+[node name="NeutralBackdrop" parent="Architecture" index="0"]
+script = ExtResource("3")
+
+[node name="ArchitectureSample" parent="Architecture" index="1"]
+position = Vector2(320, 500)
+world_scale = 0.55
+
+[node name="WindowLighting" parent="Architecture" index="2"]
+position = Vector2(495, 330)
+script = ExtResource("4")
+
+[node name="PointLight2D" parent="Architecture/WindowLighting" index="0"]
+position = Vector2(-30, 40)
+
+[node name="WindowSample" parent="Architecture" index="3"]
+position = Vector2(495, 330)
+world_scale = 0.32
+
+[node name="PracticalLamp" parent="Architecture" index="4"]
+position = Vector2(235, 310)
+radius = 210.0
+
+[node name="LampSample" parent="Architecture/PracticalLamp" index="1"]
+world_scale = 0.34
+
+[node name="BulbVisual" parent="Architecture/PracticalLamp/LampSample" index="1"]
+position = Vector2(-43.52, -68)
+scale = Vector2(0.34, 0.34)
+
+[node name="ChairSample" parent="Furniture" index="0"]
+position = Vector2(420, 552)
+world_scale = 0.23
+
+[node name="ContactShadow" parent="Furniture/ChairSample" index="0"]
+scale = Vector2(0.75, 0.75)
+
+[node name="OrangeProtagonistSample" parent="Characters" index="0"]
+position = Vector2(300, 550)
+world_scale = 0.32
+
+[node name="CaptureHarness" parent="." index="5"]
+output_dir = "res://artifacts/prototype_review/home_v3_real_art_lighting_proof_revision_v1"
+capture_dimmed = true
+
+[node name="Camera" parent="." index="6"]
+position = Vector2(320, 425)
+zoom = Vector2(2.7, 2.7)

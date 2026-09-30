@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd" id="1"]
+
+[node name="CafeTableSet2" type="Node2D"]
+script = ExtResource("1")

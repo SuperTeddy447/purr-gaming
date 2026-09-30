@@ -113,6 +113,8 @@ python cli.py build-static \
 
 Use `--pivot FULL_CANVAS_TOP_LEFT --opaque` only for a complete architecture plate. Other supported pivots include `COUNTERTOP_BASE_CENTER`, `COUNTER_FRONT_BOTTOM_CENTER`, `COUNTER_BACK_SURFACE_CENTER`, `WALL_MOUNT_CENTER` and `CENTER`. The command creates `<asset_id>.png` and `<asset_id>.runtime.json`, checks source-edge alpha and immutability, and preserves source art. `PASS` is technical packaging only, not a visual/FINAL approval. Run it on one source per asset; select a regenerated source explicitly rather than overwriting a prior one.
 
+For a **registered transparent fixed architectural layer** (such as Home V3 Batch A wall/window art), use `--pivot FULL_CANVAS_TOP_LEFT --preserve-canvas --expected-size WIDTHxHEIGHT` instead of the ordinary crop/recenter path. It copies the full PNG byte-for-byte, rejects the wrong dimensions or an entirely opaque source, and reports visual alpha bounds and edge-contact flags. Edge contact is evidence to review against that layer's seam contract, not an automatic failure. Opaque room plates may use `--opaque --expected-size WIDTHxHEIGHT`; `--opaque` now rejects alpha holes. Neither option decides world placement, window aperture geometry, lighting neutrality or art approval: verify those in the Godot staging scene and the asset handoff. Do not combine `--preserve-canvas` with `--opaque`.
+
 ## Source Immutability
 
 - SOURCE files are NEVER modified

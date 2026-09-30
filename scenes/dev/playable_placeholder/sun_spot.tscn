@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/interaction_slot.tscn" id="2"]
+
+[node name="SunSpot" type="Node2D"]
+script = ExtResource("1")
+stable_id = &"sun_spot"
+kind = "waiting"
+
+[node name="SunSlot" parent="." instance=ExtResource("2")]
+action_type = &"sun"
+allowed_categories = PackedStringArray("cat")
+action_duration = 2.0
+character_action = &"Loaf"
+
+[node name="ApproachAnchor" parent="SunSlot" index="0"]
+position = Vector2(0, 20)
+
+[node name="ActionAnchor" parent="SunSlot" index="1"]
+position = Vector2(0, 0)
+
+[node name="ExitAnchor" parent="SunSlot" index="2"]
+position = Vector2(0, 20)
+
+[editable path="SunSlot"]

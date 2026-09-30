@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/first_party_style_proof/first_party_loop_visual.gd" id="1"]
+
+[node name="WilliCatCoffeeCompleteFX01" type="Node2D"]
+script = ExtResource("1")
+source_file = "coffee_fx.png"
+clip_name = "complete"
+frame_rate = 11.11
+loop = false
+autoplay = false
+visual_scale = 0.2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1

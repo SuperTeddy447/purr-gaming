@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/physical_footprint.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/dev_proxy/tiny_swords/shadow.png" id="3"]
+
+[node name="AnimatedTreeProp" type="Node2D"]
+script = ExtResource("1")
+
+[node name="RuntimeVisual" type="Node2D" parent="."]
+visible = false
+
+[node name="ShadowVisual" type="Sprite2D" parent="."]
+texture = ExtResource("3")
+position = Vector2(0, -8)
+scale = Vector2(0.85, 0.55)
+z_index = -1
+
+[node name="VisualRoot" type="Node2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="VisualRoot"]
+texture_filter = 1
+
+[node name="TrunkFootprint" type="StaticBody2D" parent="."]
+position = Vector2(0, -18)
+script = ExtResource("2")
+footprint_size = Vector2(28, 26)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrunkFootprint"]

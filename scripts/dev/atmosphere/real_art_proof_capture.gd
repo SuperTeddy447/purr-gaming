@@ -1,7 +1,8 @@
 extends Node
 ## Future proof capture. Refuses placeholder/opaque/incorrect-canvas assets.
 
-const OUTPUT := "res://artifacts/prototype_review/home_v3_real_art_lighting_proof_v1/"
+@export_dir var output_dir := "res://artifacts/prototype_review/home_v3_real_art_lighting_proof_v1"
+@export var capture_dimmed := false
 var running := false
 var saved: Array[String] = []
 @onready var world := get_parent()
@@ -27,7 +28,7 @@ func run_capture() -> void:
 
 func _capture_sequence() -> void:
 	saved.clear()
-	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUTPUT))
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(output_dir))
 	world.set_camera_shot(&"room")
 	world.set_neutral()
 	await _save("01_neutral.png")
@@ -39,6 +40,9 @@ func _capture_sequence() -> void:
 	await _save("04_night_lamp_off.png")
 	world.set_proof_state(&"night", &"clear", AtmosphereLamp.Override.FORCE_ON)
 	await _save("05_night_lamp_on.png")
+	if capture_dimmed:
+		world.lamp.set_manual_override(AtmosphereLamp.Override.DIMMED)
+		await _save("05b_night_lamp_dimmed.png")
 	world.set_proof_state(&"afternoon", &"rain", AtmosphereLamp.Override.AUTO)
 	await _save("06_rainy_afternoon.png")
 	world.set_proof_state(&"night", &"rain", AtmosphereLamp.Override.FORCE_ON)
@@ -73,14 +77,15 @@ func _capture_sequence() -> void:
 	print("REAL ART PROOF CAPTURE COMPLETE %d images" % saved.size())
 	running = false
 	if "--capture-real-art-proof" in OS.get_cmdline_user_args():
-		var expected := 17 if (chair as RealArtProofSlot).optional_normal_map != null else 15
+		var expected := (17 if (chair as RealArtProofSlot).optional_normal_map != null else 15) \
+			+ (1 if capture_dimmed else 0)
 		get_tree().quit(0 if saved.size() == expected else 1)
 
 
 func _save(filename: String) -> void:
 	await get_tree().process_frame
 	await RenderingServer.frame_post_draw
-	var result := get_viewport().get_texture().get_image().save_png(OUTPUT + filename)
+	var result := get_viewport().get_texture().get_image().save_png(output_dir.path_join(filename))
 	if result == OK:
 		saved.append(filename)
 	else:

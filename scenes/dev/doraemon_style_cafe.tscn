@@ -1,0 +1,80 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/backgrounds/cafe_background.jpg" id="1_bg"]
+
+[sub_resource type="GDScript" id="GDScript_1"]
+script/source = "extends Sprite2D
+var speed = 200.0
+func _process(delta):
+	var dir = Vector2.ZERO
+	if Input.is_key_pressed(KEY_RIGHT) or Input.is_key_pressed(KEY_D): dir.x += 1
+	if Input.is_key_pressed(KEY_LEFT) or Input.is_key_pressed(KEY_A): dir.x -= 1
+	if Input.is_key_pressed(KEY_DOWN) or Input.is_key_pressed(KEY_S): dir.y += 1
+	if Input.is_key_pressed(KEY_UP) or Input.is_key_pressed(KEY_W): dir.y -= 1
+	if dir != Vector2.ZERO:
+		position += dir.normalized() * speed * delta
+"
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_1"]
+size = Vector2(40, 80)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_counter"]
+size = Vector2(450, 150)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_table"]
+size = Vector2(120, 80)
+
+[node name="DoraemonStyleCafe" type="Node2D"]
+y_sort_enabled = true
+
+[node name="PreRenderedBackground" type="Sprite2D" parent="."]
+z_index = -10
+texture = ExtResource("1_bg")
+centered = false
+
+[node name="YSortLayer" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="PlayerPlaceholder" type="Sprite2D" parent="YSortLayer"]
+modulate = Color(0.913725, 0.501961, 0.454902, 1)
+y_sort_enabled = true
+position = Vector2(270, 750)
+texture = SubResource("PlaceholderTexture2D_1")
+offset = Vector2(0, -40)
+script = SubResource("GDScript_1")
+
+[node name="CounterDepth" type="Node2D" parent="YSortLayer"]
+position = Vector2(260, 240)
+y_sort_enabled = true
+
+[node name="DepthSprite" type="Sprite2D" parent="YSortLayer/CounterDepth"]
+modulate = Color(0, 1, 0, 0.3)
+texture = SubResource("PlaceholderTexture2D_counter")
+offset = Vector2(0, -75)
+
+[node name="TableA_Depth" type="Node2D" parent="YSortLayer"]
+position = Vector2(170, 530)
+y_sort_enabled = true
+
+[node name="DepthSprite" type="Sprite2D" parent="YSortLayer/TableA_Depth"]
+modulate = Color(0, 1, 0, 0.3)
+texture = SubResource("PlaceholderTexture2D_table")
+offset = Vector2(0, -40)
+
+[node name="TableB_Depth" type="Node2D" parent="YSortLayer"]
+position = Vector2(380, 680)
+y_sort_enabled = true
+
+[node name="DepthSprite" type="Sprite2D" parent="YSortLayer/TableB_Depth"]
+modulate = Color(0, 1, 0, 0.3)
+texture = SubResource("PlaceholderTexture2D_table")
+offset = Vector2(0, -40)
+
+[node name="CatBed_Depth" type="Node2D" parent="YSortLayer"]
+position = Vector2(120, 360)
+y_sort_enabled = true
+
+[node name="DepthSprite" type="Sprite2D" parent="YSortLayer/CatBed_Depth"]
+modulate = Color(0, 1, 0, 0.3)
+texture = SubResource("PlaceholderTexture2D_table")
+offset = Vector2(0, -40)

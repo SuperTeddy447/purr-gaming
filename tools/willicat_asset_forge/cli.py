@@ -149,6 +149,8 @@ def cmd_build_static(args: argparse.Namespace) -> None:
         alpha_threshold=args.alpha_threshold,
         padding=args.padding,
         opaque=args.opaque,
+        preserve_canvas=args.preserve_canvas,
+        expected_size=tuple(map(int, args.expected_size.lower().split("x"))) if args.expected_size else None,
     )
     print(json.dumps(result, indent=2))
 
@@ -191,6 +193,8 @@ def main() -> None:
     p_static.add_argument("--alpha-threshold", type=int, default=16)
     p_static.add_argument("--padding", type=int, default=16)
     p_static.add_argument("--opaque", action="store_true")
+    p_static.add_argument("--preserve-canvas", action="store_true", help="Keep the exact transparent full canvas and top-left registration.")
+    p_static.add_argument("--expected-size", help="Reject wrong source size, e.g. 960x1980.")
 
     args = parser.parse_args()
 

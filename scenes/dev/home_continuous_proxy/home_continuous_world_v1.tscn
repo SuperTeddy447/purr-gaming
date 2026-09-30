@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/proxy_cafe/proxy_main_cafe.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_continuous_proxy/home_continuous_world.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/home_continuous_proxy/home_installer.gd" id="3"]
+
+[node name="HomeLocationRoot" instance=ExtResource("1")]
+script = ExtResource("2")
+room_id = &"home_continuous"
+
+[node name="HomeInstaller" type="Node" parent="."]
+script = ExtResource("3")

@@ -1,10 +1,11 @@
-[gd_scene format=3 uid="uid://cxgawupiap1g7"]
+[gd_scene format=3]
 
-[ext_resource type="Script" uid="uid://dos8uqce4qxx6" path="res://scripts/dev/home_v3/home_v3_world.gd" id="1"]
-[ext_resource type="Script" uid="uid://dra4osfwe288q" path="res://scripts/dev/home_v3/home_v3_floor.gd" id="2"]
-[ext_resource type="Script" uid="uid://cd87ib1d37re4" path="res://scripts/dev/world_hardening/hardening_navigation.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/home_v3_world.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/home_v3_floor.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_navigation.gd" id="3"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/counter_shell_v3.tscn" id="4"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/espresso_station_v3.tscn" id="5"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_object.gd" id="5_typ2t"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/grinder_station.tscn" id="6"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/pos_station.tscn" id="7"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/pastry_case.tscn" id="8"]
@@ -18,10 +19,11 @@
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/entrance_door.tscn" id="16"]
 [ext_resource type="PackedScene" path="res://scenes/dev/home_v3/seasonal_display_v3.tscn" id="17"]
 [ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/actor.tscn" id="18"]
-[ext_resource type="Script" uid="uid://vbl2hfwawwgk" path="res://scripts/dev/world_hardening/camera_input.gd" id="19"]
-[ext_resource type="Script" uid="uid://bilxvrd3shqq6" path="res://scripts/dev/world_hardening/camera_director.gd" id="20"]
-[ext_resource type="Script" uid="uid://capb381mi0b36" path="res://scripts/dev/world_hardening/debug_overlay.gd" id="22"]
-[ext_resource type="Script" uid="uid://c2lpjn2hfrpb2" path="res://scripts/dev/home_v3/home_v3_capture.gd" id="23"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/camera_input.gd" id="19"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/camera_director.gd" id="20"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_actor.gd" id="20_4fntp"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/debug_overlay.gd" id="22"]
+[ext_resource type="Script" path="res://scripts/dev/home_v3/home_v3_capture.gd" id="23"]
 
 [node name="HomeV3WorldAuthoringLab" type="Node2D" unique_id=124325809]
 script = ExtResource("1")
@@ -45,62 +47,108 @@ y_sort_enabled = true
 [node name="CounterServiceZone" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1882163031]
 y_sort_enabled = true
 
-[node name="CounterShell" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1174532991 instance=ExtResource("4")]
-position = Vector2(150, 280)
+[node name="CounterShell" type="Node2D" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1174532991 instance=ExtResource("4")]
+position = Vector2(200, 300)
+script = ExtResource("5_typ2t")
+stable_id = &"counter_shell"
+kind = "counter"
 
-[node name="EspressoStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1124536245 instance=ExtResource("5")]
-position = Vector2(345, 275)
+[node name="EspressoStation" type="Node2D" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1124536245 instance=ExtResource("5")]
+position = Vector2(300, 180)
+script = ExtResource("5_typ2t")
+stable_id = &"espresso_station"
+kind = "espresso"
 
-[node name="GrinderStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=401849260 instance=ExtResource("6")]
-position = Vector2(475, 275)
+[node name="GrinderStation" type="Node2D" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=401849260 instance=ExtResource("6")]
+position = Vector2(450, 180)
+script = ExtResource("5_typ2t")
+stable_id = &"grinder_station"
+kind = "grinder"
 
-[node name="POSStation" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1192410278 instance=ExtResource("7")]
-position = Vector2(90, 190)
+[node name="POSStation" type="Node2D" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=1192410278 instance=ExtResource("7")]
+position = Vector2(120, 300)
+script = ExtResource("5_typ2t")
+stable_id = &"pos_station"
+kind = "pos"
 
-[node name="PastryCase" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=775629230 instance=ExtResource("8")]
-position = Vector2(225, 190)
+[node name="PastryCase" type="Node2D" parent="DepthSortedLayer/WorldObjects/CounterServiceZone" unique_id=775629230 instance=ExtResource("8")]
+position = Vector2(280, 300)
+script = ExtResource("5_typ2t")
+stable_id = &"pastry_case"
+kind = "pastry"
 
-[node name="TableA" parent="DepthSortedLayer/WorldObjects" unique_id=828211684 instance=ExtResource("9")]
-position = Vector2(180, 520)
+[node name="TableA" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=828211684 instance=ExtResource("9")]
+position = Vector2(200, 520)
+script = ExtResource("5_typ2t")
 stable_id = &"table_a"
 
-[node name="ChairA" parent="DepthSortedLayer/WorldObjects" unique_id=217324296 instance=ExtResource("10")]
-position = Vector2(85, 615)
+[node name="ChairA" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=217324296 instance=ExtResource("10")]
+position = Vector2(100, 540)
+script = ExtResource("5_typ2t")
 stable_id = &"chair_a"
+kind = "chair"
 
-[node name="ChairB" parent="DepthSortedLayer/WorldObjects" unique_id=1017255496 instance=ExtResource("10")]
-position = Vector2(280, 615)
+[node name="ChairB" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1017255496 instance=ExtResource("10")]
+position = Vector2(300, 540)
+script = ExtResource("5_typ2t")
 stable_id = &"chair_b"
+kind = "chair"
 
-[node name="TableB" parent="DepthSortedLayer/WorldObjects" unique_id=845763203 instance=ExtResource("9")]
-position = Vector2(445, 650)
+[node name="TableB" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=845763203 instance=ExtResource("9")]
+position = Vector2(480, 680)
+script = ExtResource("5_typ2t")
 stable_id = &"table_b"
 
-[node name="ChairC" parent="DepthSortedLayer/WorldObjects" unique_id=1513561887 instance=ExtResource("10")]
-position = Vector2(350, 730)
+[node name="ChairC" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1513561887 instance=ExtResource("10")]
+position = Vector2(380, 700)
+script = ExtResource("5_typ2t")
 stable_id = &"chair_c"
+kind = "chair"
 
-[node name="ChairD" parent="DepthSortedLayer/WorldObjects" unique_id=852958744 instance=ExtResource("10")]
-position = Vector2(550, 730)
+[node name="ChairD" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=852958744 instance=ExtResource("10")]
+position = Vector2(580, 700)
+script = ExtResource("5_typ2t")
 stable_id = &"chair_d"
+kind = "chair"
 
-[node name="CatBed" parent="DepthSortedLayer/WorldObjects" unique_id=1782929925 instance=ExtResource("11")]
-position = Vector2(105, 880)
+[node name="CatBed" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1782929925 instance=ExtResource("11")]
+position = Vector2(120, 750)
+script = ExtResource("5_typ2t")
+stable_id = &"cat_bed"
+kind = "bed"
+shared_capacity = 1
 
-[node name="WindowPerch" parent="DepthSortedLayer/WorldObjects" unique_id=1395613634 instance=ExtResource("14")]
-position = Vector2(535, 435)
+[node name="WindowPerch" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1395613634 instance=ExtResource("14")]
+position = Vector2(560, 380)
+script = ExtResource("5_typ2t")
+stable_id = &"window_perch"
+kind = "perch"
+shared_capacity = 1
 
-[node name="Plant" parent="DepthSortedLayer/WorldObjects" unique_id=2080412435 instance=ExtResource("12")]
-position = Vector2(540, 910)
+[node name="Plant" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=2080412435 instance=ExtResource("12")]
+position = Vector2(540, 850)
+script = ExtResource("5_typ2t")
+stable_id = &"plant"
+kind = "plant"
 
-[node name="ScratchPost" parent="DepthSortedLayer/WorldObjects" unique_id=1538929991 instance=ExtResource("13")]
-position = Vector2(120, 1000)
+[node name="ScratchPost" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1538929991 instance=ExtResource("13")]
+position = Vector2(460, 870)
+script = ExtResource("5_typ2t")
+stable_id = &"scratch_post"
+kind = "scratch"
+shared_capacity = 1
 
-[node name="WaitingSpot" parent="DepthSortedLayer/WorldObjects" unique_id=1606611989 instance=ExtResource("15")]
-position = Vector2(315, 895)
+[node name="WaitingSpot" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=1606611989 instance=ExtResource("15")]
+position = Vector2(320, 950)
+script = ExtResource("5_typ2t")
+stable_id = &"waiting_spot"
+kind = "waiting"
 
-[node name="EntranceDoor" parent="DepthSortedLayer/WorldObjects" unique_id=79658382 instance=ExtResource("16")]
-position = Vector2(320, 1070)
+[node name="EntranceDoor" type="Node2D" parent="DepthSortedLayer/WorldObjects" unique_id=79658382 instance=ExtResource("16")]
+position = Vector2(320, 1080)
+script = ExtResource("5_typ2t")
+stable_id = &"entrance_door"
+kind = "entrance"
 
 [node name="FreeFloorIdle" type="Marker2D" parent="DepthSortedLayer/WorldObjects" unique_id=398621692]
 position = Vector2(310, 825)
@@ -112,32 +160,53 @@ y_sort_enabled = true
 [node name="SeasonalDisplayZone" type="Marker2D" parent="DepthSortedLayer/EventLayer" unique_id=476896970]
 position = Vector2(520, 1060)
 
-[node name="SeasonalDisplay" parent="DepthSortedLayer/EventLayer" unique_id=14174569 instance=ExtResource("17")]
+[node name="SeasonalDisplay" type="Node2D" parent="DepthSortedLayer/EventLayer" unique_id=14174569 instance=ExtResource("17")]
 position = Vector2(520, 1130)
+script = ExtResource("5_typ2t")
+stable_id = &"seasonal_display"
+kind = "seasonal"
 
 [node name="Characters" type="Node2D" parent="DepthSortedLayer" unique_id=2073623825]
 y_sort_enabled = true
 
-[node name="Worker" parent="DepthSortedLayer/Characters" unique_id=1115086406 instance=ExtResource("18")]
-position = Vector2(390, 360)
+[node name="Worker" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=1115086406 instance=ExtResource("18")]
+position = Vector2(250, 230)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 category = "worker"
 
-[node name="CustomerA" parent="DepthSortedLayer/Characters" unique_id=564598455 instance=ExtResource("18")]
-position = Vector2(270, 1130)
+[node name="CustomerA" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=564598455 instance=ExtResource("18")]
+position = Vector2(320, 1000)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 category = "customer"
 
-[node name="CustomerB" parent="DepthSortedLayer/Characters" unique_id=1520269079 instance=ExtResource("18")]
-position = Vector2(370, 1130)
+[node name="CustomerB" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=1520269079 instance=ExtResource("18")]
+position = Vector2(200, 600)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 category = "customer"
 
-[node name="CatA" parent="DepthSortedLayer/Characters" unique_id=1402879098 instance=ExtResource("18")]
-position = Vector2(205, 930)
+[node name="CatA" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=1402879098 instance=ExtResource("18")]
+position = Vector2(120, 780)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 
-[node name="CatB" parent="DepthSortedLayer/Characters" unique_id=2101531693 instance=ExtResource("18")]
-position = Vector2(430, 915)
+[node name="CatB" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=2101531693 instance=ExtResource("18")]
+position = Vector2(520, 420)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 
-[node name="CatC" parent="DepthSortedLayer/Characters" unique_id=623289464 instance=ExtResource("18")]
-position = Vector2(520, 520)
+[node name="CatC" type="CharacterBody2D" parent="DepthSortedLayer/Characters" unique_id=623289464 instance=ExtResource("18")]
+position = Vector2(320, 750)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("20_4fntp")
 
 [node name="CrossTableTarget" type="Marker2D" parent="." unique_id=1065931514]
 position = Vector2(295, 520)

@@ -1,0 +1,66 @@
+{
+  "project_name": "WilliCat",
+  "version": "1.0",
+  "canonical_documents": {
+    "world_architecture": {
+      "path": "docs/architecture/WILLICAT_PRODUCTION_WORLD_ARCHITECTURE_V1.md",
+      "description": "Spatial organization, zone ownership, and Godot scene definitions.",
+      "authority": "LOCKED"
+    },
+    "architecture_lock_adr": {
+      "path": "docs/architecture/WILLICAT_PRODUCTION_ARCHITECTURE_LOCK_ADR_V1.md",
+      "description": "Records the decision to use Godot-authored worlds as gameplay truth over concept images.",
+      "authority": "LOCKED"
+    },
+    "interaction_slots": {
+      "path": "docs/architecture/WILLICAT_INTERACTION_SLOT_CONTRACT_V1.md",
+      "description": "Semantic action system defining how actors reserve and interact with objects.",
+      "authority": "LOCKED"
+    },
+    "navigation": {
+      "path": "docs/architecture/WILLICAT_NAVIGATION_FOOTPRINT_STRATEGY_V1.md",
+      "description": "How object physical footprints block paths, and how navigation is baked.",
+      "authority": "LOCKED"
+    },
+    "camera": {
+      "path": "docs/architecture/WILLICAT_CAMERA_DIRECTOR_ARCHITECTURE_V1.md",
+      "description": "Rules for CameraDirector overriding gameplay camera via object-owned markers.",
+      "authority": "LOCKED"
+    },
+    "home_v3_layout": {
+      "path": "docs/design/WILLICAT_HOME_V3_LAYOUT_LOCK_V1.md",
+      "description": "Canonical Staggered Salon layout, inventory of stable instances, and layout coordinates.",
+      "authority": "LOCKED"
+    },
+    "home_v3_art_direction": {
+      "path": "docs/art/WILLICAT_HOME_ENVIRONMENT_V3_ART_DIRECTION_V1.md",
+      "description": "Visual DNA, material choices, and storybook style requirements.",
+      "authority": "PROVISIONAL"
+    },
+    "home_v3_art_handoff": {
+      "path": "docs/production/WILLICAT_HOME_V3_ART_HANDOFF_SPEC_LOCK_V1.md",
+      "description": "Specific art constraints (padding, roots, layering) for every object in Home V3.",
+      "authority": "LOCKED"
+    },
+    "atmosphere_architecture": {
+      "path": "docs/architecture/WILLICAT_WORLD_ATMOSPHERE_ARCHITECTURE_V1.md",
+      "description": "How location, season, time, and weather IDs evaluate to runtime lighting changes.",
+      "authority": "PROOFED"
+    },
+    "lighting_art_contract": {
+      "path": "docs/art/WILLICAT_HOME_V3_LIGHTING_ART_CONTRACT_V2.md",
+      "description": "Rules against baking in directional shadows or time-of-day tints into neutral sprites.",
+      "authority": "LOCKED"
+    },
+    "character_runtime": {
+      "path": "docs/architecture/WILLICAT_CHARACTER_RUNTIME_PRODUCTION_CONTRACT_V1.md",
+      "description": "The technical pipeline for character animation, states, roots, and visual hierarchy.",
+      "authority": "PROVISIONAL"
+    },
+    "character_animation_plan": {
+      "path": "docs/production/WILLICAT_CHARACTER_ANIMATION_PRODUCTION_PLAN_V1.md",
+      "description": "The plan for validating the first true vertical slice of character animation.",
+      "authority": "PROVISIONAL"
+    }
+  }
+}

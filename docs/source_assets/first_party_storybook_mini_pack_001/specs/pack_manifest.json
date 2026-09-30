@@ -1,0 +1,523 @@
+{
+  "contract_version": "1.0-draft",
+  "pack_id": "willicat_first_party_animated_storybook_mini_pack_001",
+  "style_family": "willicat_home_storybook_v1",
+  "projection": "elevated_three_quarter_isometric_lite",
+  "reference_art": [
+    "docs/references/characters/WILLICAT_ORANGE_PROTAGONIST_FINAL_MASTER_V1-TRANSPARENT.png",
+    "docs/references/home/WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png"
+  ],
+  "world": {
+    "location": "home_continuous",
+    "coordinate_policy": "preserve_existing",
+    "logical_placement_cell_world_units": 32,
+    "terrain_cell_world_units": 64,
+    "art_policy": "individual_first_party_assets_only; no room paintings; transparent isolated source; matte illustrated non-pixel"
+  },
+  "assets": [
+    {
+      "asset_id": "WILLICAT_GRASS_HOME_01",
+      "category": "terrain",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": [
+        64,
+        64
+      ],
+      "logical_cells": [
+        2,
+        2
+      ],
+      "visual_canvas_px": [
+        256,
+        256
+      ],
+      "variants": [
+        "interior_a",
+        "interior_b",
+        "path_edge_straight",
+        "path_corner_outer",
+        "path_corner_inner"
+      ],
+      "pivot_px": [
+        128,
+        128
+      ],
+      "baseline_px": 128,
+      "floor_contact": "tile_center",
+      "world_scale": 0.25,
+      "collision_footprint": null,
+      "navigation_obstruction": false,
+      "shadow_policy": "none",
+      "occlusion_policy": "ground_layer",
+      "interaction_anchors": [],
+      "frame_duration_ms": null,
+      "output_names": [
+        "grass_tile.png",
+        "path_tile.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_grass_tileset_01.tres",
+      "terrain_auxiliary": "path_tile is a proof transition within the existing grass/path terrain footprint",
+      "source_files": [
+        "grass_source_v1.png",
+        "path_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_RIVER_HOME_01",
+      "category": "terrain",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": [
+        64,
+        64
+      ],
+      "logical_cells": [
+        2,
+        2
+      ],
+      "visual_canvas_px": [
+        256,
+        256
+      ],
+      "variants": [
+        "water_base",
+        "bank_straight",
+        "bank_corner_outer",
+        "bank_corner_inner"
+      ],
+      "pivot_px": [
+        128,
+        128
+      ],
+      "baseline_px": 128,
+      "floor_contact": "tile_center",
+      "world_scale": 0.25,
+      "collision_footprint": null,
+      "navigation_obstruction": "existing_river_water_boundary_only",
+      "shadow_policy": "none",
+      "occlusion_policy": "ground_layer",
+      "interaction_anchors": [
+        "river_look_existing"
+      ],
+      "frame_duration_ms": null,
+      "output_names": [
+        "water_base_tile.png",
+        "river_bank_pieces.png",
+        "river_bank_vertical.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_river_tileset_01.tres",
+      "source_files": [
+        "water_base_source_v1.png",
+        "river_bank_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_WATER_EDGE_LOOP_01",
+      "category": "animated_terrain",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": [
+        64,
+        64
+      ],
+      "logical_cells": [
+        2,
+        2
+      ],
+      "visual_canvas_px": [
+        256,
+        256
+      ],
+      "animation_names": [
+        "calm_ripple"
+      ],
+      "frame_count": 4,
+      "frame_duration_ms": 150,
+      "pivot_px": [
+        128,
+        128
+      ],
+      "baseline_px": 128,
+      "floor_contact": "tile_center",
+      "world_scale": 0.25,
+      "collision_footprint": null,
+      "navigation_obstruction": false,
+      "shadow_policy": "none",
+      "occlusion_policy": "over_water_base",
+      "interaction_anchors": [],
+      "output_names": [
+        "water_ripple.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_water_edge_loop_01.tscn",
+      "source_files": [
+        "water_ripple_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_TREE_HOME_01",
+      "category": "animated_prop",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": [
+        28,
+        26
+      ],
+      "logical_cells": [
+        1,
+        1
+      ],
+      "visual_canvas_px": [
+        512,
+        640
+      ],
+      "animation_names": [
+        "gentle_breeze"
+      ],
+      "frame_count": 4,
+      "frame_duration_ms": 200,
+      "pivot_px": [
+        256,
+        600
+      ],
+      "baseline_px": 600,
+      "floor_contact": "trunk_root",
+      "world_scale": 0.4,
+      "collision_footprint": [
+        28,
+        26
+      ],
+      "navigation_obstruction": true,
+      "shadow_policy": "separate_neutral_contact_shadow",
+      "occlusion_policy": "Y_sort_at_trunk; canopy_overhangs",
+      "interaction_anchors": [],
+      "output_names": [
+        "tree_gentle_breeze.png",
+        "contact_shadow.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_tree_home_01.tscn",
+      "authored_loop_note": "Four individually authored subtle poses; compact 0.8 s loop accepted after edge/registration validation.",
+      "source_files": [
+        "tree_sheet_v3.png",
+        "contact_shadow_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_CAFE_CHAIR_HOME_01",
+      "category": "furniture",
+      "source_method": "generate_directional_family",
+      "canonical_world_footprint": [
+        48,
+        28
+      ],
+      "logical_cells": [
+        1,
+        1
+      ],
+      "visual_canvas_px": [
+        384,
+        384
+      ],
+      "directions": [
+        "n",
+        "ne",
+        "e",
+        "se",
+        "s",
+        "sw",
+        "w",
+        "nw"
+      ],
+      "direction_semantics": "seated_occupant_faces",
+      "pivot_px": [
+        192,
+        364
+      ],
+      "baseline_px": 364,
+      "floor_contact": "chair_feet_center",
+      "world_scale": 0.18,
+      "collision_footprint": [
+        48,
+        28
+      ],
+      "navigation_obstruction": true,
+      "shadow_policy": "separate_neutral_contact_shadow",
+      "occlusion_policy": "Y_sort_at_feet; optional_front_armrest",
+      "interaction_anchors": [
+        "SeatSlot/ApproachAnchor",
+        "SeatSlot/ActionAnchor",
+        "SeatSlot/ExitAnchor"
+      ],
+      "frame_duration_ms": null,
+      "output_names": [
+        "chair_directions.png",
+        "contact_shadow.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_cafe_chair_home_01.tscn",
+      "source_files": [
+        "chair_back_sheet_v3.png",
+        "chair_front_sheet_v3.png",
+        "contact_shadow_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_CAFE_TABLE_ROUND_HOME_01",
+      "category": "furniture",
+      "source_method": "normalize_existing_first_party_candidate_or_regenerate",
+      "source_candidate": "assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A06_ROUND_CAFE_TABLE_V1.png",
+      "canonical_world_footprint": [
+        108,
+        80
+      ],
+      "logical_cells": [
+        3,
+        3
+      ],
+      "visual_canvas_px": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "baseline_px": 480,
+      "floor_contact": "table_base_center",
+      "world_scale": 0.2,
+      "collision_footprint": [
+        108,
+        80
+      ],
+      "navigation_obstruction": true,
+      "shadow_policy": "separate_neutral_contact_shadow",
+      "occlusion_policy": "Y_sort_at_base",
+      "interaction_anchors": [],
+      "frame_duration_ms": null,
+      "output_names": [
+        "table_round.png",
+        "contact_shadow.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_cafe_table_round_home_01.tscn",
+      "source_files": [
+        "assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A06_ROUND_CAFE_TABLE_V1.png",
+        "contact_shadow_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_CAFE_SHELL_PROOF_01",
+      "category": "building",
+      "source_method": "generate_modular_shell_pieces",
+      "canonical_world_footprint": [
+        640,
+        1024
+      ],
+      "logical_cells": [
+        20,
+        32
+      ],
+      "visual_canvas_px": [
+        1024,
+        1024
+      ],
+      "components": [
+        "back_wall_module",
+        "cafe_floor_tile",
+        "front_foreground_left",
+        "front_foreground_right"
+      ],
+      "front_door_world": [
+        320,
+        1024
+      ],
+      "front_door_gap_world": 64,
+      "rear_door_world": [
+        512,
+        0
+      ],
+      "pivot_px": [
+        512,
+        960
+      ],
+      "baseline_px": 960,
+      "floor_contact": "existing_cafe_floor_plane",
+      "world_scale": "per_module_declared",
+      "collision_footprint": "reuse_existing_cafe_envelope",
+      "navigation_obstruction": "reuse_existing_wall_footprints",
+      "shadow_policy": "none",
+      "occlusion_policy": "base_shell_below_actors; front_pieces_above_actors; apertures_transparent",
+      "interaction_anchors": [
+        "front_threshold_existing",
+        "rear_threshold_existing"
+      ],
+      "frame_duration_ms": null,
+      "output_names": [
+        "cafe_back_wall.png",
+        "cafe_front_left.png",
+        "cafe_front_right.png",
+        "cafe_floor_tile.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_cafe_shell_proof_01.tscn",
+      "source_files": [
+        "cafe_back_wall_source_v2.png",
+        "cafe_front_rail_source_v2.png",
+        "cafe_floor_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_ORANGE_PROTAGONIST_MOVE_01",
+      "category": "character",
+      "source_method": "generate_from_canonical_identity_reference",
+      "canonical_world_footprint": [
+        16,
+        16
+      ],
+      "logical_cells": [
+        1,
+        1
+      ],
+      "visual_canvas_px": [
+        256,
+        256
+      ],
+      "directions": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "animation_names": [
+        "idle",
+        "walk"
+      ],
+      "frame_count": {
+        "idle_per_direction": 1,
+        "walk_by_direction": {
+          "down": 2,
+          "up": 3,
+          "left": 3,
+          "right": 3
+        }
+      },
+      "frame_duration_ms": {
+        "idle": 500,
+        "walk": 125
+      },
+      "pivot_px": [
+        128,
+        232
+      ],
+      "baseline_px": 232,
+      "floor_contact": "CharacterBody2D_origin",
+      "world_scale": 0.34,
+      "collision_footprint": "existing_actor_feet_radius_8",
+      "navigation_obstruction": false,
+      "shadow_policy": "separate_neutral_blob",
+      "occlusion_policy": "Y_sort_at_logical_root",
+      "interaction_anchors": [
+        "HeadFX",
+        "CameraEmotionFocus",
+        "FeetFX"
+      ],
+      "mirroring": "none_without_explicit_approval",
+      "root_motion": false,
+      "output_names": [
+        "orange_down.png",
+        "orange_up.png",
+        "orange_left.png",
+        "orange_right.png",
+        "contact_shadow.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_orange_protagonist_visual_01.tscn",
+      "source_direction_mapping": {
+        "left": "orange_right_source_v1",
+        "right": "orange_left_source_v1"
+      },
+      "source_files": [
+        "orange_down_source_v1.png",
+        "orange_up_source_v1.png",
+        "orange_left_source_v1.png",
+        "orange_right_source_v1.png",
+        "contact_shadow_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_COFFEE_COMPLETE_FX_01",
+      "category": "fx",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": [
+        32,
+        32
+      ],
+      "logical_cells": [
+        1,
+        1
+      ],
+      "visual_canvas_px": [
+        256,
+        256
+      ],
+      "animation_names": [
+        "coffee_complete"
+      ],
+      "frame_count": 4,
+      "frame_duration_ms": 90,
+      "pivot_px": [
+        128,
+        224
+      ],
+      "baseline_px": 224,
+      "floor_contact": "espresso_station_FX_anchor",
+      "world_scale": 0.2,
+      "collision_footprint": null,
+      "navigation_obstruction": false,
+      "shadow_policy": "none",
+      "occlusion_policy": "above_counter_visual",
+      "interaction_anchors": [
+        "coffee_ready_event"
+      ],
+      "output_names": [
+        "coffee_fx.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_coffee_complete_fx_01.tscn",
+      "source_files": [
+        "coffee_fx_source_v1.png"
+      ]
+    },
+    {
+      "asset_id": "WILLICAT_INTERACTION_BUTTON_01",
+      "category": "ui",
+      "source_method": "generate_individual_asset",
+      "canonical_world_footprint": null,
+      "logical_cells": null,
+      "visual_canvas_px": [
+        320,
+        128
+      ],
+      "states": [
+        "normal",
+        "pressed",
+        "disabled"
+      ],
+      "pivot_px": [
+        160,
+        64
+      ],
+      "baseline_px": null,
+      "floor_contact": null,
+      "world_scale": "UI_nine_patch_to_minimum_72x48_screen_px",
+      "collision_footprint": null,
+      "navigation_obstruction": false,
+      "shadow_policy": "UI_only",
+      "occlusion_policy": "CanvasLayer_HUD",
+      "interaction_anchors": [
+        "button_text_center"
+      ],
+      "frame_duration_ms": null,
+      "output_names": [
+        "interaction_button_states.png"
+      ],
+      "godot_prefab_target": "scenes/dev/first_party_style_proof/willicat_interaction_button_01.tscn",
+      "source_files": [
+        "button_source_v1.png"
+      ]
+    }
+  ],
+  "revision_note": "Source normalization revision: compact authored loops and corrected facing; revised after source validation, before final Godot capture. Existing semantic footprint/coordinates unchanged.",
+  "source_rights_note": "Built-in first-party generated sources; round table reuses an existing repository candidate. Production ownership/export clearance remains a separate review."
+}

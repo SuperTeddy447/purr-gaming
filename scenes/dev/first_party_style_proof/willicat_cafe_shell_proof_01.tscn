@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/first_party/storybook_mini_pack_001/normalized/cafe_back_wall.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/first_party/storybook_mini_pack_001/normalized/cafe_front_left.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/first_party/storybook_mini_pack_001/normalized/cafe_front_right.png" id="3"]
+
+[node name="WilliCatCafeShellProof01" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="BackWall" type="Sprite2D" parent="Background"]
+texture = ExtResource("1")
+position = Vector2(320, 140)
+scale = Vector2(0.625, 0.625)
+
+[node name="FrontOccluder" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="LeftRail" type="Sprite2D" parent="FrontOccluder"]
+texture = ExtResource("2")
+position = Vector2(144, 920.5)
+scale = Vector2(0.55, 0.55)
+
+[node name="RightRail" type="Sprite2D" parent="FrontOccluder"]
+texture = ExtResource("3")
+position = Vector2(496, 920.5)
+scale = Vector2(0.55, 0.55)

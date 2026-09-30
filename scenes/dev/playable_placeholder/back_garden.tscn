@@ -1,0 +1,89 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_room.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_floor.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_navigation.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_camera_input.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/camera_director.gd" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/cat_bed.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/plant.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/dev/playable_placeholder/sun_spot.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/actor.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/entrance_door.tscn" id="10"]
+
+[node name="BackGarden" type="Node2D"]
+script = ExtResource("1")
+room_id = &"home_cafe_garden"
+
+[node name="Architecture" type="Node2D" parent="."]
+
+[node name="Floor" type="Node2D" parent="Architecture"]
+z_index = -10
+script = ExtResource("2")
+room_title = "BACK GARDEN"
+
+[node name="Navigation" type="NavigationRegion2D" parent="."]
+script = ExtResource("3")
+
+[node name="DepthSortedLayer" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="WorldObjects" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="Bench" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("6")]
+position = Vector2(170, 320)
+stable_id = &"garden_bench"
+
+[node name="PlantPatch" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("7")]
+position = Vector2(465, 385)
+stable_id = &"plant_patch"
+
+[node name="SunSpot" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("8")]
+position = Vector2(290, 610)
+
+[node name="CatRest" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("6")]
+position = Vector2(100, 745)
+stable_id = &"cat_rest"
+
+[node name="CatSniff" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("7")]
+position = Vector2(535, 715)
+stable_id = &"cat_sniff"
+
+[node name="GardenDoor" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("10")]
+position = Vector2(320, 915)
+stable_id = &"garden_door"
+
+[node name="EventLayer" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="Characters" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="Cat" parent="DepthSortedLayer/Characters" instance=ExtResource("9")]
+position = Vector2(320, 875)
+category = "cat"
+
+[node name="Spawns" type="Node2D" parent="."]
+
+[node name="garden_entry" type="Marker2D" parent="Spawns"]
+position = Vector2(320, 885)
+
+[node name="cat_entry" type="Marker2D" parent="Spawns"]
+position = Vector2(320, 875)
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2(320, 500)
+zoom = Vector2(1.25, 1.25)
+
+[node name="CameraInput" type="Node" parent="."]
+script = ExtResource("4")
+camera = NodePath("../Camera")
+
+[node name="CameraDirector" type="Node" parent="."]
+script = ExtResource("5")
+camera = NodePath("../Camera")
+camera_input = NodePath("../CameraInput")
+hud = NodePath("../HUD")
+
+[node name="HUD" type="CanvasLayer" parent="."]

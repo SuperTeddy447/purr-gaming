@@ -65,6 +65,43 @@ class StaticPropTests(unittest.TestCase):
                 source.read_bytes(),
             )
 
+    def test_preserved_transparent_architecture_keeps_registration(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "window.png"
+            image = Image.new("RGBA", (64, 96), (0, 0, 0, 0))
+            for y in range(96):
+                image.putpixel((0, y), (20, 90, 60, 255))
+            image.putpixel((63, 95), (20, 90, 60, 255))
+            image.save(source)
+            result = package_static_prop(
+                source, "window_test_01", root / "out", "FULL_CANVAS_TOP_LEFT",
+                preserve_canvas=True, expected_size=(64, 96),
+            )
+            self.assertEqual(result["runtime_dimensions"], [64, 96])
+            self.assertEqual(result["pivot_pixel"], [0, 0])
+            self.assertTrue(result["edge_touch"]["left"])
+            self.assertTrue(result["edge_touch"]["bottom"])
+            self.assertEqual((root / "out" / "window_test_01.png").read_bytes(), source.read_bytes())
+            with self.assertRaisesRegex(ValueError, "dimensions"):
+                package_static_prop(
+                    source, "window_test_02", root / "out", "FULL_CANVAS_TOP_LEFT",
+                    preserve_canvas=True, expected_size=(64, 95),
+                )
+
+    def test_opaque_architecture_rejects_alpha_holes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "floor.png"
+            image = Image.new("RGBA", (16, 16), (210, 180, 140, 255))
+            image.putpixel((5, 5), (0, 0, 0, 0))
+            image.save(source)
+            with self.assertRaisesRegex(ValueError, "transparent pixels"):
+                package_static_prop(
+                    source, "floor_test_01", root / "out", "FULL_CANVAS_TOP_LEFT",
+                    opaque=True, expected_size=(16, 16),
+                )
+
 
 if __name__ == "__main__":
     unittest.main()

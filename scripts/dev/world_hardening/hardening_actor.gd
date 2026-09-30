@@ -11,6 +11,7 @@ enum Phase { IDLE, APPROACH, ACTION, EXIT, ROUTE }
 
 @export_enum("worker", "customer", "cat") var category := "cat"
 @export_range(30.0, 500.0) var move_speed := 175.0
+@export var visual_offset := Vector2.ZERO
 
 var phase := Phase.IDLE
 var path_trace: Array[Vector2] = []
@@ -177,14 +178,16 @@ func _exit_tree() -> void:
 
 
 func _draw() -> void:
+	var origin := visual_offset
 	var fill := Color("#b4a8c5")
 	match category:
 		"worker": fill = Color("#d49a6b")
 		"customer": fill = Color("#8eb4c6")
-	draw_circle(Vector2(0, -25), 13, fill)
-	draw_circle(Vector2(0, -47), 12, fill.lightened(0.11))
-	draw_circle(Vector2(-4, -48), 2, Color("#3d3732"))
-	draw_circle(Vector2(4, -48), 2, Color("#3d3732"))
-	draw_string(ThemeDB.fallback_font, Vector2(-35, -68), name, HORIZONTAL_ALIGNMENT_CENTER, 70, 11, Color("#443b35"))
+	draw_circle(origin + Vector2(0, -25), 13, fill)
+	draw_circle(origin + Vector2(0, -47), 12, fill.lightened(0.11))
+	draw_circle(origin + Vector2(-4, -48), 2, Color("#3d3732"))
+	draw_circle(origin + Vector2(4, -48), 2, Color("#3d3732"))
+	if get_tree().debug_collisions_hint:
+		draw_string(ThemeDB.fallback_font, origin + Vector2(-35, -68), name, HORIZONTAL_ALIGNMENT_CENTER, 70, 11, Color("#443b35"))
 	if phase == Phase.ACTION:
-		draw_arc(Vector2(0, -25), 19, 0, TAU, 24, Color("#e0b363"), 2.0)
+		draw_arc(origin + Vector2(0, -25), 19, 0, TAU, 24, Color("#e0b363"), 2.0)

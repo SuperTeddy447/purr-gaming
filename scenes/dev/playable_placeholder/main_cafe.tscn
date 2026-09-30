@@ -1,0 +1,253 @@
+[gd_scene load_steps=32 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_cafe.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_floor.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/hardening_navigation.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_camera_input.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/camera_director.gd" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/counter_shell_v3.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/espresso_station.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/pos_station.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/grinder_station.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/pastry_case.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/table.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/chair.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/cat_bed.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/scratch_post.tscn" id="14"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/plant.tscn" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/dev/home_v3/entrance_door.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://scenes/dev/world_hardening/actor.tscn" id="17"]
+[ext_resource type="Script" path="res://scripts/dev/world_hardening/cup_visual.gd" id="18"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A02_CREAM_JADE_CAFE_WALL_MODULE_V1.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A03_MAIN_CAFE_COUNTER_V1.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A05_ESPRESSO_MACHINE_V1.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A04_PASTRY_DISPLAY_CASE_V1.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A06_ROUND_CAFE_TABLE_V1.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A07_CAFE_CHAIR_V1.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A08_CAT_BED_V1.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A09_SCRATCH_POST_V1.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v3/production_batch_a_v1/WILLICAT_ASSET_A10_CAFE_POTTED_PLANT_V1.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v2/pos_home_v2_01.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/environment/home_v2/grinder_home_v2_01.png" id="29"]
+[ext_resource type="Script" path="res://scripts/dev/playable_placeholder/placeholder_door_visual.gd" id="30"]
+
+[node name="MainCafe" type="Node2D"]
+script = ExtResource("1")
+room_id = &"home_cafe_main"
+
+[node name="Architecture" type="Node2D" parent="."]
+
+[node name="Floor" type="Node2D" parent="Architecture"]
+z_index = -10
+script = ExtResource("2")
+use_wood_tile = true
+
+[node name="WallModule" type="Sprite2D" parent="Architecture"]
+texture = ExtResource("19")
+position = Vector2(320, 105)
+scale = Vector2(0.52, 0.32)
+z_index = -9
+
+[node name="Navigation" type="NavigationRegion2D" parent="."]
+script = ExtResource("3")
+
+[node name="DepthSortedLayer" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="WorldObjects" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="CounterShell" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("6")]
+position = Vector2(190, 185)
+
+[node name="WorkerIdle" parent="DepthSortedLayer/WorldObjects/CounterShell" index="4"]
+position = Vector2(145, -50)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/CounterShell"]
+texture = ExtResource("20")
+position = Vector2(130, -30)
+scale = Vector2(0.28, 0.23)
+
+[node name="EspressoStation" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("7")]
+position = Vector2(410, 182)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/EspressoStation"]
+texture = ExtResource("21")
+position = Vector2(0, -60)
+scale = Vector2(0.085, 0.085)
+
+[node name="POS" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("8")]
+position = Vector2(130, 185)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/POS"]
+texture = ExtResource("28")
+position = Vector2(45, -70)
+scale = Vector2(0.05, 0.05)
+
+[node name="Grinder" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("9")]
+position = Vector2(485, 170)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/Grinder"]
+texture = ExtResource("29")
+position = Vector2(0, -75)
+scale = Vector2(0.065, 0.065)
+
+[node name="PastryCase" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("10")]
+position = Vector2(505, 295)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/PastryCase"]
+texture = ExtResource("22")
+position = Vector2(0, -95)
+scale = Vector2(0.1, 0.1)
+
+[node name="TableA" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("11")]
+position = Vector2(175, 455)
+stable_id = &"table_a"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/TableA"]
+texture = ExtResource("23")
+position = Vector2(0, -56)
+scale = Vector2(0.11, 0.11)
+
+[node name="ChairA" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("12")]
+position = Vector2(110, 530)
+stable_id = &"chair_a"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/ChairA"]
+texture = ExtResource("24")
+position = Vector2(0, -35)
+scale = Vector2(0.065, 0.065)
+
+[node name="ChairB" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("12")]
+position = Vector2(245, 530)
+stable_id = &"chair_b"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/ChairB"]
+texture = ExtResource("24")
+position = Vector2(0, -35)
+scale = Vector2(0.065, 0.065)
+
+[node name="TableB" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("11")]
+position = Vector2(455, 560)
+stable_id = &"table_b"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/TableB"]
+texture = ExtResource("23")
+position = Vector2(0, -56)
+scale = Vector2(0.11, 0.11)
+
+[node name="ChairC" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("12")]
+position = Vector2(385, 635)
+stable_id = &"chair_c"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/ChairC"]
+texture = ExtResource("24")
+position = Vector2(0, -35)
+scale = Vector2(0.065, 0.065)
+
+[node name="ChairD" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("12")]
+position = Vector2(525, 635)
+stable_id = &"chair_d"
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/ChairD"]
+texture = ExtResource("24")
+position = Vector2(0, -35)
+scale = Vector2(0.065, 0.065)
+
+[node name="CatBed" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("13")]
+position = Vector2(100, 790)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/CatBed"]
+texture = ExtResource("25")
+position = Vector2(0, -32)
+scale = Vector2(0.075, 0.075)
+
+[node name="ScratchPost" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("14")]
+position = Vector2(220, 805)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/ScratchPost"]
+texture = ExtResource("26")
+position = Vector2(0, -35)
+scale = Vector2(0.065, 0.065)
+
+[node name="Plant" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("15")]
+position = Vector2(205, 700)
+
+[node name="RuntimeVisual" type="Sprite2D" parent="DepthSortedLayer/WorldObjects/Plant"]
+texture = ExtResource("27")
+position = Vector2(0, -40)
+scale = Vector2(0.07, 0.07)
+
+[node name="Entrance" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("16")]
+position = Vector2(320, 910)
+
+[node name="RuntimeVisual" type="Node2D" parent="DepthSortedLayer/WorldObjects/Entrance"]
+script = ExtResource("30")
+foreground_entrance = true
+
+[node name="BackDoor" parent="DepthSortedLayer/WorldObjects" instance=ExtResource("16")]
+position = Vector2(500, 245)
+stable_id = &"back_door"
+
+[node name="RuntimeVisual" type="Node2D" parent="DepthSortedLayer/WorldObjects/BackDoor"]
+script = ExtResource("30")
+
+[node name="EventLayer" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="Characters" type="Node2D" parent="DepthSortedLayer"]
+y_sort_enabled = true
+
+[node name="Worker" parent="DepthSortedLayer/Characters" instance=ExtResource("17")]
+position = Vector2(335, 135)
+category = "worker"
+visual_offset = Vector2(0, -20)
+
+[node name="CarryCup" type="Node2D" parent="DepthSortedLayer/Characters/Worker"]
+visible = false
+position = Vector2(20, -33)
+script = ExtResource("18")
+
+[node name="Customer" parent="DepthSortedLayer/Characters" instance=ExtResource("17")]
+position = Vector2(320, 965)
+category = "customer"
+
+[node name="OrderBubble" type="Label" parent="DepthSortedLayer/Characters/Customer"]
+visible = false
+offset_left = -25.0
+offset_top = -103.0
+offset_right = 40.0
+offset_bottom = -75.0
+text = "COFFEE"
+
+[node name="Cat" parent="DepthSortedLayer/Characters" instance=ExtResource("17")]
+position = Vector2(90, 700)
+category = "cat"
+
+[node name="Spawns" type="Node2D" parent="."]
+
+[node name="customer_entry" type="Marker2D" parent="Spawns"]
+position = Vector2(320, 965)
+
+[node name="garden_return" type="Marker2D" parent="Spawns"]
+position = Vector2(525, 135)
+
+[node name="cat_entry" type="Marker2D" parent="Spawns"]
+position = Vector2(90, 700)
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2(320, 500)
+zoom = Vector2(1.25, 1.25)
+
+[node name="CameraInput" type="Node" parent="."]
+script = ExtResource("4")
+camera = NodePath("../Camera")
+assembled_cafe_profile = true
+
+[node name="CameraDirector" type="Node" parent="."]
+script = ExtResource("5")
+camera = NodePath("../Camera")
+camera_input = NodePath("../CameraInput")
+hud = NodePath("../HUD")
+
+[node name="HUD" type="CanvasLayer" parent="."]
