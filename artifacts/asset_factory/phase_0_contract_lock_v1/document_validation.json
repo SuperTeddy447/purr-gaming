@@ -1,0 +1,11 @@
+{
+  "json_artifacts_parsed": 11,
+  "schemas_self_validated": 7,
+  "local_schema_refs_checked": 12,
+  "document_links_checked": 41,
+  "missing_links": [],
+  "persisted_fixture_schema_and_content": "passed",
+  "persisted_fixture_signature_and_predicate_with_explicit_fixture_mode": "passed",
+  "default_production_fixture_rejection": "passed",
+  "result": "passed"
+}

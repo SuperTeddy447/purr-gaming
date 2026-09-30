@@ -1,0 +1,6 @@
+{
+  "files_compared": 750,
+  "changed_files": [],
+  "result": "passed",
+  "excluded": "Forge .venv/output/workspace, Python caches; original game scripts/scenes/assets/tests/project and Forge source are covered"
+}

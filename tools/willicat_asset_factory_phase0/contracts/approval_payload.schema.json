@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:willicat:phase0:approval_payload:1",
+  "type": "object",
+  "properties": {
+    "approval_schema_version": {
+      "const": "phase0-approval-1"
+    },
+    "asset_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "asset_version": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "job_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "attempt_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "template": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "style_calibration": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "world_authority_projection_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "rights_decision_revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "gate_results": {
+      "type": "object",
+      "properties": {
+        "rights": {
+          "const": "passed"
+        },
+        "structural": {
+          "const": "passed"
+        },
+        "motion": {
+          "const": "passed"
+        },
+        "visual": {
+          "const": "passed"
+        },
+        "runtime": {
+          "const": "passed"
+        }
+      },
+      "required": [
+        "rights",
+        "structural",
+        "motion",
+        "visual",
+        "runtime"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "artifact_ref": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "sha256",
+          "artifact_ref"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "runtime_proof_bundle_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "approved_bundle_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reviewer_principal": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "reviewer_role": {
+      "const": "final_human_reviewer"
+    },
+    "credential_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "decision": {
+      "const": "approve"
+    },
+    "timestamp": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "asset_contract_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "approval_schema_version",
+    "asset_id",
+    "asset_version",
+    "job_id",
+    "attempt_id",
+    "template",
+    "style_calibration",
+    "world_authority_projection_hash",
+    "rights_decision_revision",
+    "gate_results",
+    "evidence",
+    "runtime_proof_bundle_hash",
+    "approved_bundle_hash",
+    "reviewer_principal",
+    "reviewer_role",
+    "credential_id",
+    "decision",
+    "timestamp",
+    "asset_contract_hash"
+  ],
+  "additionalProperties": false
+}

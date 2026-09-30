@@ -1,0 +1,48 @@
+{
+  "contract_version": "1",
+  "scopes": [
+    "structural_study",
+    "dev_runtime",
+    "production_runtime",
+    "modification",
+    "raw_redistribution",
+    "generative_conditioning_reference",
+    "ai_training",
+    "publication_distribution"
+  ],
+  "actions": {
+    "inspect": [
+      "structural_study"
+    ],
+    "manual_intake": [
+      "structural_study"
+    ],
+    "normalize": [
+      "modification"
+    ],
+    "modify": [
+      "modification"
+    ],
+    "integration_proof": [
+      "dev_runtime"
+    ],
+    "candidate_compile": [
+      "dev_runtime",
+      "modification"
+    ],
+    "publish": [
+      "production_runtime",
+      "publication_distribution"
+    ],
+    "rollback": [
+      "production_runtime",
+      "publication_distribution"
+    ],
+    "future_generate": [
+      "generative_conditioning_reference"
+    ]
+  },
+  "future_generate_enabled": false,
+  "required_outcome": "permitted",
+  "first_party_requires_authorization_evidence": true
+}

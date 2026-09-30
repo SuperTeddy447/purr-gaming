@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:willicat:phase0:bundle_receipt:1",
+  "type": "object",
+  "properties": {
+    "bundle_format_version": {
+      "const": "tree-candidate-1"
+    },
+    "resource_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "logical_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "member_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "logical_path",
+          "member_path"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "registration_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "rights_reference_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "timing_recipe_version": {
+      "const": "godot-ms-weight-1"
+    },
+    "toolchain_fingerprint_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "bundle_format_version",
+    "resource_map",
+    "members",
+    "registration_hash",
+    "rights_reference_hash",
+    "timing_recipe_version",
+    "toolchain_fingerprint_hash"
+  ],
+  "additionalProperties": false
+}

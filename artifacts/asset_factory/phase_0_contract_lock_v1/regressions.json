@@ -1,0 +1,40 @@
+{
+  "forge_before": {
+    "passed": 62,
+    "failed": 0,
+    "log": "forge_before.log"
+  },
+  "forge_after": {
+    "passed": 62,
+    "failed": 0,
+    "log": "forge_after.log"
+  },
+  "godot": [
+    {
+      "test": "continuous Home",
+      "exit_code": 0,
+      "result": "passed",
+      "log": "home_regression.log"
+    },
+    {
+      "test": "proxy caf\u00e9",
+      "exit_code": 0,
+      "result": "passed",
+      "log": "proxy_regression.log"
+    },
+    {
+      "test": "true vertical slice",
+      "exit_code": 0,
+      "result": "passed",
+      "log": "vertical_slice_regression.log"
+    },
+    {
+      "test": "first-party spatial parity",
+      "exit_code": 0,
+      "result": "passed",
+      "log": "first_party_spatial_parity.log"
+    }
+  ],
+  "isolation": "Copied unchanged source into temporary project; only project name/user-data location and editor plugin startup changed in copy",
+  "initial_sandbox_runs": "not passes; retained separately"
+}

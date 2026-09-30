@@ -1,0 +1,65 @@
+{
+	"godot_version": "4.7.2-stable (official)",
+	"loop_ms": 1000,
+	"manifest_durations_ms": [
+		100,
+		300,
+		150,
+		450
+	],
+	"observed_second_loop_hold_usec": [
+		103696,
+		288370,
+		152086,
+		442679
+	],
+	"recipe": "godot-ms-weight-1",
+	"recovered_durations_ms": [
+		100.0,
+		300.0,
+		150.0,
+		450.0
+	],
+	"resource_speed": 1000.0,
+	"result": "passed",
+	"runtime_playing_speed": 1.0,
+	"scope": "DIAGNOSTIC TIMING ONLY; NOT ART OR MOTION APPROVAL",
+	"transitions": [
+		{
+			"elapsed_usec": 22097,
+			"frame": 1
+		},
+		{
+			"elapsed_usec": 318541,
+			"frame": 2
+		},
+		{
+			"elapsed_usec": 470689,
+			"frame": 3
+		},
+		{
+			"elapsed_usec": 905435,
+			"frame": 0
+		},
+		{
+			"elapsed_usec": 1009131,
+			"frame": 1
+		},
+		{
+			"elapsed_usec": 1297501,
+			"frame": 2
+		},
+		{
+			"elapsed_usec": 1449587,
+			"frame": 3
+		},
+		{
+			"elapsed_usec": 1892266,
+			"frame": 0
+		},
+		{
+			"elapsed_usec": 1995320,
+			"frame": 1
+		}
+	]
+}

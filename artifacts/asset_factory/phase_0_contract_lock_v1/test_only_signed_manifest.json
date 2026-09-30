@@ -1,0 +1,898 @@
+{
+  "label": "TEST FIXTURE \u2014 NOT PRODUCTION TRUST ROOT; synthetic approvals only",
+  "manifest": {
+    "schema_version": "phase0-tree-1",
+    "profile_id": "animated_environment.tree.phase0.v1",
+    "request_id": "TEST_ONLY_request",
+    "job_id": "TEST_ONLY_job",
+    "attempt_id": "TEST_ONLY_attempt",
+    "asset_id": "TEST_ONLY_tree",
+    "asset_version": "TEST_ONLY_1",
+    "category": "animated_environment",
+    "family_id": "TEST_ONLY",
+    "style_family_id": "TEST_ONLY_style",
+    "lifecycle_stage": "human_approved",
+    "disposition": "current",
+    "requested_action": "publish",
+    "provenance_evidence": [
+      {
+        "evidence_id": "rights",
+        "artifact_ref": "fixtures/rights.json",
+        "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+      }
+    ],
+    "rights_evaluations": [
+      {
+        "action": "publish",
+        "required_scopes": [
+          "production_runtime",
+          "publication_distribution"
+        ],
+        "decision_revision": "TEST_RIGHTS_1",
+        "assessments": [
+          {
+            "scope": "production_runtime",
+            "outcome": "permitted",
+            "evidence": [
+              {
+                "evidence_id": "rights",
+                "artifact_ref": "fixtures/rights.json",
+                "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+              }
+            ]
+          },
+          {
+            "scope": "publication_distribution",
+            "outcome": "permitted",
+            "evidence": [
+              {
+                "evidence_id": "rights",
+                "artifact_ref": "fixtures/rights.json",
+                "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+              }
+            ]
+          }
+        ],
+        "result": "passed"
+      },
+      {
+        "action": "rollback",
+        "required_scopes": [
+          "production_runtime",
+          "publication_distribution"
+        ],
+        "decision_revision": "TEST_RIGHTS_1",
+        "assessments": [
+          {
+            "scope": "production_runtime",
+            "outcome": "permitted",
+            "evidence": [
+              {
+                "evidence_id": "rights",
+                "artifact_ref": "fixtures/rights.json",
+                "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+              }
+            ]
+          },
+          {
+            "scope": "publication_distribution",
+            "outcome": "permitted",
+            "evidence": [
+              {
+                "evidence_id": "rights",
+                "artifact_ref": "fixtures/rights.json",
+                "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+              }
+            ]
+          }
+        ],
+        "result": "passed"
+      }
+    ],
+    "gates": {
+      "rights": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "rights",
+          "owner_role": "TEST_ONLY_validator",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1"
+        }
+      },
+      "structural": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "structural",
+          "owner_role": "TEST_ONLY_validator",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1"
+        }
+      },
+      "motion": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "motion",
+          "owner_role": "technical_animator",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1",
+          "criteria_results": [
+            {
+              "criterion_id": "foliage_led_sway",
+              "result": "passed"
+            },
+            {
+              "criterion_id": "no_whole_sprite_scale_pulse",
+              "result": "passed"
+            },
+            {
+              "criterion_id": "readable_authored_arc",
+              "result": "passed"
+            },
+            {
+              "criterion_id": "seam_perceptually_continuous",
+              "result": "passed"
+            }
+          ]
+        }
+      },
+      "visual": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "visual",
+          "owner_role": "art_lead",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1"
+        }
+      },
+      "runtime": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "runtime",
+          "owner_role": "TEST_ONLY_validator",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1"
+        }
+      },
+      "human": {
+        "status": "passed",
+        "record": {
+          "schema_version": "1",
+          "gate": "human",
+          "owner_role": "final_human_reviewer",
+          "timestamp": "2026-09-30T00:00:00Z",
+          "asset_id": "TEST_ONLY_tree",
+          "asset_version": "TEST_ONLY_1",
+          "attempt_id": "TEST_ONLY_attempt",
+          "result": "passed",
+          "evidence": [
+            {
+              "evidence_id": "motion_loop",
+              "artifact_ref": "fixtures/motion_loop.json",
+              "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+            }
+          ],
+          "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+          "tool_version": "TEST_TOOL_1"
+        }
+      }
+    },
+    "invalidation": {
+      "blocking_dependencies": []
+    },
+    "template": {
+      "id": "TEST_ONLY_template",
+      "version": "1"
+    },
+    "style_calibration": {
+      "id": "TEST_ONLY_style",
+      "version": "1",
+      "status": "approved",
+      "evidence": [
+        {
+          "evidence_id": "style",
+          "artifact_ref": "fixtures/style.json",
+          "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+        }
+      ]
+    },
+    "world_authority": {
+      "world_authority_ref": "TEST_ONLY_copy_of_Home",
+      "world_authority_file_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "dependency_hashes": [
+        {
+          "path": "TEST_ONLY_scene",
+          "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+        }
+      ],
+      "projection_recipe_version": "tree-authority-1",
+      "world_authority_projection_hash": "578bf3741f2850400053cec1fad10158927711e95410079376a5482f7593c150",
+      "projection": {
+        "projection_schema_version": "tree-authority-1",
+        "world_id": "willicat_home_continuous_v1",
+        "stable_id": "river_depth_tree",
+        "node_path": "DepthSortedLayer/WorldObjects/RiversideProps/RiverDepthTree",
+        "global_transform": [
+          "1",
+          "0",
+          "0",
+          "1",
+          "-320",
+          "1270"
+        ],
+        "attachment": {
+          "local_transform": [
+            "1",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "visual_root_path": "VisualRoot"
+        },
+        "depth_chain": [
+          {
+            "path": ".",
+            "y_sort_enabled": false,
+            "z_as_relative": true,
+            "z_index": 0
+          },
+          {
+            "path": "DepthSortedLayer",
+            "y_sort_enabled": true,
+            "z_as_relative": true,
+            "z_index": 0
+          },
+          {
+            "path": "DepthSortedLayer/WorldObjects",
+            "y_sort_enabled": true,
+            "z_as_relative": true,
+            "z_index": 0
+          },
+          {
+            "path": "DepthSortedLayer/WorldObjects/RiversideProps",
+            "y_sort_enabled": true,
+            "z_as_relative": true,
+            "z_index": 0
+          },
+          {
+            "path": "DepthSortedLayer/WorldObjects/RiversideProps/RiverDepthTree",
+            "y_sort_enabled": false,
+            "z_as_relative": true,
+            "z_index": 0
+          }
+        ],
+        "shadow": {
+          "local_transform": [
+            "0.3199999928474426",
+            "0",
+            "0",
+            "0.3199999928474426",
+            "0",
+            "-5"
+          ],
+          "node_path": "ShadowVisual",
+          "z_as_relative": true,
+          "z_index": -1
+        },
+        "collision": {
+          "collision_layer": 2,
+          "collision_mask": 0,
+          "footprint_size": [
+            "28",
+            "26"
+          ],
+          "global_transform": [
+            "1",
+            "0",
+            "0",
+            "1",
+            "-320",
+            "1252"
+          ],
+          "navigation_outline": [
+            [
+              "-334",
+              "1239"
+            ],
+            [
+              "-306",
+              "1239"
+            ],
+            [
+              "-306",
+              "1265"
+            ],
+            [
+              "-334",
+              "1265"
+            ]
+          ],
+          "node_path": "TrunkFootprint"
+        },
+        "navigation": {
+          "agent_clearance": "11",
+          "navigation_layers": 1,
+          "obstruction_ref": "DepthSortedLayer/WorldObjects/RiversideProps/RiverDepthTree/TrunkFootprint",
+          "region_path": "Navigation"
+        },
+        "semantic_event_ids": []
+      }
+    },
+    "registration": {
+      "source_canvas_px": [
+        512,
+        640
+      ],
+      "pivot_px": [
+        "256",
+        "600"
+      ],
+      "floor_baseline_px": "600",
+      "root_contact_ref": "TEST_ONLY_GameplayRoot",
+      "shadow_ref": "TEST_ONLY_Shadow",
+      "world_units_per_source_px": "0.4",
+      "attachment_ref": "VisualRoot"
+    },
+    "source": {
+      "source_asset_version": "TEST_ONLY_1",
+      "files": [
+        {
+          "path": "source.bin",
+          "sha256": "e629197c84eb0ea8bad884d79cc6f9a7e62073108afbbffee33fde2e938bdd2a"
+        }
+      ],
+      "authorization_evidence": [
+        {
+          "evidence_id": "rights",
+          "artifact_ref": "fixtures/rights.json",
+          "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+        }
+      ]
+    },
+    "normalized": {
+      "files": [
+        {
+          "path": "normalized.bin",
+          "sha256": "165040064798b610e7d92dd0e28176f2b7621d13ed5107d14b0d71907742a552"
+        }
+      ],
+      "toolchain_fingerprint": {
+        "factory_code_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+        "forge_code_hash": "2222222222222222222222222222222222222222222222222222222222222222",
+        "recipe_version": "TEST_ONLY_recipe",
+        "environment_hash": "3333333333333333333333333333333333333333333333333333333333333333",
+        "tool_versions": [
+          {
+            "tool": "TEST_ONLY",
+            "version": "1"
+          }
+        ],
+        "source_file_hash": "e629197c84eb0ea8bad884d79cc6f9a7e62073108afbbffee33fde2e938bdd2a",
+        "decoded_pixel_hash": "4444444444444444444444444444444444444444444444444444444444444444",
+        "output_hashes": [
+          {
+            "path": "normalized.bin",
+            "sha256": "165040064798b610e7d92dd0e28176f2b7621d13ed5107d14b0d71907742a552"
+          }
+        ]
+      }
+    },
+    "animation": {
+      "motion_class": "ambient_sway",
+      "motion_intent": "TEST_ONLY foliage sway",
+      "frame_map": [
+        {
+          "frame_id": "0",
+          "atlas_rect_px": [
+            0,
+            0,
+            512,
+            640
+          ]
+        },
+        {
+          "frame_id": "1",
+          "atlas_rect_px": [
+            512,
+            0,
+            512,
+            640
+          ]
+        },
+        {
+          "frame_id": "2",
+          "atlas_rect_px": [
+            1024,
+            0,
+            512,
+            640
+          ]
+        },
+        {
+          "frame_id": "3",
+          "atlas_rect_px": [
+            1536,
+            0,
+            512,
+            640
+          ]
+        }
+      ],
+      "durations_ms": [
+        100,
+        300,
+        150,
+        450
+      ],
+      "timing_intent": "authored_arc",
+      "loop_mode": "loop",
+      "rest_frame": 0,
+      "root_lock": true,
+      "baseline_lock": true,
+      "transform_policy": {
+        "whole_sprite_scale": "forbidden"
+      },
+      "silhouette_motion_policy": "foliage_led",
+      "loop_seam_policy": {
+        "requirement": "required",
+        "policy_ref": "TEST_ONLY_CALIBRATION_1"
+      },
+      "phase_policy": "offset_by_instance",
+      "interruptible": true
+    },
+    "motion_review": {
+      "schema_version": "1",
+      "gate": "motion",
+      "owner_role": "technical_animator",
+      "timestamp": "2026-09-30T00:00:00Z",
+      "asset_id": "TEST_ONLY_tree",
+      "asset_version": "TEST_ONLY_1",
+      "attempt_id": "TEST_ONLY_attempt",
+      "result": "passed",
+      "evidence": [
+        {
+          "evidence_id": "motion_loop",
+          "artifact_ref": "fixtures/motion_loop.json",
+          "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+        }
+      ],
+      "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+      "tool_version": "TEST_TOOL_1",
+      "criteria_results": [
+        {
+          "criterion_id": "foliage_led_sway",
+          "result": "passed"
+        },
+        {
+          "criterion_id": "no_whole_sprite_scale_pulse",
+          "result": "passed"
+        },
+        {
+          "criterion_id": "readable_authored_arc",
+          "result": "passed"
+        },
+        {
+          "criterion_id": "seam_perceptually_continuous",
+          "result": "passed"
+        }
+      ]
+    },
+    "visual_review": {
+      "schema_version": "1",
+      "gate": "visual",
+      "owner_role": "art_lead",
+      "timestamp": "2026-09-30T00:00:00Z",
+      "asset_id": "TEST_ONLY_tree",
+      "asset_version": "TEST_ONLY_1",
+      "attempt_id": "TEST_ONLY_attempt",
+      "result": "passed",
+      "evidence": [
+        {
+          "evidence_id": "motion_loop",
+          "artifact_ref": "fixtures/motion_loop.json",
+          "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+        }
+      ],
+      "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+      "tool_version": "TEST_TOOL_1"
+    },
+    "motion_policy_results": [
+      {
+        "criterion_id": "root_drift",
+        "kind": "CALIBRATED_VALUE",
+        "policy_version": "TEST_ONLY_CALIBRATION_1",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      {
+        "criterion_id": "baseline_drift",
+        "kind": "CALIBRATED_VALUE",
+        "policy_version": "TEST_ONLY_CALIBRATION_1",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      {
+        "criterion_id": "scale_drift",
+        "kind": "CALIBRATED_VALUE",
+        "policy_version": "TEST_ONLY_CALIBRATION_1",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      {
+        "criterion_id": "loop_seam",
+        "kind": "CALIBRATED_VALUE",
+        "policy_version": "TEST_ONLY_CALIBRATION_1",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      }
+    ],
+    "validator_results": {
+      "V-SCHEMA": {
+        "validator_id": "V-SCHEMA",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "structural",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-FRAME": {
+        "validator_id": "V-FRAME",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "structural",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-SCALE": {
+        "validator_id": "V-SCALE",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "structural",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-MOTION-MEASURE": {
+        "validator_id": "V-MOTION-MEASURE",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "motion",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-MOTION-POLICY": {
+        "validator_id": "V-MOTION-POLICY",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "motion",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-WORLD-INTEGRITY": {
+        "validator_id": "V-WORLD-INTEGRITY",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "runtime",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      },
+      "V-BUNDLE-PARITY": {
+        "validator_id": "V-BUNDLE-PARITY",
+        "validator_version": "TEST_ONLY_1",
+        "gate": "runtime",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ]
+      }
+    },
+    "preview_evidence": [
+      {
+        "evidence_id": "motion_loop",
+        "artifact_ref": "fixtures/motion_loop.json",
+        "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+      }
+    ],
+    "candidate_bundle": {
+      "candidate_bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+      "receipt_ref": "receipt.json",
+      "logical_prefab_path": "res://runtime.bin"
+    },
+    "runtime_proof": {
+      "runtime_proof_bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+      "authority_projection_hash": "578bf3741f2850400053cec1fad10158927711e95410079376a5482f7593c150",
+      "record": {
+        "schema_version": "1",
+        "gate": "runtime",
+        "owner_role": "TEST_ONLY_validator",
+        "timestamp": "2026-09-30T00:00:00Z",
+        "asset_id": "TEST_ONLY_tree",
+        "asset_version": "TEST_ONLY_1",
+        "attempt_id": "TEST_ONLY_attempt",
+        "result": "passed",
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          }
+        ],
+        "notes": "TEST FIXTURE ONLY; no real asset or human decision",
+        "tool_version": "TEST_TOOL_1"
+      }
+    },
+    "catalog_entry_ref": "TEST_ONLY_catalog_entry",
+    "human_approval": {
+      "payload": {
+        "approval_schema_version": "phase0-approval-1",
+        "asset_id": "TEST_ONLY_tree",
+        "asset_version": "TEST_ONLY_1",
+        "job_id": "TEST_ONLY_job",
+        "attempt_id": "TEST_ONLY_attempt",
+        "template": {
+          "id": "TEST_ONLY_template",
+          "version": "1"
+        },
+        "style_calibration": {
+          "id": "TEST_ONLY_style",
+          "version": "1"
+        },
+        "world_authority_projection_hash": "578bf3741f2850400053cec1fad10158927711e95410079376a5482f7593c150",
+        "rights_decision_revision": "TEST_RIGHTS_1",
+        "gate_results": {
+          "rights": "passed",
+          "structural": "passed",
+          "motion": "passed",
+          "visual": "passed",
+          "runtime": "passed"
+        },
+        "evidence": [
+          {
+            "evidence_id": "motion_loop",
+            "artifact_ref": "fixtures/motion_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "rights",
+            "artifact_ref": "fixtures/rights.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "style",
+            "artifact_ref": "fixtures/style.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "invalidation",
+            "artifact_ref": "fixtures/invalidation.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "root_baseline_overlay",
+            "artifact_ref": "fixtures/root_baseline_overlay.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "scene_speed_loop",
+            "artifact_ref": "fixtures/scene_speed_loop.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "actor_before_behind_tree",
+            "artifact_ref": "fixtures/actor_before_behind_tree.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "separate_shadow_contact",
+            "artifact_ref": "fixtures/separate_shadow_contact.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "runtime_route_proof",
+            "artifact_ref": "fixtures/runtime_route_proof.json",
+            "sha256": "5f6f9f5a05cefae3908ec2a2b61ca4c8c98f50bc08a59d87c66c20c041abfcba"
+          },
+          {
+            "evidence_id": "review_rights",
+            "artifact_ref": "fixtures/review_rights.json",
+            "sha256": "c64407c7f5eded6d6c1218ba4f349ffb169399f931eac8767cbbabcc8ac5b119"
+          },
+          {
+            "evidence_id": "review_structural",
+            "artifact_ref": "fixtures/review_structural.json",
+            "sha256": "a2a6fb018fc8f3966d22019f7b752381e4da07fedf571203fedf57dbf14ed8fd"
+          },
+          {
+            "evidence_id": "review_motion",
+            "artifact_ref": "fixtures/review_motion.json",
+            "sha256": "42fb2b1c508a096db4565973d8b27b92d6451aedc478904ff8073eb10f320039"
+          },
+          {
+            "evidence_id": "review_visual",
+            "artifact_ref": "fixtures/review_visual.json",
+            "sha256": "c9fb927029f22c5fd6d879df7dd4d4cfbf5309908f31c5590155e4235163deca"
+          },
+          {
+            "evidence_id": "review_runtime",
+            "artifact_ref": "fixtures/review_runtime.json",
+            "sha256": "6912979192e0fcb0fc98883e3b0e5fdff913a824399b86cbad31321c542cf24b"
+          },
+          {
+            "evidence_id": "review_human",
+            "artifact_ref": "fixtures/review_human.json",
+            "sha256": "2eed960bd9428998ec9b53e718689824826d30c41010b0fad67d3fdd9e84fe28"
+          },
+          {
+            "evidence_id": "validator_V-SCHEMA",
+            "artifact_ref": "fixtures/validator_V-SCHEMA.json",
+            "sha256": "3d973693fca6c005165f4fcd221dead090f2db7eb9724ae71e80e575ec46512a"
+          },
+          {
+            "evidence_id": "validator_V-FRAME",
+            "artifact_ref": "fixtures/validator_V-FRAME.json",
+            "sha256": "bad270c1ad101552893e50d36104a525df18b5bd65bc82f7a4ce2e0205127770"
+          },
+          {
+            "evidence_id": "validator_V-SCALE",
+            "artifact_ref": "fixtures/validator_V-SCALE.json",
+            "sha256": "e1b664c5776dcdc3e4cddc037a086ec854a06c3464c69fc3e2ed6c4c1d43376d"
+          },
+          {
+            "evidence_id": "validator_V-MOTION-MEASURE",
+            "artifact_ref": "fixtures/validator_V-MOTION-MEASURE.json",
+            "sha256": "019237d122f6ae1cdbb89e75aebdf092948e2e7d63e1bec1539d496bc460b9dc"
+          },
+          {
+            "evidence_id": "validator_V-MOTION-POLICY",
+            "artifact_ref": "fixtures/validator_V-MOTION-POLICY.json",
+            "sha256": "0b7d4091abc3215e740a059e1ff80de2856ea70e0617f06c46908f2f5fb5552a"
+          },
+          {
+            "evidence_id": "validator_V-WORLD-INTEGRITY",
+            "artifact_ref": "fixtures/validator_V-WORLD-INTEGRITY.json",
+            "sha256": "54b10e2a74db53b8d471e12861dfb28db76974325d512d608d09f4115e2b109d"
+          },
+          {
+            "evidence_id": "validator_V-BUNDLE-PARITY",
+            "artifact_ref": "fixtures/validator_V-BUNDLE-PARITY.json",
+            "sha256": "16fba82a50f1532c896a572e8b9cad478ff658600cd24dc09aa0540a8f0c8833"
+          }
+        ],
+        "runtime_proof_bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+        "approved_bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+        "reviewer_principal": "TEST_ONLY_reviewer",
+        "reviewer_role": "final_human_reviewer",
+        "credential_id": "TEST_ONLY_key",
+        "decision": "approve",
+        "timestamp": "2026-09-30T00:00:00Z",
+        "asset_contract_hash": "e9ddfecdd4421511de4bd0d57705b122786eb7fd1e106ee54bb658631f380e7b"
+      },
+      "signed_payload_hash": "357df80e335793223963d178f87de9f136bb651ca3f49c94fe0239ef7c965699",
+      "signature": "Imv9l8kp3UDnQOJn+n7/DSl+VnP3BueWeK7tXcKNA78mrvmV/sW146e77lXydsR47sIjOFelAmownyayCsV/NP8XIcv4KwBlgNDw14E8SSgXXHNwyjCX+Ug6JVA/52qWAZEKOOJlVg5ZjmeHJ3aFXkGirgrZS24jsum05tCsSP0wqIXv3gFiEymQurzyLsXAo7c0LE4smrwrGLtI9XMEOA2g18B1LyYKBUixvfJLeBhPYPi8REoeF+YZThkMsqi9WguSPNMNAyQCo65mB7jOyoT9IaiNG3tM+37wagmfBxOlkozBXw4TpsKJtXhU/LhEAJ1GJGb9oZb00oQX/A6NEQp3GEqxAN28LIV9nLC5/4k/Nsv6HtUocZCp2DVSm0RtT45P9StyaIajJka0Y5t9uLqQd6iOjbiDO1mbBcm19omrZmylWnXvEBnPnwOBrAeB2hG8yGAQ0CIEYHfRbnXNM6b2vFkm73SpzrGKtL5nysnVSzI4piKGYGXYEBTJH7w1",
+      "algorithm": "RSA-PSS-SHA256-MGF1SHA256-SALT32"
+    }
+  }
+}

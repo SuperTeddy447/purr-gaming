@@ -1,0 +1,29 @@
+{
+  "version": "tree-authority-1",
+  "selection": [
+    "projection_schema_version",
+    "world_id",
+    "stable_id",
+    "node_path",
+    "global_transform",
+    "attachment",
+    "depth_chain",
+    "shadow",
+    "collision",
+    "navigation",
+    "semantic_event_ids"
+  ],
+  "serialization": "restricted-json-1",
+  "sha256": "UTF-8 canonical projection bytes",
+  "numeric_policy": "finite decimal strings; remove trailing fraction zeros; normalize negative zero; no epsilon rounding",
+  "set_arrays": [
+    "depth_chain sorted by path",
+    "semantic_event_ids sorted and unique"
+  ],
+  "ordered_arrays": [
+    "transform column-major basis x,y then origin",
+    "navigation_outline authored order"
+  ],
+  "null_policy": "required fields cannot be null or missing; semantic_event_ids empty is authored none, not missing data",
+  "historical_identity": "world_authority_file_hash + dependency file hashes are provenance only"
+}

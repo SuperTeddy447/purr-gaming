@@ -1,0 +1,55 @@
+{
+  "asset_ref": "assets/first_party/storybook_mini_pack_001/normalized/tree_gentle_breeze.png",
+  "source_file_hash": "4305bfd1256750053aeaad49167691996b446ed764147b78df0765d472ec004b",
+  "observed_sheet_dimensions_px": [
+    2048,
+    640
+  ],
+  "frame_count": 4,
+  "frame_dimensions_px": [
+    512,
+    640
+  ],
+  "uniform_fps_observed": "5.0",
+  "loop_seconds_observed": "0.8",
+  "alpha_bounds_per_frame": [
+    [
+      26,
+      156,
+      486,
+      600
+    ],
+    [
+      26,
+      173,
+      486,
+      600
+    ],
+    [
+      26,
+      165,
+      486,
+      600
+    ],
+    [
+      26,
+      157,
+      486,
+      600
+    ]
+  ],
+  "dimension_diagnostic": "passed",
+  "runtime_diagnostics": [
+    "home_regression.log",
+    "vertical_slice_regression.log",
+    "first_party_spatial_parity.log",
+    "timing_round_trip.json"
+  ],
+  "canonical_motion_gate": "not_started",
+  "canonical_visual_gate": "not_started",
+  "canonical_human_gate": "not_started",
+  "required_calibration": "CANDIDATE_REQUIRES_CALIBRATION",
+  "final_review": "NO AUTHENTICATED FINAL APPROVAL FOUND/CREATED BY PHASE 0",
+  "promotion_result": "ineligible",
+  "reason": "dimensions/runtime behavior do not grant motion, visual, rights, or authenticated human approval; no historical reviewer rejection fabricated"
+}

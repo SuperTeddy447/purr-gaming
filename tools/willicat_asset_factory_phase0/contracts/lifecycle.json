@@ -1,0 +1,422 @@
+{
+  "version": "1",
+  "stages": [
+    "spec",
+    "template",
+    "source",
+    "normalized",
+    "structurally_validated",
+    "motion_validated",
+    "visual_qa",
+    "preview",
+    "prefab",
+    "runtime_validated",
+    "cataloged",
+    "human_approved"
+  ],
+  "gate_ids": [
+    "rights",
+    "structural",
+    "motion",
+    "visual",
+    "runtime",
+    "human"
+  ],
+  "gate_statuses": [
+    "not_started",
+    "pending",
+    "passed",
+    "failed",
+    "not_applicable"
+  ],
+  "transitions": [
+    {
+      "from_stage": "spec",
+      "to_stage": "template",
+      "required_gates": [],
+      "required_evidence": [
+        "template",
+        "style_calibration",
+        "world_authority",
+        "registration"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "template",
+      "to_stage": "source",
+      "required_gates": [],
+      "required_evidence": [
+        "source"
+      ],
+      "rights_action": "manual_intake",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched",
+        "style_calibration_unapproved_or_required_geometry_unmeasured"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "source",
+      "to_stage": "normalized",
+      "required_gates": [],
+      "required_evidence": [
+        "normalized",
+        "animation"
+      ],
+      "rights_action": "normalize",
+      "required_scopes": [
+        "modification"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "normalized",
+      "to_stage": "structurally_validated",
+      "required_gates": [
+        "structural"
+      ],
+      "required_evidence": [
+        "validator_results",
+        "gates.structural.record"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "structurally_validated",
+      "to_stage": "motion_validated",
+      "required_gates": [
+        "structural",
+        "motion"
+      ],
+      "required_evidence": [
+        "motion_review",
+        "motion_policy_results"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched",
+        "motion_policy_uncalibrated_or_animator_criteria_unapproved"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "motion_validated",
+      "to_stage": "visual_qa",
+      "required_gates": [
+        "structural",
+        "motion",
+        "visual"
+      ],
+      "required_evidence": [
+        "visual_review"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "visual_qa",
+      "to_stage": "preview",
+      "required_gates": [],
+      "required_evidence": [
+        "preview_evidence"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "preview",
+      "to_stage": "prefab",
+      "required_gates": [
+        "structural",
+        "motion",
+        "visual"
+      ],
+      "required_evidence": [
+        "candidate_bundle"
+      ],
+      "rights_action": "candidate_compile",
+      "required_scopes": [
+        "dev_runtime",
+        "modification"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "prefab",
+      "to_stage": "runtime_validated",
+      "required_gates": [
+        "structural",
+        "motion",
+        "visual",
+        "runtime"
+      ],
+      "required_evidence": [
+        "runtime_proof"
+      ],
+      "rights_action": "integration_proof",
+      "required_scopes": [
+        "dev_runtime"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "runtime_validated",
+      "to_stage": "cataloged",
+      "required_gates": [],
+      "required_evidence": [
+        "catalog_entry_ref"
+      ],
+      "rights_action": "inspect",
+      "required_scopes": [
+        "structural_study"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    },
+    {
+      "from_stage": "cataloged",
+      "to_stage": "human_approved",
+      "required_gates": [
+        "structural",
+        "motion",
+        "visual",
+        "runtime",
+        "human"
+      ],
+      "required_evidence": [
+        "human_approval"
+      ],
+      "rights_action": "publish",
+      "required_scopes": [
+        "production_runtime",
+        "publication_distribution"
+      ],
+      "blocking_conditions": [
+        "cancelled",
+        "superseded",
+        "stale_dependency",
+        "missing_stage_data",
+        "required_scope_not_permitted",
+        "required_gate_not_passed",
+        "evidence_missing_or_mismatched"
+      ],
+      "retry_behavior": "same pinned bytes: append new review; revised content: new attempt/version; never overwrite",
+      "invalidation_behavior": "changed pinned dependency blocks affected downstream passes until explicit evidence-backed compatibility review or new proof/approval",
+      "required_version_pins_at_destination": [
+        "profile_id",
+        "asset_version",
+        "attempt_id",
+        "template.version",
+        "style_calibration.version",
+        "world_authority_projection_hash",
+        "rights_decision_revision"
+      ]
+    }
+  ],
+  "failure_keeps_previous_completed_stage": true,
+  "rollback": "Protected current_release_selection may select an otherwise eligible historical completed attempt. Merely replacing a release does not terminally supersede its attempt. Attempts explicitly cancelled/superseded cannot be reactivated; create a new reviewed attempt instead."
+}

@@ -1,0 +1,131 @@
+{
+  "profile_id": "animated_environment.tree.phase0.v1",
+  "contract_version": "1",
+  "category": "animated_environment",
+  "required_by_stage": {
+    "spec": [
+      "schema_version",
+      "profile_id",
+      "request_id",
+      "job_id",
+      "attempt_id",
+      "asset_id",
+      "asset_version",
+      "category",
+      "family_id",
+      "style_family_id",
+      "lifecycle_stage",
+      "disposition",
+      "requested_action",
+      "provenance_evidence",
+      "rights_evaluations",
+      "gates",
+      "invalidation"
+    ],
+    "template": [
+      "template",
+      "style_calibration",
+      "world_authority",
+      "registration"
+    ],
+    "source": [
+      "source"
+    ],
+    "normalized": [
+      "normalized",
+      "animation"
+    ],
+    "structurally_validated": [
+      "validator_results"
+    ],
+    "motion_validated": [
+      "motion_review",
+      "motion_policy_results"
+    ],
+    "visual_qa": [
+      "visual_review"
+    ],
+    "preview": [
+      "preview_evidence"
+    ],
+    "prefab": [
+      "candidate_bundle"
+    ],
+    "runtime_validated": [
+      "runtime_proof"
+    ],
+    "cataloged": [
+      "catalog_entry_ref"
+    ],
+    "human_approved": [
+      "human_approval"
+    ]
+  },
+  "stage_requirements_accumulate": true,
+  "motion_not_applicable_allowed": false,
+  "required_validators": {
+    "structural": [
+      "V-SCHEMA",
+      "V-FRAME",
+      "V-SCALE"
+    ],
+    "motion": [
+      "V-MOTION-MEASURE",
+      "V-MOTION-POLICY"
+    ],
+    "runtime": [
+      "V-WORLD-INTEGRITY",
+      "V-BUNDLE-PARITY"
+    ],
+    "rights": [
+      "V-PROVENANCE"
+    ],
+    "human": [
+      "V-REVIEW-EVIDENCE",
+      "V-APPROVAL-AUTH"
+    ]
+  },
+  "required_human_roles": {
+    "motion": "technical_animator",
+    "visual": "art_lead",
+    "human": "final_human_reviewer"
+  },
+  "required_motion_criteria": [
+    "foliage_led_sway",
+    "no_whole_sprite_scale_pulse",
+    "readable_authored_arc",
+    "seam_perceptually_continuous"
+  ],
+  "required_motion_policy_criteria": [
+    "root_drift",
+    "baseline_drift",
+    "scale_drift",
+    "loop_seam"
+  ],
+  "calibration_status": "CANDIDATE_REQUIRES_CALIBRATION",
+  "required_review_evidence": [
+    "root_baseline_overlay",
+    "scene_speed_loop",
+    "actor_before_behind_tree",
+    "separate_shadow_contact",
+    "runtime_route_proof"
+  ],
+  "optional_fields": [
+    "publication until release exists"
+  ],
+  "not_applicable_fields": [
+    "connectors",
+    "apertures",
+    "terrain",
+    "directions",
+    "building_layers",
+    "ui"
+  ],
+  "timing_domain": "positive integer milliseconds <= 2^24; binary32 exact encoding bound, not artistic tolerance",
+  "production_ready_writable": false,
+  "live_validators_not_writable_results": [
+    "V-PROVENANCE",
+    "V-REVIEW-EVIDENCE",
+    "V-APPROVAL-AUTH"
+  ]
+}

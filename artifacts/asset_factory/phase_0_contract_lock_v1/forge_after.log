@@ -1,0 +1,87 @@
+test_atlas_dimensions (test_core.TestAtlasRebuilding)
+Atlas of 8 frames at 32x32 should be 256x32. ... ok
+test_runtime_resize_atlas (test_core.TestAtlasRebuilding)
+Resize each frame independently, then build atlas. ... ok
+test_generate_tres_no_loop (test_core.TestGodotExport) ... ok
+test_generate_tres_structure (test_core.TestGodotExport) ... ok
+test_tres_regions (test_core.TestGodotExport) ... ok
+test_add_safe_padding (test_core.TestImageProcessing) ... ok
+test_add_safe_padding_zero (test_core.TestImageProcessing) ... ok
+test_alpha_bounds_opaque (test_core.TestImageProcessing) ... ok
+test_alpha_bounds_transparent (test_core.TestImageProcessing) ... ok
+test_ensure_rgba_from_rgb (test_core.TestImageProcessing) ... ok
+test_ensure_rgba_passthrough (test_core.TestImageProcessing) ... ok
+test_resize_frame_identity (test_core.TestImageProcessing) ... ok
+test_resize_frame_preserves_rgba (test_core.TestImageProcessing) ... ok
+test_inspect_png (test_core.TestInspection) ... ok
+test_character_profile_from_json (test_core.TestModels) ... ok
+test_manifest_save_load (test_core.TestModels) ... ok
+test_manifest_serialization (test_core.TestModels) ... ok
+test_source_unchanged (test_core.TestOverwriteProtection)
+Source file must not be modified by pipeline. ... ok
+test_full_pipeline_synthetic (test_core.TestPipeline)
+Full pipeline on synthetic test sheet. ... ok
+test_analyse_animation_pass (test_core.TestQA) ... ok
+test_analyse_frame_basic (test_core.TestQA) ... ok
+test_analyse_frame_transparent (test_core.TestQA) ... ok
+test_baseline_detection (test_core.TestQA) ... ok
+test_padding_calculation (test_core.TestQA) ... ok
+test_detect_grid_error (test_core.TestSpriteSheet) ... ok
+test_detect_horizontal_strip (test_core.TestSpriteSheet) ... ok
+test_detect_vertical_strip (test_core.TestSpriteSheet) ... ok
+test_detect_with_explicit (test_core.TestSpriteSheet) ... ok
+test_extract_frames_count (test_core.TestSpriteSheet) ... ok
+test_extract_frames_rgba_preservation (test_core.TestSpriteSheet) ... ok
+test_threshold_based_detection (test_mochi_serve_acceptance.TestContentStripDetection)
+At threshold=64, content-strip detection should find 8 strips. ... ok
+test_non_increasing (test_mochi_serve_acceptance.TestExplicitSplitEdges) ... ok
+test_single_frame (test_mochi_serve_acceptance.TestExplicitSplitEdges) ... ok
+test_too_few_edges (test_mochi_serve_acceptance.TestExplicitSplitEdges) ... ok
+test_valid_edges (test_mochi_serve_acceptance.TestExplicitSplitEdges) ... ok
+test_explicit_edges_extraction (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify explicit-edges extraction produces correct frame dimensions. ... ok
+test_full_pipeline_atlas_dimensions (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Run the full pipeline and verify atlas dimensions. ... ok
+test_gui_config_parameters_match_acceptance (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify GUI-parsed parameters produce the same pipeline arguments and parity. ... 2026-09-30 18:03:32.813 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_pipeline_matches_known_good_atlas (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify the pipeline output structurally matches the known-good atlas. ... ok
+test_root_preserving_expand (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify root-preserving canvas expand produces correct dimensions. ... ok
+test_serve_pixel_parity_against_known_good (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify Forge atlas achieves exact visible pixel parity with known-good reference. ... ok
+test_source_immutability (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Source sprite sheet must NOT be modified. ... ok
+test_source_inspection (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify source sprite sheet dimensions and format. ... ok
+test_tres_generation (test_mochi_serve_acceptance.TestMochiServeAcceptance)
+Verify SpriteFrames .tres is generated with correct rectangular regions. ... ok
+test_basic_expand (test_mochi_serve_acceptance.TestRootPreservingExpand) ... ok
+test_preserves_all_pixels (test_mochi_serve_acceptance.TestRootPreservingExpand) ... ok
+test_round_half_up_fractional_roots (test_mochi_serve_acceptance.TestRootPreservingExpand)
+Verify round-half-up (not banker's rounding) is used for fractional roots. ... ok
+test_full_pipeline (test_mochi_walk_acceptance.TestMochiWalkAcceptance) ... ok
+test_source_inspection (test_mochi_walk_acceptance.TestMochiWalkAcceptance) ... ok
+test_structural_comparison_with_known_good (test_mochi_walk_acceptance.TestMochiWalkAcceptance)
+Compare generated atlas structurally against the existing known-good. ... ok
+test_source_file_unchanged (test_mochi_walk_acceptance.TestSourceImmutability) ... ok
+test_bit_for_bit_identical_to_production (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance)
+Verify Forge atlas is 100% bit-for-bit identical to production atlas. ... ok
+test_full_pipeline_run (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance) ... ok
+test_godot_ignores_asset_forge_directory (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance)
+Verify .gdignore is present in the Asset Forge directory. ... ok
+test_safe_padding_option (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance)
+Verify safe-padding parameter prevents top-touching warnings. ... ok
+test_source_immutability (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance) ... ok
+test_source_inspection (test_mochi_walk_down_acceptance.TestMochiWalkDownAcceptance) ... ok
+test_opaque_architecture_rejects_alpha_holes (test_static_prop.StaticPropTests) ... ok
+test_opaque_architecture_stays_byte_identical (test_static_prop.StaticPropTests) ... ok
+test_preserved_transparent_architecture_keeps_registration (test_static_prop.StaticPropTests) ... ok
+test_rejects_visible_source_edge_contact (test_static_prop.StaticPropTests) ... ok
+test_trim_preserves_source_and_registers_floor_contact (test_static_prop.StaticPropTests) ... ok
+
+----------------------------------------------------------------------
+Ran 62 tests in 3.678s
+
+OK

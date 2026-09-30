@@ -1,0 +1,14 @@
+{
+  "revision": "TEST_TRUST_1",
+  "credentials": {
+    "TEST_ONLY_key": {
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuIkbA4UW1E1jFYuD6h7G\nnERUH3S5enyTyjqvJp9OXwRmgLuJ5fxqLpeN3yspiYyeZDKwlFgyug8+ZsNbR3TI\n7arqGCmgygjmPh/xu7nl5IspU9GQrJH8Arvm9Jhdm2nYcpK0+pL2wgs+q9J0v3lC\nSJp//tSF8lHtzAVJ7RYMng5ZKGpEnan6N3xQINQFqa4KfJ5cTk4PUH7eWLMHHD4f\nR+YHf9x7xkGW9/G0KM18nuXUJztdrELMlJEo8q5Si3Bdl687WduoyefG7yIPh6k3\nnOWn7rxRcaLhLCIA9Y1U5VkCUFkdqgQIUniFcMi62nBv399fcG+TV2RbFPgdtF6J\n6sBV+ofkTJnFRiNVc7I+9njPrZ8u8AmJ0K9cqy1/LQYahmcx9qhJTnWUE+SLntgs\nT/fqd+kOIm3NsD+49kco5EYn4FWSqX1MH2q0fwsKze0opPVI9HD4AyuzCQM2evd6\nQ3Up00dpkrlwUeIH3rVq0NeTPfxFF3TFep8b5C5Fbi9VAgMBAAE=\n-----END PUBLIC KEY-----\n",
+      "principal": "TEST_ONLY_reviewer",
+      "roles": [
+        "final_human_reviewer"
+      ],
+      "state": "active",
+      "test_fixture": true
+    }
+  }
+}

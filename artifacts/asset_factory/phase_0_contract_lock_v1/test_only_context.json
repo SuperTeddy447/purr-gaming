@@ -1,0 +1,45 @@
+{
+  "schema_version": "phase0-context-1",
+  "action": "publish",
+  "current_attempt_id": "TEST_ONLY_attempt",
+  "rights_decision_revision": "TEST_RIGHTS_1",
+  "current_template": {
+    "id": "TEST_ONLY_template",
+    "version": "1"
+  },
+  "current_style_calibration": {
+    "id": "TEST_ONLY_style",
+    "version": "1"
+  },
+  "style_status": "approved",
+  "current_world_projection_hash": "578bf3741f2850400053cec1fad10158927711e95410079376a5482f7593c150",
+  "compatibility_affirmations": [],
+  "required_evidence_ids": [
+    "review_rights",
+    "review_structural",
+    "review_motion",
+    "review_visual",
+    "review_runtime",
+    "review_human"
+  ],
+  "trusted_review_record_hashes": [
+    "c64407c7f5eded6d6c1218ba4f349ffb169399f931eac8767cbbabcc8ac5b119",
+    "a2a6fb018fc8f3966d22019f7b752381e4da07fedf571203fedf57dbf14ed8fd",
+    "42fb2b1c508a096db4565973d8b27b92d6451aedc478904ff8073eb10f320039",
+    "c9fb927029f22c5fd6d879df7dd4d4cfbf5309908f31c5590155e4235163deca",
+    "6912979192e0fcb0fc98883e3b0e5fdff913a824399b86cbad31321c542cf24b",
+    "2eed960bd9428998ec9b53e718689824826d30c41010b0fad67d3fdd9e84fe28"
+  ],
+  "bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+  "published_bundle_hash": "ca02bd12108f945b4816955df3d9f4151cedf1310e440c0f594a060b77755d49",
+  "release_eligibility": "eligible",
+  "trust_store_revision": "TEST_TRUST_1",
+  "credential_id": "TEST_ONLY_key",
+  "blocking_dependencies": [],
+  "current_motion_policy_versions": {
+    "root_drift": "TEST_ONLY_CALIBRATION_1",
+    "baseline_drift": "TEST_ONLY_CALIBRATION_1",
+    "scale_drift": "TEST_ONLY_CALIBRATION_1",
+    "loop_seam": "TEST_ONLY_CALIBRATION_1"
+  }
+}

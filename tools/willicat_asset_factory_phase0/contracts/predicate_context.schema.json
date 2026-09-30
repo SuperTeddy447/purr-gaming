@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:willicat:phase0:predicate_context:1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "phase0-context-1"
+    },
+    "action": {
+      "enum": [
+        "publish",
+        "rollback"
+      ]
+    },
+    "current_attempt_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "rights_decision_revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "current_template": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "current_style_calibration": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "style_status": {
+      "const": "approved"
+    },
+    "current_world_projection_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "compatibility_affirmations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "template",
+              "style",
+              "world"
+            ]
+          },
+          "pinned_identity": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "current_identity": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "record_hash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "kind",
+          "pinned_identity",
+          "current_identity",
+          "record_hash"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      },
+      "minItems": 1
+    },
+    "trusted_review_record_hashes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minItems": 1
+    },
+    "bundle_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "published_bundle_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "release_eligibility": {
+      "enum": [
+        "eligible",
+        "ineligible",
+        "revoked"
+      ]
+    },
+    "trust_store_revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "credential_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "blocking_dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "current_motion_policy_versions": {
+      "type": "object",
+      "properties": {
+        "root_drift": {
+          "type": "string",
+          "minLength": 1
+        },
+        "baseline_drift": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scale_drift": {
+          "type": "string",
+          "minLength": 1
+        },
+        "loop_seam": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "root_drift",
+        "baseline_drift",
+        "scale_drift",
+        "loop_seam"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "action",
+    "current_attempt_id",
+    "rights_decision_revision",
+    "current_template",
+    "current_style_calibration",
+    "style_status",
+    "current_world_projection_hash",
+    "compatibility_affirmations",
+    "required_evidence_ids",
+    "trusted_review_record_hashes",
+    "bundle_hash",
+    "published_bundle_hash",
+    "release_eligibility",
+    "trust_store_revision",
+    "credential_id",
+    "blocking_dependencies",
+    "current_motion_policy_versions"
+  ],
+  "additionalProperties": false
+}
