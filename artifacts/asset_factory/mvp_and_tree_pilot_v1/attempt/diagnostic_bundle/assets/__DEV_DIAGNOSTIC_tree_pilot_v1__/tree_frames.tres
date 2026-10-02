@@ -1,0 +1,103 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/__DEV_DIAGNOSTIC_tree_pilot_v1__/tree.png" id="1_atlas"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_0"]
+atlas = ExtResource("1_atlas")
+region = Rect2(0, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_1"]
+atlas = ExtResource("1_atlas")
+region = Rect2(512, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_2"]
+atlas = ExtResource("1_atlas")
+region = Rect2(1024, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_3"]
+atlas = ExtResource("1_atlas")
+region = Rect2(1536, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_4"]
+atlas = ExtResource("1_atlas")
+region = Rect2(2048, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_5"]
+atlas = ExtResource("1_atlas")
+region = Rect2(2560, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_6"]
+atlas = ExtResource("1_atlas")
+region = Rect2(3072, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_7"]
+atlas = ExtResource("1_atlas")
+region = Rect2(3584, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_8"]
+atlas = ExtResource("1_atlas")
+region = Rect2(4096, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_9"]
+atlas = ExtResource("1_atlas")
+region = Rect2(4608, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_10"]
+atlas = ExtResource("1_atlas")
+region = Rect2(5120, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_11"]
+atlas = ExtResource("1_atlas")
+region = Rect2(5632, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_12"]
+atlas = ExtResource("1_atlas")
+region = Rect2(6144, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_13"]
+atlas = ExtResource("1_atlas")
+region = Rect2(6656, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_14"]
+atlas = ExtResource("1_atlas")
+region = Rect2(7168, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_15"]
+atlas = ExtResource("1_atlas")
+region = Rect2(7680, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_16"]
+atlas = ExtResource("1_atlas")
+region = Rect2(8192, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_17"]
+atlas = ExtResource("1_atlas")
+region = Rect2(8704, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_18"]
+atlas = ExtResource("1_atlas")
+region = Rect2(9216, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_19"]
+atlas = ExtResource("1_atlas")
+region = Rect2(9728, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_20"]
+atlas = ExtResource("1_atlas")
+region = Rect2(10240, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_21"]
+atlas = ExtResource("1_atlas")
+region = Rect2(10752, 0, 512, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frame_22"]
+atlas = ExtResource("1_atlas")
+region = Rect2(11264, 0, 512, 640)
+
+[resource]
+animations = [{
+"frames": [{"duration": 200.0, "texture": SubResource("AtlasTexture_frame_0")}, {"duration": 120.0, "texture": SubResource("AtlasTexture_frame_1")}, {"duration": 100.0, "texture": SubResource("AtlasTexture_frame_2")}, {"duration": 100.0, "texture": SubResource("AtlasTexture_frame_3")}, {"duration": 100.0, "texture": SubResource("AtlasTexture_frame_4")}, {"duration": 120.0, "texture": SubResource("AtlasTexture_frame_5")}, {"duration": 140.0, "texture": SubResource("AtlasTexture_frame_6")}, {"duration": 190.0, "texture": SubResource("AtlasTexture_frame_7")}, {"duration": 120.0, "texture": SubResource("AtlasTexture_frame_8")}, {"duration": 110.0, "texture": SubResource("AtlasTexture_frame_9")}, {"duration": 100.0, "texture": SubResource("AtlasTexture_frame_10")}, {"duration": 90.0, "texture": SubResource("AtlasTexture_frame_11")}, {"duration": 90.0, "texture": SubResource("AtlasTexture_frame_12")}, {"duration": 90.0, "texture": SubResource("AtlasTexture_frame_13")}, {"duration": 110.0, "texture": SubResource("AtlasTexture_frame_14")}, {"duration": 160.0, "texture": SubResource("AtlasTexture_frame_15")}, {"duration": 210.0, "texture": SubResource("AtlasTexture_frame_16")}, {"duration": 160.0, "texture": SubResource("AtlasTexture_frame_17")}, {"duration": 130.0, "texture": SubResource("AtlasTexture_frame_18")}, {"duration": 110.0, "texture": SubResource("AtlasTexture_frame_19")}, {"duration": 100.0, "texture": SubResource("AtlasTexture_frame_20")}, {"duration": 160.0, "texture": SubResource("AtlasTexture_frame_21")}, {"duration": 220.0, "texture": SubResource("AtlasTexture_frame_22")}],
+"loop": true,
+"name": &"dev_wind",
+"speed": 1000.0
+}]

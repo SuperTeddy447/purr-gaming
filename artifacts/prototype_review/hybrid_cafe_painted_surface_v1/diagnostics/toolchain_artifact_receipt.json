@@ -1,0 +1,641 @@
+{
+  "scope": "ISOLATED_DEV_PAINTED_SURFACE; not canonical candidate/integration proof/publication",
+  "timestamp_utc": "2026-10-01T19:07:50.029404+00:00",
+  "repository_head_before_install": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "recipe_version": "1.0.0-spike/v1.4",
+  "toolchain": {
+    "godot": {
+      "build": "official",
+      "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (official)",
+      "timestamp": 0
+    },
+    "renderer": "mobile",
+    "driver": "metal",
+    "device": "Apple M2 Pro (Apple8)",
+    "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "executable": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/.venv/bin/python",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "pillow": "11.3.0",
+    "numpy": "2.0.2",
+    "Blender_export": "NONE; exact existing 29 GLBs reused",
+    "Forge": "existing Python environment for extraction; reused module identities below"
+  },
+  "generation": {
+    "provider": "OpenAI built-in image_gen tool",
+    "model": "NOT_EXPOSED_BY_TOOL; not inferred",
+    "prompt_version": "WILLICAT_PAINTED_ATLAS_PROMPT_V1",
+    "generation_count": 1,
+    "reference_images": [],
+    "reference_use": "Textual approved palette/material grammar only. Hero image viewed separately for quality comparison; no image conditioning.",
+    "source_image": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-d5a9f04e-609f-4e9c-a16d-83d1c5544e6b.png",
+    "source_sha256": "ca1448a3873dbaaa5f99c4e9078bef0c1499600ee5d07c6774717864e12656fb",
+    "archived_source": "assets_src/materials/willicat_painted_surface_v1/painted_family_atlas_raw_v1.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "runtime_processing": "Six exact 512x512 rectangular crops; no retouch, phototexture, seam painting or recolor of generated pixels. Color/lighting treatment in shader.",
+    "rights_provenance": "First-party generated DEV material support, explicitly authorized in task; no third-party image input. No new production rights determination or publication authorization.",
+    "runtime_crops": {
+      "cedar": {
+        "atlas_rect_px": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png",
+        "file_sha256": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e",
+        "decoded_RGB_sha256": "2dbf64ce9082d9d7a24e6ebbe92bb924a2f3e6925501723ced27630725e96e39",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.0415390114379085,
+        "crop_box_ltrb_px": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "plaster": {
+        "atlas_rect_px": [
+          512,
+          0,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png",
+        "file_sha256": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+        "decoded_RGB_sha256": "67448ada5b34f5a4cc3475d40ed17d9a7165eb2209c74fe06c3ddfef11606e73",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.030181525735294118,
+        "crop_box_ltrb_px": [
+          512,
+          0,
+          1024,
+          512
+        ]
+      },
+      "stone": {
+        "atlas_rect_px": [
+          1024,
+          0,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png",
+        "file_sha256": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+        "decoded_RGB_sha256": "f9afad8cf09250412f6eb2138363c914d3a8c5bb86657c0337a06475baec2d2e",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.04171900531045752,
+        "crop_box_ltrb_px": [
+          1024,
+          0,
+          1536,
+          512
+        ]
+      },
+      "sage": {
+        "atlas_rect_px": [
+          0,
+          512,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png",
+        "file_sha256": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+        "decoded_RGB_sha256": "179df910aed345dd654af7a7e081b9cea89b1b852e8f3a2b47d21c4a02ce594f",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.04685712826797385,
+        "crop_box_ltrb_px": [
+          0,
+          512,
+          512,
+          1024
+        ]
+      },
+      "ceramic": {
+        "atlas_rect_px": [
+          512,
+          512,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png",
+        "file_sha256": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+        "decoded_RGB_sha256": "637203acc0cc5c84c22c0f01cb29ae30e837ab21a0572d2bb28c4ced15b6eb1a",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.05019786560457516,
+        "crop_box_ltrb_px": [
+          512,
+          512,
+          1024,
+          1024
+        ]
+      },
+      "foliage": {
+        "atlas_rect_px": [
+          1024,
+          512,
+          512,
+          512
+        ],
+        "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png",
+        "file_sha256": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+        "decoded_RGB_sha256": "a3a281d6a0dc705cbc8ff3abe68844c1e464cece38433a7d1a78a88d2ffdf4fa",
+        "dimensions": [
+          512,
+          512
+        ],
+        "opposite_edge_mean_RGB_delta": 0.049085988562091495,
+        "crop_box_ltrb_px": [
+          1024,
+          512,
+          1536,
+          1024
+        ]
+      }
+    }
+  },
+  "recipes": {
+    "tools/willicat_painted_surface/run.py": "85cf09e318ade09541d57853e05f8bf47304f6d8dae2d9ce1e49d7077ea9dc08",
+    "tools/willicat_painted_surface/Open_Painted_Surface.command": "1d7381ccd3eb0920058869148027e143865199b625ee620491a7a57ee94cf254",
+    "tools/willicat_painted_surface/README.md": "7840837c3774724b1bede5bfad950e52a5b85951c5eaf2c35332c9fc829fb570",
+    "tests/profile_painted_surface_v1.gd": "cab51580c8d57e909f970e0285f80ba9d83a8c854773c03381be3ae588a4c0c4",
+    "tests/test_painted_surface_materials_v1.gd": "be8fb3877b947fe767d25277594ecf3cee37fef900c481910d21b91fc8601235",
+    "tests/capture_painted_surface_v1.gd": "0ada7e0898215eb16bfe4997b06426a1fc32a5cf15b03c440915b2e95527940a",
+    "tests/test_painted_surface_input_v1.gd": "d660f914ef1a8fc9d05f8d356029e5764408d985b193de14af8b3846e3a05025"
+  },
+  "sources": {
+    "assets_src/materials/willicat_painted_surface_v1/prompt_v1.txt": "7bf16f6bc10a39e298bdf39dd873f81307357f2b82e80cfaa72781a8dd0d9fc9",
+    "assets_src/materials/willicat_painted_surface_v1/generation_provenance.json": "3c93b2dc24575554676ef6508bb54832a02377a9445d515cbf56b9e2d661700f",
+    "assets_src/materials/willicat_painted_surface_v1/painted_family_atlas_raw_v1.png": "ca1448a3873dbaaa5f99c4e9078bef0c1499600ee5d07c6774717864e12656fb"
+  },
+  "tested_runtime_files": {
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/painted_foliage.gdshader": "caa9340acfe8674384f69c3bcfff1554f5c9d5e89cbf76acc34bab83feeba4ca",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/material_manifest.json": "b56c864c3a86ca5043593e685235ba7f85bfef5bd31204d54555cd0dc1c5476a",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/painted_surface.gdshader": "f4de2dec20bf03c48d18475a82163f86ccc95a20179e1ddcd8339b788452574d",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CHARCOAL_METAL_V1.tres": "08eb266cd74ba38e45f362860f916ab4b5c25c8382f66593065bec06b39acd81",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_LANTERN_PAPER_V1.tres": "9ef91f45adc432b238e3f52df27e836d994b7a17d84c1e6742f496a6007a8d86",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_FLOOR_WOOD_V1.tres": "b841432d768c1d93b06489dfc907ddad85b806985c8fd7b942517f78af070e5a",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_SAGE_FABRIC_V1.tres": "392b8ede46d385ebe40a77e0676da452a6cf43bd895c87c09901d04de6345223",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CEDAR_LIGHT_V1.tres": "f9e0d3a05a78cf1fde76f979a6e349a8524ca5525150843aac96f31c69cc3e8d",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_PETAL_CREAM_V1.tres": "acb57b60e480b0004140aebe9eaaa70c97d030ffa85ac66efb56cbc04a1a6637",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_FOLIAGE_LIGHT_V1.tres": "cf532238eb419661d0cb74961c02e75be858e83390bcd2e3474d6b72d1e7fd46",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CERAMIC_INDIGO_V1.tres": "9d8feca1bc4966e57c68fa8ce43ddc8b35d6ec351f7f5fcb6dc0a78b56bae11e",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_FOLIAGE_DARK_V1.tres": "7cc48831738895c6bdbd9ad09bc4eaa3e82b77bb1625ae179e7b84951dbb9833",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_STONE_CREAM_V1.tres": "b36283fbed5f62b8e190fd48af4d1696dd554a7bc765589a6789c0eff5fc4325",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_PASTRY_WARM_V1.tres": "c1500006d13d7cabfbdd0b290fa18b137215967e0ad919435332cc36726b587e",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CERAMIC_V1.tres": "fa1795f255515652a3e9bd5600828f2d2c7181568f6c97f9a98b0226ea0fff4e",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_FOLIAGE_MID_V1.tres": "51196066fa1a851dfd7ade02eb55a74d23297ba4888bc2d24d821e7b2a8841ec",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CEDAR_DARK_V1.tres": "2b035e241961997be9405d7c9b86e632737140db40b8a52bb9225d54880a42b8",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_CEDAR_MID_V1.tres": "2067e58599441c9bf3905b4a6e5267826827747594242a6a01806a5227a870e3",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_COFFEE_V1.tres": "8fc5c53113f7ea053bb60239dd66f8e40f73439c92abeba8de6a998ae6da7d0a",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_PLASTER_CREAM_V1.tres": "f802cd51ec5c2c4fef5a9df5f3be5bacda16ace67477b2da4904bff814200962",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_WOVEN_RUG_V1.tres": "7eafd0160d49a1e8248061d47e114f4a9cace5eee4feb7bc8a76a024cb85d7f6",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/materials/WC3D_MAT_PAPER_WARM_V1.tres": "b9bdb37cc442cc6a7e31cd111aed92c15b0869875168e6f217410cb2821e6973",
+    "scripts/dev/hybrid_cafe_painted_surface/painted_surface.gd": "dc582fab96255f5ae5445144ccda1176c035a6b75d733c049658d202751474fe",
+    "scenes/dev/hybrid_cafe_painted_surface/hybrid_cafe_painted_surface_v1.tscn": "833ebfa1f92f9fbd5d25c2250e1672c13e839362cf0b0780bbd9ed6f3b43a3e4"
+  },
+  "reused_glbs": {
+    "WC_CAFE_Wall_Cream_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Wall_Cream_A.glb",
+      "sha256": "0e1e6158ad1413c39d674824aa28d8601f05f3def69cd6237d2ed1de0bd65716"
+    },
+    "WC_CAFE_Wall_Window_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/architecture/WC_CAFE_Wall_Window_A.glb",
+      "sha256": "abd2ebaa7b9c1e773241b603e7e7e65d13630e1c6790073984877cc878579072"
+    },
+    "WC_CAFE_Beam_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Beam_Cedar_A.glb",
+      "sha256": "f5da4e708fea4e241d502fdb7c4b828d43a47d8d9b7bcac973c9b42b8cc15219"
+    },
+    "WC_CAFE_Post_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Post_Cedar_A.glb",
+      "sha256": "e1d64c3ca6b6fdf94e9ccae1293db176a212a23d4d6d76e15cf3766309388236"
+    },
+    "WC_CAFE_Window_Recess_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/architecture/WC_CAFE_Window_Recess_A.glb",
+      "sha256": "69eb57d5a715ec35da92dffa46b6e89c0856379a1e5e91b1311013724ebf9750"
+    },
+    "WC_CAFE_Window_Sill_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Window_Sill_A.glb",
+      "sha256": "75c1e33e066ed14cbd069118e208eafe6a6265a910baedc7380e89ef68553f68"
+    },
+    "WC_CAFE_Entrance_Open_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Entrance_Open_A.glb",
+      "sha256": "03da521604eb5c1a219a16440163738e6ee7bd9834b260170068baae38748df7"
+    },
+    "WC_CAFE_Trim_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Trim_Cedar_A.glb",
+      "sha256": "301a3b5e0399736962b3db83da353841e122b612c5c7decafc948b642b94ceb3"
+    },
+    "WC_CAFE_Floor_Section_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Floor_Section_A.glb",
+      "sha256": "b583bbff3973a633b41b85dab77511ec2c6f34f8b6a0c03ac2cb95e798f5b0e6"
+    },
+    "WC_CAFE_Counter_Straight_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/furniture/WC_CAFE_Counter_Straight_A.glb",
+      "sha256": "5b9480a84799aa40057dc189a48a01b4afe3ab8d6526208f9dc7ad3dfcab7f2b"
+    },
+    "WC_CAFE_Counter_End_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/furniture/WC_CAFE_Counter_End_A.glb",
+      "sha256": "7d8447f151dbe8a35cbc0fde880bb1b3ccd3a6bedfa6d3a0aed9c912d81857a0"
+    },
+    "WC_CAFE_Counter_Short_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/furniture/WC_CAFE_Counter_Short_A.glb",
+      "sha256": "0208f263873364751d60748906e5b2a49c87adf322ec3356c2de7298b8aa86fa"
+    },
+    "WC_CAFE_Espresso_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/equipment/WC_CAFE_Espresso_A.glb",
+      "sha256": "503cbbc0a037a442d1cc7f5f92156713b9c000d3e85841eb794d4ced81785477"
+    },
+    "WC_CAFE_Grinder_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/service/WC_CAFE_Grinder_A.glb",
+      "sha256": "1303340f0fb61a03348e16b03bbe9307183b4ca50be15c7704b38e23618d8538"
+    },
+    "WC_CAFE_POS_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/service/WC_CAFE_POS_A.glb",
+      "sha256": "236b9f5b5eed464f78a0259e665adf8699bf0bc395aafdbe7174f88e75a2e37d"
+    },
+    "WC_CAFE_Cup_Saucer_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/service/WC_CAFE_Cup_Saucer_A.glb",
+      "sha256": "655112de4b620fca6f4913d33c8f3d5bf30776cfcec44235a087c7f7a7ce2d3c"
+    },
+    "WC_CAFE_Table_Round_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/furniture/WC_CAFE_Table_Round_A.glb",
+      "sha256": "9d69ca4f69ed60bb8a5909ed66745192b76d4806cb327854eab5d9b466a09520"
+    },
+    "WC_CAFE_Chair_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/furniture/WC_CAFE_Chair_A.glb",
+      "sha256": "e4bbb9b59a583ed2ce0f7a9bc301c7ad64e119734de8a24bdd20871379ecf877"
+    },
+    "WC_CAFE_Shelf_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Shelf_A.glb",
+      "sha256": "5dc3b574bd6d5f2641e029e67609faf99c57a6625def53256c4e1cc8c34d169b"
+    },
+    "WC_CAFE_Shelf_Short_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Shelf_Short_A.glb",
+      "sha256": "9a8cf2897cb78dca7984d2ba661460a13eb61e3fe4ab1cdd21da170ab93c21f2"
+    },
+    "WC_CAFE_Planter_Floor_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/plants/WC_CAFE_Planter_Floor_A.glb",
+      "sha256": "e9dec382223f57afae2c9bbb1850a9ede4890bd9b7571c5775a119de70c9b05d"
+    },
+    "WC_CAFE_Planter_Table_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/plants/WC_CAFE_Planter_Table_A.glb",
+      "sha256": "dfa8aa70552862429e896735e49f61d2798096c86be06f5dd71cf3e62037a68b"
+    },
+    "WC_CAFE_Ceramic_Jar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Ceramic_Jar_A.glb",
+      "sha256": "9330783bf1e780e537a613fd87e1f110231c3d8348a3b58f095e93de837d6a0b"
+    },
+    "WC_CAFE_Lamp_Hanging_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Lamp_Hanging_A.glb",
+      "sha256": "80570c2192633a72c388384e227ba708a9c8f4979079b1792c3b9ffc6ca51036"
+    },
+    "WC_CAFE_Lamp_Wall_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Lamp_Wall_A.glb",
+      "sha256": "154e214094eadf3c3ce768be7bc490f3fe24e07faeeed49dc0cc644093f0c962"
+    },
+    "WC_CAFE_Sign_Blank_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Sign_Blank_A.glb",
+      "sha256": "b07d1e5e4b90ecff52a0b00f866ef7a4a686d25b7029e4f7d0f36dbaa83fd0f4"
+    },
+    "WC_CAFE_Cat_Cushion_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Cat_Cushion_A.glb",
+      "sha256": "ba738f554832442771b275d2bf28ab7b654ca5a2b7043bd0947f2fddb45a5c9d"
+    },
+    "WC_CAFE_Plant_Trailing_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/plants/WC_CAFE_Plant_Trailing_A.glb",
+      "sha256": "d2a0187a134ccde8efd45d8d328382b8731394c6a6493f67f6274eca0a4b31e2"
+    },
+    "WC_CAFE_Plant_Flowering_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_replacement_v1/glb/plants/WC_CAFE_Plant_Flowering_A.glb",
+      "sha256": "45d268f367b9ca71b042e8fe3cde372b8179f2a853559404f2f932ed82288cea"
+    }
+  },
+  "authority_style_and_reused_implementation_hashes": {
+    "docs/art_direction/WILLICAT_STYLE_FAMILY_CALIBRATION_V1.md": "2e401c8aee975e6b5d3ba52e335f8043db49f28b31c4297b107af661fd4398c8",
+    "docs/asset_factory/style_families/WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1.json": "d9aa062d508c67d69e4be474859ccd5866ade17af7c0c8ef42cb4fa9e7a82a71",
+    "docs/production/WILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1_HUMAN_REVIEW_DECISION.md": "1185974ed001b8c55195e02ba6a3733ec0f97344715338108d43d971140728ed",
+    "scenes/dev/hybrid_cafe_hero_replacement/hybrid_cafe_hero_replacement_v1.tscn": "823e787413796c5c99877d08022bf935497a51ce65a0289f8d3233be0de37f5b",
+    "scripts/dev/hybrid_cafe_hero_replacement/cafe_hero_replacement.gd": "b139bba9af98680fa9ad28fb08fa73097028aeca17b9611acb1c9a30b2a5450a",
+    "scripts/dev/hybrid_cafe_hero_fidelity/cafe_hero_fidelity.gd": "524b6147de34694ea943ac3a0c3f2947a0c5562df4d69bb45a27d2ce685fd66c",
+    "scripts/dev/hybrid_cafe_art_direction/cafe_art_direction.gd": "f9c2598e2e14216aa39235e965fc924aa0a6d89547f709bec7860b1f86ef3c76",
+    "scripts/dev/hybrid_cafe_kit/cafe_kit_3d.gd": "6054e1dd3e74743750512b9e42b4ccff483c03bf3ea521712b7bfdc9a70a9339",
+    "scripts/dev/hybrid_diorama/hybrid_diorama.gd": "c78c9079611cb86af8d8b1ff812043a80fbcfdee77c7b075a618936d48dc20a5",
+    "scripts/dev/cafe_interior_slice/cafe_slice.gd": "39bd1c374d272abf9391d68eb59971f5d45953103a49851ef8b6c8f04077443f",
+    "tools/willicat_asset_forge/requirements.txt": "3344efb382fe0eb0f8ba53f39281b3f3c983ab05f29095ba438f0e3559087e43",
+    "tools/willicat_hero_asset_replacement/run.py": "49332fd77b4564ff7abf3cb11ace21b7bfea8d6bcae9649ae67852874e811a33"
+  },
+  "Forge_module_hashes": {
+    "tools/willicat_asset_forge/forge.py": "4162c2c8451c1668e6227c5b04fa03f9c7148110eccebdbe73686ba3986f0ad2",
+    "tools/willicat_asset_forge/static_prop.py": "f73751e926cf73f745aa400f54029a30a4cb43dfc0f7821d1e29725a9d933bc8",
+    "tools/willicat_asset_forge/animation_preview.py": "1f838f3aded31856110cbd953dbd26a1013b8c85f57d4792accd54a93dcaea1c",
+    "tools/willicat_asset_forge/config.py": "4827626e4c0296714ba704fac36bcbf8a2a2e88167f71e092f35456cacc9e25d",
+    "tools/willicat_asset_forge/models.py": "e3deb66edceb1a5e8e83f0ee43b7b478d5962a5cfd741dfcb4d484a4fb260b67",
+    "tools/willicat_asset_forge/paths.py": "34322281c8f22c2997bfd4e383ace7f1d1538f017eea6be3f5463d617575db1e",
+    "tools/willicat_asset_forge/registry.py": "1562ac4493bc6e32a505db2551d78b80d52e8a760189048d2d5a097aac1f7c15",
+    "tools/willicat_asset_forge/webp_processing.py": "cd7137086f7d73868262afff6d4dc7da7086ebfa7254d20e599e4821d516b154",
+    "tools/willicat_asset_forge/godot_export.py": "ac4fd05d11436be16909256684cc2f069dc7071b6d14bfae018a62dbfbf7460f",
+    "tools/willicat_asset_forge/__init__.py": "8d805b444c80685d1ead443e2bb67eaf7c99615e4a095aa9544c59d3dac233f6",
+    "tools/willicat_asset_forge/sprite_sheet.py": "d3bc2983ef725772fac033b04ae94d4b568ca3923aae7f827e9c30dddc8897b2",
+    "tools/willicat_asset_forge/cli.py": "af4e7fa477bbf227383bc7f1eb41b532469527d6d22804d8d3936537f21e9bc2",
+    "tools/willicat_asset_forge/app.py": "0cf4e66619374c890ae0d518bec57237cbbfc0c1204ff96afbf582c18f045e77",
+    "tools/willicat_asset_forge/qa.py": "3d36bbbd530e79b6fa66e35ee4e4530be985bed288719484f122a093c4d2769c",
+    "tools/willicat_asset_forge/image_processing.py": "4783a264ed66f7afdc137e2cc076705493ac5abc03f8b1c1237d1429275f80cc",
+    "tools/willicat_asset_forge/tests/test_core.py": "8d0f350c24fbfc79bff858b11a7036409af492fc0c5051f52a7766eecf70ea6b",
+    "tools/willicat_asset_forge/tests/test_static_prop.py": "0a812c6d31913d99061bcb2cce499c698497c7d86a574cf4e5a561133ce25700",
+    "tools/willicat_asset_forge/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tools/willicat_asset_forge/tests/test_mochi_walk_down_acceptance.py": "cea2ab924e0999d916a1444dc9006220fd98544503cfc22fd463fe3d823c632c",
+    "tools/willicat_asset_forge/tests/test_mochi_serve_acceptance.py": "2f0e61cf7f54a5b6bef7f639fdf4609aa3890e178960cdc4348d6d6ddbb1dfd0",
+    "tools/willicat_asset_forge/tests/test_mochi_walk_acceptance.py": "4fe0bad1003ac9fb76ed13dc585e73cd8602af51b0e8dedf18317718c0c16d75"
+  },
+  "authority_refs_missing": [],
+  "geometry_sha256": "a14e7ef804a7accab632fff39e58587cf1753bb746edbd0c91596ec9d057be19",
+  "baseline_geometry_sha256": "a14e7ef804a7accab632fff39e58587cf1753bb746edbd0c91596ec9d057be19",
+  "human_task_authorization": {
+    "path": "/Users/teddywoot/.codex/attachments/646d01d4-cc99-47e5-8367-c56dca289dd5/Pasted text.txt",
+    "sha256": "94d61ece9bd7349c8934c0f83119ebe247118632462788a7803307b9a4d3e8b6",
+    "scope": "DEV texture/material/light study; not authenticated production approval"
+  },
+  "hero_reference": {
+    "path": "/Users/teddywoot/Downloads/ChatGPT Image Oct 1, 2026, 08_34_49 PM.png",
+    "sha256": "41615abdbf5dc0083b4b04edbe9cc04d028d744652f450840f92434442d27ac3",
+    "use": "viewed art/mood reference; no conditioning or layout transfer"
+  },
+  "human_visual_review": "PENDING",
+  "recommendation": "B",
+  "test_counts": {
+    "native": 381,
+    "materials": 63,
+    "input": 5,
+    "launcher": 9,
+    "depth_cases": 4,
+    "regressions": 272,
+    "total_checks_cases": 734
+  },
+  "protected_existing_files_expected": 6804,
+  "evidence_hashes": {
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/08_CAT_ENVIRONMENT.png": "a72e5cf3e029b4c6c50f11de4befe1006f8c6433bba25ecaafc799a94adae34d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/09_GAMEPLAY_SCALE.png": "b40bb9adb78ebd85bc9feb70cf97a237838f5339b343b910f69f7097e9725723",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/03_SAME_GEOMETRY_SIDE_BY_SIDE.png": "acfbcb539da65e51f06d363c3cd7d544ca95c2fdc6241286adc61f53a81a2d08",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/05_PLASTER_STONE_CLOSEUP.png": "3e0fd4c3ecfb4dfa94a3614c5b1da0240fbad6e3d0fb0646af29616c93e33b79",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/06_SERVICE_ZONE.png": "0433c79b95179a560599a01b0a57831460feaae44116a9ed8e34c77a25fcd8ac",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/07_FOLIAGE.png": "e016b855ecf03790498c902c6e0e8280bd22f376868735cb5e05492d5f0c0980",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/04_WOOD_CLOSEUP.png": "a4b1c6b9237c1e7d833a27e3604764de42652f0afad534cba5595bc18d33f672",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/02_PAINTED_SURFACE_PASS.png": "c275eb1b393d2615acc556819c4545f9bca13682e2acd938abb67747dad4f219",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/WILLICAT_HYBRID_3D_PAINTED_SURFACE_AND_LIGHTING_SPIKE_V1.mp4": "9eb464cf4b5b8dbdcec015c6a3ff1cebff1e1e69c449c96373d8104c7eff6a9d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/01_CURRENT_SURFACE_BASELINE.png": "47810c11ca4032fb1ecbd7e2c09dec40eaf03faf9fa0686b54fbf47255e51723",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00126.png": "acd3883c49c74a606d7d29bec06bb6fe40a584ff9fc93514b5efee525548e566",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00132.png": "1d81be8db6bd2c21fa7bc3228f36e23d57ec9ba37815789b2109a87d38033959",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00091.png": "cd8692594c9baa5fef6c7a4a30be85d3ec31d33d87864c5deff987f5fc8b58d7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00085.png": "2b4a1a6998b8de0d9101c05285367a868d0dc2cf83459f2b152c5d838467d6da",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00052.png": "f35e47254599f549ebb5b65fab665d8f7ea2681b357e1d0d0afbace83c614036",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00046.png": "8c0623e1a0bf3a77f37a3a988a8e0b0aff88be4d12a4f51ef28522ce19866841",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00047.png": "e61e0ba4c7fc2ae30a112afe8270b3e5dcdf905fb5ff6f37cb2e945373dc0ae8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00053.png": "207f59587ee92c1065a01ab926439b867ccbf67af5679d2069ec4562839f95ff",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00084.png": "b4f1f730ae57eec551015ffaca2d96f6138559c2d3e8e0d419ffbfa2703562c3",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00090.png": "71fc8a8dcf22c4171fe78dca790da732add688cefa4432b44281e441ea9c6c78",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00133.png": "d343d88d5da9764d582f5f42ac700c73da644bd8c220488209f8ee0ae0c5a48e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00127.png": "ac838169b028d90099586f907d17844e6cc78bb0b1a2f33b1e8e7c64e8ab9967",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00131.png": "9c65449b86ce52d3a137f0ec04715e01d1540d3069a46dd23a8a2182af12d584",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00125.png": "c443e1eea728e5e1a77a58422847e75b3ecc4f6496692195219108fd4ec403c5",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00119.png": "0a33eae11b9258fe96a004d074462d819d1f9f035071ad601b1035dc16079446",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00086.png": "8a22c55b92352ba03f9934a4d7e570a3aa71ae995f955341b8b92cfdeaee0d6a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00092.png": "47cf629c24443a0367e4ead0b3bc123c655e5d243e98a57326bdf79e21fd40ae",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00045.png": "2047e0f5d6a48ad18f31bc1dd632f902a8b405fad8b75946508d50a3ed686d52",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00051.png": "271d7b494eb0019cf3bebae8f9accd1335d975fcd7ed840b2d939a3117b85550",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00079.png": "f6926ee4eb9dfbdd2a095c096b7707c7cbb0f91b2b6edd7944c6478938f66cb1",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00078.png": "efacc3980356efd581f6fc49e1ff1edc9f6183a78002fb8b8e1c5efb15b826e8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00050.png": "170a2aeba4c06cac9abdbc0d06d0e9c1450629a47690e441ae5b0fa9168ace9a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00044.png": "872a69606eb230759c3e1633f97cccd5f8be81f997e5de91b4ddab3a9ba6b893",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00093.png": "e01d7f30ff717b3806c23ad62a0ccfbdb71dae824c9a4a9933a35eea05297889",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00087.png": "2ed6ff512514e1cdf4b3d1d50696d4b7f27fb263369188a0a425a405fad12858",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00118.png": "cde604044ce87752f3120a0bdbfbe037799bf554c54bc7a69d581904b7edf526",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00124.png": "93f3138d2e82b186e2314cc6a8d2cee70f7b11b6ea496e0cb9ae658bd27359d9",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00130.png": "d343d88d5da9764d582f5f42ac700c73da644bd8c220488209f8ee0ae0c5a48e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00108.png": "bf57232a0dc92be4760db49a7a8fb7d6497b2dcb7d2bae1ed51e50f4294c8a7a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00134.png": "9c65449b86ce52d3a137f0ec04715e01d1540d3069a46dd23a8a2182af12d584",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00120.png": "0a33eae11b9258fe96a004d074462d819d1f9f035071ad601b1035dc16079446",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00083.png": "f5999bf45788db634ab71161f53fe607a25cfe8074b8a2fcf909881d8405170e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00097.png": "e01d7f30ff717b3806c23ad62a0ccfbdb71dae824c9a4a9933a35eea05297889",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00068.png": "99f17f8ec120b9e89fb9a84ca05e1454f037c8dc34bbe102ac9463bbfbe544ca",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00040.png": "4b0bf487c932c5f7a9923ab8c153373a94eda0a2fe3ea8e84b480eb8b20dfb86",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00054.png": "c876a71d220a59eab119c9d0e5f7e43b2e6ad10969c714b03deb4b0076d7a6f7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00055.png": "f35e47254599f549ebb5b65fab665d8f7ea2681b357e1d0d0afbace83c614036",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00041.png": "e9dfa9b8279f87d5615dbbc58c1774a617d96d2669515cab0df2a72f338a56d0",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00069.png": "f70c9fc23b53484ca4ae3a9efbbf857b5463ea8269f20a6f63d41990f9f8d6c6",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00096.png": "881ddef97975cce166e6517bce41232ad55edb9f53a0675845692e62be83a89e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00082.png": "5d4543e8a36d99aa2a82d3aae26460737abcf2aa85669fd406997d7e3154b1f7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00121.png": "93f3138d2e82b186e2314cc6a8d2cee70f7b11b6ea496e0cb9ae658bd27359d9",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00135.png": "1d81be8db6bd2c21fa7bc3228f36e23d57ec9ba37815789b2109a87d38033959",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00109.png": "815a2e4a6e88b4898597dff6dd7b0af08526334f81ba1611d9b407068d47047b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00123.png": "0a33eae11b9258fe96a004d074462d819d1f9f035071ad601b1035dc16079446",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00137.png": "d343d88d5da9764d582f5f42ac700c73da644bd8c220488209f8ee0ae0c5a48e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00094.png": "881ddef97975cce166e6517bce41232ad55edb9f53a0675845692e62be83a89e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00080.png": "be0da5515d26780f8f19a860ce9b2b1d24628603b4dbf0a5942e07f1d551998d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00057.png": "c876a71d220a59eab119c9d0e5f7e43b2e6ad10969c714b03deb4b0076d7a6f7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00043.png": "afb13f94a302f1d9b49786fbb862ade9bc2be4cb318274a429882468ba39a390",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00042.png": "015583afeb7d6e18687560bfcf66f1e50b23e2fd3424e407f5287ba9bf790988",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00056.png": "207f59587ee92c1065a01ab926439b867ccbf67af5679d2069ec4562839f95ff",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00081.png": "eb89c7d2b9ffb1cb2458c0244dd88ce1cd83db76c7d947265933003e5eb229b4",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00095.png": "e01d7f30ff717b3806c23ad62a0ccfbdb71dae824c9a4a9933a35eea05297889",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00136.png": "1d81be8db6bd2c21fa7bc3228f36e23d57ec9ba37815789b2109a87d38033959",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00122.png": "7dbaf60e7b2ebd00749f59422a913ce7ee4305c54db5428610c3d019cce57a78",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00031.png": "ab2d45d2a992e2148586c376b9c24e336ee64a1c11d140ecd5f556c94261c79d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00025.png": "b3ba87371116b992ee7f7b44b82d314a920ed95b0e457d4d879058dce3fe24d0",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00019.png": "c072abf8c48d4d7574fadc11371a45bf04895d0c8f3aeb3b6804939dccd64f79",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00018.png": "ff01ad7ea362f4c06d708937945f323eb91ced6a59860e68d057b4d9303cd43b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00024.png": "c205a9d20d3ceb85e1122af1739e9774b7f6d6b4eb03aafdf1c839b154bd3008",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00030.png": "0ea5c7cc4c86c0e1f621032f8ad0fd97ea1f8bc9b1c668a4c7e90a66d0e51e7b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00026.png": "b87fa1995979017d0d7e618e372d90bacb0ceec1b0912f1e9e7a9bfe5b066762",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00032.png": "66456dff62c5057e8803c03aca97ffe874157deeae09a3ac7ba5412ab5093107",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00033.png": "923d14485172aa0dbc8390782224e51d32f2ba27e7332a7e73551bb820dad0fa",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00027.png": "b364be2a258c3cd9c9bb7aa27c6341d4c2cd9050571af3e67c7d989f3b776da1",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00023.png": "11d4265619e511398fb970e568fb8d71750ec4d7bdb14415d659209710db075c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00037.png": "3696d8a678f7a6e6288c908c8959dfda4b2183cb6734d35622e5e465f3088913",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00036.png": "91e987d535003d8a44e91f48a5df16dafeb75992663d46939ee2944309475098",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00022.png": "c205a9d20d3ceb85e1122af1739e9774b7f6d6b4eb03aafdf1c839b154bd3008",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00008.png": "bb1ef7761abfbd066a20a1c6a849b5b330dac7f779df037c796bed2f06024837",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00034.png": "460dd12b31924c7487e5ecae709c7174c9344abb433657ccb28d4a988048546b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00020.png": "c205a9d20d3ceb85e1122af1739e9774b7f6d6b4eb03aafdf1c839b154bd3008",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00021.png": "11d4265619e511398fb970e568fb8d71750ec4d7bdb14415d659209710db075c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00035.png": "588dde87e1baaea2f18d20c832ba767658b011cbc8f0e50de902cedc987ba4d1",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00009.png": "7da500a417aabf8313f5e5546744f1fdeaf6a8d23252b9c048812d46fe4f69ea",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00010.png": "5718f02de258b7acfeaa7d65580841c753f45c3b8fea506ee68b4a69a499af83",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00004.png": "b3d30717b3a8ed20f9c9c6fee5d41ec370d9b707f33a210f5e9b3cdee6ebd18c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00038.png": "b7b7fea0e25b9c2a02068dfda9b6fe2e5a85d10d5ef154f24c32081f2754d9fe",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00039.png": "ec576d96192c96f2cd7dae32d61799f94edb6107b2aee883e46136f50eea8414",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00005.png": "ce42978bb523d4b7550eedd3a9941cdb045839312860e080d8f1b36f1645372f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00011.png": "5df81bf118ee1a8243a88b9fb0685c3362b3631bb6fc05ef2cdf044af1e28a47",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00007.png": "ee391965315c0acff314a60a3eae7e1abb6e8592e176c7b9e32adbd9d9cbd4e1",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00013.png": "776c3ea6fbf3b55d40a4e905dfee3a75e72e6dd3a093b061c8bacf9557d92746",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00012.png": "e0ba5d4a4f44c6dfd5216964113585dc1af35159317c12c4210414ffa745a704",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00006.png": "0f44f21393afcb6c0bfacbe8cf2dd9b753b8f499f1a6de9dca096da98e62f7f5",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00002.png": "7cf4818f494911bb5f32147b8848118cae5772755b79eb0bea20e0efcfbae3f6",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00016.png": "6c4e370e669cb01ec7fa0dd694ad28e4cd1ab75653a2c93a2798bd3ef7d49e60",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00017.png": "a28d4fee9eca9f72ca8160e09c6996dbc65f312fae6b216f555f24bf673d54cd",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00003.png": "276695837666e8bafe4365a973f51610735e14b0b53519e06c94ac521cdbfe59",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00029.png": "76c248e3e93eac5a39d3e46b072c71779f2d4f09b0f9948af1021d8eda02087f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00015.png": "75ecc1a079e2dbe217fa3109dbb3d2b9bc5cb51aae92a204a01741b64bf406a2",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00001.png": "582f0aece1b0bad8724a5ae65f2f93bfa6ed131abc1aa9d1f4d274d4f228f4eb",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00000.png": "af2799955e0de9abb5ca485cbb83884896d2e17f0e5d070353765194a21f3a07",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00014.png": "cfc5f7e7e240fca0749eeabf3ea58d7a07565a04e38110c6ca9f85318f86fefb",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00028.png": "b58ada4ae93cae98a07601eb60d0143e32810eecc1d22617a8c506dd46a5663c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00107.png": "815a2e4a6e88b4898597dff6dd7b0af08526334f81ba1611d9b407068d47047b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00113.png": "6a69e1c9b7550ca0ddccb71e21f659aa3b0a7293705a914f5ffd8e26d6f28f19",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00098.png": "0aa2be7f160b264f8473e10e5244e13507fa41411337d329aa221f03cf4d7e65",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00073.png": "b0666e406523f6a3b387f640d875b6bc9f365a0768804aea6f541a31b609ec92",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00067.png": "d8d161de998278a8705e1bab226c44af0da3fb21933cc4fc3fcfa60caf270fc8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00066.png": "9486ad6668672025d918c9e22a346294e11009fdb3943449b5c6fedc6f690ca8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00072.png": "4d54372a8d1bb302f52a143ef6eb0cbd0a15d6ebdfa3f3a39c9cdbb3bf3d4463",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00099.png": "2d5980b2b7112db0ecc8e62f5eefc9ffbe744bdbffde88b188045a7adbc6fbdd",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00112.png": "bc5026eda07aa144ff592ff4ac8f41702812495aa202d37a297c0d30030a398e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00106.png": "bf57232a0dc92be4760db49a7a8fb7d6497b2dcb7d2bae1ed51e50f4294c8a7a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00110.png": "815a2e4a6e88b4898597dff6dd7b0af08526334f81ba1611d9b407068d47047b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00104.png": "39056fa83f9963884c8b7c7a1cf48dc71003e9ca74aa4fbddfff74fef71dee10",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00064.png": "0a674d590d58bcebf6c81773196e77ff80ba55055aa84bc05461e081dc103d38",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00070.png": "06b67d0c55c7029cccfdf3f1bad6f6f3b893f35658e17fad05c397e362971c5e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00058.png": "228230c72cdd67e44b56c86e3649892fcc4de704db85ca390931518bd715e3f6",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00059.png": "ab6351baab21541e7fec54f351da8b2aaef2406983bbd93ef8a819f9e2fe7e7e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00071.png": "877e6c92764e22c00fc1191df2e137ef04c21a1b26abdae1abf0802162d8aa30",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00065.png": "46efb701bdfc484f0925218172a182e8a3b58b139799cc2a9910771e7066648a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00105.png": "815a2e4a6e88b4898597dff6dd7b0af08526334f81ba1611d9b407068d47047b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00111.png": "29259d196c1769c48829bd201ea2c2a0f9f830683a1f12565486b6932be51adf",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00129.png": "4d77b1d74e5bc319cc390fad595735b2fd7f6251198ec2e256d5bc8c698e217e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00115.png": "bd24565eab55a316e614d96d6addd89974b3fcb1459e094c7ecde53ca54109f8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00101.png": "0173cf319c66b7b0f8156657f84625937c0eae56d8c1e1f16eccad25c2a66440",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00049.png": "262af78591aa62b10ee1783535100a68d5c6ca29314901faa3f7342db6cba963",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00061.png": "3e31443be22c3d787bcebe909cb19bd3da7454fa1ed2997e8bac0751ea4787ed",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00075.png": "877e6c92764e22c00fc1191df2e137ef04c21a1b26abdae1abf0802162d8aa30",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00074.png": "877e6c92764e22c00fc1191df2e137ef04c21a1b26abdae1abf0802162d8aa30",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00060.png": "85e52fbece514274857904270825a890a40d9f3b900bcce1fa6882be89502c0d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00048.png": "f61b9a1a175e690420806d8eac3a4874d9d2afcbd36eadb58f978e83b09eb8a7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00100.png": "ed3481dba9aa8bb9d20caf2e6453e0609c234da2e97d45939b11334ec7c877fa",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00114.png": "cc6bf3cc99f60efa1f21a2a2198078e5d5208e7276c35b92394a1855dd2753bc",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00128.png": "1dca16abce57c6b6565476a37e292366584aeb12139efe29ebfdbfb29052439d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00102.png": "7786f6d5676d954115b173de29d092a7ea95444f9b8a8d23ec18a79ac51621ee",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00116.png": "8e187fed01096c5bc46ed2b24884b362e3db733126096542788905fc8ef82613",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00089.png": "252210043ee16fa4557095ba6ce5da9cf25bfdd294f55f3716be11451a494e25",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00076.png": "4d54372a8d1bb302f52a143ef6eb0cbd0a15d6ebdfa3f3a39c9cdbb3bf3d4463",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00062.png": "615f68894234a111fa11968c40023bcd8ce850830ca393bed08f76373d0d6f4c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00063.png": "83769e8b4905b426a0c5a8184e63971adf9beaeaad26cdef5a2cf8b1ba343a18",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00077.png": "e18de636b0f0d21168ba06a844925ac3800e53a3db648f6ca0dcef219456c280",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00088.png": "66ff96fa245217ef08e037ea9c8b5492498560c7dc59b73bdc056c97302d984b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00117.png": "e34b53ecaa2ab13526ff275833bc1bfd09e7fd08dcfae81d6173674a6bb9c378",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/frames/00103.png": "6cddc35e53fe3382bc1d87548f942e9e19d53f3675c83fb051125ff0eb2f2749",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/depth_table_back.png": "e01d7f30ff717b3806c23ad62a0ccfbdb71dae824c9a4a9933a35eea05297889",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_front_cat_only.png": "544d6758013baa6128345159ea237d738cfc5664146e28b9c568d425fd2f8c4d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_02_native_proof.json": "e9506065573a0a522d3fd7938e913f1191e77a656644589fe87ed1d80ce15ad3",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/check_execution_summary.json": "b530f673decb259ca26dae556cbc4c126679a96ac61ebefd15ca085e207efc9e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_final.log": "a85b04b665e8f966bbe5e60b8fa63cd23533b4b3d70e8cbcc04e1f520ba70b8d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/depth_chair_back.png": "815a2e4a6e88b4898597dff6dd7b0af08526334f81ba1611d9b407068d47047b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_back_combined.png": "e01d7f30ff717b3806c23ad62a0ccfbdb71dae824c9a4a9933a35eea05297889",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_back_object_only.png": "d35830f3844a505bb977116fa9485094240ffdf898501e1983876c78e3a505be",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_01_failed_native_proof.json": "0d8171a7119c119ffa34ddd7176909c3d3061914e60ef4981fad120acb37f475",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_03_native_proof.json": "6533ff7b15005031e1ba41c1d9338cf8ba9f288faead5ade4c8297b697e46bad",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/wood_closeup_pair.png": "47c58b1df27f0aca5960284aee3b34262d8f3f2c056b3a7a72446713186b1d52",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_front_object_only.png": "a0e51983f8d0210a2f661cb4bb01e91a998f9e662898976755e507ba48a7c277",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_counter.png": "a4b1c6b9237c1e7d833a27e3604764de42652f0afad534cba5595bc18d33f672",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cat_mode_unshaded.png": "b2d50307e66889dd58efe2e032baa97e6a7fe045f425c7d42bb8013ab9ea060d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_back_background.png": "4ca77fd003dba7efffa3afe846aea738b4cce7d1fd439c542f13fce2d724099f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/service_zone_pair.png": "f83c5bf73361c2b2267226e506238cc1bd99636fb5d58ad3dcd5610851886cc8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_chair.png": "3167fd8b4de558dd7e4fa7171b60195a5658392af2172f521d743d6a98ec3d12",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/plaster_stone_closeup_pair.png": "7381587cbd65643aa9ec1fb94708b37eeeeb4209e0be72ac814c45d7ba9f9822",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_cafe.json": "604eb75c06dd3666d1ec77e69dd1c17924be917396d3f87d5a627612477b611f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/materials_final.json": "010f5d454288bf735043c8e3e4e0f170fdefae0f791bb601f3dc625d7c425d01",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_front_combined.png": "dc28a398cd0a6a401ee481e8d7db935c563b5fa8ba38db46ca3082fa2dbf894b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_focus.json": "3e6671f4aa74e2fcf2726fd6696c9b6075126eef0b4c8e8d3ef2b5ec89e656e4",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/comparison_provenance.json": "0f8036e8a6df111826764d36fb5bd6fb09c1719b9b59b15cbf929c26dda07a66",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cat_front_counter.png": "be14d3b712518751ad1d722650d81d0fd71c2e000052b90209ff14b2c238f145",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_back_cat_only.png": "e68bbfb6d496211c5a26660b53e484a782bbae204806395075584cfc3b8f5998",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_02_painted_pass.png": "e843b4dc4bf3a709598a681d664e31dde8169c7efd0721ce58db635b49c3b2b3",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_back_object_only.png": "a0e51983f8d0210a2f661cb4bb01e91a998f9e662898976755e507ba48a7c277",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/pixel_depth_analysis.json": "7be36ebe8cfa2701c1529176f050908824d194e1a2c1d7fee2e6448075b2389f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_front_object_only.png": "d35830f3844a505bb977116fa9485094240ffdf898501e1983876c78e3a505be",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/coffee_running.png": "f4017e13c208fceddafd944ba2120855339ccffa589e3bca3101b84dc697ca5b",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cat_mode_ambient_tinted.png": "c275eb1b393d2615acc556819c4545f9bca13682e2acd938abb67747dad4f219",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_focus.log": "a7b3b85ecfbce2eddb2b004ab56e231b1db7d11f4d7432e28da8e2cbe723fffb",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_back_combined.png": "22c4576eb6a64357b9d12188a912b404ccdf9a858eb6fbfdb22db230bd13aa65",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_world.log": "d83356904865945333a67b454de1ec73725ca1f5294054c3e0c7acfb695441b1",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/native_proof.json": "3b058b3d733f27dbc55c36680a0da9076627c0b363ab91e4de227f61301a9b4e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/profile_before.json": "dacaf8cc5824d237541e674504a3f45fcce5d4e72f6560325834a9a0cb857e6e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/source_texture_budget.json": "3e721fb3146a2ba79630e8f0eea7e69b5387902714132a416b98fcc9b59f7555",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_counter.png": "ea318a916766200203f10c8d55eb812d4c2f7eb28e123ba966a4a586dcd02f81",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/foliage_pair.png": "8e0447ca1124ecba61c6cd7abafa079263ee3661f4187f90996ccc23b3a37692",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_window.png": "3e0fd4c3ecfb4dfa94a3614c5b1da0240fbad6e3d0fb0646af29616c93e33b79",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_window.png": "feca795b17ce5f89d54f5dad6bf99688104110deb02f94c035c35afcd103fc18",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_front_background.png": "830c13479dc77e4a395804ba41334883e45648704d14cc746e609b2de43b2b72",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_plants.png": "5d45077f429526dec3555d502a25d3814d877083a5d0b6b7dbd2cf50a8589fe5",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_03_profile_native.json": "d4029ba1f230612723e1bf9574cb0eb9bab79ca02ccbd23d0f6b47fd27a274f5",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_plants.png": "e016b855ecf03790498c902c6e0e8280bd22f376868735cb5e05492d5f0c0980",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_front_combined.png": "8ceb47fd8d821a8799154ceb35835162b756409c3fb911454428f7e7244e8f2c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_home.log": "aaa543817c7b65fbae64fb1d845c4645b828caa4c6d7b82839a08b2b2700795c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_final.log": "a85b04b665e8f966bbe5e60b8fa63cd23533b4b3d70e8cbcc04e1f520ba70b8d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_back_background.png": "830c13479dc77e4a395804ba41334883e45648704d14cc746e609b2de43b2b72",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/depth_table_side.png": "7dbaf60e7b2ebd00749f59422a913ce7ee4305c54db5428610c3d019cce57a78",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/depth_entrance.png": "c205a9d20d3ceb85e1122af1739e9774b7f6d6b4eb03aafdf1c839b154bd3008",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_espresso.png": "0433c79b95179a560599a01b0a57831460feaae44116a9ed8e34c77a25fcd8ac",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_front_cat_only.png": "9e6ad84a040c6c4116a35563e350bf6437a72afa1ce8d6d63c873be704638360",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/materials_final.log": "6d1c065383a27c36804949b6ffa4b09714470b112e5dacc0bd5aeb7b9c147c4e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/input_final.log": "c80075a8f7cfdde963fb7162d53ab1788047f1c018d28ab813ec312dd1ff9a8f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cavity.log": "6d1c065383a27c36804949b6ffa4b09714470b112e5dacc0bd5aeb7b9c147c4e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cat_behind_counter.png": "b71c13e4ddc94c893044f000f10984f6baddeae0f7ec78b7d88a41d65d379fa5",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/before_espresso.png": "4264ae1fad11eb83aaeaedb6e6c830f3374487993100418a83fe89c3aad3f8a7",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/launcher_safety.json": "b5023300e7755e8cb0f1f73d3b28e082e9491e01c8f974e9d4a0178e2d8fa473",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cavity_colors.json": "010f5d454288bf735043c8e3e4e0f170fdefae0f791bb601f3dc625d7c425d01",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/cat_mode_lightly_lit.png": "393810428c60e0ad0244b0600f82e69c56f8f375bced60bfbb21d902ce533221",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/counter_back_cat_only.png": "869e4f9d02682290af07f7a339459505d7e9c1c01f0bf17d8da93029ce1026c3",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/native_final.log": "a3cd1cee28a66ecc659c89e28e9bf0dc71d962f32512727409b6c495ebde01e8",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/profiling_caveat.json": "dddae48ea08d094b85dc4157776fe2eafb899c59220d2be9ff83d5ad949583d3",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/profile_native.json": "a223697340e1b8b7210e6c36beabac262a495b0c3a45a2be6eb5fb96fa52860a",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/input_native.json": "d7b137a63577e854fc9bc9162e5e5daeacdf2bdf53de74b4fdafd89d91c366f6",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/depth_table_front.png": "d343d88d5da9764d582f5f42ac700c73da644bd8c220488209f8ee0ae0c5a48e",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/common_camera.json": "f461105ce2c35d245b3dae3fac7e7a54b6f291fe622f2be7fcbd2a91a7b0f509",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_01_failed_native.log": "a35f6822c369c5507da258effd051819085e240fc57e3b2e44a4fd388c7fbb83",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/regression_cafe.log": "c37429b7f88d9ead03976b06dd7f38016c3184dea76a7b1d5141ef6c28ee8df4",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/material_only_comparison.png": "6bf533f01dfebcc4bfc34527342600e9d2a005fac8641553bb6dc405e905ac91",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/after_chair.png": "a997a1061414c0dd5736a0a01869543ef1c5d0ee3d2b5ee2ed02f74a7763a12d",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/table_front_background.png": "4ca77fd003dba7efffa3afe846aea738b4cce7d1fd439c542f13fce2d724099f",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/material_only_baseline_lighting.png": "dbbc4662efede38b81823f3cddb7caef39da81d092690accbcf513fb5441a09c",
+    "artifacts/prototype_review/hybrid_cafe_painted_surface_v1/diagnostics/iteration_04_parse_failed.log": "d5b5d8ad751e48889e320c1fd623365c89971444306b102376ff8137c14b93c3"
+  },
+  "document_hashes": {
+    "docs/research/WILLICAT_HYBRID_3D_PAINTED_MATERIAL_PIPELINE_V1.md": "e595916c755acb9bf31acd1554c8fa5bfb304e5773d28e3306ba53b6ad62edf4",
+    "docs/production/WILLICAT_HYBRID_3D_PAINTED_SURFACE_AND_LIGHTING_SPIKE_V1_RESULT.md": "f4460c0ac64076101f969b179efcaf40ea7897144f57e31b545058e66493e706"
+  },
+  "reproduction_limit": "GPU captures not guaranteed bit-identical across device/driver/time; imports not authority; raw source/crop/runtime inputs hash-bound",
+  "installed_import_limitations": {
+    "errors": 0,
+    "inherited_case_mismatch_warnings": 5,
+    "future_case_sensitive_export": "requires legacy-reference cleanup before claiming export readiness; existing files intentionally untouched"
+  }
+}

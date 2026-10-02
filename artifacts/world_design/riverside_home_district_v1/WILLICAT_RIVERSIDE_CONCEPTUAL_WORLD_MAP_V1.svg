@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="740" viewBox="0 0 1100 740">
+<rect width="1100" height="740" fill="#FAF0DF"/><style>text{font-family:Arial,sans-serif;fill:#352C28}.title{font-size:26px;font-weight:bold}.node{font-size:18px}.small{font-size:14px}rect.box{stroke:#9B6D44;stroke-width:2;rx:13}path.route{fill:none;stroke:#9B6D44;stroke-width:4}path.future{fill:none;stroke:#768658;stroke-width:3;stroke-dasharray:9 7}</style>
+<text x="35" y="45" class="title">WilliCat Riverside · Conceptual District Connections</text>
+<text x="35" y="73" class="small">Design proposal only · not final geography, navigation, or a replacement for existing Home authority</text>
+<path class="route" d="M215 355H380 M580 355H675 M732 405V500"/>
+<path class="future" d="M480 310V240 M530 150V125 M950 310V210 M1000 405V520 M470 405V615"/>
+<rect class="box" x="35" y="310" width="185" height="95" fill="#E4D2BC"/><text class="node" x="60" y="350">Home Café</text><text class="small" x="60" y="376">Foreground entrance</text>
+<rect class="box" x="380" y="310" width="200" height="95" fill="#E5D3BA"/><text class="node" x="415" y="350">Home Street</text><text class="small" x="412" y="376">Home District core</text>
+<rect class="box" x="675" y="310" width="115" height="95" fill="#D1CCC0"/><text class="node" x="691" y="350">River Walk</text><text class="small" x="693" y="376">Bank path</text>
+<rect class="box" x="890" y="310" width="170" height="95" fill="#D4DEC8"/><text class="node" x="913" y="350">Local Neighbors</text><text class="small" x="916" y="376">Far-bank frontage</text>
+<rect class="box" x="655" y="500" width="150" height="75" fill="#D8B891"/><text class="node" x="675" y="544">Small Bridge</text>
+<path class="route" d="M805 540H835V430H975V405"/><text class="small" x="810" y="490">Crossing to far-bank path</text>
+<rect class="box" x="350" y="150" width="350" height="90" fill="#E1E6D6"/><text class="node" x="440" y="188">Sakura Lane</text><text class="small" x="401" y="214">Future route · restrained seasonal identity</text>
+<text class="node" x="430" y="117">Hill Neighborhood ↑</text>
+<rect class="box" x="820" y="150" width="220" height="60" fill="#E1E6D6"/><text class="node" x="858" y="187">Old Market Alley</text>
+<rect class="box" x="845" y="520" width="220" height="60" fill="#D7E5E2"/><text class="node" x="875" y="557">Riverside continuation</text>
+<rect class="box" x="350" y="615" width="250" height="65" fill="#E1E6D6"/><text class="node" x="379" y="653">Seasonal Riverside Area</text>
+<text class="small" x="35" y="700">Solid: proposed Home District walking sequence · dashed: future district connections · no distances/elevations specified</text>
+</svg>

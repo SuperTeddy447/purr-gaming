@@ -1,0 +1,10 @@
+{
+  "baseline_file_count": 1906,
+  "checked_before_additive_install": true,
+  "mismatches": [],
+  "allowed_existing_file_update": "docs/production/WILLICAT_CAFE_INTERIOR_PLAYABLE_VISUAL_SLICE_V1_RESULT.md",
+  "existing_gameplay_tree_art_frozen_contracts": "all byte-identical at validation",
+  "final_protected_files_checked": 1905,
+  "final_mismatches": [],
+  "authorized_report_updated": true
+}

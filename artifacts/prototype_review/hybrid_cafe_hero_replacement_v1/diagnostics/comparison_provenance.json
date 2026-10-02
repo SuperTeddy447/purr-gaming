@@ -1,0 +1,15 @@
+{
+  "scope": "DEV comparison; final human visual decision remains open",
+  "primary": {
+    "01_V2_BASELINE.png": "067ce633097a66bea767c6e18f97024af610ee0e42f94c142745472a0791990a",
+    "02_HERO_ASSET_PASS.png": "8b2a8667cf05e369b56b784d4ac9b7c3ade26c3435f02335fa4f5e9ae88947b0"
+  },
+  "native_proof_checks": [
+    "exact_common_V2_camera_unchanged",
+    "exact_V2_lighting_unchanged",
+    "every_V2_asset_call_transform_and_instance_count_unchanged",
+    "all_seven_V2_plant_role_placements_unchanged"
+  ],
+  "actor": "same approach325,300 then325,355 with existing canonical sprite",
+  "processing": "No content retouch, image generation, recolor, lighting filter, resizing or primary crop; side-by-side composition labels only. Asset closeups paired using identical additional cameras."
+}

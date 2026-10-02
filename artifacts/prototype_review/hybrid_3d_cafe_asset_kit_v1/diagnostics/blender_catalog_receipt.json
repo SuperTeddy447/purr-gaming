@@ -1,0 +1,143 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "engine": "CYCLES",
+  "samples": 32,
+  "scope": "Blender asset catalogue only, not Godot runtime or Hero composition",
+  "assets": [
+    {
+      "asset_id": "WC_CAFE_Wall_Cream_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Wall_Cream_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Wall_Window_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Wall_Window_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Beam_Cedar_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Beam_Cedar_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Post_Cedar_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Post_Cedar_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Window_Recess_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Window_Recess_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Window_Sill_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Window_Sill_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Entrance_Open_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Entrance_Open_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Trim_Cedar_A",
+      "catalog_scale": 1,
+      "source": "architecture/WC_CAFE_Trim_Cedar_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Floor_Section_A",
+      "catalog_scale": 0.2,
+      "source": "architecture/WC_CAFE_Floor_Section_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Counter_Straight_A",
+      "catalog_scale": 1,
+      "source": "counter/WC_CAFE_Counter_Straight_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Counter_End_A",
+      "catalog_scale": 1,
+      "source": "counter/WC_CAFE_Counter_End_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Counter_Short_A",
+      "catalog_scale": 1,
+      "source": "counter/WC_CAFE_Counter_Short_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Espresso_A",
+      "catalog_scale": 1,
+      "source": "service/WC_CAFE_Espresso_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Grinder_A",
+      "catalog_scale": 1,
+      "source": "service/WC_CAFE_Grinder_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_POS_A",
+      "catalog_scale": 1,
+      "source": "service/WC_CAFE_POS_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Cup_Saucer_A",
+      "catalog_scale": 1,
+      "source": "service/WC_CAFE_Cup_Saucer_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Table_Round_A",
+      "catalog_scale": 1,
+      "source": "furniture/WC_CAFE_Table_Round_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Chair_A",
+      "catalog_scale": 1,
+      "source": "furniture/WC_CAFE_Chair_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Shelf_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Shelf_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Shelf_Short_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Shelf_Short_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Planter_Floor_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Planter_Floor_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Planter_Table_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Planter_Table_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Ceramic_Jar_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Ceramic_Jar_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Lamp_Hanging_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Lamp_Hanging_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Lamp_Wall_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Lamp_Wall_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Sign_Blank_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Sign_Blank_A.blend"
+    },
+    {
+      "asset_id": "WC_CAFE_Cat_Cushion_A",
+      "catalog_scale": 1,
+      "source": "decor/WC_CAFE_Cat_Cushion_A.blend"
+    }
+  ]
+}

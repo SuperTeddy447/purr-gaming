@@ -1,0 +1,12 @@
+{
+  "preexisting_files_checked": 3559,
+  "changed_or_missing": [],
+  "approved_cafe_files_checked": 164,
+  "approved_cafe_parity": "passed",
+  "source_art_regenerated": false,
+  "tree_art_or_motion_changed": false,
+  "production_scenes_changed": false,
+  "frozen_factory_contracts_changed": false,
+  "commit": false,
+  "push": false
+}

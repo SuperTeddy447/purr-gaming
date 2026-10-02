@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="SpriteFrames" path="res://assets/__DEV_DIAGNOSTIC_tree_pilot_v1__/tree_frames.tres" id="1"]
+[ext_resource type="Texture2D" path="res://assets/__DEV_DIAGNOSTIC_tree_pilot_v1__/shadow.png" id="2"]
+[node name="DEV_DIAGNOSTIC_TreeVisual" type="Node2D"]
+[node name="ShadowVisual" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+position = Vector2(0,-5)
+scale = Vector2(0.32,0.32)
+z_index = -1
+modulate = Color(1,1,1,0.38)
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1")
+autoplay = "dev_wind"
+animation = &"dev_wind"
+position = Vector2(0,-112)
+scale = Vector2(0.4,0.4)

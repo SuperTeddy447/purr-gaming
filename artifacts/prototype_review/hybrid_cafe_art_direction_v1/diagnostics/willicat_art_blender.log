@@ -1,0 +1,97 @@
+00:00.497  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/architecture/WC_CAFE_Wall_Window_A.blend"
+ข้อมูล: Saved as "WC_CAFE_Wall_Window_A.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+22:22:27 | INFO: Starting glTF 2.0 export
+22:22:27 | INFO: Extracting primitive: CedarRegistrationStile_Mesh.002
+22:22:27 | INFO: Primitives created: 5
+22:22:27 | INFO: Finished glTF 2.0 export in 0.029462099075317383 s
+00:00.771  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/architecture/WC_CAFE_Window_Recess_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Window_Recess_A.blend"
+22:22:27 | INFO: Starting glTF 2.0 export
+22:22:27 | INFO: Extracting primitive: QuietPaperBacking_Mesh
+22:22:27 | INFO: Primitives created: 3
+22:22:27 | INFO: Finished glTF 2.0 export in 0.010775089263916016 s
+00:00.840  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/counter/WC_CAFE_Counter_Straight_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Straight_A.blend"
+22:22:27 | INFO: Starting glTF 2.0 export
+22:22:27 | INFO: Extracting primitive: CedarTopNosing_Mesh
+22:22:27 | INFO: Primitives created: 5
+22:22:27 | INFO: Finished glTF 2.0 export in 0.020022153854370117 s
+00:01.055  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/counter/WC_CAFE_Counter_End_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Counter_End_A.blend"
+22:22:27 | INFO: Starting glTF 2.0 export
+22:22:27 | INFO: Extracting primitive: CedarTopNosing_Mesh.001
+22:22:27 | INFO: Primitives created: 5
+22:22:27 | INFO: Finished glTF 2.0 export in 0.01596999168395996 s
+00:01.140  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/counter/WC_CAFE_Counter_Short_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Short_A.blend"
+22:22:27 | INFO: Starting glTF 2.0 export
+22:22:27 | INFO: Extracting primitive: CedarTopNosing_Mesh.002
+22:22:27 | INFO: Primitives created: 5
+22:22:27 | INFO: Finished glTF 2.0 export in 0.016960859298706055 s
+00:01.227  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/service/WC_CAFE_Espresso_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Espresso_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: CoffeeSurface_Mesh
+22:22:28 | INFO: Primitives created: 6
+22:22:28 | INFO: Finished glTF 2.0 export in 0.020781993865966797 s
+00:01.425  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/furniture/WC_CAFE_Table_Round_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Table_Round_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: ApronBead_Mesh
+22:22:28 | INFO: Primitives created: 3
+22:22:28 | INFO: Finished glTF 2.0 export in 0.011158943176269531 s
+00:01.525  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/furniture/WC_CAFE_Chair_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Chair_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: ลูกบาศก์.002
+22:22:28 | INFO: Primitives created: 4
+22:22:28 | INFO: Finished glTF 2.0 export in 0.016150951385498047 s
+00:01.617  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/decor/WC_CAFE_Shelf_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Shelf_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: ShelfDiagonal_Mesh
+22:22:28 | INFO: Primitives created: 3
+22:22:28 | INFO: Finished glTF 2.0 export in 0.010660886764526367 s
+00:01.676  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/decor/WC_CAFE_Shelf_Short_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Shelf_Short_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: ShelfDiagonal_Mesh.002
+22:22:28 | INFO: Primitives created: 3
+22:22:28 | INFO: Finished glTF 2.0 export in 0.010273933410644531 s
+00:01.733  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/decor/WC_CAFE_Planter_Floor_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Floor_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: AuthoredCurvedLeaf_Mesh
+22:22:28 | INFO: Primitives created: 6
+22:22:28 | INFO: Finished glTF 2.0 export in 0.01853013038635254 s
+00:01.881  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/decor/WC_CAFE_Planter_Table_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Table_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: AuthoredCurvedLeaf_Mesh.001
+22:22:28 | INFO: Primitives created: 6
+22:22:28 | INFO: Finished glTF 2.0 export in 0.01924610137939453 s
+00:02.038  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/decor/WC_CAFE_Lamp_Hanging_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Lamp_Hanging_A.blend"
+22:22:28 | INFO: Starting glTF 2.0 export
+22:22:28 | INFO: Extracting primitive: HangingCord_Mesh
+22:22:28 | INFO: Primitives created: 4
+22:22:28 | INFO: Finished glTF 2.0 export in 0.01230168342590332 s
+
+ART DIRECTION REFINEMENTS COMPLETE 13
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

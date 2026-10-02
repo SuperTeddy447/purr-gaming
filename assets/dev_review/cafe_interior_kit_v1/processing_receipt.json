@@ -1,0 +1,63 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "recipe_version": "cafe_kit_v1",
+  "recipe_code_sha256": "84d434556ab86114353aa3ca3f0f7e394fd8a62ddc5a10e1747224d46d35ab1d",
+  "repository_head": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "forge_code_hashes": {
+    "image_processing.py": "4783a264ed66f7afdc137e2cc076705493ac5abc03f8b1c1237d1429275f80cc",
+    "sprite_sheet.py": "d3bc2983ef725772fac033b04ae94d4b568ca3923aae7f827e9c30dddc8897b2",
+    "static_prop.py": "f73751e926cf73f745aa400f54029a30a4cb43dfc0f7821d1e29725a9d933bc8"
+  },
+  "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "dependency_versions": {
+    "Pillow": "11.3.0",
+    "numpy": "2.0.2",
+    "pytest": "8.4.2"
+  },
+  "godot_version": "4.7.2.stable.official.ed1daf0bf",
+  "generation_source_hashes": {
+    "architecture_family_v1": "ca779b2d2ad64ad7f8cbf526c222bd6e189fbf54bda808364ff871a833f987b8",
+    "counter_family_v1": "3387c03b60a54f70129f53d91ca5ab4a6eb724a453626cd5c679ba9b91b0e562",
+    "decor_family_v1": "7891efc55a24d903d01e8481e3de9b3df9299d1779037787e1e6f32a1068f38e"
+  },
+  "reused_floor_source_sha256": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f",
+  "canonical_decoded_pixel_hashes": {
+    "counter_family_v1.png": "6c42b07d85b708be547130e53bbf79c59be64362e327b315d0b6d31250b332e1",
+    "architecture_family_v1.png": "73735d83383a5f3af67e588def9fdb9546bc644e5d7860c17ca0f50e635247b9",
+    "decor_family_v1.png": "fc5d5f0e23b7f802c9627f4ee6d5e10b26c140988f2b506c6426a2ba52d30df0"
+  },
+  "output_artifact_hashes": {
+    "assets/dev_review/cafe_interior_kit_v1/runtime/art_framed.png": "aedf61824b6c97579ea0c6bcb16cac07920d0b15ff254b5953c0dcb63722d618",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/beam_cedar.png": "b061a39d46500d19944ec009e6c545f7f810a73810cee85a13d51e1eef761cb0",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/cat_bed_empty.png": "a699c30ead2f04b595bd819e1333e0086f2f1371555d901ccd4768d92c8dea90",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/ceramic_service.png": "444c4e752239ea8ee325f631c46e32874ef30bddd9a5e13ac476a39821c1603e",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/counter_front.png": "80c4ba1c1f28d4fd2d3bf7cfb912fd7761dbd5387409854f0922751cbcbad9ed",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/counter_main.png": "e734601e2db8a24d259aa103aabddb6f1e7a5322238ce7e4dd0c7aa1e2e3ceb9",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/counter_short.png": "453bebb8ea8dbbbfc66dd5291cb450169166e7f6659aeb5c08e3b9faf6be84ad",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/counter_top.png": "69a7d6fccd73db1f731262b47b12741fc615291b5329619974d33321abcce86c",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/divider_cedar.png": "ffe9342470ddcfede332340bc09b3bae975f5beac91cd7a83e0d1b1896b58f98",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/floor_quiet.png": "c6b9354828addc5afe6aea51599c6ac05f10768f526d89e1354ed3e62ecf4bf7",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/flower_small.png": "1cdc9a6b2e44543d51a98a55b13b31a0daec621185fbb69fb39812c5233eda16",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/lamp_pendant.png": "e7688d230d46d6636ee02e5ca1b6b3125debe52bb82cb80db37f2e8f993b3f32",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/menu_blank.png": "8c9edc67a9891209d17a571abc55c43be5f687f1399976c2b7ff5fab8ad965ce",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/plant_hanging.png": "6375503c8281496210df8e792d81eb261b5b0f98905429fcb26ebfbdb36d426e",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/post_cedar.png": "4ebd5b2596b0ff474bda4efb7b21724346458ab6aab2dabbf969d4845bbb28ea",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_ceramics.png": "2acbe2bf7290ba7b16edaf4ca8553c5c01fa87b00d00c0ef59987bf16bb7f6af",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_empty.png": "ba3b3948d8907757cc29b728ab5ad2a936b85d57f2c6de9684c1c8a34e76817e",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/tea_tray.png": "f00e08e42f39185822b0515f9eb97da6bda8063b8b93fef1ca47d3da7597e50f",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/wall_framed.png": "127ba6534859e7c36fb16a95a08e418b84ba3f2762af32c6d03b28d47aca6552",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/wall_plain.png": "02f4cd05444641443221b44327e2d840425d18eb18c2e546bc46cc9bb76686c6",
+    "assets/dev_review/cafe_interior_kit_v1/runtime/window_shoji.png": "7b02514c32ff3f7e9ae48dca292e795c563ea53d1e04066052552ae926f70d49"
+  },
+  "processing_settings": {
+    "alpha_threshold": 16,
+    "extraction_padding_px": 6,
+    "forge_canvas_padding_px": 16,
+    "settings_status": "recorded DEV recipe settings; not global calibration thresholds"
+  },
+  "world_authority_scene": "res://scenes/dev/first_party_style_proof/home_first_party_style_proof_001.tscn",
+  "world_authority_file_sha256": "d8310dfacffb2ffd1dfaac633b898357eda8d63544efa20e3503731858395b9b",
+  "spatial_comparison": "before/after authority projection in unchanged inherited slice; includes object transforms, footprints, all gameplay markers, actor identity/collision radius/speed, navigation bounds/revision",
+  "reused_visuals": "prior café 11 source files remain byte-identical; existing canonical orange runtime is reused",
+  "source_art_regeneration": false
+}

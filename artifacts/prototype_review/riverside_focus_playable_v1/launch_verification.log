@@ -1,0 +1,584 @@
+Preview project: /private/tmp/willicat_focus_installed_preview/project
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (199 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | CameraController[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | RoomCameraConfig[39m[0m
+[   1% ] [90m[1mupdate_scripts_classes[22m | MochiAnimationSet[39m[0m
+[   1% ] [90m[1mupdate_scripts_classes[22m | MochiContactShadow[39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | MochiLayeredIdleConfig[39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | MochiLayeredIdleVisual[39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | MochiVisualPresenter[39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | GameplayID[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | BoundsDrawer[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | DebugOverlay[39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | AtmosphereCatalog[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | AtmosphereEvaluator[39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | AtmosphereLamp[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | AtmosphereOutput[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | AtmosphereState[39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | AtmosphereEventLightingModifier[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | AtmosphereLocationProfile[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | RealArtProofSlot[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | AtmosphereSeasonProfile[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | AtmosphereTimeProfile[39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | AtmosphereWeatherProfile[39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | WindowLightingController[39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | WorldAtmosphereDirector[39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  19% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  19% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | WilliCatFocusService[39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | WilliCatFocusSession[39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | HomeAnimatedTreeProp[39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | HomeContinuousWorld[39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | HomeV3World[39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | HomeV3Pass01World[39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  32% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  32% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  34% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  34% ] [90m[1mupdate_scripts_classes[22m | PlaceholderCafe[39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | PlaceholderCameraInput[39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | PlaceholderRoom[39m[0m
+[  37% ] [90m[1mupdate_scripts_classes[22m | PlaceholderWorld[39m[0m
+[  37% ] [90m[1mupdate_scripts_classes[22m | ProxyPlacementGrid[39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  39% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  39% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | VisualLabDirectionalFurniture[39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | HardeningCameraDirector[39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | HardeningCameraInput[39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | HardeningCameraShot[39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | HardeningActor[39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  47% ] [90m[1mupdate_scripts_classes[22m | HardeningNavigation[39m[0m
+[  47% ] [90m[1mupdate_scripts_classes[22m | HardeningWorldObject[39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | HardeningWorld[39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | HardeningInteractionSlot[39m[0m
+[  49% ] [90m[1mupdate_scripts_classes[22m | HardeningFootprint[39m[0m
+[  49% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | LabDestination[39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | LabWorld[39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | MochiAnimationPreview[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | MochiScaleTest[39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | AmbientTimingConfig[39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | CharacterPlaceholder[39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | HomeCounterSystem[39m[0m
+[  59% ] [90m[1mupdate_scripts_classes[22m | DynamicSign[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | GameplayMarker[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | HomeAssetCatalog[39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | HomeAssetDefinition[39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | HomeAssetSlot[39m[0m
+[  62% ] [90m[1mupdate_scripts_classes[22m | HomeAssetSlotContract[39m[0m
+[  62% ] [90m[1mupdate_scripts_classes[22m | HomeInteractionController[39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | HomeModularProp[39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | HomeScene[39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | HomeSpatialRoutes[39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | HomeSpatialRouteDebug[39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  67% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  67% ] [90m[1mupdate_scripts_classes[22m | HomeV2ReactionBubble[39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | HomeWorkerRegion[39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | LivingCafeAmbientController[39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | PrototypeDoorController[39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | PrototypeSelectionFeedback[39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | PrototypeCarryVisual[39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | PrototypeCoffeeReadabilityCue[39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | PrototypeCustomerReadabilityCue[39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | PrototypeOrderBubble[39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | PrototypePreparationFeedback[39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | PrototypeTimingConfig[39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | SliceCoffeeOrder[39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | SliceCustomer[39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | SliceMover[39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | SliceRewardFX[39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | SliceRewardState[39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | SliceWorker[39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | TrueSliceMomentFX[39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | TrueSlicePresentation[39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | VerticalSliceController[39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  79% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  79% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | TestMochiDirectionalWalkRuntimeV1[39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  94% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  94% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  96% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  96% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  98% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  98% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  99% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (112 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | mochi_carry_coffee_down_candidate_v1.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | mochi_prepare_coffee_v1.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | MOCHI_SERVE_RUNTIME_ATLAS_V1.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | mochi_walk_down_v1.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | mochi_walk_side_right_prototype_v1.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | mochi_walk_up_v1.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | home_v3_lighting_sample_architecture_v1.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | home_v3_lighting_sample_furniture_v1.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | home_v3_lighting_sample_lamp_v1.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | home_v3_lighting_sample_window_v1.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | willi_orange_protagonist_proof_cutout_v1.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | armchair_terracotta_directions.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | chair_wood_directions.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | Building_Restaurant.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | Building_Restaurant_Front.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | cat_bed.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | chair.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | counter.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | door.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | espresso.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | floor_wood.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | grinder.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | idle_down.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | idle_side.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | idle_up.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | pastry.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | plant.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | pos.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | scratch.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | seating_rug.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | table_round.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | walk_down.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | walk_side.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | walk_up.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | wall_stone.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | window.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | TopDownHouse_FurnitureState1.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | bush1.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | grass_atlas.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | ochre_atlas.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | rock1.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | shadow.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | tree1.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | tree2.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | water.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | water_foam.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | water_rock1.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | architecture_home_v2_01.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | cake_set_home_v2_01.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | cat_bed_home_v2_01.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | cat_inspection_basket_home_v2_01.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | cat_rest_cushion_home_v2_01.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | cat_scratch_post_home_v2_01.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | cat_window_perch_home_v2_01.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | chair_jade_home_v2_01.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | counter_front_occluder_home_v2_01.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | counter_home_v2_01.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | espresso_home_v2_01.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | flower_vase_home_v2_01.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | grinder_home_v2_01.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | pastry_case_home_v2_01.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | plant_floor_home_v2_01.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | plant_small_home_v2_01.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | pos_home_v2_01.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | signage_blank_home_v2_01.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | stool_home_v2_01.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | table_round_home_v2_01.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A01_WARM_WOOD_FLOOR_TILE_V1.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A02_CREAM_JADE_CAFE_WALL_MODULE_V1.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A03_MAIN_CAFE_COUNTER_V1.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A04_PASTRY_DISPLAY_CASE_V1.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A05_ESPRESSO_MACHINE_V1.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A06_ROUND_CAFE_TABLE_V1.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A07_CAFE_CHAIR_V1.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A08_CAT_BED_V1.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A09_SCRATCH_POST_V1.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | WILLICAT_ASSET_A10_CAFE_POTTED_PLANT_V1.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | cafe_back_wall.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | cafe_floor_tile.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | cafe_front_left.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | cafe_front_right.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | chair_directions.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | coffee_fx.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | contact_shadow.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | grass_tile.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | interaction_button_states.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | orange_down.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | orange_left.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | orange_right.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | orange_up.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | path_tile.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | river_bank_pieces.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | river_bank_vertical.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | table_round.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | tree_gentle_breeze.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | water_base_tile.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | water_ripple.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | shadow.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | tree.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | 2D Platformer Starter Kit Splash.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | platformerPack_character.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | platformPack_tilesheet.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | cafe_background.jpg[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | CloudTexture.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | star_07.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | platformPack_item008.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | platformPack_tile048.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | Icon.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | icon.svg[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (112 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | contact_shadow.png[39m[0m
+[   0% ] [90m[1mreimport[22m | coffee_fx.png[39m[0m
+[   1% ] [90m[1mreimport[22m | chair_directions.png[39m[0m
+[   2% ] [90m[1mreimport[22m | cafe_front_right.png[39m[0m
+[   3% ] [90m[1mreimport[22m | cafe_front_left.png[39m[0m
+[   4% ] [90m[1mreimport[22m | cafe_floor_tile.png[39m[0m
+[   5% ] [90m[1mreimport[22m | cafe_back_wall.png[39m[0m
+[   6% ] [90m[1mreimport[22m | WILLICAT_ASSET_A10_CAFE_POTTED_PLANT_V1.png[39m[0m
+[   7% ] [90m[1mreimport[22m | WILLICAT_ASSET_A09_SCRATCH_POST_V1.png[39m[0m
+[   7% ] [90m[1mreimport[22m | WILLICAT_ASSET_A08_CAT_BED_V1.png[39m[0m
+[   8% ] [90m[1mreimport[22m | WILLICAT_ASSET_A07_CAFE_CHAIR_V1.png[39m[0m
+[   9% ] [90m[1mreimport[22m | WILLICAT_ASSET_A06_ROUND_CAFE_TABLE_V1.png[39m[0m
+[  10% ] [90m[1mreimport[22m | WILLICAT_ASSET_A05_ESPRESSO_MACHINE_V1.png[39m[0m
+[  11% ] [90m[1mreimport[22m | WILLICAT_ASSET_A04_PASTRY_DISPLAY_CASE_V1.png[39m[0m
+[  12% ] [90m[1mreimport[22m | WILLICAT_ASSET_A03_MAIN_CAFE_COUNTER_V1.png[39m[0m
+[  13% ] [90m[1mreimport[22m | WILLICAT_ASSET_A02_CREAM_JADE_CAFE_WALL_MODULE_V1.png[39m[0m
+[  14% ] [90m[1mreimport[22m | WILLICAT_ASSET_A01_WARM_WOOD_FLOOR_TILE_V1.png[39m[0m
+[  15% ] [90m[1mreimport[22m | table_round_home_v2_01.png[39m[0m
+[  15% ] [90m[1mreimport[22m | stool_home_v2_01.png[39m[0m
+[  16% ] [90m[1mreimport[22m | signage_blank_home_v2_01.png[39m[0m
+[  17% ] [90m[1mreimport[22m | pos_home_v2_01.png[39m[0m
+[  18% ] [90m[1mreimport[22m | plant_small_home_v2_01.png[39m[0m
+[  19% ] [90m[1mreimport[22m | plant_floor_home_v2_01.png[39m[0m
+[  20% ] [90m[1mreimport[22m | pastry_case_home_v2_01.png[39m[0m
+[  21% ] [90m[1mreimport[22m | grinder_home_v2_01.png[39m[0m
+[  22% ] [90m[1mreimport[22m | flower_vase_home_v2_01.png[39m[0m
+[  23% ] [90m[1mreimport[22m | espresso_home_v2_01.png[39m[0m
+[  23% ] [90m[1mreimport[22m | counter_home_v2_01.png[39m[0m
+[  24% ] [90m[1mreimport[22m | icon.svg[39m[0m
+[  25% ] [90m[1mreimport[22m | Icon.png[39m[0m
+[  26% ] [90m[1mreimport[22m | WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png[39m[0m
+[  27% ] [90m[1mreimport[22m | MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png[39m[0m
+[  28% ] [90m[1mreimport[22m | WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png[39m[0m
+[  29% ] [90m[1mreimport[22m | platformPack_tile048.png[39m[0m
+[  30% ] [90m[1mreimport[22m | platformPack_item008.png[39m[0m
+[  30% ] [90m[1mreimport[22m | star_07.png[39m[0m
+[  31% ] [90m[1mreimport[22m | CloudTexture.png[39m[0m
+[  32% ] [90m[1mreimport[22m | cafe_background.jpg[39m[0m
+[  33% ] [90m[1mreimport[22m | platformPack_tilesheet.png[39m[0m
+[  34% ] [90m[1mreimport[22m | platformerPack_character.png[39m[0m
+[  35% ] [90m[1mreimport[22m | 2D Platformer Starter Kit Splash.png[39m[0m
+[  36% ] [90m[1mreimport[22m | tree.png[39m[0m
+[  37% ] [90m[1mreimport[22m | shadow.png[39m[0m
+[  38% ] [90m[1mreimport[22m | water_ripple.png[39m[0m
+[  38% ] [90m[1mreimport[22m | water_base_tile.png[39m[0m
+[  39% ] [90m[1mreimport[22m | tree_gentle_breeze.png[39m[0m
+[  40% ] [90m[1mreimport[22m | table_round.png[39m[0m
+[  41% ] [90m[1mreimport[22m | river_bank_vertical.png[39m[0m
+[  42% ] [90m[1mreimport[22m | river_bank_pieces.png[39m[0m
+[  43% ] [90m[1mreimport[22m | path_tile.png[39m[0m
+[  44% ] [90m[1mreimport[22m | orange_up.png[39m[0m
+[  45% ] [90m[1mreimport[22m | orange_right.png[39m[0m
+[  46% ] [90m[1mreimport[22m | orange_left.png[39m[0m
+[  46% ] [90m[1mreimport[22m | orange_down.png[39m[0m
+[  47% ] [90m[1mreimport[22m | interaction_button_states.png[39m[0m
+[  48% ] [90m[1mreimport[22m | grass_tile.png[39m[0m
+[  49% ] [90m[1mreimport[22m | pos.png[39m[0m
+[  50% ] [90m[1mreimport[22m | plant.png[39m[0m
+[  51% ] [90m[1mreimport[22m | pastry.png[39m[0m
+[  52% ] [90m[1mreimport[22m | idle_up.png[39m[0m
+[  53% ] [90m[1mreimport[22m | idle_side.png[39m[0m
+[  53% ] [90m[1mreimport[22m | idle_down.png[39m[0m
+[  54% ] [90m[1mreimport[22m | grinder.png[39m[0m
+[  55% ] [90m[1mreimport[22m | floor_wood.png[39m[0m
+[  56% ] [90m[1mreimport[22m | espresso.png[39m[0m
+[  57% ] [90m[1mreimport[22m | door.png[39m[0m
+[  58% ] [90m[1mreimport[22m | counter.png[39m[0m
+[  59% ] [90m[1mreimport[22m | chair.png[39m[0m
+[  60% ] [90m[1mreimport[22m | cat_bed.png[39m[0m
+[  61% ] [90m[1mreimport[22m | Building_Restaurant_Front.png[39m[0m
+[  61% ] [90m[1mreimport[22m | Building_Restaurant.png[39m[0m
+[  62% ] [90m[1mreimport[22m | chair_wood_directions.png[39m[0m
+[  63% ] [90m[1mreimport[22m | armchair_terracotta_directions.png[39m[0m
+[  64% ] [90m[1mreimport[22m | willi_orange_protagonist_proof_cutout_v1.png[39m[0m
+[  65% ] [90m[1mreimport[22m | home_v3_lighting_sample_window_v1.png[39m[0m
+[  66% ] [90m[1mreimport[22m | home_v3_lighting_sample_lamp_v1.png[39m[0m
+[  67% ] [90m[1mreimport[22m | home_v3_lighting_sample_furniture_v1.png[39m[0m
+[  68% ] [90m[1mreimport[22m | home_v3_lighting_sample_architecture_v1.png[39m[0m
+[  69% ] [90m[1mreimport[22m | mochi_walk_up_v1.png[39m[0m
+[  69% ] [90m[1mreimport[22m | mochi_walk_side_right_prototype_v1.png[39m[0m
+[  70% ] [90m[1mreimport[22m | mochi_walk_down_v1.png[39m[0m
+[  71% ] [90m[1mreimport[22m | MOCHI_SERVE_RUNTIME_ATLAS_V1.png[39m[0m
+[  72% ] [90m[1mreimport[22m | mochi_prepare_coffee_v1.png[39m[0m
+[  73% ] [90m[1mreimport[22m | mochi_carry_coffee_down_candidate_v1.png[39m[0m
+[  74% ] [90m[1mreimport[22m | counter_front_occluder_home_v2_01.png[39m[0m
+[  75% ] [90m[1mreimport[22m | chair_jade_home_v2_01.png[39m[0m
+[  76% ] [90m[1mreimport[22m | cat_window_perch_home_v2_01.png[39m[0m
+[  76% ] [90m[1mreimport[22m | cat_scratch_post_home_v2_01.png[39m[0m
+[  77% ] [90m[1mreimport[22m | cat_rest_cushion_home_v2_01.png[39m[0m
+[  78% ] [90m[1mreimport[22m | cat_inspection_basket_home_v2_01.png[39m[0m
+[  79% ] [90m[1mreimport[22m | cat_bed_home_v2_01.png[39m[0m
+[  80% ] [90m[1mreimport[22m | cake_set_home_v2_01.png[39m[0m
+[  81% ] [90m[1mreimport[22m | architecture_home_v2_01.png[39m[0m
+[  82% ] [90m[1mreimport[22m | water_rock1.png[39m[0m
+[  83% ] [90m[1mreimport[22m | water_foam.png[39m[0m
+[  84% ] [90m[1mreimport[22m | water.png[39m[0m
+[  84% ] [90m[1mreimport[22m | tree2.png[39m[0m
+[  85% ] [90m[1mreimport[22m | tree1.png[39m[0m
+[  86% ] [90m[1mreimport[22m | shadow.png[39m[0m
+[  87% ] [90m[1mreimport[22m | rock1.png[39m[0m
+[  88% ] [90m[1mreimport[22m | ochre_atlas.png[39m[0m
+[  89% ] [90m[1mreimport[22m | grass_atlas.png[39m[0m
+[  90% ] [90m[1mreimport[22m | bush1.png[39m[0m
+[  91% ] [90m[1mreimport[22m | TopDownHouse_FurnitureState1.png[39m[0m
+[  92% ] [90m[1mreimport[22m | window.png[39m[0m
+[  92% ] [90m[1mreimport[22m | wall_stone.png[39m[0m
+[  93% ] [90m[1mreimport[22m | walk_up.png[39m[0m
+[  94% ] [90m[1mreimport[22m | walk_side.png[39m[0m
+[  95% ] [90m[1mreimport[22m | walk_down.png[39m[0m
+[  96% ] [90m[1mreimport[22m | table_round.png[39m[0m
+[  97% ] [90m[1mreimport[22m | seating_rug.png[39m[0m
+[  98% ] [90m[1mreimport[22m | scratch.png[39m[0m
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (112 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_focus_installed_preview/project/Scripts/AudioManager.gd', stored as '/private/tmp/willicat_focus_installed_preview/project/scripts/AudioManager.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_focus_installed_preview/project/Scripts/SceneTransition.gd', stored as '/private/tmp/willicat_focus_installed_preview/project/scripts/SceneTransition.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_focus_installed_preview/project/Scripts/Coin.gd', stored as '/private/tmp/willicat_focus_installed_preview/project/scripts/Coin.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_focus_installed_preview/project/Scripts/LevelFinishDoor.gd', stored as '/private/tmp/willicat_focus_installed_preview/project/scripts/LevelFinishDoor.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_focus_installed_preview/project/Scripts/player.gd', stored as '/private/tmp/willicat_focus_installed_preview/project/scripts/player.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M2 Pro
+
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+HOME riverside: Walk by clicking, or run the route

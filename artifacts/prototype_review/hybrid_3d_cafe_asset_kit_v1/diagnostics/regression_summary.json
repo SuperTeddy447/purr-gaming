@@ -1,0 +1,27 @@
+{
+  "count": 272,
+  "passed": true,
+  "tests": {
+    "cafe": {
+      "count": 39,
+      "passed": true,
+      "log": "regression_cafe.log"
+    },
+    "home": {
+      "count": 28,
+      "passed": true,
+      "log": "regression_home.log"
+    },
+    "world": {
+      "count": 172,
+      "passed": true,
+      "log": "regression_world.log"
+    },
+    "focus": {
+      "count": 33,
+      "passed": true,
+      "log": "regression_focus.log"
+    }
+  },
+  "instrumentation": "Only copied Home/world tests add execution counters; original repository tests and gameplay are unchanged."
+}

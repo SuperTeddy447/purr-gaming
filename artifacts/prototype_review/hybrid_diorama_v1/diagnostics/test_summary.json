@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "cafe_recovery": 39,
+    "continuous_home": 28,
+    "world_actor_navigation": 172,
+    "focus": 33,
+    "native_mobile_including_capture_writes": 69,
+    "native_compatibility_including_capture_writes": 69,
+    "pixel_depth_mobile": 4,
+    "pixel_depth_compatibility": 4,
+    "launcher": 7
+  },
+  "gdscript_checks": 410,
+  "native_semantic_checks_per_renderer": 34,
+  "native_capture_write_checks_per_renderer": 35,
+  "all_final_runs_passed": true,
+  "scope": "isolated development feasibility; no production or device certification"
+}

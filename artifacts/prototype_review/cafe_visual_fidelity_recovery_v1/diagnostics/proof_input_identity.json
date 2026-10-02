@@ -1,0 +1,87 @@
+{
+  "scope": "DEV_VISUAL_FRAMING_PROOF",
+  "canonical_candidate_bundle": false,
+  "files": [
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_right_front.png",
+      "hash": "a98950f9f5e14e30e81d7e642ece0f7adf285527436d1d34711d27fd256ac36d",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/menu_flat.png",
+      "hash": "7393850d42042842556a754290195f63bfbbbaebc184c6778345064a9c815c71",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_left_top.png",
+      "hash": "5e945aad9aee600135de9ecc9ef2b39cb7c220ca3c804b25a2f00bd47d542b21",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/seating_rug.png",
+      "hash": "f6c6fe6157845006d49e5a59f7b21ff4b7a91698e483006ada4391fb1099a123",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_middle_top.png",
+      "hash": "ad93dbd1fbee687c319d53663d7fc1e6c5591e538bf0bae37e0b108231d921ba",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/entry_mat.png",
+      "hash": "d85a8bb13c9d64fade53d8d0729ab94a39260bef9ed8103ca6a0009a97427a7b",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/cedar_post_face.png",
+      "hash": "e8ec901bdfaa762aae85fab99f0601672370f1c4eaad3990a40d0b28a9cbb687",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_left_front.png",
+      "hash": "4d3539af93ee8e179ae6a53d1b8659c692a47bd218c5318668dec0055a6a5867",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_aligned.png",
+      "hash": "7f3f5f8918e1e531f077e522223b63d31735e745f903a700b28695de8349a5f2",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_surface_material.png",
+      "hash": "e58998b46efaecda5ad7c6289dd2b3b2e5977d8968de1926fc12437cb704ae91",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_middle_front.png",
+      "hash": "73d19a9877d31c6473f6175774862035f9e54f72aec8cad2c21487c19fdbd881",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_right_top.png",
+      "hash": "77b96e68a7e99761658baefa6557ecfe1d4aa7e0a6f14f7205bec092a1238080",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/sisal_post.png",
+      "hash": "93e1148999beb8b9d9d462ea09ee750e47ce7d6acf44d1ab95b748e8035ad212",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scripts/dev/cafe_visual_recovery/recovery_polish.gd",
+      "hash": "1d94a84522e183c7437eeaad6d5434206d196ba8a0fcaea2b7a745ff4674d3d4",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scripts/dev/cafe_visual_recovery/cafe_recovery.gd",
+      "hash": "6c9a4d0369718f4ec6d26b4948a2080c1aef4653bc525aa5e2156bc0723b3b60",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scenes/dev/cafe_visual_recovery/cafe_visual_recovery_v1.tscn",
+      "hash": "edc41f08a536433f51be0314a1a7504204a14a303c76283f0062e021dbe3633c",
+      "matches_exercised_project": true
+    }
+  ],
+  "all_match": true
+}

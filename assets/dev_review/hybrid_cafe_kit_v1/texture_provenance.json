@@ -1,0 +1,51 @@
+{
+  "source_record": "assets/dev_review/stylized_fidelity_v1/texture_provenance.json",
+  "new_generation_calls_this_task": 0,
+  "texture_pixels_modified_this_task": false,
+  "reference_B_use": "visual inspection/art direction only, not generation conditioning",
+  "inherited_record": {
+    "method": "mixed: one text-only generated cedar source plus four original deterministic procedural albedos",
+    "authoring": "WilliCat isolated art-fidelity spike",
+    "seed": 41071,
+    "algorithm": "layered resized noise, sinusoidal restrained wood grain and knot, subtle woven marks",
+    "inputs": "no third-party image pixels; textual approved material language only",
+    "source_size": {
+      "procedural_albedos": [
+        512,
+        512
+      ],
+      "generated_cedar_original": [
+        1536,
+        1024
+      ],
+      "runtime_albedos": [
+        512,
+        512
+      ]
+    },
+    "runtime": "mipmapped reusable albedo; no normal/ORM/photo textures",
+    "textures": {
+      "foliage_painted.png": "3ed39b6acd97a041534d0ea18314d1312fd23f823fa6282f86568b0b3c0b81a0",
+      "plaster_painted.png": "8ce44d9cfba42f5e686aaf1f150375b7ee112dc3e13314121f3fe6c26f9d3627",
+      "cedar_painted.png": "6d9288467d0439370f990e58824de65dc6c78678fb07ada10bf10865a3593430",
+      "sage_woven.png": "05360d57bfbab3b2b3087773c89610240784401672c5f6f2c4314476522b9922",
+      "ceramic_painted.png": "a57c1ae5910f4d4d3a1db0aeeade102b2867a0cb86f6e02cc3d37cf505f3c209"
+    },
+    "cedar_override": {
+      "method": "built-in imagegen text-only",
+      "model": "not disclosed by tool",
+      "seed": "not disclosed by tool",
+      "reference_pixels": "none",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "source": "source/cedar_generated_source_v1.png",
+      "source_sha256": "5b47b481d87f1cbb2b3ad99f7efdcc3e3027a379e49eff82a5de15e9b736cd1b",
+      "processing": "deterministic Lanczos resize to 512x512 only",
+      "prompt": "One seamless painted cedar/honey wood albedo. Straight-on wood surface only, no objects/planks/seams/text/cast shadow/perspective. Restrained horizontal illustrative brushgrain, quiet honey cedar RGB183/133/88, sparse subtle knots, low-medium contrast, no photograph/PBR/noise/golden-hour lighting.",
+      "exact_prompt": "Create one seamless tileable PAINTED CEDAR/HONEY WOOD ALBEDO texture for a stylized hand-painted 3D Japanese countryside storybook cafe. Fill the entire image with wood surface viewed straight-on. No objects, no planks/seams/borders, no text, no scene, no lighting or baked cast shadow, no perspective. Restrained artisanal illustrative brush strokes, long organic horizontal grain, sparse subtle knot suggestions, quiet broadly painted warm honey/cedar brown base around RGB 183 133 88, soft muted lighter and darker brushgrain variants. Low-medium contrast, no photorealistic scanning, no hard noise, no glossy PBR, no orange golden-hour cast. Broad calm painted masses matter more than microscopic grain. Edges must wrap seamlessly, neutral source lighting, bitmap texture only."
+    }
+  },
+  "scope": "First-party DEV reuse; no production rights/signing determination conferred"
+}

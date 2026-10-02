@@ -1,0 +1,49 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walking to front threshold
+HOME front_plaza: Walking to front threshold
+HOME front_plaza: Walking to front plaza
+HOME front_plaza: Walking to river front depth
+HOME riverside: Walking to river front depth
+HOME riverside: Walking to river behind depth
+HOME riverside: Walking to riverside
+HOME riverside: Walking to return plaza
+HOME front_plaza: Walking to return plaza
+HOME front_plaza: Walking to cafe return
+HOME cafe: Walking to cafe return
+HOME cafe: Walking to rear threshold
+HOME back_garden: Walking to rear threshold
+HOME back_garden: Walking to back garden
+HOME back_garden: Mochi sniffs the Garden plants
+HOME back_garden: Garden sniff complete
+HOME back_garden: Walking to final cafe
+HOME cafe: Walking to final cafe
+HOME cafe: Customer enters
+HOME cafe: Customer orders coffee
+HOME cafe: Coffee order → brewing
+HOME cafe: Mochi prepares coffee
+HOME cafe: Coffee ready → carrying
+HOME cafe: Mochi serves customer
+HOME cafe: Customer sits
+HOME cafe: Customer leaves
+HOME cafe: Mochi returns idle
+HOME cafe: Order complete
+HOME cafe: Ready for next customer
+HOME cafe: Saved Home / cafe
+HARDENING nav revision=2 polygons=67 obstructions=28
+HOME cafe: Loaded Home / cafe
+HOME cafe: Proof complete
+HARDENING nav revision=3 polygons=67 obstructions=28
+HOME cafe: Saved Home / cafe
+HARDENING nav revision=4 polygons=67 obstructions=28
+HOME cafe: Loaded Home / cafe
+HOME back_garden: Walk by clicking, or run the route
+HOME back_garden: Saved Home / back_garden
+HOME cafe: Walk by clicking, or run the route
+HARDENING nav revision=5 polygons=67 obstructions=28
+HOME back_garden: Walk by clicking, or run the route
+HOME back_garden: Loaded Home / back_garden
+--- HOME CONTINUOUS WORLD V1 PASSED ---

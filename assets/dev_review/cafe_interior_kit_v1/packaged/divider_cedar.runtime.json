@@ -1,0 +1,47 @@
+{
+  "asset_id": "divider_cedar",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/divider_cedar.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/divider_cedar.png",
+  "source_sha256": "38f73b4fc880c1648d11346718d7a054185476cc7c9e122e40028fff6aa3046f",
+  "runtime_sha256": "f30a6c5fd1c3a7e7bed43d5cb07dda663b829d75f0c37910c46c0d28efd03bef",
+  "source_dimensions": [
+    388,
+    311
+  ],
+  "runtime_dimensions": [
+    408,
+    261
+  ],
+  "source_visual_bounds": [
+    6,
+    60,
+    382,
+    305
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    392,
+    261
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    204.0,
+    261
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 11165,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

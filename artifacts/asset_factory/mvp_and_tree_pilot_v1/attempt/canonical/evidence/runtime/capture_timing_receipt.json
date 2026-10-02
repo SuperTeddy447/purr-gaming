@@ -1,0 +1,6 @@
+{
+  "input_capture_count": 59,
+  "encoded_engine_duration_seconds": 7.389102000000003,
+  "video_policy": "VFR concat from actual Godot capture engine timestamps; GIF resampled at 12 fps for browsing; exact animation timing authority remains durations_ms/SpriteFrames weights",
+  "asset_pixels_changed": false
+}

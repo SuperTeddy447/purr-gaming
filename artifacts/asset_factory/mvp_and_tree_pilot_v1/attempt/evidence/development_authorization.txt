@@ -1,0 +1,15 @@
+Explicit human authorization in the current WilliCat conversation, 2026-09-30.
+This transcription is operational DEV authorization, not a production signing credential or license grant.
+
+"I explicitly authorize a: DEVELOPMENT-ONLY DIAGNOSTIC PROOF PATH for the Asset Factory MVP + Tree Pilot."
+Authorized: implement MVP; create original Tree Pilot source; process through technical pipeline; measure registration/motion; run isolated Godot diagnostics; generate moving-character/tree evidence; inspect Y-sort/occlusion/root/shadow/nonuniform timing; agent visual self-QA; collect evidence for subsequent human review.
+Do not modify frozen Phase 0 contracts, lifecycle, review order, candidate/integration prerequisites, production_ready derivation or calibration policy state.
+Use diagnostic_bundle, diagnostic_runtime_proof, development_motion_evidence and development_visual_evidence; never represent these as canonical candidate/approved/release/integration proof.
+Current policies remain CANDIDATE_REQUIRES_CALIBRATION. Measure values; do not manufacture canonical thresholds.
+Isolated development Continuous Home visual-placement evidence is authorized without changing canonical coordinates, layout, navigation or authority.
+Human technical-animation and human art-lead review remain pending.
+Canonical candidate compilation is blocked pending required human reviews. Canonical integration proof is not yet executed. Production is blocked.
+No commit. No push.
+
+Source authoring in this attempt: original image_gen tool call from approved textual palette/material/projection rules only. No third-party or user reference PNG supplied as generative conditioning; no provider adapter implemented. The generated image is retained immutably and all deterministic transforms are receipted. Production rights and publication/distribution remain unresolved/unauthorized.
+Existing first-party Mini Pack contact shadow and orange actor are reused only for this authorized isolated development proof. No third-party raw asset is added to the repository.

@@ -1,0 +1,47 @@
+{
+  "asset_id": "plant_hanging",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/plant_hanging.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/plant_hanging.png",
+  "source_sha256": "3ee4d1b48e9d3bd79ae15f25a650dbf018aabac1e08318624f0f424d4e826125",
+  "runtime_sha256": "8e560cbf732c3dc7f7036573171e9fc1abd34bda6b7079ecda46f066e278d891",
+  "source_dimensions": [
+    339,
+    622
+  ],
+  "runtime_dimensions": [
+    327,
+    626
+  ],
+  "source_visual_bounds": [
+    35,
+    6,
+    330,
+    616
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    311,
+    626
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    163.5,
+    626
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 22975,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

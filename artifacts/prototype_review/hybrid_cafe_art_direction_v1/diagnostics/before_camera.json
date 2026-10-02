@@ -1,0 +1,7 @@
+{
+	"actor_root": "(325.0, 355.0)",
+	"size": 7.65000009536743,
+	"source": "unchanged existing V1 kit, only common comparison camera size",
+	"transform": "[X: (0.991656, 0.0, -0.128915), Y: (-0.08251, 0.768351, -0.634688), Z: (0.099052, 0.640029, 0.761939), O: (5.15, 13.2, 20.0)]",
+	"world_authority_unchanged": true
+}

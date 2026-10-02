@@ -1,0 +1,594 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "original_kit_reused": true,
+  "refined_assets": [
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.1175870895385742e-08,
+          0.0,
+          -0.10000000149011612
+        ],
+        "size": [
+          1.6000000350177288,
+          2.5399999618530273,
+          0.2600000128149986
+        ]
+      },
+      "asset_id": "WC_CAFE_Wall_Window_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_CAFE_Wall_Window_A.blend",
+      "runtime_glb": "architecture/WC_CAFE_Wall_Window_A.glb",
+      "origin": "structural_left_ground_corner",
+      "nominal_design_dimensions_godot": [
+        1.6,
+        2.54,
+        0.24
+      ],
+      "registration": {
+        "semantic_origin": "structural_left_ground_corner",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2484,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Wall_Window_A.tscn",
+      "original_blend_sha256": "d5d20fc562db1bd41fb6a6c19a5307abca8ae59a54eab763c7e1349cb9e95777",
+      "source_blend_sha256": "f278aa7f39c6ca0ceea8a1f4e9aa671298046248930e0cedbc92cf4031b6b130",
+      "glb_sha256": "45d872bdbf6ff3586e2d6b0e351779e91dfdbfe30b9a30134111a3280f0974a2",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.050000011920928955,
+          -0.04500001668930054,
+          -0.11999999731779099
+        ],
+        "size": [
+          1.5999999642372131,
+          1.7900001406669617,
+          0.2750000134110451
+        ]
+      },
+      "asset_id": "WC_CAFE_Window_Recess_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_CAFE_Window_Recess_A.blend",
+      "runtime_glb": "architecture/WC_CAFE_Window_Recess_A.glb",
+      "origin": "wall_insertion_lower_left",
+      "nominal_design_dimensions_godot": [
+        1.6,
+        1.8,
+        0.23
+      ],
+      "registration": {
+        "semantic_origin": "wall_insertion_lower_left",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1404,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Window_Recess_A.tscn",
+      "original_blend_sha256": "1a072b3d8b53fa135014dc2896b5b7bcff60e1baff18c913dd88f86716708c5a",
+      "source_blend_sha256": "4728d238d0a35307d12fbe81538df0260b67c6734cc54038ae4a82c060b91f27",
+      "glb_sha256": "69eb57d5a715ec35da92dffa46b6e89c0856379a1e5e91b1311013724ebf9750",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.1649999618530273,
+          0.0,
+          -0.32499998807907104
+        ],
+        "size": [
+          2.3299999237060547,
+          1.079800009727478,
+          0.6574999988079071
+        ]
+      },
+      "asset_id": "WC_CAFE_Counter_Straight_A",
+      "family": "counter",
+      "source_blend": "counter/WC_CAFE_Counter_Straight_A.blend",
+      "runtime_glb": "counter/WC_CAFE_Counter_Straight_A.glb",
+      "origin": "logical_floor_base_center",
+      "nominal_design_dimensions_godot": [
+        2.33,
+        1.08,
+        0.65
+      ],
+      "registration": {
+        "semantic_origin": "logical_floor_base_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 5020,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Counter_Straight_A.tscn",
+      "original_blend_sha256": "9bafbcdd6b7af4526f457bb4c3605a1f5ee43cbfaad58c4e12ee9b0758b54c58",
+      "source_blend_sha256": "b7c8d0775c606804db67d5f9c6994f73c739332c75cc7b8d25e72a0144ca5cd5",
+      "glb_sha256": "a91996160672870735bf9a6b13dd4e8562ccd93e0ba3cbdf9677b3b96bc1967c",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.4099999964237213,
+          0.0,
+          -0.2749999761581421
+        ],
+        "size": [
+          0.8199999928474426,
+          1.079800009727478,
+          0.5574999749660492
+        ]
+      },
+      "asset_id": "WC_CAFE_Counter_End_A",
+      "family": "counter",
+      "source_blend": "counter/WC_CAFE_Counter_End_A.blend",
+      "runtime_glb": "counter/WC_CAFE_Counter_End_A.glb",
+      "origin": "logical_floor_base_center",
+      "nominal_design_dimensions_godot": [
+        0.82,
+        1.08,
+        0.55
+      ],
+      "registration": {
+        "semantic_origin": "logical_floor_base_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2104,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Counter_End_A.tscn",
+      "original_blend_sha256": "dae0d163f37057352d0f133324e7ce245620aa506889ec2f859090102de941d2",
+      "source_blend_sha256": "d3df7325f146e2dd86557c6dfc18cb5b000b81f7ed32d00ecd36a1399b7b5961",
+      "glb_sha256": "836476ca9043c22b3c5cf861f60e0b1c95d4127516d95df84d09591479a18c32",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.2849999964237213,
+          0.0,
+          -0.22500000894069672
+        ],
+        "size": [
+          0.5699999928474426,
+          1.079800009727478,
+          0.45750001072883606
+        ]
+      },
+      "asset_id": "WC_CAFE_Counter_Short_A",
+      "family": "counter",
+      "source_blend": "counter/WC_CAFE_Counter_Short_A.blend",
+      "runtime_glb": "counter/WC_CAFE_Counter_Short_A.glb",
+      "origin": "logical_floor_base_center",
+      "nominal_design_dimensions_godot": [
+        0.57,
+        1.08,
+        0.45
+      ],
+      "registration": {
+        "semantic_origin": "logical_floor_base_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2104,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Counter_Short_A.tscn",
+      "original_blend_sha256": "b5a5c257925fac59399423833a50486008a50f91d3030c07ce030343ee64e79d",
+      "source_blend_sha256": "fb9e271c38122ca23f7de4b88b72006d03ef08a68abf0e54ec39e39c9020733b",
+      "glb_sha256": "e6402d7d54a45c281197f18957522f97520da12da3c8f2ea4d1962fb7c0e078d",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.4399999976158142,
+          0.002499997615814209,
+          -0.2199999988079071
+        ],
+        "size": [
+          0.8903284966945648,
+          0.6818400025367737,
+          0.7018632590770721
+        ]
+      },
+      "asset_id": "WC_CAFE_Espresso_A",
+      "family": "service",
+      "source_blend": "service/WC_CAFE_Espresso_A.blend",
+      "runtime_glb": "service/WC_CAFE_Espresso_A.glb",
+      "origin": "countertop_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.91,
+        0.73,
+        0.76
+      ],
+      "registration": {
+        "semantic_origin": "countertop_contact_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 8184,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Espresso_A.tscn",
+      "original_blend_sha256": "b89fc5ba5a5511563b2ed1d43dfe4ee5819c7dffbb1f2c061bd09b67b908c2eb",
+      "source_blend_sha256": "55dda8d007c5317c6bcd55553b1ac996ba8a4b58ddd1dc25d450de36c6639262",
+      "glb_sha256": "3778fd02774994e7952dbfc56f7a2c4b6959a80c92881f38ca6964dfcb4f1f71",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.824999988079071,
+          0.0,
+          -0.824999988079071
+        ],
+        "size": [
+          1.649999976158142,
+          0.8899999856948853,
+          1.649999976158142
+        ]
+      },
+      "asset_id": "WC_CAFE_Table_Round_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Table_Round_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Table_Round_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.65,
+        0.89,
+        1.65
+      ],
+      "registration": {
+        "semantic_origin": "ground_contact_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 3056,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Table_Round_A.tscn",
+      "original_blend_sha256": "b442e57e39a86e2209cb130678819a3ae06a6d879c9a7297d893e9b1ecb98150",
+      "source_blend_sha256": "fd5990a89c21428f0d2ad73e9225204a8ffb4207ef4fb3f532ac63f531c753b6",
+      "glb_sha256": "9d69ca4f69ed60bb8a5909ed66745192b76d4806cb327854eab5d9b466a09520",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.27000001072883606,
+          0.023947715759277344,
+          -0.28999999165534973
+        ],
+        "size": [
+          0.5400000214576721,
+          1.051052212715149,
+          0.5049999952316284
+        ]
+      },
+      "asset_id": "WC_CAFE_Chair_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Chair_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Chair_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.56,
+        1.08,
+        0.43
+      ],
+      "registration": {
+        "semantic_origin": "ground_contact_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2568,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Chair_A.tscn",
+      "original_blend_sha256": "1d52f4e1b9471fae21619da13f7b99bc1d423e822c9e4612dfddf48ea7340ee8",
+      "source_blend_sha256": "3dadff573e9bc79043e963102ee8559bc7e185c4222780f3144d63487172cf5a",
+      "glb_sha256": "0ed2a66bf0e45c7b52327e9fee1bb8c75a7a4fa41c2e49e05c7ec8bac1518b19",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          2.9802322387695312e-08,
+          -0.31778621673583984,
+          -0.08499999344348907
+        ],
+        "size": [
+          1.7999999225139618,
+          0.37778620421886444,
+          0.4725000113248825
+        ]
+      },
+      "asset_id": "WC_CAFE_Shelf_A",
+      "family": "decor",
+      "source_blend": "decor/WC_CAFE_Shelf_A.blend",
+      "runtime_glb": "decor/WC_CAFE_Shelf_A.glb",
+      "origin": "left_wall_mount_endpoint",
+      "nominal_design_dimensions_godot": [
+        1.8,
+        0.35,
+        0.44
+      ],
+      "registration": {
+        "semantic_origin": "left_wall_mount_endpoint",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1076,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Shelf_A.tscn",
+      "original_blend_sha256": "cf05e5b819423176f01f1cdf64242e1dfd90b5d5889f922e8a225a22385ad70c",
+      "source_blend_sha256": "bc35e302ef99a59dc1783d8d9be8050d14be6767fa4a0a2556f95c7b122f295d",
+      "glb_sha256": "5dc3b574bd6d5f2641e029e67609faf99c57a6625def53256c4e1cc8c34d169b",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          0.0,
+          -0.31778621673583984,
+          -0.08499999344348907
+        ],
+        "size": [
+          0.8500000238418579,
+          0.37778620421886444,
+          0.4725000113248825
+        ]
+      },
+      "asset_id": "WC_CAFE_Shelf_Short_A",
+      "family": "decor",
+      "source_blend": "decor/WC_CAFE_Shelf_Short_A.blend",
+      "runtime_glb": "decor/WC_CAFE_Shelf_Short_A.glb",
+      "origin": "left_wall_mount_endpoint",
+      "nominal_design_dimensions_godot": [
+        0.85,
+        0.35,
+        0.44
+      ],
+      "registration": {
+        "semantic_origin": "left_wall_mount_endpoint",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1076,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Shelf_Short_A.tscn",
+      "original_blend_sha256": "b861a73f9b42569ae554434115ed95bbdeab22944a55ddab2ad0204eff24d2ee",
+      "source_blend_sha256": "8f4e236e995add732c73bb8d893975840937773ceb1c8f8c02900025fe86285c",
+      "glb_sha256": "9a8cf2897cb78dca7984d2ba661460a13eb61e3fe4ab1cdd21da170ab93c21f2",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.33943408727645874,
+          0.0,
+          -0.338754802942276
+        ],
+        "size": [
+          0.6836340725421906,
+          1.0767083168029785,
+          0.6620742380619049
+        ]
+      },
+      "asset_id": "WC_CAFE_Planter_Floor_A",
+      "family": "decor",
+      "source_blend": "decor/WC_CAFE_Planter_Floor_A.blend",
+      "runtime_glb": "decor/WC_CAFE_Planter_Floor_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.9,
+        1.22,
+        0.9
+      ],
+      "registration": {
+        "semantic_origin": "ground_contact_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 4392,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Planter_Floor_A.tscn",
+      "original_blend_sha256": "fd0a97be3df43cc695acd51d65eaa8a03951ba5d8605e16e2a8acdc89b0e1685",
+      "source_blend_sha256": "b3cd079a3271372b41ba627be66905cea1635676c41246ff2f820e023547da16",
+      "glb_sha256": "5ad3f930ac1cfb44d9ae356ab0cfabe7ddaa18c282817655b5b29d68ff889a3c",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.14595666527748108,
+          0.0,
+          -0.14566455781459808
+        ],
+        "size": [
+          0.29396265745162964,
+          0.506623387336731,
+          0.2846919149160385
+        ]
+      },
+      "asset_id": "WC_CAFE_Planter_Table_A",
+      "family": "decor",
+      "source_blend": "decor/WC_CAFE_Planter_Table_A.blend",
+      "runtime_glb": "decor/WC_CAFE_Planter_Table_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.4,
+        0.54,
+        0.4
+      ],
+      "registration": {
+        "semantic_origin": "ground_contact_center",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 4392,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Planter_Table_A.tscn",
+      "original_blend_sha256": "760d7ca6346d05a5f9b005f525c4579e215823ba1a8b80da1ca96319f4b326fc",
+      "source_blend_sha256": "79fef912db96a31ea542fb8c0e0cfd1c45f3ec1a56cfe7a4761a3e854d707e54",
+      "glb_sha256": "d09ce942d5fed5dfd7d0658acfe88294d54331614b47fd3bfe51bd1d629ab8bc",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.1459999978542328,
+          -0.6147942543029785,
+          -0.1459999978542328
+        ],
+        "size": [
+          0.2919999957084656,
+          0.6147942543029785,
+          0.2919999957084656
+        ]
+      },
+      "asset_id": "WC_CAFE_Lamp_Hanging_A",
+      "family": "decor",
+      "source_blend": "decor/WC_CAFE_Lamp_Hanging_A.blend",
+      "runtime_glb": "decor/WC_CAFE_Lamp_Hanging_A.glb",
+      "origin": "mounting_point",
+      "nominal_design_dimensions_godot": [
+        0.3,
+        0.81,
+        0.3
+      ],
+      "registration": {
+        "semantic_origin": "mounting_point",
+        "world_unit": ".01 per logical unit",
+        "dimensions_status": "DEV art/template design; horizontal registration derives from frozen world footprints, heights from existing successful Hybrid/cat scale, not new gameplay geometry"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 3672,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "godot_prefab": "scenes/dev/hybrid_cafe_kit/prefabs/WC_CAFE_Lamp_Hanging_A.tscn",
+      "original_blend_sha256": "79ad3f5040739c50b05cb19c7fb76a45e6b000d508107c7aa06ee7f6a503697a",
+      "source_blend_sha256": "3a7e3ddea54066265f06b88db7eed95750042cba089d6818f88145bd4a0cc074",
+      "glb_sha256": "80570c2192633a72c388384e227ba708a9c8f4979079b1792c3b9ffc6ca51036",
+      "cavity": {
+        "method": "8 deterministic hemisphere rays / vertex; geometric local contact only, no scene-light cast bake",
+        "radius_dev_art_units": 0.13,
+        "max_darkening_dev_art_choice": 0.18,
+        "measured_min": 0.8200000000000001,
+        "measured_max": 1.0
+      }
+    }
+  ],
+  "unchanged_geometry_assets": 14,
+  "scope": "DEV art direction only; original kit source files untouched"
+}

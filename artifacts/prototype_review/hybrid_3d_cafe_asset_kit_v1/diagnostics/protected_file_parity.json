@@ -1,0 +1,10 @@
+{
+  "original_files_checked": 3960,
+  "excluded_os_metadata_changes": [
+    "docs/references/style/.DS_Store"
+  ],
+  "changed": [],
+  "approved_cafe_files_checked": 164,
+  "passed": true,
+  "method": "SHA256 byte parity of every pre-task non-cache file and the separately bound approved cafe"
+}

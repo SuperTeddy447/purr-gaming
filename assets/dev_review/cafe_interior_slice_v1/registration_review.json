@@ -1,0 +1,83 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "authoritative_world_unchanged": true,
+  "entrance": {
+    "world_object_root": [
+      320,
+      910
+    ],
+    "wall_opening_world": [
+      288,
+      352
+    ],
+    "wall_baseline_world": 992,
+    "runtime_canvas_px": [
+      384,
+      558
+    ],
+    "alpha_opening_x_px": [
+      89,
+      304
+    ],
+    "alpha_opening_measured_rows_px": [
+      200,
+      300,
+      360,
+      400
+    ],
+    "visual_opening_width_world": 64,
+    "visual_width_world": 114.30697674418604,
+    "local_visual_offset_world": [
+      -1.3395348837209302,
+      82
+    ],
+    "method": "Scale measured clear aperture to authoritative wall gap and align baseline; no nav or marker edit"
+  },
+  "post_binding_support_fit": {
+    "espresso": {
+      "existing_object_root": [
+        410,
+        182
+      ],
+      "support_width_world": 73,
+      "support_vertical_scale_multiplier": 2.2,
+      "machine_width_world": 86,
+      "machine_visual_contact_offset_world": [
+        0,
+        -42
+      ]
+    },
+    "grinder": {
+      "existing_object_root": [
+        555,
+        210
+      ],
+      "support_width_world": 48,
+      "support_vertical_scale_multiplier": 3,
+      "machine_width_world": 34,
+      "machine_visual_contact_offset_world": [
+        0,
+        -35
+      ]
+    }
+  },
+  "counter": {
+    "shared_runtime_canvas_px": [
+      512,
+      172
+    ],
+    "width_world": 224,
+    "ground_root_world": [
+      190,
+      185
+    ],
+    "worktop_fixed_visual_z": -2,
+    "front": "existing root Y-sort; no actor-position Z overrides"
+  },
+  "customer_seat_display": {
+    "sprite_only_lift_world": 30,
+    "purpose": "DEV display elevation, not authored sit animation or world geometry",
+    "ground_shadow_root_unchanged": true
+  },
+  "geometry_status": "Values above are measured world authority or explicit DEV visual-fit choices. They are not future canonical module dimensions or motion thresholds."
+}

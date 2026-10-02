@@ -1,0 +1,355 @@
+{
+  "scope": "isolated DEV; not canonical candidate/approval/publication",
+  "timestamp_utc": "2026-10-01T09:46:14.354055+00:00",
+  "upstream_git_head": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "new_code_version": "uncommitted content hashes below",
+  "recipe_version": "stylized_fidelity_v1",
+  "tool_versions": {
+    "godot": "4.7.2 ed1daf0bf001b61586d9930840f2f1394092c079",
+    "renderer": "mobile",
+    "driver": "Metal 4.0",
+    "device": "Apple M2 Pro",
+    "python": "3.9.6",
+    "Pillow": "11.3.0",
+    "numpy": "2.0.2",
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "environment_lock": "No new dependency lock created. Existing Forge Python interpreter; actual versions and recipe hashes recorded. Full cross-platform bit reproducibility not certified.",
+  "source_art_regenerated": false,
+  "cedar_generation_count": 1,
+  "deterministic_procedural_texture_reproduction": {
+    "plaster_painted.png": "8ce44d9cfba42f5e686aaf1f150375b7ee112dc3e13314121f3fe6c26f9d3627",
+    "sage_woven.png": "05360d57bfbab3b2b3087773c89610240784401672c5f6f2c4314476522b9922",
+    "ceramic_painted.png": "a57c1ae5910f4d4d3a1db0aeeade102b2867a0cb86f6e02cc3d37cf505f3c209",
+    "foliage_painted.png": "3ed39b6acd97a041534d0ea18314d1312fd23f823fa6282f86568b0b3c0b81a0"
+  },
+  "final_runtime_copy_byte_parity": {
+    "scripts/dev/stylized_fidelity/stylized_cafe.gd": true,
+    "scripts/dev/stylized_fidelity/authored_forms.gd": true,
+    "scripts/dev/stylized_fidelity/painted_albedo.gdshader": true,
+    "scripts/dev/stylized_fidelity/prerendered_view.gd": true,
+    "scenes/dev/stylized_fidelity/stylized_cafe_micro_diorama_v1.tscn": true,
+    "scenes/dev/stylized_fidelity/prerendered_cafe_comparison_v1.tscn": true,
+    "assets/dev_review/stylized_fidelity_v1/foliage_painted.png": true,
+    "assets/dev_review/stylized_fidelity_v1/plaster_painted.png": true,
+    "assets/dev_review/stylized_fidelity_v1/cedar_painted.png": true,
+    "assets/dev_review/stylized_fidelity_v1/sage_woven.png": true,
+    "assets/dev_review/stylized_fidelity_v1/ceramic_painted.png": true,
+    "assets/dev_review/stylized_fidelity_v1/texture_provenance.json": true,
+    "assets/dev_review/stylized_fidelity_v1/source/cedar_generated_source_v1.png": true,
+    "assets/dev_review/stylized_fidelity_v1/prerender/table_export_metadata.json": true,
+    "assets/dev_review/stylized_fidelity_v1/prerender/table_modular_rgba.png": true,
+    "assets/dev_review/stylized_fidelity_v1/prerender/hero_1008x1792.png": true,
+    "assets/dev_review/stylized_fidelity_v1/prerender/table_cropped_rgba.png": true
+  },
+  "sources": [
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scripts/dev/stylized_fidelity/stylized_cafe.gd",
+      "sha256": "604a43b43197c26c1c58f0727224797a2b09108f912f9b6348c2d24bbf25b1c7"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scripts/dev/stylized_fidelity/authored_forms.gd",
+      "sha256": "d972a52c9f606254dcae79c1b5c3073d99c4bcfcf5308957c16b31028953731d"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scripts/dev/stylized_fidelity/painted_albedo.gdshader",
+      "sha256": "b8a7b647125e3bd1719931540f2b88722d5c0ca9162eda1571919e41af6dc7b2"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scripts/dev/stylized_fidelity/prerendered_view.gd",
+      "sha256": "2472d7ee69ccd26c732441ece16c8ae2dabcf17095224adccec0f7e1aaf4e09e"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scenes/dev/stylized_fidelity/stylized_cafe_micro_diorama_v1.tscn",
+      "sha256": "1d6fa4d727f3af59ff8ba4002d77c9736db6a8b7384da0a4e433f70c68b01f7b"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/scenes/dev/stylized_fidelity/prerendered_cafe_comparison_v1.tscn",
+      "sha256": "526c297eab7b60cb20f267bed17449025fb43bbcb7abc3ca9d090cc1bbd321f3"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/foliage_painted.png",
+      "sha256": "3ed39b6acd97a041534d0ea18314d1312fd23f823fa6282f86568b0b3c0b81a0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba_sha256": "45c09aaadb3a9a68c7eb270b26781ec250c819e8154519ab0c5813e9577642ce"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/plaster_painted.png",
+      "sha256": "8ce44d9cfba42f5e686aaf1f150375b7ee112dc3e13314121f3fe6c26f9d3627",
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba_sha256": "acf2222b46876c9b66cf1d89784c0ea405c46869728a574b5680f36c956169d0"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/cedar_painted.png",
+      "sha256": "6d9288467d0439370f990e58824de65dc6c78678fb07ada10bf10865a3593430",
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba_sha256": "ae605565fc204b26a05c2816bf8cedc64c86ecb9efdfa3e1395f78ed958c2b6b"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/sage_woven.png",
+      "sha256": "05360d57bfbab3b2b3087773c89610240784401672c5f6f2c4314476522b9922",
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba_sha256": "514790161f80f73d01970bedd9fcd56b3cc57c3f7d3a32b05d1a4f73d3b29cf7"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/ceramic_painted.png",
+      "sha256": "a57c1ae5910f4d4d3a1db0aeeade102b2867a0cb86f6e02cc3d37cf505f3c209",
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba_sha256": "b90125c919fc904dd5e2cdcef89dc6b3a26a5186c38d1bdce710d8cde7ec7170"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/texture_provenance.json",
+      "sha256": "2d429452e86603a94e51f0098015f5beb72f5cd6f694f7478d5b597e135c3e8c"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/source/cedar_generated_source_v1.png",
+      "sha256": "5b47b481d87f1cbb2b3ad99f7efdcc3e3027a379e49eff82a5de15e9b736cd1b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "decoded_rgba_sha256": "f5912c2a099182438fa9dc532bd5de7272d953f7f882c95363d3907ad37b9691"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/prerender/table_export_metadata.json",
+      "sha256": "c9e61040297e0023162d2e1ae80bdae2c5ee87fd4e8ad8c2bc17395b24a96d96"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/prerender/table_modular_rgba.png",
+      "sha256": "99966cbc0bf359864f1838dfeab4928365c2f362362b75627a74e37bd5937235",
+      "dimensions": [
+        1008,
+        1792
+      ],
+      "decoded_rgba_sha256": "7d531b312bd37a8d588da0c5a9401a4bccde4c77534edb0138ec663001ece6cb"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/prerender/hero_1008x1792.png",
+      "sha256": "a2467a00eab9de5a91dad9fcadfb83485284420e7a343da344c2cf4eddf64b01",
+      "dimensions": [
+        1008,
+        1792
+      ],
+      "decoded_rgba_sha256": "d2c31ee27d944ed652967673fca7d3726459c6bfa2f1d96805c9c5589d55861a"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/assets/dev_review/stylized_fidelity_v1/prerender/table_cropped_rgba.png",
+      "sha256": "ef7ca6b75819fca37c0242f6e0d944232d5029616963df45c5f1499f2e8059af",
+      "dimensions": [
+        652,
+        585
+      ],
+      "decoded_rgba_sha256": "5a290fef8b9eb514f33e05da9a9725e05b2cf40976e71583c511be9c73a86fdd"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tools/willicat_stylized_fidelity/run.py",
+      "sha256": "b4277d2f0fe214254b541121d6d2ba6b6cc5bff330b87eeba03d960579f8984e"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tools/willicat_stylized_fidelity/texture_recipe_v1.py",
+      "sha256": "7c49da16daafbd86745de8cfd7e7b264822628035f77224b7910124f9f704715"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tools/willicat_stylized_fidelity/OpenStylizedDiorama.command",
+      "sha256": "0fa92bd407cb86ec8f725dade39d2f69aa4625208fe48dd27bf5ad2feaca9428"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tools/willicat_stylized_fidelity/OpenPreRenderedComparison.command",
+      "sha256": "8f86382cd787f4a9d5c8061a7a5119306968d5fcb6d0531d915cc503d6649638"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tools/willicat_stylized_fidelity/README.md",
+      "sha256": "dec898ed2121d536f5baa8d3b48e0969b52cf5225d75d3bec6efea39e5df4300"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/test_stylized_fidelity_startup_v1.gd",
+      "sha256": "2803d56957548444fea34c62d290b3e1d414bf2033bb6578eff93456402c6bd0"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/profile_fidelity_fresh_v1.gd",
+      "sha256": "77db93fbcdee50c35a7841351025230e26380ca8b7b1e3e826e461f4f91c28b8"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/capture_prerendered_fidelity_v1.gd",
+      "sha256": "76ccff3ddc7cae51cc413ac208d173849dc968777033d2d351a67846e4a77b3b"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/measure_stylized_fidelity_inventory_v1.gd",
+      "sha256": "b56f2aa3a15709d0d5babda1ded3949b58a8dbae8736eeb54c49f5de0c59d214"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/capture_fidelity_lighting_v1.gd",
+      "sha256": "6d99c7ff42c23978c8dfb146e6c0e21ad86aa7b31b18b88dfc7000b04d72d710"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/profile_stylized_fidelity_v1.gd",
+      "sha256": "270e246c517251c6a79df97075a5ddea0de3229acf1047cae01872dc9d749174"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/capture_stylized_fidelity_v1.gd",
+      "sha256": "0f6d3666c8534e3c37a27e1d6433d118416873478cf303af7fe5708c42c261e9"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/tests/test_stylized_fidelity_input_v1.gd",
+      "sha256": "c7ec34f9ec0ff5249c65f94c94a75bb2e6165cac9abc34cd2f2633d39ff25942"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/depth_table_back.png",
+      "sha256": "02d2214084c413b62753e056bd427ce18105e03ec8695246e9dcd682bcc0d514",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "e80a42a3b719ff0c6d521058019cb01439b74d9263654dd04d7cb658724b940d"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/depth_chair_back.png",
+      "sha256": "e0a3a3ab4be6761dbcdc517308f5db457ad9cb1057c8b10581d3e824bb4083f2",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "30aaaf54e01a50d38ad77688ea5e5db97011834e7139af6def9e886be108a906"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/07_HYBRID_TABLE_DEPTH.png",
+      "sha256": "2fa581eb26cca0f97d8fb48b9488754e96b32d9526399151f692ce1720f6005d",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "0ce18d08a8e78ea1d7f84b1fef21e3f6ac92c952245a425b6e5f51056282ff60"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/WILLICAT_STYLIZED_3D_ART_FIDELITY_SPIKE_V1.mp4",
+      "sha256": "184c2d6d1707a1444eaa2f93c0c7e20ef5b0cf9aa22020365ba5b7ec1cb29d34"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/06_HYBRID_CAT_BEHIND_COUNTER.png",
+      "sha256": "6f7c30bb73f584674b5b5f0d813e4610186432c2ce5e73a5f4e49f128cf7e2e9",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "b6bc2368a6dcff4b88f50b49f97be26ed6ce72b195ad3aa23618af8707e01487"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/03_PRERENDERED_3D_HERO.png",
+      "sha256": "eca49a2a6d71a91e94bff76098fae864e8eeedb0f3f994a3f89bc31d284c1728",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "85ac7bc28a33ce7d020979bf4f234f71758051061c8ef39f6ed0803d724de01f"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/04_THREE_WAY_COMPARISON.png",
+      "sha256": "070abe382cdc0476a21c8bb6d442ef826cb5b6788d19980301dc0ff93394d282",
+      "dimensions": [
+        1560,
+        1046
+      ],
+      "decoded_rgba_sha256": "6b7e21bbc86a531284b6ac9c474deb8b77888557116a3399d9a4b882b68f738b"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/10_PRERENDERED_OBJECT_SAMPLE.png",
+      "sha256": "f2dadde205df2c8783215f29d4cb53cb697b7c1ec9a55901530a58a28d6e33aa",
+      "dimensions": [
+        700,
+        900
+      ],
+      "decoded_rgba_sha256": "466305e8d33bd35905e48a6778ccab24698953182d2ceec0ac4466551d1e8ad3"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/05_HYBRID_CAT_FRONT_COUNTER.png",
+      "sha256": "a555944e171b67b1aea6876665dc27263372f4ca2f5658bd7ca12541a0592956",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "1202950eec348d51ceb058d4cbeced6f63a6c2dff6bc3cbf6789f54ca754bf2c"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/02_LIVE_HYBRID_HERO.png",
+      "sha256": "9091b0099d0eec84103ff87e62f23a914a6d46f7e3fd8aa656b61d0ba7b9dd70",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "180331fb40774f8708e5f6688a7f558edc8358dd073f0e91c9d7fb0bcbea2558"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/08_HYBRID_MATERIAL_CLOSEUP.png",
+      "sha256": "510361a01c51861a5e90bc32a81029c696689b3a9821c9e69d14aca888a9fb07",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "d0a60281747523b37ef839388097e8959defcbba2674cc681c1b063c5bf08240"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/09_HYBRID_LIGHTING_CLOSEUP.png",
+      "sha256": "d0a7e1c4d8b847ad4fa85b5210cbc07f463fc0ab37c542466535759f602a30b5",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "3b7df03c9de6f990057d85088d64b48f84d7467d85587fd4b589bb97392dfa29"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/01_APPROVED_2D_BASELINE.png",
+      "sha256": "b5b95f8bd1d1aa92f5f3e1d457df5c13819ef6f147339415237f6d95eb02bd8c",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "a9672ad2299a623dced64363615616c6be7ba80f7691435a7dfcdb4497f103f0"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/depth_table_front.png",
+      "sha256": "618a79806be18e9f1defb6eaa07b9ae7a5269a768acc7504eb391cd58b77bd77",
+      "dimensions": [
+        504,
+        896
+      ],
+      "decoded_rgba_sha256": "f430861c6803f7c42e42f6554ed966afe9a48c548da9fcc550766af04833884d"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/diagnostics/native_proof.json",
+      "sha256": "ff26388af328923855ae1ec275da7567a169fe697159eb81eec9aa0daa506112"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/diagnostics/pixel_depth_analysis.json",
+      "sha256": "d0a992b282c20f8aef10f71c5ee8c56887613cc7c2e0aee6123e79df8d542895"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/diagnostics/prerender_2d_proof.json",
+      "sha256": "fc2d0d3f53edd92c89bfb51a6133c311974aa96c4b1c5a6dff2a64eb428eeca7"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/diagnostics/lighting_close_proof.json",
+      "sha256": "94a6c9dfd3ea6037627f35f6d1106d77d4a8d5a0fc5588fe7eb1840d94f7e355"
+    },
+    {
+      "path": "/private/tmp/willicat_fidelity_stage/artifacts/prototype_review/stylized_3d_art_fidelity_v1/diagnostics/floor_input_proof.json",
+      "sha256": "dcb93bb114d18594168f95f9a9ea3a80ebba46ce703254bdfd13a56233b904c7"
+    }
+  ]
+}

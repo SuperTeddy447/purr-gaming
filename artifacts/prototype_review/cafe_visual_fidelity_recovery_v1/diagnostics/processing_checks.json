@@ -1,0 +1,18 @@
+{
+  "scope": "DEV_STRUCTURAL_DIAGNOSTIC",
+  "checks": {
+    "immutable_generated_source_identity": true,
+    "source_outer_edges_transparent": true,
+    "three_disjoint_complete_source_cells": true,
+    "three_runtime_ground_contact_registration": true,
+    "counter_top_front_exact_partition": true,
+    "explicit_cell_roles_no_semantic_inference": true,
+    "all_thirteen_exports_reproduce_identically": true,
+    "captured_input_identity": true
+  },
+  "check_count": 8,
+  "passed": true,
+  "repeat_export_directory": "/private/tmp/cafe_recovery_repeat_ecrvdf3p",
+  "canonical_validation_or_production_approval": false,
+  "registration_note": "Forge FLOOR_CONTACT_BOTTOM_CENTER intentionally trims bottom padding to put intact floor contact on canvas baseline; top/left/right require clear margins. Original source outer edges are transparent. Bottom contact is allowed by existing static prop contract, not source clipping."
+}

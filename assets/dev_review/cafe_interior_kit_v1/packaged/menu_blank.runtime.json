@@ -1,0 +1,47 @@
+{
+  "asset_id": "menu_blank",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/menu_blank.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/menu_blank.png",
+  "source_sha256": "a11dc78c5a1191dfcb5aa992135bb39ff95ae3eaa72da8a36a7a7ce9e1558fd6",
+  "runtime_sha256": "5fe683d76d73e372cb4046b8f84aa62bf71a35249223ba8d5d8f7e1cdc7a7039",
+  "source_dimensions": [
+    433,
+    316
+  ],
+  "runtime_dimensions": [
+    453,
+    336
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    427,
+    310
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    437,
+    320
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    226.5,
+    168.0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 2684,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

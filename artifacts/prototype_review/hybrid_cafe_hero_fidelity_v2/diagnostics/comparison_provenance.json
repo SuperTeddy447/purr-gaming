@@ -1,0 +1,11 @@
+{
+  "scope": "Native DEV art comparison, not human visual acceptance",
+  "sources": {
+    "01_ART_DIRECTION_V1.png": "fa4929a7891682ab36712f6f7da13fb18ae5c9c9652fbb5fb4e9866f773beff4",
+    "02_HERO_FIDELITY_V2.png": "24a308191a328992159e38cf1902e4949dbe272f2063e9163e3cdd0aa89c906e"
+  },
+  "camera_record": "common_camera.json",
+  "exact_camera_test": "exact_common_V1_camera_unchanged",
+  "composition": "identical original gameplay roots, furniture footprints, entrance/seating and actor approach325,300 then325,355; V2 only changes presentation materials/supported dressing/plant roles",
+  "processing": "Primary A/B captures unretouched, unresized. Side-by-side paste/labels only. Closeups are additional native camera views, not used to favor one primary branch."
+}

@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/storybook_foliage.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png" id="2"]
+[resource]
+resource_name = "WC_MAT_Foliage_Dark"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/painted_tint = Color(0.5600000023841858, 0.6700000166893005, 0.5199999809265137, 1.0)
+shader_parameter/grain_contrast = 0.83
+shader_parameter/saturation = 0.93
+shader_parameter/broad_variation = 0.075

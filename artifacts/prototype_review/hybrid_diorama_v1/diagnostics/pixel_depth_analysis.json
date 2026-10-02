@@ -1,0 +1,31 @@
+{
+  "counter_back": {
+    "overlap_pixels": 1593,
+    "object_dominant_pixels": 1593,
+    "cat_dominant_pixels": 0,
+    "unclassified_pixels": 0,
+    "passed": true
+  },
+  "counter_front": {
+    "overlap_pixels": 995,
+    "object_dominant_pixels": 29,
+    "cat_dominant_pixels": 964,
+    "unclassified_pixels": 2,
+    "passed": true
+  },
+  "table_back": {
+    "overlap_pixels": 611,
+    "object_dominant_pixels": 611,
+    "cat_dominant_pixels": 0,
+    "unclassified_pixels": 0,
+    "passed": true
+  },
+  "table_front": {
+    "overlap_pixels": 743,
+    "object_dominant_pixels": 11,
+    "cat_dominant_pixels": 732,
+    "unclassified_pixels": 0,
+    "passed": true
+  },
+  "analysis_method": "Four fixed-root/fixed-camera raster layers. RGB delta >12 defines overlap and L1 distance margin 5 classifies closer render. These are reproducible pixel-analysis choices, not asset quality/calibration tolerances; object shadows can contribute to mask."
+}

@@ -1,0 +1,139 @@
+<string>:3: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+ข้อมูล: Saved as "WC_RIVER_Ground_Stone_A.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: HandcutPaving_0_Mesh
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.010317802429199219 s
+
+ข้อมูล: Saved as "WC_RIVER_Bank_Straight_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: RoundedStone_0_Mesh
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.0034570693969726562 s
+
+ข้อมูล: Saved as "WC_RIVER_Bank_Inner_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: RoundedStone_0_Mesh.001
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.005434989929199219 s
+
+ข้อมูล: Saved as "WC_RIVER_Bank_Outer_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: RoundedStone_0_Mesh.003
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.007152080535888672 s
+
+ข้อมูล: Saved as "WC_RIVER_Bank_PathTransition_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: RoundedStone_0_Mesh.005
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.00447392463684082 s
+
+ข้อมูล: Saved as "WC_RIVER_Bank_Vegetation_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: LowerMoss_0_Mesh
+09:12:07 | INFO: Primitives created: 2
+09:12:07 | INFO: Finished glTF 2.0 export in 0.006110191345214844 s
+
+ข้อมูล: Saved as "WC_RIVER_Bridge_Deck_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: DeckPlank_0_Mesh
+09:12:07 | INFO: Primitives created: 3
+09:12:07 | INFO: Finished glTF 2.0 export in 0.0062770843505859375 s
+
+ข้อมูล: Saved as "WC_RIVER_Bridge_Rail_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: CharcoalPostCap_Mesh
+09:12:07 | INFO: Primitives created: 3
+09:12:07 | INFO: Finished glTF 2.0 export in 0.005421161651611328 s
+
+ข้อมูล: Saved as "WC_RIVER_Bridge_Abutment_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: ApproachSlab_Mesh
+09:12:07 | INFO: Primitives created: 1
+09:12:07 | INFO: Finished glTF 2.0 export in 0.0044558048248291016 s
+
+ข้อมูล: Saved as "WC_RIVER_Wall_Window_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: AuthoredSill_Mesh
+09:12:07 | INFO: Primitives created: 5
+09:12:07 | INFO: Finished glTF 2.0 export in 0.007888078689575195 s
+
+ข้อมูล: Saved as "WC_RIVER_Entrance_Open_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: DeepCedarJamb_Mesh
+09:12:07 | INFO: Primitives created: 4
+09:12:07 | INFO: Finished glTF 2.0 export in 0.0056111812591552734 s
+
+ข้อมูล: Saved as "WC_RIVER_Wall_Plain_A.blend"
+09:12:07 | INFO: Starting glTF 2.0 export
+09:12:07 | INFO: Extracting primitive: CedarPost_Mesh
+09:12:07 | INFO: Primitives created: 3
+09:12:07 | INFO: Finished glTF 2.0 export in 0.004953861236572266 s
+
+ข้อมูล: Saved as "WC_RIVER_Roof_CedarSlate_A.blend"
+09:12:08 | INFO: Starting glTF 2.0 export
+09:12:08 | INFO: Extracting primitive: CedarEave_Mesh
+09:12:08 | INFO: Primitives created: 3
+09:12:08 | INFO: Finished glTF 2.0 export in 0.01752018928527832 s
+
+ข้อมูล: Saved as "WC_RIVER_Awning_Jade_A.blend"
+09:12:08 | INFO: Starting glTF 2.0 export
+09:12:08 | INFO: Extracting primitive: AwningBracket_Mesh
+09:12:08 | INFO: Primitives created: 3
+09:12:08 | INFO: Finished glTF 2.0 export in 0.006075143814086914 s
+
+ข้อมูล: Saved as "WC_RIVER_Sign_Blank_A.blend"
+09:12:08 | INFO: Starting glTF 2.0 export
+09:12:08 | INFO: Extracting primitive: BlankRuntimeSign_Mesh
+09:12:08 | INFO: Primitives created: 2
+09:12:08 | INFO: Finished glTF 2.0 export in 0.0035490989685058594 s
+
+ข้อมูล: Saved as "WC_RIVER_Tree_Medium_A.blend"
+09:12:08 | INFO: Starting glTF 2.0 export
+09:12:08 | INFO: Extracting primitive: CanopyMass_0_Mesh
+09:12:08 | INFO: Primitives created: 5
+09:12:08 | INFO: Finished glTF 2.0 export in 0.01124882698059082 s
+
+ข้อมูล: Saved as "WC_RIVER_Tree_Small_A.blend"
+09:12:08 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: CanopyMass_0_Mesh.001
+09:12:09 | INFO: Primitives created: 5
+09:12:09 | INFO: Finished glTF 2.0 export in 0.010983943939208984 s
+
+ข้อมูล: Saved as "WC_RIVER_Grass_Bank_A.blend"
+09:12:09 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: ReedLeaf_Mesh
+09:12:09 | INFO: Primitives created: 1
+09:12:09 | INFO: Finished glTF 2.0 export in 0.0020439624786376953 s
+
+ข้อมูล: Saved as "WC_RIVER_Potted_Plant_A.blend"
+09:12:09 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: PotLeaf_0_Mesh
+09:12:09 | INFO: Primitives created: 4
+09:12:09 | INFO: Finished glTF 2.0 export in 0.0063741207122802734 s
+
+ข้อมูล: Saved as "WC_RIVER_Bench_Cedar_A.blend"
+09:12:09 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: BenchApron_Mesh
+09:12:09 | INFO: Primitives created: 3
+09:12:09 | INFO: Finished glTF 2.0 export in 0.005075931549072266 s
+
+ข้อมูล: Saved as "WC_RIVER_Lamp_Practical_A.blend"
+09:12:09 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: AgedBrassArm_Mesh
+09:12:09 | INFO: Primitives created: 3
+09:12:09 | INFO: Finished glTF 2.0 export in 0.005008697509765625 s
+
+ข้อมูล: Saved as "WC_RIVER_Background_House_A.blend"
+09:12:09 | INFO: Starting glTF 2.0 export
+09:12:09 | INFO: Extracting primitive: QuietHouse_Mesh
+09:12:09 | INFO: Primitives created: 3
+09:12:09 | INFO: Finished glTF 2.0 export in 0.00493311882019043 s
+
+RIVERSIDE MODULAR BUILD COMPLETE assets=22
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,47 @@
+{
+  "asset_id": "lamp_pendant",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/lamp_pendant.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/lamp_pendant.png",
+  "source_sha256": "97ca3676f6a1acd23bcfd89d5a7869d071e69be4e78cf35f9496cffacc6d4d78",
+  "runtime_sha256": "92bbe942dec1e1ad545d3e6122a304a27399e1f0962849494057378285cc1213",
+  "source_dimensions": [
+    185,
+    316
+  ],
+  "runtime_dimensions": [
+    205,
+    305
+  ],
+  "source_visual_bounds": [
+    6,
+    14,
+    179,
+    303
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    189,
+    305
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    102.5,
+    305
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 3081,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

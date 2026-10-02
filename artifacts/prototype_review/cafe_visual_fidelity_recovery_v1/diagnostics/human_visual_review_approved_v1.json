@@ -1,0 +1,776 @@
+{
+  "decision_id": "WILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1_HUMAN_APPROVAL",
+  "recorded_at_utc": "2026-10-01T05:06:49.479621+00:00",
+  "timestamp_basis": "time this explicit human decision was recorded; not an invented review-performance time",
+  "task": "WILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1",
+  "reviewer_principal": "human_user_in_current_conversation",
+  "reviewer_role": "human_visual_reviewer",
+  "authorization_channel": "explicit human message in current conversation",
+  "technical": "PASS",
+  "visual_fidelity_recovery": "PASS",
+  "human_visual_review": "APPROVED",
+  "baseline": "WilliCat Café Playable Slice V1 recovered café",
+  "style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "approved_aspects": [
+    "café scale and intimacy",
+    "service-zone prominence",
+    "rear architecture richness",
+    "furniture scale/grouping",
+    "floor-to-object balance",
+    "counter depth",
+    "table/chair depth",
+    "character readability",
+    "front/behind occlusion behavior",
+    "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1 compatibility"
+  ],
+  "hero_target_role": "POLISH / MOOD ceiling; no one-to-one density or composition requirement",
+  "remaining_differences_disposition": "NEXT POLISH PASS; not another recovery pass",
+  "no_regeneration": true,
+  "no_recovery_restart": true,
+  "reviewed_content": [
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_right_front.png",
+      "hash": "a98950f9f5e14e30e81d7e642ece0f7adf285527436d1d34711d27fd256ac36d",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/menu_flat.png",
+      "hash": "7393850d42042842556a754290195f63bfbbbaebc184c6778345064a9c815c71",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_left_top.png",
+      "hash": "5e945aad9aee600135de9ecc9ef2b39cb7c220ca3c804b25a2f00bd47d542b21",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/seating_rug.png",
+      "hash": "f6c6fe6157845006d49e5a59f7b21ff4b7a91698e483006ada4391fb1099a123",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_middle_top.png",
+      "hash": "ad93dbd1fbee687c319d53663d7fc1e6c5591e538bf0bae37e0b108231d921ba",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/entry_mat.png",
+      "hash": "d85a8bb13c9d64fade53d8d0729ab94a39260bef9ed8103ca6a0009a97427a7b",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/cedar_post_face.png",
+      "hash": "e8ec901bdfaa762aae85fab99f0601672370f1c4eaad3990a40d0b28a9cbb687",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_left_front.png",
+      "hash": "4d3539af93ee8e179ae6a53d1b8659c692a47bd218c5318668dec0055a6a5867",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_aligned.png",
+      "hash": "7f3f5f8918e1e531f077e522223b63d31735e745f903a700b28695de8349a5f2",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_surface_material.png",
+      "hash": "e58998b46efaecda5ad7c6289dd2b3b2e5977d8968de1926fc12437cb704ae91",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_middle_front.png",
+      "hash": "73d19a9877d31c6473f6175774862035f9e54f72aec8cad2c21487c19fdbd881",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/counter_right_top.png",
+      "hash": "77b96e68a7e99761658baefa6557ecfe1d4aa7e0a6f14f7205bec092a1238080",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/runtime/sisal_post.png",
+      "hash": "93e1148999beb8b9d9d462ea09ee750e47ce7d6acf44d1ab95b748e8035ad212",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scripts/dev/cafe_visual_recovery/recovery_polish.gd",
+      "hash": "1d94a84522e183c7437eeaad6d5434206d196ba8a0fcaea2b7a745ff4674d3d4",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scripts/dev/cafe_visual_recovery/cafe_recovery.gd",
+      "hash": "6c9a4d0369718f4ec6d26b4948a2080c1aef4653bc525aa5e2156bc0723b3b60",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "scenes/dev/cafe_visual_recovery/cafe_visual_recovery_v1.tscn",
+      "hash": "edc41f08a536433f51be0314a1a7504204a14a303c76283f0062e021dbe3633c",
+      "matches_exercised_project": true
+    },
+    {
+      "path": "assets/dev_review/cafe_visual_recovery_v1/source/textile_catlife_family_v1.png",
+      "hash": "beeed81250e146da86e3f5f9d07a245266ebd1246c8d457312580d151940e1c6"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/.gdignore",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_ne.png",
+      "hash": "09945a4179949ded110947d5dece362db65b22586bec1e36bcd3b0405f6fa462"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_ne.runtime.json",
+      "hash": "a7f82019ea8f559e1884f1e1d0ca3d48ad99385b389c61914a58727422c1faef"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_nw.png",
+      "hash": "617fcfce3b4c6ac7fddf5bc44e468b4d4ac8996869fd306450a72ec062dbb910"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_nw.runtime.json",
+      "hash": "d78cbe337f0e7228428b3a5fece4980d329abb0d482af2e2047e23dad3e94860"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/counter_cedar.png",
+      "hash": "4824b7f90a01d9c0d44e35205578ee2b0e8cd083e5c7d31ba1e00adf3c81a3a0"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/counter_cedar.runtime.json",
+      "hash": "9793d4a31f13362fe3a6c4921175371498c93ab45a4639df729b3be8fe7793dc"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/entrance_frame.png",
+      "hash": "175ebc6834df827dc728872d5a99b30cd492701b53d736ca61033dc70fa88c22"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/entrance_frame.runtime.json",
+      "hash": "dcf400fdcd83a55bb271b916ce41cbaaca5ad45476bcce97a001cdd475832b1f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/espresso.png",
+      "hash": "7b93fe0c5407e44d24f97946990d25a0a35336da9c897e3a3871f7afcc7e0dfe"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/espresso.runtime.json",
+      "hash": "ffd3cfabf843cbc0f5777be285b98cae4b7a63b718f35df35928bab5c009de5e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/floor_cedar.png",
+      "hash": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/floor_cedar.runtime.json",
+      "hash": "ade0fbf92f66dca205f08d15eae307403de11cd72dc75580860645b24f51e51a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/grinder.png",
+      "hash": "9e6da84d7b754c65e4965a2e41c7339c4f2f5132ce43001561b56d0f42ee2a7a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/grinder.runtime.json",
+      "hash": "7bbf482d6c74e9f44b313e4a6d96258ce745a24c6e78e5ea1feb99c81a6e1c7a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/planter.png",
+      "hash": "53bf351dd048faa5edf0a01863477f3c2f6d2d7ced7ef2be850b644ad0d0a056"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/planter.runtime.json",
+      "hash": "1cdf4dbeecbaa1bf59d9fb68459fa54664c6a59bef40eeaa23ff6d958511e577"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/pos.png",
+      "hash": "611816c2987574924a2afc6a09b45fed76586334594057f51c3c13a817442089"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/pos.runtime.json",
+      "hash": "e1c998ee73a05371551df93ca05990e7c69a9845a53160d2427749348b49e95f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/table_cedar.png",
+      "hash": "6536c655beab56e2a0e186c3414239537316cd0bdb268c5e4d484b0bb50a346c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/table_cedar.runtime.json",
+      "hash": "b485afd405b0b377b5f98c34100b5327f658ccef2536300469cbd3cbc60c1458"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/wall_plaster.png",
+      "hash": "852a8f6f188596c7103e38c61dc2162e73832fc17439045207584fbc4794c79a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/forge_packaged/wall_plaster.runtime.json",
+      "hash": "3d88c5f6231a0b3705a46a6627f4e27059e201ee6f9668b83beeeb7572436447"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/generation_provenance.json",
+      "hash": "676a9e8b081787da546590414f590bee6a1fab0b98b5f55f15fc628e8ae2818c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/processing_receipt.json",
+      "hash": "14f77d53ba821534a9a26c9e971709e7a32d0ffc4b674bd1911601e913e1ef2e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/processing_recipe.json",
+      "hash": "81c48da255a1d712253f56b09f0d851f5e60e6d2022572e6a8ce5704461fc459"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/processing_report.json",
+      "hash": "c81d132594aac8c390ca8b1800f8daf8714c5f2b667397162de2836136cb3857"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/registration_review.json",
+      "hash": "e304f49c116b9bded39b0238705b3f375606b8ec4d4dc5da0623a7bee67b4929"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/chair_ne.png",
+      "hash": "77718ddacbcd5445b80630572bded92d1f2eabd4375fac17447e25e1785846e3"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/chair_nw.png",
+      "hash": "d125e58e7c96312cf8a42934c36951cefe15ea71f265f4a94f66802638869ff4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/contact_shadow.png",
+      "hash": "49cb508f0ae4074cd1cb6f5ddf84ee13da5a11916bdedc834881dbbf0b4e1ef7"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/counter_cedar.png",
+      "hash": "a43a29fd74e19a0244e1dfdd7454843f1d21497c3f5ef44dbe2d562073b36d54"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/counter_front.png",
+      "hash": "23acb38b97d9d4ed7928c4ca99136f0b3d2797d3afc0c0ccaa99e103c574aeda"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/counter_top.png",
+      "hash": "b7d936bb2e1835f811347274f946fbc248a2dc37642e043216f694411eac1572"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/entrance_frame.png",
+      "hash": "5e6743ab223d01760c5d42ada0ec171da47c56dacb6f49874d8ea3164e21559b"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/espresso.png",
+      "hash": "378657aaf413f8d2035689bb78c69979550c4e813bfce8f717a45880b78c1976"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/floor_cedar.png",
+      "hash": "419146409606f5031b5e10eba714b799d35ccc200ff24c36acc479fee5b40df6"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/grinder.png",
+      "hash": "0871906c6870846988365562a2cb02b7207ecef51b3cd45f893b1adcd419f51f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/planter.png",
+      "hash": "c576ee1910ad16eef610dd4783c16ddb6c9f0e6957e44797aac53a03bd628a8f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/pos.png",
+      "hash": "3381ce9d718da2cbedd5ee989d9377e062a244242223f8295a41e8dcd1214b5e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/practical_light.png",
+      "hash": "350a37d3d1fbe77eea874a8eb3c448f4c4b8b3c13e2ea09e2c8267ba1912769e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/table_cedar.png",
+      "hash": "3ae8401ae3624c5b7a9c96cb104eb96a4e0a07540b6d465b06a0bfd85f4d9784"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/runtime/wall_plaster.png",
+      "hash": "17d220b43591c4306ffcf22390a16498ea85bc06c2bbdaa21584dba57fff8f9d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/.gdignore",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/chair_ne.png",
+      "hash": "4404276072a80b7c1a9e2fc71f41528ed16741173c8793eada14f14f27155263"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/chair_nw.png",
+      "hash": "6b560eb34c8b23b4219df150d3e716ce491bf257ae22eb271ddb90c9f8d6a025"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/counter_cedar.png",
+      "hash": "22ea38bf7a51f4feedb6166dc1c00c035083b1b289ee7a3f16b9b1e05a65e31c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/entrance_frame.png",
+      "hash": "96c8010355c5b019218531f96f28c4334459f9361092d0b2706c1ac89f6503c3"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/espresso.png",
+      "hash": "3875d5342d44baba83c096d51f1e894290ecb0af97d4eafa58b994ceb11209e2"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/floor_cedar.png",
+      "hash": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/grinder.png",
+      "hash": "70f89cf81656900993914b2f9effc946c5f703c43ea9ec6a10ae7771fcde5c5d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/planter.png",
+      "hash": "fed126d4696edf71f68e8ade1316fcf9d8ae17245fa99ac9862154a5d3a1a851"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/pos.png",
+      "hash": "4e52280ea16649620c08ff54b19076eaf2e26c40ff52e66a643c062c1709bce4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/table_cedar.png",
+      "hash": "a62dc45cbb984cc036f886058c632b5e35f919210fc34f3c72432d230d7e4005"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/source/wall_plaster.png",
+      "hash": "287f10c56ca36f6260abf153e8453787565865d47453c76d02923fd1ef7d6288"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_slice_v1/template.json",
+      "hash": "2fdadedad025ac9aff3520b61589f6378ffb44bbf718b0d0732953ca1b8c3e40"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/.gdignore",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/art_framed.png",
+      "hash": "ede869f76a75d71bd9083052f3d00f1248533b3bbd2b05e9bd1ffa8817e58748"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/beam_cedar.png",
+      "hash": "9f37f0ba5bc3047ef519ba6320c95afd8efd0a0a22545a2aabe2653b767e9b3d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/cat_bed_empty.png",
+      "hash": "1513073ba934c07b53eaea202663bb609ff10bf84b42b1f83f43daf15bb72f3d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/ceramic_service.png",
+      "hash": "b3abfc90d0b29d5d88ffa6add1736f9e8890925d35cb7e32313c36c9ca178592"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/counter_main.png",
+      "hash": "859952bf903f8d6136fd450fe46456a59eec23e31750220110d75535d5600d2a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/counter_short.png",
+      "hash": "e833dce9fcc3da3a1f138ff29c03ebf3630b6ef87f44a59bd5b329501c0c0878"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/divider_cedar.png",
+      "hash": "38f73b4fc880c1648d11346718d7a054185476cc7c9e122e40028fff6aa3046f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/flower_small.png",
+      "hash": "5386deb82ec8c0a4afcedc7e52b32065468143f67f905d98eb81b8208150d0ed"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/lamp_pendant.png",
+      "hash": "97ca3676f6a1acd23bcfd89d5a7869d071e69be4e78cf35f9496cffacc6d4d78"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/menu_blank.png",
+      "hash": "a11dc78c5a1191dfcb5aa992135bb39ff95ae3eaa72da8a36a7a7ce9e1558fd6"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/plant_hanging.png",
+      "hash": "3ee4d1b48e9d3bd79ae15f25a650dbf018aabac1e08318624f0f424d4e826125"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/post_cedar.png",
+      "hash": "159963d990136b41fca7604dd5eb8d2c565e2df3baf607edbe2efba5468c26e6"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/shelf_ceramics.png",
+      "hash": "8459651876c2e63b7d1cf7929a6dfbae4154ece13af3c4cc43198424c9ae4ee4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/shelf_empty.png",
+      "hash": "95e7bc2a727fa3beceacf82223ac299297a24df1b43fb66de8f70c2f49072543"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/tea_tray.png",
+      "hash": "eea33d3be5258a935462dcea65d28d4de8dbf1d86673642c5cb0aa08a4282d17"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/wall_framed.png",
+      "hash": "08dad945971b68e4ec5647bc312f1c6b917304d6401f842982ff6b46c3482bc3"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/wall_plain.png",
+      "hash": "76a01482cc6973d35d44b2a500c0227540d036aeb0e55103c8eabef73fee2379"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/extracted/window_shoji.png",
+      "hash": "5a7f458c14b6453ba4e4ed156b6d5a1448351ad6aceec2488b3be5d9d0c5663b"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/generation_specs.json",
+      "hash": "521b773283adb08b2bffd6b40b679593e4a4a6bc45be6162e183b76617ef8858"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/.gdignore",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/art_framed.png",
+      "hash": "cfdadd40a8c8ddf44d600bf99fe9daf2cb93aa8b1080754d3ee7a5362c54a4b9"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/art_framed.runtime.json",
+      "hash": "f019dcc7e851752aeb90e90aef06e2f2b0b837bded1e6f0cc29de73f8a05e7ca"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/beam_cedar.png",
+      "hash": "1dfab380985cad8c9fc39c66e677432fa643a0e6ee6b1a522b4a807d22259737"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/beam_cedar.runtime.json",
+      "hash": "c4d8cf7c4856233614f96388b1baa007d2f9415443bd6a4e8ca673b6e84a7b32"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/cat_bed_empty.png",
+      "hash": "6a74597a0ea3bbf4828a41a58ba6d9073416b881108e4b519fe2156295db934f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/cat_bed_empty.runtime.json",
+      "hash": "f8b4e15f17e144525d2f3f99541e109d33f54a0e080371c84bc2bc35ddf3c8db"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/ceramic_service.png",
+      "hash": "d0e2a001f5c2c89cd38283035ef96739aa3ef926704c43572be6dbb82ecdc322"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/ceramic_service.runtime.json",
+      "hash": "81f030fa7a0c36557292f6506d0eb8a0391c5d58084e102230818b5b49763481"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/counter_main.png",
+      "hash": "98936556dc0cec863b8a8ff0ba58ba0f317fb3baf405af0f6520b4d5ad7a962b"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/counter_main.runtime.json",
+      "hash": "551cff2e1a88a0b90159d38d37329d9645f1b05553643a2b59ac26be64b83b0c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/counter_short.png",
+      "hash": "958de93cf0db5570c0d1f74bea6a2222583fbe83b09ca4f22587aea276937268"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/counter_short.runtime.json",
+      "hash": "615bc70ec27f7daee60f6483c36f8755209ee5e72e57b5e1c3b67175c5689b7b"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/divider_cedar.png",
+      "hash": "f30a6c5fd1c3a7e7bed43d5cb07dda663b829d75f0c37910c46c0d28efd03bef"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/divider_cedar.runtime.json",
+      "hash": "3e4ad71648c0da05b36d8bef2a0cff1b904c4bac1585ff5a05db84723ed1067c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/flower_small.png",
+      "hash": "6f69b299026fc61b8958102748f03dd2e18080fd5797ccc662432817f0c13395"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/flower_small.runtime.json",
+      "hash": "cae7891ef2d63e82272627106f9886325b4c9b08cac4195e4d2a2468c0db9a63"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/lamp_pendant.png",
+      "hash": "92bbe942dec1e1ad545d3e6122a304a27399e1f0962849494057378285cc1213"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/lamp_pendant.runtime.json",
+      "hash": "ef48ab34cbbac3b1aa78862db10e23a11120b3dc02861cee4ce1d52c2f5c9af4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/menu_blank.png",
+      "hash": "5fe683d76d73e372cb4046b8f84aa62bf71a35249223ba8d5d8f7e1cdc7a7039"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/menu_blank.runtime.json",
+      "hash": "dc66f99fec63e19a41ca5240b165129ba252287b14e449389acc4eb1d72461d9"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/plant_hanging.png",
+      "hash": "8e560cbf732c3dc7f7036573171e9fc1abd34bda6b7079ecda46f066e278d891"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/plant_hanging.runtime.json",
+      "hash": "af3c8cd7ddfd998d1a7fcbc4384c1d0d6893918557134a875289843ef1cf3dbb"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/post_cedar.png",
+      "hash": "e1123245e5463d625e85fab2847d5333d6d3c50fa34257286a82b6848aa13221"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/post_cedar.runtime.json",
+      "hash": "9927590741466f89ceb0d6ee33f4e116545792fa1fbcce7d80aaf836fbc34ef0"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/shelf_ceramics.png",
+      "hash": "1684990fff6884844de021bd8cc6edea85680a4645f9662a17af2e6916f992da"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/shelf_ceramics.runtime.json",
+      "hash": "c9fcfac605e36913d572a0f0a53fc5a69154f5c91fbb26af1669b3e40e33bd6f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/shelf_empty.png",
+      "hash": "8d5a44a48f6766b64a1c8a7b0ddc87485709c9752123a2d4e2fdf66d950c547f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/shelf_empty.runtime.json",
+      "hash": "d957d135899db2623fd556e748ed45a96f448c1de93f6f300546fbbdb1ce190a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/tea_tray.png",
+      "hash": "f9d12d53a2f7712eb141b3191ae50659d0f63dc48d9cf0c12528d2a82e9e0bc4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/tea_tray.runtime.json",
+      "hash": "957eec21dac4f71ce54ceb1b28dd9169f2483546dd0c1a715d65520d7aa3653d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/wall_framed.png",
+      "hash": "107378ea0d9ace19ab2869a69dd58259588125a52f29afef48be119911dddc55"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/wall_framed.runtime.json",
+      "hash": "5d9c6fcc6f6cd837ea913b00a3c6514b70918c1bbf311489461bef9a6e16661d"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/wall_plain.png",
+      "hash": "a2308f5ede9b2543ace1d1ef71f18547bad5b5f192a0ca329272c84ee50cd3f1"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/wall_plain.runtime.json",
+      "hash": "871cd8d585e118e39c584edbc4cfdb7616893c6585c170c7f7a1f8c7c0dae161"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/window_shoji.png",
+      "hash": "b6d3d8a67c901787e2eb01fb1ab97564e82a225089cc37dee42b5650b2ea1d0a"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/packaged/window_shoji.runtime.json",
+      "hash": "8a49855fee8d6805108b1b1bb128b77ab0fe3f3a8f8f03e4c52e9d9651a55ab4"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/processing_receipt.json",
+      "hash": "997bbc9053667e59efe5df7473ab2da0da1a0c32e961bc10e16c01fd4ec2cb4b"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/processing_report.json",
+      "hash": "e4604b78e4ee6604b192d34cd816654b6ee0bb97181678549714b666a1322110"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/provenance.json",
+      "hash": "b63f1c0d6814d7604389d6895a2d73ae076c17512b0f3f1556f77c12ab4aa9d2"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/registration.json",
+      "hash": "71a501ab65e72b7985a571fa015b9bdbd828242fb1634eeeb27d7c887ada7a6e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/art_framed.png",
+      "hash": "aedf61824b6c97579ea0c6bcb16cac07920d0b15ff254b5953c0dcb63722d618"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/beam_cedar.png",
+      "hash": "b061a39d46500d19944ec009e6c545f7f810a73810cee85a13d51e1eef761cb0"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/cat_bed_empty.png",
+      "hash": "a699c30ead2f04b595bd819e1333e0086f2f1371555d901ccd4768d92c8dea90"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/ceramic_service.png",
+      "hash": "444c4e752239ea8ee325f631c46e32874ef30bddd9a5e13ac476a39821c1603e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_front.png",
+      "hash": "80c4ba1c1f28d4fd2d3bf7cfb912fd7761dbd5387409854f0922751cbcbad9ed"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_main.png",
+      "hash": "e734601e2db8a24d259aa103aabddb6f1e7a5322238ce7e4dd0c7aa1e2e3ceb9"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_short.png",
+      "hash": "453bebb8ea8dbbbfc66dd5291cb450169166e7f6659aeb5c08e3b9faf6be84ad"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_top.png",
+      "hash": "69a7d6fccd73db1f731262b47b12741fc615291b5329619974d33321abcce86c"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/divider_cedar.png",
+      "hash": "ffe9342470ddcfede332340bc09b3bae975f5beac91cd7a83e0d1b1896b58f98"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/floor_quiet.png",
+      "hash": "c6b9354828addc5afe6aea51599c6ac05f10768f526d89e1354ed3e62ecf4bf7"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/flower_small.png",
+      "hash": "1cdc9a6b2e44543d51a98a55b13b31a0daec621185fbb69fb39812c5233eda16"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/lamp_pendant.png",
+      "hash": "e7688d230d46d6636ee02e5ca1b6b3125debe52bb82cb80db37f2e8f993b3f32"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/menu_blank.png",
+      "hash": "8c9edc67a9891209d17a571abc55c43be5f687f1399976c2b7ff5fab8ad965ce"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/plant_hanging.png",
+      "hash": "6375503c8281496210df8e792d81eb261b5b0f98905429fcb26ebfbdb36d426e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/post_cedar.png",
+      "hash": "4ebd5b2596b0ff474bda4efb7b21724346458ab6aab2dabbf969d4845bbb28ea"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_ceramics.png",
+      "hash": "2acbe2bf7290ba7b16edaf4ca8553c5c01fa87b00d00c0ef59987bf16bb7f6af"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_empty.png",
+      "hash": "ba3b3948d8907757cc29b728ab5ad2a936b85d57f2c6de9684c1c8a34e76817e"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/tea_tray.png",
+      "hash": "f00e08e42f39185822b0515f9eb97da6bda8063b8b93fef1ca47d3da7597e50f"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_framed.png",
+      "hash": "127ba6534859e7c36fb16a95a08e418b84ba3f2762af32c6d03b28d47aca6552"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_plain.png",
+      "hash": "02f4cd05444641443221b44327e2d840425d18eb18c2e546bc46cc9bb76686c6"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/runtime/window_shoji.png",
+      "hash": "7b02514c32ff3f7e9ae48dca292e795c563ea53d1e04066052552ae926f70d49"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/source/.gdignore",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/source/architecture_family_v1.png",
+      "hash": "ca779b2d2ad64ad7f8cbf526c222bd6e189fbf54bda808364ff871a833f987b8"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/source/counter_family_v1.png",
+      "hash": "3387c03b60a54f70129f53d91ca5ab4a6eb724a453626cd5c679ba9b91b0e562"
+    },
+    {
+      "path": "assets/dev_review/cafe_interior_kit_v1/source/decor_family_v1.png",
+      "hash": "7891efc55a24d903d01e8481e3de9b3df9299d1779037787e1e6f32a1068f38e"
+    },
+    {
+      "path": "scripts/dev/cafe_interior_slice/cafe_polish.gd",
+      "hash": "783ee7d92384c7ce299e4638cb6113e05b838965d1ed7f311f885ad7b61a42c1"
+    },
+    {
+      "path": "scripts/dev/cafe_interior_slice/cafe_slice.gd",
+      "hash": "39bd1c374d272abf9391d68eb59971f5d45953103a49851ef8b6c8f04077443f"
+    },
+    {
+      "path": "scripts/dev/cafe_interior_kit/cafe_kit.gd",
+      "hash": "ec128b14ea6c5f84cf343f77ce2da6635098c14e78cc104679ae6d8e241b427b"
+    },
+    {
+      "path": "scenes/dev/cafe_interior_slice/cafe_interior_slice_v1.tscn",
+      "hash": "52030c0a1e48d7a6fec1d7ed181872edbd679f9a2b093a5fa3066558719a31db"
+    },
+    {
+      "path": "scenes/dev/cafe_interior_kit/cafe_interior_kit_v1.tscn",
+      "hash": "90f3bcd6ba474b212a3ffd708282891452e03799dacd90f19a60aa5db5d758cc"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/01_CURRENT_BEFORE.png",
+      "sha256": "6503ac217f39b878266458139595cdb3189b1a1d7d014f8c4c3ae519ad6e5763"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/02_RECOVERED_FULL_SLICE.png",
+      "sha256": "fe5bec196180c54b0e0eecb92af09e4a6658a9ae339696d83b98dbb1437cb8d8"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/03_HERO_TARGET_SIDE_BY_SIDE.png",
+      "sha256": "b14c548847e0c2afc1203ab5dfe9a1581f7e61f55d40243e1300221aa35da230"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/04_COUNTER_CLOSE.png",
+      "sha256": "60694186d393396eae510a148a0ee473cc6bdfda4d51b9553fcac94c36ad284a"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/05_SEATING_CLOSE.png",
+      "sha256": "5667dbd5b4154eb2ac3407ed8212a51edaff8948c370a31c2c6c02154c2e4828"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/06_DEPTH_FRONT_BACK.png",
+      "sha256": "0dd2f790a52c115162c48fb9d4fce6d0d1df394660dc1844b95c2d9c2d1044f6"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/07_GAMEPLAY_SCALE.png",
+      "sha256": "7c579c97411e00291e97f59b3cbf60f09e574504cddb2218dd419272d965ca98"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/MOVING_CHARACTER_CAFE_PROOF.mp4",
+      "sha256": "35d443f88fef4aa3c9eb85992a1c6e002dea3a324514113d851170a0db7d0872"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/MOVING_CHARACTER_CAFE_PROOF.gif",
+      "sha256": "48f84cb461d088263f47d6b18124d8ae7e93ead52a85cc04f09cef3bec0b6634"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/native_runtime_proof.json",
+      "sha256": "0354484da3ccee22471a9325c49ecddf6bef7ba3a5765413e9a15a0b93c0daf7"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/proof_input_identity.json",
+      "sha256": "2143e69fcf899d645bd1a13324d33a42d1232f5f8c42d60968df08f8e69af1c3"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/recovery_logic_checks.json",
+      "sha256": "604eb75c06dd3666d1ec77e69dd1c17924be917396d3f87d5a627612477b611f"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/processing_checks.json",
+      "sha256": "971acc441e84fe88f0b99f72745cad91b1d1243d6c4de969a9bf08508fd86b9e"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/pixel_occlusion_checks.json",
+      "sha256": "e1e169bba4315d5e2d1f4928d3c091637292acac22e702ded7d6115c11930f25"
+    },
+    {
+      "path": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/final_parity.json",
+      "sha256": "7c8d70884e6e261fd8ba877f212f5a52d1a6a254faecfd583c5ea43230d9eb66"
+    }
+  ],
+  "source_sha256": "beeed81250e146da86e3f5f9d07a245266ebd1246c8d457312580d151940e1c6",
+  "human_decision_text": "HUMAN VISUAL REVIEW DECISION\nWILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1\n\nDECISION: APPROVED\n\nI accept the recovered café as the visual baseline for the\nWilliCat Café Playable Slice V1.\n\nApproved aspects:\n\n- café scale and intimacy\n- service-zone prominence\n- rear architecture richness\n- furniture scale/grouping\n- floor-to-object balance\n- counter depth\n- table/chair depth\n- character readability\n- front/behind occlusion behavior\n- WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1 compatibility\n\nThe Hero Target remains a POLISH / MOOD ceiling,\nnot a requirement for one-to-one object density or composition.\n\nDo NOT regenerate the current café asset kit.\n\nDo NOT restart Visual Fidelity Recovery.\n\nRecord:\n\nTECHNICAL: PASS\nVISUAL FIDELITY RECOVERY: PASS\nHUMAN VISUAL REVIEW: APPROVED\n\nThis approval establishes the current recovered café\nas the baseline for subsequent visual polish work.\n\nRemaining visual differences from the Hero Target\nsuch as richer ambient lighting, foreground dressing,\nplant life, subtle service-area detail and atmospheric effects\nbelong to the NEXT POLISH PASS rather than another recovery pass.\n\nDo not commit.\nDo not push.",
+  "human_decision_text_sha256": "774ede9e5104405f6d55018d034380a6f725edf0392ad095fe07b3c3b52a7df3",
+  "approval_scope": "human café visual baseline acceptance; not production publication/signing/rights clearance",
+  "production_credential_proof": null,
+  "production_authentication": "NOT ASSERTED; conversation decision is recorded, no publisher credential/signature fabricated",
+  "production_publication_authorized": false,
+  "production_ready_override": false,
+  "prior_native_proof_and_failed_before_evidence": "retained unchanged; pre-approval snapshots remain historical",
+  "invalidation": "material art, motion, visual assembly or evidence-identity changes must not inherit this exact baseline approval silently"
+}

@@ -1,0 +1,1 @@
+{"bundle_recompiled":false,"compiler_changed_after_bundle_creation":false,"forge_tests":62,"frozen_contracts_changed":false,"gameplay_regression_scripts":3,"mvp_tests_latest":56,"phase0_tests":80,"reason":"Frozen Phase 0 safe_path restricts bundle checker to temporary roots; repository inspector now uses separate read-only Store verifier","source_or_motion_changed":false}

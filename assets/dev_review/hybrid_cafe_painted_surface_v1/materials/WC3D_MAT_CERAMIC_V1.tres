@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/painted_surface.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png" id="2"]
+[resource]
+resource_name = "WC3D_MAT_CERAMIC_V1"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.9411764705882353, 0.8823529411764706, 0.788235294117647, 1)
+shader_parameter/source_mean = Vector3(0.8364414692862749, 0.7335481703001957, 0.5490796823204012)
+shader_parameter/paint_strength = 0.58
+shader_parameter/paint_scale = Vector2(0.65, 0.65)
+shader_parameter/material_roughness = 0.83
+shader_parameter/restrained_specular = 0.1
+shader_parameter/edge_warmth = 0.045
+shader_parameter/cavity_strength = 0.20
+shader_parameter/foliage_pigment = false
+shader_parameter/pigment_dark = Color(0.2392,0.3373,0.2157,1)
+shader_parameter/pigment_light = Color(0.5412,0.6118,0.4078,1)

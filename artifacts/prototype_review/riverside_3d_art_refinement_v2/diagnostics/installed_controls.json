@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "test": "three_playable_controls_exist"
+    },
+    {
+      "passed": true,
+      "test": "visible_Walk_route_button"
+    },
+    {
+      "passed": true,
+      "test": "Walk_route_button_moves_protagonist"
+    },
+    {
+      "passed": true,
+      "test": "route_debug_and_NPC_width_controls_toggle"
+    }
+  ],
+  "failed": 0,
+  "passed": 4
+}

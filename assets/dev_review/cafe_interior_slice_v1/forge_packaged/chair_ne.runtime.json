@@ -1,0 +1,47 @@
+{
+  "asset_id": "chair_ne",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/chair_ne.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_ne.png",
+  "source_sha256": "4404276072a80b7c1a9e2fc71f41528ed16741173c8793eada14f14f27155263",
+  "runtime_sha256": "09945a4179949ded110947d5dece362db65b22586bec1e36bcd3b0405f6fa462",
+  "source_dimensions": [
+    1284,
+    1225
+  ],
+  "runtime_dimensions": [
+    859,
+    1084
+  ],
+  "source_visual_bounds": [
+    257,
+    94,
+    1084,
+    1162
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    843,
+    1084
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    429.5,
+    1084
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 13046,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

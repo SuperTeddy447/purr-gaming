@@ -1,0 +1,175 @@
+/private/tmp/willicat_blender_kit_stage/tools/willicat_hybrid_cafe_kit/blender_build.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('WC_MAT_'+name);m.use_nodes=True;n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=(*color,1);n.inputs['Roughness'].default_value=roughness;n.inputs['Metallic'].default_value=0;n.inputs['Specular IOR Level'].default_value=.13
+ข้อมูล: Saved as "WC_CAFE_Wall_Cream_A.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: CedarRegistrationStile_Mesh
+21:32:07 | INFO: Primitives created: 3
+21:32:07 | INFO: Finished glTF 2.0 export in 0.019751787185668945 s
+
+ข้อมูล: Saved as "WC_CAFE_Wall_Window_A.blend"
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: CedarRegistrationStile_Mesh.002
+21:32:07 | INFO: Primitives created: 5
+21:32:07 | INFO: Finished glTF 2.0 export in 0.010347127914428711 s
+
+ข้อมูล: Saved as "WC_CAFE_Beam_Cedar_A.blend"
+Warning: No mesh data to join
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: SoftCedarBeam_Mesh
+21:32:07 | INFO: Primitives created: 1
+21:32:07 | INFO: Finished glTF 2.0 export in 0.002917766571044922 s
+
+ข้อมูล: Saved as "WC_CAFE_Post_Cedar_A.blend"
+Warning: No mesh data to join
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: SoftCedarBeam_Mesh.001
+21:32:07 | INFO: Primitives created: 1
+21:32:07 | INFO: Finished glTF 2.0 export in 0.003251314163208008 s
+
+ข้อมูล: Saved as "WC_CAFE_Window_Recess_A.blend"
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: QuietPaperBacking_Mesh
+21:32:07 | INFO: Primitives created: 3
+21:32:07 | INFO: Finished glTF 2.0 export in 0.0067670345306396484 s
+
+ข้อมูล: Saved as "WC_CAFE_Window_Sill_A.blend"
+Warning: No mesh data to join
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: SoftCedarBeam_Mesh.002
+21:32:07 | INFO: Primitives created: 1
+21:32:07 | INFO: Finished glTF 2.0 export in 0.003033161163330078 s
+
+ข้อมูล: Saved as "WC_CAFE_Entrance_Open_A.blend"
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: BeveledEntranceArch_Mesh
+21:32:07 | INFO: Primitives created: 2
+21:32:07 | INFO: Finished glTF 2.0 export in 0.005231142044067383 s
+
+ข้อมูล: Saved as "WC_CAFE_Trim_Cedar_A.blend"
+Warning: No mesh data to join
+21:32:07 | INFO: Starting glTF 2.0 export
+21:32:07 | INFO: Extracting primitive: SoftCedarBeam_Mesh.003
+21:32:07 | INFO: Primitives created: 1
+21:32:07 | INFO: Finished glTF 2.0 export in 0.0028772354125976562 s
+
+ข้อมูล: Saved as "WC_CAFE_Floor_Section_A.blend"
+21:32:08 | INFO: Starting glTF 2.0 export
+21:32:08 | INFO: Extracting primitive: DioramaFoundation_Mesh
+21:32:08 | INFO: Primitives created: 2
+21:32:08 | INFO: Finished glTF 2.0 export in 0.01724696159362793 s
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Straight_A.blend"
+21:32:08 | INFO: Starting glTF 2.0 export
+21:32:08 | INFO: Extracting primitive: CedarTopNosing_Mesh
+21:32:08 | INFO: Primitives created: 5
+21:32:08 | INFO: Finished glTF 2.0 export in 0.01447606086730957 s
+
+ข้อมูล: Saved as "WC_CAFE_Counter_End_A.blend"
+21:32:08 | INFO: Starting glTF 2.0 export
+21:32:08 | INFO: Extracting primitive: CedarTopNosing_Mesh.001
+21:32:08 | INFO: Primitives created: 5
+21:32:08 | INFO: Finished glTF 2.0 export in 0.008752822875976562 s
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Short_A.blend"
+21:32:08 | INFO: Starting glTF 2.0 export
+21:32:08 | INFO: Extracting primitive: CedarTopNosing_Mesh.002
+21:32:08 | INFO: Primitives created: 5
+21:32:08 | INFO: Finished glTF 2.0 export in 0.009472846984863281 s
+
+ข้อมูล: Saved as "WC_CAFE_Espresso_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: CoffeeSurface_Mesh
+21:32:09 | INFO: Primitives created: 6
+21:32:09 | INFO: Finished glTF 2.0 export in 0.01649785041809082 s
+
+ข้อมูล: Saved as "WC_CAFE_Grinder_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: CoffeeHopper_Mesh
+21:32:09 | INFO: Primitives created: 4
+21:32:09 | INFO: Finished glTF 2.0 export in 0.006475925445556641 s
+
+ข้อมูล: Saved as "WC_CAFE_POS_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: POSBase_Mesh
+21:32:09 | INFO: Primitives created: 4
+21:32:09 | INFO: Finished glTF 2.0 export in 0.0070247650146484375 s
+
+ข้อมูล: Saved as "WC_CAFE_Cup_Saucer_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: CoffeeSurface_Mesh.004
+21:32:09 | INFO: Primitives created: 2
+21:32:09 | INFO: Finished glTF 2.0 export in 0.00453495979309082 s
+
+ข้อมูล: Saved as "WC_CAFE_Table_Round_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: ApronBead_Mesh
+21:32:09 | INFO: Primitives created: 3
+21:32:09 | INFO: Finished glTF 2.0 export in 0.006891012191772461 s
+
+ข้อมูล: Saved as "WC_CAFE_Chair_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: BackSpindle_Mesh
+21:32:09 | INFO: Primitives created: 4
+21:32:09 | INFO: Finished glTF 2.0 export in 0.008296966552734375 s
+
+ข้อมูล: Saved as "WC_CAFE_Shelf_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: ShelfDiagonal_Mesh
+21:32:09 | INFO: Primitives created: 3
+21:32:09 | INFO: Finished glTF 2.0 export in 0.0062808990478515625 s
+
+ข้อมูล: Saved as "WC_CAFE_Shelf_Short_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: ShelfDiagonal_Mesh.002
+21:32:09 | INFO: Primitives created: 3
+21:32:09 | INFO: Finished glTF 2.0 export in 0.0070841312408447266 s
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Floor_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: AuthoredCurvedLeaf_Mesh
+21:32:09 | INFO: Primitives created: 6
+21:32:09 | INFO: Finished glTF 2.0 export in 0.025339841842651367 s
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Table_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: AuthoredCurvedLeaf_Mesh.001
+21:32:09 | INFO: Primitives created: 6
+21:32:09 | INFO: Finished glTF 2.0 export in 0.010344982147216797 s
+
+ข้อมูล: Saved as "WC_CAFE_Ceramic_Jar_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: BlankPaperLabel_Mesh
+21:32:09 | INFO: Primitives created: 3
+21:32:09 | INFO: Finished glTF 2.0 export in 0.00570988655090332 s
+
+ข้อมูล: Saved as "WC_CAFE_Lamp_Hanging_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: HangingCord_Mesh
+21:32:09 | INFO: Primitives created: 4
+21:32:09 | INFO: Finished glTF 2.0 export in 0.007884979248046875 s
+
+ข้อมูล: Saved as "WC_CAFE_Lamp_Wall_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: CurvedBracket_Mesh
+21:32:09 | INFO: Primitives created: 3
+21:32:09 | INFO: Finished glTF 2.0 export in 0.006739139556884766 s
+
+ข้อมูล: Saved as "WC_CAFE_Sign_Blank_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: QuietBlankSign_Mesh
+21:32:09 | INFO: Primitives created: 4
+21:32:09 | INFO: Finished glTF 2.0 export in 0.007321834564208984 s
+
+ข้อมูล: Saved as "WC_CAFE_Cat_Cushion_A.blend"
+21:32:09 | INFO: Starting glTF 2.0 export
+21:32:09 | INFO: Extracting primitive: CedarRestBase_Mesh
+21:32:09 | INFO: Primitives created: 2
+21:32:09 | INFO: Finished glTF 2.0 export in 0.003981828689575195 s
+
+WILLICAT FULL MODULAR KIT BUILD COMPLETE 27
+ข้อมูล: Saved as "WC_CAFE_Shared_Materials.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,1627 @@
+{
+	"method": "one fresh Godot process per branch to detect cross-scene texture-memory counter underflow; 3s warmup, 1.3s settling, 240frames discard60; desktop vsync, not GPU/phone timing",
+	"metrics": {
+		"previous_hybrid": [
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.339
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.117
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.277
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.449
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.045
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.025
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.33
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.514
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.398
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.042
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.623
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 11.662
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 4.286
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.145
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.3
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.036
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.917
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.102
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.159
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.519
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.777
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.021
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.263
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.947
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.173
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.326
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.524
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.937
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.635
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.112
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.061
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.229
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.464
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.249
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.923
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.645
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.609
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.003
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.062
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.871
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.003
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.857
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.803
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.188
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.257
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.287
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.374
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.34
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.289
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.395
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.441
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.181
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.295
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.807
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.293
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.89
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.739
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.332
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.318
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.354
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.748
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.73
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.987
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.635
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.456
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.262
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.39
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.445
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.334
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.218
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.346
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.39
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.037
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.373
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.131
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.01
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.457
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.442
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.21
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.864
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.414
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.999
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.981
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.252
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 10.158
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.286
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.043
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 10.914
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.947
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.216
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.454
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.079
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.231
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.504
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.919
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.212
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.338
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.507
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.543
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.247
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.547
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 42.724
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.931
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.159
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.328
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.298
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.313
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 14.593,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.291
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.316
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.411
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.253
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.347
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.387
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.301
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.261
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.549
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.154
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.395
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.251
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.405
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.224
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.399
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.273
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.373
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.316
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.682
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.109
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.237
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.284
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.405
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.253
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.696
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.256
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.654
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.779
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.307
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.819
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.41
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.077
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.344
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.402
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.443
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 7.762
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.638
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.011
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.467
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.263
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.297
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.291
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.039
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.021
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.471
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.435
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.105
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.505
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.567
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.426
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.026
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.154
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.212
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.231
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.435
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 9.179
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 6.87
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.075
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.256
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.236
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.368
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.27
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.393
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.384
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.32
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.416
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.359
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.269
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.298
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.476
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.363
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.296
+			},
+			{
+				"draw_calls": 78.0,
+				"process_ms": 42.442,
+				"rendered_objects": 145.0,
+				"rendered_primitives": 27178.0,
+				"texture_memory_bytes": 167266048.0,
+				"video_memory_bytes": 228720640.0,
+				"wall_frame_ms": 8.406
+			}
+		]
+	}
+}

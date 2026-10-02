@@ -1,0 +1,15 @@
+{
+  "scope": "DEV human review only",
+  "passed": true,
+  "prepared_with_installed_launcher": true,
+  "prepared_using_default_python_dependency_fallback": true,
+  "isolated_project": "/private/tmp/willicat_cafe_art_direction_human_review_v1/project",
+  "distinct_save_namespace": "WilliCatCafeArtDirectionDEVV1",
+  "art_variant_files_match_installed": 67,
+  "import_exit_code": 0,
+  "native_main_open": true,
+  "native_review_session": 36905,
+  "production_writes": false,
+  "original_content_parity": 4272,
+  "timestamp_utc": "2026-10-01T15:57:52.800185+00:00"
+}

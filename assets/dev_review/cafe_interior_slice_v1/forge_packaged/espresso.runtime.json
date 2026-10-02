@@ -1,0 +1,47 @@
+{
+  "asset_id": "espresso",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/espresso.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/espresso.png",
+  "source_sha256": "3875d5342d44baba83c096d51f1e894290ecb0af97d4eafa58b994ceb11209e2",
+  "runtime_sha256": "7b93fe0c5407e44d24f97946990d25a0a35336da9c897e3a3871f7afcc7e0dfe",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_dimensions": [
+    1329,
+    1014
+  ],
+  "source_visual_bounds": [
+    132,
+    19,
+    1429,
+    1017
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1313,
+    1014
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    664.5,
+    1014
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 10759,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

@@ -1,0 +1,77 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+EXECUTED_ASSERTION 1
+EXECUTED_ASSERTION 2
+EXECUTED_ASSERTION 3
+EXECUTED_ASSERTION 4
+EXECUTED_ASSERTION 5
+EXECUTED_ASSERTION 6
+EXECUTED_ASSERTION 7
+HOME cafe: Walking to front threshold
+EXECUTED_ASSERTION 8
+HOME front_plaza: Walking to front threshold
+HOME front_plaza: Walking to front plaza
+HOME front_plaza: Walking to river front depth
+HOME riverside: Walking to river front depth
+HOME riverside: Walking to river behind depth
+HOME riverside: Walking to riverside
+HOME riverside: Walking to return plaza
+HOME front_plaza: Walking to return plaza
+HOME front_plaza: Walking to cafe return
+HOME cafe: Walking to cafe return
+HOME cafe: Walking to rear threshold
+HOME back_garden: Walking to rear threshold
+HOME back_garden: Walking to back garden
+HOME back_garden: Mochi sniffs the Garden plants
+HOME back_garden: Garden sniff complete
+HOME back_garden: Walking to final cafe
+HOME cafe: Walking to final cafe
+HOME cafe: Customer enters
+HOME cafe: Customer orders coffee
+HOME cafe: Coffee order → brewing
+HOME cafe: Mochi prepares coffee
+HOME cafe: Coffee ready → carrying
+HOME cafe: Mochi serves customer
+HOME cafe: Customer sits
+HOME cafe: Customer leaves
+HOME cafe: Mochi returns idle
+HOME cafe: Order complete
+HOME cafe: Ready for next customer
+HOME cafe: Saved Home / cafe
+HARDENING nav revision=2 polygons=67 obstructions=28
+HOME cafe: Loaded Home / cafe
+HOME cafe: Proof complete
+EXECUTED_ASSERTION 9
+EXECUTED_ASSERTION 10
+EXECUTED_ASSERTION 11
+EXECUTED_ASSERTION 12
+EXECUTED_ASSERTION 13
+EXECUTED_ASSERTION 14
+EXECUTED_ASSERTION 15
+EXECUTED_ASSERTION 16
+HARDENING nav revision=3 polygons=67 obstructions=28
+EXECUTED_ASSERTION 17
+HOME cafe: Saved Home / cafe
+EXECUTED_ASSERTION 18
+HARDENING nav revision=4 polygons=67 obstructions=28
+HOME cafe: Loaded Home / cafe
+EXECUTED_ASSERTION 19
+EXECUTED_ASSERTION 20
+EXECUTED_ASSERTION 21
+EXECUTED_ASSERTION 22
+HOME back_garden: Walk by clicking, or run the route
+EXECUTED_ASSERTION 23
+HOME back_garden: Saved Home / back_garden
+EXECUTED_ASSERTION 24
+EXECUTED_ASSERTION 25
+HOME cafe: Walk by clicking, or run the route
+EXECUTED_ASSERTION 26
+HARDENING nav revision=5 polygons=67 obstructions=28
+HOME back_garden: Walk by clicking, or run the route
+HOME back_garden: Loaded Home / back_garden
+EXECUTED_ASSERTION 27
+EXECUTED_ASSERTION 28
+--- HOME CONTINUOUS WORLD V1 PASSED ---

@@ -1,0 +1,155 @@
+{
+  "pairs": [
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_A",
+      "source_glb_sha256": "6f6e1e7d9ed28220aabf7c93978f39c359a9c2e7d30fdd8a9709244b128262d6",
+      "runtime_glb_sha256": "6f6e1e7d9ed28220aabf7c93978f39c359a9c2e7d30fdd8a9709244b128262d6",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_B",
+      "source_glb_sha256": "4b7486c8abbd7b6d8533ec9bb4d593ea2ceab62df320b369254a269e965c9c60",
+      "runtime_glb_sha256": "4b7486c8abbd7b6d8533ec9bb4d593ea2ceab62df320b369254a269e965c9c60",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_C",
+      "source_glb_sha256": "0456a5d3c07fb420bcb44498414916fa79dada4be2f608a1ef8fb4d2bbbbf531",
+      "runtime_glb_sha256": "0456a5d3c07fb420bcb44498414916fa79dada4be2f608a1ef8fb4d2bbbbf531",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Straight_A",
+      "source_glb_sha256": "240e2a0e99d097eb8099ab217992c3c3efe82be1e2c186bac0cdecd973ff2fb8",
+      "runtime_glb_sha256": "240e2a0e99d097eb8099ab217992c3c3efe82be1e2c186bac0cdecd973ff2fb8",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Straight_B",
+      "source_glb_sha256": "ce01a6efc607567ea0ac9e7edde9ccb8472c6b2c607ddbdb4be5a1418da3f21a",
+      "runtime_glb_sha256": "ce01a6efc607567ea0ac9e7edde9ccb8472c6b2c607ddbdb4be5a1418da3f21a",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Vegetation_A",
+      "source_glb_sha256": "2eb66bd208e8c2e53f51f46a6eec2111c53ef4f41b0dd40d193a0aed8f9a30db",
+      "runtime_glb_sha256": "2eb66bd208e8c2e53f51f46a6eec2111c53ef4f41b0dd40d193a0aed8f9a30db",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_PathTransition_A",
+      "source_glb_sha256": "531354d70214bb123b9bc00c65f4c6a975dac63d357b8185b4516b2217c8bd61",
+      "runtime_glb_sha256": "531354d70214bb123b9bc00c65f4c6a975dac63d357b8185b4516b2217c8bd61",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Inner_A",
+      "source_glb_sha256": "1d7b8079ac5fc121498bf9dfb1b6ea70f30bfd90c543b45c704e2edf228d06f5",
+      "runtime_glb_sha256": "1d7b8079ac5fc121498bf9dfb1b6ea70f30bfd90c543b45c704e2edf228d06f5",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Outer_A",
+      "source_glb_sha256": "9ddd91246cc86953626e7e1628d41c68efb13e3d2705c557e666ad1d28caef9d",
+      "runtime_glb_sha256": "9ddd91246cc86953626e7e1628d41c68efb13e3d2705c557e666ad1d28caef9d",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Deck_A",
+      "source_glb_sha256": "da136758df36583aa7d1bd37048a3cf1ad0cb813dd91f80d259fafcec589db45",
+      "runtime_glb_sha256": "da136758df36583aa7d1bd37048a3cf1ad0cb813dd91f80d259fafcec589db45",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Rail_A",
+      "source_glb_sha256": "098bb05619d51be9a91842f407ccbb3a1d702a6fd0b5ee1009e28b303edbfa07",
+      "runtime_glb_sha256": "098bb05619d51be9a91842f407ccbb3a1d702a6fd0b5ee1009e28b303edbfa07",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Abutment_A",
+      "source_glb_sha256": "377769badbb19f7697848e078ce7d19c31116b73b91a2abbe548ca84638820ff",
+      "runtime_glb_sha256": "377769badbb19f7697848e078ce7d19c31116b73b91a2abbe548ca84638820ff",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Wall_Window_A",
+      "source_glb_sha256": "cf9284f170825e3b58903f9695101ff630920073cb2ab8ef4725d8cfc676b55c",
+      "runtime_glb_sha256": "cf9284f170825e3b58903f9695101ff630920073cb2ab8ef4725d8cfc676b55c",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Entrance_Open_A",
+      "source_glb_sha256": "e48b20a93e624a1663ede4e7cba65dbfb1a88110eb1ecca32dd47af7ecefc7ba",
+      "runtime_glb_sha256": "e48b20a93e624a1663ede4e7cba65dbfb1a88110eb1ecca32dd47af7ecefc7ba",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Wall_Plain_A",
+      "source_glb_sha256": "8792dbf1cda72b63584c4a6dbce8648ff1f61d46066508890d1d788d280bb64f",
+      "runtime_glb_sha256": "8792dbf1cda72b63584c4a6dbce8648ff1f61d46066508890d1d788d280bb64f",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Roof_CedarSlate_A",
+      "source_glb_sha256": "86c07734ec31d767941ef57619a8aa638e23cda99e2c3f5378c1719ccc777a3e",
+      "runtime_glb_sha256": "86c07734ec31d767941ef57619a8aa638e23cda99e2c3f5378c1719ccc777a3e",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Awning_Jade_A",
+      "source_glb_sha256": "ba7a3aa0ea35cddeedb4c6861949053f912a2f61491af4d4e4ab5118a6bf63a4",
+      "runtime_glb_sha256": "ba7a3aa0ea35cddeedb4c6861949053f912a2f61491af4d4e4ab5118a6bf63a4",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Sign_Blank_A",
+      "source_glb_sha256": "4b0d9072cf8b73a7cfbfcc5eab2a8b158e02b64a90eb57dc5712e03d9ddf5195",
+      "runtime_glb_sha256": "4b0d9072cf8b73a7cfbfcc5eab2a8b158e02b64a90eb57dc5712e03d9ddf5195",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Medium_A",
+      "source_glb_sha256": "f0558d54919a88ccbee7679106751ef71fef340eacd78f45abd56604c329edbc",
+      "runtime_glb_sha256": "f0558d54919a88ccbee7679106751ef71fef340eacd78f45abd56604c329edbc",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Small_A",
+      "source_glb_sha256": "4af0cecb4cfd7c00ed36aefbe2cd1ca58ea8adafae746716bb47a728419596ac",
+      "runtime_glb_sha256": "4af0cecb4cfd7c00ed36aefbe2cd1ca58ea8adafae746716bb47a728419596ac",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Shrub_Riverside_A",
+      "source_glb_sha256": "f578527f5b39fe0ff3a1dfeef4943c23cb28141aa26d7c428debbb24017aa77b",
+      "runtime_glb_sha256": "f578527f5b39fe0ff3a1dfeef4943c23cb28141aa26d7c428debbb24017aa77b",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Grass_Bank_A",
+      "source_glb_sha256": "8e063e544ee0a8c7dfa9f1ae23753bacbb6271405b623d0e06a2e54526ed6641",
+      "runtime_glb_sha256": "8e063e544ee0a8c7dfa9f1ae23753bacbb6271405b623d0e06a2e54526ed6641",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Potted_Plant_A",
+      "source_glb_sha256": "66b946a02ccc8b6864141e8fdb11b9e3ee050580059f16e3413cb91da0dc9b48",
+      "runtime_glb_sha256": "66b946a02ccc8b6864141e8fdb11b9e3ee050580059f16e3413cb91da0dc9b48",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Background_House_A",
+      "source_glb_sha256": "c67a590fa96ae99f7b040073f0196336c02e73a83104018bd7bd9323df76683f",
+      "runtime_glb_sha256": "c67a590fa96ae99f7b040073f0196336c02e73a83104018bd7bd9323df76683f",
+      "same": true
+    },
+    {
+      "asset_id": "WC_RIVER_Background_Rise_A",
+      "source_glb_sha256": "489e36be11b1d07627e8904dbd663c977914d2dc0cb7b2f1e346a8355500a94b",
+      "runtime_glb_sha256": "489e36be11b1d07627e8904dbd663c977914d2dc0cb7b2f1e346a8355500a94b",
+      "same": true
+    }
+  ],
+  "passed": true
+}

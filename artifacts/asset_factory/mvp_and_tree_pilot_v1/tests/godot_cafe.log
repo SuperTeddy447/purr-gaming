@@ -1,0 +1,46 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HARDENING nav revision=1 polygons=37 obstructions=14
+HARDENING nav revision=2 polygons=37 obstructions=14
+PLACEHOLDER Ready | coins 0
+PLACEHOLDER Customer enters
+PLACEHOLDER Customer orders coffee
+PLACEHOLDER Coffee order → brewing
+PLACEHOLDER Mochi prepares coffee
+PLACEHOLDER Coffee ready → carrying
+PLACEHOLDER Mochi serves customer
+PLACEHOLDER Customer sits
+PLACEHOLDER Customer leaves
+PLACEHOLDER Mochi returns idle
+PLACEHOLDER Order complete | coins 1
+PLACEHOLDER Ready for next customer
+HARDENING nav revision=3 polygons=37 obstructions=14
+PLACEHOLDER Saved user://willicat_proxy_cafe_test_v1.save
+HARDENING nav revision=1 polygons=12 obstructions=4
+HARDENING nav revision=2 polygons=12 obstructions=4
+PLACEHOLDER Ready | coins 1
+PLACEHOLDER Saved user://willicat_proxy_cafe_test_v1.save.garden
+HARDENING nav revision=1 polygons=37 obstructions=14
+HARDENING nav revision=2 polygons=37 obstructions=14
+PLACEHOLDER Ready | coins 1
+HARDENING nav revision=1 polygons=12 obstructions=4
+HARDENING nav revision=2 polygons=12 obstructions=4
+PLACEHOLDER Ready | coins 1
+PLACEHOLDER Loaded home_cafe_garden | coins 1
+PLACEHOLDER Garden: Mochi sniffs the plants
+HARDENING nav revision=1 polygons=37 obstructions=14
+HARDENING nav revision=2 polygons=37 obstructions=14
+PLACEHOLDER Ready | coins 1
+PLACEHOLDER Loaded home_cafe_main | coins 1
+PLACEHOLDER Customer enters
+PLACEHOLDER Customer orders coffee
+PLACEHOLDER Coffee order → brewing
+PLACEHOLDER Mochi prepares coffee
+PLACEHOLDER Coffee ready → carrying
+PLACEHOLDER Mochi serves customer
+PLACEHOLDER Customer sits
+PLACEHOLDER Customer leaves
+PLACEHOLDER Mochi returns idle
+PLACEHOLDER Order complete | coins 2
+PLACEHOLDER Ready for next customer
+--- PROXY CAFE PROOF V1 PASSED ---

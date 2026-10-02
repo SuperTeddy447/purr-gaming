@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/dev/hybrid_cafe_hero_fidelity/asset_wrapper.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/glb/architecture/WC_CAFE_Window_Recess_A.glb" id="2"]
+[node name="WC_CAFE_Window_Recess_A" type="Node3D"]
+script = ExtResource("1")
+asset_id = "WC_CAFE_Window_Recess_A"
+[node name="VisualRoot" type="Node3D" parent="."]
+[node name="ImportedGeometry" parent="VisualRoot" instance=ExtResource("2")]

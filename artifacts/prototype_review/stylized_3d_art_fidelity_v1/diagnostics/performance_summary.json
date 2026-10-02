@@ -1,0 +1,42 @@
+{
+  "fresh_process_medians": {
+    "approved_2d": {
+      "draw_calls": 99.0,
+      "process_ms": 13.458,
+      "rendered_objects": 245.0,
+      "rendered_primitives": 1272.0,
+      "texture_memory_bytes": 112461568.0,
+      "video_memory_bytes": 164954112.0,
+      "wall_frame_ms": 8.2865
+    },
+    "previous_hybrid": {
+      "draw_calls": 78.0,
+      "process_ms": 14.593,
+      "rendered_objects": 145.0,
+      "rendered_primitives": 27178.0,
+      "texture_memory_bytes": 167266048.0,
+      "video_memory_bytes": 228720640.0,
+      "wall_frame_ms": 8.304
+    },
+    "stylized_hybrid": {
+      "draw_calls": 131.0,
+      "process_ms": 15.473,
+      "rendered_objects": 204.0,
+      "rendered_primitives": 78968.0,
+      "texture_memory_bytes": 173049600.0,
+      "video_memory_bytes": 237109248.0,
+      "wall_frame_ms": 8.328
+    },
+    "prerendered_static_2d": {
+      "draw_calls": 2.0,
+      "process_ms": 9.674,
+      "rendered_objects": 72.0,
+      "rendered_primitives": 144.0,
+      "texture_memory_bytes": 7256832.0,
+      "video_memory_bytes": 37208064.0,
+      "wall_frame_ms": 8.319500000000001
+    }
+  },
+  "sequential_texture_memory_counter": "INVALID: unsigned-counter overflow after scene teardown; retained raw evidence, excluded from memory comparison",
+  "measurement_not_mobile_certification": true
+}

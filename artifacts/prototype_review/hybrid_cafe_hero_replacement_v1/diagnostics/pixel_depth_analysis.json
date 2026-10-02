@@ -1,0 +1,27 @@
+{
+  "counter_back": {
+    "overlap_pixels": 1240,
+    "object_dominant_pixels": 1239,
+    "cat_dominant_pixels": 0,
+    "passed": true
+  },
+  "counter_front": {
+    "overlap_pixels": 969,
+    "object_dominant_pixels": 17,
+    "cat_dominant_pixels": 948,
+    "passed": true
+  },
+  "table_back": {
+    "overlap_pixels": 1169,
+    "object_dominant_pixels": 998,
+    "cat_dominant_pixels": 171,
+    "passed": true
+  },
+  "table_front": {
+    "overlap_pixels": 1228,
+    "object_dominant_pixels": 15,
+    "cat_dominant_pixels": 1207,
+    "passed": true
+  },
+  "method": "Four-layer actor/object/background/composite, fixed roots/camera; RGB delta12/L1 margin5 are diagnostic classification choices, not motion/visual quality tolerances."
+}

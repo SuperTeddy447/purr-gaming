@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/cedar_painted.png" id="1"]
+[resource]
+resource_name = "WC_MAT_Cedar_Dark"
+albedo_color = Color(0.4300000071525574, 0.3799999952316284, 0.3400000035762787, 1.0)
+roughness = 0.9399999976158142
+metallic = 0.0
+specular_mode = 0
+cull_mode = 0
+texture_filter = 3
+albedo_texture = ExtResource("1")

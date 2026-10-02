@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "executions": {
+    "cavity": {
+      "exit_code": 0,
+      "seconds": 0.42871475,
+      "script": "test_painted_surface_materials_v1.gd",
+      "count": 63
+    },
+    "regression_cafe": {
+      "exit_code": 0,
+      "seconds": 29.228514542,
+      "script": "test_cafe_visual_recovery_v1.gd",
+      "count": 39
+    },
+    "regression_home": {
+      "exit_code": 0,
+      "seconds": 52.975114334,
+      "script": "painted_regression_test_home_continuous_world_v1.gd",
+      "count": 28
+    },
+    "regression_world": {
+      "exit_code": 0,
+      "seconds": 26.475773958000005,
+      "script": "painted_regression_test_world_architecture_hardening_v1.gd",
+      "count": 172
+    },
+    "regression_focus": {
+      "exit_code": 0,
+      "seconds": 0.3724583329999973,
+      "script": "test_focus_retreat_v1.gd",
+      "count": 33
+    }
+  },
+  "instrumentation": "Original regression scripts unchanged; Home/world counting copies only in isolated temporary project."
+}

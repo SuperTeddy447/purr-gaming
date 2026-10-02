@@ -1,0 +1,13 @@
+{
+	"checks": {
+		"hero_floor_accepted": true,
+		"input_preserves_world_authority": true,
+		"invalid_pick_cannot_dispatch_navigation": true,
+		"outside_floor_rejected": true,
+		"removed_empty_floor_corner_rejected": true,
+		"valid_pick_arrives_original_world_point": true,
+		"valid_pick_dispatches_original_navigation": true
+	},
+	"count": 7,
+	"passed": true
+}

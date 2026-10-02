@@ -1,0 +1,37 @@
+{
+  "asset_family": "textile_catlife_family_v1",
+  "scope": "DEV_REVIEW_ONLY",
+  "provider": "OpenAI built-in imagegen",
+  "model_id": "UNAVAILABLE_FROM_TOOL_RESULT",
+  "seed": "UNAVAILABLE_FROM_TOOL_RESULT",
+  "generation_calls": 1,
+  "regenerations": 0,
+  "source_path": "source/textile_catlife_family_v1.png",
+  "source_sha256": "beeed81250e146da86e3f5f9d07a245266ebd1246c8d457312580d151940e1c6",
+  "source_dimensions_px": [
+    2172,
+    724
+  ],
+  "prompt_path": "generation_prompt.txt",
+  "prompt_sha256": "623eb96e6f8acc2f220d9ec9b61676d9e6b2a10bcd1778b82da3c457af872ace",
+  "visual_style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "reference_inputs_to_generation": [],
+  "reference_use": "textual approved material/projection vocabulary only; hero/board inspected for QA, no reference pixels supplied",
+  "review_reference_hashes": {
+    "hero": "ea5daff3c92e32bb7e525f542bf6fbd813d58e44ece50f81c418fb1c1ce5c639",
+    "asset_board": "f39690eb202a4c81498865097ac73f8ec037d4f839504c3b08e351421769deb2"
+  },
+  "rights": {
+    "dev_runtime": "human-authorized isolated task use; no external art conditioning",
+    "production_runtime": "unresolved/not approved by this task",
+    "publication_distribution": "unresolved/not approved by this task",
+    "raw_redistribution": "unresolved/not approved by this task"
+  },
+  "source_status": "immutable generated source preserved; no repaint or regeneration",
+  "human_visual_approval": "approved",
+  "production_publication": "blocked",
+  "metadata_limitations": "No license adjudication, provider model/version or seed invented; no authenticated production approval fabricated.",
+  "human_visual_review_record": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/human_visual_review_approved_v1.json",
+  "human_visual_review_record_sha256": "ccfc3403988be59db53043b0d7915dcfd44fdb39947ce99e2c1b1af4a66c8126",
+  "visual_baseline": "WilliCat Café Playable Slice V1 recovered café"
+}

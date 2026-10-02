@@ -1,0 +1,47 @@
+{
+  "asset_id": "seating_rug",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/seating_rug_extracted.png",
+  "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/seating_rug.png",
+  "source_sha256": "bdd5d298566d6e590721c44263787685de062af88936d325b8f299e7443d5e1c",
+  "runtime_sha256": "4fb3b8ad988ac9079724be4e530b7a3c8a59bdec6827101deecaff8817d3fe8a",
+  "source_dimensions": [
+    1284,
+    736
+  ],
+  "runtime_dimensions": [
+    1304,
+    392
+  ],
+  "source_visual_bounds": [
+    6,
+    224,
+    1278,
+    600
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1288,
+    392
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    652.0,
+    392
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 11185,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

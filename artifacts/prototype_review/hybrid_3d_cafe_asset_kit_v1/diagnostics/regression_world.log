@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HARDENING nav revision=1 polygons=21 obstructions=8
+HARDENING event variant=false
+HARDENING room ready nav=1
+HARDENING nav iteration=2 map=RID(824633720832) regionmap=RID(824633720832) worldmap=RID(824633720832) nearest=(75.0, 455.0)/(445.0, 455.0)
+HARDENING nav regions=[RID(120259084288)] vertices=[(369.0, 676.5), (180.0, 615.0), (350.0, 610.0), (420.0, 610.0), (421.0, 676.5), (467.0, 383.5), (467.0, 336.5), (489.0, 31.0), (489.0, 819.0), (31.0, 819.0), (170.0, 750.5), (369.0, 723.5)] enabled=true map_active=true region_iteration=1 region_point=(75.0, 455.0)
+HARDENING table path=[(75.00002, 455.0), (85.25536, 457.4078), (190.0, 482.0), (320.0, 482.0), (445.0, 455.0)] footprint=[P: (201.0, 391.0), S: (108.0, 80.0)]
+HARDENING nav revision=2 polygons=19 obstructions=8
+HARDENING moved chair_b to (-180.0, -180.0) nav=2
+HARDENING nav revision=3 polygons=21 obstructions=8
+HARDENING moved chair_b to (385.0, 595.0) nav=3
+HARDENING demo requests=[true, true, true, false, true, true, true]
+HARDENING coffee BREWING
+HARDENING coffee READY / CUP REVEAL
+HARDENING demo complete; reservations clear=true
+HARDENING nav revision=4 polygons=19 obstructions=8
+HARDENING moved espresso_station to (300.0, 235.0) nav=4
+HARDENING nav revision=5 polygons=22 obstructions=8
+HARDENING moved chair_a to (160.0, 591.0) nav=5
+HARDENING nav revision=6 polygons=21 obstructions=8
+HARDENING moved cat_bed to (130.0, 718.0) nav=6
+HARDENING nav revision=7 polygons=21 obstructions=8
+HARDENING moved plant to (410.0, 701.0) nav=7
+HARDENING coffee BREWING
+HARDENING coffee READY / CUP REVEAL
+HARDENING nav revision=8 polygons=21 obstructions=8
+HARDENING nav revision=9 polygons=23 obstructions=9
+HARDENING event variant=true
+HARDENING nav revision=10 polygons=21 obstructions=8
+HARDENING event variant=false
+HARDENING nav revision=11 polygons=23 obstructions=9
+HARDENING event variant=true
+HARDENING nav revision=12 polygons=21 obstructions=8
+HARDENING nav revision=1 polygons=24 obstructions=9
+HARDENING event variant=true
+HARDENING room ready nav=1
+HARDENING coffee BREWING
+HARDENING coffee READY / CUP REVEAL
+--- WORLD ARCHITECTURE HARDENING V1 PASSED ---
+KIT REGRESSION checks=172

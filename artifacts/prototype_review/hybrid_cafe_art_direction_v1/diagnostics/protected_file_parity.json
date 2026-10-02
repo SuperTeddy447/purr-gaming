@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "pre_task_content_files": 4272,
+  "changed": [],
+  "approved_cafe_binding_files": 164,
+  "excluded": "OS .DS_Store metadata and .git/.godot/.venv/node_modules/cache folders",
+  "scope": "Includes original Hybrid kit, approved 2D cafe, approved Tree Pilot, gameplay/nav/anchors/save source/schema/IDs"
+}

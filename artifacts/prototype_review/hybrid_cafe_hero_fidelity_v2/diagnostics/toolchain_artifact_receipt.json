@@ -1,0 +1,499 @@
+{
+  "scope": "DEV art review only; not canonical Factory candidate/proof/publication",
+  "timestamp_utc": "2026-10-01T17:07:08.130943+00:00",
+  "repository_head_before_install": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "toolchain": {
+    "blender_version": "5.2.1 LTS",
+    "blender_build": "9e2066aef7ef",
+    "godot": {
+      "build": "official",
+      "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (official)",
+      "timestamp": 0
+    },
+    "renderer": "mobile",
+    "driver": "metal",
+    "device": "Apple M2 Pro (Apple8)",
+    "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "executable": "/Users/teddywoot/willi-cat/tools/willicat_asset_forge/.venv/bin/python",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "pillow": "11.3.0",
+    "numpy": "2.0.2"
+  },
+  "recipes": {
+    "tools/willicat_cafe_hero_fidelity/run.py": "fca9c553579fb6c51c4eeeffc35809d26ec61f88b3f3d6fd7d511b010332103e",
+    "tools/willicat_cafe_hero_fidelity/Open_Cafe_Hero_Fidelity.command": "b5a9150e3601a604e35b432a3e03fb9905ef3f055b94e19085e12e5ea81f760f",
+    "tools/willicat_cafe_hero_fidelity/README.md": "75c13d97d2f5d7c255d381cadf68756f5fa41a614694e72352b125905d9943c2",
+    "tools/willicat_cafe_hero_fidelity/refine_service.py": "ad9faebfa6171dca02ea434b87e720343e7f1d587187bbe4f985f21b23de9e16"
+  },
+  "test_sources": {
+    "tests/test_cafe_hero_fidelity_input_v2.gd": "f8d80ad76031f0e377d65083a505669b5a07944ee0b9a06b856e523f387812eb",
+    "tests/test_hero_service_colors_v2.gd": "c2407967bd513d159eca7907b1052b41a478e1de7cc9dfbaf6a59502f8341a48",
+    "tests/profile_hybrid_cafe_hero_fidelity_v2.gd": "120fc640aff6888b08532428154e865f0ac2842bd2976d027479759736b3344b",
+    "tests/capture_hybrid_cafe_hero_fidelity_v2.gd": "d71bcdfba1bfbafa2b41efb0d650cb6d49da9ae55c1b211065b648b2d71bda23"
+  },
+  "sources": {
+    "assets_src/3d/cafe_hero_fidelity_v2/refinement_receipt.json": "4335a27e3a6672c1a92c93807e8b89f9bd16d458ab0d85507439adcc410a4d82",
+    "assets_src/3d/cafe_hero_fidelity_v2/counter/WC_CAFE_Counter_Straight_A.blend": "72496f27f37ed737bfab50e19f2dfb554c62563addf10b9b137a9a60757a39ec",
+    "assets_src/3d/cafe_hero_fidelity_v2/counter/WC_CAFE_Counter_End_A.blend": "8c3311c4592e128f616478b5388027902e5552d503d2cfe03d1afb9f56f92882",
+    "assets_src/3d/cafe_hero_fidelity_v2/counter/WC_CAFE_Counter_Short_A.blend": "5a250c7c8e629bc4c47290e0408cc8bbb264736d1689e04f6d9fd3bd1dc56851",
+    "assets_src/3d/cafe_hero_fidelity_v2/service/WC_CAFE_Grinder_A.blend": "87c4fdd734bd42cc97cdf97806253a9fca989f4f174ad43be1a65839af1987f1",
+    "assets_src/3d/cafe_hero_fidelity_v2/service/WC_CAFE_Espresso_A.blend": "15175b000f77e77fac8154212b824dec424f81b2e207777646a0c92ea4f061a7"
+  },
+  "tested_runtime_artifacts": {
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/material_recipe.json": "c2b40b258a7a889b027d00e47f36a16da6c4b991a8f22953c284540aa1790ecb",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/kit_manifest.json": "39de4c9617a33811a731b3418d9aed7140fbb135ac6f9001af674943566de277",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/painted_foliage.gdshader": "fc839cdbb2ebcfa78b379f892812c2ef104630c185ac8670aba2ac7d82dc5a9f",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/woven_rug.gdshader": "253aca2e503a311b9763343f05495c7acc5520b211797fdf702b004638a45f01",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/painted_family.gdshader": "269bfe448bc3729657ec07c4554304bda40b9f00f94442543d9c4b4efe7ec879",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Light.tres": "43ba7be2ff3dd1653fd85e5d077930210fccba548d2bed0c586fdb25015f99ab",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Foliage_Dark.tres": "084326e18fb7c0df852d349f12f7fd3419c5f6bb4b08e9948cf0e3f8f42547fb",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Lantern_Paper.tres": "efc4814b8804124f401536ce4401b6c004c4500ac6886b5a5b04d06027792d0d",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Foliage_Organic.tres": "becf7aca0af1e52fc0a03da9ee36f065ce41c4b2e431a845d9e47929fba9942d",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Coffee.tres": "8fdaf0d10e5d6f361cf9311f0e560205e7b9b1c52c4840c221ce9295f7495566",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Sage_Fabric.tres": "911a94df77bd784add09899d41ca22a859b129a93da693a2b241d848b335cdb4",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Ceramic_Offwhite.tres": "e4c94ba3a1f78d46369a289652a52c832245b7f0309a9f2d455de04572574e44",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Dark.tres": "ff38a482a4356933ceadd92e56c850d3f65a7086344b9253088edfca462dfe33",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Mid.tres": "bcce92a74b39841729021d80f99606fcccf5cf1fa1435e5d8618cf8cfb4eec99",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Plaster_Cream.tres": "468d949a5de65d5b78a0c52e455b29c74dbbd942df8d9ea8b0df7a068d275cd4",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Floor_Wood.tres": "5b52cbd22935e5da341206e5eeee6e8f4955451872d5c963b3933aec8d37769b",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Foliage_Light.tres": "675e943b9528b00daa2dd3008bc831d6f493efadf7dd8650f60180ff634594b9",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cream_Stone.tres": "f68c2c48a6fb85a5329d6e5cc5642f5189f3ff38fc454cd80e734bba8d3cd3a7",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Foliage.tres": "1fb77560b030908281343cd5f8348bc9e2e560da2c57bf8f2ef61700cc282f75",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Petal_Cream.tres": "a11a1cf9a3c7d55e5c47462082d82d984893d1cec98129054d83a3b10d221857",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Pastry_Warm.tres": "278f21b33d921997513f7d15dc33342204dfcd8be0619f6edf0b435032f871c9",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Woven_Rug.tres": "91f40dbe3e62a8ddbb5bf010123dd320dbacb575092dba846f10e950c6e85e10",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Indigo.tres": "72bb3eee97051931082048720dd43ac480f69b1c270ba85655203afffba417ca",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Paper_Warm.tres": "d9a97b3d756878d8c085310042d479ddc9426db7ba1006e3fe7a804a8379af8e",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Restrained_Metal.tres": "b9b4c4fe6ce8902878120965290f2def562bf0b9cc15ec34c43ba3f76f6ce5bb",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Charcoal_Trim.tres": "3a856e080a756e6ee297ee67e752385c455b6d17dde1200953a075e11b1592f8",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_Short_A.glb": "9821b76c8c1cff6076a2e4bb4952fb3693f4249b6b6a63c3988f3e9de6215cc4",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_Straight_A.glb": "ed72d5aa9e128901bff7e2b718d28d907bea964fc26870f8c1c1c37ca7a3d090",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_End_A.glb": "05bf637a15f62a3bd8ade0dc8b64947aff8653a02070dedd320c91b2a9b789fe",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/service/WC_CAFE_Espresso_A.glb": "cf5f1fb421b9ac9532bd17baebb6c8e45bee3cf07f39f925a3f7c6eb98c27456",
+    "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/service/WC_CAFE_Grinder_A.glb": "1303340f0fb61a03348e16b03bbe9307183b4ca50be15c7704b38e23618d8538",
+    "scripts/dev/hybrid_cafe_hero_fidelity/organic_layers.gd": "ac58ef9133a07963665d28415971aa6e13fa215f4ac5c256d5bb33dafe897693",
+    "scripts/dev/hybrid_cafe_hero_fidelity/cafe_hero_fidelity.gd": "524b6147de34694ea943ac3a0c3f2947a0c5562df4d69bb45a27d2ce685fd66c",
+    "scripts/dev/hybrid_cafe_hero_fidelity/asset_wrapper.gd": "8ecfd41953264cdcff0c1feba634bdb146b65e2ee2fd97f11247e6ff8404e183",
+    "scenes/dev/hybrid_cafe_hero_fidelity/hybrid_cafe_hero_fidelity_v2.tscn": "9dc9cd537257d5657e1eceb2dcd53d7f181dcd92a6accd85d151f2e3da2131c5",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Espresso_A.tscn": "0bbe47154bcdd1cd6a8c005e61a95ba495f5729665e3a343c07df43419fa9512",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Trim_Cedar_A.tscn": "26664f307387dcae87864418f45557591610c08329991b242ee81e5c0c5ba185",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Wall_Window_A.tscn": "1ae72384ae2f9f083307271daa8f2b55089b144a77948803adc8dbc60a28cb94",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Chair_A.tscn": "525aafa46759570063d7e1ea7cc36aaf3a0eaefe2e4484f24f24658ab85d27ac",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Cup_Saucer_A.tscn": "ea94d7a74e5b6645fb1058fb1705b3443df3c81a4391ad1e355402ad83c3cba3",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Planter_Table_A.tscn": "4b7c46c74f697f11a34c72e5f4d74143bc6e8adff272c8d880cdc501110986e2",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_POS_A.tscn": "5cc30dd8b718966c841c7132977b029fc2136faf1267c944c772487a01642ac9",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Floor_Section_A.tscn": "14dcc30983b1bc8b033a3bf94db332dc602fdcf56491d7efd91e0f9887db08ec",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Cat_Cushion_A.tscn": "4efac65900e418854160d16987c6f7464f2bb9a702dc67999cfad05c75d44233",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Entrance_Open_A.tscn": "f70600d4490cac22b6bb7fa9b9205255c8e8f02f6f45d9734be18545f853f318",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Lamp_Wall_A.tscn": "9bbb9a1b0823c38674edb7d3879306d8ab7f8e2531442de279ec73053b7fd201",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Planter_Floor_A.tscn": "c7ce0ebd8556a899d929513281780315b7847513ad81ab44acc4fd6f08e43bc8",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Grinder_A.tscn": "d727ce86f4ba200800d68db588dbb70c5630b0e9a50a8267f4a7f86ea8391769",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Counter_Straight_A.tscn": "14aeca6d5e4a14c908920dacaf9bd992dbb5204acbaecb2bf1b9897a9f8e1eca",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Sign_Blank_A.tscn": "0c9b41174b4ec5b28e399cb8da4eecbcb7f4fc0336b5f0f43e8a2a03778f46f8",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Ceramic_Jar_A.tscn": "ff918bae185722267cc45f9ee74c1e0c524c67daf71d1a3948ec68529ad7e127",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Beam_Cedar_A.tscn": "9645430bd4f1b347e10ba6da78d978f4f6004a816597cd3bdb07d0115646cc85",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Lamp_Hanging_A.tscn": "006095d7e6df9366e5a99ea159238e0ef068d9834e476cbeab6b02169fa40023",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Counter_Short_A.tscn": "f3f5beb9cda58977d8d933a6aca11adc6a499d84a594395efc13ad05e389f0ef",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Counter_End_A.tscn": "40d0f1adea2d1b4ea36b55bb2aab91e13975ee44cfca652174c09c9b9087139c",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Shelf_Short_A.tscn": "91b08d82816c5d0b11f93844532a38993166cf2dd09290f767fbe8ba30a02330",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Wall_Cream_A.tscn": "117a28d481e186c819f2881c3fa35834f9bd6442523bcddba2f21befbf9ddeea",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Window_Recess_A.tscn": "0f986cc43f54c140f7c1f86f10bd62250f19a382b3de0801028b3e7510c484cd",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Shelf_A.tscn": "75f9eeafdbf8dfb773148d030cc1e7bf39708d88456a69d1020131cc9eb7d3c0",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Window_Sill_A.tscn": "58ed25ccb206675202fe88eb25be1d35515e8e5c3f7ba7b0c512790f55b81218",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Table_Round_A.tscn": "407b8abb961766f25f5721a3c98aee6961218d7bf6580c1e79ea010804b1cfef",
+    "scenes/dev/hybrid_cafe_hero_fidelity/prefabs/WC_CAFE_Post_Cedar_A.tscn": "4cc9f778a6d8f0a8a1e30fa0ebe34e729fad9031c82e0d331970ddc05ee23878"
+  },
+  "resolved_glb_hashes": {
+    "WC_CAFE_Wall_Cream_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Wall_Cream_A.glb",
+      "sha256": "0e1e6158ad1413c39d674824aa28d8601f05f3def69cd6237d2ed1de0bd65716"
+    },
+    "WC_CAFE_Wall_Window_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/architecture/WC_CAFE_Wall_Window_A.glb",
+      "sha256": "45d872bdbf6ff3586e2d6b0e351779e91dfdbfe30b9a30134111a3280f0974a2"
+    },
+    "WC_CAFE_Beam_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Beam_Cedar_A.glb",
+      "sha256": "f5da4e708fea4e241d502fdb7c4b828d43a47d8d9b7bcac973c9b42b8cc15219"
+    },
+    "WC_CAFE_Post_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Post_Cedar_A.glb",
+      "sha256": "e1d64c3ca6b6fdf94e9ccae1293db176a212a23d4d6d76e15cf3766309388236"
+    },
+    "WC_CAFE_Window_Recess_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/architecture/WC_CAFE_Window_Recess_A.glb",
+      "sha256": "69eb57d5a715ec35da92dffa46b6e89c0856379a1e5e91b1311013724ebf9750"
+    },
+    "WC_CAFE_Window_Sill_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Window_Sill_A.glb",
+      "sha256": "75c1e33e066ed14cbd069118e208eafe6a6265a910baedc7380e89ef68553f68"
+    },
+    "WC_CAFE_Entrance_Open_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Entrance_Open_A.glb",
+      "sha256": "03da521604eb5c1a219a16440163738e6ee7bd9834b260170068baae38748df7"
+    },
+    "WC_CAFE_Trim_Cedar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Trim_Cedar_A.glb",
+      "sha256": "301a3b5e0399736962b3db83da353841e122b612c5c7decafc948b642b94ceb3"
+    },
+    "WC_CAFE_Floor_Section_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/architecture/WC_CAFE_Floor_Section_A.glb",
+      "sha256": "b583bbff3973a633b41b85dab77511ec2c6f34f8b6a0c03ac2cb95e798f5b0e6"
+    },
+    "WC_CAFE_Counter_Straight_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_Straight_A.glb",
+      "sha256": "ed72d5aa9e128901bff7e2b718d28d907bea964fc26870f8c1c1c37ca7a3d090"
+    },
+    "WC_CAFE_Counter_End_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_End_A.glb",
+      "sha256": "05bf637a15f62a3bd8ade0dc8b64947aff8653a02070dedd320c91b2a9b789fe"
+    },
+    "WC_CAFE_Counter_Short_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/counter/WC_CAFE_Counter_Short_A.glb",
+      "sha256": "9821b76c8c1cff6076a2e4bb4952fb3693f4249b6b6a63c3988f3e9de6215cc4"
+    },
+    "WC_CAFE_Espresso_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/service/WC_CAFE_Espresso_A.glb",
+      "sha256": "cf5f1fb421b9ac9532bd17baebb6c8e45bee3cf07f39f925a3f7c6eb98c27456"
+    },
+    "WC_CAFE_Grinder_A": {
+      "path": "assets/dev_review/hybrid_cafe_hero_fidelity_v2/glb/service/WC_CAFE_Grinder_A.glb",
+      "sha256": "1303340f0fb61a03348e16b03bbe9307183b4ca50be15c7704b38e23618d8538"
+    },
+    "WC_CAFE_POS_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/service/WC_CAFE_POS_A.glb",
+      "sha256": "236b9f5b5eed464f78a0259e665adf8699bf0bc395aafdbe7174f88e75a2e37d"
+    },
+    "WC_CAFE_Cup_Saucer_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/service/WC_CAFE_Cup_Saucer_A.glb",
+      "sha256": "655112de4b620fca6f4913d33c8f3d5bf30776cfcec44235a087c7f7a7ce2d3c"
+    },
+    "WC_CAFE_Table_Round_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/furniture/WC_CAFE_Table_Round_A.glb",
+      "sha256": "9d69ca4f69ed60bb8a5909ed66745192b76d4806cb327854eab5d9b466a09520"
+    },
+    "WC_CAFE_Chair_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/furniture/WC_CAFE_Chair_A.glb",
+      "sha256": "0ed2a66bf0e45c7b52327e9fee1bb8c75a7a4fa41c2e49e05c7ec8bac1518b19"
+    },
+    "WC_CAFE_Shelf_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Shelf_A.glb",
+      "sha256": "5dc3b574bd6d5f2641e029e67609faf99c57a6625def53256c4e1cc8c34d169b"
+    },
+    "WC_CAFE_Shelf_Short_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Shelf_Short_A.glb",
+      "sha256": "9a8cf2897cb78dca7984d2ba661460a13eb61e3fe4ab1cdd21da170ab93c21f2"
+    },
+    "WC_CAFE_Planter_Floor_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Planter_Floor_A.glb",
+      "sha256": "5ad3f930ac1cfb44d9ae356ab0cfabe7ddaa18c282817655b5b29d68ff889a3c"
+    },
+    "WC_CAFE_Planter_Table_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Planter_Table_A.glb",
+      "sha256": "d09ce942d5fed5dfd7d0658acfe88294d54331614b47fd3bfe51bd1d629ab8bc"
+    },
+    "WC_CAFE_Ceramic_Jar_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Ceramic_Jar_A.glb",
+      "sha256": "9330783bf1e780e537a613fd87e1f110231c3d8348a3b58f095e93de837d6a0b"
+    },
+    "WC_CAFE_Lamp_Hanging_A": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Lamp_Hanging_A.glb",
+      "sha256": "80570c2192633a72c388384e227ba708a9c8f4979079b1792c3b9ffc6ca51036"
+    },
+    "WC_CAFE_Lamp_Wall_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Lamp_Wall_A.glb",
+      "sha256": "154e214094eadf3c3ce768be7bc490f3fe24e07faeeed49dc0cc644093f0c962"
+    },
+    "WC_CAFE_Sign_Blank_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Sign_Blank_A.glb",
+      "sha256": "b07d1e5e4b90ecff52a0b00f866ef7a4a686d25b7029e4f7d0f36dbaa83fd0f4"
+    },
+    "WC_CAFE_Cat_Cushion_A": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/glb/decor/WC_CAFE_Cat_Cushion_A.glb",
+      "sha256": "ba738f554832442771b275d2bf28ab7b654ca5a2b7043bd0947f2fddb45a5c9d"
+    }
+  },
+  "unchanged_painted_texture_inputs": {
+    "wood": {
+      "path": "assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "6f17039b3064006896374391517480d9376c364d10b0a1d0b58da63ba4106039",
+      "decoded_RGBA_sha256": "e3fa54088e18e0d084d96f1d3be815ec68a9276f827f2e294772b6276dcb8eb6"
+    },
+    "plaster": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/textures/plaster_painted.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "8ce44d9cfba42f5e686aaf1f150375b7ee112dc3e13314121f3fe6c26f9d3627",
+      "decoded_RGBA_sha256": "acf2222b46876c9b66cf1d89784c0ea405c46869728a574b5680f36c956169d0"
+    },
+    "fabric": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/textures/sage_woven.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "05360d57bfbab3b2b3087773c89610240784401672c5f6f2c4314476522b9922",
+      "decoded_RGBA_sha256": "514790161f80f73d01970bedd9fcd56b3cc57c3f7d3a32b05d1a4f73d3b29cf7"
+    },
+    "ceramic": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/textures/ceramic_painted.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "a57c1ae5910f4d4d3a1db0aeeade102b2867a0cb86f6e02cc3d37cf505f3c209",
+      "decoded_RGBA_sha256": "b90125c919fc904dd5e2cdcef89dc6b3a26a5186c38d1bdce710d8cde7ec7170"
+    },
+    "leaf": {
+      "path": "assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "3ed39b6acd97a041534d0ea18314d1312fd23f823fa6282f86568b0b3c0b81a0",
+      "decoded_RGBA_sha256": "45c09aaadb3a9a68c7eb270b26781ec250c819e8154519ab0c5813e9577642ce"
+    }
+  },
+  "original_authority_reference_hashes": {
+    "docs/art_direction/WILLICAT_STYLE_FAMILY_CALIBRATION_V1.md": "2e401c8aee975e6b5d3ba52e335f8043db49f28b31c4297b107af661fd4398c8",
+    "docs/asset_factory/style_families/WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1.json": "d9aa062d508c67d69e4be474859ccd5866ade17af7c0c8ef42cb4fa9e7a82a71",
+    "scripts/dev/cafe_interior_slice/cafe_slice.gd": "39bd1c374d272abf9391d68eb59971f5d45953103a49851ef8b6c8f04077443f",
+    "scripts/dev/hybrid_diorama/hybrid_diorama.gd": "c78c9079611cb86af8d8b1ff812043a80fbcfdee77c7b075a618936d48dc20a5",
+    "scripts/dev/hybrid_cafe_kit/cafe_kit_3d.gd": "6054e1dd3e74743750512b9e42b4ccff483c03bf3ea521712b7bfdc9a70a9339",
+    "scripts/dev/hybrid_cafe_art_direction/cafe_art_direction.gd": "f9c2598e2e14216aa39235e965fc924aa0a6d89547f709bec7860b1f86ef3c76",
+    "docs/production/WILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1_HUMAN_REVIEW_DECISION.md": "1185974ed001b8c55195e02ba6a3733ec0f97344715338108d43d971140728ed"
+  },
+  "world_integrity": "Exact V1 common camera and visual group transforms; original 2D baseline authority equality before/after navigation+service. Not a canonical Factory compatibility/publisher approval.",
+  "image_generation_calls": 0,
+  "human_visual_decision": "PENDING",
+  "test_counts": {
+    "native": 349,
+    "cavity": 14,
+    "input": 5,
+    "launcher": 9,
+    "depth_cases": 4,
+    "regressions": 272
+  },
+  "evidence_hashes": {
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/07_CAT_ENVIRONMENT_INTEGRATION.png": "8a75a50f1f8e1155addb567307edd8880420a945ae718e5552312c8a3a20f7f6",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/WILLICAT_HYBRID_3D_CAFE_HERO_FIDELITY_PASS_V2.mp4": "7d5920934a76c11ed88f12307c33cb9ffede68bc6d17f0f28e8aa5e54533ce5e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/05_MATERIAL_CLOSEUP.png": "638eede4e7b1d584f5473396819d980321e40ccb49bae3ae8ffa1477066e6670",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/02_HERO_FIDELITY_V2.png": "24a308191a328992159e38cf1902e4949dbe272f2063e9163e3cdd0aa89c906e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/01_ART_DIRECTION_V1.png": "fa4929a7891682ab36712f6f7da13fb18ae5c9c9652fbb5fb4e9866f773beff4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/03_V1_V2_SIDE_BY_SIDE.png": "0df7672d22fc9f2efaeae9e682bb516d2bfdc4eb300dc31f7e7a184120005edf",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/08_GAMEPLAY_SCALE.png": "f5458aaa9ee25bd0234961959214ee9fa0f6a3b775b4563aa51cf314d9b96e63",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/06_PLANT_LAYERING.png": "2f45ab950b2a6188dd0be915ffe957b26eaf08ef3144fc378ff0f6907c1bc906",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/04_SERVICE_ZONE_CLOSEUP.png": "607d2afef49e49032482d256fda00178ea625f288ee0ee1de05751a1772c8a78",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00126.png": "682bc75d7338331415f11794843ed95565f61b9a9e652eec41831624e08052f4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00132.png": "f8183fb0ebfa0d7d4710b58739e5f9d6ba48e33036a1ce6ab8b41d573f3f654a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00091.png": "71ab9235441a897c13a28520cdef53eec8b0253165381914b6240ead70a1ac81",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00085.png": "4b4128b9267b5dc9ec63c62d34ba28ada75e54bfe4d19278fec865fb8d7dc880",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00052.png": "c2ed6ac18d7d9ba5ef33f11b208a8be4a5b8aff193b8831a915c54821e57a4f9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00046.png": "ed318b1d90d3911924abcf3d3653df92240afeea5b1b7308b39c7adf858b502c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00047.png": "3ba7c03c53a4cc65dcdcdf80855aa609838731901a97aa13a0fd41ca4610e36f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00053.png": "19e28c803273b2a4a7179ec308e05ac60a96ff4c89dac88355002bf8ad0df1a4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00084.png": "987d9978fdcb3e781e5703e91870da6989056ad71cb107e167f23c4fdb270dea",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00090.png": "3c35eeb29f5d330c02162973f8f525e37b9bbbc1f3e292dff2508166494d0785",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00133.png": "974d2dde802dd340e6e361c580060851a255e09f668f8c6af3ea28a9c3561a5f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00127.png": "181572472b232d00becbe529892817bf01286c68654fa0f3587a1471c4498daf",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00131.png": "9f2f64638a7b52c01f16b87d75b2c44a5e0f1d1799f6af9a163aaf7e79117366",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00125.png": "4b3639b713e797782a907ae4c4e1290986ccd9dc20668f348f01aba3d3a16388",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00119.png": "7f67b82bc8f1dacdd25c587e5a24e708902cbaaa003e111538b3def909094c06",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00086.png": "3456773ea526d336a4177c665ffccce764bc974318aae8b10bdd29cb2822bf93",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00092.png": "b7aea8246fe9b7961de2ca5ef7fd8b76bf698cd35025afaaf97b94f7599b22fe",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00045.png": "f31cf11b3f518126c08c5df44b24c881e90e2c3304fa3e1d78c05d7b8c7c8e11",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00051.png": "c02d97615dc1ab9336e3668a7e0cb53973e9a9ec2b6f1e8d878944293dd0e568",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00079.png": "c8496ddbf4d115a62056fc3cfedf1aa3f08ead160e79f4dc30a988dc5349b399",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00078.png": "95658d9f23c94cdd6bde65b2a015b3f965f8c03694517cb320b1bf52963e95a3",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00050.png": "1572408ab12b4cb64ed97bcfbd2d9704448133f732965952e1745916e9231492",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00044.png": "00201148143523bd3192fd8bb6b690211e4468df1433e536f6ab2ff2c1b889c2",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00093.png": "71ab9235441a897c13a28520cdef53eec8b0253165381914b6240ead70a1ac81",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00087.png": "7e15aca70cba1dd231c81190c75429b426bc6f582fe904bc411b3e2472c7a91e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00118.png": "da3130b50ae81bf8f657f425b3fb040459607b20b67a14b1e566d889ee050e7f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00124.png": "3bf93cae7ef9a99c9c82cda1de71f6fa9d37ba65da623430ee66517db76f501e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00130.png": "974d2dde802dd340e6e361c580060851a255e09f668f8c6af3ea28a9c3561a5f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00108.png": "f6c937e5e32aaf873cba17ff42808a4a49a98b8bd3a6466684c41a460f254ae7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00134.png": "9f2f64638a7b52c01f16b87d75b2c44a5e0f1d1799f6af9a163aaf7e79117366",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00120.png": "ef4a428a0ea80c02bffe1ae937ab8e9c24976aa67c217a0badc6ffc5f5c6b230",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00083.png": "df6f071e02993f2a0fdb748dc27da60baf375c465dc8fb10f09bc772b1febb39",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00097.png": "b7aea8246fe9b7961de2ca5ef7fd8b76bf698cd35025afaaf97b94f7599b22fe",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00068.png": "6cec3959e78d14c69e01becb2f1038d85e105c975d1712826b36100e2074a726",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00040.png": "9d06cc3271de0f51c426930d438fcd2d73a6d86f75b36a89a3fb627cabf43398",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00054.png": "f5f9597432c9a158a9603b110a49aa510b88d667ce9a29fecf4d7436cf536dae",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00055.png": "c2ed6ac18d7d9ba5ef33f11b208a8be4a5b8aff193b8831a915c54821e57a4f9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00041.png": "16ab15ad93bdd92e497099db306c00e30d27e044673b8a7deb284e90018c8e23",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00069.png": "008140c6678d4f7747df0532cd7d792d88f69a78bfa7d322260700543a6e9d63",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00096.png": "b7aea8246fe9b7961de2ca5ef7fd8b76bf698cd35025afaaf97b94f7599b22fe",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00082.png": "12a0259b7520eb2edf690b73e5b128497f3a59dacc9bd3c68c3ec8825bd431af",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00121.png": "da3130b50ae81bf8f657f425b3fb040459607b20b67a14b1e566d889ee050e7f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00135.png": "f8183fb0ebfa0d7d4710b58739e5f9d6ba48e33036a1ce6ab8b41d573f3f654a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00109.png": "0bb43ca95e45ca064b68c5bfe1cc46f532604c61624709682e0de4efcc7a112f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00123.png": "7f67b82bc8f1dacdd25c587e5a24e708902cbaaa003e111538b3def909094c06",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00094.png": "b7aea8246fe9b7961de2ca5ef7fd8b76bf698cd35025afaaf97b94f7599b22fe",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00080.png": "e1bb60f1ed18d53552e408c1feed756391f68bd445e37a7b2b364189c260c761",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00057.png": "52f42fa8f56e1fef9ff536606e6cca4dd04d27488aa9c1ec87cb82df9b416600",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00043.png": "bc2c7c31488566c884d9eef6e889a9aaff3c2d2c9a4f42cf88abfa56e5d1801c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00042.png": "42a344b481de05386b902a620a44eb9f170c0335323cc9937c185ff0497df7e2",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00056.png": "19e28c803273b2a4a7179ec308e05ac60a96ff4c89dac88355002bf8ad0df1a4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00081.png": "d1a22745288b35de8c9486a48d2518daef3fa2eff0fdf684bf6b11e77f568346",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00095.png": "71ab9235441a897c13a28520cdef53eec8b0253165381914b6240ead70a1ac81",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00122.png": "7f67b82bc8f1dacdd25c587e5a24e708902cbaaa003e111538b3def909094c06",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00031.png": "9ffeba8e43afc2cbdc9d8ecf14daefb2be35ff8cf259fcd9279c8fce746237a9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00025.png": "6756827599fa9cf05a15ab4d0debf984ebb0e22d19fb00b1b308223790092b78",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00019.png": "eaa840b8025577a1bcf0dff6ae875e96d1eb683891c4ccee151caf8c500364ba",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00018.png": "d6283594d7e79e9678971dbbb919a11e26b62203d3620fe59b14f8f23a17bcc5",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00024.png": "5c909e10384e9030d4c940d02ed618a41b2cd2a9dc3279d00a97e1ae3d9d220e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00030.png": "dc69ac7862236b842a34c4fd059d67ee048a2744dbefe232d556b86817ebf545",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00026.png": "c4a3feb5a117f48771c26d0d7e1be443006167997a778007ba3e24f48d93c4f9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00032.png": "0eaac0710d138d72c45c06a1a8d9aceaa474024bcb6d1f460ebfb82aa7531c68",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00033.png": "d4ba96d32f157f7221d15b1ac429203d77229847f8a7a1d99c560124677ab632",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00027.png": "a846af6ef90fb392c8fe584cf5a5cb65e47d949d00b647094cb30053c15186e3",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00023.png": "a5ac42ff896d4217fbf7dde74d3c60b28e32140911674a5e83a0d685ea282822",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00037.png": "e72003a75327a8001b707749b56aa7cd2e24803cb69b5d73dee861c16c4c7c7b",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00036.png": "eaa43d07a7d7654fa53b9a7213809635564e85d1a82c4a699e8f4d7e1dea68ed",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00022.png": "5c909e10384e9030d4c940d02ed618a41b2cd2a9dc3279d00a97e1ae3d9d220e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00008.png": "dbfa9045ddac42189e8f5a0ed716840d2c5821bb7b1fb5b03c7f0c3c60f4e407",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00034.png": "da1252331a73074dbe8ffab6b859a04c8ca41d2a8d6582ac27f8450e1972d542",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00020.png": "5c909e10384e9030d4c940d02ed618a41b2cd2a9dc3279d00a97e1ae3d9d220e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00021.png": "a5ac42ff896d4217fbf7dde74d3c60b28e32140911674a5e83a0d685ea282822",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00035.png": "4bdc5ba573db57541ba0ba1242bb8810ab3e292276e531681957201d2dfb0c22",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00009.png": "10237c2ffd8632821742f5fbf3e02b9b70923cc246fe455bb396648382b43fe7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00010.png": "76cc0528ca36c4854d5ad155f10c0e71e9948fac8c5fbad9de2c6c5b604c4042",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00004.png": "07d7f79b9a26143623bfe71c8b54776cafbf977174e651d8073b1e7f733d9829",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00038.png": "a530ebe061d3c204b931c2282320efdee254ba36c4faa56a396a67242a646f9d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00039.png": "9961bf1d0ba94fd81de6ad75e2ea3a30c6cdd048aec850e76ef72c0fa4c53f95",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00005.png": "01d300b6b76b9173baad9d6973b2846edf27a08839f967cad5c8f631a1d298c0",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00011.png": "cc196e404c89ea052767dac41198ef756573eba889005bf0cb49bf981a79500c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00007.png": "8bbe4d9dd747b27ba15afa77c3ad1b24495b6863b472eeb51f78336da45a48ec",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00013.png": "6af98736b3f07ac17e014c9e1fb55df648c87573ef038d402e74f25e5eadc376",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00012.png": "0f049ced6ce5866a35e115af83d21b7a7ac3acf78f8adf59f84975100b502b4e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00006.png": "ed5c460e6f5f53dde3f69e54315e1e0cee04c2663c1d31d0ac6103897753aea3",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00002.png": "ef0caad218e722f72386e1ed72562c105f17ad9bab362737bdc51a12c9dbbbac",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00016.png": "a4ba6b150d26529fe24b2e150bda509f35e441e97fdb45d65f0c6d530393152c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00017.png": "96790c5ada4feb2e47d66b42e82b15a72e7b05324304f142a474e0e1fd7f52f2",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00003.png": "daed2505e37a0c5748e8fff9b68a4514fd1c8dee9690c05c7a6f9aab89581c57",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00029.png": "d41f64909c9be76b194c41fc5da3c0916c1c26fa2ed0e312251dbb2be0a58c2e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00015.png": "5f5c3f6c87842278014ad328d3aa7cf9a76c33f18bb3defcf95ae6f7b7dd3bc4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00001.png": "5d4e96d12739f230161e646c5b549e3c8f42310c0fc5e9a161c808ebba0b07a9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00000.png": "156f80c5ea5c5778ca312e1f76d3da5f58a223faad6f8d337a2549908ee0f596",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00014.png": "0aecc850be9d928ee134f9cdc3879d005128dd97ca427e983fba2deb9b2bbf96",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00028.png": "8efbe4fd78da776b94feefce49bb67801e703b9acfd26b6f26139d63e3cc5d54",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00107.png": "0bb43ca95e45ca064b68c5bfe1cc46f532604c61624709682e0de4efcc7a112f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00113.png": "452ebf5df180e6b6250ec944430ee77b820db4ca42b2ba7ff32fc572b2a6f3a1",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00098.png": "f059b32b1fc11683f6deb889a79fd02cffdfea142f1ef1227d0301e465a76d65",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00073.png": "c6e35850aa48e365375c448be434d6f07da25c4522d31dbf3797596a896f3634",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00067.png": "ff6b8267dbd7379c41d8a69e09b4b5cab357e91dcd052fbcb5eee2ec58c5f290",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00066.png": "bc34f1cd151a109af7791af9dd6da2e917df875059850f0ffeb1cc9bee5df301",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00072.png": "264eace2e110157ad23f640e962ec5afcd034f2a95f690118579ba5fc51c68ad",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00099.png": "a6d59a501eb0944176962b41c25023162b5215f4f84c837d747f76b55f456c07",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00112.png": "8b356ce22a44fdf1b41030c5358b7481c14d384975f544ffb9801594a9f4baac",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00106.png": "f6c937e5e32aaf873cba17ff42808a4a49a98b8bd3a6466684c41a460f254ae7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00110.png": "ad6206fca9c9280f3b246e3b4d7a63387841e078847492f534da8fc75014e971",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00104.png": "f6c937e5e32aaf873cba17ff42808a4a49a98b8bd3a6466684c41a460f254ae7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00064.png": "059da3e9c2057426883f701c150423cf03dadaa9dca9a0f1cd88a6fa0ccbb218",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00070.png": "c6e35850aa48e365375c448be434d6f07da25c4522d31dbf3797596a896f3634",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00058.png": "23a172287b6d8913de4d9f61f81f093534a701b83f77b8a97411dc3d6aafea17",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00059.png": "ad7b66b3dc69c2e2f94598a4a6b72ff59119c50ec076bec2255d97f30a969879",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00071.png": "0ea6ee3f23e38f2231160f0566c420d491c2ae1dd0abe8b32ac0897c7eeb087b",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00065.png": "e3bdb88e6d72edf0f466332b6f7c54fe7a08dc72ebee45bfd61992a367ce4e92",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00105.png": "0bb43ca95e45ca064b68c5bfe1cc46f532604c61624709682e0de4efcc7a112f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00111.png": "3179652ced3a0cc0fcb28654f886bb512a1af39b544d1ac96af682a9abf60198",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00129.png": "974d2dde802dd340e6e361c580060851a255e09f668f8c6af3ea28a9c3561a5f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00115.png": "79efa05ee68df1620507a0d5702f87e395ca96b95bee1cf8762e60e952f8f860",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00101.png": "f639896ab34f3dd513be283c53d1b9eb015d705a0ba144ddbb28e1939e61bf74",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00049.png": "6ab43ae06d788a99aad1a97116ebdffcb5e372ffc9426523d86f05cafcdaedd4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00061.png": "53092e5e129e53512a5f1ad4d76e982d3bac488a7d435d1e4f911d316d0f0415",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00075.png": "264eace2e110157ad23f640e962ec5afcd034f2a95f690118579ba5fc51c68ad",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00074.png": "0ea6ee3f23e38f2231160f0566c420d491c2ae1dd0abe8b32ac0897c7eeb087b",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00060.png": "952e759089216d17b9a25d2a2106b7490959c930cb63eae357d40fbb01cb985d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00048.png": "c09c78b8e14cae1b0e9b1edc1f4ab6f385ab9a534e438107b5c4241d8593cc4c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00100.png": "ed5384f291c375427910e4e8c4d38934a55c849884b9888ece912fd288857e7d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00114.png": "76e282599a41469bfcd98c054d48d424f8fa8196ea1ac18ad950b44359d7a4d5",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00128.png": "f8183fb0ebfa0d7d4710b58739e5f9d6ba48e33036a1ce6ab8b41d573f3f654a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00102.png": "6e858f524a2f03dc5021a81d231dcb4da0b2e2a4f7caf9bedaa7ca8a1d9343f7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00116.png": "6e9f1101a4c848b99c8a1e1013b02f7ad74886cb9f85b8d3cba9852ab6ea9f91",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00089.png": "94a1f9e6472966c28d6aced07cde4b73f1ce28d38045caeeb58741d880ab194a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00076.png": "707eed29b460c2e92e271038f504c7766b83ec8c5da1d105f3952bf4c6bf415a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00062.png": "ac250777536ae5ab99b8128fedcd88ca6cd00e691424b512a24821c091b72af0",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00063.png": "71193f77a4ad8623f81c7376ab460412e72cdc9548a599b2868bf024f2025679",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00077.png": "1e7f453d7685752544e8bf40fc2f46c00bb2e96670a38e0a57898850b43cd76a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00088.png": "d9b9301382da83c1965b9624db52225ad49f16f36e48568b99d5028ad9e6fcba",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00117.png": "ef4a428a0ea80c02bffe1ae937ab8e9c24976aa67c217a0badc6ffc5f5c6b230",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/frames/00103.png": "84b84e0f15756e890feb0730a75a02cc8ae691c33c84e8f3cfe0abfe815370d1",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/input.log": "c80075a8f7cfdde963fb7162d53ab1788047f1c018d28ab813ec312dd1ff9a8f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/profile_before.log": "5bc936660d8fa39af147ee9948670724b6a079f0ded6198abfae7ba3eb6e23f9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/depth_table_back.png": "b7aea8246fe9b7961de2ca5ef7fd8b76bf698cd35025afaaf97b94f7599b22fe",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_front_cat_only.png": "520e6126ac03cf4df8904056e4db3bae20ec311ccd5a7f5c0f20ec2e9da349ae",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/check_execution_summary.json": "fb4979e3fc92b4903178c4465cee18c9facb8650b68c3b44073d419e2765ce64",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/depth_chair_back.png": "f6c937e5e32aaf873cba17ff42808a4a49a98b8bd3a6466684c41a460f254ae7",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_back_combined.png": "708921be64ceef54b34492dd351364882d5be5b58bccf0703635256109da40f5",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_back_object_only.png": "69bcc88c4ab466ed4ebfdc5af21da54d2e0ecacc5df883b6bfba04e756f8e832",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/blender.log": "46a88913626a6170fee7312db69343043937b7f83ad2ee12f3309c493291994a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/iteration_01_failed_native_proof.json": "31559130d4a9f201d235bfdde1ac7124ae8dd72e6e11c8c029f60d05d1f04f82",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_front_object_only.png": "69bcc88c4ab466ed4ebfdc5af21da54d2e0ecacc5df883b6bfba04e756f8e832",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cat_mode_unshaded.png": "9bc719cbee8e7e387c82efdfbfa4412dacd243ba098c887dd29bbfda2d263704",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/profile_after.log": "510ca2c831f9307339d8c562d8835bc265392069d7e092ed3997bb743cfd5065",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/protected_file_parity.json": "707b3b8aa0e723618150ee77149c7d0dd36cf1fc84c4e6076d55090918cc1115",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_back_background.png": "ee6fd137ab85511b48fbe614866a0e5da549d3f0071d2e29614840d72acde821",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_cafe.json": "604eb75c06dd3666d1ec77e69dd1c17924be917396d3f87d5a627612477b611f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_front_combined.png": "c7f9e450be09615a008713b8c12e40ffe0f43c029179b4ce2fde3f2ed1216ed5",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/seating_closeup.png": "885f56211271bd08530efa4899b343409998458d4e5a3829ee490a011877ae87",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_focus.json": "3e6671f4aa74e2fcf2726fd6696c9b6075126eef0b4c8e8d3ef2b5ec89e656e4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/comparison_provenance.json": "e10eeb71d148b121b7d4b8c4d82a46ef99c6077fa7de1b5dbd0b34610838873f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cat_front_counter.png": "5d8cf4001a010dcf12f875b6eeccf86a497f47ccae9db4cb211c0ffee5a72c39",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_back_cat_only.png": "bf48105c9aaf9fcd371a028163677d5a32cb36e7ba9d74306f914f0d6c80d292",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_back_object_only.png": "69bcc88c4ab466ed4ebfdc5af21da54d2e0ecacc5df883b6bfba04e756f8e832",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/pixel_depth_analysis.json": "0b7c36f798b307c6330dde7198213708707be60e15336df5edec2c2509fb8049",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_front_object_only.png": "69bcc88c4ab466ed4ebfdc5af21da54d2e0ecacc5df883b6bfba04e756f8e832",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/coffee_running.png": "47b245c2b4cbd4ff3ae9012a3766928e8e0b7f6820054bdddd57a1127051b7f9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cat_mode_ambient_tinted.png": "f5458aaa9ee25bd0234961959214ee9fa0f6a3b775b4563aa51cf314d9b96e63",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_focus.log": "a7b3b85ecfbce2eddb2b004ab56e231b1db7d11f4d7432e28da8e2cbe723fffb",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_back_combined.png": "8cd2b22735823c97f599eeb8b7400c335c4ffba863a6a2e0eaef0d3b05117b76",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/profile_before_foliage_optimization.json": "74cb5b08015c4f25a974ebe1be8ba44cdfc232204c23fdfce127a5805b37a512",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_world.log": "d83356904865945333a67b454de1ec73725ca1f5294054c3e0c7acfb695441b1",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/native_proof.json": "9118764aad1ddb563da698e18a160692be6e5d4964b54a13476d7db37c07903d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/profile_before.json": "9b04a87483349bc27508eda62dbe80f7ce3186dac8aaf88ea4b767fac9a0995d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/installed_launcher_verification.json": "642f1fc29af46b43c1b211fd67f680e4c20b6c18737e14059a7d2ee347752e0a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_front_background.png": "7516086926da47233a9daf65d0e203824ff75f9f8a1421898d55651df58ee995",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/native.log": "791e28d13304c2548e59af3dd7a962a8e52c27f1f836a72e37f4f1ccd6d6fb43",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_front_combined.png": "4f6d620b5a946a82c8d11d7f2cf3e64151fefac36ca525de3d82b118a83cdb94",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_home.log": "aaa543817c7b65fbae64fb1d845c4645b828caa4c6d7b82839a08b2b2700795c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/initial_profile_before.json": "9c184c96169ab437bfb0d5e6f2a2b834bbad9ccb51c0b08c556da6f9e12ee85d",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_back_background.png": "7516086926da47233a9daf65d0e203824ff75f9f8a1421898d55651df58ee995",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/depth_table_side.png": "ef4a428a0ea80c02bffe1ae937ab8e9c24976aa67c217a0badc6ffc5f5c6b230",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/depth_entrance.png": "5c909e10384e9030d4c940d02ed618a41b2cd2a9dc3279d00a97e1ae3d9d220e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_front_cat_only.png": "a9b078ac58e9987d6370a6a89e9b620703a3a5116baaef07694b7ecbecd7994f",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cavity.log": "17dbc921434300d95855d938565f28f811a4637968a997ec699aa545a7fe9962",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cat_behind_counter.png": "f4fc1ddeb7cc6647846b1bd0d250952ed383376c125c492464c87cc4125c0f3e",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/initial_profile_native.json": "a445d6e59fcb3f371c6e60b9b882e3e64ebbdc2dad3a960a25d4b55b406d9052",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/launcher_safety.json": "20f48ec5a1ca8aae5efa5654737be7cd3f5f9ddc1a8a0f4d37d8f747ff7bd8f2",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cavity_colors.json": "d84df8b47429270ce514635efdfd19b3a5d594a1b255fe18de925173aa999e1b",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/human_review_live.log": "f466192ac5087e8f5cb64395449ca25e9598965999dd1767eeff7b6cafae27aa",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/cat_mode_lightly_lit.png": "77c5e9351bec916bf6437927bc17d73f27869139323a85ec15b31b1c427e1681",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/counter_back_cat_only.png": "c2a8845850471eceb64c92538c0b8e65431c58f9b7b4fb9477f71cd95e36ab6a",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/installed_import.log": "8cc8087a014febe9f76dc46dcf3291f79a29834d17e879d2ee4e16fb8ad08d5c",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/import.log": "ad8db7f4b96eeb736e5d70bb065d2732e6e1a3a1faebb31565db279186d7dd67",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/movie.log": "ef72e916858ff65d6921705f23c7b84deb02ae415bb4db9dae6f6138088c06a9",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/profile_native.json": "7f2d5e2f5f04e9ff8e0c0890b4c663ff2249b1757c6de63cd7e7a9f7d2f16fb6",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/input_native.json": "d7b137a63577e854fc9bc9162e5e5daeacdf2bdf53de74b4fdafd89d91c366f6",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/depth_table_front.png": "9f2f64638a7b52c01f16b87d75b2c44a5e0f1d1799f6af9a163aaf7e79117366",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/common_camera.json": "f2f2cee7146345fb259f8a9ef8ac68b7e8213525fbd0bc20773e0b06341529ab",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/regression_cafe.log": "c37429b7f88d9ead03976b06dd7f38016c3184dea76a7b1d5141ef6c28ee8df4",
+    "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/table_front_background.png": "ee6fd137ab85511b48fbe614866a0e5da549d3f0071d2e29614840d72acde821"
+  },
+  "result_document_sha256": "0d033bdd027679462b4519b48cae5676b7df42917f116a7c45262d02d4f60ce4",
+  "reproduction_limit": "Source/code/environment and outputs are bound. Blender container bytes and GPU pixels are not promised bit-identical across toolchain/driver/time changes. Import caches are temporary and excluded from source-of-truth evidence.",
+  "installed_launcher_evidence": "artifacts/prototype_review/hybrid_cafe_hero_fidelity_v2/diagnostics/installed_launcher_verification.json"
+}

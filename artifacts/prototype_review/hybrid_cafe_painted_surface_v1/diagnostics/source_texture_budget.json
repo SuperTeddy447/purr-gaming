@@ -1,0 +1,61 @@
+{
+  "scope": "Calculated upper model for six 512 RGBA8 full mip chains, not measured resident GPU allocation; excludes retained old/imported textures, sprites and render targets",
+  "textures": {
+    "cedar": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 304829,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    },
+    "plaster": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 353154,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    },
+    "stone": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 392510,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    },
+    "sage": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 447223,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    },
+    "ceramic": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 354875,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    },
+    "foliage": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "compressed_source_file_bytes": 379850,
+      "uncompressed_RGBA8_no_mips_bytes": 1048576,
+      "uncompressed_RGBA8_full_mips_bytes": 1398100
+    }
+  },
+  "sum_RGBA8_full_mips_bytes": 8388600,
+  "sum_source_file_bytes": 2232441
+}

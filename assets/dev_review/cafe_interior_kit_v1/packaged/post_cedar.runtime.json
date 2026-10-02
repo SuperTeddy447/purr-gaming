@@ -1,0 +1,47 @@
+{
+  "asset_id": "post_cedar",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/post_cedar.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/post_cedar.png",
+  "source_sha256": "159963d990136b41fca7604dd5eb8d2c565e2df3baf607edbe2efba5468c26e6",
+  "runtime_sha256": "e1123245e5463d625e85fab2847d5333d6d3c50fa34257286a82b6848aa13221",
+  "source_dimensions": [
+    78,
+    311
+  ],
+  "runtime_dimensions": [
+    98,
+    314
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    72,
+    304
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    82,
+    314
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    49.0,
+    314
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 379,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

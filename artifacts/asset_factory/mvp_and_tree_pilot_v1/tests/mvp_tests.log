@@ -1,0 +1,32 @@
+test_bundle_and_logical_path_parity (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_canonical_compile_stays_blocked (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_dev_result_does_not_complete_canonical_gates (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_frozen_journal_schema_and_human_hold (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_measurements_cannot_advance_frozen_motion_stage (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_prior_source_and_evidence_cannot_be_overwritten (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_production_rights_not_inferred (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_tampered_source_blocks_live_check (willicat_asset_factory_mvp.test_mvp.LifecycleTest) ... ok
+test_atomic_pointer_and_serialized_writes (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_dangling_symlink (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_drift_reject_structural (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_empty_source_reject (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_forged_human_role (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_invalid_canonical_compile (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_measurements_do_not_pass_motion_gate (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_no_publisher (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_production_root (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_projection_relevant (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_projection_unrelated (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_replaced_parent_symlink_rejected (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_root_unchanged_not_whole_scale (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_seam_and_nonuniform_timing (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_source_edge_reject (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_symlink (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_symlink_root (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_traversal (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+test_write_once (willicat_asset_factory_mvp.test_mvp.MVPTest) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 3.885s
+
+OK

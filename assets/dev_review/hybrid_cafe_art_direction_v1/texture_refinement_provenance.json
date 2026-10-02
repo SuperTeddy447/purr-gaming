@@ -1,0 +1,16 @@
+{
+  "method": "one built-in imagegen edit of existing first-party cedar material; no Hero or third-party reference pixels",
+  "new_generation_calls": 1,
+  "input": "assets/dev_review/hybrid_cafe_kit_v1/textures/cedar_painted.png",
+  "input_sha256": "6d9288467d0439370f990e58824de65dc6c78678fb07ada10bf10865a3593430",
+  "source": "assets_src/3d/cafe_art_direction_v1/materials/cedar_brush_source_v1.png",
+  "source_sha256": "1f5d556b2cfb660e69fd999b930870fb138ad1e5da4ed9868e71a0d930fb2f57",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "runtime": "assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png",
+  "processing": "Lanczos normalization to 512x512 only; no painted edits",
+  "model": "not disclosed by built-in tool",
+  "prompt": "Use case: style-transfer. Asset type: one reusable hand-painted cedar albedo texture for the EXISTING WilliCat 3D cafe materials. Edit target: provided first-party cedar texture. Retain its quiet honey cedar brown family and flat orthographic surface only. Change its texture language to significantly broader, calmer hand-painted brush masses: reduce fine repeated grain by roughly two thirds, sparse long irregular grain strokes and very few knots. Painterly wood, cozy Japanese riverside storybook material, warm brown, restrained saturation, low contrast. Tileable edge-to-edge neutral unlit albedo, square image. No scene, no objects, no plank seams, no perspective, no cast shadows, no rim lighting, no labels/text/logo, no photographs/PBR. Avoid orange/golden saturation. Preserve wood identity; only soften and simplify fine texture rhythm. This is a material refinement, not a cafe concept image."
+}

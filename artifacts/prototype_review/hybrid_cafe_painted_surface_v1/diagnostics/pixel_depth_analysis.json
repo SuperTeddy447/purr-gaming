@@ -1,0 +1,27 @@
+{
+  "counter_back": {
+    "overlap_pixels": 1244,
+    "object_dominant_pixels": 1240,
+    "cat_dominant_pixels": 3,
+    "passed": true
+  },
+  "counter_front": {
+    "overlap_pixels": 1008,
+    "object_dominant_pixels": 24,
+    "cat_dominant_pixels": 981,
+    "passed": true
+  },
+  "table_back": {
+    "overlap_pixels": 1161,
+    "object_dominant_pixels": 992,
+    "cat_dominant_pixels": 166,
+    "passed": true
+  },
+  "table_front": {
+    "overlap_pixels": 1216,
+    "object_dominant_pixels": 23,
+    "cat_dominant_pixels": 1188,
+    "passed": true
+  },
+  "method": "Four-layer native actor/object/background/composite. Delta12 and margin5 are diagnostic classifier choices, not approved motion/art tolerances."
+}

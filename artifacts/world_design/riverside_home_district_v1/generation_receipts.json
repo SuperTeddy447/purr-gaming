@@ -1,0 +1,250 @@
+{
+  "task": "WILLICAT_WORLD_VISUAL_RESEARCH_AND_RIVERSIDE_DISTRICT_DESIGN_V1",
+  "prompts": {
+    "A": "Use case: stylized-concept. Asset type: RIVERSIDE_HOME_LANE_CONCEPT_A, original WilliCat world-design review concept, NOT a production mesh or background.\nOutput canvas MUST be portrait exactly 9:16, e.g. 864x1536 or1080x1920, not2:3. One uninterrupted image, no borders/titles/text/UI.\nDepict a possible mobile gameplay area designed as REAL STYLIZED HAND-PAINTED 3D STORYBOOK DIORAMA: true believable volumetric forms, elevated three-quarter orthographic / near-orthographic soft-isometric-lite camera, both roofs/tops and front/side planes visible, no cinematic perspective horizon. Premium matte painted miniature with softened authored profiles, warm clean weathering, broad brush color rather than realistic PBR or a flat painting.\nCONCEPT A spatial thesis: intimate HOME RIVERSIDE LANE. A modest one-storey home café has honey cedar beams, cream plaster, a simple charcoal-blue-grey gabled roof, recessed welcoming open entrance, one muted sage cloth awning and a SMALL BLANK sign panel. Two quiet ordinary neighbors, one shopfront and one plaster residence, form a short pedestrian frontage. Calm warm-stone lane broadens slightly into a small café doorstep forecourt and continues in a gentle diagonal alongside a narrow blue-green waterway. Water is close to everyday doorsteps but separated by low warm-gray stone embankment/cap. ONE compact straight wooden pedestrian bridge farther along the lane, both approaches plainly visible. River recedes toward low-contrast distant house/tree/hill masses, no huge town.\nForeground accessible path enters clearly from bottom; midground café/bridge/water; background subdued continuation. Restrained pots at the café entrance and one ceramic planter/bench nook; river reeds only at recesses. One slim drain outlet and everyday utility detail, NOT decorative clutter everywhere. Warm café silhouette has priority over neighbors. Walking strip remains calm, uninterrupted and readable. Trees varied in height and canopy shape, green moss/sage with broad painted masses, no wall of foliage obscuring route.\nPalette family: cedar #C68F5E/#9B6D44/#583F2E, cream plaster #F3DEC7, warm-gray stone related#CAAF93, moss#768658/sage#526F4E, river#80BABA/#50979F/#3B727E, subdued blue-gray roof. Small aged brass and off-white ceramic accents, no saturation wash. Neutral soft daylight, soft contact/cast shadows, broad ambient fill, tactile dimensional handcrafted atmosphere. No bloom, fog, vignette, shallow DOF, dramatic golden hour, glossy water, heavy toon outline.\nNo characters at all: existing canonical protagonist is separate authority and must not be regenerated. No text, logos, symbols, kanji, torii, pagodas, shrines, temple, red lantern clusters, cherry blossom carpet, bamboo themepark, copied game design, strict diamond tile grid, cut-off giant foreground objects. Entire scene sharp/readable at phone gameplay scale. Original neighborhood; do not reproduce one Japanese location.",
+    "B": "Use case: stylized-concept. Original WilliCat world-design review, NOT production art/mesh. Canvas portrait 9:16 (1080x1920 proportions), single uninterrupted image, no panels, text, UI or border. Real stylized hand-painted 3D STORYBOOK DIORAMA; elevated 3/4 ORTHOGRAPHIC/near-orthographic miniature gameplay view with clear roof/top/front/side volumes, no cinematic perspective or shallow DOF. Original Japanese everyday riverside neighborhood, handcrafted softened geometry and painterly broad albedo color; high roughness, low specular, quiet soft contact shadows. Warm cedar #C68F5E/#9B6D44/#583F2E, cream#F3DEC7, warm-gray stone#CAAF93, moss#768658/sage#526F4E, blue-green water#80BABA/#50979F/#3B727E, quiet charcoal-blue-gray roofs. Neutral soft daylight without orange/golden wash/bloom/fog/vignette/photoreal PBR/heavy toon outlines. Restrained ceramic and aged-brass accents. Modest useful ordinary architecture, not a theme park. Foreground accessible path, midground café/river/bridge, quiet distant house/tree/hill bands. Surfaces feel dimensional but illustrated. Calm continuous walking strips, readable bridge approaches, asymmetrically grouped vegetation outside routes, clustered entry pots only, not grass/flowers on every edge. No characters: canonical protagonist separate authority, do not generate it. No readable signs/kanji/logo/paw signs, no torii/pagodas/shrines/temples/red lantern strings/cherry blossom carpet/bamboo themepark, no proprietary asset or layout copying, no strict diamond tile grid. Keep all gameplay-relevant areas in focus. CONCEPT B: RIVERSIDE BEND. A compact slow river curves in a shallow S through a wider landscape bowl; foreground calm stone riverwalk follows the near bank. A modest cedar/cream home café sits on an inside-bend pedestrian pocket, a single muted sage awning and blank sign surface face its clearly open entrance. ONE compact gently rising timber pedestrian bridge with warm stone abutments crosses at the middle bend, both solid dry-ground approaches clearly readable. Water does not cover most of the screen. Use three small low structures total, more natural planted bank beyond the bridge, a hillside and tiny low-contrast roof silhouettes in upper background. An exploratory path bends behind one low tree mass then reappears, with the entrance/bridge always visible. One rest bench and one tiny maintenance stair, no riverside promenade clutter. Keep café larger/readable as home landmark. Distinct from a straight canal corridor: softly curving banks, staggered depth, a small spatial reveal, gentle varied ground levels with usable calm passage. No foreground giant tree, no huge lake, no seaside harbor. Output image name concept RIVERSIDE_BEND_CONCEPT_B.",
+    "C": "Use case: stylized-concept. Original WilliCat world-design review, NOT production art/mesh. Canvas portrait 9:16 (1080x1920 proportions), single uninterrupted image, no panels, text, UI or border. Real stylized hand-painted 3D STORYBOOK DIORAMA; elevated 3/4 ORTHOGRAPHIC/near-orthographic miniature gameplay view with clear roof/top/front/side volumes, no cinematic perspective or shallow DOF. Original Japanese everyday riverside neighborhood, handcrafted softened geometry and painterly broad albedo color; high roughness, low specular, quiet soft contact shadows. Warm cedar #C68F5E/#9B6D44/#583F2E, cream#F3DEC7, warm-gray stone#CAAF93, moss#768658/sage#526F4E, blue-green water#80BABA/#50979F/#3B727E, quiet charcoal-blue-gray roofs. Neutral soft daylight without orange/golden wash/bloom/fog/vignette/photoreal PBR/heavy toon outlines. Restrained ceramic and aged-brass accents. Modest useful ordinary architecture, not a theme park. Foreground accessible path, midground café/river/bridge, quiet distant house/tree/hill bands. Surfaces feel dimensional but illustrated. Calm continuous walking strips, readable bridge approaches, asymmetrically grouped vegetation outside routes, clustered entry pots only, not grass/flowers on every edge. No characters: canonical protagonist separate authority, do not generate it. No readable signs/kanji/logo/paw signs, no torii/pagodas/shrines/temples/red lantern strings/cherry blossom carpet/bamboo themepark, no proprietary asset or layout copying, no strict diamond tile grid. Keep all gameplay-relevant areas in focus. CONCEPT C: NEIGHBORHOOD WATERWAY. A small everyday local-life junction, mixed modest timber/plaster storefront and simple quieter off-white residential infill with a blue-gray roof, an understated balcony or ordinary utility cabinet, compact green pocket garden. Home café is the largest/warmest single ground-floor entrance, one sage awning; one small neighbor storefront and two residential fronts support it. A narrow shallow-looking stone-edged blue-green waterway passes between two clusters, crossed by ONE SMALL SIMPLE FLAT TIMBER FOOTBRIDGE, not a fantasy arch. Main foreground home street leads clearly to café and bridge; one side lane branches toward hill neighborhood, another unobtrusive exit leads beyond right buildings, one planted waterside continuation at lower edge. Keep junction readable, not a maze. Foreground path open and calm, building corners reveal side route glimpses; varied ordinary window widths and roof heights, discreet downspouts/drain detail, one parked bicycle element, two ceramic planters and a small bench nook. No market stalls, tourist boats, shrine, extravagant façade, wall of blossoms or identical historic houses. Background low-contrast roofs and green tree mass. Output concept NEIGHBORHOOD_WATERWAY_CONCEPT_C.",
+    "C_final": "Edit this original WilliCat concept ONLY to remove all shallow depth of field and blur: foreground cobbles, foreground bank, rail and leaves must be as crisp and legible as the middle-distance buildings, with ordinary painted texture remaining. Keep the same elevated miniature view, all building and path positions, palette, geometry, background shape and illumination. No extra decoration, no new characters, no signage or text. This is a mobile gameplay-area concept, every foreground walking surface must be clearly visible. Preserve the existing painting/rendering identity.",
+    "Master": "Use case: stylized-concept. Original WilliCat world-design review, NOT production art/mesh. Canvas portrait 9:16 (1080x1920 proportions), single uninterrupted image, no panels, text, UI or border. Real stylized hand-painted 3D STORYBOOK DIORAMA; elevated 3/4 ORTHOGRAPHIC/near-orthographic miniature gameplay view with clear roof/top/front/side volumes, no cinematic perspective or shallow DOF. Original Japanese everyday riverside neighborhood, handcrafted softened geometry and painterly broad albedo color; high roughness, low specular, quiet soft contact shadows. Warm cedar #C68F5E/#9B6D44/#583F2E, cream#F3DEC7, warm-gray stone#CAAF93, moss#768658/sage#526F4E, blue-green water#80BABA/#50979F/#3B727E, quiet charcoal-blue-gray roofs. Neutral soft daylight without orange/golden wash/bloom/fog/vignette/photoreal PBR/heavy toon outlines. Restrained ceramic and aged-brass accents. Modest useful ordinary architecture, not a theme park. Foreground accessible path, midground café/river/bridge, quiet distant house/tree/hill bands. Surfaces feel dimensional but illustrated. Calm continuous walking strips, readable bridge approaches, asymmetrically grouped vegetation outside routes, clustered entry pots only, not grass/flowers on every edge. No characters: canonical protagonist separate authority, do not generate it. No readable signs/kanji/logo/paw signs, no torii/pagodas/shrines/temples/red lantern strings/cherry blossom carpet/bamboo themepark, no proprietary asset or layout copying, no strict diamond tile grid. Keep all gameplay-relevant areas in focus.\nMASTER SYNTHESIS — do not reproduce one previous concept: intimate home frontage of a narrow lane + a slight river bend + an everyday neighborhood crossing. Raise the camera enough to show walkable ground topology, no horizon line or vanishing-point perspective, keep everything sharp. Compose a compact architectural game area occupying most of frame: center-left one modest SINGLE-STORY Home Café with a shallow cedar roof, warm cream plaster, thick window sill, one plain muted sage awning and a strongly visible OPEN WALK-IN door facing a small paved forecourt. Calm curving home street rises from bottom-center past this forecourt to upper-left, with one side-path exit. On the right a NARROW blue-green river bends gently from lower-right to upper-right; it occupies less than about a third of the image, not a huge lake. A compact nearly-flat pedestrian cedar bridge crosses at mid-right, BOTH stone approach landings and a connected far-bank walking path visible INSIDE the frame. Bridge rails use a distinctive paired short vertical brace and low broad top cap with gentle notched ends, original modest handmade character. Far bank has one ordinary cream-and-wood small storefront and one simple residential frontage, subtly different age and roof proportions, not an elaborate historic town. A right-side path and an upper path suggest future routes rather than dead ends. Use soft hill/tree silhouettes and only two distant house roofs in the quiet upper background, no deep cinematic vista. Foreground path is open and comfortable; one bench and compact lamp are outside travel strip, a low pot cluster beside café entrance, small and medium trees varied silhouette in TWO planted clusters. Architecture frames a small living neighborhood, not a huge empty floor. Exactly three clear depth bands and simple landmark hierarchy: café entrance first, bridge second, path branching third. No flowers covering paving, no clutter, no giant Japanese ornamental motifs. Painterly tactile materials, volumetric softened edges, broad color masses, fair neutral daylight.",
+    "Master_final": "Controlled refinement of this original WilliCat master district concept. Preserve EXACT composition, camera, building count and positions, open café entrance, bridge, all walking paths, scene scale and palette. Remove around half of the tiny creeping plants from stone banks and paving margins, keeping clean uninterrupted stone cap sections. Remove all vegetation on the actual walkway surface, and thin the foliage right around the café door so the doorway and forecourt silhouette are unmistakable. Keep two primary planted clusters, small entrance pots and background trees; do not turn it barren. Break up the uniformly old town with ONE modest quiet cream rear residence with simpler flat window trim, while maintaining its current location and height. Keep painterly materials, crisp foreground and very soft neutral daylight. Reduce frothy water markings to broad quiet blue-green currents. No characters, no new props, no readable text, no cinematic effect. Preserve the original source's architectural volumes and path topology.",
+    "Board": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nCreate a comprehensive game asset-family DESIGN BOARD, landscape 3:2, spacious cream page divided into SEVEN clearly separated labeled groups, short English headings ONLY: ARCHITECTURE, RIVER, BRIDGE, GROUND, VEGETATION, STREET PROPS, BACKGROUND. It must show INDIVIDUAL isolated original modular objects, not a town illustration. Consistent camera and style across everything. ARCHITECTURE row: one modest single-story café façade with clear open door/sage awning/blank sign; one plain neighbor storefront; one modest residence; separate small roof, plaster wall/timber post, cedar window/sill, door, separate awning, blank sign panel. RIVER row: quiet water patch, straight stone embankment with cap, separate end cap, inside concave corner, outside convex corner, short waterside stair, small drain outlet, low cedar rail; visible pieces separated by gaps. BRIDGE row: compact nearly-flat cedar pedestrian bridge with broad low rails and paired short vertical braces, separate deck, rail, stone abutment, two stone approach pieces. GROUND row: warm stone pavement patch, compact quiet street patch, edge transition, small steps, curb. VEGETATION row: three DISTINCT silhouette trees small round river tree / medium broad neighborhood tree / airy small upright tree; shrubs, grasses, moss patch, ceramic potted plant, bank planting group. STREET PROPS row: simple bench, small low lantern-style lamp no red decorations, bicycle stand with one ordinary bicycle, crate, basket, planter, modest utility box. BACKGROUND row: distant quiet house group, low hill silhouette, tree-mass silhouette. Each group gets sufficient room, avoid tiny illegible repeated objects. Discrete groups on neutral studio base, no photographic textures, no full scenic composition, no silhouettes of cats.",
+    "Bridge": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nHero study: WILLiCAT_RIVERSIDE_SMALL_BRIDGE_V1. Original compact everyday PEDESTRIAN CEDAR BRIDGE, near-flat broad plank deck with only gentle camber, no arch fantasy/hump, softened thick deck edge, simple inset beam sides, two low rail lines with broad rounded top cap, paired short vertical supports and a small shallow notch at rail ends. Modest stone abutments and WARM STONE approach landings at BOTH ends. Designed to belong beside a small cream-plaster home café. Show one large complete three-quarter hero asset, then below THREE clearly separated smaller exploded studies: deck + side beam; rail/post module; stone abutment + matching level approach. All views maintain consistent proportions/materials. No river landscape or buildings. Clean cream presentation with generous spacing, no fake measurements or exploded engineering dimensions, no readable labels required. Connection surfaces visually exposed; future registration extraction remains unmeasured.",
+    "River": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nHero study: WILLiCAT_RIVER_EDGE_KIT_V1. Landscape asset design plate with TEN visibly separate river construction pieces on cream background, same scale/view/material: straight warm-gray stone embankment with rounded coping; concave inner corner; convex outer corner; short end cap; stone-to-ground threshold transition; simple stair descending toward water with side curb; small clean drain outlet integrated in wall, no dramatic jet; low cedar rail on coping; quiet blue-green water module; a small moss/reed bank planting strip. One assembled short canal-edge sample at top, separate parts below. Share same coping section and wall thickness visually. All stones softened painterly broad surfaces, low-contrast mortar, sparse moss only below cap, no creeping plants crowding walking top. Show water level relationship but NO real measurements/safety dimensions or production connector coordinates. No giant full environment, no written kanji/text/characters.",
+    "Storefront": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nHero study: WILLiCAT_NEIGHBOR_STOREFRONT_V1. A modest everyday NEIGHBOR STORE distinct from café, one compact shopfront with cream-plaster upper mass, cedar sliding display frame, charcoal quiet roof, warm stone threshold, ONE blank horizontal sign board with rounded wood corner caps, no text. Ordinary small commercial life: a crate and one restrained ceramic pot grouped outside travel opening, one clean utility/meter detail on side. Primary three-quarter view showing side plane and shallow wall recess. Two smaller alternative façade views: older cedar inset façade and simpler slightly newer cream-plaster frontage, same family and ground-contact language, not duplicate buildings. A lower separate set of four components: window/frame/sill, open doorway threshold, blank signage, modest fabric awning. No actual café interior, no crowds, no bicycle blocking entry. No decorative torii/shrine/traditional museum styling, no 2-story café rebuild. Spacious landscape plate with all corners clearly readable.",
+    "Trees": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nHero study: WILLiCAT_RIVERSIDE_TREE_FAMILY_V1. Three clearly DISTINCT modest original neighborhood trees, presented as full three-dimensional stylized hand-painted asset design references on a neutral cream studio plane. LEFT small riverside tree with slightly leaning but stable visible trunk and asymmetric low paired rounded foliage masses. CENTER medium neighborhood tree with a strong rooted branching trunk and broad canopy shaped into three main painterly masses with small silhouette breaks. RIGHT airy upright small tree with lighter sparse foliage and taller narrower outline. Same projected camera/material family, different age/silhouette/branch rhythm, NOT three scaled copies. Moss/sage/dark-green grouping with warm cool leaf patches, no neon/yellow-green dominance, no cherry-blossom or bamboo cliché, no leaf-card photographic realism. Clean root contacts on simple small soil/stone patches, restrained contact shadows. Lower studies show one exposed trunk/root concept and three separate canopy-mass sketches indicating foliage-led flexible motion concept, NO whole-tree jelly deformation or mechanical scale pulse. No animation frames, timers, numbers or fabricated motion thresholds. Give each tree large readable space, minimal nonverbal diagram arrows optional.",
+    "Cafe": "Original WilliCat Japanese Riverside Storybook STYLIZED HAND-PAINTED 3D asset concept, not production mesh. Consistent elevated 3/4 orthographic miniature viewpoint, fully sharp, neutral warm cream studio background, no photo/PBR/plastic/black toon outlines, no characters/text logos/kanji. Tactile matte albedo-led painted cedar honey-brown #C68F5E/#9B6D44, cream plaster #F3DEC7, warm-gray stone #CAAF93, sage #526F4E and moss #768658, blue-green water #50979F, charcoal-brown trim #352C28. Soft bevels, rounded edge profiles, clean gently weathered surfaces, broad restrained material variation, simple tiny aged-brass/ceramic accents, neutral soft daylight and contact shadow, no DOF/bloom/golden wash. Plain everyday Japanese neighborhood, no tourist motifs/torii/temples/pagodas/lantern strings. Clear silhouette and low-frequency mobile-friendly detail. No dimensions, numeric measurements or fake technical connector coordinates.\nHero study: WILLiCAT_HOME_CAFE_EXTERIOR_LANGUAGE_V1. Original modest SINGLE-STORY Home Café EXTERIOR for this riverside neighborhood. Primary large three-quarter hero façade with readable depth, warm cream plaster panels in cedar timber, shallow muted charcoal roof with generous but restrained eave, sage canvas awning, clear OPEN walk-in entrance with stone threshold and cedar jamb depth, a deep broad window/sill revealing only a hint of existing cozy counter interior. Blank horizontal sign surface, rounded ceramic pot pair outside opening, one SMALL restrained brass practical light. Café feels intimate lived-in but not cluttered; no elaborate tourism ornaments. The open threshold must be clearly architectural rather than a random gap. Lower studies show FOUR isolated reusable components: cedar/plaster wall-frame section, recessed cedar window + sill, door jamb + open threshold assembly, plain sage awning with blank sign surface. One small side-plane view with drainage/utility detail, quietly practical. Match the original cedar/cream/sage/stone material language, low-contrast painted grain and soft bevels. No generated orange protagonist, no readable brand text, no room rebuild or new layout. All views sharp. Design-only neutral landscape plate, not production templates."
+  },
+  "provider": "OpenAI built-in image generation tool",
+  "model_id": "NOT_EXPOSED_BY_TOOL",
+  "approval_state": "pending_human_world_design_review",
+  "third_party_image_inputs": [],
+  "revision_inputs": {
+    "C_final": [
+      "C"
+    ],
+    "Master_final": [
+      "Master"
+    ]
+  },
+  "record_kind": "concept_generation_receipt_not_production_manifest",
+  "recorded_at": "2026-10-02T01:13:44.470390+00:00",
+  "artifacts": [
+    {
+      "key": "A",
+      "filename": "RIVERSIDE_HOME_LANE_CONCEPT_A.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-ebc4f580-14ce-4268-9475-77784ddaac64.png",
+      "sha256": "8d1247be210cb1aa0edf7e3efda61922d996037b2058d502bd169d6271fb55d4",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "prompt_key": "A",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "B",
+      "filename": "RIVERSIDE_BEND_CONCEPT_B.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-5550b2cc-936c-43ea-a00c-a0d9f72e9d65.png",
+      "sha256": "4a6a7acd6e57ab9fed56ac84d3f00301f950ad511d2a6423bb69e1161c44cd96",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "prompt_key": "B",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "C_final",
+      "filename": "NEIGHBORHOOD_WATERWAY_CONCEPT_C.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-ed2146e4-d43b-4ed0-90ce-6a7439ed0ad0.png",
+      "sha256": "283d39835f595e9e664649bd49347fed9ee303814e84267443c670114250ec33",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "prompt_key": "C_final",
+      "image_reference_inputs": [
+        {
+          "key": "C",
+          "path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-73a0b3f1-7db5-4740-8b84-05ecb84d33bb.png",
+          "sha256": "bcfd2c0e5bb81541b78e44c6929147e8f8825261c3054855dfeea2b076c97d57"
+        }
+      ]
+    },
+    {
+      "key": "Master_final",
+      "filename": "WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-ea738f8f-40a0-4611-9ed6-9decf3b86042.png",
+      "sha256": "4adff2fc546bf6ea6f7999e10ab23ee3dce8e2594f0cbb72750920e6dcda3639",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "prompt_key": "Master_final",
+      "image_reference_inputs": [
+        {
+          "key": "Master",
+          "path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-7290490f-03eb-4a90-95a3-7fac1c6cf564.png",
+          "sha256": "5ab5391ed6c82b9066f591d5e666533b9067dc6fb81e7899e732e16b9428f777"
+        }
+      ]
+    },
+    {
+      "key": "Board",
+      "filename": "WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-76556f54-a29c-467c-82e7-554f65af626f.png",
+      "sha256": "9a02a3cb788279810eb2c16a56002ac18d8aae1f521b97a75127562095f03445",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_key": "Board",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "Bridge",
+      "filename": "WILLiCAT_RIVERSIDE_SMALL_BRIDGE_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-1f685714-b314-4570-84fb-1078ca7d9680.png",
+      "sha256": "fa6eb54c0f89a7365282389e3b76421d1fb4846198dcba9db49e4a2f918ed6f8",
+      "dimensions_px": [
+        1312,
+        1199
+      ],
+      "mode": "RGB",
+      "prompt_key": "Bridge",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "River",
+      "filename": "WILLiCAT_RIVER_EDGE_KIT_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-7a1618af-fadf-4195-aa22-baef903525c5.png",
+      "sha256": "e29f7b39098dd8c2f5b14bdd49caff38920983a410bda4f877823078114298a0",
+      "dimensions_px": [
+        1312,
+        1199
+      ],
+      "mode": "RGB",
+      "prompt_key": "River",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "Storefront",
+      "filename": "WILLiCAT_NEIGHBOR_STOREFRONT_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-67117b61-8c94-4664-8d88-b4157f2b5965.png",
+      "sha256": "d00262acd76a5bc9dfc0e0ab2cf973f252f264f32e8733824c1114ebb41b20a6",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_key": "Storefront",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "Trees",
+      "filename": "WILLiCAT_RIVERSIDE_TREE_FAMILY_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-f055e1e3-6492-4048-91b8-777fedde5db8.png",
+      "sha256": "f820497a9ab0050cb6d989468aeda76608bc990b25cc6f7a2801c7a684bb436d",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_key": "Trees",
+      "image_reference_inputs": []
+    },
+    {
+      "key": "Cafe",
+      "filename": "WILLiCAT_HOME_CAFE_EXTERIOR_LANGUAGE_V1.png",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-c487c77a-5096-48d9-b2fc-7249228f914f.png",
+      "sha256": "b06a59ab92d241575662b0b253b7d09c4da0cc53dcce791cab6c5b71a612bb96",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_key": "Cafe",
+      "image_reference_inputs": []
+    }
+  ],
+  "superseded_concept_sources": [
+    {
+      "key": "C",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-73a0b3f1-7db5-4740-8b84-05ecb84d33bb.png",
+      "sha256": "bcfd2c0e5bb81541b78e44c6929147e8f8825261c3054855dfeea2b076c97d57",
+      "superseded_by": "C_final",
+      "note": "Original retained in generator output location; not selected for final review."
+    },
+    {
+      "key": "Master",
+      "source_path": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-7290490f-03eb-4a90-95a3-7fac1c6cf564.png",
+      "sha256": "5ab5391ed6c82b9066f591d5e666533b9067dc6fb81e7899e732e16b9428f777",
+      "superseded_by": "Master_final",
+      "note": "Original retained in generator output location; not selected for final review."
+    }
+  ],
+  "geometry_status": "UNMEASURED",
+  "runtime_validation": "NOT_EXECUTED",
+  "human_approval": "PENDING",
+  "actor_review_reference": {
+    "source_path": "/Users/teddywoot/willi-cat/assets/first_party/storybook_mini_pack_001/normalized/orange_down.png",
+    "source_sha256": "66a7df900571c94e694102b07e8191623eef6aca0e3481691019ae680a4ae96f",
+    "review_copy": "existing_orange_down_review_reference.png",
+    "review_copy_sha256": "66a7df900571c94e694102b07e8191623eef6aca0e3481691019ae680a4ae96f",
+    "frame_region_px": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "frame_semantics_source": "scripts/dev/first_party_style_proof/first_party_character_visual.gd",
+    "treatment": "Exact sheet copy; CSS displays existing first idle_down cell only. No regeneration, retouch, motion, registration or runtime scale claim."
+  },
+  "derived_review_artifacts": [
+    {
+      "filename": "FOUR_CONCEPT_REVIEW_CONTACT_SHEET.png",
+      "sha256": "34a272a7358bdf2b89ff3ba3f6e882c35f6ff5ff334130bb9f16bbe114508a5a",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "MASTER_MOBILE_360x640.png",
+      "sha256": "5a903ee4a3f5a6653e4d0e3d2fd03547ffe8e0092fdd1459e7b934e686b0ae7f",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "MASTER_MOBILE_540x960.png",
+      "sha256": "21122214ef750e884159ee84df49d3011fd0073aacf68aacb703589c5ca9cdef",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "MOBILE_REVIEW_EXISTING_ACTOR_BRIDGE.png",
+      "sha256": "92bd62a11c49ee12ddd2345d19dff4f14a4ccfc8589ae3077df038d565a152ef",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "MOBILE_REVIEW_EXISTING_ACTOR_CAFE.png",
+      "sha256": "111e5df3d6e28163ada70fbb7f292caa79e027e2b292f638319f48f7684bd5c7",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "MOBILE_REVIEW_EXISTING_ACTOR_LANE.png",
+      "sha256": "a8311c7d442d50ba86d865d09b71c6707bbdcf913423bbfb90f896688e0e7b49",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "REVIEW.html",
+      "sha256": "669027841c7be04ccb8d3045a43176c64454a9a35d3a72173c1bdcdae386beb1",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    },
+    {
+      "filename": "WILLICAT_RIVERSIDE_CONCEPTUAL_WORLD_MAP_V1.svg",
+      "sha256": "efaffbe08561423a2ae3b283baac85ad498fd46db6fc54de055898920a0b43e5",
+      "kind": "technical_layout_or_browser_review_capture_not_new_source_art"
+    }
+  ]
+}

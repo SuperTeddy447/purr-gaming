@@ -1,0 +1,36 @@
+{
+  "scope": "Research/design evidence verification, not Godot/runtime or production PASS",
+  "preexisting_file_hashes_checked": 7072,
+  "preexisting_files_changed": [],
+  "final_generated_pngs_verified": 10,
+  "image_tool_calls_recorded": 12,
+  "all_pngs_decodable": 17,
+  "actor_sheet_copy_parity": true,
+  "local_reference_count": 56,
+  "missing_local_references": [],
+  "external_references_present": 13,
+  "svg_xml_parse": "PASS",
+  "browser_observations": {
+    "frames_css_px": [
+      [
+        360,
+        640
+      ],
+      [
+        540,
+        960
+      ]
+    ],
+    "existing_actor_overlay_positions_inspected": [
+      "cafe_forecourt",
+      "bridge",
+      "foreground_lane"
+    ],
+    "actor_visibility_toggle": "CHECKED",
+    "moving_actor_or_depth_test": "NOT_EXECUTED",
+    "phone_performance": "NOT_TESTED"
+  },
+  "human_world_design_review": "PENDING",
+  "runtime_implementation": "NOT_STARTED",
+  "production_publication": "NOT_AUTHORIZED"
+}

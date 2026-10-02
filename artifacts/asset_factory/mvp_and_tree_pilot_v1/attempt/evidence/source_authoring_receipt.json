@@ -1,0 +1,17 @@
+{
+  "scope": "original_first_party_development_source",
+  "source_sha256": "1428fdbe34eb90c819905f7ec4c2f985391c862c8c0510fe6018efca4ec6ba5a",
+  "source_filename": "tree_source_v1.png",
+  "authoring_method": "Builtin image_gen original text-only generation; source intake into MVP is manual",
+  "provider": "OpenAI image_gen tool",
+  "model": "UNEXPOSED_BY_TOOL",
+  "generation_id": "exec-4ff75bd9-93f2-41b2-ba65-cf5601ec596b",
+  "prompt_file": "prompt_v1.txt",
+  "prompt_sha256": "a51971990f460691a3c3597df852120e72e86c300a51dafa53f0615b9ece3b0d",
+  "reference_image_inputs": [],
+  "third_party_art_conditioning": false,
+  "style_basis": "Approved calibration text/material rules; no reference PNG supplied to generator",
+  "template_id": "tree_dev_diagnostic_home_registration_v1",
+  "template_version": "1",
+  "production_permission": "NOT_GRANTED"
+}

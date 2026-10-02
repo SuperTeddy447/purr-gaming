@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/ceramic_painted.png" id="1"]
+[resource]
+resource_name = "WC_MAT_Indigo"
+albedo_color = Color(0.10999999940395355, 0.1899999976158142, 0.2199999988079071, 1.0)
+roughness = 0.9399999976158142
+metallic = 0.0
+specular_mode = 0
+cull_mode = 0
+texture_filter = 3
+albedo_texture = ExtResource("1")

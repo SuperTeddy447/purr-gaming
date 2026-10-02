@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=1 format=3]
+[resource]
+resource_name = "WC_MAT_Charcoal_Trim"
+albedo_color = Color(0.0949999988079071, 0.07500000298023224, 0.05999999865889549, 1.0)
+roughness = 0.9399999976158142
+metallic = 0.0
+specular_mode = 0
+cull_mode = 0
+texture_filter = 3

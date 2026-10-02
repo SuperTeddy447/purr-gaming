@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/painted_family.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/plaster_painted.png" id="2"]
+[resource]
+resource_name = "WC_MAT_Charcoal_Trim"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.24705882352941178, 0.21176470588235294, 0.18823529411764706, 1)
+shader_parameter/reference_luma = 0.7213380356786103
+shader_parameter/texture_strength = 0.06
+shader_parameter/painted_field_strength = 0.012
+shader_parameter/edge_warmth = 0.025
+shader_parameter/material_roughness = 0.94
+shader_parameter/restrained_specular = 0

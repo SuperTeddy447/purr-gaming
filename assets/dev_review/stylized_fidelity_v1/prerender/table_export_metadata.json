@@ -1,0 +1,27 @@
+{
+  "camera_transform": "[X: (0.991794, 0.0, -0.127848), Y: (-0.084764, 0.748615, -0.657564), Z: (0.095709, 0.663004, 0.742472), O: (3.4, 11.78, 17.35)]",
+  "image_size": "(1008, 1792)",
+  "logical_object_id": "table_a",
+  "root_px": "(504.0001, 999.5728)",
+  "same_gameplay_camera_basis": true,
+  "world_span": 2.549999952316284,
+  "alpha_crop_px": [
+    190,
+    466,
+    842,
+    1051
+  ],
+  "cropped_canvas_px": [
+    652,
+    585
+  ],
+  "pivot_from_captured_ground_root_px": [
+    314.0001,
+    533.5728
+  ],
+  "source_sha256": "99966cbc0bf359864f1838dfeab4928365c2f362362b75627a74e37bd5937235",
+  "cropped_sha256": "ef7ca6b75819fca37c0242f6e0d944232d5029616963df45c5f1499f2e8059af",
+  "production_registration_approved": false,
+  "shadow_warning": "No separate scene cast shadow in isolated alpha export; included contact sprite needs separation in a future modular pilot",
+  "props_warning": "Cup/vase currently batched with table; future production needs independent state/prop layers"
+}

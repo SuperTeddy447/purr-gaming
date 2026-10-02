@@ -1,0 +1,10 @@
+{
+  "scope": "Failed diagnostic/test attempts retained; no canonical gate PASS",
+  "remediation": {
+    "godot_incomplete_dependencies_and_timing": "Preserve exact integer resource weights; complete isolated dependencies; then suppress unverified proxy pixels",
+    "phase0_missing_fixture_environment": "Supply existing spike input fixtures and PHASE0_REPO without modifying frozen code",
+    "vertical_missing_reference_dependencies": "Copy exact existing reference files into temporary project; originals unchanged",
+    "collector_numpy_boolean_canonicalization": "Convert measurement check results to Python bool before canonical JSON serialization"
+  },
+  "raw_or_unresolved_third_party_artifacts_included": false
+}

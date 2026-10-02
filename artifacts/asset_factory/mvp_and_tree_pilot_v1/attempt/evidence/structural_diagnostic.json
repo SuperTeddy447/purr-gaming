@@ -1,0 +1,1 @@
+{"checks":{"canvas":true,"fixed_base":true,"frame_duration_parity":true,"ground_contact":true,"no_whole_sprite_scale":true,"nonempty":true,"transparent_padding":true},"interpretation":"Dimensions, alpha safety, fixed root and duration parity only; not canonical motion/visual approval.","result":"PASS","scope":"STRUCTURAL_DIAGNOSTIC"}

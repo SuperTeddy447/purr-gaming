@@ -1,0 +1,37 @@
+{
+  "template_id": "tree_dev_diagnostic_home_registration_v1",
+  "template_version": "1",
+  "world_authority_ref": "res://scenes/dev/home_continuous_proxy/home_continuous_world_v1.tscn",
+  "world_authority_snapshot_ref": "artifacts/asset_factory/phase_0_contract_lock_v1/authority_snapshot.json",
+  "source_canvas_px": [
+    512,
+    640
+  ],
+  "pivot_px": [
+    "256",
+    "600"
+  ],
+  "floor_baseline_px": "600",
+  "world_units_per_source_px": "0.4",
+  "existing_sprite_offset_world": [
+    0,
+    -112
+  ],
+  "existing_shadow_offset_world": [
+    0,
+    -5
+  ],
+  "existing_shadow_scale": "0.32",
+  "existing_shadow_alpha": "0.38",
+  "existing_alpha_bbox_px": [
+    27,
+    156,
+    486,
+    600
+  ],
+  "registration_derivation": "Existing 512x640 centered canvas, authored scale 0.4 and offset y=-112 map source (256,600) to GameplayRoot (0,0). Existing alpha ground ends y=600. No new world coordinates selected.",
+  "mode": "DEV_DIAGNOSTIC",
+  "root_contact_rule": "source baseline retained, fixed lower trunk pixel region; no whole-sprite scaling during playback",
+  "motion_policy_state": "CANDIDATE_REQUIRES_CALIBRATION",
+  "source_generation_design": "Original leafy broadleaf riverside tree; restrained painterly material family from text-only approved style; source art contains no cast shadow. Ambient timings/branch travel are authored pilot settings, not canonical thresholds."
+}

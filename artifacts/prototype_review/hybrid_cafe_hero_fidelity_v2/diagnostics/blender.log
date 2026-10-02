@@ -1,0 +1,49 @@
+00:00.487  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_art_direction_v1/counter/WC_CAFE_Counter_Straight_A.blend"
+/private/tmp/willicat_hero_v2_stage/tools/willicat_cafe_hero_fidelity/refine_service.py:63: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('WC_MAT_'+name);m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=color
+/private/tmp/willicat_hero_v2_stage/tools/willicat_cafe_hero_fidelity/refine_service.py:64: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  stone=bpy.data.materials.new('WC_MAT_Cream_Stone');stone.use_nodes=True;bs=stone.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.86,.76,.61,1);bs.inputs['Roughness'].default_value=.92
+ข้อมูล: Saved as "WC_CAFE_Counter_Straight_A.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+23:26:53 | INFO: Starting glTF 2.0 export
+23:26:53 | INFO: Extracting primitive: CedarTopNosing_Mesh
+23:26:53 | INFO: Primitives created: 6
+23:26:53 | INFO: Finished glTF 2.0 export in 0.0281221866607666 s
+00:00.829  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_art_direction_v1/counter/WC_CAFE_Counter_End_A.blend"
+/private/tmp/willicat_hero_v2_stage/tools/willicat_cafe_hero_fidelity/refine_service.py:63: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('WC_MAT_'+name);m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=color
+/private/tmp/willicat_hero_v2_stage/tools/willicat_cafe_hero_fidelity/refine_service.py:64: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  stone=bpy.data.materials.new('WC_MAT_Cream_Stone');stone.use_nodes=True;bs=stone.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.86,.76,.61,1);bs.inputs['Roughness'].default_value=.92
+
+ข้อมูล: Saved as "WC_CAFE_Counter_End_A.blend"
+23:26:53 | INFO: Starting glTF 2.0 export
+23:26:53 | INFO: Extracting primitive: CedarTopNosing_Mesh.001
+23:26:53 | INFO: Primitives created: 6
+23:26:53 | INFO: Finished glTF 2.0 export in 0.018502235412597656 s
+00:00.908  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_art_direction_v1/counter/WC_CAFE_Counter_Short_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Short_A.blend"
+23:26:53 | INFO: Starting glTF 2.0 export
+23:26:53 | INFO: Extracting primitive: CedarTopNosing_Mesh.002
+23:26:53 | INFO: Primitives created: 6
+23:26:53 | INFO: Finished glTF 2.0 export in 0.01741790771484375 s
+00:00.984  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_art_direction_v1/service/WC_CAFE_Espresso_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Espresso_A.blend"
+23:26:53 | INFO: Starting glTF 2.0 export
+23:26:53 | INFO: Extracting primitive: CoffeeSurface_Mesh
+23:26:53 | INFO: Primitives created: 7
+23:26:53 | INFO: Finished glTF 2.0 export in 0.02302408218383789 s
+00:01.227  blend            | Read blend: "/Users/teddywoot/willi-cat/assets_src/3d/cafe_kit_v1/service/WC_CAFE_Grinder_A.blend"
+
+ข้อมูล: Saved as "WC_CAFE_Grinder_A.blend"
+23:26:53 | INFO: Starting glTF 2.0 export
+23:26:53 | INFO: Extracting primitive: CoffeeHopper_Mesh
+23:26:53 | INFO: Primitives created: 5
+23:26:53 | INFO: Finished glTF 2.0 export in 0.015302896499633789 s
+
+V2 SERVICE REFINEMENTS 5
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

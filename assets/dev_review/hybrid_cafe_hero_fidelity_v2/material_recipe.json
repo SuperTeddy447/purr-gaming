@@ -1,0 +1,201 @@
+{
+  "scope": "DEV authored material palette; geometry/timing thresholds unchanged",
+  "new_image_generation_calls": 0,
+  "new_texture_files": 0,
+  "texture_sources": {
+    "wood": "assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png",
+    "plaster": "assets/dev_review/hybrid_cafe_kit_v1/textures/plaster_painted.png",
+    "fabric": "assets/dev_review/hybrid_cafe_kit_v1/textures/sage_woven.png",
+    "ceramic": "assets/dev_review/hybrid_cafe_kit_v1/textures/ceramic_painted.png",
+    "leaf": "assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png"
+  },
+  "reference_luma_linear": {
+    "wood": 0.20084233949912136,
+    "plaster": 0.7213380356786103,
+    "fabric": 0.20383584449383083,
+    "ceramic": 0.748414796427298,
+    "leaf": 0.1968433181684167
+  },
+  "materials": {
+    "Cedar_Light": [
+      "wood",
+      "C68F5E",
+      0.54,
+      0.042,
+      0.046,
+      0.94,
+      0
+    ],
+    "Cedar_Mid": [
+      "wood",
+      "9B6D44",
+      0.52,
+      0.042,
+      0.055,
+      0.94,
+      0
+    ],
+    "Cedar_Dark": [
+      "wood",
+      "583F2E",
+      0.38,
+      0.042,
+      0.041,
+      0.96,
+      0
+    ],
+    "Floor_Wood": [
+      "wood",
+      "C7A078",
+      0.4,
+      0.023,
+      0.008,
+      0.98,
+      0
+    ],
+    "Cream_Stone": [
+      "plaster",
+      "E7D6B9",
+      0.23,
+      0.018,
+      0.012,
+      0.91,
+      0.1
+    ],
+    "Plaster_Cream": [
+      "plaster",
+      "F3DEC7",
+      0.2,
+      0.02,
+      0.007,
+      0.99,
+      0
+    ],
+    "Sage_Fabric": [
+      "fabric",
+      "809471",
+      0.1,
+      0.02,
+      0.008,
+      0.99,
+      0
+    ],
+    "Ceramic_Offwhite": [
+      "ceramic",
+      "F3DEC7",
+      0.14,
+      0.017,
+      0.014,
+      0.82,
+      0.12
+    ],
+    "Charcoal_Trim": [
+      "plaster",
+      "3F3630",
+      0.06,
+      0.012,
+      0.025,
+      0.94,
+      0
+    ],
+    "Restrained_Metal": [
+      "plaster",
+      "645B50",
+      0.08,
+      0.014,
+      0.018,
+      0.86,
+      0.1
+    ],
+    "Foliage": [
+      "leaf",
+      "627F48",
+      0.23,
+      0.022,
+      0.015,
+      0.99,
+      0
+    ],
+    "Foliage_Light": [
+      "leaf",
+      "8D9E60",
+      0.19,
+      0.026,
+      0.015,
+      0.99,
+      0
+    ],
+    "Foliage_Dark": [
+      "leaf",
+      "405B3B",
+      0.19,
+      0.021,
+      0.008,
+      0.99,
+      0
+    ],
+    "Coffee": [
+      "plaster",
+      "35251C",
+      0.07,
+      0.01,
+      0,
+      0.99,
+      0
+    ],
+    "Paper_Warm": [
+      "plaster",
+      "EAD5B2",
+      0.07,
+      0.012,
+      0,
+      0.99,
+      0
+    ],
+    "Lantern_Paper": [
+      "plaster",
+      "F1D7A6",
+      0.09,
+      0.013,
+      0,
+      0.99,
+      0
+    ],
+    "Indigo": [
+      "ceramic",
+      "3F5B5B",
+      0.12,
+      0.015,
+      0.012,
+      0.91,
+      0.03
+    ],
+    "Petal_Cream": [
+      "plaster",
+      "EDD1BD",
+      0.05,
+      0.012,
+      0.015,
+      0.96,
+      0
+    ],
+    "Pastry_Warm": [
+      "plaster",
+      "D0A064",
+      0.07,
+      0.012,
+      0,
+      0.99,
+      0
+    ]
+  },
+  "method": "Existing first-party painted maps provide restrained value variation around role-specific base color; two broad smooth brush fields and normal-led edge warmth; no pixel noise, photo, normal map or per-object materials.",
+  "organic_pigment_batch": {
+    "shared_material": "WC_MAT_Foliage_Organic",
+    "vertex_color_channels": {
+      "r": "local AO 1.0 for authored leaf meshes",
+      "g": "authored dark0 / mid0.5 / light1 pigment blend; no random colors"
+    },
+    "shadows": "floor foliage retained; small rear/table foliage off; human art choices, not production thresholds"
+  }
+}

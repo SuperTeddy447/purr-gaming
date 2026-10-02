@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "check_id": "counter_pixel_owner",
+      "expected": "object",
+      "overlap_pixels": 1002,
+      "expected_owner_fraction": 1.0,
+      "passed": true,
+      "method": "fixed-pose RGB differential; delta8 and majority are image-analysis discrimination settings, not canonical art tolerances",
+      "whole_object_expected_owner_fraction": 0.5196029776674937,
+      "note": "Counter top stays behind actor; front body alone must occlude. Whole-object overlap intentionally includes both layers.",
+      "front_body_roi_px": [
+        0,
+        310,
+        504,
+        360
+      ]
+    },
+    {
+      "check_id": "counter_front_pixel_owner",
+      "expected": "actor",
+      "overlap_pixels": 1692,
+      "expected_owner_fraction": 0.9739952718676123,
+      "passed": true,
+      "method": "fixed-pose RGB differential; delta8 and majority are image-analysis discrimination settings, not canonical art tolerances"
+    },
+    {
+      "check_id": "table_back_pixel_owner",
+      "expected": "object",
+      "overlap_pixels": 2370,
+      "expected_owner_fraction": 0.9966244725738397,
+      "passed": true,
+      "method": "fixed-pose RGB differential; delta8 and majority are image-analysis discrimination settings, not canonical art tolerances"
+    },
+    {
+      "check_id": "table_front_pixel_owner",
+      "expected": "actor",
+      "overlap_pixels": 1182,
+      "expected_owner_fraction": 0.9737732656514383,
+      "passed": true,
+      "method": "fixed-pose RGB differential; delta8 and majority are image-analysis discrimination settings, not canonical art tolerances"
+    }
+  ],
+  "check_count": 4,
+  "passed": true
+}

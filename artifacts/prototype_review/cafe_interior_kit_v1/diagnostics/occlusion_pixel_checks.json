@@ -1,0 +1,44 @@
+{
+  "count": 4,
+  "passed": true,
+  "checks": [
+    {
+      "test": "counter",
+      "overlap_pixels": 1643,
+      "actor_owned": 1102,
+      "furniture_owned": 517,
+      "passed": true,
+      "pixel_comparison_difference_setting": 3,
+      "setting_scope": "image-difference recipe, not an artistic tolerance"
+    },
+    {
+      "test": "counter_front",
+      "overlap_pixels": 874,
+      "actor_owned": 818,
+      "furniture_owned": 1,
+      "passed": true,
+      "pixel_comparison_difference_setting": 3,
+      "setting_scope": "image-difference recipe, not an artistic tolerance"
+    },
+    {
+      "test": "table_back",
+      "overlap_pixels": 679,
+      "actor_owned": 0,
+      "furniture_owned": 662,
+      "passed": true,
+      "pixel_comparison_difference_setting": 3,
+      "setting_scope": "image-difference recipe, not an artistic tolerance"
+    },
+    {
+      "test": "table_front",
+      "overlap_pixels": 509,
+      "actor_owned": 462,
+      "furniture_owned": 0,
+      "passed": true,
+      "pixel_comparison_difference_setting": 3,
+      "setting_scope": "image-difference recipe, not an artistic tolerance"
+    }
+  ],
+  "counter_rule": "worker upper body is visible while counter front owns lower-body overlap",
+  "table_rule": "back ownership belongs to table; front ownership belongs to actor"
+}

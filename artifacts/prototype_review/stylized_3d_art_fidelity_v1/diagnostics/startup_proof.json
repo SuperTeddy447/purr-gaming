@@ -1,0 +1,10 @@
+{
+	"checks": {
+		"authority_unchanged": true,
+		"automatic_hero_arrival": true,
+		"cat_visible_on_floor": true,
+		"existing_navigation_succeeded": true
+	},
+	"count": 4,
+	"passed": true
+}

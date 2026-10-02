@@ -1,0 +1,39 @@
+{
+  "scope": "DEV testing only; no asset human or production approval",
+  "mvp": {
+    "tests_run": 27,
+    "failures": 0,
+    "errors": 0
+  },
+  "frozen_phase0": {
+    "tests_run": 80,
+    "failures": 0,
+    "errors": 0,
+    "legacy_spike_receipts": "Existing Phase 0 input fixtures copied into isolated regression directory; not newly executed spikes"
+  },
+  "forge": {
+    "tests_run": 62,
+    "failures": 0,
+    "errors": 0
+  },
+  "godot": {
+    "home": "PASS",
+    "cafe": "PASS",
+    "vertical_slice": "PASS",
+    "tree_import": "PASS",
+    "legacy_sample_wav_importer_messages": "three nonblocking seek errors reproduced in sound-only project; new tree import/runtime error-free"
+  },
+  "logs": {
+    "legacy_wav_import_probe.log": "a0fc1655f8a5cc1a51107b60b302021711d2a615544849f5dc77f8e327e86ab4",
+    "godot_cafe.log": "08739ea078af301be7a56e61a3e0458692066a56eeeb387319eb265d966c4c47",
+    "mvp_test_results.json": "0801793c38b49acf52b9741ac6c88d1ba856c3339b0639383502acefe52e5f4a",
+    "godot_home.log": "88f033376032fc60300895ef9585ab3ef4e068152e1677a51d57a6277c1780b0",
+    "mvp_tests.log": "d6666ed17eb5ec531bf1a4e5b1c65baa83ce5fab88b30c1c37d73ebaccfbeda0",
+    "phase0_tests.log": "f645dddc6946839f3e917dc31b00882be973f11a4d1defe41e60d9668bd3cbe0",
+    "tree_only_import.log": "fa1cd2548fb1cb8510242b89f8b00dcd3084f74baf326afa922dbb150b55e2ae",
+    "forge_tests.log": "c780c1475781616219d7bfad2068aa527bf313649af86ae1794a32cd11f57eb7",
+    "isolated_project_import.log": "7226d7091f97b75dc1a11ba2a0a71770639e494de95fcfbf9c289d8cb45dbe2e",
+    "phase0_contract_test_results.json": "5d4845903d50b2aa03d2c832a2aab7fe687703b3d1c58d82653dfce976b396a6",
+    "godot_vertical_slice.log": "9066f5bcd4ac0e437c5f7e37c18796e54de8ab2b6c974d6007b5c1f796b60760"
+  }
+}

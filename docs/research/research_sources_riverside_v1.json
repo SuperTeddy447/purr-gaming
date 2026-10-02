@@ -1,0 +1,103 @@
+{
+  "accessed_date": "2026-10-02",
+  "sources": [
+    {
+      "source_id": "R1",
+      "title": "Setogawa River / Shirakabe Dozo",
+      "url": "https://www.hida.jp/english/touristattractions/4001419/4000090.html",
+      "authority": "Municipal tourism",
+      "inspection": "Text read; official canal photos viewed in browser",
+      "notes": "Canal beside white plaster/storehouse fronts and stone edges; water connected to daily use. Narrow corridor and small frontage relationship visible."
+    },
+    {
+      "source_id": "R2",
+      "title": "Hida Furukawa walking itinerary",
+      "url": "https://hida.travel/itineraries/1-day-hida-furukawa-walking-tour/16",
+      "authority": "Hida City tourism",
+      "inspection": "Text read",
+      "notes": "Walking itinerary links ordinary production/craft businesses and canal neighborhood. Useful street-life context, not measured dimensions."
+    },
+    {
+      "source_id": "R3",
+      "title": "Hachimanbori",
+      "url": "https://www.omi8.com/welcome-e/hachimanbori/",
+      "authority": "Omihachiman official tourism",
+      "inspection": "Text read",
+      "notes": "Artificial waterway linked trade and town; white-walled storehouses and wooden merchant residences. Maintenance/restoration is a community activity."
+    },
+    {
+      "source_id": "R4",
+      "title": "Yanagawa waterway explanation",
+      "url": "https://www.city.yanagawa.fukuoka.jp/kanko/kawakudari/kawakudari_horiwari.html",
+      "authority": "Yanagawa City",
+      "inspection": "Japanese text read/paraphrased",
+      "notes": "Canal network relates drainage, agricultural water and daily water use. Water is working neighborhood infrastructure, not only scenery."
+    },
+    {
+      "source_id": "R5",
+      "title": "Yanagawa official destination",
+      "url": "https://www.japan.travel/en/spot/773/",
+      "authority": "JNTO",
+      "inspection": "Text and official main photograph viewed",
+      "notes": "Waterway beside mixed roof/wall forms, maintained shrubs, willow-like foliage and utility lines. Tourist boat shown; its role is not adopted for Home."
+    },
+    {
+      "source_id": "R6",
+      "title": "Hita/Mamedamachi everyday commercial context",
+      "url": "https://www.visit-kyushu.com/en/plan-your-trip/trip-ideas/journey-countryside-and-pottery-northern-kyushu/",
+      "authority": "Kyushu Tourism Organization",
+      "inspection": "Text read",
+      "notes": "Brewery grounds beside Hanatsuki river and restored merchant shops connect waterways with local work/craft."
+    },
+    {
+      "source_id": "R7",
+      "title": "River landscape formation and conservation summary",
+      "url": "https://www.mlit.go.jp/river/shishin_guideline/kankyo/riverscape/pdf/summary.pdf",
+      "authority": "Japan MLIT",
+      "inspection": "Nine-page summary text read; p3, p8–9 relevant",
+      "notes": "Guideline dated October 2006. Connects microtopography, flow, vegetation, regional history and human use; distinguishes structural landscape design from design of individual places."
+    },
+    {
+      "source_id": "G1",
+      "title": "Tiny Glade",
+      "url": "https://pouncelight.games/tiny-glade/",
+      "authority": "Developer Pounce Light",
+      "inspection": "Official landing image visually inspected; official description read",
+      "notes": "Developer describes a small relaxing diorama builder. Visible forms use softened masonry/timber, grouped foliage and compact layered volumes. Landing image is promotional, not camera/performance evidence."
+    },
+    {
+      "source_id": "G2",
+      "title": "A Short Hike",
+      "url": "https://ashorthike.com/",
+      "authority": "Developer Adam Robinson-Yu",
+      "inspection": "Official gameplay screenshot grid and description viewed",
+      "notes": "Marked trails and optional backcountry exploration documented. Screens show clear warm paths against quieter vegetation/rock and distinguishable elevation masses."
+    },
+    {
+      "source_id": "G3",
+      "title": "A Short Hike postmortem",
+      "url": "https://www.gdcvault.com/play/1026613/Independent-Games-Summit-Crafting-A",
+      "authority": "Creator presentation listing, GDC",
+      "inspection": "Abstract read only; full talk not watched",
+      "notes": "Creator discusses visual style, level design and production under a limited compact open-world scope. No detailed technique inferred from an unwatched talk."
+    },
+    {
+      "source_id": "G4",
+      "title": "Townscaper",
+      "url": "https://store.steampowered.com/app/1291340/Townscaper/",
+      "authority": "Developer/publisher product media",
+      "inspection": "Official store description and media viewed",
+      "notes": "Block-built waterfront toy documented; visual grammar uses coherent roof/façade rhythm, water negative space and clear connected platforms. Web demo loading view did not provide useful visual evidence."
+    },
+    {
+      "source_id": "G5",
+      "title": "Dordogne",
+      "url": "https://www.focus-entmt.com/en/games/dordogne",
+      "authority": "Official publisher Focus Entertainment",
+      "inspection": "Publisher page and official developer/publisher store copy read; watercolor wording verified in About This Game, not user reviews",
+      "notes": "Hand-painted watercolor presentation is documented. Used for material/detail hierarchy only, not as evidence of an orthographic 3D runtime or a mobile budget.",
+      "supporting_url": "https://store.steampowered.com/app/1272840/Dordogne/"
+    }
+  ],
+  "third_party_boundary": "Read/view only. No screenshots/raw assets copied to repository or sent as generative inputs. Production grammar/principles only."
+}

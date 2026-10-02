@@ -1,0 +1,5 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/woven_rug.gdshader" id="1"]
+[resource]
+resource_name = "WC_MAT_Woven_Rug"
+shader = ExtResource("1")

@@ -1,0 +1,85 @@
+{
+  "authority_inputs": [
+    {
+      "path": "/Users/teddywoot/willi-cat/docs/art_direction/WILLICAT_STYLE_FAMILY_CALIBRATION_V1.md",
+      "sha256": "2e401c8aee975e6b5d3ba52e335f8043db49f28b31c4297b107af661fd4398c8"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/docs/asset_factory/style_families/WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1.json",
+      "sha256": "d9aa062d508c67d69e4be474859ccd5866ade17af7c0c8ef42cb4fa9e7a82a71"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/docs/production/WILLICAT_CAFE_VISUAL_FIDELITY_RECOVERY_V1_HUMAN_REVIEW_DECISION.md",
+      "sha256": "1185974ed001b8c55195e02ba6a3733ec0f97344715338108d43d971140728ed"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/scenes/dev/hybrid_diorama/hybrid_cafe_diorama_v1.tscn",
+      "sha256": "f785ae82b8271c8b923877521b1aead06da8f4af288cb52a983b478753a24824"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/docs/research/WILLICAT_HYBRID_3D_DIORAMA_RESEARCH_V1.md",
+      "sha256": "20ce17914302411b25d6e462417ad29ca8bcadff99bb6ef359b6e5c51dce4a6e"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/docs/production/WILLICAT_HYBRID_3D_DIORAMA_FEASIBILITY_SPIKE_V1_RESULT.md",
+      "sha256": "c5982a245f2513bc5d022825618395ea6daaca858726422bfda5894bc00b23e8"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/assets/first_party/storybook_mini_pack_001/normalized/orange_down.png",
+      "sha256": "66a7df900571c94e694102b07e8191623eef6aca0e3481691019ae680a4ae96f",
+      "dimensions": [
+        768,
+        256
+      ],
+      "decoded_rgba_sha256": "709b692b72b86f5aeccf92fa2792ff011bdcec5c6c50b80e2c4d4cdca526a849"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/assets/first_party/storybook_mini_pack_001/normalized/orange_up.png",
+      "sha256": "53c7b81b65607ae2529f038e49535af05ff709dc8c512faad0aefd4a4e184424",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "decoded_rgba_sha256": "c0a66dc0cebc16b93814f1aa7948220cbb4fe18b2084a687f39c84f2a8e27507"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/assets/first_party/storybook_mini_pack_001/normalized/orange_left.png",
+      "sha256": "6eae383bc14dadf970b2f69c8de3cda73a52533467351f5eddf07af557679d2d",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "decoded_rgba_sha256": "b281f2cc2949eb0467100602ce948e978a27334a64c1a873f634015f1707f965"
+    },
+    {
+      "path": "/Users/teddywoot/willi-cat/assets/first_party/storybook_mini_pack_001/normalized/orange_right.png",
+      "sha256": "31b4675ff7800616fd38f6e218772e81e87903ee563aed34236059880c0bf9e2",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "decoded_rgba_sha256": "d1ec76be5e8da99f7cff123d5cfed1ade61badf896829a2022c2c4075211bb35"
+    }
+  ],
+  "art_direction_only_references": [
+    {
+      "path": "/var/folders/vv/p759sh4j4r161qt9k21s1bm80000gn/T/codex-clipboard-2ec56610-c2f2-42d0-851a-f7a747b92645.png",
+      "sha256": "ea5daff3c92e32bb7e525f542bf6fbd813d58e44ece50f81c418fb1c1ce5c639",
+      "dimensions": [
+        1058,
+        1487
+      ],
+      "decoded_rgba_sha256": "72390613f86326cb9ac6cabe912fd0544a90ee78e951a14a82912c76720b4d2c"
+    },
+    {
+      "path": "/var/folders/vv/p759sh4j4r161qt9k21s1bm80000gn/T/codex-clipboard-3ef99a70-ff37-4cd5-8fd4-de384ab269b8.png",
+      "sha256": "f39690eb202a4c81498865097ac73f8ec037d4f839504c3b08e351421769deb2",
+      "dimensions": [
+        1214,
+        1295
+      ],
+      "decoded_rgba_sha256": "aa9c115a114d0f3825d454deeed6127183e8ec57e30926ff731021630218e258"
+    }
+  ],
+  "reference_pixels_sent_to_generation": false
+}

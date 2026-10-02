@@ -1,0 +1,27 @@
+{
+  "count": 272,
+  "passed": true,
+  "tests": {
+    "cafe": {
+      "count": 39,
+      "passed": true,
+      "log": "regression_cafe.log"
+    },
+    "home": {
+      "count": 28,
+      "passed": true,
+      "log": "regression_home.log"
+    },
+    "world": {
+      "count": 172,
+      "passed": true,
+      "log": "regression_world.log"
+    },
+    "focus": {
+      "count": 33,
+      "passed": true,
+      "log": "regression_focus.log"
+    }
+  },
+  "instrumentation": "Original cafe/Focus tests executed. Copied Home/world tests only add execution-count printing; no repository test or gameplay source changed."
+}

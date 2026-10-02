@@ -1,0 +1,37 @@
+{
+  "scope": "DEV_PROCESSING_REPRODUCTION_RECEIPT",
+  "factory_forge_repository_commit": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "uncommitted_module_hashes": {
+    "tools/willicat_asset_forge/static_prop.py": "f73751e926cf73f745aa400f54029a30a4cb43dfc0f7821d1e29725a9d933bc8",
+    "tools/willicat_asset_forge/image_processing.py": "4783a264ed66f7afdc137e2cc076705493ac5abc03f8b1c1237d1429275f80cc",
+    "tools/willicat_asset_forge/sprite_sheet.py": "d3bc2983ef725772fac033b04ae94d4b568ca3923aae7f827e9c30dddc8897b2"
+  },
+  "recovery_recipe_hash": "e17b44caedc7d08b99ee679a5cedfd7d8fa81667fe3d211ec1f7e1c43bc3ad49",
+  "versions": {
+    "python": "3.9.6",
+    "pillow": "11.3.0",
+    "numpy": "2.0.2",
+    "godot": "4.7.2.stable.official.ed1daf0bf"
+  },
+  "source_file_hash": "beeed81250e146da86e3f5f9d07a245266ebd1246c8d457312580d151940e1c6",
+  "canonical_decoded_rgba_hash": "bb5e56f21d3ecce79d21781426b667023cb5d525b8345e80617dabd7d29376e1",
+  "output_hashes": {
+    "counter_right_front.png": "a98950f9f5e14e30e81d7e642ece0f7adf285527436d1d34711d27fd256ac36d",
+    "menu_flat.png": "7393850d42042842556a754290195f63bfbbbaebc184c6778345064a9c815c71",
+    "counter_left_top.png": "5e945aad9aee600135de9ecc9ef2b39cb7c220ca3c804b25a2f00bd47d542b21",
+    "seating_rug.png": "f6c6fe6157845006d49e5a59f7b21ff4b7a91698e483006ada4391fb1099a123",
+    "counter_middle_top.png": "ad93dbd1fbee687c319d53663d7fc1e6c5591e538bf0bae37e0b108231d921ba",
+    "entry_mat.png": "d85a8bb13c9d64fade53d8d0729ab94a39260bef9ed8103ca6a0009a97427a7b",
+    "cedar_post_face.png": "e8ec901bdfaa762aae85fab99f0601672370f1c4eaad3990a40d0b28a9cbb687",
+    "counter_left_front.png": "4d3539af93ee8e179ae6a53d1b8659c692a47bd218c5318668dec0055a6a5867",
+    "counter_aligned.png": "7f3f5f8918e1e531f077e522223b63d31735e745f903a700b28695de8349a5f2",
+    "counter_surface_material.png": "e58998b46efaecda5ad7c6289dd2b3b2e5977d8968de1926fc12437cb704ae91",
+    "counter_middle_front.png": "73d19a9877d31c6473f6175774862035f9e54f72aec8cad2c21487c19fdbd881",
+    "counter_right_top.png": "77b96e68a7e99761658baefa6557ecfe1d4aa7e0a6f14f7205bec092a1238080",
+    "sisal_post.png": "93e1148999beb8b9d9d462ea09ee750e47ce7d6acf44d1ab95b748e8035ad212"
+  },
+  "dependency_lock_hashes": {
+    "tools/willicat_asset_forge/requirements.txt": "3344efb382fe0eb0f8ba53f39281b3f3c983ab05f29095ba438f0e3559087e43"
+  },
+  "environment_fingerprint": "captured package versions/module hashes, not a claim of full cross-platform bitwise determinism"
+}

@@ -1,0 +1,47 @@
+{
+  "asset_id": "cat_bed_empty",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/cat_bed_empty.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/cat_bed_empty.png",
+  "source_sha256": "1513073ba934c07b53eaea202663bb609ff10bf84b42b1f83f43daf15bb72f3d",
+  "runtime_sha256": "6a74597a0ea3bbf4828a41a58ba6d9073416b881108e4b519fe2156295db934f",
+  "source_dimensions": [
+    634,
+    380
+  ],
+  "runtime_dimensions": [
+    630,
+    384
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    604,
+    374
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    614,
+    384
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    315.0,
+    384
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 6353,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

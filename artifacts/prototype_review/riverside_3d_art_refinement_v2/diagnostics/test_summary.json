@@ -1,0 +1,52 @@
+{
+  "scope": "assertions/cases, not independent test functions; no aesthetic approval",
+  "suites": [
+    {
+      "suite": "Native V2 import/registration/route/camera/root/capture/identity",
+      "passed": 77,
+      "failed": 0
+    },
+    {
+      "suite": "Native mouse/touch input",
+      "passed": 5,
+      "failed": 0
+    },
+    {
+      "suite": "Temporary launcher safety and byte-preserving intake",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "suite": "Four-layer native pixel occlusion",
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "suite": "Existing world architecture / navigation",
+      "passed": 172,
+      "failed": 0
+    },
+    {
+      "suite": "Existing continuous Home",
+      "passed": 28,
+      "failed": 0
+    },
+    {
+      "suite": "Existing approved 2D caf\u00e9 / service",
+      "passed": 39,
+      "failed": 0
+    },
+    {
+      "suite": "Existing Focus/persistence/economy guards",
+      "passed": 33,
+      "failed": 0
+    },
+    {
+      "suite": "Installed visible controls / movement / debug / width",
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "passed": 367,
+  "failed": 0
+}

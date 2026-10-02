@@ -1,0 +1,804 @@
+{
+  "created_files": [
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/01_FULL_PORTRAIT_GAMEPLAY_540x960.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/01_FULL_PORTRAIT_GAMEPLAY_540x960.png",
+      "sha256": "31c0dbef4d899b2f0ab88f4b918a9b8dd6afbc2afa4528cd4d88f9f51d0fb068",
+      "bytes": 329544
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/02_CAT_CAFE_ENTRANCE.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/02_CAT_CAFE_ENTRANCE.png",
+      "sha256": "fcd7bc652da21c70b835fd5cc96f215a92a6428b7f78fead749c66e865c11c16",
+      "bytes": 329352
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/03_CAT_RIVER_WALK.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/03_CAT_RIVER_WALK.png",
+      "sha256": "5f5bf7b9738f45ec4eb294eaf698a0c5aa5ecc349300e0dc2ab1ee654e9bfe7a",
+      "bytes": 329949
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/04_CAT_BRIDGE_CROSSING.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/04_CAT_BRIDGE_CROSSING.png",
+      "sha256": "8c1b2fbaf5f7d88fb20039245832a1bc2011c21cb787b41695e48cfdbb3cbb58",
+      "bytes": 329921
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/05_CAFE_FACADE_CLOSE_3Q.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/05_CAFE_FACADE_CLOSE_3Q.png",
+      "sha256": "8ddf94e985bd6f902a7e6d073fd00c82ef1b968bf6e421fc10a9aa2f1a270896",
+      "bytes": 599488
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/06_RIVER_EDGE_WATER_CLOSE.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/06_RIVER_EDGE_WATER_CLOSE.png",
+      "sha256": "e209147be619628cbb275f441bc20970e6930d63ab4e0a58b5c6cd49b92e059d",
+      "bytes": 560777
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/07_TOP_VIEW_PLAYABLE_ROUTE.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/07_TOP_VIEW_PLAYABLE_ROUTE.png",
+      "sha256": "b57218f5a6408432d378cb134baa4663a86275d8ac225c08a1ef2b2dab993d38",
+      "bytes": 356519
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/08_MOBILE_360_CAFE.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/08_MOBILE_360_CAFE.png",
+      "sha256": "771b2f4405667ac88509b105850c6b62eb2fa26b721a0223c3bce487cbbeb970",
+      "bytes": 159400
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/09_MOBILE_360_RIVER.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/09_MOBILE_360_RIVER.png",
+      "sha256": "329f8c36c70a0905c2a31793a9b344716c8f9f738063c10d192ac63edc66aa01",
+      "bytes": 159336
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/10_MOBILE_360_BRIDGE.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/10_MOBILE_360_BRIDGE.png",
+      "sha256": "06d53b1398549e74c21e7bd632190a7309e663b62f1fdfd40a7925f0732e2f9d",
+      "bytes": 159222
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/11_TWO_CAT_WIDTH_TEST.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/11_TWO_CAT_WIDTH_TEST.png",
+      "sha256": "f32fecc280b81bbb93defb3a4ca1d8d21cbd390e8f31e1bf56ab6aadddf3e52d",
+      "bytes": 330212
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/12_WATER_FOLIAGE_TIME_A.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/12_WATER_FOLIAGE_TIME_A.png",
+      "sha256": "c68a9688171082025de890b62734009a45d56407f515fb303a52cc51272cf476",
+      "bytes": 329527
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/13_WATER_FOLIAGE_TIME_B.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/13_WATER_FOLIAGE_TIME_B.png",
+      "sha256": "69eaa8df2f7ef7a7809e590009360339c00b7838c593c23cba21b76cfc9fbad4",
+      "bytes": 329567
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/14_MASTER_VS_3D_TRANSLATION.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/14_MASTER_VS_3D_TRANSLATION.png",
+      "sha256": "4d22537af71672545774e8a92ab838c790c1b685e977a4cdc9673e6a8fb34409",
+      "bytes": 1428968
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/WILLICAT_RIVERSIDE_3D_TRANSLATION_PROOF_V1.mp4",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/WILLICAT_RIVERSIDE_3D_TRANSLATION_PROOF_V1.mp4",
+      "sha256": "44dd1ff81d49b6015bc7c0abaeb46dba8152c21d4dab3690f0218c9ec351d6f3",
+      "bytes": 330521
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_actor_only.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_actor_only.png",
+      "sha256": "93cfde0c386f45a27782324b232a75a1ae8bb52fbb67bfa62fcd34f72ae5733f",
+      "bytes": 5934
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_empty.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_environment.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_environment.png",
+      "sha256": "8b553e97c7ca32da2977bb5741df8b3ab4095e8889ebcaba5efead9eca3c91b6",
+      "bytes": 328912
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_full.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/bridge_full.png",
+      "sha256": "be9a554ed751c6a0a00da56fc50f9d352484b6984e9a77df4e948266a2ba573e",
+      "bytes": 329446
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_actor_only.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_actor_only.png",
+      "sha256": "618e1d4b51f71647e648519ce420985f49fb7e0025fd6eb380e7e521bc100b22",
+      "bytes": 5948
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_empty.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_environment.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_environment.png",
+      "sha256": "8b553e97c7ca32da2977bb5741df8b3ab4095e8889ebcaba5efead9eca3c91b6",
+      "bytes": 328912
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_full.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/entrance_full.png",
+      "sha256": "805cefd19d9c288b71cedefba135cf5466c97a59804a422b439310fccb04d6f8",
+      "bytes": 329393
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_360_actor.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_360_actor.png",
+      "sha256": "b7adbcaf971376327e980aa9496ae6f23894a8c09cd53e8f8bc54e855794c643",
+      "bytes": 3220
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_360_empty.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_360_empty.png",
+      "sha256": "7fb8ed0b2e1ca17b4fee4346ed0bd469c17cad3641850e3b326c4e64ebc52bcd",
+      "bytes": 2025
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_540_actor.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_540_actor.png",
+      "sha256": "81d66e6374dcadca9e84144ebbe8f9d5496773a441d51ddcfb8e954ac5d314e0",
+      "bytes": 5944
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_540_empty.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/depth_layers/scale_540_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/image_depth_scale_motion_analysis.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/image_depth_scale_motion_analysis.json",
+      "sha256": "be43d0059a61776d9e9500e2db8a4fbee04c85b5f2fe01a3463e829c379df910",
+      "bytes": 2428
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_input_report.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_input_report.json",
+      "sha256": "439f8cdcea02161825951cb861fcbdd62f0ae5c241694415b2e3f965ecf29a19",
+      "bytes": 629
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_runtime_report.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_runtime_report.json",
+      "sha256": "63aab0ea529849facabb9cf54ed7ba6d09ae2c0316197a59ae39a9b030d8807b",
+      "bytes": 392974
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_video_frames.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/native_video_frames.json",
+      "sha256": "b21c277dc5b7f0f1767a4f039b5409ab827a29aa56c28215e447b24a1ea7133e",
+      "bytes": 41546
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/performance.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/performance.json",
+      "sha256": "8fb84b841d16e47fda97266e4375d9079e8e2a48311ce04f7b25df7111867ce4",
+      "bytes": 2473
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/protected_file_parity.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/protected_file_parity.json",
+      "sha256": "aac4247f57aa0723eb0958336e89f3713472711158d36b1b01dd114eea5123d9",
+      "bytes": 1069708
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/resolved_diagnostics.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/resolved_diagnostics.json",
+      "sha256": "9583b8c060950268cb677136dffc5279ceea564b81446af14d1bf0d1f50a0a4b",
+      "bytes": 1216
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_blender_final.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_blender_final.log",
+      "sha256": "8bde1ab807d411b480788c7b854d564e5dcb7025098f3a3fa839d5b494e81ddc",
+      "bytes": 6459
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_import.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_import.log",
+      "sha256": "ab39b8533968e36970112f2df8b6cb8ded6b6e008ccc2bcd6e05ab2ee980fa75",
+      "bytes": 8008
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_input_depth.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_input_depth.log",
+      "sha256": "a513946fdb5e7c0cce69de7f1e8c0b3d2fe8587ddb3a270f7e15247d1988028e",
+      "bytes": 183
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_input_depth_final.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_input_depth_final.log",
+      "sha256": "a513946fdb5e7c0cce69de7f1e8c0b3d2fe8587ddb3a270f7e15247d1988028e",
+      "bytes": 183
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_launcher_verified.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_launcher_verified.log",
+      "sha256": "ec83b3c456c77fbfd941032cee006c132ed17c1cb01117189f1e28836e31cb7b",
+      "bytes": 105
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_native_release_dev.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_native_release_dev.log",
+      "sha256": "98c4160e6df1ef2ad06c03af7c47eb08dc540f67209bf5d4325a6d0ef951ba33",
+      "bytes": 207
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_native_verified.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_native_verified.log",
+      "sha256": "3ecfadc91f1a72c414b19f6e3588e1e45914b433eba3b510a5dd5c206c587d5a",
+      "bytes": 207
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_cafe_visual_recovery_v1.gd.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_cafe_visual_recovery_v1.gd.log",
+      "sha256": "c37429b7f88d9ead03976b06dd7f38016c3184dea76a7b1d5141ef6c28ee8df4",
+      "bytes": 587
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_focus_retreat_v1.gd.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_focus_retreat_v1.gd.log",
+      "sha256": "a7b3b85ecfbce2eddb2b004ab56e231b1db7d11f4d7432e28da8e2cbe723fffb",
+      "bytes": 103
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_home_continuous_world_v1.gd.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_final_test_home_continuous_world_v1.gd.log",
+      "sha256": "b3dae6e3b754029b0c6c88c552d0e5841331eda389026ab9e3ea4d91c64bf297",
+      "bytes": 1950
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_import.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_import.log",
+      "sha256": "3d9e546aaa1e286acf8467e155900def62cb76a8619075741be0800e62c1b98c",
+      "bytes": 109153
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_test_world_architecture_hardening_v1.gd.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_regression_test_world_architecture_hardening_v1.gd.log",
+      "sha256": "40cd901c89229e73b59210fc869b3d20f00074634fd9d5c33713b973c827c9dc",
+      "bytes": 2228
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_test_cafe_visual_recovery_v1.gd_results.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_test_cafe_visual_recovery_v1.gd_results.json",
+      "sha256": "604eb75c06dd3666d1ec77e69dd1c17924be917396d3f87d5a627612477b611f",
+      "bytes": 3284
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_test_focus_retreat_v1.gd_results.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_test_focus_retreat_v1.gd_results.json",
+      "sha256": "3e6671f4aa74e2fcf2726fd6696c9b6075126eef0b4c8e8d3ef2b5ec89e656e4",
+      "bytes": 2572
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_video_encode.log",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/riverside_video_encode.log",
+      "sha256": "380995bdb7aff89212bca6ff185900cb3ba53b92f66167868bbefc86c75db491",
+      "bytes": 4198
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/texture_budget.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/texture_budget.json",
+      "sha256": "1df41a173e8b75cee4e85de29ec1056136365b046aa17e8fc5f9b4fb78856da3",
+      "bytes": 6491
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/toolchain_receipt.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/toolchain_receipt.json",
+      "sha256": "0c7f35e95dab0866eefa938bec8b67feced11de9f2bae3397e3970ad009359d1",
+      "bytes": 18193
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/asset_manifest.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/asset_manifest.json",
+      "sha256": "8b9a34bbcc74748c9c48843540f7aed925d5ab4adea051a94318c796606e7d92",
+      "bytes": 58270
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/foliage_sway.gdshader",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/foliage_sway.gdshader",
+      "sha256": "44a11ae4aab27c1f6f5f6cde8edad2ca4df5eee84495cd840ae9dd403fd0bf32",
+      "bytes": 2215
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Awning_Jade_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Awning_Jade_A.glb",
+      "sha256": "57707a622bfc8b087a3ebe99edc77eaba10a781886d23e66a89e58e192e827c0",
+      "bytes": 158716
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Background_House_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Background_House_A.glb",
+      "sha256": "a088a4b5193278ded8cc5df30f172d605348bc028d438ccca7fc2b51258d9437",
+      "bytes": 32208
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Inner_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Inner_A.glb",
+      "sha256": "8c471bd44227ee03c489312461df2f3f7414f49991cab4a999bc167b5d2fc5f2",
+      "bytes": 308284
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Outer_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Outer_A.glb",
+      "sha256": "d9bd82e876522a4a0097098dda57e86f99b7489ffee2458e6cb7de9b1f46a9fc",
+      "bytes": 308284
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_PathTransition_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_PathTransition_A.glb",
+      "sha256": "8104409f04bbaa7054a7f072d74f7bffe0e8a6284368af15d83c5547327ffb85",
+      "bytes": 224708
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Straight_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Straight_A.glb",
+      "sha256": "55b74cce974bfdcbc269f04fce5e2d220e1d1aec2127acf69ac59aa25a5fbc85",
+      "bytes": 150384
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Vegetation_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bank_Vegetation_A.glb",
+      "sha256": "f26ab18fca9c7cff0e9a54fa9be451a4b2b23e45da1abcee349bd9928f1f1b9a",
+      "bytes": 190308
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bench_Cedar_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bench_Cedar_A.glb",
+      "sha256": "67d693846f321863385438df53742b4cd0604b5ec2dc64dd543033d615e69a65",
+      "bytes": 59832
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Abutment_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Abutment_A.glb",
+      "sha256": "6ecbeea3454a7225f983248a995ea6b9ce2f9e224d3b66837c3c096b52fbcf75",
+      "bytes": 122548
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Deck_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Deck_A.glb",
+      "sha256": "47330cef0cfa2d70c9bf19c1317603918acd4d4dd8d9ee149d42ba9031512e0c",
+      "bytes": 199236
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Rail_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Bridge_Rail_A.glb",
+      "sha256": "55ffd292bea57709c6290df0ff19d6f0a9f3fc0eab9954f8b1a59f0b662a87f0",
+      "bytes": 97072
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Entrance_Open_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Entrance_Open_A.glb",
+      "sha256": "3a42e3e9c294ed5625dcca3a6844087ac0a6ad8b21216ef05584f394cf501b87",
+      "bytes": 70284
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Grass_Bank_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Grass_Bank_A.glb",
+      "sha256": "8380d7edb73b21525f3e2fb3ac8ddd36678376a5db475a83f2cec0b7b2155e4b",
+      "bytes": 3524
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Ground_Stone_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Ground_Stone_A.glb",
+      "sha256": "79e7586bc2c965db4b97a07c55691c21aed49dfc005e2a124fc76ff19459bb02",
+      "bytes": 225892
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Lamp_Practical_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Lamp_Practical_A.glb",
+      "sha256": "31428ec69ad6b4fdd5dc346b68ee28abba1bed53f084ba1fbccd114713f8d95b",
+      "bytes": 41928
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Potted_Plant_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Potted_Plant_A.glb",
+      "sha256": "dae67965a5388230dddba4812baf9363464f1d6befc579f6dc87dd6289fc8577",
+      "bytes": 75280
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Roof_CedarSlate_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Roof_CedarSlate_A.glb",
+      "sha256": "c1547183d8558854282f13dab9fc7374a6491d71e4b10b72ab47c5ba6843c1fd",
+      "bytes": 1101092
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Sign_Blank_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Sign_Blank_A.glb",
+      "sha256": "03e0006fbd4844e90b2d85468d54d8e85426b2b3d42feb2bfc3c3f31ce9db13b",
+      "bytes": 30720
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Tree_Medium_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Tree_Medium_A.glb",
+      "sha256": "63a4983b32ee7bbf3ac30fb2edee29074906e96f1270b13e4cd7b844de7289c9",
+      "bytes": 275044
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Tree_Small_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Tree_Small_A.glb",
+      "sha256": "cf8f613f326539dcd3fac140e9d5f01d99e624ca88a6a0ce2da60b47981b443c",
+      "bytes": 279980
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Wall_Plain_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Wall_Plain_A.glb",
+      "sha256": "913e0921020ef15cda446a4266e2ac7d60155db66634a24d8fd6d21b5caa60c9",
+      "bytes": 69132
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Wall_Window_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/glb/WC_RIVER_Wall_Window_A.glb",
+      "sha256": "e60b59d3f637b3a2f3f2e2c5871ad9ef51a224ad981c77f6aa36f70849d7da48",
+      "bytes": 172092
+    },
+    {
+      "path": "assets/dev_review/riverside_translation_v1/water.gdshader",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets/dev_review/riverside_translation_v1/water.gdshader",
+      "sha256": "944e7a65ca80120373cdc9f06135518c0ad75c8757307bf19cfbee39cdcb3279",
+      "bytes": 543
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Awning_Jade_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Awning_Jade_A.blend",
+      "sha256": "b9fb65eb74a98d7e7ec768a62bfbc7f03ee2f9b80772aed04c3d2ecc264d8340",
+      "bytes": 115305
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Awning_Jade_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Awning_Jade_A.glb",
+      "sha256": "57707a622bfc8b087a3ebe99edc77eaba10a781886d23e66a89e58e192e827c0",
+      "bytes": 158716
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Entrance_Open_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Entrance_Open_A.blend",
+      "sha256": "4d47e4072653af496f6be5977b8d9ec06bf3dc10ff3e0620d843e783c30f0368",
+      "bytes": 107184
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Entrance_Open_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Entrance_Open_A.glb",
+      "sha256": "3a42e3e9c294ed5625dcca3a6844087ac0a6ad8b21216ef05584f394cf501b87",
+      "bytes": 70284
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Roof_CedarSlate_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Roof_CedarSlate_A.blend",
+      "sha256": "b8f13045ff774c19822a0a4cf13c5d19fdb643381e3ab740fc8b10f4b1ce2c84",
+      "bytes": 162382
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Roof_CedarSlate_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Roof_CedarSlate_A.glb",
+      "sha256": "c1547183d8558854282f13dab9fc7374a6491d71e4b10b72ab47c5ba6843c1fd",
+      "bytes": 1101092
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Sign_Blank_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Sign_Blank_A.blend",
+      "sha256": "98731ea37dd7346c489b364e7dcbffb60347f6dcfeb932fc40e270568fe6b542",
+      "bytes": 108005
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Sign_Blank_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Sign_Blank_A.glb",
+      "sha256": "03e0006fbd4844e90b2d85468d54d8e85426b2b3d42feb2bfc3c3f31ce9db13b",
+      "bytes": 30720
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Plain_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Plain_A.blend",
+      "sha256": "ba5e4180b5c32742b6b98b3bd955487b42e2cc9e5c91008bae5d9e45c4ffb85f",
+      "bytes": 106905
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Plain_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Plain_A.glb",
+      "sha256": "913e0921020ef15cda446a4266e2ac7d60155db66634a24d8fd6d21b5caa60c9",
+      "bytes": 69132
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Window_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Window_A.blend",
+      "sha256": "5fbbbf19894d2be7a83c72640abaf1828afd15aa07d09afcde1b50abf0800591",
+      "bytes": 113239
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Window_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/architecture/WC_RIVER_Wall_Window_A.glb",
+      "sha256": "e60b59d3f637b3a2f3f2e2c5871ad9ef51a224ad981c77f6aa36f70849d7da48",
+      "bytes": 172092
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/background/WC_RIVER_Background_House_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/background/WC_RIVER_Background_House_A.blend",
+      "sha256": "26977b8a051d94f4fe72d44b4addb121150a4d104c5fb95db926bd2ac568eceb",
+      "bytes": 113894
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/background/WC_RIVER_Background_House_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/background/WC_RIVER_Background_House_A.glb",
+      "sha256": "a088a4b5193278ded8cc5df30f172d605348bc028d438ccca7fc2b51258d9437",
+      "bytes": 32208
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Abutment_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Abutment_A.blend",
+      "sha256": "46537ff2e9ac7ef39fb8129c62d8652351106de30e46f40b2dcc0918608c212a",
+      "bytes": 107968
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Abutment_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Abutment_A.glb",
+      "sha256": "6ecbeea3454a7225f983248a995ea6b9ce2f9e224d3b66837c3c096b52fbcf75",
+      "bytes": 122548
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Deck_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Deck_A.blend",
+      "sha256": "5a7dbea41eec92b6c5398bf70e7e32cb19de0e19b505201847a0dcb2bbf58b9c",
+      "bytes": 110773
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Deck_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Deck_A.glb",
+      "sha256": "47330cef0cfa2d70c9bf19c1317603918acd4d4dd8d9ee149d42ba9031512e0c",
+      "bytes": 199236
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Rail_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Rail_A.blend",
+      "sha256": "4e0fa4e12a8d59ae0aa2a168e9d0757fb8f4fb85b06b9c8020dcabd497ff0fa4",
+      "bytes": 106459
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Rail_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/bridge/WC_RIVER_Bridge_Rail_A.glb",
+      "sha256": "55ffd292bea57709c6290df0ff19d6f0a9f3fc0eab9954f8b1a59f0b662a87f0",
+      "bytes": 97072
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/build_receipt.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/build_receipt.json",
+      "sha256": "a30efa70836f36a07d70c46ea91da9d3cb9b217034be5cb695dc878e1c85d161",
+      "bytes": 41401
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/ground/WC_RIVER_Ground_Stone_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/ground/WC_RIVER_Ground_Stone_A.blend",
+      "sha256": "924f7a9d2e069b16a250efe9b5bc4460dc9a1c3e7540e6cb9b663ff604577ee6",
+      "bytes": 105781
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/ground/WC_RIVER_Ground_Stone_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/ground/WC_RIVER_Ground_Stone_A.glb",
+      "sha256": "79e7586bc2c965db4b97a07c55691c21aed49dfc005e2a124fc76ff19459bb02",
+      "bytes": 225892
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/props/WC_RIVER_Bench_Cedar_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/props/WC_RIVER_Bench_Cedar_A.blend",
+      "sha256": "f50e115d52f4a5da4104b7a534bba8d61d9a4d3e27bfcf46d88cde6f13ecec33",
+      "bytes": 112552
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/props/WC_RIVER_Bench_Cedar_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/props/WC_RIVER_Bench_Cedar_A.glb",
+      "sha256": "67d693846f321863385438df53742b4cd0604b5ec2dc64dd543033d615e69a65",
+      "bytes": 59832
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/props/WC_RIVER_Lamp_Practical_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/props/WC_RIVER_Lamp_Practical_A.blend",
+      "sha256": "b72949b24c92de32b194c80dc99e0b347cdbfff938b6041c3d641c0b213257b1",
+      "bytes": 118953
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/props/WC_RIVER_Lamp_Practical_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/props/WC_RIVER_Lamp_Practical_A.glb",
+      "sha256": "31428ec69ad6b4fdd5dc346b68ee28abba1bed53f084ba1fbccd114713f8d95b",
+      "bytes": 41928
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Inner_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Inner_A.blend",
+      "sha256": "11b7ef6b18af17701d1ac80bcb329e718e1e88bb67d5b3bc453c479d007223fe",
+      "bytes": 112383
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Inner_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Inner_A.glb",
+      "sha256": "8c471bd44227ee03c489312461df2f3f7414f49991cab4a999bc167b5d2fc5f2",
+      "bytes": 308284
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Outer_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Outer_A.blend",
+      "sha256": "14a22f4f7b7e479f79460c7db37c218436428e2f10d834c24440ce998e669193",
+      "bytes": 112589
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Outer_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Outer_A.glb",
+      "sha256": "d9bd82e876522a4a0097098dda57e86f99b7489ffee2458e6cb7de9b1f46a9fc",
+      "bytes": 308284
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_PathTransition_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_PathTransition_A.blend",
+      "sha256": "2593ce017fa177180af3c7485b9ca8d3837016cd12f9c3d845d4a99f118cff13",
+      "bytes": 108333
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_PathTransition_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_PathTransition_A.glb",
+      "sha256": "8104409f04bbaa7054a7f072d74f7bffe0e8a6284368af15d83c5547327ffb85",
+      "bytes": 224708
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Straight_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Straight_A.blend",
+      "sha256": "fc5807a344eac3138c06fcc6033a8df2ed28e2f30d47add695e24fd5b73732e4",
+      "bytes": 104181
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Straight_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Straight_A.glb",
+      "sha256": "55b74cce974bfdcbc269f04fce5e2d220e1d1aec2127acf69ac59aa25a5fbc85",
+      "bytes": 150384
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Vegetation_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Vegetation_A.blend",
+      "sha256": "643d51a06f099950663dbcfd67cac55cbd04d310c6cc72d702774203099cc7b8",
+      "bytes": 125542
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Vegetation_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/river/WC_RIVER_Bank_Vegetation_A.glb",
+      "sha256": "f26ab18fca9c7cff0e9a54fa9be451a4b2b23e45da1abcee349bd9928f1f1b9a",
+      "bytes": 190308
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Grass_Bank_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Grass_Bank_A.blend",
+      "sha256": "70f6064754e13e26e7d190182a9c3d3de5dfb66817e7d9007fecb2c89fd1c29b",
+      "bytes": 114397
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Grass_Bank_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Grass_Bank_A.glb",
+      "sha256": "8380d7edb73b21525f3e2fb3ac8ddd36678376a5db475a83f2cec0b7b2155e4b",
+      "bytes": 3524
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Potted_Plant_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Potted_Plant_A.blend",
+      "sha256": "d6406be674c7b2b42a075b82e5964dcaba4cf7e6dd172d29ac0961de868c1e45",
+      "bytes": 140959
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Potted_Plant_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Potted_Plant_A.glb",
+      "sha256": "dae67965a5388230dddba4812baf9363464f1d6befc579f6dc87dd6289fc8577",
+      "bytes": 75280
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Medium_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Medium_A.blend",
+      "sha256": "a4ae0145457aec1ed3b89e03a75bf397f8191d61043ed167e7851b40e9027b23",
+      "bytes": 196895
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Medium_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Medium_A.glb",
+      "sha256": "63a4983b32ee7bbf3ac30fb2edee29074906e96f1270b13e4cd7b844de7289c9",
+      "bytes": 275044
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Small_A.blend",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Small_A.blend",
+      "sha256": "64e7649a9f03e25c17a4b82010fe08bdd0dcafbd9368aed0c195f89acc4d20be",
+      "bytes": 197744
+    },
+    {
+      "path": "assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Small_A.glb",
+      "absolute_path": "/Users/teddywoot/willi-cat/assets_src/3d/riverside_translation_v1/vegetation/WC_RIVER_Tree_Small_A.glb",
+      "sha256": "cf8f613f326539dcd3fac140e9d5f01d99e624ca88a6a0ce2da60b47981b443c",
+      "bytes": 279980
+    },
+    {
+      "path": "docs/production/WILLICAT_RIVERSIDE_HOME_DISTRICT_3D_TRANSLATION_PROOF_V1_RESULT.md",
+      "absolute_path": "/Users/teddywoot/willi-cat/docs/production/WILLICAT_RIVERSIDE_HOME_DISTRICT_3D_TRANSLATION_PROOF_V1_RESULT.md",
+      "sha256": "963cccbf7cf1350ca3e1ec6ff995f67c3af3c909c6703ba7b1ed375ebc2f4edb",
+      "bytes": 24431
+    },
+    {
+      "path": "scenes/dev/riverside_translation/DEV_WILLICAT_RIVERSIDE_3D_TRANSLATION_PROOF_V1.tscn",
+      "absolute_path": "/Users/teddywoot/willi-cat/scenes/dev/riverside_translation/DEV_WILLICAT_RIVERSIDE_3D_TRANSLATION_PROOF_V1.tscn",
+      "sha256": "f52971da50aeb06feb2038b7e8494c361604e534542aa4599cb175bd37096b92",
+      "bytes": 242
+    },
+    {
+      "path": "scripts/dev/riverside_translation/riverside_translation.gd",
+      "absolute_path": "/Users/teddywoot/willi-cat/scripts/dev/riverside_translation/riverside_translation.gd",
+      "sha256": "94a811775e7dd13a1e66e935133ba05fa40c2a407f649a928fc9901c49231506",
+      "bytes": 19344
+    },
+    {
+      "path": "tests/capture_riverside_translation_v1.gd",
+      "absolute_path": "/Users/teddywoot/willi-cat/tests/capture_riverside_translation_v1.gd",
+      "sha256": "8cdf9e71f8861beab800d85bc74c2fdb0b3487a99261cd9060e3bb4ddb163700",
+      "bytes": 9332
+    },
+    {
+      "path": "tests/test_riverside_input_depth_v1.gd",
+      "absolute_path": "/Users/teddywoot/willi-cat/tests/test_riverside_input_depth_v1.gd",
+      "sha256": "b5578980fb90121c83736ca005fbc332e4bb8e2c0178917bc52c45118e3a3fce",
+      "bytes": 3851
+    },
+    {
+      "path": "tests/test_riverside_launcher_v1.py",
+      "absolute_path": "/Users/teddywoot/willi-cat/tests/test_riverside_launcher_v1.py",
+      "sha256": "b61bdd13a0c60c927b93f2d0dc7ffdb6f4d6bdf4f70ac9b672dc0a2c36ab3979",
+      "bytes": 1909
+    },
+    {
+      "path": "tools/willicat_riverside_translation/Open_Riverside_Translation.command",
+      "absolute_path": "/Users/teddywoot/willi-cat/tools/willicat_riverside_translation/Open_Riverside_Translation.command",
+      "sha256": "71edc6b00b22bcae8bdef56808e4d6b92256ce4117de377832640a4b9cea0fd5",
+      "bytes": 140
+    },
+    {
+      "path": "tools/willicat_riverside_translation/README.md",
+      "absolute_path": "/Users/teddywoot/willi-cat/tools/willicat_riverside_translation/README.md",
+      "sha256": "ffbd625992c9d5dfec073f40d48ea02e0df4ee5e389c74b0c2ecbec7eae12d0b",
+      "bytes": 2563
+    },
+    {
+      "path": "tools/willicat_riverside_translation/blender_build.py",
+      "absolute_path": "/Users/teddywoot/willi-cat/tools/willicat_riverside_translation/blender_build.py",
+      "sha256": "30d9127f21e73ecb93ac422ab47d52f317b2dcf216822977585d8629c9060471",
+      "bytes": 14641
+    },
+    {
+      "path": "tools/willicat_riverside_translation/run.py",
+      "absolute_path": "/Users/teddywoot/willi-cat/tools/willicat_riverside_translation/run.py",
+      "sha256": "d5c7338d3b84f2b3c43adb173c61d76f0b7f69b8692613e84bde06a88e1d9edf",
+      "bytes": 3843
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/created_file_inventory.json",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/diagnostics/created_file_inventory.json",
+      "sha256": "self hash deliberately omitted"
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_translation_proof_v1/15_INSTALLED_PLAYABLE_CONTROLS.png",
+      "absolute_path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/riverside_3d_translation_proof_v1/15_INSTALLED_PLAYABLE_CONTROLS.png",
+      "sha256": "781f3a5e10c667e8885a9f43225fafedcc2294752bc4719480b4fe60ef0f87ea",
+      "bytes": 336764
+    }
+  ],
+  "modified_preexisting_files": [],
+  "count": 133,
+  "scope": "additive experimental DEV proof; no import caches/temporary raw video frames copied"
+}

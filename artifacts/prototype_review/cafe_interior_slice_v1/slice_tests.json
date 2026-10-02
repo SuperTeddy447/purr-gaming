@@ -1,0 +1,98 @@
+{
+	"checks": [
+		{
+			"passed": true,
+			"test": "slice installed"
+		},
+		{
+			"passed": true,
+			"test": "semantic transforms / footprints / anchors / nav preserved"
+		},
+		{
+			"passed": true,
+			"test": "entrance authority unchanged"
+		},
+		{
+			"passed": true,
+			"test": "counter root authority unchanged"
+		},
+		{
+			"passed": true,
+			"test": "table root authority unchanged"
+		},
+		{
+			"passed": true,
+			"test": "seat anchor authority unchanged"
+		},
+		{
+			"passed": true,
+			"test": "world sorting preserved"
+		},
+		{
+			"passed": true,
+			"test": "separate registered counter planes"
+		},
+		{
+			"passed": true,
+			"test": "counter plane shared canvas/pivot"
+		},
+		{
+			"passed": true,
+			"test": "TableA separate shadow"
+		},
+		{
+			"passed": true,
+			"test": "ChairA separate shadow"
+		},
+		{
+			"passed": true,
+			"test": "ChairB separate shadow"
+		},
+		{
+			"passed": true,
+			"test": "CounterShell separate shadow"
+		},
+		{
+			"passed": true,
+			"test": "existing orange authored walk reused"
+		},
+		{
+			"passed": true,
+			"test": "all six depth walk targets reached through nav"
+		},
+		{
+			"passed": true,
+			"test": "tour did not mutate world authority"
+		},
+		{
+			"passed": true,
+			"test": "seating visual elevation preserves customer ground shadow"
+		},
+		{
+			"passed": true,
+			"test": "existing coffee loop/reward receipt"
+		},
+		{
+			"passed": true,
+			"test": "coffee completion semantic FX exactly once"
+		},
+		{
+			"passed": true,
+			"test": "steam played during coffee activity"
+		},
+		{
+			"passed": true,
+			"test": "entrance/order/table/exit original semantic actions"
+		},
+		{
+			"passed": true,
+			"test": "service loop did not mutate world authority"
+		},
+		{
+			"passed": true,
+			"test": "existing duplicate reward guard remains intact"
+		}
+	],
+	"count": 23,
+	"passed": true
+}

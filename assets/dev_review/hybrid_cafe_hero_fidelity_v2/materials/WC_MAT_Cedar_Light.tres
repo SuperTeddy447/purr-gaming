@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/painted_family.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png" id="2"]
+[resource]
+resource_name = "WC_MAT_Cedar_Light"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.7764705882352941, 0.5607843137254902, 0.3686274509803922, 1)
+shader_parameter/reference_luma = 0.20084233949912136
+shader_parameter/texture_strength = 0.54
+shader_parameter/painted_field_strength = 0.042
+shader_parameter/edge_warmth = 0.046
+shader_parameter/material_roughness = 0.94
+shader_parameter/restrained_specular = 0

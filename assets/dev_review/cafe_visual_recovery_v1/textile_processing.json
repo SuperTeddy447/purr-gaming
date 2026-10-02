@@ -1,0 +1,171 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "generation_calls_for_source": 1,
+  "regenerations": 0,
+  "source_path": "assets/dev_review/cafe_visual_recovery_v1/source/textile_catlife_family_v1.png",
+  "source_sha256": "beeed81250e146da86e3f5f9d07a245266ebd1246c8d457312580d151940e1c6",
+  "alpha_source_edges": "all four outer edges alpha0; no source-edge clipping",
+  "semantic_cell_roles": [
+    "seating_rug",
+    "entry_mat",
+    "sisal_post"
+  ],
+  "cell_rects_x_px": [
+    [
+      20,
+      1292
+    ],
+    [
+      1324,
+      1813
+    ],
+    [
+      1836,
+      2148
+    ]
+  ],
+  "forge_reports": [
+    {
+      "asset_id": "seating_rug",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/seating_rug_extracted.png",
+      "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/seating_rug.png",
+      "source_sha256": "bdd5d298566d6e590721c44263787685de062af88936d325b8f299e7443d5e1c",
+      "runtime_sha256": "4fb3b8ad988ac9079724be4e530b7a3c8a59bdec6827101deecaff8817d3fe8a",
+      "source_dimensions": [
+        1284,
+        736
+      ],
+      "runtime_dimensions": [
+        1304,
+        392
+      ],
+      "source_visual_bounds": [
+        6,
+        224,
+        1278,
+        600
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1288,
+        392
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        652.0,
+        392
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 11185,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending."
+    },
+    {
+      "asset_id": "entry_mat",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/entry_mat_extracted.png",
+      "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/entry_mat.png",
+      "source_sha256": "5401be9432d57b64060673d4abda05a4b547d0f2a401c7b680e58503502e8859",
+      "runtime_sha256": "583280347dc725f3e362f8e1d36c1f851cfb7ee83c8473b5fe2eefdfdbdffb6b",
+      "source_dimensions": [
+        501,
+        736
+      ],
+      "runtime_dimensions": [
+        521,
+        189
+      ],
+      "source_visual_bounds": [
+        6,
+        426,
+        495,
+        599
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        505,
+        189
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        260.5,
+        189
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 2500,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending."
+    },
+    {
+      "asset_id": "sisal_post",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/sisal_post_extracted.png",
+      "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/sisal_post.png",
+      "source_sha256": "ec7fc0a394f46ab093b3a35b49669acc0b39100d6b6aa82074be575aa6eb3ef1",
+      "runtime_sha256": "d6e06163cfad7e98a6f889dfae1032815478b3b14811e3bd80a761864c9f12b8",
+      "source_dimensions": [
+        324,
+        736
+      ],
+      "runtime_dimensions": [
+        344,
+        510
+      ],
+      "source_visual_bounds": [
+        6,
+        108,
+        318,
+        602
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        328,
+        510
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        172.0,
+        510
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3059,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending."
+    }
+  ],
+  "recipe_code_hash": "e17b44caedc7d08b99ee679a5cedfd7d8fa81667fe3d211ec1f7e1c43bc3ad49"
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "all pre-existing repository source/evidence files; cache/.git/.venv/node_modules exclusions",
+  "files_checked": 3451,
+  "mismatches": [],
+  "passed": true,
+  "baseline_record": "protected_input_hashes.json",
+  "phase": "pre-install; final installed parity recorded separately"
+}

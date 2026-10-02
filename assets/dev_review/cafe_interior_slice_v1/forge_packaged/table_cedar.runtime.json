@@ -1,0 +1,47 @@
+{
+  "asset_id": "table_cedar",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/table_cedar.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/table_cedar.png",
+  "source_sha256": "a62dc45cbb984cc036f886058c632b5e35f919210fc34f3c72432d230d7e4005",
+  "runtime_sha256": "6536c655beab56e2a0e186c3414239537316cd0bdb268c5e4d484b0bb50a346c",
+  "source_dimensions": [
+    1295,
+    1214
+  ],
+  "runtime_dimensions": [
+    1193,
+    1082
+  ],
+  "source_visual_bounds": [
+    67,
+    65,
+    1228,
+    1131
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1177,
+    1082
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    596.5,
+    1082
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 11080,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

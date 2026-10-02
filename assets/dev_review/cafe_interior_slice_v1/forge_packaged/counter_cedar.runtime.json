@@ -1,0 +1,47 @@
+{
+  "asset_id": "counter_cedar",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/counter_cedar.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/counter_cedar.png",
+  "source_sha256": "22ea38bf7a51f4feedb6166dc1c00c035083b1b289ee7a3f16b9b1e05a65e31c",
+  "runtime_sha256": "4824b7f90a01d9c0d44e35205578ee2b0e8cd083e5c7d31ba1e00adf3c81a3a0",
+  "source_dimensions": [
+    2087,
+    753
+  ],
+  "runtime_dimensions": [
+    2050,
+    687
+  ],
+  "source_visual_bounds": [
+    35,
+    41,
+    2053,
+    712
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    2034,
+    687
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    1025.0,
+    687
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 12932,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "counts": {
+    "kit_logic": 31,
+    "native_playable": 12,
+    "processing": 30,
+    "pixel_occlusion": 4,
+    "forge": 35,
+    "home": 28,
+    "service": 49,
+    "actor": 172
+  },
+  "executed_checks": 361,
+  "failed": 0,
+  "spatial_entries_matched": 39,
+  "human_visual_approval": "pending",
+  "canonical_integration_proof_executed": false,
+  "production_publication": "blocked",
+  "device_performance": "not measured"
+}

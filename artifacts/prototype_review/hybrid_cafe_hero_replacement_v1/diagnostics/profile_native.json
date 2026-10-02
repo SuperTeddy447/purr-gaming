@@ -1,0 +1,961 @@
+{
+	"allocation_caveat": "Includes retained hidden 2D authority, imported embedded materials/textures, avatars and contact-shadow resources; not just five source albedos",
+	"contact_shadows": 13,
+	"device": "Apple M2 Pro (Apple8)",
+	"geometry_textures": [
+		"res://assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png",
+		"res://assets/dev_review/hybrid_cafe_kit_v1/textures/plaster_painted.png",
+		"res://assets/dev_review/hybrid_cafe_kit_v1/textures/sage_woven.png",
+		"res://assets/dev_review/hybrid_cafe_kit_v1/textures/ceramic_painted.png",
+		"res://assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png"
+	],
+	"geometry_transparent_surfaces": 0,
+	"godot": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"illustrated_cat_sprites": 3,
+	"lights": 2,
+	"mean_draw_calls": 151.0,
+	"mean_process_ms": 29.56099999999997,
+	"mean_rendered_primitives": 167498.0,
+	"mesh_instances": 67,
+	"mesh_surfaces": 176,
+	"renderer": "mobile",
+	"sample_count": 180,
+	"samples": [
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 10.203,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		},
+		{
+			"draw_calls": 151.0,
+			"process_ms": 58.598,
+			"rendered_primitives": 167498.0
+		}
+	],
+	"scope": "desktop native Metal steady state; no screenshot readback during sampling; not real-device mobile performance",
+	"shadow_casting_lights": 1,
+	"shared_geometry_materials": [
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Dark.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Floor_Wood.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Plaster_Cream.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Mid.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cedar_Light.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Paper_Warm.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Sage_Fabric.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Restrained_Metal.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Ceramic_Offwhite.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Indigo.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Coffee.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Foliage_Organic.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Petal_Cream.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Lantern_Paper.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Cream_Stone.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Charcoal_Trim.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Woven_Rug.tres",
+		"res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/materials/WC_MAT_Pastry_Warm.tres"
+	],
+	"texture_memory_bytes": 180733696.0,
+	"triangles_geometry": 118838,
+	"video_memory_bytes": 265420800.0,
+	"warmup_protocol": "wait until ready, foreground, 5s warmup,240frames discard60"
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "DEV evidence only, no production approval",
+  "code_hashes": {
+    "scenes/dev/riverside_refinement_v2/DEV_WILLICAT_RIVERSIDE_3D_ART_REFINEMENT_V2.tscn": "f0039741d96dcd4d3e43abdc87a840f3f449ddd94711c323adebe072fb3d6c1d",
+    "tools/willicat_riverside_refinement_v2/run.py": "9efebd8144528d006f7aa7992cbd680d56563deec8cbcb143140dbc56dfcc671",
+    "tools/willicat_riverside_refinement_v2/blender_build.py": "0242d5bade0cd3a675bb35439fddb032c239fd02208efba5e7c85798fb8173d7",
+    "tests/test_riverside_controls_refinement_v2.gd": "a13f79abd3a9acdf95518b0aa16a3523787ab9df0e580f736f9eb836937c79be",
+    "tests/capture_riverside_refinement_v2.gd": "26fe2daefc1fcfda6e97ab354e76e15e342eeb1abca80b8fa2d9c74e9602e944",
+    "tests/test_riverside_launcher_refinement_v2.py": "009bce782dc7f68903b99e264bb930469773efc4ba8b5c0f63704db2e8d1955e",
+    "tests/capture_riverside_matched_refinement_v2.gd": "ebdb39bd770779ba5de82372b9870d97bfcb76d16b25bc7081629a9ad48e28b0",
+    "tests/test_riverside_input_refinement_v2.gd": "5b09a249bc8ea5c9545b0724acd5edae8d714559f95b668215d3f723b1fafe16",
+    "scripts/dev/riverside_refinement_v2/riverside_refinement_v2.gd": "e43490639705265340fcae73d10c27367a640d4e3d3f0dd7169ce2899833d247",
+    "assets/dev_review/riverside_refinement_v2/water.gdshader": "944e7a65ca80120373cdc9f06135518c0ad75c8757307bf19cfbee39cdcb3279",
+    "assets/dev_review/riverside_refinement_v2/foliage_sway.gdshader": "4fd4383698fe5e5d594d716c318d621273b0db8ee919b11d6a1439b8b7b7c2cd",
+    "assets/dev_review/riverside_refinement_v2/painted_variation.gdshader": "3d4eba2520cc1c10c56324f92a7c29c55bf02c1ada2ca5d4e1663de60bc1f838"
+  },
+  "Blender": "5.2.1 LTS",
+  "Godot": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "reference_master_sha256": "4adff2fc546bf6ea6f7999e10ab23ee3dce8e2594f0cbb72750920e6dcda3639",
+  "reused_texture_hashes": {
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+    "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e"
+  }
+}

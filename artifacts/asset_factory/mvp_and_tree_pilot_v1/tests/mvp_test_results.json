@@ -1,0 +1,127 @@
+{
+  "scope": "MVP DEV DIAGNOSTIC TESTS ONLY; no production approval",
+  "timestamp": "2026-09-30T14:12:12.595125+00:00",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_bundle_and_logical_path_parity",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_canonical_compile_stays_blocked",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_dev_result_does_not_complete_canonical_gates",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_frozen_journal_schema_and_human_hold",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_measurements_cannot_advance_frozen_motion_stage",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_prior_source_and_evidence_cannot_be_overwritten",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_production_rights_not_inferred",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.LifecycleTest.test_tampered_source_blocks_live_check",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_atomic_pointer_and_serialized_writes",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_dangling_symlink",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_drift_reject_structural",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_empty_source_reject",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_forged_human_role",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_invalid_canonical_compile",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_measurements_do_not_pass_motion_gate",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_no_publisher",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_production_root",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_projection_relevant",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_projection_unrelated",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_replaced_parent_symlink_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_root_unchanged_not_whole_scale",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_seam_and_nonuniform_timing",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_source_edge_reject",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_symlink",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_symlink_root",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_traversal",
+      "result": "passed"
+    },
+    {
+      "test_id": "willicat_asset_factory_mvp.test_mvp.MVPTest.test_write_once",
+      "result": "passed"
+    }
+  ],
+  "code_file_hashes": {
+    "DEV_DIAGNOSTIC_tree.gd": "e1d8b5457e5c0c8d50c144fae1abaa8fecc6ab87e067ab3e9fee809908500c07",
+    "__init__.py": "c0de4950d8821d9a283784a5d56a118bf1e2aa08ddff514ccda1d9c18a84743b",
+    "__main__.py": "c17d0a2cd5d88f11bf31ddb52ab9481c2e080d42d4c527d297201fc816cf7501",
+    "diagnostics.py": "50bc404fab015b53dadc58b1f6893a794842ebdf8c4608e5270de8412d4a50cf",
+    "pipeline.py": "4f5d67c43a897ab4133a0a74dae8f1aca911bf5132f4769f7952139c47d9dd64",
+    "qa.py": "0e18a44364a9b108040865cf99131848b7463d4f629ed736ccbe862ddcc913c8",
+    "store.py": "1b4f1c0146a5e1a216bde49dc47858554a74affc94be532be2e18316bebf3a7a",
+    "test_mvp.py": "498862b09509f43f7bab7e3e4dbdd182df971bbd3dc209c58c99f2a44cd5112f"
+  }
+}

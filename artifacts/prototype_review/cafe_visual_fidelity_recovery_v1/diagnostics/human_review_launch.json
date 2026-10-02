@@ -1,0 +1,10 @@
+{
+  "scope": "DEV_VISUAL_FRAMING_PROOF",
+  "isolated_project": "/private/tmp/willicat_cafe_recovery_human_review_final",
+  "save_namespace": "WilliCatCafeVisualRecoveryV1",
+  "godot_startup": "PASS",
+  "rendering_backend_observed": "OpenGL 4.1 Metal - Compatibility - Apple M2 Pro",
+  "canonical_world_source_edits": false,
+  "next_step": "Human visual review; click clear floor or Depth walk; Make coffee for service loop",
+  "launcher": "tools/willicat_cafe_recovery/OpenCafeRecoveryReview.command"
+}

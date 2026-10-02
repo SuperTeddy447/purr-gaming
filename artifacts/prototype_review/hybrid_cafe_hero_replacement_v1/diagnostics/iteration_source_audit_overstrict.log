@@ -1,0 +1,18 @@
+00:00.666  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/furniture/WC_CAFE_Counter_Straight_A.blend"
+00:00.680  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/furniture/WC_CAFE_Counter_End_A.blend"
+00:00.689  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/furniture/WC_CAFE_Counter_Short_A.blend"
+00:00.698  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/equipment/WC_CAFE_Espresso_A.blend"
+00:00.710  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/furniture/WC_CAFE_Chair_A.blend"
+00:00.719  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/architecture/WC_CAFE_Wall_Window_A.blend"
+00:00.728  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/plants/WC_CAFE_Planter_Floor_A.blend"
+00:00.737  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/plants/WC_CAFE_Planter_Table_A.blend"
+00:00.745  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/plants/WC_CAFE_Plant_Trailing_A.blend"
+00:00.754  blend            | Read blend: "/private/tmp/willicat_hero_replacement_stage/assets_src/3d/cafe_hero_replacement_v1/plants/WC_CAFE_Plant_Flowering_A.blend"
+Traceback (most recent call last):
+  File "/private/tmp/audit_hero_blends.py", line 6, in <module>
+    out=S/'artifacts/prototype_review/hybrid_cafe_hero_replacement_v1/diagnostics/blender_source_audit.json';out.write_text(json.dumps({'passed':all(checks.values()),'count':len(checks),'checks':checks,'sources':measure,'scope':'Read-only reopen of every editable Blender source; no resave'},indent=2)+'\n');assert all(checks.values()),checks;print('EDITABLE SOURCE AUDIT PASS',len(checks))
+                                                                                                                                                                                                                                                                                                                           ~~~^^^^^^^^^^^^^^^^^
+AssertionError: {'WC_CAFE_Counter_Straight_A': True, 'WC_CAFE_Counter_End_A': True, 'WC_CAFE_Counter_Short_A': True, 'WC_CAFE_Espresso_A': True, 'WC_CAFE_Chair_A': True, 'WC_CAFE_Wall_Window_A': True, 'WC_CAFE_Planter_Floor_A': False, 'WC_CAFE_Planter_Table_A': False, 'WC_CAFE_Plant_Trailing_A': False, 'WC_CAFE_Plant_Flowering_A': False}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "pre_task_files_checked": 3744,
+  "approved_review_files_checked": 164,
+  "original_changed_files": [],
+  "staged_file_parity": true,
+  "staged_files_checked": 214,
+  "isolated_final_review_project": "/private/tmp/willicat_fidelity_final_review_v2/project",
+  "production_migration": false,
+  "commit": false,
+  "push": false
+}

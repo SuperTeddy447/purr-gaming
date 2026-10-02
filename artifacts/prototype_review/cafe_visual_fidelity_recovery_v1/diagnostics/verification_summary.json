@@ -1,0 +1,25 @@
+{
+  "scope": "DEV_VISUAL_FRAMING_PROOF",
+  "counts": {
+    "recovery_godot": 39,
+    "native_recovery": 14,
+    "continuous_home": 28,
+    "proxy_service": 49,
+    "world_architecture_actor": 172,
+    "forge": 35,
+    "processing": 8,
+    "pixel_occlusion": 4
+  },
+  "total": 349,
+  "technical_diagnostics": "PASS",
+  "human_visual_approval": "APPROVED",
+  "spatial_parity_entries": 39,
+  "canonical_integration_proof_executed": false,
+  "production_publication": false,
+  "capture_location": "/private/tmp/cafe_recovery_capture",
+  "native_pixel_analysis_note": "Counter top behind actor; counter front body ROI [0,310,504,360] occludes overlapping body pixels; full-object ratio includes intentionally different top behavior.",
+  "visual_fidelity_recovery": "PASS",
+  "human_visual_review_record": "artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/diagnostics/human_visual_review_approved_v1.json",
+  "human_visual_review_record_sha256": "ccfc3403988be59db53043b0d7915dcfd44fdb39947ce99e2c1b1af4a66c8126",
+  "visual_baseline": "WilliCat Café Playable Slice V1 recovered café"
+}

@@ -1,0 +1,328 @@
+{
+  "scope": "TEST FIXTURE ONLY; NOT PRODUCTION ASSET APPROVAL",
+  "tests_run": 80,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "test_id": "test_phase0.ContractProof.test_active_release_revocation",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_adjacent_transition",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_auth_forged_role",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_auth_revoked_credential",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_auth_tampered_payload",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_auth_unknown_credential",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_auth_verifier_accepts_exact_fixture",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_bundle_bytes_must_exist",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_canonical_key_order",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_current_dependency_blocker",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_duplicate_frame_id",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_duplicate_json_keys_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_durations_count",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_empty_semantic_containers",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_fixture_credential_not_production",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_float_signing_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_human_criteria_missing",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_human_criterion_rejects_numeric_pass",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_jelly_rejected_despite_numbers",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_no_writable_override",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_positive_synthetic_predicate",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_01_missing_human",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_02_invalid_signature",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_03_unresolved_rights",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_04_stale_rights",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_05_structural_failed",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_06_missing_motion_human",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_07_visual_failed",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_08_runtime_failed",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_09_stale_world",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_10_incompatible_template",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_11_stale_style",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_12_changed_evidence",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_13_approved_not_proof",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_14_published_not_approved",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_15_superseded",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_16_cancelled",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_predicate_17_missing_validator_evidence",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_projection_five_cases",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_projection_negative_zero",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_projection_nonfinite_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_required_frame_validator_missing",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rights_action_independent",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rights_exact_scope_set",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rights_not_applicable_not_permission",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rights_prohibited",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rollback_current_authority",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_rollback_current_rights",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_root_lock_required",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_runtime_member_tamper",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_schemas_parse_and_self_validate",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_signed_wrong_attempt",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_skip_transition_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_stage_progression_obligations",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_stale_motion_policy",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_transition_artifact_tamper",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_transition_changed_pin_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_transition_contract_complete",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_transition_unresolved_rights_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_tree_negative_control_unapproved",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_uncalibrated_motion",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.ContractProof.test_unsigned_contract_change_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_atomic_concurrent_updates",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_bundle_mutation_invalidation",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_cache_not_identity",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_copy_parity_no_compile",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_dangling_symlink_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_interrupt_keeps_previous_pointer",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_logical_path_identity",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_partial_copy_no_pointer",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_real_production_root_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_rebuild_needs_new_cycle",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_source_write_once",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_symlink_escape_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.FilesystemProof.test_traversal_rejected",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.TimingProof.test_import_policy_proof_release_equal",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.TimingProof.test_legacy_writer_unchanged",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.TimingProof.test_nonuniform_round_trip",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.TimingProof.test_nonuniform_wrapper",
+      "result": "passed"
+    },
+    {
+      "test_id": "test_phase0.TimingProof.test_unsupported_fractional_timing_rejected",
+      "result": "passed"
+    }
+  ]
+}

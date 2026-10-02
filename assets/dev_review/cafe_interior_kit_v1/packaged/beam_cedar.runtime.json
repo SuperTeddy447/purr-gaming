@@ -1,0 +1,47 @@
+{
+  "asset_id": "beam_cedar",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/beam_cedar.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/beam_cedar.png",
+  "source_sha256": "9f37f0ba5bc3047ef519ba6320c95afd8efd0a0a22545a2aabe2653b767e9b3d",
+  "runtime_sha256": "1dfab380985cad8c9fc39c66e677432fa643a0e6ee6b1a522b4a807d22259737",
+  "source_dimensions": [
+    509,
+    311
+  ],
+  "runtime_dimensions": [
+    529,
+    209
+  ],
+  "source_visual_bounds": [
+    6,
+    92,
+    503,
+    269
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    513,
+    193
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    264.5,
+    104.5
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 4612,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

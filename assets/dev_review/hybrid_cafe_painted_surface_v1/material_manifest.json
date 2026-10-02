@@ -1,0 +1,370 @@
+{
+  "scope": "DEV painted materials; no geometry changes",
+  "version": "1.0.0-spike",
+  "material_map": {
+    "WC_MAT_Cedar_Light": "WC3D_MAT_CEDAR_LIGHT_V1",
+    "WC_MAT_Cedar_Mid": "WC3D_MAT_CEDAR_MID_V1",
+    "WC_MAT_Cedar_Dark": "WC3D_MAT_CEDAR_DARK_V1",
+    "WC_MAT_Plaster_Cream": "WC3D_MAT_PLASTER_CREAM_V1",
+    "WC_MAT_Cream_Stone": "WC3D_MAT_STONE_CREAM_V1",
+    "WC_MAT_Sage_Fabric": "WC3D_MAT_SAGE_FABRIC_V1",
+    "WC_MAT_Ceramic_Offwhite": "WC3D_MAT_CERAMIC_V1",
+    "WC_MAT_Charcoal_Trim": "WC3D_MAT_CHARCOAL_METAL_V1",
+    "WC_MAT_Restrained_Metal": "WC3D_MAT_CHARCOAL_METAL_V1",
+    "WC_MAT_Foliage_Light": "WC3D_MAT_FOLIAGE_LIGHT_V1",
+    "WC_MAT_Foliage": "WC3D_MAT_FOLIAGE_MID_V1",
+    "WC_MAT_Foliage_Dark": "WC3D_MAT_FOLIAGE_DARK_V1",
+    "WC_MAT_Foliage_Organic": "WC3D_MAT_FOLIAGE_MID_V1",
+    "WC_MAT_Floor_Wood": "WC3D_MAT_FLOOR_WOOD_V1",
+    "WC_MAT_Paper_Warm": "WC3D_MAT_PAPER_WARM_V1",
+    "WC_MAT_Coffee": "WC3D_MAT_COFFEE_V1",
+    "WC_MAT_Lantern_Paper": "WC3D_MAT_LANTERN_PAPER_V1",
+    "WC_MAT_Indigo": "WC3D_MAT_CERAMIC_INDIGO_V1",
+    "WC_MAT_Petal_Cream": "WC3D_MAT_PETAL_CREAM_V1",
+    "WC_MAT_Pastry_Warm": "WC3D_MAT_PASTRY_WARM_V1",
+    "WC_MAT_Woven_Rug": "WC3D_MAT_WOVEN_RUG_V1"
+  },
+  "texture_crops": {
+    "cedar": {
+      "atlas_rect_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png",
+      "file_sha256": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e",
+      "decoded_RGB_sha256": "2dbf64ce9082d9d7a24e6ebbe92bb924a2f3e6925501723ced27630725e96e39",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.0415390114379085,
+      "crop_box_ltrb_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    "plaster": {
+      "atlas_rect_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png",
+      "file_sha256": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+      "decoded_RGB_sha256": "67448ada5b34f5a4cc3475d40ed17d9a7165eb2209c74fe06c3ddfef11606e73",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.030181525735294118,
+      "crop_box_ltrb_px": [
+        512,
+        0,
+        1024,
+        512
+      ]
+    },
+    "stone": {
+      "atlas_rect_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png",
+      "file_sha256": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+      "decoded_RGB_sha256": "f9afad8cf09250412f6eb2138363c914d3a8c5bb86657c0337a06475baec2d2e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.04171900531045752,
+      "crop_box_ltrb_px": [
+        1024,
+        0,
+        1536,
+        512
+      ]
+    },
+    "sage": {
+      "atlas_rect_px": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png",
+      "file_sha256": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+      "decoded_RGB_sha256": "179df910aed345dd654af7a7e081b9cea89b1b852e8f3a2b47d21c4a02ce594f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.04685712826797385,
+      "crop_box_ltrb_px": [
+        0,
+        512,
+        512,
+        1024
+      ]
+    },
+    "ceramic": {
+      "atlas_rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png",
+      "file_sha256": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+      "decoded_RGB_sha256": "637203acc0cc5c84c22c0f01cb29ae30e837ab21a0572d2bb28c4ced15b6eb1a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.05019786560457516,
+      "crop_box_ltrb_px": [
+        512,
+        512,
+        1024,
+        1024
+      ]
+    },
+    "foliage": {
+      "atlas_rect_px": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png",
+      "file_sha256": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+      "decoded_RGB_sha256": "a3a281d6a0dc705cbc8ff3abe68844c1e464cece38433a7d1a78a88d2ffdf4fa",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.049085988562091495,
+      "crop_box_ltrb_px": [
+        1024,
+        512,
+        1536,
+        1024
+      ]
+    }
+  },
+  "source_means_linear": {
+    "cedar": [
+      0.5735404666755778,
+      0.21956348454090413,
+      0.06682861303635566
+    ],
+    "plaster": [
+      0.9193814770540611,
+      0.6818779336444324,
+      0.4793747819870104
+    ],
+    "stone": [
+      0.8365979420951334,
+      0.6735590296122961,
+      0.4660079655395882
+    ],
+    "sage": [
+      0.2736903408572017,
+      0.31626721017932663,
+      0.16369569330514197
+    ],
+    "ceramic": [
+      0.8364414692862749,
+      0.7335481703001957,
+      0.5490796823204012
+    ],
+    "foliage": [
+      0.195710861740232,
+      0.2461382005983763,
+      0.08322678603343915
+    ]
+  },
+  "recipe": {
+    "Cedar_Light": [
+      "CEDAR_LIGHT",
+      "cedar",
+      "C68F5E",
+      0.66,
+      0.94,
+      0.025
+    ],
+    "Cedar_Mid": [
+      "CEDAR_MID",
+      "cedar",
+      "946642",
+      0.66,
+      0.94,
+      0.015
+    ],
+    "Cedar_Dark": [
+      "CEDAR_DARK",
+      "cedar",
+      "584130",
+      0.55,
+      0.96,
+      0
+    ],
+    "Plaster_Cream": [
+      "PLASTER_CREAM",
+      "plaster",
+      "F1DEC7",
+      0.64,
+      0.99,
+      0
+    ],
+    "Cream_Stone": [
+      "STONE_CREAM",
+      "stone",
+      "E7D9C0",
+      0.62,
+      0.9,
+      0.07
+    ],
+    "Sage_Fabric": [
+      "SAGE_FABRIC",
+      "sage",
+      "778B6C",
+      0.5,
+      0.99,
+      0
+    ],
+    "Ceramic_Offwhite": [
+      "CERAMIC",
+      "ceramic",
+      "F0E1C9",
+      0.58,
+      0.83,
+      0.1
+    ],
+    "Charcoal_Trim": [
+      "CHARCOAL_METAL",
+      "stone",
+      "3F3932",
+      0.2,
+      0.91,
+      0.05
+    ],
+    "Restrained_Metal": [
+      "CHARCOAL_METAL",
+      "stone",
+      "3F3932",
+      0.2,
+      0.91,
+      0.05
+    ],
+    "Foliage_Light": [
+      "FOLIAGE_LIGHT",
+      "foliage",
+      "8A9C68",
+      0.82,
+      0.99,
+      0
+    ],
+    "Foliage": [
+      "FOLIAGE_MID",
+      "foliage",
+      "5F794B",
+      0.82,
+      0.99,
+      0
+    ],
+    "Foliage_Dark": [
+      "FOLIAGE_DARK",
+      "foliage",
+      "3D5637",
+      0.8,
+      0.99,
+      0
+    ],
+    "Foliage_Organic": [
+      "FOLIAGE_MID",
+      "foliage",
+      "5F794B",
+      0.82,
+      0.99,
+      0
+    ],
+    "Floor_Wood": [
+      "FLOOR_WOOD",
+      "cedar",
+      "C5A17D",
+      0.27,
+      0.99,
+      0
+    ],
+    "Paper_Warm": [
+      "PAPER_WARM",
+      "plaster",
+      "EAD8BA",
+      0.18,
+      0.99,
+      0
+    ],
+    "Coffee": [
+      "COFFEE",
+      "stone",
+      "30261F",
+      0.2,
+      0.99,
+      0
+    ],
+    "Lantern_Paper": [
+      "LANTERN_PAPER",
+      "plaster",
+      "F3D7A8",
+      0.3,
+      0.97,
+      0
+    ],
+    "Indigo": [
+      "CERAMIC_INDIGO",
+      "ceramic",
+      "4B6564",
+      0.55,
+      0.9,
+      0.04
+    ],
+    "Petal_Cream": [
+      "PETAL_CREAM",
+      "ceramic",
+      "EBD4BE",
+      0.35,
+      0.97,
+      0
+    ],
+    "Pastry_Warm": [
+      "PASTRY_WARM",
+      "cedar",
+      "CEA775",
+      0.22,
+      0.97,
+      0
+    ],
+    "Woven_Rug": [
+      "WOVEN_RUG",
+      "sage",
+      "8B9471",
+      0.3,
+      0.99,
+      0
+    ]
+  },
+  "geometry_authority": "assets/dev_review/hybrid_cafe_hero_replacement_v1/kit_manifest.json",
+  "source_repeat_status": "Raw generated swatches are NOT verified seamless. Runtime mirror-repeat avoids discontinuous boundaries; mirrored motifs must be inspected at gameplay scale.",
+  "shader_variants": [
+    "opaque_back_cull",
+    "opaque_two_sided_foliage"
+  ],
+  "iteration": "v1.4: diffuse Burley, tighter contact bias; material overrides as well as surface overrides mapped; exact original geometry"
+}

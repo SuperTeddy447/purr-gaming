@@ -1,0 +1,151 @@
+{
+  "provider": "OpenAI built-in image_gen tool",
+  "model": "NOT_EXPOSED_BY_TOOL; not inferred",
+  "prompt_version": "WILLICAT_PAINTED_ATLAS_PROMPT_V1",
+  "generation_count": 1,
+  "reference_images": [],
+  "reference_use": "Textual approved palette/material grammar only. Hero image viewed separately for quality comparison; no image conditioning.",
+  "source_image": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-d5a9f04e-609f-4e9c-a16d-83d1c5544e6b.png",
+  "source_sha256": "ca1448a3873dbaaa5f99c4e9078bef0c1499600ee5d07c6774717864e12656fb",
+  "archived_source": "assets_src/materials/willicat_painted_surface_v1/painted_family_atlas_raw_v1.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_processing": "Six exact 512x512 rectangular crops; no retouch, phototexture, seam painting or recolor of generated pixels. Color/lighting treatment in shader.",
+  "rights_provenance": "First-party generated DEV material support, explicitly authorized in task; no third-party image input. No new production rights determination or publication authorization.",
+  "runtime_crops": {
+    "cedar": {
+      "atlas_rect_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png",
+      "file_sha256": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e",
+      "decoded_RGB_sha256": "2dbf64ce9082d9d7a24e6ebbe92bb924a2f3e6925501723ced27630725e96e39",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.0415390114379085,
+      "crop_box_ltrb_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    "plaster": {
+      "atlas_rect_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png",
+      "file_sha256": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+      "decoded_RGB_sha256": "67448ada5b34f5a4cc3475d40ed17d9a7165eb2209c74fe06c3ddfef11606e73",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.030181525735294118,
+      "crop_box_ltrb_px": [
+        512,
+        0,
+        1024,
+        512
+      ]
+    },
+    "stone": {
+      "atlas_rect_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png",
+      "file_sha256": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+      "decoded_RGB_sha256": "f9afad8cf09250412f6eb2138363c914d3a8c5bb86657c0337a06475baec2d2e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.04171900531045752,
+      "crop_box_ltrb_px": [
+        1024,
+        0,
+        1536,
+        512
+      ]
+    },
+    "sage": {
+      "atlas_rect_px": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png",
+      "file_sha256": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+      "decoded_RGB_sha256": "179df910aed345dd654af7a7e081b9cea89b1b852e8f3a2b47d21c4a02ce594f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.04685712826797385,
+      "crop_box_ltrb_px": [
+        0,
+        512,
+        512,
+        1024
+      ]
+    },
+    "ceramic": {
+      "atlas_rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png",
+      "file_sha256": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+      "decoded_RGB_sha256": "637203acc0cc5c84c22c0f01cb29ae30e837ab21a0572d2bb28c4ced15b6eb1a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.05019786560457516,
+      "crop_box_ltrb_px": [
+        512,
+        512,
+        1024,
+        1024
+      ]
+    },
+    "foliage": {
+      "atlas_rect_px": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "runtime_path": "assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png",
+      "file_sha256": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+      "decoded_RGB_sha256": "a3a281d6a0dc705cbc8ff3abe68844c1e464cece38433a7d1a78a88d2ffdf4fa",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opposite_edge_mean_RGB_delta": 0.049085988562091495,
+      "crop_box_ltrb_px": [
+        1024,
+        512,
+        1536,
+        1024
+      ]
+    }
+  }
+}

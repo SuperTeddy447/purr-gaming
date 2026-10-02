@@ -1,0 +1,5081 @@
+{
+  "bindings": [
+    {
+      "asset": "wall_plaster",
+      "local_visual_contact": "(320.0, 14.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/Architecture",
+      "pivot_rule": "wall_mount_center",
+      "runtime_scale": 1.25
+    },
+    {
+      "asset": "wall_plaster",
+      "local_visual_contact": "(0.0, -30.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallWest/ReviewFrontArchitecture",
+      "pivot_rule": "wall_mount_center",
+      "runtime_scale": 0.5625
+    },
+    {
+      "asset": "wall_plaster",
+      "local_visual_contact": "(0.0, -30.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallEast/ReviewFrontArchitecture",
+      "pivot_rule": "wall_mount_center",
+      "runtime_scale": 0.5625
+    },
+    {
+      "asset": "counter_top",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.4375
+    },
+    {
+      "asset": "counter_front",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.4375
+    },
+    {
+      "asset": "counter_cedar",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.142578125
+    },
+    {
+      "asset": "espresso",
+      "local_visual_contact": "(0.0, -42.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.22395833333333334
+    },
+    {
+      "asset": "counter_cedar",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.09375
+    },
+    {
+      "asset": "grinder",
+      "local_visual_contact": "(0.0, -35.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.08854166666666667
+    },
+    {
+      "asset": "pos",
+      "local_visual_contact": "(0.0, -48.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/POS/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.10416666666666667
+    },
+    {
+      "asset": "table_cedar",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.3489583333333333
+    },
+    {
+      "asset": "chair_ne",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/ChairA/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.15104166666666666
+    },
+    {
+      "asset": "chair_nw",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/ChairB/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.15104166666666666
+    },
+    {
+      "asset": "planter",
+      "local_visual_contact": "(0.0, 0.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/Plant/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.18229166666666666
+    },
+    {
+      "asset": "entrance_frame",
+      "local_visual_contact": "(-1.339535, 82.0)",
+      "owner": "/root/WilliCatCafeInteriorReview/DepthSortedLayer/WorldObjects/Entrance/InteriorReviewVisualRoot",
+      "pivot_rule": "bottom_center_floor_or_countertop",
+      "runtime_scale": 0.29767441860465116
+    }
+  ],
+  "canonical_integration_proof_executed": false,
+  "check_count": 12,
+  "checks": {
+    "actual_actor_motion": true,
+    "all_tour_targets_reached": true,
+    "authority_after": true,
+    "authority_installed": true,
+    "coffee_completion_fx_once": true,
+    "frames_recorded": true,
+    "ordering_front_counter_captured": true,
+    "seat_shadow_stays_at_ground": true,
+    "seating_captured": true,
+    "service_one_reward": true,
+    "serving_behind_counter_captured": true,
+    "steam_visible": true
+  },
+  "frame_timestamps_ms": [
+    1874,
+    1979,
+    2187,
+    2291,
+    2398,
+    2502,
+    2608,
+    2713,
+    2819,
+    2986,
+    3099,
+    3208,
+    3315,
+    3425,
+    3533,
+    3640,
+    3749,
+    3861,
+    3969,
+    4077,
+    4185,
+    4295,
+    4403,
+    4510,
+    4617,
+    4725,
+    4835,
+    4944,
+    5052,
+    5158,
+    5265,
+    5373,
+    5479,
+    5691,
+    5798,
+    5906,
+    6013,
+    6118,
+    6224,
+    6334,
+    6443,
+    6552,
+    6659,
+    6767,
+    6875,
+    6983,
+    7092,
+    7200,
+    7307,
+    7416,
+    7523,
+    7735,
+    7843,
+    7947,
+    8053,
+    8159,
+    8264,
+    8373,
+    8481,
+    8589,
+    8696,
+    8803,
+    8910,
+    9016,
+    9126,
+    9239,
+    9346,
+    9453,
+    9560,
+    9667,
+    9774,
+    9881,
+    10090,
+    10197,
+    10305,
+    10412,
+    10519,
+    10626,
+    10733,
+    10841,
+    10948,
+    11056,
+    11268,
+    11376,
+    11482,
+    11589,
+    11696,
+    11802,
+    11908,
+    12015,
+    12123,
+    12230,
+    12457,
+    12565,
+    12673,
+    12780,
+    12886,
+    13415,
+    13522,
+    13628,
+    13736,
+    13845,
+    13954,
+    14062,
+    14169,
+    14277,
+    14386,
+    14924,
+    15056,
+    15189,
+    15456,
+    15586,
+    15722,
+    15857,
+    15990,
+    16125,
+    16259,
+    16393,
+    16529,
+    16661,
+    16799,
+    16934,
+    17068,
+    17205,
+    17339,
+    17474,
+    17608,
+    17743,
+    17880,
+    18014,
+    18148,
+    18283,
+    18420,
+    18557,
+    18693,
+    18830,
+    18962,
+    19099,
+    19236,
+    19375,
+    19510,
+    19645,
+    20450,
+    20585,
+    20724,
+    20859,
+    20993,
+    21130,
+    21267,
+    21402,
+    21541,
+    21678,
+    21818,
+    21951,
+    22085,
+    22220,
+    22491,
+    22626,
+    22760,
+    22894,
+    23027,
+    23161,
+    23294,
+    23430,
+    23568,
+    23703,
+    23843,
+    23980,
+    24121,
+    24256,
+    24392,
+    24529,
+    24667,
+    24804,
+    24943,
+    25077,
+    25215,
+    25350,
+    25484,
+    25618,
+    25753,
+    25888,
+    26700,
+    26836,
+    26973,
+    27109,
+    27245,
+    27379,
+    27510,
+    27643,
+    27776,
+    27910,
+    28040,
+    28175,
+    28308,
+    28443,
+    28579,
+    28711,
+    28846,
+    28980,
+    29113,
+    29249,
+    29385,
+    29517,
+    29652,
+    29916,
+    30050,
+    30186,
+    30373,
+    30511,
+    30645,
+    30778,
+    30912,
+    31045,
+    31179,
+    31312,
+    31448,
+    31587,
+    31722,
+    31866,
+    32005,
+    32142,
+    32279,
+    32413,
+    32546,
+    32679,
+    32813,
+    32952,
+    33087,
+    33220,
+    33354,
+    33487,
+    33622,
+    33763,
+    33900,
+    34056,
+    34224,
+    34371,
+    34506,
+    34647,
+    34781,
+    34917,
+    35054
+  ],
+  "frames": 243,
+  "passed": true,
+  "phases": [
+    {
+      "phase": "Customer enters",
+      "time_ms": 15455
+    },
+    {
+      "phase": "Customer orders coffee",
+      "time_ms": 15856
+    },
+    {
+      "phase": "Coffee order \u2192 brewing",
+      "time_ms": 21266
+    },
+    {
+      "phase": "Mochi prepares coffee",
+      "time_ms": 21266
+    },
+    {
+      "phase": "Coffee ready \u2192 carrying",
+      "time_ms": 23979
+    },
+    {
+      "phase": "Mochi serves customer",
+      "time_ms": 23979
+    },
+    {
+      "phase": "Customer sits",
+      "time_ms": 27378
+    },
+    {
+      "phase": "Customer leaves",
+      "time_ms": 31722
+    },
+    {
+      "phase": "Mochi returns idle",
+      "time_ms": 34506
+    },
+    {
+      "phase": "Ready for next customer",
+      "time_ms": 34645
+    }
+  ],
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "tour": [
+    {
+      "accepted": true,
+      "label": "entrance",
+      "position": "(320.0, 855.0)",
+      "success": true
+    },
+    {
+      "accepted": true,
+      "label": "counter_front",
+      "position": "(120.0, 250.0)",
+      "success": true
+    },
+    {
+      "accepted": true,
+      "label": "counter_back",
+      "position": "(230.0, 97.0)",
+      "success": true
+    },
+    {
+      "accepted": true,
+      "label": "table_back",
+      "position": "(175.0, 369.0)",
+      "success": true
+    },
+    {
+      "accepted": true,
+      "label": "table_side",
+      "position": "(251.0, 431.0)",
+      "success": true
+    },
+    {
+      "accepted": true,
+      "label": "table_front",
+      "position": "(175.0, 495.0)",
+      "success": true
+    }
+  ],
+  "trace": [
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          826.8331909179688
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 24.341,
+      "time_ms": 1874
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 24.341,
+      "time_ms": 1979
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 24.341,
+      "time_ms": 2187
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2291
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2398
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2502
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          320.0,
+          855.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2608
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          317.4600524902344,
+          832.1407470703125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2713
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          314.4967956542969,
+          805.4716186523438
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2819
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          311.1102294921875,
+          774.9926147460938
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 2986
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          308.14697265625,
+          748.323486328125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 207.19799999999998,
+      "time_ms": 3099
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          305.1838073730469,
+          721.6543579101562
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3208
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          302.2205505371094,
+          694.9852294921875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3315
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          299.2573547363281,
+          668.3161010742188
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3425
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          296.71746826171875,
+          645.4568481445312
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3533
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          293.7542724609375,
+          618.7877197265625
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3640
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          291.2143249511719,
+          595.928466796875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3749
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          288.2510681152344,
+          569.2593383789062
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3861
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          285.287841796875,
+          542.5902099609375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 3969
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          282.7478942871094,
+          519.73095703125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 137.328,
+      "time_ms": 4077
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          278.61236572265625,
+          493.2855224609375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4185
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          271.58514404296875,
+          471.39715576171875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4295
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          262.82061767578125,
+          446.0356140136719
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4403
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          255.3081817626953,
+          424.2971496582031
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4510
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          247.7958221435547,
+          402.5586853027344
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4617
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          236.3942413330078,
+          378.7559814453125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4725
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          220.97044372558594,
+          361.69403076171875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4835
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          202.97601318359375,
+          341.7884521484375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 4944
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          187.55221557617188,
+          324.7265625
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 112.045,
+      "time_ms": 5052
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          169.5577850341797,
+          304.8210754394531
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 109.92,
+      "time_ms": 5158
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          154.1339874267578,
+          287.7591857910156
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 109.92,
+      "time_ms": 5265
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          136.13955688476562,
+          267.8536682128906
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 entrance",
+      "process_ms": 109.92,
+      "time_ms": 5373
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.92,
+      "time_ms": 5479
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.92,
+      "time_ms": 5691
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.92,
+      "time_ms": 5798
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.92,
+      "time_ms": 5906
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.92,
+      "time_ms": 6012
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          120.0,
+          250.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6118
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          100.20419311523438,
+          231.88497924804688
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6224
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          83.23635864257812,
+          216.35781860351562
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6334
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          68.89291381835938,
+          195.75454711914062
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6443
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          68.28211975097656,
+          172.76263427734375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6552
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          67.56952667236328,
+          145.93873596191406
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6659
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          70.82964324951172,
+          126.08002471923828
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6767
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          97.21337127685547,
+          121.18853759765625
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6875
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          119.82799530029297,
+          116.99583435058594
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 6983
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          146.2117156982422,
+          112.1043472290039
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 212.125,
+      "time_ms": 7092
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          168.8263397216797,
+          107.91162872314453
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.072,
+      "time_ms": 7200
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          191.4409637451172,
+          103.71890258789062
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.072,
+      "time_ms": 7307
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          217.86985778808594,
+          99.08055114746094
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter front",
+      "process_ms": 109.072,
+      "time_ms": 7416
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.072,
+      "time_ms": 7523
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.072,
+      "time_ms": 7735
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.072,
+      "time_ms": 7842
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.072,
+      "time_ms": 7947
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.072,
+      "time_ms": 8053
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          230.0,
+          97.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8159
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.83285522460938,
+          104.2337646484375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8264
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          277.304443359375,
+          112.67315673828125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8373
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          299.13720703125,
+          119.90692138671875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8481
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          310.632568359375,
+          138.84617614746094
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8589
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          311.50103759765625,
+          161.8297576904297
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8696
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          312.5142517089844,
+          188.64393615722656
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8803
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          303.239990234375,
+          208.2903594970703
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 8910
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          288.8944091796875,
+          226.26820373535156
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 212.253,
+      "time_ms": 9016
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          272.15789794921875,
+          247.2423553466797
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9126
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          257.81231689453125,
+          265.22021484375
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9239
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          241.0757293701172,
+          286.1943664550781
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9346
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          226.7301025390625,
+          304.1722106933594
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9453
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          209.99354553222656,
+          325.1463623046875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9560
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          195.64791870117188,
+          343.12420654296875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9667
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          181.3022918701172,
+          361.10205078125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 counter back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9774
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 9881
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 109.82300000000001,
+      "time_ms": 10090
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10197
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10305
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10412
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10519
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          197.67752075195312,
+          372.83770751953125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10626
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          220.35504150390625,
+          376.6754150390625
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10733
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          238.7772979736328,
+          390.2491149902344
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10841
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          245.38507080078125,
+          412.2794494628906
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table back",
+      "process_ms": 209.01500000000001,
+      "time_ms": 10948
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 209.01500000000001,
+      "time_ms": 11056
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11268
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11375
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11482
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11589
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          251.0,
+          431.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11696
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          245.34251403808594,
+          457.2301330566406
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11802
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          240.4932403564453,
+          479.7131042480469
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 11908
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          218.1401824951172,
+          485.1297302246094
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 212.534,
+      "time_ms": 12015
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          192.06161499023438,
+          491.4491271972656
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table side",
+      "process_ms": 107.354,
+      "time_ms": 12123
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12230
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12457
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12565
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12672
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12780
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          495.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Willi explores \u00b7 table front",
+      "process_ms": 107.354,
+      "time_ms": 12886
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          152.44662475585938,
+          490.4893798828125
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13415
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          129.89324951171875,
+          485.97869873046875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13522
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          114.3157958984375,
+          471.4843444824219
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13628
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          113.23197174072266,
+          448.5099182128906
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13736
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          112.14814758300781,
+          425.5354919433594
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13845
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          110.88368225097656,
+          398.73199462890625
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 13954
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          117.64506530761719,
+          381.7518310546875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 226.49099999999999,
+      "time_ms": 14062
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          143.8387908935547,
+          375.9281311035156
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 109.138,
+      "time_ms": 14169
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          166.29054260253906,
+          370.9364013671875
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 109.138,
+      "time_ms": 14277
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 109.138,
+      "time_ms": 14386
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 109.138,
+      "time_ms": 14924
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 109.138,
+      "time_ms": 15056
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          965.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "A small caf\u00e9. A cup made with care.",
+      "process_ms": 215.696,
+      "time_ms": 15189
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          895.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer enters",
+      "process_ms": 215.696,
+      "time_ms": 15456
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          895.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer enters",
+      "process_ms": 215.696,
+      "time_ms": 15586
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          874.5831909179688
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer enters",
+      "process_ms": 215.696,
+      "time_ms": 15722
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          319.03375244140625,
+          846.3035888671875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 215.696,
+      "time_ms": 15857
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          316.4570617675781,
+          823.1131591796875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 215.696,
+      "time_ms": 15990
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          313.88031005859375,
+          799.9227294921875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 215.696,
+      "time_ms": 16125
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          311.30352783203125,
+          776.7322998046875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16259
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          308.7267761230469,
+          753.5418701171875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16393
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          306.1501159667969,
+          730.3514404296875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16529
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          303.57342529296875,
+          707.1610107421875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16661
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          300.9967346191406,
+          683.9705810546875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16799
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          298.4200134277344,
+          660.7801513671875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 16934
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          295.8433532714844,
+          637.5897216796875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 265.757,
+      "time_ms": 17068
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          293.2666931152344,
+          614.3992919921875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17205
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          290.6899719238281,
+          591.2088623046875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17339
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          288.11322021484375,
+          568.0184326171875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17474
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          285.5364990234375,
+          544.8280029296875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17608
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          282.95977783203125,
+          521.6375732421875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17743
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          280.38299560546875,
+          498.4469909667969
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 17880
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          273.26092529296875,
+          476.2333679199219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 138.294,
+      "time_ms": 18014
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          265.63861083984375,
+          454.1801452636719
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18148
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          258.0164489746094,
+          432.1269226074219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18283
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          250.39425659179688,
+          410.0736999511719
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18420
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          242.77206420898438,
+          388.0204772949219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18557
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          228.1561737060547,
+          370.0927429199219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18693
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          212.5411834716797,
+          352.7543640136719
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18830
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          196.9261932373047,
+          335.4159851074219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 18962
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          181.3112030029297,
+          318.0776062011719
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.094,
+      "time_ms": 19099
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          165.6962127685547,
+          300.7392272949219
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.38500000000002,
+      "time_ms": 19235
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          150.0812225341797,
+          283.40087890625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.38500000000002,
+      "time_ms": 19375
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          134.4662322998047,
+          266.06268310546875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.38500000000002,
+      "time_ms": 19510
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 137.38500000000002,
+      "time_ms": 19645
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 20450
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 20585
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 20723
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 20859
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          222.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 20993
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          230.75001525878906
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          335.0,
+          135.0
+        ]
+      },
+      "phase": "Customer orders coffee",
+      "process_ms": 269.397,
+      "time_ms": 21130
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          338.5239562988281,
+          143.0089874267578
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21267
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          347.9211730957031,
+          164.3662872314453
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21402
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          357.3183898925781,
+          185.7235870361328
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21541
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          372.6915588378906,
+          202.233642578125
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21678
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          391.6502990722656,
+          215.8353271484375
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21818
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 21951
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 138.13400000000001,
+      "time_ms": 22085
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 22220
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 22491
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 22626
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 22760
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 22894
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 139.012,
+      "time_ms": 23027
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23161
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23294
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23430
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.0,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23568
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          412.9166564941406,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23703
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          436.2499084472656,
+          229.0
+        ]
+      },
+      "phase": "Willi prepares coffee",
+      "process_ms": 270.394,
+      "time_ms": 23843
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          454.44915771484375,
+          227.2066650390625
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 270.394,
+      "time_ms": 23980
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          432.24578857421875,
+          220.0333251953125
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 270.394,
+      "time_ms": 24121
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          410.04241943359375,
+          212.8599090576172
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24256
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          387.83905029296875,
+          205.68649291992188
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24392
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          365.63568115234375,
+          198.51307678222656
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24529
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          352.11273193359375,
+          179.49794006347656
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24667
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          338.58978271484375,
+          160.48280334472656
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24804
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          325.06683349609375,
+          141.46766662597656
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 24943
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          309.12933349609375,
+          126.54121398925781
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 140.841,
+      "time_ms": 25077
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          285.94818115234375,
+          123.88081359863281
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25215
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          262.76702880859375,
+          121.22040557861328
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25350
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          239.58587646484375,
+          118.55998229980469
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25484
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          216.40472412109375,
+          115.89955139160156
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25618
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          193.22357177734375,
+          113.23912048339844
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25753
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          165.0,
+          155.0
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 138.208,
+      "time_ms": 25888
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          165.0,
+          155.0
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 269.76,
+      "time_ms": 26700
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          165.0,
+          155.0
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 269.76,
+      "time_ms": 26836
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          165.0,
+          155.0
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 269.76,
+      "time_ms": 26973
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          165.0,
+          155.0
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 269.76,
+      "time_ms": 27109
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          120.0,
+          250.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          172.23008728027344,
+          122.43807983398438
+        ]
+      },
+      "phase": "Willi serves customer",
+      "process_ms": 139.671,
+      "time_ms": 27245
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          118.94619750976562,
+          255.73736572265625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 27379
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          114.73098754882812,
+          278.68682861328125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 27510
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.51577758789062,
+          301.63629150390625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 27643
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          106.30056762695312,
+          324.58575439453125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 27776
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          102.08537292480469,
+          347.53521728515625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 27910
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          97.87016296386719,
+          370.48468017578125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 139.671,
+      "time_ms": 28040
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          93.65495300292969,
+          393.43414306640625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28175
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          89.43974304199219,
+          416.38360595703125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28308
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          85.22453308105469,
+          439.33306884765625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28443
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          81.00932312011719,
+          462.28253173828125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28579
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          76.79411315917969,
+          485.23199462890625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28711
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          75.50054931640625,
+          508.4676513671875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28846
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          75.18087768554688,
+          531.7987060546875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 28980
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          85.29753112792969,
+          550.934814453125
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 134.02800000000002,
+      "time_ms": 29113
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          101.67603302001953,
+          567.5538940429688
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 29249
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 29385
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 29517
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 29652
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 29916
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 135.61200000000002,
+      "time_ms": 30050
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30186
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30373
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30511
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30645
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30778
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 30912
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 262.801,
+      "time_ms": 31045
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 186.081,
+      "time_ms": 31179
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 186.081,
+      "time_ms": 31312
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          532.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 186.081,
+      "time_ms": 31448
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          110.0,
+          550.8041381835938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer sits",
+      "process_ms": 186.081,
+      "time_ms": 31587
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          111.30816650390625,
+          578.6068725585938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 186.081,
+      "time_ms": 31722
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          121.77349853515625,
+          599.4618530273438
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 186.081,
+      "time_ms": 31866
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          132.23883056640625,
+          620.3168334960938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 186.081,
+      "time_ms": 32005
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          142.70416259765625,
+          641.1718139648438
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32142
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          153.1695098876953,
+          662.0267333984375
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32279
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          163.63491821289062,
+          682.8814697265625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32413
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          174.10031127929688,
+          703.7362060546875
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32546
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          189.48863220214844,
+          720.9132690429688
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32679
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          206.51792907714844,
+          736.8646850585938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32813
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          224.06321716308594,
+          752.2439575195312
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 32952
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          241.6821746826172,
+          767.5415649414062
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 143.05300000000003,
+      "time_ms": 33087
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          258.9659423828125,
+          783.2119750976562
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33220
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          276.048583984375,
+          799.1060180664062
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33354
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          293.131103515625,
+          815.000244140625
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33487
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          310.2136535644531,
+          830.8944702148438
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33622
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          895.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33763
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          895.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 33900
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          909.5834350585938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 138.482,
+      "time_ms": 34056
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          932.9169311523438
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 166.522,
+      "time_ms": 34224
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          956.2504272460938
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          190.0,
+          110.0
+        ]
+      },
+      "phase": "Customer leaves",
+      "process_ms": 166.522,
+      "time_ms": 34371
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          966.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          209.41683959960938,
+          103.68921661376953
+        ]
+      },
+      "phase": "Willi returns idle",
+      "process_ms": 166.522,
+      "time_ms": 34506
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          966.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          230.0,
+          97.0
+        ]
+      },
+      "phase": "Ready for next customer",
+      "process_ms": 166.522,
+      "time_ms": 34647
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          966.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          230.0,
+          97.0
+        ]
+      },
+      "phase": "Ready for next customer",
+      "process_ms": 166.522,
+      "time_ms": 34781
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          966.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          230.0,
+          97.0
+        ]
+      },
+      "phase": "Ready for next customer",
+      "process_ms": 166.522,
+      "time_ms": 34917
+    },
+    {
+      "actor_positions": {
+        "Customer": [
+          320.0,
+          966.0
+        ],
+        "Visitor": [
+          175.0,
+          369.0
+        ],
+        "Worker": [
+          230.0,
+          97.0
+        ]
+      },
+      "phase": "Ready for next customer",
+      "process_ms": 166.522,
+      "time_ms": 35054
+    }
+  ],
+  "performance_observation": {
+    "process_cpu_ms_median": 139.671,
+    "process_cpu_ms_max": 270.394,
+    "not_device_performance_certification": true,
+    "frame_sampling": "approximately 10 fps with PNG capture overhead; real native runtime, no fixed-fps speedup",
+    "device": "Apple M2 Pro; OpenGL compatibility",
+    "note": "PNG readback/write overhead during recording; separate no-capture desktop_performance_observation.json is not mobile certification."
+  },
+  "recording_policy": "Layer-isolation diagnostics pause video sampling. Timestamp-derived holds preserve their elapsed time; separate technical PNGs are retained."
+}

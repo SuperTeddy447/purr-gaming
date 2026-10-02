@@ -1,0 +1,18 @@
+{
+  "template_id": "WILLICAT_HERO_CAFE_REPLACEMENT_DEV_V1",
+  "template_version": "1.1",
+  "authority": "Existing V2 asset origins, scene transforms, shared material names and 2D gameplay authority; no new layout",
+  "scope": "DEV visual authoring rules, not universal production tolerances",
+  "rules": {
+    "stone_counter_bevel": "min(counter_depth * 0.07, 0.042); keeps V2 countertop surface at 1.08",
+    "cedar_counter_joinery": "end-post bevel tracks member thickness; front fields recessed relative to projecting stiles; underside/plinth remain darker",
+    "chair_legs": "tapered continuous quad members; bevel = min(end widths) * 0.16",
+    "chair_crest": "continuous swept quad strip; bevel = min(section width, depth) * 0.22",
+    "chair_cushion": "rounded superellipse sections with a domed top, rather than a beveled block",
+    "window": "nested cedar jamb/bead depths within existing 1.6-wide left-ground-origin module; separate existing sill remains in place",
+    "espresso": "extruded shaped side profile and stepped cup deck; preserves countertop-contact-center origin",
+    "plants": "four deterministic role templates; broad curved leaves with folded midrib; same seven V2 instance positions; low-sided stems and shared opaque two-sided foliage material",
+    "material": "Reuse exact V2 ShaderMaterial resources and all five first-party painted albedos; intrinsic geometric cavity in vertex red, foliage pigment in green; no baked directional light or generated new pixels"
+  },
+  "future_calibration": "These DEV dimensions/bevel choices are authored design parameters fitted to existing assets, not approved category calibration thresholds. New template families need their own authority measurements and human review."
+}

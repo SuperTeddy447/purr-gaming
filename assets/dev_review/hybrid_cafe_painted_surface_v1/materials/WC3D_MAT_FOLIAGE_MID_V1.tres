@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/painted_foliage.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png" id="2"]
+[resource]
+resource_name = "WC3D_MAT_FOLIAGE_MID_V1"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.37254901960784315, 0.4745098039215686, 0.29411764705882354, 1)
+shader_parameter/source_mean = Vector3(0.195710861740232, 0.2461382005983763, 0.08322678603343915)
+shader_parameter/paint_strength = 0.82
+shader_parameter/paint_scale = Vector2(1.05, 1.05)
+shader_parameter/material_roughness = 0.99
+shader_parameter/restrained_specular = 0
+shader_parameter/edge_warmth = 0.045
+shader_parameter/cavity_strength = 0.20
+shader_parameter/foliage_pigment = true
+shader_parameter/pigment_dark = Color(0.2392,0.3373,0.2157,1)
+shader_parameter/pigment_light = Color(0.5412,0.6118,0.4078,1)

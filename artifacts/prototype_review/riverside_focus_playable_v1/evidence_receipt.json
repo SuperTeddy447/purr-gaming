@@ -1,0 +1,51 @@
+{
+  "scope": "development-only focus preview; not canonical approval or publication",
+  "godot": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "python_preparation_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "existing_repo_head": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "tree_bundle_hash": "e1ebe7b7f26c390129cfd9209866fadd6960e4bdf1f48ea55c521330ad5cd13b",
+  "code_hashes": {
+    "scripts/dev/focus_retreat/focus_companion.gd": "497fdeaa5ab6e0f4c862eddc07cbfb9e9b01db2e581287aab9b4a91b0b39d19f",
+    "scripts/dev/focus_retreat/focus_retreat.gd": "cef1390a1e384a333d52b422f7c2251ccb22ae3590fa9638523989631f2ec939",
+    "scripts/dev/focus_retreat/focus_service.gd": "7a27a96680679f6337ecd80a2c6ff26174662201d4ecc4e605a1cb821fdcd813",
+    "scripts/dev/focus_retreat/focus_session.gd": "d902a1a5a841806313d121f21fb37bd7e0931b0784159603c6b29060db9a07ee",
+    "scenes/dev/focus_retreat/focus_retreat_v1.tscn": "fab91f1af40b329f67a9dc674c787316cd9f557dea5e5b216050db2e25e89ae3",
+    "tests/capture_focus_retreat_v1.gd": "d554ab2899172a363c47d188de1af7ecf8aa0012cc5d613bbd41d3647a31d4d8",
+    "tests/test_focus_retreat_v1.gd": "d858700cfc979819e335e8f4bf67d78932c47005f56e57b50f39005f1ed02386",
+    "tools/willicat_focus_retreat/run.py": "f0fb8fc51c9f8996161b0d3e1532c5a7ddca308dc91bec7691ea6fd1de16ed5b"
+  },
+  "proof_and_media_hashes": {
+    "focus_runtime_proof.json": "f2ae40b1686cf172a7059f3b63d81a49a6ba0b38d62454eb9f1ff2805e3dd176",
+    "focus_preview_receipt.json": "81d4f7e60ee53eb07bb732bf39cdc8b3605a386b0c852616050d8574a93e91af",
+    "focus_test_results.json": "3e6671f4aa74e2fcf2726fd6696c9b6075126eef0b4c8e8d3ef2b5ec89e656e4",
+    "protected_file_parity.json": "b52ecde8a296519d00306a442db56f553938925e5b0ddbee4ec48a5b719b2d55",
+    "03_paused_desktop.png": "9ea40dbe8e6e12a3e8154b89cbf034a261d0519007ccace273c9959474455e27",
+    "02_running_desktop.png": "8d8f4d2f36358cef034ddb2a804a54320a9afeb662de47e8a292585fc3ff1375",
+    "06_running_phone.png": "9ab5046d2f96c7d6ab7871c36edc06b4834bb5219331cd3daf8f81696173d8d1",
+    "focus_playable.gif": "92f2c7afff3ece1554292bcddb71af5890a166495833c1ca06aa8c419deaf562",
+    "05_complete_phone.png": "776d062ffe433192a6f5cd9f5056eaba7305262912de5e81b8477c90a02a6453",
+    "01_ready_desktop.png": "9fb19243747cdde6305dfba47412f3636ccc427486ebdab0c04fdb3c630b6967",
+    "04_complete_desktop.png": "b6a0f3f5b67c4c4a6a17c5fab6460e65a4ce9372adbedd4830ecc0e24c5ba79f",
+    "focus_playable.mp4": "a679f9021dba1bed09ed2b832a0ab73833d981c3b19cc16590a6061fba33f92a",
+    "launcher_checks.json": "7a04e6dad8b89d615ed777d95134b6cd946a25e2ae13e360f0cb6de73fb2ff0a"
+  },
+  "source_regeneration": false,
+  "capture_duration_s": 32.428,
+  "media": "MP4 uses captured timestamp deltas; GIF samples at 8fps; no audio added",
+  "launch_verification": {
+    "opened_installed_preview": true,
+    "source_code_matches_recorded_proof": true,
+    "launch_log_sha256": "03e1cc64284b852906e1314f5f6b6ee69ee7ac3dd00e9d9932678314dbcabacf",
+    "import_warnings": "Five inherited unused sample references use Scripts/scripts with different case; no SCRIPT ERROR or ERROR entries observed; no original files changed."
+  }
+}

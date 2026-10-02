@@ -1,0 +1,47 @@
+{
+  "asset_id": "sisal_post",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/sisal_post_extracted.png",
+  "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/sisal_post.png",
+  "source_sha256": "ec7fc0a394f46ab093b3a35b49669acc0b39100d6b6aa82074be575aa6eb3ef1",
+  "runtime_sha256": "d6e06163cfad7e98a6f889dfae1032815478b3b14811e3bd80a761864c9f12b8",
+  "source_dimensions": [
+    324,
+    736
+  ],
+  "runtime_dimensions": [
+    344,
+    510
+  ],
+  "source_visual_bounds": [
+    6,
+    108,
+    318,
+    602
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    328,
+    510
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    172.0,
+    510
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 3059,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

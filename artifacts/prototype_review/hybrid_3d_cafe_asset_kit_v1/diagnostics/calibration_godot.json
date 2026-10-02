@@ -1,0 +1,22 @@
+{
+	"bounds": "[P: (-0.825, 0.0, -0.825), S: (1.65, 0.89, 1.65)]",
+	"checks": {
+		"GLB_instantiates_meshes": true,
+		"UV0_per_vertex": true,
+		"embedded_painted_material_mapping": true,
+		"ground_origin": true,
+		"meters_and_Y_up_height": true,
+		"no_automatic_gameplay_collision": true,
+		"no_post_import_axis_correction": true,
+		"normals_per_vertex": true,
+		"orientation_width_depth": true,
+		"runtime_render_capture": true
+	},
+	"count": 10,
+	"normal_vertices": 2174,
+	"numeric_check_tolerance": "0.02m DEV import sanity margin, not a world/production tolerance",
+	"passed": true,
+	"textured_surfaces": 7,
+	"uv_vertices": 2174,
+	"vertices": 2174
+}

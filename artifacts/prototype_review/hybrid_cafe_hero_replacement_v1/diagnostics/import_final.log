@@ -1,0 +1,134 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (4 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (10 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Wall_Window_A.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Espresso_A.glb[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Chair_A.glb[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Counter_End_A.glb[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Counter_Short_A.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Counter_Straight_A.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Planter_Floor_A.glb[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Planter_Table_A.glb[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Plant_Flowering_A.glb[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | WC_CAFE_Plant_Trailing_A.glb[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | WC_CAFE_Plant_Trailing_A_foliage_painted.png[39m[0m
+[   5% ] [90m[1mreimport[22m | WC_CAFE_Plant_Trailing_A_ceramic_painted.png[39m[0m
+[  10% ] [90m[1mreimport[22m | WC_CAFE_Plant_Flowering_A_ceramic_painted.png[39m[0m
+[  15% ] [90m[1mreimport[22m | WC_CAFE_Plant_Flowering_A_foliage_painted.png[39m[0m
+[  20% ] [90m[1mreimport[22m | WC_CAFE_Planter_Table_A_foliage_painted.png[39m[0m
+[  25% ] [90m[1mreimport[22m | WC_CAFE_Planter_Table_A_ceramic_painted.png[39m[0m
+[  30% ] [90m[1mreimport[22m | WC_CAFE_Planter_Floor_A_foliage_painted.png[39m[0m
+[  35% ] [90m[1mreimport[22m | WC_CAFE_Planter_Floor_A_ceramic_painted.png[39m[0m
+[  40% ] [90m[1mreimport[22m | WC_CAFE_Chair_A_sage_woven.png[39m[0m
+[  45% ] [90m[1mreimport[22m | WC_CAFE_Chair_A_cedar_painted.png[39m[0m
+[  50% ] [90m[1mreimport[22m | WC_CAFE_Espresso_A_plaster_painted.png[39m[0m
+[  55% ] [90m[1mreimport[22m | WC_CAFE_Espresso_A_ceramic_painted.png[39m[0m
+[  60% ] [90m[1mreimport[22m | WC_CAFE_Espresso_A_cedar_painted.png[39m[0m
+[  65% ] [90m[1mreimport[22m | WC_CAFE_Planter_Floor_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  70% ] [90m[1mreimport[22m | WC_CAFE_Planter_Table_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  75% ] [90m[1mreimport[22m | WC_CAFE_Chair_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  80% ] [90m[1mreimport[22m | WC_CAFE_Plant_Flowering_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  85% ] [90m[1mreimport[22m | WC_CAFE_Plant_Trailing_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | WC_CAFE_Espresso_A.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_hero_replacement_project/Scripts/AudioManager.gd', stored as '/private/tmp/willicat_hero_replacement_project/scripts/AudioManager.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_hero_replacement_project/Scripts/SceneTransition.gd', stored as '/private/tmp/willicat_hero_replacement_project/scripts/SceneTransition.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_hero_replacement_project/Scripts/Coin.gd', stored as '/private/tmp/willicat_hero_replacement_project/scripts/Coin.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_hero_replacement_project/Scripts/LevelFinishDoor.gd', stored as '/private/tmp/willicat_hero_replacement_project/scripts/LevelFinishDoor.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+WARNING: Case mismatch opening requested file '/private/tmp/willicat_hero_replacement_project/Scripts/player.gd', stored as '/private/tmp/willicat_hero_replacement_project/scripts/player.gd' in the filesystem. This file will not open when exported to other case-sensitive platforms.
+     at: open_internal (drivers/unix/file_access_unix.cpp:112)
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

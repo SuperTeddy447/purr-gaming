@@ -1,0 +1,332 @@
+{
+  "scope": "DEV_DIAGNOSTIC temporary project only",
+  "runtime_proxy_pixels": "suppressed",
+  "geometry_and_gameplay_files": "byte-identical to tracked authority",
+  "original_repository_modified": false,
+  "rows": [
+    {
+      "logical_path": "res://assets/dev_proxy/cozy_coffee/armchair_terracotta_directions.png",
+      "dimensions_px": [
+        1536,
+        768
+      ],
+      "source_metadata_sha256": "4e71ade5587dbc1527216b36a1a96e6b80cea1562f45da46ea6cba855897c506",
+      "diagnostic_transparent_placeholder_sha256": "08608c9fcb0f5efd92cf697d86ae44b65a3970d89ab4ee463199e76e15142254"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/cozy_coffee/chair_wood_directions.png",
+      "dimensions_px": [
+        1536,
+        768
+      ],
+      "source_metadata_sha256": "95b6722f8837c26764bffdac5c78c5d19d503dc193f2ae6a6d39b8772f6ff7cd",
+      "diagnostic_transparent_placeholder_sha256": "08608c9fcb0f5efd92cf697d86ae44b65a3970d89ab4ee463199e76e15142254"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/freeassets_building/Building_Restaurant.png",
+      "dimensions_px": [
+        768,
+        1024
+      ],
+      "source_metadata_sha256": "c294735c285df8b9db3322f6f6de87d13c31d6610c32c6f01c345a76260a0813",
+      "diagnostic_transparent_placeholder_sha256": "77ec52ce0c282e0eb833fb804ea86d93d5d7e75e09840591e1723c9318bb6d8d"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/freeassets_building/Building_Restaurant_Front.png",
+      "dimensions_px": [
+        768,
+        1024
+      ],
+      "source_metadata_sha256": "318f4654d2986179f3b37aaeb0b74018fb421e3ce5be4517459642869ceeaa71",
+      "diagnostic_transparent_placeholder_sha256": "77ec52ce0c282e0eb833fb804ea86d93d5d7e75e09840591e1723c9318bb6d8d"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/cat_bed.png",
+      "dimensions_px": [
+        48,
+        32
+      ],
+      "source_metadata_sha256": "6dd4c84d454f7c3e3c89605c32aa5c73c7fc7aafb7b8df89338da7f039d2832c",
+      "diagnostic_transparent_placeholder_sha256": "8c24351f19ce889f11bdf402cbe95a4fab8f495756d027259c90c41c6e8f1a67"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/chair.png",
+      "dimensions_px": [
+        16,
+        32
+      ],
+      "source_metadata_sha256": "267b74f13d85c08f2f53066f8a93b19899409e960d92087fb3f53577986178ab",
+      "diagnostic_transparent_placeholder_sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/counter.png",
+      "dimensions_px": [
+        96,
+        32
+      ],
+      "source_metadata_sha256": "bb529d7eb00e51849f88d5abf2f2829e7fa21803a3c1cd35aa18bc208e1bde8a",
+      "diagnostic_transparent_placeholder_sha256": "b376ad57a8d6abb0110e3c52e874d1f63ad34eecc5865e9d7961a007d2fedd3a"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/door.png",
+      "dimensions_px": [
+        48,
+        64
+      ],
+      "source_metadata_sha256": "c4eaf2951ed54dad7fbd055ae50b6a9c03f66ede7b0ddc80aba253c50552f5f7",
+      "diagnostic_transparent_placeholder_sha256": "e9bd74696f45da069b0ff079b0be177e0052fbb546bad1f11145ef240f3547e1"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/espresso.png",
+      "dimensions_px": [
+        64,
+        64
+      ],
+      "source_metadata_sha256": "da395a287386ef73f422bb8ff309f84dc6994c0854f73da476e4ced430f9cbf1",
+      "diagnostic_transparent_placeholder_sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/floor_wood.png",
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "source_metadata_sha256": "aea705ae93a43401521843b0cccf0d3dfce00d951e6c55ac7b1458a3f75fff8b",
+      "diagnostic_transparent_placeholder_sha256": "232c2eac760eae604f9dd43352c0b272396b7cfaf220081b54583b6d0cbc2320"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/grinder.png",
+      "dimensions_px": [
+        16,
+        32
+      ],
+      "source_metadata_sha256": "5c12169f4ea4a7f3f3652a5cdaf5ee60fb6d509ae24df26d5a29b6bce722f611",
+      "diagnostic_transparent_placeholder_sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/idle_down.png",
+      "dimensions_px": [
+        256,
+        64
+      ],
+      "source_metadata_sha256": "c895eb750a66e06404fc3400964b4ee16c7e61d4a4874c2ac7e70c432a7dc31c",
+      "diagnostic_transparent_placeholder_sha256": "a709d23dd34555baba242210238b4cd6ec5915c3283126b9403f4271a61127a2"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/idle_side.png",
+      "dimensions_px": [
+        256,
+        64
+      ],
+      "source_metadata_sha256": "b1f1d21d67eb0bec5f80f485e227ef02eb60f6a9be2a4a007a6244a885f4504c",
+      "diagnostic_transparent_placeholder_sha256": "a709d23dd34555baba242210238b4cd6ec5915c3283126b9403f4271a61127a2"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/idle_up.png",
+      "dimensions_px": [
+        256,
+        64
+      ],
+      "source_metadata_sha256": "36dab2b77d72008cfd5d645dbc327c070cc2c4fa45f2bbbda90b95865e78b46e",
+      "diagnostic_transparent_placeholder_sha256": "a709d23dd34555baba242210238b4cd6ec5915c3283126b9403f4271a61127a2"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/pastry.png",
+      "dimensions_px": [
+        64,
+        32
+      ],
+      "source_metadata_sha256": "708ceb3273faec58ae0b31983d2fd118f9cab8b57a580c184c09ac55db256bd8",
+      "diagnostic_transparent_placeholder_sha256": "1b9383be2f6dda80636e7cd49f432b7ad4e7aa886a6a4f37cb8887124a659ea7"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/plant.png",
+      "dimensions_px": [
+        32,
+        32
+      ],
+      "source_metadata_sha256": "251947af1eab4e69b6f98e0ce84a5c240b6ad4b9879d247b948d46f16af1e46c",
+      "diagnostic_transparent_placeholder_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/pos.png",
+      "dimensions_px": [
+        16,
+        32
+      ],
+      "source_metadata_sha256": "f89d30ddf53b1b23697dbe9fed57ee5a210ed2ef209340057aa0a7e68fb71f77",
+      "diagnostic_transparent_placeholder_sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/scratch.png",
+      "dimensions_px": [
+        16,
+        88
+      ],
+      "source_metadata_sha256": "9df8cc4d516a2949ff09d806acad9ff54818b52de042c230417ff329896dc254",
+      "diagnostic_transparent_placeholder_sha256": "9b9c0c727532f624939aec03a29102654d0c5c5c02a4a3434545b91f423e5ecd"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/seating_rug.png",
+      "dimensions_px": [
+        48,
+        48
+      ],
+      "source_metadata_sha256": "086e949e39a2bb17edbd5e96c40dc9c2c182de6aa881845c737cdaa16b77f481",
+      "diagnostic_transparent_placeholder_sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/table_round.png",
+      "dimensions_px": [
+        32,
+        32
+      ],
+      "source_metadata_sha256": "95b33ed4adc610a8dda9a616b61e5e5762bd39d43200505b231139e0ec70de56",
+      "diagnostic_transparent_placeholder_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/walk_down.png",
+      "dimensions_px": [
+        384,
+        64
+      ],
+      "source_metadata_sha256": "cc391db93c5e0d06ec0273d73717d2b7e203725227345e173d1df1ace92aa521",
+      "diagnostic_transparent_placeholder_sha256": "3f0b3de8e2417c58f63aa2de10b439f63dd8ffd8110ba967f7d9d377a2ce3498"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/walk_side.png",
+      "dimensions_px": [
+        384,
+        64
+      ],
+      "source_metadata_sha256": "ff5d2be538c1b8100899e9eaacefe94bba3c91d1ac0bee9011fee9b50f7d67bb",
+      "diagnostic_transparent_placeholder_sha256": "3f0b3de8e2417c58f63aa2de10b439f63dd8ffd8110ba967f7d9d377a2ce3498"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/walk_up.png",
+      "dimensions_px": [
+        384,
+        64
+      ],
+      "source_metadata_sha256": "e0b11ddea52a1885b9f96510da07f1dc1f68a987a9ea34e0ba43f406688ee3e0",
+      "diagnostic_transparent_placeholder_sha256": "3f0b3de8e2417c58f63aa2de10b439f63dd8ffd8110ba967f7d9d377a2ce3498"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/wall_stone.png",
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "source_metadata_sha256": "9be3d9bfc13e603fdac0f11b082117ef28ab11ed7c8e436a40331554515bc14e",
+      "diagnostic_transparent_placeholder_sha256": "232c2eac760eae604f9dd43352c0b272396b7cfaf220081b54583b6d0cbc2320"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/pixel_crawler/window.png",
+      "dimensions_px": [
+        32,
+        48
+      ],
+      "source_metadata_sha256": "d419b81dbc7450d00c99c1dcc6683e852400a4214c0310df4b6f7b8f6e9683b9",
+      "diagnostic_transparent_placeholder_sha256": "af0fd88f613ffbe09f88112c1106bb6ff2240bdb655c8ab88e087a6fcba393ae"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/retro_interior/TopDownHouse_FurnitureState1.png",
+      "dimensions_px": [
+        208,
+        288
+      ],
+      "source_metadata_sha256": "76ea3b66207a31618869ea87b28b616c1d881d1fedd06e0a998438bb874908cc",
+      "diagnostic_transparent_placeholder_sha256": "bd9588b61d1a086537c3783a905fc8a836ff4130239ae026244f94bd2bd8dd05"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/bush1.png",
+      "dimensions_px": [
+        1024,
+        128
+      ],
+      "source_metadata_sha256": "38ea6583e856d4670ce43b843aaa3ef3e675b351b02353118f04b01ba3daa4eb",
+      "diagnostic_transparent_placeholder_sha256": "a0f2cd16a92d452ecf22a58b1ec9db035c7c09579e5f1e303986c38e76f96fcf"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/grass_atlas.png",
+      "dimensions_px": [
+        576,
+        384
+      ],
+      "source_metadata_sha256": "558588391e6dd91c444e6a0ce4b2f8ee0ee13e50baeb8289837a42e58b2c8f1a",
+      "diagnostic_transparent_placeholder_sha256": "8df3224dc1bdd5a6846518d233976ed5eb1637e8340e68bac45a5c10651595fe"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/ochre_atlas.png",
+      "dimensions_px": [
+        576,
+        384
+      ],
+      "source_metadata_sha256": "944f8fe48d87f60234a7eac9648e444bbecdabaabd0b478758ea45c882603503",
+      "diagnostic_transparent_placeholder_sha256": "8df3224dc1bdd5a6846518d233976ed5eb1637e8340e68bac45a5c10651595fe"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/rock1.png",
+      "dimensions_px": [
+        64,
+        64
+      ],
+      "source_metadata_sha256": "de9f1d954577003e278bae7ee71338c76b4799c9aabf34a002219ca2c67c7c00",
+      "diagnostic_transparent_placeholder_sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/shadow.png",
+      "dimensions_px": [
+        192,
+        192
+      ],
+      "source_metadata_sha256": "20094ec53d6929b18f01ea163a34955767335e4113b1c5dd33c5114a0302a27a",
+      "diagnostic_transparent_placeholder_sha256": "f268df2d470b51c70480570f6725cac907ba6523812da140c66bbd1a9017ddcf"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/tree1.png",
+      "dimensions_px": [
+        1536,
+        256
+      ],
+      "source_metadata_sha256": "ee3f285f992842987df5aae0e07a364a7a535e78d605f6d469115559e87df7e5",
+      "diagnostic_transparent_placeholder_sha256": "9937051f8d1c192b369a62f6c8538943b7f6e3b21bad8a620fffaf9b755943c9"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/tree2.png",
+      "dimensions_px": [
+        1536,
+        256
+      ],
+      "source_metadata_sha256": "62de877a4732bee98e170c1a4aac44c3bd39929205923176a4acbec812d2630a",
+      "diagnostic_transparent_placeholder_sha256": "9937051f8d1c192b369a62f6c8538943b7f6e3b21bad8a620fffaf9b755943c9"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/water.png",
+      "dimensions_px": [
+        64,
+        64
+      ],
+      "source_metadata_sha256": "5ef30a00bbff22590eabb5acabb8aca6cc415557e7ab5f60db07714f01a4dba1",
+      "diagnostic_transparent_placeholder_sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/water_foam.png",
+      "dimensions_px": [
+        3072,
+        192
+      ],
+      "source_metadata_sha256": "aba91e12e08d108ce43446a269c9fb7e05b55580872152d675f8c78f72835e37",
+      "diagnostic_transparent_placeholder_sha256": "751876d7cef88cbfecf575c5b23169706ff2270ab5876a68c762b9dc7d0c5aab"
+    },
+    {
+      "logical_path": "res://assets/dev_proxy/tiny_swords/water_rock1.png",
+      "dimensions_px": [
+        1024,
+        64
+      ],
+      "source_metadata_sha256": "83d1a8925a9294c42bc421710d263718d958570006f43e6c7c65f4c7f5e115b4",
+      "diagnostic_transparent_placeholder_sha256": "18dca15f5585e2a4a786f8be8092653e0fa9acefbe7710626ca0897f2e068bfb"
+    }
+  ]
+}

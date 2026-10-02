@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/storybook_painted.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/textures/cedar_brush_v1.png" id="2"]
+[resource]
+resource_name = "WC_MAT_Cedar_Mid"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/painted_tint = Color(0.8199999928474426, 0.7699999809265137, 0.699999988079071, 1.0)
+shader_parameter/grain_contrast = 0.7
+shader_parameter/saturation = 0.92
+shader_parameter/broad_variation = 0.075

@@ -1,0 +1,48 @@
+{
+  "scope": "native image differencing; RGB cutoff10 is analysis instrumentation, not visual tolerance",
+  "occlusion_checks": [
+    {
+      "test": "bridge_native_geometry_occlusion",
+      "passed": true,
+      "isolated_actor_pixels": 544,
+      "visible_actor_pixels": 437,
+      "occluded_actor_pixels": 107,
+      "occlusion_fraction": 0.19669117647058823
+    },
+    {
+      "test": "entrance_native_geometry_occlusion",
+      "passed": true,
+      "isolated_actor_pixels": 535,
+      "visible_actor_pixels": 227,
+      "occluded_actor_pixels": 308,
+      "occlusion_fraction": 0.5757009345794393
+    }
+  ],
+  "passed": 2,
+  "failed": 0,
+  "mobile_silhouette": [
+    {
+      "viewport": [
+        540,
+        960
+      ],
+      "idle_visible_bbox_px": [
+        27,
+        38
+      ],
+      "visible_pixels": 538
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "idle_visible_bbox_px": [
+        18,
+        25
+      ],
+      "visible_pixels": 243
+    }
+  ],
+  "native_time_pair_changed_pixels_over10": 895
+}

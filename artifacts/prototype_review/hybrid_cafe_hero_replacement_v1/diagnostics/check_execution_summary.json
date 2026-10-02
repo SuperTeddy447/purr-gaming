@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "executions": {
+    "cavity": {
+      "exit_code": 0,
+      "seconds": 0.47399987499999996,
+      "script": "test_hero_asset_replacement_colors_v1.gd",
+      "count": 16
+    },
+    "regression_cafe": {
+      "exit_code": 0,
+      "seconds": 29.199722417,
+      "script": "test_cafe_visual_recovery_v1.gd",
+      "count": 39
+    },
+    "regression_home": {
+      "exit_code": 0,
+      "seconds": 52.949722459,
+      "script": "replacement_regression_test_home_continuous_world_v1.gd",
+      "count": 28
+    },
+    "regression_world": {
+      "exit_code": 0,
+      "seconds": 26.407863667,
+      "script": "replacement_regression_test_world_architecture_hardening_v1.gd",
+      "count": 172
+    },
+    "regression_focus": {
+      "exit_code": 0,
+      "seconds": 0.26629341600001055,
+      "script": "test_focus_retreat_v1.gd",
+      "count": 33
+    }
+  },
+  "instrumentation": "Original regression scripts unchanged; Home/world counting copies only in isolated temporary project."
+}

@@ -1,0 +1,79 @@
+{
+  "scope": "image difference diagnostics, not aesthetic acceptance",
+  "depth": {
+    "bridge": {
+      "isolated_actor_pixels": 524,
+      "visible_actor_pixels": 427,
+      "occluded_actor_pixels": 97,
+      "visible_fraction": 0.8148854961832062,
+      "analysis_threshold_RGB_code_values": 10,
+      "interpretation": "diagnostic differencing threshold only; not production visual tolerance",
+      "passed": true
+    },
+    "entrance": {
+      "isolated_actor_pixels": 525,
+      "visible_actor_pixels": 332,
+      "occluded_actor_pixels": 193,
+      "visible_fraction": 0.6323809523809524,
+      "analysis_threshold_RGB_code_values": 10,
+      "interpretation": "diagnostic differencing threshold only; not production visual tolerance",
+      "passed": true
+    }
+  },
+  "actor_readability": {
+    "540": {
+      "viewport": [
+        540,
+        960
+      ],
+      "visible_bbox_px": [
+        259,
+        478,
+        288,
+        515
+      ],
+      "visible_silhouette_dimensions_px": [
+        29,
+        37
+      ],
+      "silhouette_pixels": 522,
+      "human_facial_readability": "PENDING human review; lower detail at 360"
+    },
+    "360": {
+      "viewport": [
+        360,
+        640
+      ],
+      "visible_bbox_px": [
+        173,
+        318,
+        192,
+        343
+      ],
+      "visible_silhouette_dimensions_px": [
+        19,
+        25
+      ],
+      "silhouette_pixels": 230,
+      "human_facial_readability": "PENDING human review; lower detail at 360"
+    }
+  },
+  "water_time_difference": {
+    "selection": "blue-green pixel mask of native final gameplay view; excludes most vegetation/stone",
+    "mask_pixels": 36397,
+    "mean_abs_RGB_difference": 3.592191664148144,
+    "max_abs_RGB_difference": 13.0,
+    "comparison": "two native captures separated by 2.5 seconds plus settle frames; not canonical timing calibration"
+  },
+  "foliage_policy": {
+    "implementation": "foliage-only vertex displacement; cedar trunk uses unchanged painted material",
+    "wind_amount_DEV": 0.016,
+    "z_amplitude_factor": 0.45,
+    "shader_origin_low_vertex_mask_zero_at_or_below": 0.3,
+    "mask_full_height": 1.45,
+    "whole_instance_scale_animation": false,
+    "trunk_world_matrix_animation": false,
+    "status": "DEV artistic shader parameters, not calibrated family thresholds",
+    "evidence": "native moving sequence and water/foliage time captures; no human motion approval inferred"
+  }
+}

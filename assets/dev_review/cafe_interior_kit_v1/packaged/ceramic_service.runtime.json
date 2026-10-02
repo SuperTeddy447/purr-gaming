@@ -1,0 +1,47 @@
+{
+  "asset_id": "ceramic_service",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/ceramic_service.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/ceramic_service.png",
+  "source_sha256": "b3abfc90d0b29d5d88ffa6add1736f9e8890925d35cb7e32313c36c9ca178592",
+  "runtime_sha256": "d0e2a001f5c2c89cd38283035ef96739aa3ef926704c43572be6dbb82ecdc322",
+  "source_dimensions": [
+    449,
+    473
+  ],
+  "runtime_dimensions": [
+    469,
+    194
+  ],
+  "source_visual_bounds": [
+    6,
+    276,
+    443,
+    454
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    453,
+    194
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    234.5,
+    194
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 3795,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

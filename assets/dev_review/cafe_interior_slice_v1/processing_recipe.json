@@ -1,0 +1,89 @@
+{
+  "recipe_id": "cafe_interior_static_review_v1",
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "forge_function": "willicat_asset_forge.static_prop.package_static_prop",
+  "alpha_threshold": 16,
+  "padding": 16,
+  "floor_opaque": true,
+  "floor_pivot": "FULL_CANVAS_TOP_LEFT",
+  "wall_pivot": "WALL_MOUNT_CENTER",
+  "countertop_props": [
+    "espresso",
+    "grinder",
+    "pos"
+  ],
+  "other_pivots": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "runtime_resize": {
+    "resampler": "Pillow Image.Resampling.LANCZOS",
+    "width_px": {
+      "floor_cedar": 256,
+      "wall_plaster": 512,
+      "counter_cedar": 512,
+      "other_sources": 384
+    },
+    "height": "round(packaged_height * target_width / packaged_width)",
+    "pivot": "target canvas bottom center, wall canvas center, or floor top-left"
+  },
+  "counter_partition": {
+    "shared_canvas_px": [
+      512,
+      172
+    ],
+    "front_polygon_px": [
+      [
+        0,
+        45
+      ],
+      [
+        512,
+        84
+      ],
+      [
+        512,
+        172
+      ],
+      [
+        0,
+        172
+      ]
+    ],
+    "top_alpha": "original alpha minus front partition alpha",
+    "front_alpha": "original alpha clipped by polygon",
+    "no_source_repainting": true
+  },
+  "generated_primitives": {
+    "contact_shadow": {
+      "canvas_px": [
+        128,
+        48
+      ],
+      "construction_parameters": "Not persisted by initial one-off derivation; retained immutable output hash is authoritative"
+    },
+    "practical_light": {
+      "canvas_px": [
+        128,
+        128
+      ],
+      "purpose": "soft amber runtime practical accent; source-neutral art retained",
+      "construction_parameters": "Not persisted by initial one-off derivation; retained immutable output hash is authoritative"
+    }
+  },
+  "generation_regenerations": 0,
+  "output_hashes": {
+    "assets/dev_review/cafe_interior_slice_v1/runtime/chair_ne.png": "77718ddacbcd5445b80630572bded92d1f2eabd4375fac17447e25e1785846e3",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/entrance_frame.png": "5e6743ab223d01760c5d42ada0ec171da47c56dacb6f49874d8ea3164e21559b",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/floor_cedar.png": "419146409606f5031b5e10eba714b799d35ccc200ff24c36acc479fee5b40df6",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/chair_nw.png": "d125e58e7c96312cf8a42934c36951cefe15ea71f265f4a94f66802638869ff4",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/contact_shadow.png": "49cb508f0ae4074cd1cb6f5ddf84ee13da5a11916bdedc834881dbbf0b4e1ef7",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/practical_light.png": "350a37d3d1fbe77eea874a8eb3c448f4c4b8b3c13e2ea09e2c8267ba1912769e",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_cedar.png": "a43a29fd74e19a0244e1dfdd7454843f1d21497c3f5ef44dbe2d562073b36d54",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/espresso.png": "378657aaf413f8d2035689bb78c69979550c4e813bfce8f717a45880b78c1976",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_front.png": "23acb38b97d9d4ed7928c4ca99136f0b3d2797d3afc0c0ccaa99e103c574aeda",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/table_cedar.png": "3ae8401ae3624c5b7a9c96cb104eb96a4e0a07540b6d465b06a0bfd85f4d9784",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/pos.png": "3381ce9d718da2cbedd5ee989d9377e062a244242223f8295a41e8dcd1214b5e",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_top.png": "b7d936bb2e1835f811347274f946fbc248a2dc37642e043216f694411eac1572",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/wall_plaster.png": "17d220b43591c4306ffcf22390a16498ea85bc06c2bbdaa21584dba57fff8f9d",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/grinder.png": "0871906c6870846988365562a2cb02b7207ecef51b3cd45f893b1adcd419f51f",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/planter.png": "c576ee1910ad16eef610dd4783c16ddb6c9f0e6957e44797aac53a03bd628a8f"
+  }
+}

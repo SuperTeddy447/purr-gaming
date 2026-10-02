@@ -1,0 +1,85 @@
+{
+  "active_materials": 19,
+  "actor_sprite_texture_sources": 5,
+  "device": "Apple M2 Pro (Apple8)",
+  "driver": "metal",
+  "geometry_shader_variants": [
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/painted_surface.gdshader",
+    "res://assets/dev_review/riverside_translation_v1/water.gdshader",
+    "res://assets/dev_review/riverside_translation_v1/foliage_sway.gdshader"
+  ],
+  "geometry_texture_sources": {
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png": [
+      512,
+      512
+    ],
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png": [
+      512,
+      512
+    ],
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png": [
+      512,
+      512
+    ],
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png": [
+      512,
+      512
+    ],
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png": [
+      512,
+      512
+    ],
+    "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png": [
+      512,
+      512
+    ]
+  },
+  "geometry_triangles": 194058,
+  "godot": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "lights": 2,
+  "material_names": [
+    "WC_RIVER_MAT_Cream_Stone",
+    "WC_RIVER_MAT_QuietEarth",
+    "WC_RIVER_MAT_Water",
+    "WC_RIVER_MAT_Foliage_Dark",
+    "WC3D_MAT_CEDAR_MID_V1",
+    "WC3D_MAT_CEDAR_DARK_V1",
+    "WC3D_MAT_CEDAR_LIGHT_V1",
+    "WC3D_MAT_CHARCOAL_METAL_V1",
+    "WC3D_MAT_FLOOR_WOOD_V1",
+    "WC3D_MAT_PLASTER_CREAM_V1",
+    "WC3D_MAT_PAPER_WARM_V1",
+    "WC_RIVER_MAT_Roof_Slate",
+    "WC_RIVER_MAT_Jade",
+    "WC3D_MAT_SAGE_FABRIC_V1",
+    "WC_RIVER_MAT_Aged_Brass",
+    "WC3D_MAT_LANTERN_PAPER_V1",
+    "WC_RIVER_MAT_Foliage",
+    "WC_RIVER_MAT_Foliage_Light",
+    "WC3D_MAT_CERAMIC_V1"
+  ],
+  "mesh_shadow_casters": 48,
+  "renderer": "mobile",
+  "runtime_draw_indicator": 134,
+  "shadow_lights": 1,
+  "surfaces": 165,
+  "transparent_geometry_surfaces": 0,
+  "visible_mesh_instances": 88,
+  "draw_indicator_summary": {
+    "samples": 180,
+    "min": 134,
+    "max": 134,
+    "mean": 134,
+    "scope": "desktop Metal Mobile renderer steady-state geometry diagnostic; not phone performance"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "assets": [
+    {
+      "asset_id": "WC_CAFE_Counter_Straight_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Counter_Straight_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Counter_Straight_A.glb",
+      "origin": "logical_floor_base_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 3996,
+      "measured_aabb_godot": {
+        "position": [
+          -1.1649999618530273,
+          0.004999995231628418,
+          -0.32499998807907104
+        ],
+        "size": [
+          2.3299999237060547,
+          1.0750000476837158,
+          0.6574999988079071
+        ]
+      },
+      "source_blend_sha256": "f00718c881f6088dd2bf33a4f387d1a6b1e56d1a9c9050970d77d2aa3ea68eba",
+      "glb_sha256": "5b9480a84799aa40057dc189a48a01b4afe3ab8d6526208f9dc7ad3dfcab7f2b",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Counter_End_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Counter_End_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Counter_End_A.glb",
+      "origin": "logical_floor_base_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2052,
+      "measured_aabb_godot": {
+        "position": [
+          -0.4099999964237213,
+          0.004999995231628418,
+          -0.2750000059604645
+        ],
+        "size": [
+          0.8199999928474426,
+          1.0750000476837158,
+          0.5575000047683716
+        ]
+      },
+      "source_blend_sha256": "d20e4aa1c7d8873c6ba19dcb74a026fe69d181fa9a0160832b356ebf0abbf60f",
+      "glb_sha256": "7d8447f151dbe8a35cbc0fde880bb1b3ccd3a6bedfa6d3a0aed9c912d81857a0",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Counter_Short_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Counter_Short_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Counter_Short_A.glb",
+      "origin": "logical_floor_base_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2052,
+      "measured_aabb_godot": {
+        "position": [
+          -0.2849999964237213,
+          0.004999995231628418,
+          -0.22499999403953552
+        ],
+        "size": [
+          0.5699999928474426,
+          1.0750000476837158,
+          0.45749999582767487
+        ]
+      },
+      "source_blend_sha256": "9ab686e6ee5a729cc25401552c20a682a2e63041eed752c435dc297461b63fc4",
+      "glb_sha256": "0208f263873364751d60748906e5b2a49c87adf322ec3356c2de7298b8aa86fa",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Espresso_A",
+      "family": "equipment",
+      "source_blend": "equipment/WC_CAFE_Espresso_A.blend",
+      "runtime_glb": "equipment/WC_CAFE_Espresso_A.glb",
+      "origin": "countertop_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 9004,
+      "measured_aabb_godot": {
+        "position": [
+          -0.4465000033378601,
+          0.0005000153905712068,
+          -0.24000002443790436
+        ],
+        "size": [
+          0.8930000066757202,
+          0.7031899770372547,
+          0.6799946576356888
+        ]
+      },
+      "source_blend_sha256": "62e230e5224affa670e2875f58abb622dcd0f4c2c12fc40ffb8f0a578f3a0fa3",
+      "glb_sha256": "503cbbc0a037a442d1cc7f5f92156713b9c000d3e85841eb794d4ced81785477",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Chair_A",
+      "family": "furniture",
+      "source_blend": "furniture/WC_CAFE_Chair_A.blend",
+      "runtime_glb": "furniture/WC_CAFE_Chair_A.glb",
+      "origin": "ground_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2350,
+      "measured_aabb_godot": {
+        "position": [
+          -0.2770000100135803,
+          0.016390280798077583,
+          -0.30550000071525574
+        ],
+        "size": [
+          0.5540000200271606,
+          1.1046097707003355,
+          0.5180000066757202
+        ]
+      },
+      "source_blend_sha256": "04c049a1d3f5209ec67cb85eaf442ffa9be4a28855b8969a46906d3bc67e731c",
+      "glb_sha256": "e4bbb9b59a583ed2ce0f7a9bc301c7ad64e119734de8a24bdd20871379ecf877",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Wall_Window_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_CAFE_Wall_Window_A.blend",
+      "runtime_glb": "architecture/WC_CAFE_Wall_Window_A.glb",
+      "origin": "structural_left_ground_corner",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2700,
+      "measured_aabb_godot": {
+        "position": [
+          -1.862645149230957e-08,
+          0.0,
+          -0.1249999925494194
+        ],
+        "size": [
+          1.6000000424683094,
+          2.5399999618530273,
+          0.35999999195337296
+        ]
+      },
+      "source_blend_sha256": "c99f8bdde1bfb181360dd3c58c8e0f31bcb295f53518805b550da3fb17e6e7f0",
+      "glb_sha256": "abd2ebaa7b9c1e773241b603e7e7e65d13630e1c6790073984877cc878579072",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Planter_Floor_A",
+      "family": "plants",
+      "source_blend": "plants/WC_CAFE_Planter_Floor_A.blend",
+      "runtime_glb": "plants/WC_CAFE_Planter_Floor_A.glb",
+      "origin": "ground_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 1644,
+      "measured_aabb_godot": {
+        "position": [
+          -0.30842310190200806,
+          0.0,
+          -0.38458630442619324
+        ],
+        "size": [
+          0.6720106899738312,
+          1.1959999799728394,
+          0.7516489624977112
+        ]
+      },
+      "source_blend_sha256": "75c1685d56abc701d6e7b8caba99d56895ffc6c4556e2ca49283cdcc16b2b81f",
+      "glb_sha256": "e9dec382223f57afae2c9bbb1850a9ede4890bd9b7571c5775a119de70c9b05d",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.1,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Planter_Table_A",
+      "family": "plants",
+      "source_blend": "plants/WC_CAFE_Planter_Table_A.blend",
+      "runtime_glb": "plants/WC_CAFE_Planter_Table_A.glb",
+      "origin": "ground_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 1260,
+      "measured_aabb_godot": {
+        "position": [
+          -0.11223000288009644,
+          0.0,
+          -0.11481793969869614
+        ],
+        "size": [
+          0.22446000576019287,
+          0.34915998578071594,
+          0.22704794257879257
+        ]
+      },
+      "source_blend_sha256": "255603b7b5c3a047b8623725b2d3ecf1e5e52438d9aec304d5991c5c1b71a609",
+      "glb_sha256": "dfa8aa70552862429e896735e49f61d2798096c86be06f5dd71cf3e62037a68b",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.065,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Plant_Trailing_A",
+      "family": "plants",
+      "source_blend": "plants/WC_CAFE_Plant_Trailing_A.blend",
+      "runtime_glb": "plants/WC_CAFE_Plant_Trailing_A.glb",
+      "origin": "ground_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2272,
+      "measured_aabb_godot": {
+        "position": [
+          -0.14071530103683472,
+          -0.17587000131607056,
+          -0.11223000288009644
+        ],
+        "size": [
+          0.27949123084545135,
+          0.45888441801071167,
+          0.2436579465866089
+        ]
+      },
+      "source_blend_sha256": "2ab22427b6b76eb662a67850ff7c2e5f2a64b396acc2b00ff793f2b825cd6209",
+      "glb_sha256": "d2a0187a134ccde8efd45d8d328382b8731394c6a6493f67f6274eca0a4b31e2",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.065,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    },
+    {
+      "asset_id": "WC_CAFE_Plant_Flowering_A",
+      "family": "plants",
+      "source_blend": "plants/WC_CAFE_Plant_Flowering_A.blend",
+      "runtime_glb": "plants/WC_CAFE_Plant_Flowering_A.glb",
+      "origin": "ground_contact_center",
+      "root_transform_identity": true,
+      "triangles_evaluated": 2780,
+      "measured_aabb_godot": {
+        "position": [
+          -0.11223000288009644,
+          0.0,
+          -0.11481793969869614
+        ],
+        "size": [
+          0.22446000576019287,
+          0.38957998156547546,
+          0.22704794257879257
+        ]
+      },
+      "source_blend_sha256": "110833e8e37bf977bc35832778b5b53bf66ee51051cbbfe46939ed14dd08a0eb",
+      "glb_sha256": "45d268f367b9ca71b042e8fe3cde372b8179f2a853559404f2f932ed82288cea",
+      "cavity": {
+        "method": "short-range deterministic geometric cavity in red; authored foliage pigment in green",
+        "measured_min": 0.83,
+        "measured_max": 1.0,
+        "dev_radius": 0.065,
+        "not_a_calibration_threshold": true
+      },
+      "template_version": "hero-replacement-v1.1",
+      "design_values_scope": "DEV fitted visual dimensions; gameplay positions and camera are V2 authority"
+    }
+  ],
+  "new_texture_pixels": false,
+  "scope": "DEV hero assets; no gameplay authority changes"
+}

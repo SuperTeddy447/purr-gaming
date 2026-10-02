@@ -1,0 +1,46 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+WARNING: res://scenes/home/home_scene.tscn:10 - ext_resource, invalid UID: uid://cia5icxp74g00 - using text path instead: res://docs/references/WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png
+     at: load (scene/resources/resource_format_text.cpp:501)
+ERROR: Resource file not found: res://docs/references/WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:325)
+ERROR: Resource file not found: res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:325)
+ERROR: res://scenes/dev/mochi_scale_test.tscn:26 - Parse Error: [ext_resource] referenced non-existent resource at: res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+ERROR: res://scenes/dev/mochi_scale_test.tscn:33 - Parse Error: [ext_resource] referenced non-existent resource at: res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+ERROR: res://scenes/dev/mochi_scale_test.tscn:48 - Parse Error: [ext_resource] referenced non-existent resource at: res://docs/references/mochi/MOCHI_HOUSE_STYLE_LOCK_V1_1_FINAL_TRANSPARENT.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+ERROR: Resource file not found: res://docs/references/home/WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:325)
+ERROR: res://scenes/home/home_scene.tscn:46 - Parse Error: [ext_resource] referenced non-existent resource at: res://docs/references/WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+ERROR: res://scenes/home/home_scene.tscn:60 - Parse Error: [ext_resource] referenced non-existent resource at: res://docs/references/home/WILLICAT_HOME_ENVIRONMENT_STYLE_LOCK_V1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+ERROR: Mochi scale test is missing its sprite, markers, or camera reference.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/mochi_scale_test.gd:30)
+       [1] _setup (res://tests/test_true_vertical_slice_001.gd:64)
+       [2] _run_loop (res://tests/test_true_vertical_slice_001.gd:78)
+       [3] _run (res://tests/test_true_vertical_slice_001.gd:25)
+[PASS] MANUAL true slice: semantic actions/events, door, coffee, carry, one reward, audio/haptic hooks, clean ambient reset
+ERROR: Mochi scale test is missing its sprite, markers, or camera reference.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/mochi_scale_test.gd:30)
+       [1] _setup (res://tests/test_true_vertical_slice_001.gd:64)
+       [2] _run_loop (res://tests/test_true_vertical_slice_001.gd:78)
+       [3] _run (res://tests/test_true_vertical_slice_001.gd:28)
+       [4] _run_loop (res://tests/test_true_vertical_slice_001.gd:185)
+[PASS] AUTO true slice: semantic actions/events, door, coffee, carry, one reward, audio/haptic hooks, clean ambient reset
+ERROR: Mochi scale test is missing its sprite, markers, or camera reference.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/mochi_scale_test.gd:30)
+       [1] _check_default_startup (res://tests/test_true_vertical_slice_001.gd:233)
+       [2] _run (res://tests/test_true_vertical_slice_001.gd:31)
+       [3] _run_loop (res://tests/test_true_vertical_slice_001.gd:185)
+[PASS] Default startup presentation synchronizes with the already-started loop
+--- ALL TRUE VERTICAL SLICE 001 CHECKS PASSED ---

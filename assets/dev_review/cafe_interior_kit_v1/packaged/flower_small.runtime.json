@@ -1,0 +1,47 @@
+{
+  "asset_id": "flower_small",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/flower_small.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/flower_small.png",
+  "source_sha256": "5386deb82ec8c0a4afcedc7e52b32065468143f67f905d98eb81b8208150d0ed",
+  "runtime_sha256": "6f69b299026fc61b8958102748f03dd2e18080fd5797ccc662432817f0c13395",
+  "source_dimensions": [
+    339,
+    341
+  ],
+  "runtime_dimensions": [
+    359,
+    345
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    333,
+    335
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    343,
+    345
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    179.5,
+    345
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 6795,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

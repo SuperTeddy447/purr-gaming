@@ -1,0 +1,21 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward Mobile - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Customer enters
+HOME cafe: Customer orders coffee
+HOME cafe: Coffee order → brewing
+HOME cafe: Mochi prepares coffee
+HOME cafe: Coffee ready → carrying
+HOME cafe: Mochi serves customer
+HOME cafe: Customer sits
+HOME cafe: Customer leaves
+HOME cafe: Mochi returns idle
+HOME cafe: Order complete
+HOME cafe: Ready for next customer
+HYBRID CAFE KIT PROOF true checks=376 frames=136

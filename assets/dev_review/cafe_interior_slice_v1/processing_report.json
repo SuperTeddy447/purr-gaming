@@ -1,0 +1,665 @@
+{
+  "processor": "existing Asset Forge package_static_prop + deterministic Lanczos runtime derivative + registered counter alpha partition",
+  "alpha_threshold": 16,
+  "sources_immutable": true,
+  "category_profiles": "DEV review; no canonical interior production profile asserted",
+  "counter_layers_shared_canvas": true,
+  "counter_partition_polygon_runtime_px": [
+    [
+      0,
+      45
+    ],
+    [
+      512,
+      84
+    ],
+    [
+      512,
+      172
+    ],
+    [
+      0,
+      172
+    ]
+  ],
+  "reports": [
+    {
+      "asset_id": "floor_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/floor_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/floor_cedar.png",
+      "source_sha256": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f",
+      "runtime_sha256": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "runtime_dimensions": [
+        1254,
+        1254
+      ],
+      "source_visual_bounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "runtime_visual_bounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "pivot": "FULL_CANVAS_TOP_LEFT",
+      "pivot_pixel": [
+        0,
+        0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": null,
+      "padding": 0,
+      "low_alpha_fringe_pixels_removed": 0,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": true,
+        "top": true,
+        "right": true,
+        "bottom": true
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/floor_cedar.png",
+      "review_runtime_dimensions": [
+        256,
+        256
+      ],
+      "review_runtime_pivot_px": [
+        0,
+        0
+      ],
+      "review_runtime_sha256": "419146409606f5031b5e10eba714b799d35ccc200ff24c36acc479fee5b40df6",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/floor_cedar.png"
+    },
+    {
+      "asset_id": "wall_plaster",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/wall_plaster.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/wall_plaster.png",
+      "source_sha256": "287f10c56ca36f6260abf153e8453787565865d47453c76d02923fd1ef7d6288",
+      "runtime_sha256": "852a8f6f188596c7103e38c61dc2162e73832fc17439045207584fbc4794c79a",
+      "source_dimensions": [
+        1983,
+        793
+      ],
+      "runtime_dimensions": [
+        1879,
+        603
+      ],
+      "source_visual_bounds": [
+        73,
+        114,
+        1920,
+        685
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1863,
+        587
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        939.5,
+        301.5
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 17097,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/wall_plaster.png",
+      "review_runtime_dimensions": [
+        512,
+        164
+      ],
+      "review_runtime_pivot_px": [
+        256.0,
+        82.0
+      ],
+      "review_runtime_sha256": "17d220b43591c4306ffcf22390a16498ea85bc06c2bbdaa21584dba57fff8f9d",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/wall_plaster.png"
+    },
+    {
+      "asset_id": "entrance_frame",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/entrance_frame.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/entrance_frame.png",
+      "source_sha256": "96c8010355c5b019218531f96f28c4334459f9361092d0b2706c1ac89f6503c3",
+      "runtime_sha256": "175ebc6834df827dc728872d5a99b30cd492701b53d736ca61033dc70fa88c22",
+      "source_dimensions": [
+        1166,
+        1349
+      ],
+      "runtime_dimensions": [
+        881,
+        1280
+      ],
+      "source_visual_bounds": [
+        175,
+        54,
+        1024,
+        1318
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        865,
+        1280
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        440.5,
+        1280
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 30485,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/entrance_frame.png",
+      "review_runtime_dimensions": [
+        384,
+        558
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        558
+      ],
+      "review_runtime_sha256": "5e6743ab223d01760c5d42ada0ec171da47c56dacb6f49874d8ea3164e21559b",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/entrance_frame.png"
+    },
+    {
+      "asset_id": "counter_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/counter_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/counter_cedar.png",
+      "source_sha256": "22ea38bf7a51f4feedb6166dc1c00c035083b1b289ee7a3f16b9b1e05a65e31c",
+      "runtime_sha256": "4824b7f90a01d9c0d44e35205578ee2b0e8cd083e5c7d31ba1e00adf3c81a3a0",
+      "source_dimensions": [
+        2087,
+        753
+      ],
+      "runtime_dimensions": [
+        2050,
+        687
+      ],
+      "source_visual_bounds": [
+        35,
+        41,
+        2053,
+        712
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        2034,
+        687
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        1025.0,
+        687
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 12932,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/counter_cedar.png",
+      "review_runtime_dimensions": [
+        512,
+        172
+      ],
+      "review_runtime_pivot_px": [
+        256.0,
+        172
+      ],
+      "review_runtime_sha256": "a43a29fd74e19a0244e1dfdd7454843f1d21497c3f5ef44dbe2d562073b36d54",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/counter_cedar.png"
+    },
+    {
+      "asset_id": "espresso",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/espresso.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/espresso.png",
+      "source_sha256": "3875d5342d44baba83c096d51f1e894290ecb0af97d4eafa58b994ceb11209e2",
+      "runtime_sha256": "7b93fe0c5407e44d24f97946990d25a0a35336da9c897e3a3871f7afcc7e0dfe",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "runtime_dimensions": [
+        1329,
+        1014
+      ],
+      "source_visual_bounds": [
+        132,
+        19,
+        1429,
+        1017
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1313,
+        1014
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        664.5,
+        1014
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 10759,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/espresso.png",
+      "review_runtime_dimensions": [
+        384,
+        293
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        293
+      ],
+      "review_runtime_sha256": "378657aaf413f8d2035689bb78c69979550c4e813bfce8f717a45880b78c1976",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/espresso.png"
+    },
+    {
+      "asset_id": "grinder",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/grinder.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/grinder.png",
+      "source_sha256": "70f89cf81656900993914b2f9effc946c5f703c43ea9ec6a10ae7771fcde5c5d",
+      "runtime_sha256": "9e6da84d7b754c65e4965a2e41c7339c4f2f5132ce43001561b56d0f42ee2a7a",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "runtime_dimensions": [
+        674,
+        1500
+      ],
+      "source_visual_bounds": [
+        223,
+        27,
+        865,
+        1511
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        658,
+        1500
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        337.0,
+        1500
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 10060,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/grinder.png",
+      "review_runtime_dimensions": [
+        384,
+        855
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        855
+      ],
+      "review_runtime_sha256": "0871906c6870846988365562a2cb02b7207ecef51b3cd45f893b1adcd419f51f",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/grinder.png"
+    },
+    {
+      "asset_id": "pos",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/pos.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/pos.png",
+      "source_sha256": "4e52280ea16649620c08ff54b19076eaf2e26c40ff52e66a643c062c1709bce4",
+      "runtime_sha256": "611816c2987574924a2afc6a09b45fed76586334594057f51c3c13a817442089",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "runtime_dimensions": [
+        944,
+        842
+      ],
+      "source_visual_bounds": [
+        347,
+        109,
+        1259,
+        935
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        928,
+        842
+      ],
+      "pivot": "COUNTERTOP_BASE_CENTER",
+      "pivot_pixel": [
+        472.0,
+        842
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 7360,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/pos.png",
+      "review_runtime_dimensions": [
+        384,
+        343
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        343
+      ],
+      "review_runtime_sha256": "3381ce9d718da2cbedd5ee989d9377e062a244242223f8295a41e8dcd1214b5e",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/pos.png"
+    },
+    {
+      "asset_id": "table_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/table_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/table_cedar.png",
+      "source_sha256": "a62dc45cbb984cc036f886058c632b5e35f919210fc34f3c72432d230d7e4005",
+      "runtime_sha256": "6536c655beab56e2a0e186c3414239537316cd0bdb268c5e4d484b0bb50a346c",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "runtime_dimensions": [
+        1193,
+        1082
+      ],
+      "source_visual_bounds": [
+        67,
+        65,
+        1228,
+        1131
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1177,
+        1082
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        596.5,
+        1082
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 11080,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/table_cedar.png",
+      "review_runtime_dimensions": [
+        384,
+        348
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        348
+      ],
+      "review_runtime_sha256": "3ae8401ae3624c5b7a9c96cb104eb96a4e0a07540b6d465b06a0bfd85f4d9784",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/table_cedar.png"
+    },
+    {
+      "asset_id": "chair_ne",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/chair_ne.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_ne.png",
+      "source_sha256": "4404276072a80b7c1a9e2fc71f41528ed16741173c8793eada14f14f27155263",
+      "runtime_sha256": "09945a4179949ded110947d5dece362db65b22586bec1e36bcd3b0405f6fa462",
+      "source_dimensions": [
+        1284,
+        1225
+      ],
+      "runtime_dimensions": [
+        859,
+        1084
+      ],
+      "source_visual_bounds": [
+        257,
+        94,
+        1084,
+        1162
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        843,
+        1084
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        429.5,
+        1084
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 13046,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/chair_ne.png",
+      "review_runtime_dimensions": [
+        384,
+        485
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        485
+      ],
+      "review_runtime_sha256": "77718ddacbcd5445b80630572bded92d1f2eabd4375fac17447e25e1785846e3",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/chair_ne.png"
+    },
+    {
+      "asset_id": "chair_nw",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/chair_nw.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/chair_nw.png",
+      "source_sha256": "6b560eb34c8b23b4219df150d3e716ce491bf257ae22eb271ddb90c9f8d6a025",
+      "runtime_sha256": "617fcfce3b4c6ac7fddf5bc44e468b4d4ac8996869fd306450a72ec062dbb910",
+      "source_dimensions": [
+        1216,
+        1294
+      ],
+      "runtime_dimensions": [
+        809,
+        1120
+      ],
+      "source_visual_bounds": [
+        266,
+        141,
+        1043,
+        1245
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        793,
+        1120
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        404.5,
+        1120
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 29458,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/chair_nw.png",
+      "review_runtime_dimensions": [
+        384,
+        532
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        532
+      ],
+      "review_runtime_sha256": "d125e58e7c96312cf8a42934c36951cefe15ea71f265f4a94f66802638869ff4",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/chair_nw.png"
+    },
+    {
+      "asset_id": "planter",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/planter.png",
+      "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/planter.png",
+      "source_sha256": "fed126d4696edf71f68e8ade1316fcf9d8ae17245fa99ac9862154a5d3a1a851",
+      "runtime_sha256": "53bf351dd048faa5edf0a01863477f3c2f6d2d7ced7ef2be850b644ad0d0a056",
+      "source_dimensions": [
+        1312,
+        1199
+      ],
+      "runtime_dimensions": [
+        1222,
+        1178
+      ],
+      "source_visual_bounds": [
+        69,
+        17,
+        1259,
+        1179
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1206,
+        1178
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        611.0,
+        1178
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 38339,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "review_runtime_path": "assets/dev_review/cafe_interior_slice_v1/runtime/planter.png",
+      "review_runtime_dimensions": [
+        384,
+        370
+      ],
+      "review_runtime_pivot_px": [
+        192.0,
+        370
+      ],
+      "review_runtime_sha256": "c576ee1910ad16eef610dd4783c16ddb6c9f0e6957e44797aac53a03bd628a8f",
+      "source_repository_path": "assets/dev_review/cafe_interior_slice_v1/source/planter.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M2 Pro
+
+HARDENING nav revision=1 polygons=67 obstructions=28
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walking to front threshold
+HOME front_plaza: Walk by clicking, or run the route
+HOME front_plaza: Walking to front plaza
+HOME front_plaza: Walking to river front depth
+HOME riverside: Walk by clicking, or run the route
+HOME riverside: Walking to river behind depth
+HOME riverside: Walking to river front depth
+HOME riverside: Walking to riverside
+HOME riverside: Walking to return plaza
+HOME front_plaza: Walk by clicking, or run the route
+HOME front_plaza: Walking to cafe return
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walking to rear threshold
+HOME back_garden: Walk by clicking, or run the route
+HOME back_garden: Walking to back garden
+HOME back_garden: Walking to final cafe
+HOME cafe: Walk by clicking, or run the route
+DEV_DIAGNOSTIC_COMPLETED frames=135 routes=11

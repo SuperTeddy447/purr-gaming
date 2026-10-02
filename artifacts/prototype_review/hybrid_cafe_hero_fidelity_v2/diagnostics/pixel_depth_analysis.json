@@ -1,0 +1,27 @@
+{
+  "counter_back": {
+    "overlap_pixels": 1247,
+    "object_dominant_pixels": 1247,
+    "cat_dominant_pixels": 0,
+    "passed": true
+  },
+  "counter_front": {
+    "overlap_pixels": 1025,
+    "object_dominant_pixels": 9,
+    "cat_dominant_pixels": 1013,
+    "passed": true
+  },
+  "table_back": {
+    "overlap_pixels": 1172,
+    "object_dominant_pixels": 1001,
+    "cat_dominant_pixels": 170,
+    "passed": true
+  },
+  "table_front": {
+    "overlap_pixels": 1140,
+    "object_dominant_pixels": 12,
+    "cat_dominant_pixels": 1121,
+    "passed": true
+  },
+  "method": "Four-layer fixed actor/camera comparison; RGB delta12 and L1 margin5 are analysis classification choices, not aesthetic/calibration limits."
+}

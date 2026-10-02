@@ -1,0 +1,18 @@
+{
+  "stage": "runtime_validated",
+  "attempt_id": "DEV_DIAGNOSTIC_tree_5e47090652224f75a183823ebc8581cc",
+  "source_sha256": "1428fdbe34eb90c819905f7ec4c2f985391c862c8c0510fe6018efca4ec6ba5a",
+  "bundle_hash": "e1ebe7b7f26c390129cfd9209866fadd6960e4bdf1f48ea55c521330ad5cd13b",
+  "gates": {
+    "human": "not_started",
+    "motion": "passed",
+    "rights": "not_started",
+    "runtime": "passed",
+    "structural": "passed",
+    "visual": "passed"
+  },
+  "integrity": "passed",
+  "derived_production_ready": false,
+  "production_context": "Unavailable protected production context: frozen predicate fails closed",
+  "publication": "blocked"
+}

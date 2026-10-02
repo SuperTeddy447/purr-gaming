@@ -1,0 +1,47 @@
+{
+  "asset_id": "wall_plaster",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/wall_plaster.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/wall_plaster.png",
+  "source_sha256": "287f10c56ca36f6260abf153e8453787565865d47453c76d02923fd1ef7d6288",
+  "runtime_sha256": "852a8f6f188596c7103e38c61dc2162e73832fc17439045207584fbc4794c79a",
+  "source_dimensions": [
+    1983,
+    793
+  ],
+  "runtime_dimensions": [
+    1879,
+    603
+  ],
+  "source_visual_bounds": [
+    73,
+    114,
+    1920,
+    685
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    1863,
+    587
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    939.5,
+    301.5
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 17097,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "DEV human review only; no production publication",
+  "passed": true,
+  "project": "/private/tmp/willicat_hero_fidelity_v2_human_review/project",
+  "namespace": "WilliCatCafeHeroFidelityDEVV2",
+  "default_python_dependency_fallback_verified": true,
+  "runtime_source_files_match": 62,
+  "import_exit_code": 0,
+  "native_main_open": true,
+  "native_session_id": 31463,
+  "unchanged_original_files": 4572,
+  "human_visual_decision": "PENDING",
+  "timestamp_utc": "2026-10-01T17:11:41.757961+00:00"
+}

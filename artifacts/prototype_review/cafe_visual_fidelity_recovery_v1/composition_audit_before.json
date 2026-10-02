@@ -1,0 +1,616 @@
+{
+  "evidence_class": "MEASURED rectangles/dimensions; ESTIMATED manual ROI/polygon and box-exclusion coverage",
+  "limitation": "Object boxes include air and some overlap. Floor estimates are conservative composition estimates, not exact semantic segmentation or aesthetic thresholds. Hero is a painting, not geometry authority.",
+  "before": {
+    "room_roi_px": [
+      113,
+      90,
+      527,
+      789
+    ],
+    "floor_plane_polygon_px": [
+      [
+        129,
+        201
+      ],
+      [
+        510,
+        211
+      ],
+      [
+        510,
+        744
+      ],
+      [
+        129,
+        741
+      ]
+    ],
+    "object_exclusion_boxes_px": [
+      [
+        165,
+        201,
+        307,
+        257
+      ],
+      [
+        350,
+        173,
+        401,
+        257
+      ],
+      [
+        464,
+        202,
+        494,
+        280
+      ],
+      [
+        411,
+        270,
+        468,
+        327
+      ],
+      [
+        184,
+        360,
+        272,
+        434
+      ],
+      [
+        164,
+        433,
+        208,
+        481
+      ],
+      [
+        247,
+        433,
+        292,
+        480
+      ],
+      [
+        365,
+        430,
+        454,
+        504
+      ],
+      [
+        343,
+        500,
+        398,
+        552
+      ],
+      [
+        430,
+        501,
+        483,
+        552
+      ],
+      [
+        228,
+        549,
+        268,
+        595
+      ],
+      [
+        142,
+        608,
+        220,
+        654
+      ],
+      [
+        248,
+        608,
+        266,
+        662
+      ],
+      [
+        301,
+        613,
+        339,
+        662
+      ],
+      [
+        284,
+        674,
+        355,
+        789
+      ]
+    ],
+    "estimated_unoccluded_floor_pct": 52.4,
+    "semantic_boxes_px": {
+      "counter": [
+        166,
+        210,
+        306,
+        257
+      ],
+      "table": [
+        184,
+        360,
+        272,
+        434
+      ],
+      "protagonist": [
+        301,
+        613,
+        339,
+        662
+      ],
+      "rear_architecture": [
+        114,
+        90,
+        527,
+        206
+      ]
+    },
+    "semantic_box_roi_area_pct": {
+      "counter": 2.3,
+      "table": 2.2,
+      "protagonist": 0.6,
+      "rear_architecture": 16.5
+    },
+    "counter_width_relative_room": 0.338
+  },
+  "hero": {
+    "room_roi_px": [
+      35,
+      22,
+      1025,
+      1058
+    ],
+    "floor_plane_polygon_px": [
+      [
+        51,
+        322
+      ],
+      [
+        314,
+        327
+      ],
+      [
+        394,
+        550
+      ],
+      [
+        993,
+        546
+      ],
+      [
+        997,
+        1038
+      ],
+      [
+        50,
+        1038
+      ]
+    ],
+    "object_exclusion_boxes_px": [
+      [
+        317,
+        355,
+        985,
+        583
+      ],
+      [
+        229,
+        691,
+        446,
+        896
+      ],
+      [
+        192,
+        668,
+        275,
+        887
+      ],
+      [
+        438,
+        741,
+        523,
+        932
+      ],
+      [
+        692,
+        767,
+        989,
+        1029
+      ],
+      [
+        669,
+        548,
+        778,
+        782
+      ],
+      [
+        39,
+        444,
+        182,
+        700
+      ],
+      [
+        29,
+        691,
+        192,
+        1038
+      ],
+      [
+        872,
+        398,
+        1012,
+        608
+      ],
+      [
+        478,
+        615,
+        590,
+        736
+      ]
+    ],
+    "estimated_unoccluded_floor_pct": 22.6,
+    "semantic_boxes_px": {
+      "counter": [
+        317,
+        438,
+        985,
+        583
+      ],
+      "table": [
+        229,
+        691,
+        446,
+        896
+      ],
+      "protagonist": [
+        478,
+        615,
+        590,
+        736
+      ],
+      "rear_architecture": [
+        35,
+        22,
+        1025,
+        357
+      ]
+    },
+    "semantic_box_roi_area_pct": {
+      "counter": 9.4,
+      "table": 4.3,
+      "protagonist": 1.3,
+      "rear_architecture": 32.3
+    },
+    "counter_width_relative_room": 0.675
+  },
+  "runtime_visual_bounds": [
+    {
+      "alpha_bounds_px": "[P: (14, 14), S: (483, 267)]",
+      "global_position": "(-8.0, -82.79688)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_wall_plain",
+      "scale": "(0.65625, 0.65625)",
+      "texture_canvas": "(512.0, 295.0)",
+      "visible_world_rect": "[P: (1.1875, -73.60938), S: (316.9688, 175.2188)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (15, 14), S: (483, 258)]",
+      "global_position": "(312.0, -80.17188)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_wall_framed",
+      "scale": "(0.65625, 0.65625)",
+      "texture_canvas": "(512.0, 287.0)",
+      "visible_world_rect": "[P: (321.8438, -70.98438), S: (316.9688, 169.3125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (36, 36), S: (184, 784)]",
+      "global_position": "(-3.0, -86.59375)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_post_cedar",
+      "scale": "(0.242188, 0.242188)",
+      "texture_canvas": "(256.0, 820.0)",
+      "visible_world_rect": "[P: (5.71875, -77.875), S: (44.5625, 189.875)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (8, 8), S: (240, 181)]",
+      "global_position": "(34.0, -20.01562)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_window_shoji",
+      "scale": "(0.40625, 0.40625)",
+      "texture_canvas": "(256.0, 197.0)",
+      "visible_world_rect": "[P: (37.25, -16.76562), S: (97.5, 73.53125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (242, 176)]",
+      "global_position": "(212.5, -77.65234)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_menu_blank",
+      "scale": "(0.722656, 0.722656)",
+      "texture_canvas": "(256.0, 190.0)",
+      "visible_world_rect": "[P: (217.5586, -72.59375), S: (174.8828, 127.1875)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (4, 4), S: (248, 138)]",
+      "global_position": "(220.5, 9.757812)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_shelf_ceramics",
+      "scale": "(0.652344, 0.652344)",
+      "texture_canvas": "(256.0, 146.0)",
+      "visible_world_rect": "[P: (223.1094, 12.36719), S: (161.7812, 90.02344)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (241, 266)]",
+      "global_position": "(520.5, -7.171875)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_art_framed",
+      "scale": "(0.222656, 0.222656)",
+      "texture_canvas": "(256.0, 280.0)",
+      "visible_world_rect": "[P: (522.0586, -5.613281), S: (53.66016, 59.22656)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (10, 10), S: (236, 480)]",
+      "global_position": "(451.0, 12.95312)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_plant_hanging",
+      "scale": "(0.179688, 0.179688)",
+      "texture_canvas": "(256.0, 490.0)",
+      "visible_world_rect": "[P: (452.7969, 14.75), S: (42.40625, 86.25)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (17, 17), S: (222, 364)]",
+      "global_position": "(165.0, -12.53125)",
+      "node": "/root/WilliCatCafeInteriorKitReview/Architecture/Kit_lamp_pendant",
+      "scale": "(0.15625, 0.15625)",
+      "texture_canvas": "(256.0, 381.0)",
+      "visible_world_rect": "[P: (167.6562, -9.875), S: (34.6875, 56.875)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (502, 110)]",
+      "global_position": "(78.0, 93.125)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot/Kit_counter_top",
+      "scale": "(0.4375, 0.4375)",
+      "texture_canvas": "(512.0, 210.0)",
+      "visible_world_rect": "[P: (80.1875, 95.3125), S: (219.625, 48.125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (9, 71), S: (495, 139)]",
+      "global_position": "(78.0, 93.125)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot/Kit_counter_front",
+      "scale": "(0.4375, 0.4375)",
+      "texture_canvas": "(512.0, 210.0)",
+      "visible_world_rect": "[P: (81.9375, 124.1875), S: (216.5625, 60.8125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 6), S: (243, 100)]",
+      "global_position": "(223.0, 110.7812)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot/Kit_ceramic_service",
+      "scale": "(0.171875, 0.171875)",
+      "texture_canvas": "(256.0, 106.0)",
+      "visible_world_rect": "[P: (224.2031, 111.8125), S: (41.76562, 17.1875)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (2, 2), S: (380, 291)]",
+      "global_position": "(367.0, 50.22395)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot/Review_espresso",
+      "scale": "(0.223958, 0.223958)",
+      "texture_canvas": "(384.0, 293.0)",
+      "visible_world_rect": "[P: (367.4479, 50.67187), S: (85.10416, 65.17188)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (242, 267)]",
+      "global_position": "(373.5, 103.8672)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot/Kit_counter_short",
+      "scale": "(0.285156, 0.285156)",
+      "texture_canvas": "(256.0, 274.0)",
+      "visible_world_rect": "[P: (375.4961, 105.8633), S: (69.00781, 76.13672)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (4, 4), S: (376, 339)]",
+      "global_position": "(110.0, 77.27084)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/POS/InteriorReviewVisualRoot/Review_pos",
+      "scale": "(0.104167, 0.104167)",
+      "texture_canvas": "(384.0, 343.0)",
+      "visible_world_rect": "[P: (110.4167, 77.6875), S: (39.16666, 35.3125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (370, 848)]",
+      "global_position": "(538.0, 90.79688)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot/Review_grinder",
+      "scale": "(0.088542, 0.088542)",
+      "texture_canvas": "(384.0, 855.0)",
+      "visible_world_rect": "[P: (538.6198, 91.41666), S: (32.76041, 75.08333)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (242, 267)]",
+      "global_position": "(531.0, 158.625)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot/Kit_counter_short",
+      "scale": "(0.1875, 0.1875)",
+      "texture_canvas": "(256.0, 274.0)",
+      "visible_world_rect": "[P: (532.3125, 159.9375), S: (45.375, 50.0625)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 7), S: (242, 267)]",
+      "global_position": "(458.0, 194.3906)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/PastryCase/KitVisualRoot/Kit_counter_short",
+      "scale": "(0.367188, 0.367188)",
+      "texture_canvas": "(256.0, 274.0)",
+      "visible_world_rect": "[P: (460.5703, 196.9609), S: (88.85938, 98.03906)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (246, 158)]",
+      "global_position": "(479.5, 177.3398)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/PastryCase/KitVisualRoot/Kit_tea_tray",
+      "scale": "(0.199219, 0.199219)",
+      "texture_canvas": "(256.0, 163.0)",
+      "visible_world_rect": "[P: (480.4961, 178.3359), S: (49.00781, 31.47656)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (3, 3), S: (378, 345)]",
+      "global_position": "(108.0, 333.5625)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot/Review_table_cedar",
+      "scale": "(0.348958, 0.348958)",
+      "texture_canvas": "(384.0, 348.0)",
+      "visible_world_rect": "[P: (109.0469, 334.6094), S: (131.9062, 120.3906)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (246, 158)]",
+      "global_position": "(140.5, 341.168)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot/Kit_tea_tray",
+      "scale": "(0.152344, 0.152344)",
+      "texture_canvas": "(256.0, 163.0)",
+      "visible_world_rect": "[P: (141.2617, 341.9297), S: (37.47656, 24.07031)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (9, 9), S: (238, 237)]",
+      "global_position": "(192.5, 352.8203)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot/Kit_flower_small",
+      "scale": "(0.082031, 0.082031)",
+      "texture_canvas": "(256.0, 246.0)",
+      "visible_world_rect": "[P: (193.2383, 353.5586), S: (19.52344, 19.44141)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (374, 480)]",
+      "global_position": "(81.0, 456.7448)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairA/InteriorReviewVisualRoot/Review_chair_ne",
+      "scale": "(0.151042, 0.151042)",
+      "texture_canvas": "(384.0, 485.0)",
+      "visible_world_rect": "[P: (81.75521, 457.5), S: (56.48959, 72.5)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (374, 527)]",
+      "global_position": "(216.0, 449.6458)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairB/InteriorReviewVisualRoot/Review_chair_nw",
+      "scale": "(0.151042, 0.151042)",
+      "texture_canvas": "(384.0, 532.0)",
+      "visible_world_rect": "[P: (216.7552, 450.401), S: (56.48959, 79.59896)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (3, 3), S: (378, 345)]",
+      "global_position": "(392.0, 445.8125)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot/Review_table_cedar",
+      "scale": "(0.328125, 0.328125)",
+      "texture_canvas": "(384.0, 348.0)",
+      "visible_world_rect": "[P: (392.9844, 446.7969), S: (124.0312, 113.2031)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (7, 6), S: (243, 100)]",
+      "global_position": "(428.0, 461.9219)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot/Kit_ceramic_service",
+      "scale": "(0.132812, 0.132812)",
+      "texture_canvas": "(256.0, 106.0)",
+      "visible_world_rect": "[P: (428.9297, 462.7188), S: (32.27344, 13.28125)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (9, 9), S: (238, 237)]",
+      "global_position": "(476.0, 464.7031)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot/Kit_flower_small",
+      "scale": "(0.070312, 0.070312)",
+      "texture_canvas": "(256.0, 246.0)",
+      "visible_world_rect": "[P: (476.6328, 465.3359), S: (16.73438, 16.66406)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (374, 480)]",
+      "global_position": "(356.0, 561.7448)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairC/KitVisualRoot/Review_chair_ne",
+      "scale": "(0.151042, 0.151042)",
+      "texture_canvas": "(384.0, 485.0)",
+      "visible_world_rect": "[P: (356.7552, 562.5), S: (56.48959, 72.5)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (374, 527)]",
+      "global_position": "(496.0, 554.6458)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairD/KitVisualRoot/Review_chair_nw",
+      "scale": "(0.151042, 0.151042)",
+      "texture_canvas": "(384.0, 532.0)",
+      "visible_world_rect": "[P: (496.7552, 555.401), S: (56.48959, 79.59896)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (4, 4), S: (248, 152)]",
+      "global_position": "(40.0, 716.875)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CatBed/KitVisualRoot/Kit_cat_bed_empty",
+      "scale": "(0.46875, 0.46875)",
+      "texture_canvas": "(256.0, 156.0)",
+      "visible_world_rect": "[P: (41.875, 718.75), S: (116.25, 71.25)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (36, 36), S: (184, 784)]",
+      "global_position": "(207.5, 724.9219)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ScratchPost/KitVisualRoot/Kit_post_cedar",
+      "scale": "(0.097656, 0.097656)",
+      "texture_canvas": "(256.0, 820.0)",
+      "visible_world_rect": "[P: (211.0156, 728.4375), S: (17.96875, 76.5625)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (3, 3), S: (378, 367)]",
+      "global_position": "(170.0, 632.5521)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Plant/InteriorReviewVisualRoot/Review_planter",
+      "scale": "(0.182292, 0.182292)",
+      "texture_canvas": "(384.0, 370.0)",
+      "visible_world_rect": "[P: (170.5469, 633.0989), S: (68.90625, 66.90105)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (5, 5), S: (374, 553)]",
+      "global_position": "(261.507, 825.8977)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Entrance/InteriorReviewVisualRoot/Review_entrance_frame",
+      "scale": "(0.297674, 0.297674)",
+      "texture_canvas": "(384.0, 558.0)",
+      "visible_world_rect": "[P: (262.9954, 827.386), S: (111.3302, 164.614)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (2, 2), S: (508, 160)]",
+      "global_position": "(0.0, 915.875)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallWest/ReviewFrontArchitecture/Review_wall_plaster",
+      "scale": "(0.5625, 0.5625)",
+      "texture_canvas": "(512.0, 164.0)",
+      "visible_world_rect": "[P: (1.125, 917.0), S: (285.75, 90.0)]"
+    },
+    {
+      "alpha_bounds_px": "[P: (2, 2), S: (508, 160)]",
+      "global_position": "(352.0, 915.875)",
+      "node": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallEast/ReviewFrontArchitecture/Review_wall_plaster",
+      "scale": "(0.5625, 0.5625)",
+      "texture_canvas": "(512.0, 164.0)",
+      "visible_world_rect": "[P: (353.125, 917.0), S: (285.75, 90.0)]"
+    },
+    {
+      "actor": "Visitor",
+      "actor_world_position": "(320.0, 800.0)",
+      "alpha_bounds_px": "[P: (48, 22), S: (160, 210)]",
+      "animation": "idle_down",
+      "sprite_scale": "(0.34, 0.34)",
+      "texture_canvas": "(256.0, 256.0)",
+      "visible_world_size": "(54.4, 71.4)"
+    },
+    {
+      "actor": "Worker",
+      "actor_world_position": "(335.0, 135.0)",
+      "alpha_bounds_px": "[P: (48, 22), S: (160, 210)]",
+      "animation": "idle_down",
+      "sprite_scale": "(0.34, 0.34)",
+      "texture_canvas": "(256.0, 256.0)",
+      "visible_world_size": "(54.4, 71.4)"
+    },
+    {
+      "actor": "Customer",
+      "actor_world_position": "(320.0, 965.0)",
+      "alpha_bounds_px": "[P: (48, 22), S: (160, 210)]",
+      "animation": "idle_down",
+      "sprite_scale": "(0.34, 0.34)",
+      "texture_canvas": "(256.0, 256.0)",
+      "visible_world_size": "(54.4, 71.4)"
+    }
+  ],
+  "camera_before": {
+    "viewport_px": [
+      640,
+      900
+    ],
+    "aspect": "32:45 (not9:16)",
+    "zoom_from_existing_full_view_formula": 0.6481481481481481,
+    "center_world": [
+      320,
+      480
+    ],
+    "bounds_basis": "rendered screenshot and existing framing source, not headless64px audit viewport"
+  },
+  "findings": [
+    "Main counter width is34% of interior versus67% in hero; fragmentation separates stations.",
+    "Actor asset-relative furniture ratios are already broadly plausible: alpha bbox actor54.4x71.4 world, table131.9x120.4, chair56.5x72.5. Camera and room coverage are the main scale problem.",
+    "Rear architecture is shallow; thin unbroken side strips and isolated objects fail to create layers.",
+    "Counter equipment sits on isolated narrow cabinets; no coherent connected service silhouette.",
+    "Sources are usable and detailed; no new source generation justified before trying composition/registration recovery."
+  ],
+  "recovery_plan": "DEV9:16 visual framing proof, one actor-derived visual scale unit, joined counter pieces, modular rear shelves/frame depth, coherent seating cluster and border planters rooted within existing obstructed envelope; no gameplay transforms/anchors/nav changes."
+}

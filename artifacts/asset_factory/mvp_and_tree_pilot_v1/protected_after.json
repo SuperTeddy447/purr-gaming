@@ -1,0 +1,7 @@
+{
+  "checked_files": 1492,
+  "changed": [],
+  "result": "PASS",
+  "baseline_sha256": "527ff2f64c29375ae8263c7a3762d6287dee8a886668bc5edfc514fda7507008",
+  "scope": "Tracked/frozen/style files only; Godot generated import cache is not world authority"
+}

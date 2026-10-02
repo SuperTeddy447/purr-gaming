@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png" id="1"]
+[resource]
+resource_name = "WC_MAT_Foliage_Dark"
+albedo_color = Color(0.5600000023841858, 0.6700000166893005, 0.5199999809265137, 1.0)
+roughness = 0.9399999976158142
+metallic = 0.0
+specular_mode = 0
+cull_mode = 2
+texture_filter = 3
+albedo_texture = ExtResource("1")

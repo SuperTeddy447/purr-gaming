@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "count": 13,
+  "checks": {
+    "repository_destination": true,
+    "existing_temp": true,
+    "relative_destination": true,
+    "traversal": true,
+    "invalid_mode": true,
+    "invalid_renderer": true,
+    "symlink_destination": true,
+    "fresh_prepare_164_approved_baseline": true,
+    "fresh_prepare_all_source_hashes": true,
+    "fresh_prepare_live_main": true,
+    "distinct_dev_namespace": true,
+    "parse_run.py": true,
+    "parse_texture_recipe_v1.py": true
+  },
+  "fresh_project": "/private/tmp/willicat_fidelity_release_check_7fkmcie4/project",
+  "final_launcher_code_sha256": "b4277d2f0fe214254b541121d6d2ba6b6cc5bff330b87eeba03d960579f8984e",
+  "fresh_import_exit_code": 0,
+  "startup_checks": {
+    "checks": {
+      "authority_unchanged": true,
+      "automatic_hero_arrival": true,
+      "cat_visible_on_floor": true,
+      "existing_navigation_succeeded": true
+    },
+    "count": 4,
+    "passed": true
+  },
+  "inherited_import_case_warnings": true,
+  "installed_default_python_prepare_exit_code": 0,
+  "installed_default_python_uses_existing_forge_environment": true,
+  "final_installed_project": "/private/tmp/willicat_fidelity_final_review_v2/project"
+}

@@ -1,0 +1,14 @@
+{
+  "count": 7,
+  "passed": true,
+  "checks": {
+    "existing_destination": true,
+    "outside_tmp": true,
+    "relative_path": true,
+    "path_traversal": true,
+    "symlink": true,
+    "changed_baseline": true,
+    "verified_intake": true
+  },
+  "prepared_project": "/private/tmp/hybrid_launch_tests_5rh2rbof/project"
+}

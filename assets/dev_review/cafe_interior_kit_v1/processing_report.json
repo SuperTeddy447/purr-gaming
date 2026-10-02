@@ -1,0 +1,1309 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "family_cell_rects_px": {
+    "architecture_family_v1": [
+      [
+        56,
+        65,
+        480,
+        349
+      ],
+      [
+        585,
+        65,
+        1012,
+        349
+      ],
+      [
+        1118,
+        65,
+        1479,
+        349
+      ],
+      [
+        206,
+        360,
+        272,
+        659
+      ],
+      [
+        519,
+        360,
+        1016,
+        659
+      ],
+      [
+        1107,
+        360,
+        1483,
+        659
+      ],
+      [
+        152,
+        680,
+        325,
+        984
+      ],
+      [
+        546,
+        680,
+        967,
+        984
+      ],
+      [
+        1074,
+        680,
+        1499,
+        984
+      ]
+    ],
+    "counter_family_v1": [
+      [
+        30,
+        135,
+        1161,
+        596
+      ],
+      [
+        1228,
+        135,
+        1632,
+        596
+      ],
+      [
+        1709,
+        135,
+        2146,
+        596
+      ]
+    ],
+    "decor_family_v1": [
+      [
+        20,
+        136,
+        642,
+        468
+      ],
+      [
+        654,
+        18,
+        981,
+        628
+      ],
+      [
+        997,
+        98,
+        1520,
+        529
+      ],
+      [
+        20,
+        600,
+        642,
+        968
+      ],
+      [
+        654,
+        629,
+        981,
+        958
+      ],
+      [
+        997,
+        637,
+        1520,
+        974
+      ]
+    ]
+  },
+  "sheet_semantics": "explicit ordered asset names; rows/columns are packaging, NOT timeline/direction inference",
+  "reports": [
+    {
+      "asset_id": "wall_plain",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/wall_plain.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/wall_plain.png",
+      "source_sha256": "76a01482cc6973d35d44b2a500c0227540d036aeb0e55103c8eabef73fee2379",
+      "runtime_sha256": "a2308f5ede9b2543ace1d1ef71f18547bad5b5f192a0ca329272c84ee50cd3f1",
+      "source_dimensions": [
+        436,
+        296
+      ],
+      "runtime_dimensions": [
+        456,
+        316
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        430,
+        290
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        440,
+        300
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        228.0,
+        158.0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3023,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        56,
+        65,
+        480,
+        349
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_plain.png",
+      "final_dimensions": [
+        512,
+        295
+      ],
+      "final_pivot_px": [
+        256.0,
+        147.5
+      ],
+      "final_hash": "02f4cd05444641443221b44327e2d840425d18eb18c2e546bc46cc9bb76686c6",
+      "wall_mount_deshear": {
+        "source_y_per_x": 0.1323529411764706,
+        "basis": "artist-inspected painted wall-frame endpoints; DEV registration authoring, not a Home measurement"
+      }
+    },
+    {
+      "asset_id": "wall_framed",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/wall_framed.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/wall_framed.png",
+      "source_sha256": "08dad945971b68e4ec5647bc312f1c6b917304d6401f842982ff6b46c3482bc3",
+      "runtime_sha256": "107378ea0d9ace19ab2869a69dd58259588125a52f29afef48be119911dddc55",
+      "source_dimensions": [
+        439,
+        296
+      ],
+      "runtime_dimensions": [
+        459,
+        314
+      ],
+      "source_visual_bounds": [
+        6,
+        7,
+        433,
+        289
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        443,
+        298
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        229.5,
+        157.0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 2814,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        585,
+        65,
+        1012,
+        349
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_framed.png",
+      "final_dimensions": [
+        512,
+        287
+      ],
+      "final_pivot_px": [
+        256.0,
+        143.5
+      ],
+      "final_hash": "127ba6534859e7c36fb16a95a08e418b84ba3f2762af32c6d03b28d47aca6552",
+      "wall_mount_deshear": {
+        "source_y_per_x": 0.14465408805031446,
+        "basis": "artist-inspected painted wall-frame endpoints; DEV registration authoring, not a Home measurement"
+      }
+    },
+    {
+      "asset_id": "window_shoji",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/window_shoji.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/window_shoji.png",
+      "source_sha256": "5a7f458c14b6453ba4e4ed156b6d5a1448351ad6aceec2488b3be5d9d0c5663b",
+      "runtime_sha256": "b6d3d8a67c901787e2eb01fb1ab97564e82a225089cc37dee42b5650b2ea1d0a",
+      "source_dimensions": [
+        373,
+        296
+      ],
+      "runtime_dimensions": [
+        393,
+        302
+      ],
+      "source_visual_bounds": [
+        6,
+        16,
+        367,
+        286
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        377,
+        286
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        196.5,
+        151.0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3163,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        1118,
+        65,
+        1479,
+        349
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/window_shoji.png",
+      "final_dimensions": [
+        256,
+        197
+      ],
+      "final_pivot_px": [
+        128.0,
+        98.5
+      ],
+      "final_hash": "7b02514c32ff3f7e9ae48dca292e795c563ea53d1e04066052552ae926f70d49"
+    },
+    {
+      "asset_id": "post_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/post_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/post_cedar.png",
+      "source_sha256": "159963d990136b41fca7604dd5eb8d2c565e2df3baf607edbe2efba5468c26e6",
+      "runtime_sha256": "e1123245e5463d625e85fab2847d5333d6d3c50fa34257286a82b6848aa13221",
+      "source_dimensions": [
+        78,
+        311
+      ],
+      "runtime_dimensions": [
+        98,
+        314
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        72,
+        304
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        82,
+        314
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        49.0,
+        314
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 379,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        206,
+        360,
+        272,
+        659
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/post_cedar.png",
+      "final_dimensions": [
+        256,
+        820
+      ],
+      "final_pivot_px": [
+        128.0,
+        820
+      ],
+      "final_hash": "4ebd5b2596b0ff474bda4efb7b21724346458ab6aab2dabbf969d4845bbb28ea"
+    },
+    {
+      "asset_id": "beam_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/beam_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/beam_cedar.png",
+      "source_sha256": "9f37f0ba5bc3047ef519ba6320c95afd8efd0a0a22545a2aabe2653b767e9b3d",
+      "runtime_sha256": "1dfab380985cad8c9fc39c66e677432fa643a0e6ee6b1a522b4a807d22259737",
+      "source_dimensions": [
+        509,
+        311
+      ],
+      "runtime_dimensions": [
+        529,
+        209
+      ],
+      "source_visual_bounds": [
+        6,
+        92,
+        503,
+        269
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        513,
+        193
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        264.5,
+        104.5
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 4612,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        519,
+        360,
+        1016,
+        659
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/beam_cedar.png",
+      "final_dimensions": [
+        512,
+        202
+      ],
+      "final_pivot_px": [
+        256.0,
+        101.0
+      ],
+      "final_hash": "b061a39d46500d19944ec009e6c545f7f810a73810cee85a13d51e1eef761cb0"
+    },
+    {
+      "asset_id": "divider_cedar",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/divider_cedar.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/divider_cedar.png",
+      "source_sha256": "38f73b4fc880c1648d11346718d7a054185476cc7c9e122e40028fff6aa3046f",
+      "runtime_sha256": "f30a6c5fd1c3a7e7bed43d5cb07dda663b829d75f0c37910c46c0d28efd03bef",
+      "source_dimensions": [
+        388,
+        311
+      ],
+      "runtime_dimensions": [
+        408,
+        261
+      ],
+      "source_visual_bounds": [
+        6,
+        60,
+        382,
+        305
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        392,
+        261
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        204.0,
+        261
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 11165,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        1107,
+        360,
+        1483,
+        659
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/divider_cedar.png",
+      "final_dimensions": [
+        256,
+        164
+      ],
+      "final_pivot_px": [
+        128.0,
+        164
+      ],
+      "final_hash": "ffe9342470ddcfede332340bc09b3bae975f5beac91cd7a83e0d1b1896b58f98"
+    },
+    {
+      "asset_id": "lamp_pendant",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/lamp_pendant.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/lamp_pendant.png",
+      "source_sha256": "97ca3676f6a1acd23bcfd89d5a7869d071e69be4e78cf35f9496cffacc6d4d78",
+      "runtime_sha256": "92bbe942dec1e1ad545d3e6122a304a27399e1f0962849494057378285cc1213",
+      "source_dimensions": [
+        185,
+        316
+      ],
+      "runtime_dimensions": [
+        205,
+        305
+      ],
+      "source_visual_bounds": [
+        6,
+        14,
+        179,
+        303
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        189,
+        305
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        102.5,
+        305
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3081,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        152,
+        680,
+        325,
+        984
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/lamp_pendant.png",
+      "final_dimensions": [
+        256,
+        381
+      ],
+      "final_pivot_px": [
+        128.0,
+        381
+      ],
+      "final_hash": "e7688d230d46d6636ee02e5ca1b6b3125debe52bb82cb80db37f2e8f993b3f32"
+    },
+    {
+      "asset_id": "menu_blank",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/menu_blank.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/menu_blank.png",
+      "source_sha256": "a11dc78c5a1191dfcb5aa992135bb39ff95ae3eaa72da8a36a7a7ce9e1558fd6",
+      "runtime_sha256": "5fe683d76d73e372cb4046b8f84aa62bf71a35249223ba8d5d8f7e1cdc7a7039",
+      "source_dimensions": [
+        433,
+        316
+      ],
+      "runtime_dimensions": [
+        453,
+        336
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        427,
+        310
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        437,
+        320
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        226.5,
+        168.0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 2684,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        546,
+        680,
+        967,
+        984
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/menu_blank.png",
+      "final_dimensions": [
+        256,
+        190
+      ],
+      "final_pivot_px": [
+        128.0,
+        95.0
+      ],
+      "final_hash": "8c9edc67a9891209d17a571abc55c43be5f687f1399976c2b7ff5fab8ad965ce"
+    },
+    {
+      "asset_id": "shelf_empty",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/shelf_empty.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/shelf_empty.png",
+      "source_sha256": "95e7bc2a727fa3beceacf82223ac299297a24df1b43fb66de8f70c2f49072543",
+      "runtime_sha256": "8d5a44a48f6766b64a1c8a7b0ddc87485709c9752123a2d4e2fdf66d950c547f",
+      "source_dimensions": [
+        437,
+        316
+      ],
+      "runtime_dimensions": [
+        457,
+        223
+      ],
+      "source_visual_bounds": [
+        6,
+        85,
+        431,
+        276
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        441,
+        207
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        228.5,
+        111.5
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3968,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "architecture_family_v1",
+      "source_sheet_rect_px": [
+        1074,
+        680,
+        1499,
+        984
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_empty.png",
+      "final_dimensions": [
+        256,
+        125
+      ],
+      "final_pivot_px": [
+        128.0,
+        62.5
+      ],
+      "final_hash": "ba3b3948d8907757cc29b728ab5ad2a936b85d57f2c6de9684c1c8a34e76817e"
+    },
+    {
+      "asset_id": "counter_main",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/counter_main.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/counter_main.png",
+      "source_sha256": "859952bf903f8d6136fd450fe46456a59eec23e31750220110d75535d5600d2a",
+      "runtime_sha256": "98936556dc0cec863b8a8ff0ba58ba0f317fb3baf405af0f6520b4d5ad7a962b",
+      "source_dimensions": [
+        1143,
+        473
+      ],
+      "runtime_dimensions": [
+        1163,
+        476
+      ],
+      "source_visual_bounds": [
+        6,
+        7,
+        1137,
+        467
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        1147,
+        476
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        581.5,
+        476
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 7664,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "counter_family_v1",
+      "source_sheet_rect_px": [
+        30,
+        135,
+        1161,
+        596
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_main.png",
+      "final_dimensions": [
+        512,
+        210
+      ],
+      "final_pivot_px": [
+        256.0,
+        210
+      ],
+      "final_hash": "e734601e2db8a24d259aa103aabddb6f1e7a5322238ce7e4dd0c7aa1e2e3ceb9"
+    },
+    {
+      "asset_id": "counter_short",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/counter_short.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/counter_short.png",
+      "source_sha256": "e833dce9fcc3da3a1f138ff29c03ebf3630b6ef87f44a59bd5b329501c0c0878",
+      "runtime_sha256": "958de93cf0db5570c0d1f74bea6a2222583fbe83b09ca4f22587aea276937268",
+      "source_dimensions": [
+        416,
+        473
+      ],
+      "runtime_dimensions": [
+        436,
+        467
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        410,
+        457
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        420,
+        467
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        218.0,
+        467
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3463,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "counter_family_v1",
+      "source_sheet_rect_px": [
+        1228,
+        135,
+        1632,
+        596
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_short.png",
+      "final_dimensions": [
+        256,
+        274
+      ],
+      "final_pivot_px": [
+        128.0,
+        274
+      ],
+      "final_hash": "453bebb8ea8dbbbfc66dd5291cb450169166e7f6659aeb5c08e3b9faf6be84ad"
+    },
+    {
+      "asset_id": "ceramic_service",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/ceramic_service.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/ceramic_service.png",
+      "source_sha256": "b3abfc90d0b29d5d88ffa6add1736f9e8890925d35cb7e32313c36c9ca178592",
+      "runtime_sha256": "d0e2a001f5c2c89cd38283035ef96739aa3ef926704c43572be6dbb82ecdc322",
+      "source_dimensions": [
+        449,
+        473
+      ],
+      "runtime_dimensions": [
+        469,
+        194
+      ],
+      "source_visual_bounds": [
+        6,
+        276,
+        443,
+        454
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        453,
+        194
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        234.5,
+        194
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 3795,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "counter_family_v1",
+      "source_sheet_rect_px": [
+        1709,
+        135,
+        2146,
+        596
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/ceramic_service.png",
+      "final_dimensions": [
+        256,
+        106
+      ],
+      "final_pivot_px": [
+        128.0,
+        106
+      ],
+      "final_hash": "444c4e752239ea8ee325f631c46e32874ef30bddd9a5e13ac476a39821c1603e"
+    },
+    {
+      "asset_id": "shelf_ceramics",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/shelf_ceramics.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/shelf_ceramics.png",
+      "source_sha256": "8459651876c2e63b7d1cf7929a6dfbae4154ece13af3c4cc43198424c9ae4ee4",
+      "runtime_sha256": "1684990fff6884844de021bd8cc6edea85680a4645f9662a17af2e6916f992da",
+      "source_dimensions": [
+        634,
+        344
+      ],
+      "runtime_dimensions": [
+        639,
+        364
+      ],
+      "source_visual_bounds": [
+        21,
+        6,
+        628,
+        338
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        623,
+        348
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        319.5,
+        182.0
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 6542,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        20,
+        136,
+        642,
+        468
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_ceramics.png",
+      "final_dimensions": [
+        256,
+        146
+      ],
+      "final_pivot_px": [
+        128.0,
+        73.0
+      ],
+      "final_hash": "2acbe2bf7290ba7b16edaf4ca8553c5c01fa87b00d00c0ef59987bf16bb7f6af"
+    },
+    {
+      "asset_id": "plant_hanging",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/plant_hanging.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/plant_hanging.png",
+      "source_sha256": "3ee4d1b48e9d3bd79ae15f25a650dbf018aabac1e08318624f0f424d4e826125",
+      "runtime_sha256": "8e560cbf732c3dc7f7036573171e9fc1abd34bda6b7079ecda46f066e278d891",
+      "source_dimensions": [
+        339,
+        622
+      ],
+      "runtime_dimensions": [
+        327,
+        626
+      ],
+      "source_visual_bounds": [
+        35,
+        6,
+        330,
+        616
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        311,
+        626
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        163.5,
+        626
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 22975,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        654,
+        18,
+        981,
+        628
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/plant_hanging.png",
+      "final_dimensions": [
+        256,
+        490
+      ],
+      "final_pivot_px": [
+        128.0,
+        490
+      ],
+      "final_hash": "6375503c8281496210df8e792d81eb261b5b0f98905429fcb26ebfbdb36d426e"
+    },
+    {
+      "asset_id": "art_framed",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/art_framed.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/art_framed.png",
+      "source_sha256": "ede869f76a75d71bd9083052f3d00f1248533b3bbd2b05e9bd1ffa8817e58748",
+      "runtime_sha256": "cfdadd40a8c8ddf44d600bf99fe9daf2cb93aa8b1080754d3ee7a5362c54a4b9",
+      "source_dimensions": [
+        535,
+        443
+      ],
+      "runtime_dimensions": [
+        423,
+        463
+      ],
+      "source_visual_bounds": [
+        87,
+        6,
+        478,
+        437
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        407,
+        447
+      ],
+      "pivot": "WALL_MOUNT_CENTER",
+      "pivot_pixel": [
+        211.5,
+        231.5
+      ],
+      "floor_contact": false,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 6323,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        997,
+        98,
+        1520,
+        529
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/art_framed.png",
+      "final_dimensions": [
+        256,
+        280
+      ],
+      "final_pivot_px": [
+        128.0,
+        140.0
+      ],
+      "final_hash": "aedf61824b6c97579ea0c6bcb16cac07920d0b15ff254b5953c0dcb63722d618"
+    },
+    {
+      "asset_id": "cat_bed_empty",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/cat_bed_empty.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/cat_bed_empty.png",
+      "source_sha256": "1513073ba934c07b53eaea202663bb609ff10bf84b42b1f83f43daf15bb72f3d",
+      "runtime_sha256": "6a74597a0ea3bbf4828a41a58ba6d9073416b881108e4b519fe2156295db934f",
+      "source_dimensions": [
+        634,
+        380
+      ],
+      "runtime_dimensions": [
+        630,
+        384
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        604,
+        374
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        614,
+        384
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        315.0,
+        384
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 6353,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        20,
+        600,
+        642,
+        968
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/cat_bed_empty.png",
+      "final_dimensions": [
+        256,
+        156
+      ],
+      "final_pivot_px": [
+        128.0,
+        156
+      ],
+      "final_hash": "a699c30ead2f04b595bd819e1333e0086f2f1371555d901ccd4768d92c8dea90"
+    },
+    {
+      "asset_id": "flower_small",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/flower_small.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/flower_small.png",
+      "source_sha256": "5386deb82ec8c0a4afcedc7e52b32065468143f67f905d98eb81b8208150d0ed",
+      "runtime_sha256": "6f69b299026fc61b8958102748f03dd2e18080fd5797ccc662432817f0c13395",
+      "source_dimensions": [
+        339,
+        341
+      ],
+      "runtime_dimensions": [
+        359,
+        345
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        333,
+        335
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        343,
+        345
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        179.5,
+        345
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 6795,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        654,
+        629,
+        981,
+        958
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/flower_small.png",
+      "final_dimensions": [
+        256,
+        246
+      ],
+      "final_pivot_px": [
+        128.0,
+        246
+      ],
+      "final_hash": "1cdc9a6b2e44543d51a98a55b13b31a0daec621185fbb69fb39812c5233eda16"
+    },
+    {
+      "asset_id": "tea_tray",
+      "status": "CANDIDATE",
+      "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/tea_tray.png",
+      "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/tea_tray.png",
+      "source_sha256": "eea33d3be5258a935462dcea65d28d4de8dbf1d86673642c5cb0aa08a4282d17",
+      "runtime_sha256": "f9d12d53a2f7712eb141b3191ae50659d0f63dc48d9cf0c12528d2a82e9e0bc4",
+      "source_dimensions": [
+        535,
+        349
+      ],
+      "runtime_dimensions": [
+        555,
+        353
+      ],
+      "source_visual_bounds": [
+        6,
+        6,
+        529,
+        343
+      ],
+      "runtime_visual_bounds": [
+        16,
+        16,
+        539,
+        353
+      ],
+      "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+      "pivot_pixel": [
+        277.5,
+        353
+      ],
+      "floor_contact": true,
+      "alpha_threshold": 16,
+      "padding": 16,
+      "low_alpha_fringe_pixels_removed": 5370,
+      "preserve_canvas": false,
+      "edge_touch": {
+        "left": false,
+        "top": false,
+        "right": false,
+        "bottom": false
+      },
+      "expected_size": null,
+      "technical_qa": "PASS",
+      "status_note": "Technical packaging only; subjective visual approval remains pending.",
+      "family_id": "decor_family_v1",
+      "source_sheet_rect_px": [
+        997,
+        637,
+        1520,
+        974
+      ],
+      "runtime_repo_path": "assets/dev_review/cafe_interior_kit_v1/runtime/tea_tray.png",
+      "final_dimensions": [
+        256,
+        163
+      ],
+      "final_pivot_px": [
+        128.0,
+        163
+      ],
+      "final_hash": "f00e08e42f39185822b0515f9eb97da6bda8063b8b93fef1ca47d3da7597e50f"
+    }
+  ],
+  "counter_front_polygon_px": [
+    [
+      0,
+      70
+    ],
+    [
+      512,
+      116
+    ],
+    [
+      512,
+      210
+    ],
+    [
+      0,
+      210
+    ]
+  ],
+  "floor_processing": {
+    "reused_source": "assets/dev_review/cafe_interior_slice_v1/source/floor_cedar.png",
+    "contrast": 0.72,
+    "saturation": 0.82,
+    "base_px": 64,
+    "mirror_atlas_px": 128,
+    "opposite_edges_exactly_equal": true,
+    "all_pixels_are_processed_source_not_target_board_crops": true
+  }
+}

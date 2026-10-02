@@ -1,0 +1,20 @@
+{
+  "scope": "canonical_integration_proof_project",
+  "candidate_bundle_hash": "e1ebe7b7f26c390129cfd9209866fadd6960e4bdf1f48ea55c521330ad5cd13b",
+  "logical_prefab_path": "res://assets/first_party/tree_pilot_v1/tree_visual.tscn",
+  "same_logical_res_paths": true,
+  "suppressed_proxy_textures": 36,
+  "unused_legacy_audio_excluded": [
+    "assets/Sound/FX/hurt.wav",
+    "assets/Sound/FX/level_complete.wav.import",
+    "assets/Sound/FX/jump.wav",
+    "assets/Sound/FX/coin_pickup.wav",
+    "assets/Sound/FX/pickupCoin.wav.import",
+    "assets/Sound/FX/level_complete.wav",
+    "assets/Sound/FX/jump.wav.import",
+    "assets/Sound/FX/coin_pickup.wav.import",
+    "assets/Sound/FX/hurt.wav.import"
+  ],
+  "world_and_gameplay_sources": "unchanged copied authority",
+  "production_modified": false
+}

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/private/tmp/willicat_mvp_stage/tools/willicat_asset_factory_mvp/__main__.py", line 27, in <module>
+    if __name__=='__main__':main()
+  File "/private/tmp/willicat_mvp_stage/tools/willicat_asset_factory_mvp/__main__.py", line 20, in main
+    print(json.dumps(collect(a.repo,a.root,a.project,a.capture_dir),indent=2));return
+  File "/private/tmp/willicat_mvp_stage/tools/willicat_asset_factory_mvp/diagnostics.py", line 81, in collect
+    store.json('evidence/diagnostic_runtime_proof.json',receipt)
+  File "/private/tmp/willicat_mvp_stage/tools/willicat_asset_factory_mvp/store.py", line 45, in json
+    def json(self,relative,value):return self.once(relative,canonical(value))
+  File "/Users/teddywoot/willi-cat/tools/willicat_asset_factory_phase0/contracts.py", line 31, in canonical
+    visit(value)
+  File "/Users/teddywoot/willi-cat/tools/willicat_asset_factory_phase0/contracts.py", line 29, in visit
+    visit(x)
+  File "/Users/teddywoot/willi-cat/tools/willicat_asset_factory_phase0/contracts.py", line 29, in visit
+    visit(x)
+  File "/Users/teddywoot/willi-cat/tools/willicat_asset_factory_phase0/contracts.py", line 30, in visit
+    else: raise ValueError('floats/unsupported values cannot be signed')
+ValueError: floats/unsupported values cannot be signed

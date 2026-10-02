@@ -1,0 +1,138 @@
+{
+	"cases": [
+		{
+			"passed": true,
+			"test": "empty notebook is valid"
+		},
+		{
+			"passed": true,
+			"test": "start accepted"
+		},
+		{
+			"passed": true,
+			"test": "deadline independent of frame count"
+		},
+		{
+			"passed": true,
+			"test": "duplicate command is idempotent"
+		},
+		{
+			"passed": true,
+			"test": "cannot start overlapping session"
+		},
+		{
+			"passed": true,
+			"test": "stale session cannot pause active session"
+		},
+		{
+			"passed": true,
+			"test": "pause accepted"
+		},
+		{
+			"passed": true,
+			"test": "paused timer remains frozen across long absence"
+		},
+		{
+			"passed": true,
+			"test": "paused snapshot restores remaining duration"
+		},
+		{
+			"passed": true,
+			"test": "resume accepted"
+		},
+		{
+			"passed": true,
+			"test": "resume starts deadline from remaining duration"
+		},
+		{
+			"passed": true,
+			"test": "completion grants one durable receipt"
+		},
+		{
+			"passed": true,
+			"test": "duplicate completion does not grant twice"
+		},
+		{
+			"passed": true,
+			"test": "completed notebook validates"
+		},
+		{
+			"passed": true,
+			"test": "external reward injection rejected"
+		},
+		{
+			"passed": true,
+			"test": "cancelled session earns no reward"
+		},
+		{
+			"passed": true,
+			"test": "zero duration rejected"
+		},
+		{
+			"passed": true,
+			"test": "out-of-domain duration rejected"
+		},
+		{
+			"passed": true,
+			"test": "wallet inconsistent with receipts rejected"
+		},
+		{
+			"passed": true,
+			"test": "duplicate reward receipts rejected"
+		},
+		{
+			"passed": true,
+			"test": "pause at expired deadline settles completion"
+		},
+		{
+			"passed": true,
+			"test": "JSON transport accepts integral duration"
+		},
+		{
+			"passed": true,
+			"test": "fractional JSON duration rejected"
+		},
+		{
+			"passed": true,
+			"test": "non-object JSON rejected"
+		},
+		{
+			"passed": true,
+			"test": "real paused notebook reload"
+		},
+		{
+			"passed": true,
+			"test": "restored session resumes"
+		},
+		{
+			"passed": true,
+			"test": "real persisted completion"
+		},
+		{
+			"passed": true,
+			"test": "restart after completion keeps single reward"
+		},
+		{
+			"passed": true,
+			"test": "failed write rolls back and emits no world event"
+		},
+		{
+			"passed": true,
+			"test": "failed completion persistence does not mint reward"
+		},
+		{
+			"passed": true,
+			"test": "valid previous snapshot recovers corrupt primary"
+		},
+		{
+			"passed": true,
+			"test": "unrecoverable notebook is not silently overwritten"
+		},
+		{
+			"passed": true,
+			"test": "restart after deadline catches up once"
+		}
+	],
+	"count": 33,
+	"passed": true
+}

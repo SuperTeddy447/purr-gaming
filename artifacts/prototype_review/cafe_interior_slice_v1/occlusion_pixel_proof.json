@@ -1,0 +1,41 @@
+{
+  "scope": "DEV_DIAGNOSTIC",
+  "method": "same-pose actor-only, object-only, background and combined native framebuffer; exact RGB ownership counts",
+  "not_aesthetic_calibration": true,
+  "check_count": 4,
+  "passed": true,
+  "comparisons": {
+    "counter": {
+      "overlap_pixels": 1281,
+      "object_owned_overlap_pixels": 209,
+      "actor_owned_overlap_pixels": 590,
+      "visible_actor_pixels": 1891,
+      "passed": true,
+      "interpretation": "worktop behind actor plus front apron before actor"
+    },
+    "counter_front": {
+      "overlap_pixels": 1510,
+      "object_owned_overlap_pixels": 9,
+      "actor_owned_overlap_pixels": 758,
+      "visible_actor_pixels": 2441,
+      "passed": true,
+      "interpretation": "actor in front of object"
+    },
+    "table_back": {
+      "overlap_pixels": 753,
+      "object_owned_overlap_pixels": 328,
+      "actor_owned_overlap_pixels": 2,
+      "visible_actor_pixels": 940,
+      "passed": true,
+      "interpretation": "table in front of actor"
+    },
+    "table_front": {
+      "overlap_pixels": 577,
+      "object_owned_overlap_pixels": 4,
+      "actor_owned_overlap_pixels": 263,
+      "visible_actor_pixels": 1202,
+      "passed": true,
+      "interpretation": "actor in front of object"
+    }
+  }
+}

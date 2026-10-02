@@ -1,0 +1,194 @@
+{
+  "basis": "source-resolution RGBA8 estimates; compression, importer allocation, GPU buffers, shadows and render targets excluded; not real-device memory measurement",
+  "textures": [
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/cedar_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "b60f1c3c8481015156ebe15f5b0ffc0e68ee90f608dfe91f72e6bbc075ca467e",
+      "disk_bytes": 304829,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/ceramic_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "19e631f2d60c1997b9b7b29bea6ce27643d36404f82957356eafc3b421389f73",
+      "disk_bytes": 354875,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/foliage_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "bcb95805e46a6c9170b8728082f75b6546dd4f5fad41713c2cd1c08053535bce",
+      "disk_bytes": 379850,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/plaster_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "fc807f703d25cd0280afe04a717a617789a143e1ca9ae524709834849249f12c",
+      "disk_bytes": 353154,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/sage_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "a21d410681764d7d829807a1955df2c1fe8de04bcad666c8e0e771c930f6d2ea",
+      "disk_bytes": 447223,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file_sha256": "11de0cc4e44a85a45090a27c1fa10df3df6910c9b3db46a1e8427b6a3065f57f",
+      "disk_bytes": 392510,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398100,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/first_party/storybook_mini_pack_001/normalized/orange_down.png",
+      "dimensions": [
+        768,
+        256
+      ],
+      "file_sha256": "66a7df900571c94e694102b07e8191623eef6aca0e3481691019ae680a4ae96f",
+      "disk_bytes": 146727,
+      "RGBA8_base_bytes_estimate": 786432,
+      "RGBA8_full_mip_chain_bytes_estimate": 1048576,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/first_party/storybook_mini_pack_001/normalized/orange_up.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "file_sha256": "53c7b81b65607ae2529f038e49535af05ff709dc8c512faad0aefd4a4e184424",
+      "disk_bytes": 255564,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398108,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/first_party/storybook_mini_pack_001/normalized/orange_left.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "file_sha256": "6eae383bc14dadf970b2f69c8de3cda73a52533467351f5eddf07af557679d2d",
+      "disk_bytes": 232303,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398108,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/first_party/storybook_mini_pack_001/normalized/orange_right.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "file_sha256": "31b4675ff7800616fd38f6e218772e81e87903ee563aed34236059880c0bf9e2",
+      "disk_bytes": 253878,
+      "RGBA8_base_bytes_estimate": 1048576,
+      "RGBA8_full_mip_chain_bytes_estimate": 1398108,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    },
+    {
+      "source": "res://assets/first_party/storybook_mini_pack_001/normalized/contact_shadow.png",
+      "dimensions": [
+        256,
+        128
+      ],
+      "file_sha256": "d74ccc25c1a9e81c5c812fe45e1ddd423424d0fba870e182f45b655e48fcc12d",
+      "disk_bytes": 19270,
+      "RGBA8_base_bytes_estimate": 131072,
+      "RGBA8_full_mip_chain_bytes_estimate": 174764,
+      "effective_import_settings": [
+        "compress/mode=0",
+        "mipmaps/generate=false",
+        "process/fix_alpha_border=true",
+        "detect_3d/compress_to=1"
+      ]
+    }
+  ],
+  "total_RGBA8_base_bytes": 10354688,
+  "total_RGBA8_full_mip_bytes": 13806264
+}

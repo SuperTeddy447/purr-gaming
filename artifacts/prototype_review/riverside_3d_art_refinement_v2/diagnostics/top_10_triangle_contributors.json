@@ -1,0 +1,324 @@
+{
+  "native_scene_sum": 84418,
+  "native_geometry_total": 84418,
+  "sum_matches": true,
+  "top10": [
+    {
+      "asset_id": "WC_RIVER_Roof_CedarSlate_A",
+      "instances": 2,
+      "scene_triangles": 10644,
+      "triangles_per_instance": 5322,
+      "percentage_of_geometry_triangles": 12.608685351465327
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Small_A",
+      "instances": 3,
+      "scene_triangles": 10380,
+      "triangles_per_instance": 3460,
+      "percentage_of_geometry_triangles": 12.29595583880215
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Medium_A",
+      "instances": 3,
+      "scene_triangles": 10380,
+      "triangles_per_instance": 3460,
+      "percentage_of_geometry_triangles": 12.29595583880215
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_C",
+      "instances": 12,
+      "scene_triangles": 9168,
+      "triangles_per_instance": 764,
+      "percentage_of_geometry_triangles": 10.860243076121206
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_B",
+      "instances": 11,
+      "scene_triangles": 7392,
+      "triangles_per_instance": 672,
+      "percentage_of_geometry_triangles": 8.75642635456893
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Straight_A",
+      "instances": 8,
+      "scene_triangles": 4224,
+      "triangles_per_instance": 528,
+      "percentage_of_geometry_triangles": 5.003672202610818
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Rail_A",
+      "instances": 5,
+      "scene_triangles": 4100,
+      "triangles_per_instance": 820,
+      "percentage_of_geometry_triangles": 4.856784098178114
+    },
+    {
+      "asset_id": "WC_RIVER_Shrub_Riverside_A",
+      "instances": 3,
+      "scene_triangles": 3456,
+      "triangles_per_instance": 1152,
+      "percentage_of_geometry_triangles": 4.093913620317942
+    },
+    {
+      "asset_id": "WC_RIVER_Wall_Window_A",
+      "instances": 2,
+      "scene_triangles": 3408,
+      "triangles_per_instance": 1704,
+      "percentage_of_geometry_triangles": 4.0370537089246366
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_A",
+      "instances": 4,
+      "scene_triangles": 3120,
+      "triangles_per_instance": 780,
+      "percentage_of_geometry_triangles": 3.6958942405648085
+    }
+  ],
+  "all_contributors": [
+    {
+      "asset_id": "WC_RIVER_Roof_CedarSlate_A",
+      "instances": 2,
+      "scene_triangles": 10644,
+      "triangles_per_instance": 5322,
+      "percentage_of_geometry_triangles": 12.608685351465327
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Small_A",
+      "instances": 3,
+      "scene_triangles": 10380,
+      "triangles_per_instance": 3460,
+      "percentage_of_geometry_triangles": 12.29595583880215
+    },
+    {
+      "asset_id": "WC_RIVER_Tree_Medium_A",
+      "instances": 3,
+      "scene_triangles": 10380,
+      "triangles_per_instance": 3460,
+      "percentage_of_geometry_triangles": 12.29595583880215
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_C",
+      "instances": 12,
+      "scene_triangles": 9168,
+      "triangles_per_instance": 764,
+      "percentage_of_geometry_triangles": 10.860243076121206
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_B",
+      "instances": 11,
+      "scene_triangles": 7392,
+      "triangles_per_instance": 672,
+      "percentage_of_geometry_triangles": 8.75642635456893
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Straight_A",
+      "instances": 8,
+      "scene_triangles": 4224,
+      "triangles_per_instance": 528,
+      "percentage_of_geometry_triangles": 5.003672202610818
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Rail_A",
+      "instances": 5,
+      "scene_triangles": 4100,
+      "triangles_per_instance": 820,
+      "percentage_of_geometry_triangles": 4.856784098178114
+    },
+    {
+      "asset_id": "WC_RIVER_Shrub_Riverside_A",
+      "instances": 3,
+      "scene_triangles": 3456,
+      "triangles_per_instance": 1152,
+      "percentage_of_geometry_triangles": 4.093913620317942
+    },
+    {
+      "asset_id": "WC_RIVER_Wall_Window_A",
+      "instances": 2,
+      "scene_triangles": 3408,
+      "triangles_per_instance": 1704,
+      "percentage_of_geometry_triangles": 4.0370537089246366
+    },
+    {
+      "asset_id": "WC_RIVER_Ground_Stone_A",
+      "instances": 4,
+      "scene_triangles": 3120,
+      "triangles_per_instance": 780,
+      "percentage_of_geometry_triangles": 3.6958942405648085
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Vegetation_A",
+      "instances": 3,
+      "scene_triangles": 2364,
+      "triangles_per_instance": 788,
+      "percentage_of_geometry_triangles": 2.8003506361202586
+    },
+    {
+      "asset_id": "WC_RIVER_Wall_Plain_A",
+      "instances": 4,
+      "scene_triangles": 2112,
+      "triangles_per_instance": 528,
+      "percentage_of_geometry_triangles": 2.501836101305409
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Straight_B",
+      "instances": 4,
+      "scene_triangles": 2112,
+      "triangles_per_instance": 528,
+      "percentage_of_geometry_triangles": 2.501836101305409
+    },
+    {
+      "asset_id": "WC_RIVER_Potted_Plant_A",
+      "instances": 2,
+      "scene_triangles": 1776,
+      "triangles_per_instance": 888,
+      "percentage_of_geometry_triangles": 2.1038167215522754
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Outer_A",
+      "instances": 1,
+      "scene_triangles": 1452,
+      "triangles_per_instance": 1452,
+      "percentage_of_geometry_triangles": 1.7200123196474686
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_Inner_A",
+      "instances": 1,
+      "scene_triangles": 1452,
+      "triangles_per_instance": 1452,
+      "percentage_of_geometry_triangles": 1.7200123196474686
+    },
+    {
+      "asset_id": "WC_RIVER_Bench_Cedar_A",
+      "instances": 2,
+      "scene_triangles": 1296,
+      "triangles_per_instance": 648,
+      "percentage_of_geometry_triangles": 1.535217607619228
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Deck_A",
+      "instances": 1,
+      "scene_triangles": 880,
+      "triangles_per_instance": 880,
+      "percentage_of_geometry_triangles": 1.0424317088772537
+    },
+    {
+      "asset_id": "WC_RIVER_Bridge_Abutment_A",
+      "instances": 2,
+      "scene_triangles": 880,
+      "triangles_per_instance": 440,
+      "percentage_of_geometry_triangles": 1.0424317088772537
+    },
+    {
+      "asset_id": "WC_RIVER_Background_House_A",
+      "instances": 2,
+      "scene_triangles": 800,
+      "triangles_per_instance": 400,
+      "percentage_of_geometry_triangles": 0.9476651898884124
+    },
+    {
+      "asset_id": "WC_RIVER_Bank_PathTransition_A",
+      "instances": 1,
+      "scene_triangles": 792,
+      "triangles_per_instance": 792,
+      "percentage_of_geometry_triangles": 0.9381885379895283
+    },
+    {
+      "asset_id": "WC_RIVER_Awning_Jade_A",
+      "instances": 1,
+      "scene_triangles": 760,
+      "triangles_per_instance": 760,
+      "percentage_of_geometry_triangles": 0.9002819303939918
+    },
+    {
+      "asset_id": "WC_RIVER_Lamp_Practical_A",
+      "instances": 1,
+      "scene_triangles": 660,
+      "triangles_per_instance": 660,
+      "percentage_of_geometry_triangles": 0.7818237816579402
+    },
+    {
+      "asset_id": "WC_RIVER_Entrance_Open_A",
+      "instances": 1,
+      "scene_triangles": 396,
+      "triangles_per_instance": 396,
+      "percentage_of_geometry_triangles": 0.46909426899476414
+    },
+    {
+      "asset_id": "WC_RIVER_Sign_Blank_A",
+      "instances": 1,
+      "scene_triangles": 220,
+      "triangles_per_instance": 220,
+      "percentage_of_geometry_triangles": 0.2606079272193134
+    },
+    {
+      "asset_id": "WC_RIVER_Grass_Bank_A",
+      "instances": 4,
+      "scene_triangles": 132,
+      "triangles_per_instance": 33,
+      "percentage_of_geometry_triangles": 0.15636475633158806
+    },
+    {
+      "asset_id": "WC_RIVER_Background_Rise_A",
+      "instances": 1,
+      "scene_triangles": 36,
+      "triangles_per_instance": 36,
+      "percentage_of_geometry_triangles": 0.04264493354497856
+    },
+    {
+      "asset_id": "InteriorCounterHint",
+      "instances": 1,
+      "scene_triangles": 12,
+      "triangles_per_instance": 12,
+      "percentage_of_geometry_triangles": 0.014214977848326186
+    },
+    {
+      "asset_id": "StreetStoneSubstrate",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "CafeForecourtSubstrate",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "FarBankSubstrate",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "QuietEarthLeft",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "QuietEarthFarBank",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "QuietMovingRiver",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    },
+    {
+      "asset_id": "CafeInteriorGround",
+      "instances": 1,
+      "scene_triangles": 2,
+      "triangles_per_instance": 2,
+      "percentage_of_geometry_triangles": 0.002369162974721031
+    }
+  ]
+}

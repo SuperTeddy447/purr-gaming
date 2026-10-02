@@ -1,0 +1,47 @@
+{
+  "asset_id": "pos",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/pos.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/pos.png",
+  "source_sha256": "4e52280ea16649620c08ff54b19076eaf2e26c40ff52e66a643c062c1709bce4",
+  "runtime_sha256": "611816c2987574924a2afc6a09b45fed76586334594057f51c3c13a817442089",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "runtime_dimensions": [
+    944,
+    842
+  ],
+  "source_visual_bounds": [
+    347,
+    109,
+    1259,
+    935
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    928,
+    842
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    472.0,
+    842
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 7360,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

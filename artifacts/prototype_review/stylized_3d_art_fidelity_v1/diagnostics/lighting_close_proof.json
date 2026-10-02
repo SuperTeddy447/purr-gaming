@@ -1,0 +1,13 @@
+{
+	"checks": {
+		"approach_nav": true,
+		"capture_09_HYBRID_LIGHTING_CLOSEUP.png": true,
+		"capture_diagnostics/lamp_close_ambient_only.png": true,
+		"capture_diagnostics/lamp_close_key_ambient.png": true,
+		"capture_diagnostics/lamp_close_key_ambient_practical.png": true,
+		"capture_diagnostics/renderer_hero_mobile.png": true,
+		"hero_nav": true
+	},
+	"passed": true,
+	"scope": "DEV-only actual lamp/contact close-up"
+}

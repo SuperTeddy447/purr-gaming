@@ -1,0 +1,120 @@
+{
+	"checks": {
+		"WC_CAFE_Chair_A_exported_cavity_colors": true,
+		"WC_CAFE_Counter_End_A_exported_cavity_colors": true,
+		"WC_CAFE_Counter_Short_A_exported_cavity_colors": true,
+		"WC_CAFE_Counter_Straight_A_exported_cavity_colors": true,
+		"WC_CAFE_Espresso_A_exported_cavity_colors": true,
+		"WC_CAFE_Grinder_A_exported_cavity_colors": true,
+		"WC_CAFE_Lamp_Hanging_A_exported_cavity_colors": true,
+		"WC_CAFE_Plant_Flowering_A_exported_cavity_colors": true,
+		"WC_CAFE_Plant_Trailing_A_exported_cavity_colors": true,
+		"WC_CAFE_Planter_Floor_A_exported_cavity_colors": true,
+		"WC_CAFE_Planter_Table_A_exported_cavity_colors": true,
+		"WC_CAFE_Shelf_A_exported_cavity_colors": true,
+		"WC_CAFE_Shelf_Short_A_exported_cavity_colors": true,
+		"WC_CAFE_Table_Round_A_exported_cavity_colors": true,
+		"WC_CAFE_Wall_Window_A_exported_cavity_colors": true,
+		"WC_CAFE_Window_Recess_A_exported_cavity_colors": true
+	},
+	"count": 16,
+	"measurements": [
+		{
+			"asset": "WC_CAFE_Wall_Window_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 5400
+		},
+		{
+			"asset": "WC_CAFE_Window_Recess_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 2808
+		},
+		{
+			"asset": "WC_CAFE_Counter_Straight_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 7976
+		},
+		{
+			"asset": "WC_CAFE_Counter_End_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 4088
+		},
+		{
+			"asset": "WC_CAFE_Counter_Short_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 4088
+		},
+		{
+			"asset": "WC_CAFE_Espresso_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 11220
+		},
+		{
+			"asset": "WC_CAFE_Grinder_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 1902
+		},
+		{
+			"asset": "WC_CAFE_Table_Round_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 2706
+		},
+		{
+			"asset": "WC_CAFE_Chair_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 4105
+		},
+		{
+			"asset": "WC_CAFE_Shelf_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 1640
+		},
+		{
+			"asset": "WC_CAFE_Shelf_Short_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 1640
+		},
+		{
+			"asset": "WC_CAFE_Planter_Floor_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 1642
+		},
+		{
+			"asset": "WC_CAFE_Planter_Table_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 1078
+		},
+		{
+			"asset": "WC_CAFE_Lamp_Hanging_A",
+			"max": 1.0,
+			"min": 0.819607853889465,
+			"vertex_colors": 3092
+		},
+		{
+			"asset": "WC_CAFE_Plant_Trailing_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 2362
+		},
+		{
+			"asset": "WC_CAFE_Plant_Flowering_A",
+			"max": 1.0,
+			"min": 0.82745099067688,
+			"vertex_colors": 2168
+		}
+	],
+	"passed": true
+}

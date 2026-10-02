@@ -1,0 +1,12 @@
+{
+  "scope": "Installed DEV launcher/asset identity verification; no publication approval",
+  "passed": true,
+  "preexisting_files_unchanged": 6248,
+  "approved_2d_binding_files": 164,
+  "tested_runtime_files_equal": 42,
+  "fresh_installed_project": "/private/tmp/willicat_hero_replacement_human_review/project",
+  "distinct_save_namespace": "WilliCatCafeHeroReplacementDEVV1",
+  "git_head_unchanged": true,
+  "commit": false,
+  "push": false
+}

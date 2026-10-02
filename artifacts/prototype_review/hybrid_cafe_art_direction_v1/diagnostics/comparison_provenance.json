@@ -1,0 +1,20 @@
+{
+  "comparison_processing": "Evidence contact sheet only: aspect-preserving resize/paste and labels; native A/B screenshots unretouched. No generated comparison image.",
+  "sources": {
+    "approved_2d": {
+      "path": "/Users/teddywoot/willi-cat/artifacts/prototype_review/cafe_visual_fidelity_recovery_v1/02_RECOVERED_FULL_SLICE.png",
+      "sha256": "fe5bec196180c54b0e0eecb92af09e4a6658a9ae339696d83b98dbb1437cb8d8"
+    },
+    "hero_2d": {
+      "path": "/var/folders/vv/p759sh4j4r161qt9k21s1bm80000gn/T/codex-clipboard-2ec56610-c2f2-42d0-851a-f7a747b92645.png",
+      "sha256": "ea5daff3c92e32bb7e525f542bf6fbd813d58e44ece50f81c418fb1c1ce5c639"
+    },
+    "hybrid_hero_reference_B": {
+      "path": "/Users/teddywoot/Downloads/ChatGPT Image Oct 1, 2026, 08_34_49 PM.png",
+      "sha256": "41615abdbf5dc0083b4b04edbe9cc04d028d744652f450840f92434442d27ac3"
+    }
+  },
+  "camera": "A/B both exact V1 transform, ortho KEEP_WIDTH7.65. Historical V1 default8.05 retained in prior evidence; common framing change applies to both branches. No perspective or new world layout.",
+  "actor": "Both A/B approach original logical325,300 then325,355 through navigation; same original orange actor and existing worker.",
+  "limitations": "C is approved 2D native capture with original UI/projection. D is concept mood ceiling with contextual sunlight and richer dressing. Neither was altered to favor Hybrid. Exact density cannot be equal without modifying authority."
+}

@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/dev_review/hybrid_cafe_art_direction_v1/glb/decor/WC_CAFE_Shelf_A.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/hybrid_cafe_art_direction/asset_wrapper.gd" id="2"]
+[node name="WC_CAFE_Shelf_A" type="Node3D"]
+script = ExtResource("2")
+asset_id = "WC_CAFE_Shelf_A"
+[node name="VisualRoot" parent="." instance=ExtResource("1")]

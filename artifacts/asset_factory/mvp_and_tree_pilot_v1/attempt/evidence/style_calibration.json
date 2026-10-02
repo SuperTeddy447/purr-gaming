@@ -1,0 +1,1219 @@
+{
+  "record_format": "willicat-style-calibration-1",
+  "style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "display_name": "WilliCat Japanese Riverside Storybook",
+  "version": "1.0.0",
+  "status": "approved",
+  "visual_recommendation": "approved_with_explicit_refinements",
+  "evidence_date": "2026-09-30",
+  "evidence_labels": {
+    "OBSERVED": "Visible static reference contents.",
+    "MEASURED": "Original image dimensions, hashes and decoded pixel samples.",
+    "LOCKED": "User-specified authority or terminology.",
+    "PROPOSED": "Originally drafted/refined visual rules; accepted by human for V1 visual-input scope. This does not create measured technical tolerances or production approval."
+  },
+  "projection": {
+    "camera": "ELEVATED 3/4 VIEW",
+    "language": "SOFT ISOMETRIC-LITE",
+    "strict_mathematical_isometric": false,
+    "world_geometry_authority": "existing Godot GameplayRoot/world data",
+    "reference_caveat": "Town and distant scenery contain converging/eye-level perspective; borrow mood/material, not camera geometry."
+  },
+  "runtime_classification": {
+    "runtime": "2D",
+    "visual_presentation": "2.5D",
+    "preferred_phrase": "2D runtime with 2.5D presentation, Elevated 3/4, Soft Isometric-Lite",
+    "terrain_terms": [
+      "Elevated 3/4 Terrain Modules",
+      "Soft Isometric-Lite Terrain Family"
+    ]
+  },
+  "reference_boards": [
+    {
+      "reference_id": "outdoor",
+      "primary_semantic_role": "outdoor",
+      "filename": "WILLICAT_JAPANESE_STORYBOOK_OUTDOOR_ASSET_FAMILY_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_JAPANESE_STORYBOOK_OUTDOOR_ASSET_FAMILY_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1448,
+        1086
+      ],
+      "image_mode": "RGB",
+      "classification": "PRIMARY REFERENCE",
+      "sha256": "16c97dc2c1921460edb96b759fd9c9c4af525fd318a5edc06fbc636761a77d46"
+    },
+    {
+      "reference_id": "depth",
+      "primary_semantic_role": "depth",
+      "filename": "WILLICAT_WORLD_DEPTH_LAYER_VISUAL_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_WORLD_DEPTH_LAYER_VISUAL_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "image_mode": "RGB",
+      "classification": "SUPPORTING REFERENCE",
+      "sha256": "edf58af896509ca6ed9c6e9ebd8a5c72ec2287f4641e56241cc22dd054378a8f"
+    },
+    {
+      "reference_id": "cafe_architecture",
+      "primary_semantic_role": "cafe_architecture",
+      "filename": "WILLICAT_JAPANESE_STORYBOOK_CAFE_ARCHITECTURE_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_JAPANESE_STORYBOOK_CAFE_ARCHITECTURE_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "image_mode": "RGB",
+      "classification": "PRIMARY REFERENCE",
+      "sha256": "27e09bb08468524a08f727f909b8d96537c21bab6d7683cff9099999c982800d"
+    },
+    {
+      "reference_id": "town_world",
+      "primary_semantic_role": "town_world",
+      "filename": "WILLICAT_JAPANESE_RIVERSIDE_TOWN_WORLD_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_JAPANESE_RIVERSIDE_TOWN_WORLD_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "classification": "LAYOUT/MOOD ONLY",
+      "sha256": "ede9dabd3d68f7334ca6094b18d47b75dcaaf9b9d4d02dab33cc2bed09bdd58c"
+    },
+    {
+      "reference_id": "character_motion",
+      "primary_semantic_role": "character_motion",
+      "filename": "WILLICAT_ORANGE_PROTAGONIST_ANIMATION_FAMILY_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_ORANGE_PROTAGONIST_ANIMATION_FAMILY_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "classification": "MOTION LANGUAGE ONLY",
+      "sha256": "bc052b5b77d1395affd09b9d4dfda90d0c8048b8d78ce0cb78c0f39ae1b86bd5"
+    },
+    {
+      "reference_id": "collectible_prop",
+      "primary_semantic_role": "collectible_prop",
+      "filename": "WILLICAT_COLLECTIBLE_AND_INTERACTIVE_PROP_FAMILY_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_COLLECTIBLE_AND_INTERACTIVE_PROP_FAMILY_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "classification": "SUPPORTING REFERENCE",
+      "sha256": "3389cd9993780e86b40f4d59af22c91997ff884d5be1638037f1977def634908"
+    },
+    {
+      "reference_id": "ui",
+      "primary_semantic_role": "ui",
+      "filename": "WILLICAT_UI_COMPONENT_FAMILY_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_UI_COMPONENT_FAMILY_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "classification": "PRIMARY REFERENCE",
+      "sha256": "2db8c91337285d33a09e2200342343a7e9283c0e81e219b2c2ed09ed01c27b16"
+    },
+    {
+      "reference_id": "vfx",
+      "primary_semantic_role": "vfx",
+      "filename": "WILLICAT_CAFE_AND_WORLD_VFX_FAMILY_EXPLORATION_V1.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/WILLICAT_CAFE_AND_WORLD_VFX_FAMILY_EXPLORATION_V1.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "classification": "SUPPORTING REFERENCE",
+      "sha256": "0e97a488f857759e5a4852d81c0fc52a260456cd7d7c3ce6630cb01591035fe8",
+      "alpha_observation": {
+        "extrema": [
+          0,
+          254
+        ],
+        "fully_transparent_pixels": 78159,
+        "fully_opaque_pixels": 0,
+        "checkerboard_sample_xy": [
+          140,
+          120
+        ],
+        "checkerboard_sample_rgba": [
+          202,
+          195,
+          181,
+          250
+        ],
+        "note": "Visible checkerboard is encoded in sampled RGB with alpha 250; this board is not a clean production effect export."
+      }
+    },
+    {
+      "reference_id": "combined_reference",
+      "primary_semantic_role": "combined_reference",
+      "filename": "09_combined_calibration_moodboard.png",
+      "path": "docs/references/style/willicat_japanese_riverside_storybook_v1/09_combined_calibration_moodboard.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "classification": "SUPPORTING REFERENCE",
+      "sha256": "691ce8e4663bfcbc51bc7d5b90b11fe9ea3b0536a2f85f4522b4a3db092ebcbb"
+    }
+  ],
+  "palette": {
+    "status": "measured_anchors_human_approved_for_style_visual_input",
+    "method": "Decoded RGB values in original PNGs; median of 9x9 patches or exact selected original pixel. No ICC conversion or de-lighting. Coordinate origin top-left; x increases right and y down.",
+    "analysis_tool": {
+      "name": "Pillow",
+      "version": "11.3.0"
+    },
+    "entries": [
+      {
+        "palette_id": "cream_surface",
+        "semantic_roles": [
+          "paper_cream",
+          "plaster_cream"
+        ],
+        "hex": "#FAE5C7",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "ui",
+          "center_xy_px": [
+            714,
+            603
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Paper and quiet panel centers; related plaster surface.",
+        "variation_guidance": "Warm off-whites with restrained mottling; plaster comparison #F3DEC7 at cafe_architecture (632,392), same median method.",
+        "prohibited_dominant_misuse": "Do not turn every object into cream or bake warm atmosphere."
+      },
+      {
+        "palette_id": "warm_stone",
+        "semantic_roles": [
+          "warm_neutral",
+          "natural_stone"
+        ],
+        "hex": "#CAAF93",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            178,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Stone, gravel and warm neutral transitions.",
+        "variation_guidance": "Permit grayer stone and pale gravel from category reference; swatch is a warm anchor, not all stone shades.",
+        "prohibited_dominant_misuse": "No orange wash over all stone."
+      },
+      {
+        "palette_id": "charcoal_brown",
+        "semantic_roles": [
+          "charcoal_brown",
+          "aged_dark_metal"
+        ],
+        "hex": "#352C28",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "cafe_architecture",
+          "center_xy_px": [
+            285,
+            1028
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Dark equipment, trim and restrained metal.",
+        "variation_guidance": "Brown-gray near-dark variation; retain readable form.",
+        "prohibited_dominant_misuse": "No pure-black heavy outline or glossy chrome default."
+      },
+      {
+        "palette_id": "cedar_light",
+        "semantic_roles": [
+          "cedar_light"
+        ],
+        "hex": "#C68F5E",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "cafe_architecture",
+          "center_xy_px": [
+            280,
+            820
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Wood light planes and modest edge highlights.",
+        "variation_guidance": "Local grain can vary inside the cedar relationship.",
+        "prohibited_dominant_misuse": "No white plastic specular band."
+      },
+      {
+        "palette_id": "cedar_mid",
+        "semantic_roles": [
+          "cedar_mid"
+        ],
+        "hex": "#9B6D44",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            121,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Main wood body color.",
+        "variation_guidance": "Warm brown/honey variation; use light/dark partners.",
+        "prohibited_dominant_misuse": "No orange saturation across all wood."
+      },
+      {
+        "palette_id": "cedar_dark",
+        "semantic_roles": [
+          "cedar_dark"
+        ],
+        "hex": "#583F2E",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "cafe_architecture",
+          "center_xy_px": [
+            163,
+            1046
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Wood recesses and construction depth.",
+        "variation_guidance": "Allow subdued brown shade, distinct from metal.",
+        "prohibited_dominant_misuse": "No baked long cast shadow."
+      },
+      {
+        "palette_id": "grass_light",
+        "semantic_roles": [
+          "grass_light"
+        ],
+        "hex": "#A3A752",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            78,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Sun-independent light grass notes.",
+        "variation_guidance": "Broken leaf/grass highlights; do not cover every ground cell.",
+        "prohibited_dominant_misuse": "No luminous lime carpet."
+      },
+      {
+        "palette_id": "moss",
+        "semantic_roles": [
+          "moss"
+        ],
+        "hex": "#768658",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            35,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Moss, restrained green UI surfaces.",
+        "variation_guidance": "Muted olive-to-green variation.",
+        "prohibited_dominant_misuse": "No green tint on every material."
+      },
+      {
+        "palette_id": "sage",
+        "semantic_roles": [
+          "muted_sage"
+        ],
+        "hex": "#526F4E",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            395,
+            470
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Muted leaf variation and restrained fabric/UI accents.",
+        "variation_guidance": "Stay subdued relative to rewards and actor.",
+        "prohibited_dominant_misuse": "No dominant saturated jade theme."
+      },
+      {
+        "palette_id": "foliage_mid",
+        "semantic_roles": [
+          "foliage_mid"
+        ],
+        "hex": "#657D49",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            245,
+            499
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Leaf masses.",
+        "variation_guidance": "Species variation allowed with shared hierarchy.",
+        "prohibited_dominant_misuse": "No identical stamped leaf detail everywhere."
+      },
+      {
+        "palette_id": "foliage_dark",
+        "semantic_roles": [
+          "foliage_dark"
+        ],
+        "hex": "#415A3E",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            186,
+            479
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Canopy interior and foliage separation.",
+        "variation_guidance": "Subdued green shadows; keep actor silhouettes clear.",
+        "prohibited_dominant_misuse": "No black wall of foreground vegetation."
+      },
+      {
+        "palette_id": "river_light",
+        "semantic_roles": [
+          "river_light"
+        ],
+        "hex": "#80BABA",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            776,
+            319
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Small ripple/light water planes.",
+        "variation_guidance": "Soft blue-green variation; foam can borrow cream.",
+        "prohibited_dominant_misuse": "No neon cyan or global glossy sheen."
+      },
+      {
+        "palette_id": "river_mid",
+        "semantic_roles": [
+          "river_mid"
+        ],
+        "hex": "#50979F",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            919,
+            270
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Main water language.",
+        "variation_guidance": "Blue-green with localized current marks.",
+        "prohibited_dominant_misuse": "No saturated swimming-pool blue over all rivers."
+      },
+      {
+        "palette_id": "river_shadow",
+        "semantic_roles": [
+          "river_shadow"
+        ],
+        "hex": "#3B727E",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "outdoor",
+          "center_xy_px": [
+            725,
+            306
+          ],
+          "method": "pixel"
+        },
+        "common_usage": "Water depth/current separation.",
+        "variation_guidance": "Muted darker blue-green; not a nav/depth measurement.",
+        "prohibited_dominant_misuse": "No black water trough or baked scene shadow."
+      },
+      {
+        "palette_id": "muted_indigo",
+        "semantic_roles": [
+          "muted_indigo"
+        ],
+        "hex": "#636C89",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            275,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Noren, textiles and restrained roof/UI accents.",
+        "variation_guidance": "Blue-gray/indigo family; dark roof also permits charcoal gray.",
+        "prohibited_dominant_misuse": "No blue covering every roof/UI frame."
+      },
+      {
+        "palette_id": "lantern_amber",
+        "semantic_roles": [
+          "lantern_amber"
+        ],
+        "hex": "#F7C483",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "cafe_architecture",
+          "center_xy_px": [
+            718,
+            653
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Lantern material/highlight vocabulary.",
+        "variation_guidance": "Pale warm tones; switched illumination is separate runtime work.",
+        "prohibited_dominant_misuse": "No always-on amber halo on all props."
+      },
+      {
+        "palette_id": "reward_gold",
+        "semantic_roles": [
+          "reward_gold"
+        ],
+        "hex": "#E99C3F",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "collectible_prop",
+          "center_xy_px": [
+            80,
+            76
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Positive reward/completion/unlock highlights.",
+        "variation_guidance": "Restrained gold body and brighter transient highlight.",
+        "prohibited_dominant_misuse": "No routine gold spectacle for all interactions."
+      },
+      {
+        "palette_id": "relationship_coral",
+        "semantic_roles": [
+          "relationship_coral_pink"
+        ],
+        "hex": "#F05948",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "collectible_prop",
+          "center_xy_px": [
+            814,
+            89
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Hearts and relationship feedback.",
+        "variation_guidance": "Soft coral/pink; distinguish from character scarf authority.",
+        "prohibited_dominant_misuse": "No red flood or combat-hit language."
+      },
+      {
+        "palette_id": "sakura_pink",
+        "semantic_roles": [
+          "sakura_pink"
+        ],
+        "hex": "#FAB4A3",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            365,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Seasonal blossom accent.",
+        "variation_guidance": "Pale pink variation with foliage context.",
+        "prohibited_dominant_misuse": "No pink forest in every season/district."
+      },
+      {
+        "palette_id": "maple_orange",
+        "semantic_roles": [
+          "maple_orange"
+        ],
+        "hex": "#F4904A",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "combined_reference",
+          "center_xy_px": [
+            410,
+            28
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Localized seasonal foliage/accent.",
+        "variation_guidance": "Warm oranges with quieter neighbors.",
+        "prohibited_dominant_misuse": "No universal autumn tint or actor palette replacement."
+      },
+      {
+        "palette_id": "hydrangea_violet",
+        "semantic_roles": [
+          "hydrangea_blue_violet"
+        ],
+        "hex": "#AEA6DB",
+        "evidence_class": "MEASURED",
+        "sample": {
+          "reference_id": "collectible_prop",
+          "center_xy_px": [
+            702,
+            373
+          ],
+          "method": "median_9x9"
+        },
+        "common_usage": "Localized flower clusters.",
+        "variation_guidance": "Muted blue/violet variation.",
+        "prohibited_dominant_misuse": "No violet glow or blue flowers on every component."
+      }
+    ],
+    "additional_measured_comparisons": [
+      {
+        "semantic_role": "plaster_cream",
+        "hex": "#F3DEC7",
+        "reference_id": "cafe_architecture",
+        "center_xy_px": [
+          632,
+          392
+        ],
+        "method": "median_9x9"
+      }
+    ],
+    "role_evaluation": {
+      "restrained_jade": "Muted green fabrics/UI are present; no distinct jade anchor or dominant jade requirement is established. Use existing moss/sage relationships only.",
+      "warm_neutral": "Shares warm_stone; lighter cream surfaces remain a separate relationship.",
+      "aged_dark_metal": "Shares charcoal_brown, not a separate bright accent."
+    },
+    "variation_policy": "Anchors describe relationships, not pixel-exact painting constraints. Reference render colors are not measured material albedo."
+  },
+  "materials": [
+    {
+      "material_id": "cedar_honey_wood",
+      "palette_relationship": "cedar_light / cedar_mid / cedar_dark",
+      "texture_density": "Visible broad grain with a few knots; denser recesses, quieter boards.",
+      "edge_treatment": "Defined warm edges; modest rounded wear.",
+      "highlight_character": "Matte light plane, restrained grain highlight.",
+      "local_contrast": "Local construction contrast; no deep global cast shadow.",
+      "acceptable_irregularity": "Uneven grain and small wear.",
+      "prohibited_traits": "Plastic gloss, photoreal wood scans, carved detail on every surface."
+    },
+    {
+      "material_id": "cream_plaster",
+      "palette_relationship": "cream_surface / warm_stone",
+      "texture_density": "Low-frequency mottling, quiet expanses.",
+      "edge_treatment": "Clean architectural boundaries with mild chipped softness.",
+      "highlight_character": "Broad soft form changes.",
+      "local_contrast": "Lower contrast than timber joints.",
+      "acceptable_irregularity": "Sparse stains/chips.",
+      "prohibited_traits": "Busy noise, pure-white sheen, dramatic sunset bake."
+    },
+    {
+      "material_id": "dark_roof_tile",
+      "palette_relationship": "charcoal_brown / muted_indigo",
+      "texture_density": "Readable tile rows grouped at gameplay scale.",
+      "edge_treatment": "Firm eave silhouette; sparse seams.",
+      "highlight_character": "Soft gray-blue ridge highlights.",
+      "local_contrast": "Roof shape stronger than individual tile scratches.",
+      "acceptable_irregularity": "Small tile irregularity.",
+      "prohibited_traits": "Photoreal specular tile grids or strict diamond geometry imposed on Home."
+    },
+    {
+      "material_id": "natural_stone",
+      "palette_relationship": "warm_stone / charcoal_brown",
+      "texture_density": "Faceted painted planes and sparse cracks.",
+      "edge_treatment": "Irregular but readable rock boundaries.",
+      "highlight_character": "Muted warm-gray planes.",
+      "local_contrast": "Moderate contact/recess accents.",
+      "acceptable_irregularity": "Varied stone sizes and planes.",
+      "prohibited_traits": "Uniform rectangular blocks for every natural bank."
+    },
+    {
+      "material_id": "pale_gravel",
+      "palette_relationship": "warm_stone / cream_surface",
+      "texture_density": "Grouped small stones with quieter open ground.",
+      "edge_treatment": "Broken soft boundaries.",
+      "highlight_character": "Sparse pale flecks.",
+      "local_contrast": "Low contrast under paths and actors.",
+      "acceptable_irregularity": "Uneven scatter.",
+      "prohibited_traits": "High-frequency full-screen pebble noise."
+    },
+    {
+      "material_id": "ceramic",
+      "palette_relationship": "cream_surface / muted_indigo",
+      "texture_density": "Mostly quiet glaze with occasional painted motif.",
+      "edge_treatment": "Clear rounded silhouette.",
+      "highlight_character": "Small restrained highlights.",
+      "local_contrast": "Readable rim/interior depth.",
+      "acceptable_irregularity": "Subtle handmade asymmetry.",
+      "prohibited_traits": "Glossy 3D reflections or motifs on every bowl."
+    },
+    {
+      "material_id": "paper",
+      "palette_relationship": "cream_surface / warm_stone",
+      "texture_density": "Faint fibers/mottling.",
+      "edge_treatment": "Stable text-safe centers and readable corners.",
+      "highlight_character": "Broad matte highlights.",
+      "local_contrast": "Low center contrast.",
+      "acceptable_irregularity": "Sparse wear at edges.",
+      "prohibited_traits": "Crumpled/torn text centers or literal cardboard world rendering."
+    },
+    {
+      "material_id": "woven_rattan",
+      "palette_relationship": "cedar_light / cedar_mid / cedar_dark",
+      "texture_density": "Grouped weave with simplified small-scale detail.",
+      "edge_treatment": "Soft woven rim silhouette.",
+      "highlight_character": "Warm restrained highlights.",
+      "local_contrast": "Weave darker than surrounding face but not dominant.",
+      "acceptable_irregularity": "Handmade weave spacing.",
+      "prohibited_traits": "Every strand modeled at thumbnail scale."
+    },
+    {
+      "material_id": "foliage",
+      "palette_relationship": "grass_light / moss / sage / foliage_mid / foliage_dark",
+      "texture_density": "Leaf clusters grouped around large canopy masses.",
+      "edge_treatment": "Organic broken silhouette with clear major shape.",
+      "highlight_character": "Scattered yellow-green leaves.",
+      "local_contrast": "Interior shade separates masses.",
+      "acceptable_irregularity": "Species-specific leaf grouping.",
+      "prohibited_traits": "Uniform leaf stamps or pulsating canopy scale."
+    },
+    {
+      "material_id": "grass",
+      "palette_relationship": "grass_light / moss / sage",
+      "texture_density": "Quiet turf with localized tufts.",
+      "edge_treatment": "Soft broken ground boundary.",
+      "highlight_character": "Sparse lighter tips.",
+      "local_contrast": "Less contrast than interactive objects.",
+      "acceptable_irregularity": "Patch density variation.",
+      "prohibited_traits": "Dense detailed grass on every walkable cell."
+    },
+    {
+      "material_id": "flowers",
+      "palette_relationship": "sakura_pink / maple_orange / hydrangea_violet / cream_surface",
+      "texture_density": "Small clusters, plain neighboring foliage.",
+      "edge_treatment": "Distinct petal grouping.",
+      "highlight_character": "Soft small highlights.",
+      "local_contrast": "Localized accent; preserve actor priority.",
+      "acceptable_irregularity": "Season/species variation.",
+      "prohibited_traits": "Every shrub covered in high-contrast flowers."
+    },
+    {
+      "material_id": "blue_green_water",
+      "palette_relationship": "river_light / river_mid / river_shadow",
+      "texture_density": "Localized strokes/current/ripple; quieter intervening planes.",
+      "edge_treatment": "Broken bank/foam language.",
+      "highlight_character": "Small cream/light-water streaks.",
+      "local_contrast": "Current detail subordinate to actor/action.",
+      "acceptable_irregularity": "Asynchronous local variation.",
+      "prohibited_traits": "Uniform animated shimmer, neon cyan, baked directional scene reflections."
+    },
+    {
+      "material_id": "restrained_metal",
+      "palette_relationship": "charcoal_brown / muted_indigo / reward_gold selectively",
+      "texture_density": "Quiet painted or aged surface.",
+      "edge_treatment": "Firm readable machinery silhouette.",
+      "highlight_character": "Small muted metallic cues.",
+      "local_contrast": "Local edge/recess contrast.",
+      "acceptable_irregularity": "Sparse wear.",
+      "prohibited_traits": "Chrome/PBR render or gold plating on ordinary equipment."
+    }
+  ],
+  "edge_language": {
+    "silhouette": "Readable painted boundary; architectural edges firmer than vegetation.",
+    "outer_line": "Thin warm/dark selective contour; avoid uniform heavy black outline.",
+    "internal_lines": "Sparse construction/character cues, reduced at gameplay size.",
+    "organic_irregularity": "Clustered foliage, modest handmade material variation.",
+    "brush_texture": "Visible but controlled; no blurry watercolor wash or microdetail everywhere."
+  },
+  "lighting_policy": {
+    "neutral_source_assumption": "Soft broadly neutral illumination; local form shading retained without a chosen time of day.",
+    "source_allowed": [
+      "subtle form shading",
+      "restrained intrinsic AO",
+      "material depth cues",
+      "tiny fixed construction shading"
+    ],
+    "runtime_owned": [
+      "time of day",
+      "weather tint",
+      "switchable lamp illumination",
+      "scene atmosphere"
+    ],
+    "source_forbidden": [
+      "golden-hour scene bake",
+      "sunbeams",
+      "sunset/night/weather tint",
+      "character cast shadow",
+      "movable-object directional cast shadow"
+    ],
+    "reference_deviation": "Warm scene illumination and lit lantern halos are contextual reference evidence, not reusable source templates."
+  },
+  "shadow_policy": {
+    "contact_shadow": "Separate registered contact shadow where appropriate; small restrained construction shading may remain intrinsic.",
+    "depth": "Existing GameplayRoot/Y-sort/depth policy remains authoritative.",
+    "forbidden": "Heavy universal drop shadows and long baked directional casts."
+  },
+  "depth_language": [
+    {
+      "role": "distant_out_of_bounds",
+      "contrast": "lowest",
+      "saturation": "muted",
+      "detail": "broad masses",
+      "silhouette": "landmark readability only",
+      "animation": "very restrained",
+      "interaction": "none implied",
+      "actor_occlusion": "must not become a gameplay occluder by visual inference"
+    },
+    {
+      "role": "boundary_mid_depth",
+      "contrast": "lower than gameplay targets",
+      "saturation": "subdued",
+      "detail": "grouped medium",
+      "silhouette": "readable foliage/architecture boundary",
+      "animation": "gentle",
+      "interaction": "only where existing semantics permit",
+      "actor_occlusion": "only through approved registered depth roles"
+    },
+    {
+      "role": "gameplay_world",
+      "contrast": "clear object/actor separation",
+      "saturation": "localized accents",
+      "detail": "rich grouped environment; quiet travel/contact areas",
+      "silhouette": "actor and interactive target priority",
+      "animation": "small localized responses",
+      "interaction": "existing semantic anchors/events",
+      "actor_occlusion": "moving actor must remain legible through layer crossings"
+    },
+    {
+      "role": "foreground_occlusion",
+      "contrast": "framing, never a competing black mass",
+      "saturation": "restrained",
+      "detail": "simplified near shapes",
+      "silhouette": "broken framing edges",
+      "animation": "subtle",
+      "interaction": "none implied by board",
+      "actor_occlusion": "controlled partial overlap; no unreadable traversal or borrowed photographic blur"
+    }
+  ],
+  "detail_hierarchy": {
+    "status": "Human-approved relative tiers; no numeric density threshold",
+    "environment": "medium-high grouped",
+    "architecture": "medium-high grouped",
+    "character": "medium",
+    "world_interactive_prop": "medium",
+    "symbolic_resource_reward": "medium-low; clear silhouette",
+    "ui": "medium-low; quieter than environment",
+    "vfx": "low-medium; clear short response"
+  },
+  "environment_language": {
+    "identity": [
+      "small",
+      "walkable",
+      "personal",
+      "calm",
+      "lived-in",
+      "seasonal",
+      "intimate"
+    ],
+    "vocabulary": [
+      "riverside paths",
+      "low stone retaining walls",
+      "wood railings",
+      "small bridges",
+      "cedar/plaster buildings",
+      "modest tiled roofs",
+      "planted courtyards",
+      "flower boxes",
+      "garden edges",
+      "hill stairs",
+      "restrained harbor/events"
+    ],
+    "layout_authority": false,
+    "density_rule": "Quiet navigation/contact areas between localized plants and architectural richness."
+  },
+  "architecture_language": {
+    "home_anchor": "modest beloved handmade riverside cafe",
+    "materials": [
+      "cedar_honey_wood",
+      "cream_plaster",
+      "dark_roof_tile",
+      "natural_stone"
+    ],
+    "accent_policy": "Muted indigo textiles, moss/sage fabric and small flowers; jade is not dominant.",
+    "family_elements": [
+      "facade",
+      "wall",
+      "eave",
+      "door",
+      "window",
+      "railing",
+      "counter",
+      "service equipment",
+      "furniture",
+      "planters",
+      "cat-life furniture"
+    ],
+    "registration_caveat": "Illustrated modules are not connector/aperture/interior-shell evidence."
+  },
+  "character_authority": {
+    "master": "Locked orange protagonist master; not supplied in this reference directory. Exact approved master ID/hash must be resolved before future character generation.",
+    "exploration_authority": "motion language and rendering compatibility only",
+    "locked_traits": [
+      "marmalade orange tabby",
+      "cream muzzle/chest",
+      "warm amber eyes",
+      "asymmetric ears: upright attentive / softer relaxed",
+      "balanced medium feline body",
+      "expressive striped tail",
+      "small red scarf/collar detail",
+      "feline-first anatomy"
+    ],
+    "observed_drift": [
+      "large round head/eyes",
+      "ear asymmetry inconsistent across poses",
+      "body/leg proportions vary",
+      "stripe placement varies",
+      "tail thickness/length and cream tip vary",
+      "scarf size/knot varies",
+      "expression identity varies"
+    ],
+    "must_not_borrow_as_identity": [
+      "exploration proportions",
+      "frame-specific coat map",
+      "tail-tip color lock",
+      "larger scarf",
+      "uniform ear shape"
+    ]
+  },
+  "character_motion_language": {
+    "intent": [
+      "feline-first",
+      "grounded four-paw locomotion",
+      "subtle vertical body travel",
+      "natural head motion",
+      "expressive tail",
+      "small ear response",
+      "anticipation/action/recovery"
+    ],
+    "concepts": [
+      "idle",
+      "walk",
+      "light trot",
+      "sit",
+      "sniff",
+      "paw interaction",
+      "stretch",
+      "loaf/rest",
+      "tail flick",
+      "ear twitch",
+      "slow blink"
+    ],
+    "forbidden": [
+      "humanoid gait",
+      "body-scale pulsing",
+      "platformer gravity/jump assumptions"
+    ],
+    "static_reference_limit": "Poses do not establish clip maps, direction completeness, frame order, root locks or timing."
+  },
+  "world_prop_language": {
+    "semantic_class": "WORLD_INTERACTIVE_PROP",
+    "examples": [
+      "crate",
+      "basket",
+      "watering can",
+      "ceramic bowl",
+      "planter",
+      "bench",
+      "cat furniture",
+      "delivery parcel"
+    ],
+    "rules": [
+      "world projection",
+      "physical scale",
+      "registered ground contact",
+      "approved occlusion",
+      "existing interaction anchors"
+    ],
+    "automatic_runtime_category_assignment": false
+  },
+  "symbolic_resource_language": {
+    "semantic_class": "SYMBOLIC_RESOURCE / REWARD",
+    "examples": [
+      "coin",
+      "heart",
+      "affection token",
+      "seasonal token",
+      "reward icon"
+    ],
+    "rules": [
+      "clear graphic silhouette",
+      "optional exaggerated presentation scale",
+      "controlled state-specific glow",
+      "UI readability"
+    ],
+    "boundary": "Do not use symbolic icon scale/glow as physical world-prop registration."
+  },
+  "ui_language": {
+    "surfaces": [
+      "warm paper/cream",
+      "wood",
+      "restrained dark trim",
+      "moss/sage",
+      "muted indigo",
+      "selective amber/gold"
+    ],
+    "detail": "lower than environment; quiet text-safe centers",
+    "ornament": "corners/edges only, selected exceptions for feature/reward panels",
+    "states": [
+      "normal",
+      "pressed",
+      "selected",
+      "disabled",
+      "locked",
+      "ready",
+      "reward/new"
+    ],
+    "glow": "selected/ready/reward selectively; normal controls quiet",
+    "bar_rule": "Frame and dynamic fill separate; no dynamic values baked into background.",
+    "nine_slice": "Stable corners, simple sides, stretch-safe center; board is not a sliced production export."
+  },
+  "vfx_language": {
+    "tone": [
+      "soft",
+      "cozy",
+      "responsive",
+      "charming",
+      "readable"
+    ],
+    "families": [
+      "steam",
+      "small sparkle",
+      "tiny puff",
+      "coin pop",
+      "heart",
+      "relationship trail",
+      "petals",
+      "leaves",
+      "grass disturbance",
+      "river ripple",
+      "tiny splash",
+      "dust",
+      "machine puff",
+      "aroma curl",
+      "dust mote"
+    ],
+    "warm_glow": "Selective reward/completion/unlock/special positive response only.",
+    "cool_color": "Soft sky/indigo/river blue-green; reduce neon cyan.",
+    "source_rule": "Transparent effect-only production source; blend mode in metadata; checkerboard/black/dark backgrounds are preview-only.",
+    "board_refinement": "Reduce routine starbursts, gold steam, green upgrade glow and blue cleaning sparkle intensity."
+  },
+  "ambient_motion_language": {
+    "tree": "slow organic foliage-led canopy sway; stable trunk/root/baseline; no whole-sprite scale pulse",
+    "reeds": "small directional flutter",
+    "grass": "gentle local breeze/disturbance",
+    "water": "subtle asynchronous ripple",
+    "petals": "slow drift",
+    "lantern": "small pendulum-like sway",
+    "cloth_noren": "soft restrained flutter",
+    "phase": "offset/random start where appropriate; authored easing and stable anchors",
+    "timing_values": "UNMEASURED; static boards do not validate timing or loop quality"
+  },
+  "feedback_language": {
+    "semantic_examples": {
+      "coffee_completed": "steam + restrained sparkle + small object response",
+      "coin_earned": "coin pop/arc + UI response",
+      "cat_happy": "heart + subtle cat reaction",
+      "relationship_up": "soft heart trail + warm UI accent",
+      "item_collect": "tiny puff + selective sparkle",
+      "walk_in_grass": "local grass disturbance",
+      "river": "occasional ripple/splash",
+      "button_press": "short press/bounce"
+    },
+    "binding": "Conceptual names only; bind later to existing approved event IDs without creating gameplay semantics.",
+    "camera_impulse": "Very subtle, rare and purposeful."
+  },
+  "generation_consistency": {
+    "authority_order": [
+      "exact canonical character/asset master",
+      "approved style calibration",
+      "approved category-specific reference images",
+      "palette/material/projection rules",
+      "rights-permitted reference conditioning",
+      "provider/model/settings",
+      "optional provider-scoped seed"
+    ],
+    "seed": "Provider/model/version-specific reproducibility metadata; never cross-provider identity authority.",
+    "record_when_available": [
+      "provider",
+      "model",
+      "model_version",
+      "generation_settings",
+      "reference_ids",
+      "reference_hashes",
+      "seed",
+      "prompt_spec_version"
+    ],
+    "rights_scope": "generative_conditioning_reference",
+    "rights_rule": "Must be permitted for exact inputs/use; selected reference status does not grant conditioning rights.",
+    "current_provider_integration": "not authorized"
+  },
+  "godot_compatibility": {
+    "target": "Godot 4.7.2 as specified by project task; no runtime test performed here",
+    "logical_actor": "CharacterBody2D on ground plane",
+    "visuals": [
+      "VisualRoot",
+      "AnimatedSprite2D",
+      "SpriteFrames",
+      "AnimationPlayer",
+      "TileMapLayer",
+      "Y-sort",
+      "foreground occlusion",
+      "separate contact shadows"
+    ],
+    "ui": [
+      "CanvasLayer",
+      "Control"
+    ],
+    "binding": "Existing semantic anchors/events only; no navigation/collision/world changes."
+  },
+  "diorama_interpretation": "Illustrated living diorama: layered silhouettes, tactile painted surfaces and clear overlap; no literal cardboard/cutout outlines or heavy drop shadows.",
+  "prohibited_traits": [
+    "wrong projection",
+    "side-view/platformer presentation",
+    "strict top-down presentation",
+    "unjustified strict isometric grid",
+    "pixel art",
+    "glossy 3D",
+    "heavy black cartoon contours",
+    "family detail mismatch",
+    "incompatible material rendering",
+    "dominant saturation",
+    "dominant jade Art Deco",
+    "baked time-of-day lighting",
+    "incompatible shadows",
+    "fantasy/combat spectacle",
+    "generic Japanese clip-art",
+    "protagonist identity drift",
+    "over-ornate UI",
+    "routine gold glow",
+    "neon combat VFX",
+    "world props at icon scale",
+    "symbolic rewards used as physical props",
+    "humanoid cat anatomy"
+  ],
+  "allowed_variation": [
+    "seasons",
+    "districts",
+    "tree species",
+    "flowers",
+    "market/cafe materials",
+    "garden/riverside",
+    "runtime weather",
+    "special events",
+    "individual cats within their approved masters"
+  ],
+  "human_review": {
+    "status": "approved",
+    "decision_type": "style_calibration_only",
+    "reviewer_principal": "human_user_of_current_conversation",
+    "reviewer_role": "human_style_reviewer",
+    "required_role": "human_art_lead_or_style_reviewer",
+    "recorded_at": "2026-09-30T12:28:46Z",
+    "timestamp_basis": "Recording time from host clock; not a signed review timestamp.",
+    "evidence_type": "explicit_human_review_decision_in_current_conversation",
+    "reviewed_version": "1.0.0-candidate.1",
+    "reviewed_artifacts": [
+      {
+        "path": "docs/art_direction/WILLICAT_STYLE_FAMILY_CALIBRATION_V1.md",
+        "sha256": "2ba21431991372149ba91967cd778d55a4938d42c87e26e2132b94c3b386a965"
+      },
+      {
+        "path": "docs/asset_factory/style_families/WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1.json",
+        "sha256": "b81a57a3dd5b6fbb960152005378db4b5869493029d055ae1115367faf311f46"
+      }
+    ],
+    "reviewed_reference_hashes": {
+      "outdoor": "16c97dc2c1921460edb96b759fd9c9c4af525fd318a5edc06fbc636761a77d46",
+      "depth": "edf58af896509ca6ed9c6e9ebd8a5c72ec2287f4641e56241cc22dd054378a8f",
+      "cafe_architecture": "27e09bb08468524a08f727f909b8d96537c21bab6d7683cff9099999c982800d",
+      "town_world": "ede9dabd3d68f7334ca6094b18d47b75dcaaf9b9d4d02dab33cc2bed09bdd58c",
+      "character_motion": "bc052b5b77d1395affd09b9d4dfda90d0c8048b8d78ce0cb78c0f39ae1b86bd5",
+      "collectible_prop": "3389cd9993780e86b40f4d59af22c91997ff884d5be1638037f1977def634908",
+      "ui": "2db8c91337285d33a09e2200342343a7e9283c0e81e219b2c2ed09ed01c27b16",
+      "vfx": "0e97a488f857759e5a4852d81c0fc52a260456cd7d7c3ce6630cb01591035fe8",
+      "combined_reference": "691ce8e4663bfcbc51bc7d5b90b11fe9ea3b0536a2f85f4522b4a3db092ebcbb"
+    },
+    "decision": "approve_with_documented_refinements_and_limitations",
+    "authorized_use": [
+      "visual_input_for_asset_factory_mvp",
+      "visual_input_for_animated_environment_tree_mvp"
+    ],
+    "accepted_direction": [
+      "2D runtime with 2.5D presentation",
+      "Elevated 3/4, Soft Isometric-Lite",
+      "Japanese Riverside Storybook world",
+      "measured palette and material family",
+      "cedar / cream plaster / moss / sage / river blue-green language",
+      "restrained seasonal accents",
+      "neutral reusable source lighting",
+      "layered depth and occlusion",
+      "canonical orange protagonist remains separate identity authority",
+      "quieter mobile UI",
+      "restrained cozy VFX",
+      "world props separated from symbolic resource visuals"
+    ],
+    "accepted_refinements_and_limitations": true,
+    "preserved_requirements": [
+      "source-rights gates",
+      "registration validation",
+      "motion validation",
+      "runtime validation",
+      "production credential / publisher requirements"
+    ],
+    "production_publication_authorized": false,
+    "tree_generation_or_implementation_authorized": false,
+    "production_asset_approval": false,
+    "authentication_boundary": "This records the explicit human conversation decision for style visual-input use. No credential, signature or Phase 0 production approval envelope was supplied or fabricated. It cannot satisfy authenticated production approval or authorize publication.",
+    "approval_must_bind": [
+      "exact style record version/hash",
+      "all reference hashes",
+      "palette/material/projection rules",
+      "explicit refinements",
+      "review evidence"
+    ],
+    "notes": "Visual contents, palette, reference identities and all documented refinements/limitations are unchanged. Approval metadata is promoted to version 1.0.0; the exact reviewed candidate artifacts are identified above."
+  },
+  "known_limitations": [
+    "No gameplay-camera/mobile-scale render or moving-actor proof performed.",
+    "No canonical protagonist master in permitted directory; textual identity preserved, no direct master comparison.",
+    "Still boards cannot validate authored timing, root drift, seams, clip semantics or direction coverage.",
+    "No production pivot/connector/aperture/adjacency/geometry values measured.",
+    "Selected PNG provenance/conditioning rights not independently resolved by this visual audit.",
+    "Town/depth atmospheric lighting, blur and perspective must not be copied into modular sources.",
+    "VFX board is not clean effect-only alpha source.",
+    "Human style acceptance is recorded for MVP visual input only; no authenticated production approval envelope or publication authorization exists."
+  ],
+  "tree_mvp_visual_input": {
+    "recommendation": "YES — sufficient visual calibration input",
+    "scope": "Human-approved visual input for future Asset Factory MVP and Animated Environment Tree MVP; no tree generation/implementation or production publication authorization.",
+    "remaining_stage_requirements": [
+      "separate explicit authorization before tree generation or MVP implementation",
+      "approved technical template and ground registration",
+      "exact input rights scopes",
+      "calibrated motion policies and technical animator review",
+      "gameplay-camera/actor occlusion proof",
+      "authenticated final approval and eligible runtime bundle"
+    ]
+  },
+  "approval_scope": "mvp_visual_input_only"
+}

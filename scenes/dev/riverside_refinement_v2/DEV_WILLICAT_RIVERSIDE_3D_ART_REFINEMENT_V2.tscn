@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/dev/riverside_refinement_v2/riverside_refinement_v2.gd" id="1"]
+[node name="DEV_WILLICAT_RIVERSIDE_3D_ART_REFINEMENT_V2" type="Node3D"]
+script = ExtResource("1")

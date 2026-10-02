@@ -1,0 +1,128 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "style_family_version": "1.0.0",
+  "total_new_generation_calls": 3,
+  "regenerations": 0,
+  "families": [
+    {
+      "family_id": "architecture_family_v1",
+      "provider": "OpenAI built-in image_gen",
+      "model": "NOT_EXPOSED",
+      "model_version": "NOT_EXPOSED",
+      "generation_id": "NOT_EXPOSED",
+      "seed": "NOT_EXPOSED",
+      "generation_timestamp_utc": "2026-10-01T02:30:09.195501+00:00",
+      "timestamp_basis": "provider output file modification time; provider generation timestamp not exposed",
+      "prompt_spec_version": "cafe_kit_family_v1",
+      "prompt": "Use case: illustration-story. ORIGINAL WilliCat Japanese Riverside Storybook reusable 2D game sprites, elevated 3/4 soft isometric-lite. Matte painted gouache, fine handcrafted contours, honey cedar #C68F5E / #9B6D44, dark-brown #583F2E, cream plaster #F3DEC7, muted sage #526F4E, indigo #636C89. Warm but neutrally lit, no baked sun beams, no cast ground shadows, no glossy 3D, no pixel art, no thick cartoon outline. TRUE transparent alpha background. Widely spaced isolated complete assets with large clear gutters and generous external margins. No scene composition, no floor or room background, no animals, no characters, no readable text, no labels, no grids, no watermark. Same projection/material handling across all cells. Crisp readable major forms; understated grain. ONE 3x3 architecture FAMILY SHEET with EXACTLY NINE separate sprites arranged evenly in reading order. Row1: (1) landscape plain cream-plaster wall module with narrow cedar perimeter, width about 3 times height; (2) matching landscape plaster wall module with one additional vertical cedar stud, same dimensions; (3) Japanese cedar-framed shoji window with cream paper panes and dark fine lattice, moderate rectangle. Row2: (4) freestanding tall slim cedar structural post; (5) long horizontal cedar beam, no supports or wall attached; (6) low wooden lattice divider / railing module. Row3: (7) single amber-paper pendant lamp with short hanging cord, lamp unlit so glow can be separate at runtime; (8) landscape blank charcoal chalkboard in cedar frame, absolutely NO writing, symbols or painted menu; (9) modest empty cedar wall shelf with two little brackets. Wall modules mount vertically; objects show subtle right side and top faces. No shelves filled with clutter. Each item isolated inside its own roomy invisible cell; no item crossing into another cell.",
+      "generation_count": 1,
+      "original_provider_file": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-fd42ef84-c798-4605-a708-ec405fa3565c.png",
+      "source_path": "assets/dev_review/cafe_interior_kit_v1/source/architecture_family_v1.png",
+      "source_sha256": "ca779b2d2ad64ad7f8cbf526c222bd6e189fbf54bda808364ff871a833f987b8",
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "roles": [
+        "wall_plain",
+        "wall_framed",
+        "window_shoji",
+        "post_cedar",
+        "beam_cedar",
+        "divider_cedar",
+        "lamp_pendant",
+        "menu_blank",
+        "shelf_empty"
+      ],
+      "rows": 3,
+      "cols": 3
+    },
+    {
+      "family_id": "counter_family_v1",
+      "provider": "OpenAI built-in image_gen",
+      "model": "NOT_EXPOSED",
+      "model_version": "NOT_EXPOSED",
+      "generation_id": "NOT_EXPOSED",
+      "seed": "NOT_EXPOSED",
+      "generation_timestamp_utc": "2026-10-01T02:30:36.116986+00:00",
+      "timestamp_basis": "provider output file modification time; provider generation timestamp not exposed",
+      "prompt_spec_version": "cafe_kit_family_v1",
+      "prompt": "Use case: illustration-story. ORIGINAL WilliCat Japanese Riverside Storybook reusable 2D game sprites, elevated 3/4 soft isometric-lite. Matte painted gouache, fine handcrafted contours, honey cedar #C68F5E / #9B6D44, dark-brown #583F2E, cream plaster #F3DEC7, muted sage #526F4E, indigo #636C89. Warm but neutrally lit, no baked sun beams, no cast ground shadows, no glossy 3D, no pixel art, no thick cartoon outline. TRUE transparent alpha background. Widely spaced isolated complete assets with large clear gutters and generous external margins. No scene composition, no floor or room background, no animals, no characters, no readable text, no labels, no grids, no watermark. Same projection/material handling across all cells. Crisp readable major forms; understated grain. ONE wide horizontal FAMILY SHEET, EXACTLY THREE independent complete sprites with extremely generous transparent spacing and aligned base contacts. LEFT: a long Japanese cafe service counter module, about 3.2 times as wide as tall, honey cedar vertical plank front, visible right side face, broad matte pale-cream stone countertop, very restrained dark hardware. Counter EMPTY: no equipment, no props. CENTER: matching compact square-width service cabinet with same cream stone countertop, honey cedar front doors and right side; noticeably taller relative to width than long counter, suited to supporting a grinder or espresso machine. RIGHT: one modest grouped ceramic service set, three off-white mugs and a tiny milk pitcher on a narrow wooden tray; an isolated tabletop accessory, no cabinet attached. Main and short module need clear floor contacts; no cast external shadows, no perspective mismatch, no poles. Preserve all outer countertop corners. Treat this as one coherent kit.",
+      "generation_count": 1,
+      "original_provider_file": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-f071e163-dc72-4519-a560-315ca1da3dbf.png",
+      "source_path": "assets/dev_review/cafe_interior_kit_v1/source/counter_family_v1.png",
+      "source_sha256": "3387c03b60a54f70129f53d91ca5ab4a6eb724a453626cd5c679ba9b91b0e562",
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "roles": [
+        "counter_main",
+        "counter_short",
+        "ceramic_service"
+      ],
+      "rows": 1,
+      "cols": 3
+    },
+    {
+      "family_id": "decor_family_v1",
+      "provider": "OpenAI built-in image_gen",
+      "model": "NOT_EXPOSED",
+      "model_version": "NOT_EXPOSED",
+      "generation_id": "NOT_EXPOSED",
+      "seed": "NOT_EXPOSED",
+      "generation_timestamp_utc": "2026-10-01T02:31:17.664524+00:00",
+      "timestamp_basis": "provider output file modification time; provider generation timestamp not exposed",
+      "prompt_spec_version": "cafe_kit_family_v1",
+      "prompt": "Use case: illustration-story. ORIGINAL WilliCat Japanese Riverside Storybook reusable 2D game sprites, elevated 3/4 soft isometric-lite. Matte painted gouache, fine handcrafted contours, honey cedar #C68F5E / #9B6D44, dark-brown #583F2E, cream plaster #F3DEC7, muted sage #526F4E, indigo #636C89. Warm but neutrally lit, no baked sun beams, no cast ground shadows, no glossy 3D, no pixel art, no thick cartoon outline. TRUE transparent alpha background. Widely spaced isolated complete assets with large clear gutters and generous external margins. No scene composition, no floor or room background, no animals, no characters, no readable text, no labels, no grids, no watermark. Same projection/material handling across all cells. Crisp readable major forms; understated grain. ONE 2x3 decor FAMILY SHEET with EXACTLY SIX isolated props, evenly spaced and generous padding. TOP ROW: (1) compact wide cedar wall shelf with six simple ceramic jars/cups and three small books as a modest integrated static shelf prop; no readable labels; (2) one hanging sage/moss trailing plant in a small cream pot with complete hanger strings; (3) one small cedar-framed countryside art picture, abstract river/reeds with NO text. BOTTOM ROW: (4) an EMPTY low cedar cat-rest platform with sage padded cushion and small cream pillow, NO cat or other animal; (5) one small cream ceramic pot of restrained off-white hydrangea-like blossoms and sage leaves, suitable for a tabletop; (6) a small cedar tea tray with two off-white coffee cups, one tiny pastry on a plate and a plain folded napkin. Illustrate objects individually in elevated 3/4; wall items vertical. Keep tabletop props modest, not sprawling decorative bouquets. No signage, no animals. Tight cohesive handcrafted cafe material family.",
+      "generation_count": 1,
+      "original_provider_file": "/Users/teddywoot/.codex/generated_images/01a0edcc-5d93-7cf3-be90-69641e796e03/exec-97627a7f-f532-4d93-9ccc-fe5ee337454e.png",
+      "source_path": "assets/dev_review/cafe_interior_kit_v1/source/decor_family_v1.png",
+      "source_sha256": "7891efc55a24d903d01e8481e3de9b3df9299d1779037787e1e6f32a1068f38e",
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "roles": [
+        "shelf_ceramics",
+        "plant_hanging",
+        "art_framed",
+        "cat_bed_empty",
+        "flower_small",
+        "tea_tray"
+      ],
+      "rows": 2,
+      "cols": 3
+    }
+  ],
+  "attached_reference_identities": [
+    {
+      "filename": "codex-clipboard-2ec56610-c2f2-42d0-851a-f7a747b92645.png",
+      "sha256": "ea5daff3c92e32bb7e525f542bf6fbd813d58e44ece50f81c418fb1c1ce5c639",
+      "semantic_role": "illustrated café presentation target; runtime scene remains geometry authority",
+      "generation_conditioning_used": false
+    },
+    {
+      "filename": "codex-clipboard-3ef99a70-ff37-4cd5-8fd4-de384ab269b8.png",
+      "sha256": "f39690eb202a4c81498865097ac73f8ec037d4f839504c3b08e351421769deb2",
+      "semantic_role": "asset-vocabulary / material / cohesion target, not a source atlas",
+      "generation_conditioning_used": false
+    }
+  ],
+  "reference_boundary": "QA/design review only. Written approved material/projection rules were used in prompts; no supplied reference pixels conditioned generation. No third-party pack pixels were used.",
+  "rights_by_use_scope": {
+    "structural_study": "permitted",
+    "dev_runtime": "permitted",
+    "production_runtime": "unresolved",
+    "modification": "permitted",
+    "raw_redistribution": "unresolved",
+    "generative_conditioning_reference": "unresolved",
+    "ai_training": "unresolved",
+    "publication_distribution": "unresolved"
+  },
+  "rights_evidence": "Human task explicitly authorizes source generation, deterministic processing and isolated DEV playable review; no new provider licensing conclusion or production permission",
+  "human_visual_review": "pending",
+  "canonical_integration_proof_executed": false,
+  "production_publication": "blocked"
+}

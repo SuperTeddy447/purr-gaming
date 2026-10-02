@@ -1,0 +1,155 @@
+{
+  "scope": "DEV_DIAGNOSTIC",
+  "texture_import_settings": {
+    "wall_plain.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "cat_bed_empty.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "window_shoji.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "menu_blank.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "shelf_ceramics.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "art_framed.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "flower_small.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "wall_framed.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "floor_quiet.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "counter_top.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "post_cedar.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "ceramic_service.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "beam_cedar.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "divider_cedar.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "shelf_empty.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "plant_hanging.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "counter_main.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "lamp_pendant.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "tea_tray.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "counter_front.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    },
+    "counter_short.png.import": {
+      "compress/mode": "0",
+      "mipmaps/generate": "false",
+      "process/fix_alpha_border": "true",
+      "process/premult_alpha": "false",
+      "process/size_limit": "0"
+    }
+  },
+  "runtime_sprite_filter": "LINEAR",
+  "floor_texture_repeat": "ENABLED",
+  "cache_authority": false
+}

@@ -1,0 +1,11 @@
+{
+	"checks": {
+		"actual_screen_click_creates_gameplay_marker": true,
+		"authority_unchanged": true,
+		"click_navigation_reaches_floor_target": true,
+		"fixed_orthographic": true,
+		"ready": true
+	},
+	"count": 5,
+	"passed": true
+}

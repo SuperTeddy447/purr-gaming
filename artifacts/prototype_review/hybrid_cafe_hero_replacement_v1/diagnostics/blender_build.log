@@ -1,0 +1,67 @@
+<string>:3: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+ข้อมูล: Saved as "WC_CAFE_Counter_Straight_A.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+00:51:48 | INFO: Starting glTF 2.0 export
+00:51:48 | INFO: Extracting primitive: CarcassInsideRecess_Mesh
+00:51:48 | INFO: Primitives created: 4
+00:51:48 | INFO: Finished glTF 2.0 export in 0.0262448787689209 s
+
+ข้อมูล: Saved as "WC_CAFE_Counter_End_A.blend"
+00:51:48 | INFO: Starting glTF 2.0 export
+00:51:48 | INFO: Extracting primitive: CarcassInsideRecess_Mesh.001
+00:51:48 | INFO: Primitives created: 4
+00:51:48 | INFO: Finished glTF 2.0 export in 0.010139942169189453 s
+
+ข้อมูล: Saved as "WC_CAFE_Counter_Short_A.blend"
+00:51:48 | INFO: Starting glTF 2.0 export
+00:51:48 | INFO: Extracting primitive: CarcassInsideRecess_Mesh.002
+00:51:48 | INFO: Primitives created: 4
+00:51:48 | INFO: Finished glTF 2.0 export in 0.008805990219116211 s
+
+ข้อมูล: Saved as "WC_CAFE_Espresso_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: AnalogGauge_Mesh
+00:51:49 | INFO: Primitives created: 8
+00:51:49 | INFO: Finished glTF 2.0 export in 0.021322965621948242 s
+
+ข้อมูล: Saved as "WC_CAFE_Chair_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: CurvedLowerBackRail_Mesh
+00:51:49 | INFO: Primitives created: 4
+00:51:49 | INFO: Finished glTF 2.0 export in 0.01213216781616211 s
+
+ข้อมูล: Saved as "WC_CAFE_Wall_Window_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: ContinuousCedarWallPost_Mesh
+00:51:49 | INFO: Primitives created: 5
+00:51:49 | INFO: Finished glTF 2.0 export in 0.010225296020507812 s
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Floor_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: HandThrownSoftPot_Mesh
+00:51:49 | INFO: Primitives created: 5
+00:51:49 | INFO: Finished glTF 2.0 export in 0.015810012817382812 s
+
+ข้อมูล: Saved as "WC_CAFE_Planter_Table_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: HandThrownSoftPot_Mesh.001
+00:51:49 | INFO: Primitives created: 4
+00:51:49 | INFO: Finished glTF 2.0 export in 0.007823944091796875 s
+
+ข้อมูล: Saved as "WC_CAFE_Plant_Trailing_A.blend"
+00:51:49 | INFO: Starting glTF 2.0 export
+00:51:49 | INFO: Extracting primitive: HandThrownSoftPot_Mesh.002
+00:51:49 | INFO: Primitives created: 5
+00:51:49 | INFO: Finished glTF 2.0 export in 0.014060735702514648 s
+
+ข้อมูล: Saved as "WC_CAFE_Plant_Flowering_A.blend"
+00:51:50 | INFO: Starting glTF 2.0 export
+00:51:50 | INFO: Extracting primitive: FlowerStem_Mesh
+00:51:50 | INFO: Primitives created: 7
+00:51:50 | INFO: Finished glTF 2.0 export in 0.014035940170288086 s
+
+HERO REPLACEMENTS BUILT 10
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

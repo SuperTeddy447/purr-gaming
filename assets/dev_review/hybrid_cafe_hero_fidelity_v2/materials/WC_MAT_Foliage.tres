@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_hero_fidelity_v2/painted_foliage.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_kit_v1/textures/foliage_painted.png" id="2"]
+[resource]
+resource_name = "WC_MAT_Foliage"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.3843137254901961, 0.4980392156862745, 0.2823529411764706, 1)
+shader_parameter/reference_luma = 0.1968433181684167
+shader_parameter/texture_strength = 0.23
+shader_parameter/painted_field_strength = 0.022
+shader_parameter/edge_warmth = 0.015
+shader_parameter/material_roughness = 0.99
+shader_parameter/restrained_specular = 0

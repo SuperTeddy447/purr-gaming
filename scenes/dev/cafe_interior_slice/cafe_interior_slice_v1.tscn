@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://scenes/dev/first_party_style_proof/home_first_party_style_proof_001.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/cafe_interior_slice/cafe_slice.gd" id="2"]
+[node name="WilliCatCafeInteriorReview" instance=ExtResource("1")]
+autoplay_route = false
+[node name="CafeInteriorVisualSlice" type="Node" parent="."]
+script = ExtResource("2")

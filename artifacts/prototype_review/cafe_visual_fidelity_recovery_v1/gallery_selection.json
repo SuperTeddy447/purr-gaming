@@ -1,0 +1,31 @@
+{
+  "02_RECOVERED_FULL_SLICE.png": {
+    "capture": "frames/00013.png",
+    "recorded_timestamp_ms": 3848,
+    "basis": "real navigation, full scene; no actor teleport or pixel edits"
+  },
+  "07_GAMEPLAY_SCALE.png": {
+    "capture": "depth_table_front.png",
+    "basis": "real navigation to recorded table_front target"
+  },
+  "04_COUNTER_CLOSE.png": {
+    "capture": "04_COUNTER_CLOSE.png",
+    "native_crop_px": [
+      0,
+      135,
+      504,
+      480
+    ],
+    "pixel_processing": "crop only, no retouching/upscale"
+  },
+  "05_SEATING_CLOSE.png": {
+    "capture": "05_SEATING_CLOSE.png",
+    "native_crop_px": [
+      0,
+      290,
+      504,
+      670
+    ],
+    "pixel_processing": "crop only, no retouching/upscale"
+  }
+}

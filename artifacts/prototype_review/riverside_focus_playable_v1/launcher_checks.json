@@ -1,0 +1,9 @@
+{
+  "python_syntax": true,
+  "path_rejection_checks": {
+    "path_traversal": true,
+    "symlink_escape": true,
+    "existing_project": true,
+    "non_temporary_destination": true
+  }
+}

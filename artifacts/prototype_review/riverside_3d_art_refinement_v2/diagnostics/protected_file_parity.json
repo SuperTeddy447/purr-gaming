@@ -1,0 +1,15 @@
+{
+  "scope": "all pre-existing non-cache source files; approved baseline/V1/Home/Tree protected",
+  "checked_files": 7246,
+  "changed_or_missing_files": [],
+  "passed": true,
+  "excluded_directory_names": [
+    ".git",
+    ".godot",
+    ".venv",
+    "node_modules",
+    "__pycache__"
+  ],
+  "commit_performed": false,
+  "push_performed": false
+}

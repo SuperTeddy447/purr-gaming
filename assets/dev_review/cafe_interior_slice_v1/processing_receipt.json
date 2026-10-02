@@ -1,0 +1,67 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "code_version": "working tree; content hashes are authoritative",
+  "repository_HEAD": "c25d8d00a54d87419c63a329e22ee83f91198ba9",
+  "python": "3.9.6",
+  "Pillow": "11.3.0",
+  "numpy": "2.0.2",
+  "Godot": "4.7.2.stable.official.ed1daf0bf",
+  "forge_file_hashes": {
+    "static_prop.py": "f73751e926cf73f745aa400f54029a30a4cb43dfc0f7821d1e29725a9d933bc8",
+    "requirements.txt": "3344efb382fe0eb0f8ba53f39281b3f3c983ab05f29095ba438f0e3559087e43",
+    "pyproject.toml": "149e145948742854c17e1303defc140b4a7252a30ab90c6206dd8a8b3052e46d"
+  },
+  "cafe_code_hashes": {
+    "scripts/dev/cafe_interior_slice/cafe_polish.gd": "783ee7d92384c7ce299e4638cb6113e05b838965d1ed7f311f885ad7b61a42c1",
+    "scripts/dev/cafe_interior_slice/cafe_slice.gd": "39bd1c374d272abf9391d68eb59971f5d45953103a49851ef8b6c8f04077443f",
+    "scenes/dev/cafe_interior_slice/cafe_interior_slice_v1.tscn": "52030c0a1e48d7a6fec1d7ed181872edbd679f9a2b093a5fa3066558719a31db",
+    "tools/willicat_cafe_slice/run.py": "265bda5e913fd636dca133eb27289ddbca7d64ebe7ae90f1d262b3efd041b39e",
+    "tools/willicat_cafe_slice/README.md": "9c3786d14cf61c58bed2136d00d2f8609a5208c6687f79455e2ced8208358a34",
+    "tools/willicat_cafe_slice/OpenCafeReview.command": "4606eb62cd8bd572e174ab856d151eca9fd9cf70313c1b9a651f95fc4264c8ff",
+    "tests/capture_cafe_interior_slice_v1.gd": "62d930fbffac5e762f280e017c4835b3b043a43276e10bafd5afdf9195f33b44",
+    "tests/test_cafe_interior_slice_v1.gd": "19cdf58d27a7afc90ae3a929d8b54c0b5f09ed031dd60906ef288020f2beac44"
+  },
+  "source_file_hashes": {
+    "chair_ne": "4404276072a80b7c1a9e2fc71f41528ed16741173c8793eada14f14f27155263",
+    "entrance_frame": "96c8010355c5b019218531f96f28c4334459f9361092d0b2706c1ac89f6503c3",
+    "floor_cedar": "c5630f47855736d1a3430895233c829ed3f8eeefef0461c8a926eee9e991e33f",
+    "chair_nw": "6b560eb34c8b23b4219df150d3e716ce491bf257ae22eb271ddb90c9f8d6a025",
+    "counter_cedar": "22ea38bf7a51f4feedb6166dc1c00c035083b1b289ee7a3f16b9b1e05a65e31c",
+    "espresso": "3875d5342d44baba83c096d51f1e894290ecb0af97d4eafa58b994ceb11209e2",
+    "table_cedar": "a62dc45cbb984cc036f886058c632b5e35f919210fc34f3c72432d230d7e4005",
+    "pos": "4e52280ea16649620c08ff54b19076eaf2e26c40ff52e66a643c062c1709bce4",
+    "wall_plaster": "287f10c56ca36f6260abf153e8453787565865d47453c76d02923fd1ef7d6288",
+    "grinder": "70f89cf81656900993914b2f9effc946c5f703c43ea9ec6a10ae7771fcde5c5d",
+    "planter": "fed126d4696edf71f68e8ade1316fcf9d8ae17245fa99ac9862154a5d3a1a851"
+  },
+  "decoded_source_pixel_hashes": {
+    "chair_ne": "27d09b37178011597065e89d125c419adaf5d4db5dc88f57e7411a03915effd9",
+    "entrance_frame": "d2131e72a8ac120d8fc8a07b5bbd3bb549536292ab4848dc177720fb1619b43e",
+    "floor_cedar": "75483c0fc26ff7c68ec649c5aee5c3b87c2fcd162cc3fe37a539299e1cbf7789",
+    "chair_nw": "b7b061d08c3b289abb2a41af04af0a0c6a78a61ed13d2e23fa9158b2550e5360",
+    "counter_cedar": "6732d14ea5a3c1d76165e6264d5ca5f9cac705c1d74ad50b774fc3274379ba21",
+    "espresso": "e7930fceee1bce8a6c18e9fab177cd77b788cbf0540cfaea21f2ef45a77d68e9",
+    "table_cedar": "d65bb615c9cc5981f56da4afc6813cff8372e106aeb944bf656f27ff73f5be7a",
+    "pos": "c5a2496ae7854d4fb6df44ba58c43866d924a0f6b43092dbf1c78ff354c7d713",
+    "wall_plaster": "987f70ae19b267b86f1571a51b8d0cb5ffda3c663a19e11febc89b4a91a62548",
+    "grinder": "2f25447c1be2e93e2b72c33ef5002935580ecccf243cb81051c48aaac5fb25a7",
+    "planter": "dc1f9a1ce50f55aaa59b900bb766e32a1d627590ffeb2e4e7d37cd2697abd5fb"
+  },
+  "runtime_file_hashes": {
+    "assets/dev_review/cafe_interior_slice_v1/runtime/chair_ne.png": "77718ddacbcd5445b80630572bded92d1f2eabd4375fac17447e25e1785846e3",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/entrance_frame.png": "5e6743ab223d01760c5d42ada0ec171da47c56dacb6f49874d8ea3164e21559b",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/floor_cedar.png": "419146409606f5031b5e10eba714b799d35ccc200ff24c36acc479fee5b40df6",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/chair_nw.png": "d125e58e7c96312cf8a42934c36951cefe15ea71f265f4a94f66802638869ff4",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/contact_shadow.png": "49cb508f0ae4074cd1cb6f5ddf84ee13da5a11916bdedc834881dbbf0b4e1ef7",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/practical_light.png": "350a37d3d1fbe77eea874a8eb3c448f4c4b8b3c13e2ea09e2c8267ba1912769e",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_cedar.png": "a43a29fd74e19a0244e1dfdd7454843f1d21497c3f5ef44dbe2d562073b36d54",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/espresso.png": "378657aaf413f8d2035689bb78c69979550c4e813bfce8f717a45880b78c1976",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_front.png": "23acb38b97d9d4ed7928c4ca99136f0b3d2797d3afc0c0ccaa99e103c574aeda",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/table_cedar.png": "3ae8401ae3624c5b7a9c96cb104eb96a4e0a07540b6d465b06a0bfd85f4d9784",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/pos.png": "3381ce9d718da2cbedd5ee989d9377e062a244242223f8295a41e8dcd1214b5e",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/counter_top.png": "b7d936bb2e1835f811347274f946fbc248a2dc37642e043216f694411eac1572",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/wall_plaster.png": "17d220b43591c4306ffcf22390a16498ea85bc06c2bbdaa21584dba57fff8f9d",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/grinder.png": "0871906c6870846988365562a2cb02b7207ecef51b3cd45f893b1adcd419f51f",
+    "assets/dev_review/cafe_interior_slice_v1/runtime/planter.png": "c576ee1910ad16eef610dd4783c16ddb6c9f0e6957e44797aac53a03bd628a8f"
+  }
+}

@@ -1,0 +1,677 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M2 Pro
+
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/shadow.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] run (res://DEV_DIAGNOSTIC_tree.gd:74)
+ERROR: res://scenes/dev/home_continuous_proxy/animated_tree_prop.tscn:14 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/dev_proxy/tiny_swords/shadow.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:41)
+   GDScript backtrace (most recent call first):
+       [0] run (res://DEV_DIAGNOSTIC_tree.gd:74)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/floor_wood.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _make_tiles (res://scripts/dev/proxy_cafe/proxy_installer.gd:37)
+       [1] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:21)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _make_tiles (res://scripts/dev/proxy_cafe/proxy_installer.gd:39)
+       [1] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:21)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/wall_stone.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _make_tiles (res://scripts/dev/proxy_cafe/proxy_installer.gd:37)
+       [1] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:22)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _make_tiles (res://scripts/dev/proxy_cafe/proxy_installer.gd:39)
+       [1] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:22)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/window.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:26)
+       [1] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/window.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _build_shell (res://scripts/dev/proxy_cafe/proxy_installer.gd:26)
+       [1] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:14)
+       [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/counter.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:60)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:60)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/espresso.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:69)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:69)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/pos.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:70)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:70)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/grinder.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:71)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:71)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/pastry.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:72)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:72)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/table_round.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:74)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:74)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/table_round.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:74)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:74)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/chair.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/chair.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/chair.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/chair.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:76)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/cat_bed.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:77)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:77)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/scratch.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:113)
+       [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:78)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_width' on a null value.
+          at: _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _visual (res://scripts/dev/proxy_cafe/proxy_installer.gd:117)
+              [1] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:78)
+              [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Node not found: "DepthSortedLayer/WorldObjects/ScratchPost/VisualRoot/TemporaryProxySprite" (relative to "/root/HomeFirstPartyStyleProof001").
+   at: get_node (scene/main/node.cpp:1976)
+   GDScript backtrace (most recent call first):
+       [0] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:79)
+       [1] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+       [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Invalid access to property or key 'scale' on a base object of type 'null instance'.
+          at: _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:80)
+          GDScript backtrace (most recent call first):
+              [0] _skin_objects (res://scripts/dev/proxy_cafe/proxy_installer.gd:80)
+              [1] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:15)
+              [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _skin_actors (res://scripts/dev/proxy_cafe/proxy_installer.gd:134)
+       [2] _ready (res://scripts/dev/proxy_cafe/proxy_installer.gd:16)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/grass_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:56)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:56)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/ochre_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:59)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:59)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/ochre_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:61)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:61)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/ochre_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:64)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:64)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/ochre_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:66)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:66)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/ochre_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:69)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:69)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/water.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:71)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:71)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/grass_atlas.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:38)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:73)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:4998)
+   GDScript backtrace (most recent call first):
+       [0] _terrain_layer (res://scripts/dev/home_continuous_proxy/home_installer.gd:40)
+       [1] _build_terrain (res://scripts/dev/home_continuous_proxy/home_installer.gd:73)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:18)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:150)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree2.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:151)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:152)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree2.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:153)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:154)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/tree2.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/home_continuous_proxy/home_animated_tree_prop.gd:16)
+       [1] _add_tree (res://scripts/dev/home_continuous_proxy/home_installer.gd:93)
+       [2] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:155)
+       [3] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [4] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/bush1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:158)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/bush1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:158)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/bush1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:158)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/bush1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:158)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/rock1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:161)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+          at: _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+          GDScript backtrace (most recent call first):
+              [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+              [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:161)
+              [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/rock1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:161)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+          at: _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+          GDScript backtrace (most recent call first):
+              [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+              [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:161)
+              [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/water_rock1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:162)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/tiny_swords/rock1.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:114)
+       [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:164)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'get_height' on a null value.
+          at: _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+          GDScript backtrace (most recent call first):
+              [0] _visual_prop (res://scripts/dev/home_continuous_proxy/home_installer.gd:140)
+              [1] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:164)
+              [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Cannot call method 'set_meta' on a null value.
+          at: _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:165)
+          GDScript backtrace (most recent call first):
+              [0] _build_semantic_props (res://scripts/dev/home_continuous_proxy/home_installer.gd:165)
+              [1] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:19)
+              [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/idle_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_down.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_up.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Resource file not found: res://assets/dev_proxy/pixel_crawler/walk_side.png (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://scripts/dev/proxy_cafe/proxy_visual_root.gd:17)
+       [1] _add_visitor (res://scripts/dev/home_continuous_proxy/home_installer.gd:231)
+       [2] _ready (res://scripts/dev/home_continuous_proxy/home_installer.gd:21)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Node not found: "TemporaryProxySprite" (relative to "/root/HomeFirstPartyStyleProof001/DepthSortedLayer/WorldObjects/TableA/VisualRoot").
+   at: get_node (scene/main/node.cpp:1976)
+   GDScript backtrace (most recent call first):
+       [0] _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+       [1] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:15)
+       [2] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'null instance'.
+          at: _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+              [1] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:15)
+              [2] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Node not found: "TemporaryProxySprite" (relative to "/root/HomeFirstPartyStyleProof001/DepthSortedLayer/WorldObjects/ChairA/VisualRoot").
+   at: get_node (scene/main/node.cpp:1976)
+   GDScript backtrace (most recent call first):
+       [0] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+       [1] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+       [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'null instance'.
+          at: bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+          GDScript backtrace (most recent call first):
+              [0] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+              [1] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+              [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Node not found: "TemporaryProxySprite" (relative to "/root/HomeFirstPartyStyleProof001/DepthSortedLayer/WorldObjects/TableB/VisualRoot").
+   at: get_node (scene/main/node.cpp:1976)
+   GDScript backtrace (most recent call first):
+       [0] _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+       [1] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:15)
+       [2] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+       [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'null instance'.
+          at: _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _skin_table (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:34)
+              [1] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:15)
+              [2] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+              [3] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+ERROR: Node not found: "TemporaryProxySprite" (relative to "/root/HomeFirstPartyStyleProof001/DepthSortedLayer/WorldObjects/ChairC/VisualRoot").
+   at: get_node (scene/main/node.cpp:1976)
+   GDScript backtrace (most recent call first):
+       [0] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+       [1] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+       [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'null instance'.
+          at: bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+          GDScript backtrace (most recent call first):
+              [0] bind (res://scripts/dev/visual_proxy_lab/cafe_table_set2.gd:19)
+              [1] _ready (res://scripts/dev/visual_proxy_lab/visual_lab_installer.gd:20)
+              [2] run (res://DEV_DIAGNOSTIC_tree.gd:76)
+HARDENING nav revision=1 polygons=64 obstructions=27
+HOME cafe: Walk by clicking, or run the route
+HOME cafe: Walk by clicking, or run the route
+SCRIPT ERROR: Assertion failed: Nonuniform timing must survive actual Godot resource loading
+          at: run (res://DEV_DIAGNOSTIC_tree.gd:89)
+          GDScript backtrace (most recent call first):
+              [0] run (res://DEV_DIAGNOSTIC_tree.gd:89)
+WARNING: 16 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2735)
+WARNING: 16 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

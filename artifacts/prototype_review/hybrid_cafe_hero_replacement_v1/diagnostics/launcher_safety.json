@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "count": 9,
+  "checks": {
+    "repo_refused": true,
+    "existing_refused": true,
+    "traversal_refused": true,
+    "relative_refused": true,
+    "symlink_refused": true,
+    "fresh_prepare": true,
+    "distinct_namespace": true,
+    "new_main": true,
+    "approved_cafe_binding_164": true
+  },
+  "prepared_project": "/private/tmp/hero_replacement_launch_test_w69ta1bc/project"
+}

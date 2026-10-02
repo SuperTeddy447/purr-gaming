@@ -1,0 +1,16 @@
+{
+  "scope": "development-only focus gameplay preview",
+  "candidate_bundle_hash": "e1ebe7b7f26c390129cfd9209866fadd6960e4bdf1f48ea55c521330ad5cd13b",
+  "source_tree_regenerated": false,
+  "protected_home_modified": false,
+  "production_publication": false,
+  "source_code_hashes": {
+    "scripts/dev/focus_retreat/focus_companion.gd": "497fdeaa5ab6e0f4c862eddc07cbfb9e9b01db2e581287aab9b4a91b0b39d19f",
+    "scripts/dev/focus_retreat/focus_retreat.gd": "cef1390a1e384a333d52b422f7c2251ccb22ae3590fa9638523989631f2ec939",
+    "scripts/dev/focus_retreat/focus_service.gd": "7a27a96680679f6337ecd80a2c6ff26174662201d4ecc4e605a1cb821fdcd813",
+    "scripts/dev/focus_retreat/focus_session.gd": "d902a1a5a841806313d121f21fb37bd7e0931b0784159603c6b29060db9a07ee",
+    "scenes/dev/focus_retreat/focus_retreat_v1.tscn": "fab91f1af40b329f67a9dc674c787316cd9f557dea5e5b216050db2e25e89ae3"
+  },
+  "save_namespace": "WilliCatFocusRetreatPreviewV1 / willicat_focus_retreat_dev_v1.save",
+  "mobile_host": "not implemented; native Godot UI prototype, transport-independent command boundary"
+}

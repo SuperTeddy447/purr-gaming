@@ -1,0 +1,47 @@
+{
+  "asset_id": "counter_short",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/counter_short.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/counter_short.png",
+  "source_sha256": "e833dce9fcc3da3a1f138ff29c03ebf3630b6ef87f44a59bd5b329501c0c0878",
+  "runtime_sha256": "958de93cf0db5570c0d1f74bea6a2222583fbe83b09ca4f22587aea276937268",
+  "source_dimensions": [
+    416,
+    473
+  ],
+  "runtime_dimensions": [
+    436,
+    467
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    410,
+    457
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    420,
+    467
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    218.0,
+    467
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 3463,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

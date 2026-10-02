@@ -1,0 +1,69 @@
+HUMAN REVIEW DECISION
+WILLICAT ANIMATED ENVIRONMENT TREE PILOT V1
+
+I have personally reviewed the current Tree Pilot and its DEV diagnostic motion/runtime result.
+This decision applies to the EXACT SAME tree source and diagnostic attempt already produced and tested.
+Do NOT regenerate the tree artwork.
+
+1. HUMAN TECHNICAL-ANIMATION REVIEW
+DECISION: APPROVED
+I accept the current Tree Pilot motion for this pilot.
+I have reviewed the visible animation behavior and accept:
+- root / ground registration
+- trunk stability
+- canopy movement
+- motion character
+- timing feel
+- shadow relationship
+- actor front/behind behavior
+- gameplay-scale motion readability
+The current motion measurements already recorded by the diagnostic may be used as the evidence for this approval.
+
+MOTION CALIBRATION DECISION
+For THIS TREE PILOT: the measured motion behavior is accepted as the pilot-specific calibration result.
+This approval does NOT establish arbitrary global motion tolerances for all future trees or all animated-environment assets.
+Do NOT invent new global numerical thresholds.
+If the frozen contract requires the calibration decision to reference specific existing measured values, bind this approval to the measurements already recorded for this exact diagnostic attempt.
+Future asset-family tolerances may be derived later from multiple accepted production candidates.
+
+2. HUMAN ART-LEAD REVIEW
+DECISION: APPROVED
+I accept the current Tree Pilot visually as compatible with: WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1
+I accept its current:
+- overall visual direction
+- foliage language
+- trunk/material treatment
+- palette compatibility
+- painterly storybook rendering
+- elevated 3/4 / soft-isometric-lite presentation
+- gameplay silhouette
+- gameplay scale
+- depth/occlusion appearance
+This approval applies only to this exact Tree Pilot source/revision.
+
+IMPORTANT IDENTITY RULE
+Continue using the EXACT existing source and reviewed attempt.
+Do NOT regenerate the tree, repaint it, replace it with a new image, silently modify approved visual pixels, or change motion after approval without invalidating this review.
+If any approved source/bundle-relevant content changes, follow the frozen invalidation rules.
+
+AUTHORIZATION TO CONTINUE
+The required human technical-animation review, pilot-specific motion calibration decision, and art-lead review are now APPROVED.
+Proceed autonomously through the remaining frozen-contract workflow.
+Continue with CANONICAL CANDIDATE COMPILATION → CANONICAL INTEGRATION PROOF.
+Run all required validation and regressions.
+Use the exact reviewed source and required immutable bundle semantics.
+
+AUTONOMY
+Do not stop for ordinary engineering failures. Continue IMPLEMENT / COMPILE → TEST → INSPECT → FIX IMPLEMENTATION → RETEST → VERIFY.
+You may fix pipeline/code/proof implementation problems within the already authorized scope.
+Do not ask for repeated human review unless reviewed art changes, reviewed motion changes materially, bundle/source identity changes in a way that invalidates approval, a frozen-contract conflict occurs, or rights/security/production authority is required.
+
+CANONICAL INTEGRATION PROOF
+Prove at minimum what the frozen profile requires. Where applicable verify exact approved source identity, canonical candidate bundle identity, candidate/proof bundle parity, effective Godot import settings, animation timing, registration/root stability, contact shadow behavior, obstruction/collision behavior, actor front/behind tree, Y-sort / occlusion, gameplay-scale presentation, world-authority compatibility, Style Family linkage, approval binding, evidence binding.
+Do not move canonical world coordinates to fit the art. ART FITS THE WORLD.
+
+PRODUCTION REMAINS BLOCKED
+This human decision does NOT authorize production publication, production signing, fabrication of production credentials, bypassing rights requirements, bypassing production_ready requirements, commit, or push.
+Complete the canonical candidate + integration proof, then report the resulting eligibility state.
+
+Evidence note: This is a faithful transcription of the direct human decision in the current task, with formatting condensed. It is not a digital signature or production credential.

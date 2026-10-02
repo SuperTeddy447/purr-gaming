@@ -1,0 +1,40 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "suites": {
+    "new_slice": {
+      "passed": 23,
+      "failed": 0
+    },
+    "native_playable": {
+      "passed": 12,
+      "failed": 0
+    },
+    "pixel_occlusion": {
+      "passed": 4,
+      "failed": 0
+    },
+    "home_continuous": {
+      "passed": 28,
+      "failed": 0
+    },
+    "proxy_service": {
+      "passed": 49,
+      "failed": 0
+    },
+    "actor_hardening": {
+      "passed": 172,
+      "failed": 0
+    },
+    "first_party_spatial_parity": {
+      "matched_entries": 39,
+      "mismatches": 0
+    },
+    "forge_static_and_core": {
+      "passed": 35,
+      "failed": 0
+    }
+  },
+  "regression_count_method": "Original Godot tests in isolated copy instrumented only at existing check helper to count every executed assertion; original tests untouched. Spatial parity reports dictionary entries, not 39 independent tests.",
+  "canonical_integration_proof_executed": false,
+  "production_publication": false
+}

@@ -1,0 +1,26 @@
+{
+  "not_counted_as_passes": [
+    {
+      "issue": "Initial bank assertion equated nominal connector pitch with cropped/beveled visual extent",
+      "fix": "Exact registry endpoints establish intended pitch; transformed mesh AABB is checked separately inside that authored span"
+    },
+    {
+      "issue": "Second bank experiment compared mesh-local AABB and mixed JSON float/int arrays",
+      "fix": "Transform the imported mesh AABB into asset-root coordinates and compare numeric connector coordinates explicitly"
+    },
+    {
+      "issue": "Focus regression initially lacked two copied dependencies; caf\u00e9 regression lacked its required output argument",
+      "fix": "Copy original Focus model/service into isolated test project; pass explicit temporary output destination"
+    },
+    {
+      "issue": "Initial sandboxed Blender process exited before geometry build",
+      "fix": "Authorized native Blender run outside restrictive sandbox succeeded; no production file was written"
+    }
+  ],
+  "final_native_scene_checks": 65,
+  "final_native_input_checks": 5,
+  "launcher_cases": 7,
+  "native_pixel_occlusion_cases": 2,
+  "existing_gameplay_regression_assertions": 272,
+  "final_failed_checks": 0
+}

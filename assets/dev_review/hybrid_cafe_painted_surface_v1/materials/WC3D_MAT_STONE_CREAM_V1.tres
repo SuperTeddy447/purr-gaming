@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+[ext_resource type="Shader" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/painted_surface.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/dev_review/hybrid_cafe_painted_surface_v1/textures/stone_painted_v1.png" id="2"]
+[resource]
+resource_name = "WC3D_MAT_STONE_CREAM_V1"
+shader = ExtResource("1")
+shader_parameter/painted_albedo = ExtResource("2")
+shader_parameter/palette_color = Color(0.9058823529411765, 0.8509803921568627, 0.7529411764705882, 1)
+shader_parameter/source_mean = Vector3(0.8365979420951334, 0.6735590296122961, 0.4660079655395882)
+shader_parameter/paint_strength = 0.62
+shader_parameter/paint_scale = Vector2(0.65, 0.65)
+shader_parameter/material_roughness = 0.9
+shader_parameter/restrained_specular = 0.07
+shader_parameter/edge_warmth = 0.045
+shader_parameter/cavity_strength = 0.20
+shader_parameter/foliage_pigment = false
+shader_parameter/pigment_dark = Color(0.2392,0.3373,0.2157,1)
+shader_parameter/pigment_light = Color(0.5412,0.6118,0.4078,1)

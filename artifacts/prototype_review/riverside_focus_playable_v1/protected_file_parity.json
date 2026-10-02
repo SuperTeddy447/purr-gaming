@@ -1,0 +1,8 @@
+{
+  "scope": "selected pre-existing tracked/frozen/style/MVP/accepted-bundle files",
+  "baseline_count": 1677,
+  "unchanged_count": 1677,
+  "changed": [],
+  "baseline_sha256": "6b8d9afae4e6d4e62650559fdd22d42eb28c1a774831705b75929dcae0439032",
+  "passed": true
+}

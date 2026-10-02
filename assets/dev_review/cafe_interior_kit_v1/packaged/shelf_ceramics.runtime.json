@@ -1,0 +1,47 @@
+{
+  "asset_id": "shelf_ceramics",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/shelf_ceramics.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/shelf_ceramics.png",
+  "source_sha256": "8459651876c2e63b7d1cf7929a6dfbae4154ece13af3c4cc43198424c9ae4ee4",
+  "runtime_sha256": "1684990fff6884844de021bd8cc6edea85680a4645f9662a17af2e6916f992da",
+  "source_dimensions": [
+    634,
+    344
+  ],
+  "runtime_dimensions": [
+    639,
+    364
+  ],
+  "source_visual_bounds": [
+    21,
+    6,
+    628,
+    338
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    623,
+    348
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    319.5,
+    182.0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 6542,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

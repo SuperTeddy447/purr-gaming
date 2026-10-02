@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+WARNING: res://scenes/home/home_scene.tscn:10 - ext_resource, invalid UID: uid://cia5icxp74g00 - using text path instead: res://docs/references/WILLICAT_HOME_CAMERA_PROTOTYPE_V2_1.png
+     at: load (scene/resources/resource_format_text.cpp:501)
+[PASS] MANUAL true slice: semantic actions/events, door, coffee, carry, one reward, audio/haptic hooks, clean ambient reset
+[PASS] AUTO true slice: semantic actions/events, door, coffee, carry, one reward, audio/haptic hooks, clean ambient reset
+[PASS] Default startup presentation synchronizes with the already-started loop
+--- ALL TRUE VERTICAL SLICE 001 CHECKS PASSED ---

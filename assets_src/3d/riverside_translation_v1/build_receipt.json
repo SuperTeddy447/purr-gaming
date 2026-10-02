@@ -1,0 +1,968 @@
+{
+  "scope": "isolated experimental DEV translation",
+  "blender_version": "5.2.1 LTS",
+  "blender_build_hash": "9e2066aef7ef",
+  "assets": [
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.0,
+          -0.17000000178813934,
+          -1.0
+        ],
+        "size": [
+          2.0,
+          0.17000000178813934,
+          2.0
+        ]
+      },
+      "asset_id": "WC_RIVER_Ground_Stone_A",
+      "family": "ground",
+      "source_blend": "ground/WC_RIVER_Ground_Stone_A.blend",
+      "runtime_glb": "ground/WC_RIVER_Ground_Stone_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2,
+        0.16,
+        2
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2652,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "ground",
+      "source_blend_sha256": "924f7a9d2e069b16a250efe9b5bc4460dc9a1c3e7540e6cb9b663ff604577ee6",
+      "runtime_glb_sha256": "79e7586bc2c965db4b97a07c55691c21aed49dfc005e2a124fc76ff19459bb02"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.996533989906311,
+          -0.7975000143051147,
+          -0.2267369031906128
+        ],
+        "size": [
+          1.9923620223999023,
+          0.8675000071525574,
+          0.4534738063812256
+        ]
+      },
+      "asset_id": "WC_RIVER_Bank_Straight_A",
+      "family": "river",
+      "source_blend": "river/WC_RIVER_Bank_Straight_A.blend",
+      "runtime_glb": "river/WC_RIVER_Bank_Straight_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2,
+        0.9,
+        0.45
+      ],
+      "registration": {
+        "origin": "cap_line_center_at_walk_ground",
+        "connectors": [
+          {
+            "id": "left",
+            "profile": "river_bank_course_v1",
+            "position": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "right",
+            "profile": "river_bank_course_v1",
+            "position": [
+              1,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1728,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "river",
+      "source_blend_sha256": "fc5807a344eac3138c06fcc6033a8df2ed28e2f30d47add695e24fd5b73732e4",
+      "runtime_glb_sha256": "55b74cce974bfdcbc269f04fce5e2d220e1d1aec2127acf69ac59aa25a5fbc85"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.9965381026268005,
+          -0.7975000143051147,
+          -0.22619661688804626
+        ],
+        "size": [
+          1.2227347493171692,
+          0.8675000071525574,
+          1.2220259010791779
+        ]
+      },
+      "asset_id": "WC_RIVER_Bank_Inner_A",
+      "family": "river",
+      "source_blend": "river/WC_RIVER_Bank_Inner_A.blend",
+      "runtime_glb": "river/WC_RIVER_Bank_Inner_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.45,
+        0.9,
+        1.45
+      ],
+      "registration": {
+        "corner_role": "inside",
+        "shared_profile": "river_bank_course_v1"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 3564,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "river",
+      "source_blend_sha256": "11b7ef6b18af17701d1ac80bcb329e718e1e88bb67d5b3bc453c479d007223fe",
+      "runtime_glb_sha256": "8c471bd44227ee03c489312461df2f3f7414f49991cab4a999bc167b5d2fc5f2"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.9965381026268005,
+          -0.7975000143051147,
+          -0.9965381026268005
+        ],
+        "size": [
+          1.2227347493171692,
+          0.8675000071525574,
+          1.2227347195148468
+        ]
+      },
+      "asset_id": "WC_RIVER_Bank_Outer_A",
+      "family": "river",
+      "source_blend": "river/WC_RIVER_Bank_Outer_A.blend",
+      "runtime_glb": "river/WC_RIVER_Bank_Outer_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.45,
+        0.9,
+        1.45
+      ],
+      "registration": {
+        "corner_role": "outside",
+        "shared_profile": "river_bank_course_v1"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 3564,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "river",
+      "source_blend_sha256": "14a22f4f7b7e479f79460c7db37c218436428e2f10d834c24440ce998e669193",
+      "runtime_glb_sha256": "d9bd82e876522a4a0097098dda57e86f99b7489ffee2458e6cb7de9b1f46a9fc"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.996533989906311,
+          -0.7975000143051147,
+          -1.1067336797714233
+        ],
+        "size": [
+          1.9923620223999023,
+          0.8675000071525574,
+          1.3334705829620361
+        ]
+      },
+      "asset_id": "WC_RIVER_Bank_PathTransition_A",
+      "family": "river",
+      "source_blend": "river/WC_RIVER_Bank_PathTransition_A.blend",
+      "runtime_glb": "river/WC_RIVER_Bank_PathTransition_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2,
+        0.9,
+        1.3
+      ],
+      "registration": {
+        "shared_profile": "river_bank_course_v1",
+        "ground_contact_y": 0
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2592,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "river",
+      "source_blend_sha256": "2593ce017fa177180af3c7485b9ca8d3837016cd12f9c3d845d4a99f118cff13",
+      "runtime_glb_sha256": "8104409f04bbaa7054a7f072d74f7bffe0e8a6284368af15d83c5547327ffb85"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.996533989906311,
+          -0.7975000143051147,
+          -0.2267368882894516
+        ],
+        "size": [
+          1.9923619627952576,
+          0.8675000071525574,
+          0.48359815776348114
+        ]
+      },
+      "asset_id": "WC_RIVER_Bank_Vegetation_A",
+      "family": "river",
+      "source_blend": "river/WC_RIVER_Bank_Vegetation_A.blend",
+      "runtime_glb": "river/WC_RIVER_Bank_Vegetation_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2,
+        0.9,
+        0.5
+      ],
+      "registration": {
+        "shared_profile": "river_bank_course_v1",
+        "plant_zone": "below coping; route cap clear"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2736,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "river",
+      "source_blend_sha256": "643d51a06f099950663dbcfd67cac55cbd04d310c6cc72d702774203099cc7b8",
+      "runtime_glb_sha256": "f26ab18fca9c7cff0e9a54fa9be451a4b2b23e45da1abcee349bd9928f1f1b9a"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.7049999237060547,
+          -0.25,
+          -0.9549999833106995
+        ],
+        "size": [
+          3.409999966621399,
+          0.25,
+          1.909999966621399
+        ]
+      },
+      "asset_id": "WC_RIVER_Bridge_Deck_A",
+      "family": "bridge",
+      "source_blend": "bridge/WC_RIVER_Bridge_Deck_A.blend",
+      "runtime_glb": "bridge/WC_RIVER_Bridge_Deck_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        3.4,
+        0.25,
+        1.91
+      ],
+      "registration": {
+        "walk_surface_y": 0,
+        "endpoints": [
+          [
+            -1.7,
+            0,
+            0
+          ],
+          [
+            1.7,
+            0,
+            0
+          ]
+        ]
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 2268,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "bridge",
+      "source_blend_sha256": "5a7dbea41eec92b6c5398bf70e7e32cb19de0e19b505201847a0dcb2bbf58b9c",
+      "runtime_glb_sha256": "47330cef0cfa2d70c9bf19c1317603918acd4d4dd8d9ee149d42ba9031512e0c"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.75,
+          0.0,
+          -0.07999999821186066
+        ],
+        "size": [
+          3.5000001192092896,
+          0.7599999904632568,
+          0.1599999964237213
+        ]
+      },
+      "asset_id": "WC_RIVER_Bridge_Rail_A",
+      "family": "bridge",
+      "source_blend": "bridge/WC_RIVER_Bridge_Rail_A.blend",
+      "runtime_glb": "bridge/WC_RIVER_Bridge_Rail_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        3.5,
+        0.76,
+        0.16
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1080,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "bridge",
+      "source_blend_sha256": "4e0fa4e12a8d59ae0aa2a168e9d0757fb8f4fb85b06b9c8020dcabd497ff0fa4",
+      "runtime_glb_sha256": "55ffd292bea57709c6290df0ff19d6f0a9f3fc0eab9954f8b1a59f0b662a87f0"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.550000011920929,
+          -0.7975000143051147,
+          -0.9933390617370605
+        ],
+        "size": [
+          0.7000000029802322,
+          0.7975000143051147,
+          1.9869550466537476
+        ]
+      },
+      "asset_id": "WC_RIVER_Bridge_Abutment_A",
+      "family": "bridge",
+      "source_blend": "bridge/WC_RIVER_Bridge_Abutment_A.blend",
+      "runtime_glb": "bridge/WC_RIVER_Bridge_Abutment_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.75,
+        0.88,
+        1.86
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1404,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "bridge",
+      "source_blend_sha256": "46537ff2e9ac7ef39fb8129c62d8652351106de30e46f40b2dcc0918608c212a",
+      "runtime_glb_sha256": "6ecbeea3454a7225f983248a995ea6b9ce2f9e224d3b66837c3c096b52fbcf75"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.434999942779541,
+          0.0,
+          -0.09999999403953552
+        ],
+        "size": [
+          2.869999885559082,
+          2.380000114440918,
+          0.5200000107288361
+        ]
+      },
+      "asset_id": "WC_RIVER_Wall_Window_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Wall_Window_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Wall_Window_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2.87,
+        2.38,
+        0.43
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1944,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "5fbbbf19894d2be7a83c72640abaf1828afd15aa07d09afcde1b50abf0800591",
+      "runtime_glb_sha256": "e60b59d3f637b3a2f3f2e2c5871ad9ef51a224ad981c77f6aa36f70849d7da48"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.699999988079071,
+          -0.07999992370605469,
+          -0.5838158130645752
+        ],
+        "size": [
+          1.3999999165534973,
+          2.4099998474121094,
+          1.0588158071041107
+        ]
+      },
+      "asset_id": "WC_RIVER_Entrance_Open_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Entrance_Open_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Entrance_Open_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.4,
+        2.33,
+        0.74
+      ],
+      "registration": {
+        "visual_aperture_local": [
+          -0.54,
+          0,
+          1.08,
+          2.11
+        ],
+        "dev_walkable_opening_width": 1.08,
+        "navigation_source": "DEV-only Vector2 polygon; never Home navigation"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 756,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "4d47e4072653af496f6be5977b8d9ec06bf3dc10ff3e0620d843e783c30f0368",
+      "runtime_glb_sha256": "3a42e3e9c294ed5625dcca3a6844087ac0a6ad8b21216ef05584f394cf501b87"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.7000000476837158,
+          0.0,
+          -0.10500000417232513
+        ],
+        "size": [
+          3.400000214576721,
+          2.359999895095825,
+          0.2550000101327896
+        ]
+      },
+      "asset_id": "WC_RIVER_Wall_Plain_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Wall_Plain_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Wall_Plain_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        3.4,
+        2.36,
+        0.23
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 756,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "ba5e4180b5c32742b6b98b3bd955487b42e2cc9e5c91008bae5d9e45c4ffb85f",
+      "runtime_glb_sha256": "913e0921020ef15cda446a4266e2ac7d60155db66634a24d8fd6d21b5caa60c9"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -2.359999895095825,
+          -0.08999999612569809,
+          -1.9850000143051147
+        ],
+        "size": [
+          4.71999979019165,
+          0.8995451554656029,
+          3.9700000286102295
+        ]
+      },
+      "asset_id": "WC_RIVER_Roof_CedarSlate_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Roof_CedarSlate_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Roof_CedarSlate_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        4.8,
+        0.82,
+        3.95
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 13184,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "b8f13045ff774c19822a0a4cf13c5d19fdb643381e3ab740fc8b10f4b1ce2c84",
+      "runtime_glb_sha256": "c1547183d8558854282f13dab9fc7374a6491d71e4b10b72ab47c5ba6843c1fd"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.7960000038146973,
+          -0.32499998807907104,
+          -0.0066928863525390625
+        ],
+        "size": [
+          3.5920000076293945,
+          0.34431207180023193,
+          0.7141928672790527
+        ]
+      },
+      "asset_id": "WC_RIVER_Awning_Jade_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Awning_Jade_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Awning_Jade_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        3.6,
+        0.34,
+        0.74
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1984,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "b9fb65eb74a98d7e7ec768a62bfbc7f03ee2f9b80772aed04c3d2ecc264d8340",
+      "runtime_glb_sha256": "57707a622bfc8b087a3ebe99edc77eaba10a781886d23e66a89e58e192e827c0"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.8425000309944153,
+          -0.2150000035762787,
+          -0.04500000178813934
+        ],
+        "size": [
+          1.6850000619888306,
+          0.4300000071525574,
+          0.10999999940395355
+        ]
+      },
+      "asset_id": "WC_RIVER_Sign_Blank_A",
+      "family": "architecture",
+      "source_blend": "architecture/WC_RIVER_Sign_Blank_A.blend",
+      "runtime_glb": "architecture/WC_RIVER_Sign_Blank_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.75,
+        0.43,
+        0.11
+      ],
+      "registration": {
+        "runtime_text": "separate optional layer, not baked"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 324,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "architecture",
+      "source_blend_sha256": "98731ea37dd7346c489b364e7dcbffb60347f6dcfeb932fc40e270568fe6b542",
+      "runtime_glb_sha256": "03e0006fbd4844e90b2d85468d54d8e85426b2b3d42feb2bfc3c3f31ce9db13b"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.591719627380371,
+          -0.028136014938354492,
+          -0.901602029800415
+        ],
+        "size": [
+          3.1734378337860107,
+          3.738067626953125,
+          2.147260904312134
+        ]
+      },
+      "asset_id": "WC_RIVER_Tree_Medium_A",
+      "family": "vegetation",
+      "source_blend": "vegetation/WC_RIVER_Tree_Medium_A.blend",
+      "runtime_glb": "vegetation/WC_RIVER_Tree_Medium_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        3.2,
+        3.8,
+        2.4
+      ],
+      "registration": {
+        "root_lock": "wood surfaces fixed; only foliage shader sways",
+        "motion_status": "DEV art setting, no canonical motion calibration"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 6136,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "vegetation",
+      "source_blend_sha256": "a4ae0145457aec1ed3b89e03a75bf397f8191d61043ed167e7851b40e9027b23",
+      "runtime_glb_sha256": "63a4983b32ee7bbf3ac30fb2edee29074906e96f1270b13e4cd7b844de7289c9"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.6759357452392578,
+          -0.003885984420776367,
+          -0.382872074842453
+        ],
+        "size": [
+          1.34762442111969,
+          1.579336404800415,
+          0.9118505418300629
+        ]
+      },
+      "asset_id": "WC_RIVER_Tree_Small_A",
+      "family": "vegetation",
+      "source_blend": "vegetation/WC_RIVER_Tree_Small_A.blend",
+      "runtime_glb": "vegetation/WC_RIVER_Tree_Small_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.45,
+        1.62,
+        1.15
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 6296,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "vegetation",
+      "source_blend_sha256": "64e7649a9f03e25c17a4b82010fe08bdd0dcafbd9368aed0c195f89acc4d20be",
+      "runtime_glb_sha256": "cf8f613f326539dcd3fac140e9d5f01d99e624ca88a6a0ce2da60b47981b443c"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.24141743779182434,
+          0.0,
+          -0.28395622968673706
+        ],
+        "size": [
+          0.5098694264888763,
+          0.3499999940395355,
+          0.5549739897251129
+        ]
+      },
+      "asset_id": "WC_RIVER_Grass_Bank_A",
+      "family": "vegetation",
+      "source_blend": "vegetation/WC_RIVER_Grass_Bank_A.blend",
+      "runtime_glb": "vegetation/WC_RIVER_Grass_Bank_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.65,
+        0.36,
+        0.65
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 15,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "vegetation",
+      "source_blend_sha256": "70f6064754e13e26e7d190182a9c3d3de5dfb66817e7d9007fecb2c89fd1c29b",
+      "runtime_glb_sha256": "8380d7edb73b21525f3e2fb3ac8ddd36678376a5db475a83f2cec0b7b2155e4b"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.30100107192993164,
+          0.0,
+          -0.28208738565444946
+        ],
+        "size": [
+          0.6007897853851318,
+          0.9804174304008484,
+          0.5620873868465424
+        ]
+      },
+      "asset_id": "WC_RIVER_Potted_Plant_A",
+      "family": "vegetation",
+      "source_blend": "vegetation/WC_RIVER_Potted_Plant_A.blend",
+      "runtime_glb": "vegetation/WC_RIVER_Potted_Plant_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.8,
+        0.94,
+        0.8
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 1636,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "vegetation",
+      "source_blend_sha256": "d6406be674c7b2b42a075b82e5964dcaba4cf7e6dd172d29ac0961de868c1e45",
+      "runtime_glb_sha256": "dae67965a5388230dddba4812baf9363464f1d6befc579f6dc87dd6289fc8577"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.699999988079071,
+          0.0,
+          -0.20000000298023224
+        ],
+        "size": [
+          1.399999976158142,
+          0.4650000035762787,
+          0.4000000059604645
+        ]
+      },
+      "asset_id": "WC_RIVER_Bench_Cedar_A",
+      "family": "props",
+      "source_blend": "props/WC_RIVER_Bench_Cedar_A.blend",
+      "runtime_glb": "props/WC_RIVER_Bench_Cedar_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        1.4,
+        0.47,
+        0.4
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 648,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "props",
+      "source_blend_sha256": "f50e115d52f4a5da4104b7a534bba8d61d9a4d3e27bfcf46d88cde6f13ecec33",
+      "runtime_glb_sha256": "67d693846f321863385438df53742b4cd0604b5ec2dc64dd543033d615e69a65"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -0.12999999523162842,
+          -0.1446535587310791,
+          -0.04500000178813934
+        ],
+        "size": [
+          0.25999999046325684,
+          0.2646535560488701,
+          0.42499999701976776
+        ]
+      },
+      "asset_id": "WC_RIVER_Lamp_Practical_A",
+      "family": "props",
+      "source_blend": "props/WC_RIVER_Lamp_Practical_A.blend",
+      "runtime_glb": "props/WC_RIVER_Lamp_Practical_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        0.28,
+        0.25,
+        0.38
+      ],
+      "registration": {
+        "origin": "local_ground_contact",
+        "scope": "DEV design dimensions only; not Home measurements"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 660,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "props",
+      "source_blend_sha256": "b72949b24c92de32b194c80dc99e0b347cdbfff938b6041c3d641c0b213257b1",
+      "runtime_glb_sha256": "31428ec69ad6b4fdd5dc346b68ee28abba1bed53f084ba1fbccd114713f8d95b"
+    },
+    {
+      "measured_aabb_godot": {
+        "position": [
+          -1.149999976158142,
+          0.0,
+          -0.9800000190734863
+        ],
+        "size": [
+          2.299999952316284,
+          2.0999999046325684,
+          1.9600000381469727
+        ]
+      },
+      "asset_id": "WC_RIVER_Background_House_A",
+      "family": "background",
+      "source_blend": "background/WC_RIVER_Background_House_A.blend",
+      "runtime_glb": "background/WC_RIVER_Background_House_A.glb",
+      "origin": "ground_contact_center",
+      "nominal_design_dimensions_godot": [
+        2.3,
+        2.1,
+        1.96
+      ],
+      "registration": {
+        "role": "noninteractive backdrop, no navigation/collision"
+      },
+      "mesh_parts": 1,
+      "triangles_evaluated": 328,
+      "uv0": true,
+      "uv2": "not authored; generate nonoverlapping unwrap on evaluated export mesh in Godot Advanced Import before a later LightmapGI bake",
+      "root_transform_identity": true,
+      "status": "experimental_DEV_only",
+      "construction_origin": "deterministic authored Blender geometry; agent scripted, no image-to-mesh generator",
+      "concept_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_HOME_DISTRICT_MASTER_CONCEPT_V1.png",
+      "asset_design_authority": "artifacts/world_design/riverside_home_district_v1/WILLICAT_RIVERSIDE_ASSET_FAMILY_BOARD_V1.png",
+      "derivative_helpers": "tools/willicat_hybrid_cafe_kit/blender_build.py",
+      "texture_embedding": "none; Godot maps material slots to reused painted-surface textures",
+      "reusable_family": "background",
+      "source_blend_sha256": "26977b8a051d94f4fe72d44b4addb121150a4d104c5fb95db926bd2ac568eceb",
+      "runtime_glb_sha256": "a088a4b5193278ded8cc5df30f172d605348bc028d438ccca7fc2b51258d9437"
+    }
+  ],
+  "authored_dimensions": "DEV prototype choices only; measured bounds exported; not production Home geometry",
+  "material_handoff": "semantic slots to existing painted-surface Godot library",
+  "source_art_generation_calls": 0
+}

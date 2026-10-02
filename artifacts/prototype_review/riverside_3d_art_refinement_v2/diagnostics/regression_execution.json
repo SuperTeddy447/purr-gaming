@@ -1,0 +1,34 @@
+[
+  {
+    "test": "test_world_architecture_hardening_v1",
+    "exit_code": 0,
+    "seconds": 26.42917776107788,
+    "source_sha256": "93b676364a0bb9e6d38f1c92b36b9b46e61c9ee36d26eef3d68e81659b8649d2",
+    "fixture_sha256": "76ecc35dcd41fabe563e2e6b8ea5730200d605f8fdd5c8dde4a416599c185f4e",
+    "fixture_scope": "V1 isolated regression fixture; Home/world counting instrumentation only; distinct DEV save namespace"
+  },
+  {
+    "test": "test_home_continuous_world_v1",
+    "exit_code": 0,
+    "seconds": 53.049906969070435,
+    "source_sha256": "6509bf8439f243975d66ca0162bbcfd15adf20dc20b447c79569b787ea9902a8",
+    "fixture_sha256": "895c830f4790c9a401a4334c13b1dcf64ee473f736895907afbbc113d5297d4a",
+    "fixture_scope": "V1 isolated regression fixture; Home/world counting instrumentation only; distinct DEV save namespace"
+  },
+  {
+    "test": "test_cafe_visual_recovery_v1",
+    "exit_code": 0,
+    "seconds": 29.269997119903564,
+    "source_sha256": "d0295a26681d137248817446903ab0f2d0fdd532489dc50792a0429dce06e6fc",
+    "fixture_sha256": "d0295a26681d137248817446903ab0f2d0fdd532489dc50792a0429dce06e6fc",
+    "fixture_scope": "V1 isolated regression fixture; Home/world counting instrumentation only; distinct DEV save namespace"
+  },
+  {
+    "test": "test_focus_retreat_v1",
+    "exit_code": 0,
+    "seconds": 0.2928760051727295,
+    "source_sha256": "d858700cfc979819e335e8f4bf67d78932c47005f56e57b50f39005f1ed02386",
+    "fixture_sha256": "d858700cfc979819e335e8f4bf67d78932c47005f56e57b50f39005f1ed02386",
+    "fixture_scope": "V1 isolated regression fixture; Home/world counting instrumentation only; distinct DEV save namespace"
+  }
+]

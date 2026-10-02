@@ -1,0 +1,47 @@
+{
+  "asset_id": "entrance_frame",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/entrance_frame.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/entrance_frame.png",
+  "source_sha256": "96c8010355c5b019218531f96f28c4334459f9361092d0b2706c1ac89f6503c3",
+  "runtime_sha256": "175ebc6834df827dc728872d5a99b30cd492701b53d736ca61033dc70fa88c22",
+  "source_dimensions": [
+    1166,
+    1349
+  ],
+  "runtime_dimensions": [
+    881,
+    1280
+  ],
+  "source_visual_bounds": [
+    175,
+    54,
+    1024,
+    1318
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    865,
+    1280
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    440.5,
+    1280
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 30485,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

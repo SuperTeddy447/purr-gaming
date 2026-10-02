@@ -1,0 +1,350 @@
+{
+  "scope": "DEV_REVIEW_CANDIDATE",
+  "assets": [
+    {
+      "asset_id": "art_framed",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/art_framed.png",
+      "canvas_px": [
+        256,
+        280
+      ],
+      "pivot_px": [
+        128.0,
+        140.0
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "aedf61824b6c97579ea0c6bcb16cac07920d0b15ff254b5953c0dcb63722d618"
+    },
+    {
+      "asset_id": "beam_cedar",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/beam_cedar.png",
+      "canvas_px": [
+        512,
+        202
+      ],
+      "pivot_px": [
+        256.0,
+        101.0
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "b061a39d46500d19944ec009e6c545f7f810a73810cee85a13d51e1eef761cb0"
+    },
+    {
+      "asset_id": "cat_bed_empty",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/cat_bed_empty.png",
+      "canvas_px": [
+        256,
+        156
+      ],
+      "pivot_px": [
+        128.0,
+        156
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "a699c30ead2f04b595bd819e1333e0086f2f1371555d901ccd4768d92c8dea90"
+    },
+    {
+      "asset_id": "ceramic_service",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/ceramic_service.png",
+      "canvas_px": [
+        256,
+        106
+      ],
+      "pivot_px": [
+        128.0,
+        106
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "444c4e752239ea8ee325f631c46e32874ef30bddd9a5e13ac476a39821c1603e"
+    },
+    {
+      "asset_id": "counter_front",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_front.png",
+      "canvas_px": [
+        512,
+        210
+      ],
+      "pivot_px": [
+        256.0,
+        210
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "80c4ba1c1f28d4fd2d3bf7cfb912fd7761dbd5387409854f0922751cbcbad9ed"
+    },
+    {
+      "asset_id": "counter_main",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_main.png",
+      "canvas_px": [
+        512,
+        210
+      ],
+      "pivot_px": [
+        256.0,
+        210
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "e734601e2db8a24d259aa103aabddb6f1e7a5322238ce7e4dd0c7aa1e2e3ceb9"
+    },
+    {
+      "asset_id": "counter_short",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_short.png",
+      "canvas_px": [
+        256,
+        274
+      ],
+      "pivot_px": [
+        128.0,
+        274
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "453bebb8ea8dbbbfc66dd5291cb450169166e7f6659aeb5c08e3b9faf6be84ad"
+    },
+    {
+      "asset_id": "counter_top",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_top.png",
+      "canvas_px": [
+        512,
+        210
+      ],
+      "pivot_px": [
+        256.0,
+        210
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "69a7d6fccd73db1f731262b47b12741fc615291b5329619974d33321abcce86c"
+    },
+    {
+      "asset_id": "divider_cedar",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/divider_cedar.png",
+      "canvas_px": [
+        256,
+        164
+      ],
+      "pivot_px": [
+        128.0,
+        164
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "ffe9342470ddcfede332340bc09b3bae975f5beac91cd7a83e0d1b1896b58f98"
+    },
+    {
+      "asset_id": "floor_quiet",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/floor_quiet.png",
+      "canvas_px": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64.0,
+        128
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "c6b9354828addc5afe6aea51599c6ac05f10768f526d89e1354ed3e62ecf4bf7"
+    },
+    {
+      "asset_id": "flower_small",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/flower_small.png",
+      "canvas_px": [
+        256,
+        246
+      ],
+      "pivot_px": [
+        128.0,
+        246
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "1cdc9a6b2e44543d51a98a55b13b31a0daec621185fbb69fb39812c5233eda16"
+    },
+    {
+      "asset_id": "lamp_pendant",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/lamp_pendant.png",
+      "canvas_px": [
+        256,
+        381
+      ],
+      "pivot_px": [
+        128.0,
+        381
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "e7688d230d46d6636ee02e5ca1b6b3125debe52bb82cb80db37f2e8f993b3f32"
+    },
+    {
+      "asset_id": "menu_blank",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/menu_blank.png",
+      "canvas_px": [
+        256,
+        190
+      ],
+      "pivot_px": [
+        128.0,
+        95.0
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "8c9edc67a9891209d17a571abc55c43be5f687f1399976c2b7ff5fab8ad965ce"
+    },
+    {
+      "asset_id": "plant_hanging",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/plant_hanging.png",
+      "canvas_px": [
+        256,
+        490
+      ],
+      "pivot_px": [
+        128.0,
+        490
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "6375503c8281496210df8e792d81eb261b5b0f98905429fcb26ebfbdb36d426e"
+    },
+    {
+      "asset_id": "post_cedar",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/post_cedar.png",
+      "canvas_px": [
+        256,
+        820
+      ],
+      "pivot_px": [
+        128.0,
+        820
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "4ebd5b2596b0ff474bda4efb7b21724346458ab6aab2dabbf969d4845bbb28ea"
+    },
+    {
+      "asset_id": "shelf_ceramics",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_ceramics.png",
+      "canvas_px": [
+        256,
+        146
+      ],
+      "pivot_px": [
+        128.0,
+        73.0
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "2acbe2bf7290ba7b16edaf4ca8553c5c01fa87b00d00c0ef59987bf16bb7f6af"
+    },
+    {
+      "asset_id": "shelf_empty",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/shelf_empty.png",
+      "canvas_px": [
+        256,
+        125
+      ],
+      "pivot_px": [
+        128.0,
+        62.5
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "ba3b3948d8907757cc29b728ab5ad2a936b85d57f2c6de9684c1c8a34e76817e"
+    },
+    {
+      "asset_id": "tea_tray",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/tea_tray.png",
+      "canvas_px": [
+        256,
+        163
+      ],
+      "pivot_px": [
+        128.0,
+        163
+      ],
+      "pivot_rule": "floor_or_countertop_bottom_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "f00e08e42f39185822b0515f9eb97da6bda8063b8b93fef1ca47d3da7597e50f"
+    },
+    {
+      "asset_id": "wall_framed",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_framed.png",
+      "canvas_px": [
+        512,
+        287
+      ],
+      "pivot_px": [
+        256.0,
+        143.5
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "127ba6534859e7c36fb16a95a08e418b84ba3f2762af32c6d03b28d47aca6552"
+    },
+    {
+      "asset_id": "wall_plain",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/wall_plain.png",
+      "canvas_px": [
+        512,
+        295
+      ],
+      "pivot_px": [
+        256.0,
+        147.5
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "02f4cd05444641443221b44327e2d840425d18eb18c2e546bc46cc9bb76686c6"
+    },
+    {
+      "asset_id": "window_shoji",
+      "runtime_path": "assets/dev_review/cafe_interior_kit_v1/runtime/window_shoji.png",
+      "canvas_px": [
+        256,
+        197
+      ],
+      "pivot_px": [
+        128.0,
+        98.5
+      ],
+      "pivot_rule": "wall_mount_center",
+      "world_scale_source": "explicit presentation width in cafe_kit.gd; no semantic root transform edits",
+      "shadow_policy": "separate reused contact shadow where ground-mounted",
+      "source_pixel_sha256": "7b02514c32ff3f7e9ae48dca292e795c563ea53d1e04066052552ae926f70d49"
+    }
+  ],
+  "terrain_floor_exception": "floor_quiet is a seamless 128px mirrored atlas, displayed with top-left origin; art period 256 world units, separate from logical navigation grid",
+  "counter_planes": "counter_top/front share identical canvas, bottom-center pivot, scale; complementary alpha masks of counter_main",
+  "entrance": "reuse prior measured opening registration; authoritative aperture remains64 world units. No new aperture widths invented.",
+  "unused_library_modules": [
+    "beam_cedar",
+    "divider_cedar",
+    "shelf_empty"
+  ],
+  "semantic_axes": "family cell roles explicit in generation_specs; sheet shape is not direction/action semantics"
+}

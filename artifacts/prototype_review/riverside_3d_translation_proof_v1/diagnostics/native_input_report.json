@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "details": null,
+      "passed": true,
+      "test": "native_mouse_input_starts_route"
+    },
+    {
+      "details": "(-19.99998, 649.9998)",
+      "passed": true,
+      "test": "native_mouse_input_reaches_ground_target"
+    },
+    {
+      "details": null,
+      "passed": true,
+      "test": "native_mouse_input_rejects_water"
+    },
+    {
+      "details": null,
+      "passed": true,
+      "test": "native_touch_input_starts_route"
+    },
+    {
+      "details": "(65.00001, 639.9999)",
+      "passed": true,
+      "test": "native_touch_input_reaches_target"
+    }
+  ],
+  "failed": 0,
+  "passed": 5
+}

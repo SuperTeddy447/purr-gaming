@@ -1,0 +1,16 @@
+{
+  "scope": "All pre-existing repository source/review files; excluded caches/dependency directories as documented",
+  "preexisting_count": 6248,
+  "unchanged": 6248,
+  "mismatches": [],
+  "approved_2d_binding_files": 164,
+  "authority_tests": [
+    "every_V2_asset_call_transform_and_instance_count_unchanged",
+    "all_seven_V2_plant_role_placements_unchanged",
+    "exact_common_V2_camera_unchanged",
+    "exact_V2_lighting_unchanged",
+    "world_authority_after_motion",
+    "world_authority_after_coffee"
+  ],
+  "production_modified": false
+}

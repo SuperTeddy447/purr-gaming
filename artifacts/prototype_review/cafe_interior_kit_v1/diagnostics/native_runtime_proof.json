@@ -1,0 +1,5358 @@
+{
+	"bindings": [
+		{
+			"asset": "wall_plaster",
+			"local_visual_contact": "(320.0, 14.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot_rule": "wall_mount_center",
+			"runtime_scale": 1.25
+		},
+		{
+			"asset": "wall_plaster",
+			"local_visual_contact": "(0.0, -30.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallWest/ReviewFrontArchitecture",
+			"pivot_rule": "wall_mount_center",
+			"runtime_scale": 0.5625
+		},
+		{
+			"asset": "wall_plaster",
+			"local_visual_contact": "(0.0, -30.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CafeEnvelope/FrontWallEast/ReviewFrontArchitecture",
+			"pivot_rule": "wall_mount_center",
+			"runtime_scale": 0.5625
+		},
+		{
+			"asset": "wall_plain",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "canvas_center",
+			"scale": "(0.65625, 0.65625)",
+			"source_canvas": "(512.0, 295.0)",
+			"visual_contact_local": "(160.0, 14.0)"
+		},
+		{
+			"asset": "wall_framed",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "canvas_center",
+			"scale": "(0.65625, 0.65625)",
+			"source_canvas": "(512.0, 287.0)",
+			"visual_contact_local": "(480.0, 14.0)"
+		},
+		{
+			"asset": "post_cedar",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.242188, 0.242188)",
+			"source_canvas": "(256.0, 820.0)",
+			"visual_contact_local": "(28.0, 112.0)"
+		},
+		{
+			"asset": "post_cedar",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.242188, 0.242188)",
+			"source_canvas": "(256.0, 820.0)",
+			"visual_contact_local": "(320.0, 112.0)"
+		},
+		{
+			"asset": "post_cedar",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.242188, 0.242188)",
+			"source_canvas": "(256.0, 820.0)",
+			"visual_contact_local": "(612.0, 112.0)"
+		},
+		{
+			"asset": "window_shoji",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "canvas_center",
+			"scale": "(0.40625, 0.40625)",
+			"source_canvas": "(256.0, 197.0)",
+			"visual_contact_local": "(86.0, 20.0)"
+		},
+		{
+			"asset": "menu_blank",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "canvas_center",
+			"scale": "(0.722656, 0.722656)",
+			"source_canvas": "(256.0, 190.0)",
+			"visual_contact_local": "(305.0, -9.0)"
+		},
+		{
+			"asset": "shelf_ceramics",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.652344, 0.652344)",
+			"source_canvas": "(256.0, 146.0)",
+			"visual_contact_local": "(304.0, 105.0)"
+		},
+		{
+			"asset": "art_framed",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "canvas_center",
+			"scale": "(0.222656, 0.222656)",
+			"source_canvas": "(256.0, 280.0)",
+			"visual_contact_local": "(549.0, 24.0)"
+		},
+		{
+			"asset": "plant_hanging",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.179688, 0.179688)",
+			"source_canvas": "(256.0, 490.0)",
+			"visual_contact_local": "(474.0, 101.0)"
+		},
+		{
+			"asset": "lamp_pendant",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.15625, 0.15625)",
+			"source_canvas": "(256.0, 381.0)",
+			"visual_contact_local": "(185.0, 47.0)"
+		},
+		{
+			"asset": "lamp_pendant",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/Architecture",
+			"pivot": "bottom_center",
+			"scale": "(0.15625, 0.15625)",
+			"source_canvas": "(256.0, 381.0)",
+			"visual_contact_local": "(414.0, 47.0)"
+		},
+		{
+			"asset": "counter_top",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.4375
+		},
+		{
+			"asset": "counter_front",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.4375
+		},
+		{
+			"asset": "counter_cedar",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.142578125
+		},
+		{
+			"asset": "espresso",
+			"local_visual_contact": "(0.0, -42.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.22395833333333334
+		},
+		{
+			"asset": "counter_cedar",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.09375
+		},
+		{
+			"asset": "grinder",
+			"local_visual_contact": "(0.0, -35.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.08854166666666667
+		},
+		{
+			"asset": "pos",
+			"local_visual_contact": "(0.0, -48.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/POS/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.10416666666666667
+		},
+		{
+			"asset": "table_cedar",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.3489583333333333
+		},
+		{
+			"asset": "chair_ne",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairA/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.15104166666666666
+		},
+		{
+			"asset": "chair_nw",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairB/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.15104166666666666
+		},
+		{
+			"asset": "planter",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Plant/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.18229166666666666
+		},
+		{
+			"asset": "entrance_frame",
+			"local_visual_contact": "(-1.339535, 82.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Entrance/InteriorReviewVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.29767441860465116
+		},
+		{
+			"asset": "counter_top",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.4375, 0.4375)",
+			"source_canvas": "(512.0, 210.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "counter_front",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.4375, 0.4375)",
+			"source_canvas": "(512.0, 210.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "ceramic_service",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CounterShell/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.171875, 0.171875)",
+			"source_canvas": "(256.0, 106.0)",
+			"visual_contact_local": "(55.0, -56.0)"
+		},
+		{
+			"asset": "counter_short",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/EspressoStation/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.285156, 0.285156)",
+			"source_canvas": "(256.0, 274.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "counter_short",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/Grinder/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.1875, 0.1875)",
+			"source_canvas": "(256.0, 274.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "tea_tray",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.152344, 0.152344)",
+			"source_canvas": "(256.0, 163.0)",
+			"visual_contact_local": "(-15.0, -89.0)"
+		},
+		{
+			"asset": "flower_small",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableA/InteriorReviewVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.082031, 0.082031)",
+			"source_canvas": "(256.0, 246.0)",
+			"visual_contact_local": "(28.0, -82.0)"
+		},
+		{
+			"asset": "table_cedar",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.328125
+		},
+		{
+			"asset": "ceramic_service",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.132812, 0.132812)",
+			"source_canvas": "(256.0, 106.0)",
+			"visual_contact_local": "(-10.0, -84.0)"
+		},
+		{
+			"asset": "flower_small",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/TableB/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.070312, 0.070312)",
+			"source_canvas": "(256.0, 246.0)",
+			"visual_contact_local": "(30.0, -78.0)"
+		},
+		{
+			"asset": "chair_ne",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairC/KitVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.15104166666666666
+		},
+		{
+			"asset": "chair_nw",
+			"local_visual_contact": "(0.0, 0.0)",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ChairD/KitVisualRoot",
+			"pivot_rule": "bottom_center_floor_or_countertop",
+			"runtime_scale": 0.15104166666666666
+		},
+		{
+			"asset": "cat_bed_empty",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/CatBed/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.46875, 0.46875)",
+			"source_canvas": "(256.0, 156.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "post_cedar",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/ScratchPost/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.097656, 0.097656)",
+			"source_canvas": "(256.0, 820.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "counter_short",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/PastryCase/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.367188, 0.367188)",
+			"source_canvas": "(256.0, 274.0)",
+			"visual_contact_local": "(0.0, 0.0)"
+		},
+		{
+			"asset": "tea_tray",
+			"family_scope": "DEV_REVIEW_CANDIDATE",
+			"owner": "/root/WilliCatCafeInteriorKitReview/DepthSortedLayer/WorldObjects/PastryCase/KitVisualRoot",
+			"pivot": "bottom_center",
+			"scale": "(0.199219, 0.199219)",
+			"source_canvas": "(256.0, 163.0)",
+			"visual_contact_local": "(0.0, -85.1875)"
+		}
+	],
+	"canonical_integration_proof_executed": false,
+	"check_count": 12,
+	"checks": {
+		"actual_actor_motion": true,
+		"all_tour_targets_reached": true,
+		"authority_after": true,
+		"authority_installed": true,
+		"coffee_completion_fx_once": true,
+		"frames_recorded": true,
+		"ordering_front_counter_captured": true,
+		"seat_shadow_stays_at_ground": true,
+		"seating_captured": true,
+		"service_one_reward": true,
+		"serving_behind_counter_captured": true,
+		"steam_visible": true
+	},
+	"frame_timestamps_ms": [
+		1858,
+		1968,
+		2078,
+		2298,
+		2408,
+		2518,
+		2634,
+		2747,
+		2860,
+		2973,
+		3085,
+		3197,
+		3307,
+		3419,
+		3534,
+		3644,
+		3753,
+		3863,
+		3973,
+		4081,
+		4188,
+		4297,
+		4405,
+		4514,
+		4623,
+		4731,
+		4840,
+		4950,
+		5059,
+		5168,
+		5279,
+		5388,
+		5497,
+		5605,
+		5715,
+		5931,
+		6039,
+		6147,
+		6257,
+		6366,
+		6479,
+		6594,
+		6705,
+		6818,
+		6932,
+		7042,
+		7154,
+		7268,
+		7377,
+		7486,
+		7596,
+		7706,
+		7816,
+		8033,
+		8141,
+		8248,
+		8357,
+		8465,
+		8574,
+		8683,
+		8791,
+		8899,
+		9009,
+		9117,
+		9224,
+		9335,
+		9444,
+		9553,
+		9661,
+		9769,
+		9877,
+		9986,
+		10093,
+		10201,
+		10421,
+		10533,
+		10646,
+		10756,
+		10869,
+		11000,
+		11110,
+		11221,
+		11332,
+		11443,
+		11658,
+		11769,
+		11881,
+		11990,
+		12101,
+		12213,
+		12325,
+		12437,
+		12549,
+		12661,
+		12887,
+		12998,
+		13109,
+		13217,
+		13327,
+		13996,
+		14109,
+		14219,
+		14332,
+		14446,
+		14558,
+		14669,
+		14781,
+		14894,
+		15565,
+		15702,
+		15838,
+		16104,
+		16240,
+		16374,
+		16509,
+		16644,
+		16780,
+		16913,
+		17049,
+		17184,
+		17324,
+		17459,
+		17594,
+		17732,
+		17868,
+		18001,
+		18139,
+		18272,
+		18408,
+		18557,
+		18693,
+		18829,
+		18964,
+		19099,
+		19232,
+		19370,
+		19509,
+		19644,
+		19777,
+		19909,
+		20042,
+		20174,
+		20307,
+		21092,
+		21225,
+		21354,
+		21484,
+		21620,
+		21752,
+		21887,
+		22019,
+		22151,
+		22286,
+		22418,
+		22556,
+		22690,
+		22824,
+		23088,
+		23221,
+		23355,
+		23486,
+		23617,
+		23751,
+		23884,
+		24014,
+		24145,
+		24275,
+		24407,
+		24537,
+		24670,
+		24807,
+		24938,
+		25069,
+		25199,
+		25330,
+		25460,
+		25590,
+		25721,
+		25852,
+		25986,
+		26118,
+		26254,
+		26386,
+		26521,
+		26785,
+		27587,
+		27720,
+		27853,
+		27986,
+		28119,
+		28250,
+		28382,
+		28514,
+		28647,
+		28777,
+		28907,
+		29037,
+		29167,
+		29298,
+		29428,
+		29558,
+		29689,
+		29820,
+		29953,
+		30087,
+		30220,
+		30355,
+		30621,
+		30756,
+		30892,
+		31025,
+		31158,
+		31292,
+		31424,
+		31558,
+		31691,
+		31822,
+		31953,
+		32083,
+		32212,
+		32347,
+		32479,
+		32613,
+		32745,
+		32875,
+		33006,
+		33136,
+		33265,
+		33396,
+		33526,
+		33657,
+		33785,
+		33915,
+		34046,
+		34179,
+		34312,
+		34444,
+		34578,
+		34712,
+		34850,
+		34985,
+		35120,
+		35255,
+		35391,
+		35524
+	],
+	"frames": 245,
+	"passed": true,
+	"phases": [
+		{
+			"phase": "Customer enters",
+			"time_ms": 16104
+		},
+		{
+			"phase": "Customer orders coffee",
+			"time_ms": 16509
+		},
+		{
+			"phase": "Coffee order → brewing",
+			"time_ms": 21887
+		},
+		{
+			"phase": "Mochi prepares coffee",
+			"time_ms": 21887
+		},
+		{
+			"phase": "Coffee ready → carrying",
+			"time_ms": 24669
+		},
+		{
+			"phase": "Mochi serves customer",
+			"time_ms": 24670
+		},
+		{
+			"phase": "Customer sits",
+			"time_ms": 28119
+		},
+		{
+			"phase": "Customer leaves",
+			"time_ms": 32346
+		},
+		{
+			"phase": "Mochi returns idle",
+			"time_ms": 34985
+		},
+		{
+			"phase": "Ready for next customer",
+			"time_ms": 35119
+		}
+	],
+	"scope": "DEV_REVIEW_CANDIDATE",
+	"tour": [
+		{
+			"accepted": true,
+			"label": "entrance",
+			"position": "(320.0, 855.0)",
+			"success": true
+		},
+		{
+			"accepted": true,
+			"label": "counter_front",
+			"position": "(120.0, 250.0)",
+			"success": true
+		},
+		{
+			"accepted": true,
+			"label": "counter_back",
+			"position": "(230.0, 97.0)",
+			"success": true
+		},
+		{
+			"accepted": true,
+			"label": "table_back",
+			"position": "(175.0, 369.0)",
+			"success": true
+		},
+		{
+			"accepted": true,
+			"label": "table_side",
+			"position": "(251.0, 431.0)",
+			"success": true
+		},
+		{
+			"accepted": true,
+			"label": "table_front",
+			"position": "(175.0, 495.0)",
+			"success": true
+		}
+	],
+	"trace": [
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					822.9998779296875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 24.382,
+			"time_ms": 1858
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					319.99993896484375,
+					845.999755859375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 24.382,
+			"time_ms": 1968
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 24.382,
+			"time_ms": 2078
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2298
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2408
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2518
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2634
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					320.0,
+					855.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2747
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					317.4600524902344,
+					832.1407470703125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2860
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					314.4967956542969,
+					805.4716186523438
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 2973
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					311.5335388183594,
+					778.802490234375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 219.632,
+			"time_ms": 3085
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					308.5702819824219,
+					752.1333618164063
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3197
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					306.0304260253906,
+					729.2741088867188
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3307
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					303.0671691894531,
+					702.60498046875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3419
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					300.10400390625,
+					675.9358520507813
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3534
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					297.5640869140625,
+					653.0765991210938
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3644
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					294.6009216308594,
+					626.407470703125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3753
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					291.6376647949219,
+					599.7383422851563
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3863
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					288.6744079589844,
+					573.0692138671875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 3973
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					286.13446044921875,
+					550.2099609375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 115.51400000000001,
+			"time_ms": 4081
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					283.1712341308594,
+					523.5408325195313
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4188
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					280.63128662109375,
+					500.68157958984375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4297
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					272.83721923828125,
+					475.0202331542969
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4405
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					265.32476806640625,
+					453.2817687988281
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4514
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					256.56024169921875,
+					427.92022705078125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4623
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					249.04788208007813,
+					406.1817626953125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4731
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					238.96487426757813,
+					381.5996398925781
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4840
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					223.54107666015625,
+					364.5376892089844
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 4950
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					205.54664611816406,
+					344.6321105957031
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 114.75399999999999,
+			"time_ms": 5059
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					190.1228485107422,
+					327.5702209472656
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 109.226,
+			"time_ms": 5168
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					172.12841796875,
+					307.6647033691406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 109.226,
+			"time_ms": 5279
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					156.70462036132813,
+					290.60284423828125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 109.226,
+			"time_ms": 5388
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					138.71018981933594,
+					270.6972961425781
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 109.226,
+			"time_ms": 5497
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · entrance",
+			"process_ms": 109.226,
+			"time_ms": 5605
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 109.226,
+			"time_ms": 5715
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 109.226,
+			"time_ms": 5931
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 109.226,
+			"time_ms": 6039
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6147
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6257
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					120.0,
+					250.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6366
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					103.03216552734375,
+					234.47283935546875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6479
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					83.23635864257813,
+					216.35781860351563
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6594
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					68.99471282958984,
+					199.58653259277344
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6705
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					68.28211975097656,
+					172.76263427734375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6818
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					67.56952667236328,
+					145.93873596191406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 6932
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					74.59874725341797,
+					125.38124084472656
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 215.485,
+			"time_ms": 7042
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					97.21337127685547,
+					121.18853759765625
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7154
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					123.59709930419922,
+					116.29705047607422
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7268
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					149.98081970214844,
+					111.40556335449219
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7377
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					172.59544372558594,
+					107.21283721923828
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7486
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					198.9791717529297,
+					102.32132720947266
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7596
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter front",
+			"process_ms": 114.538,
+			"time_ms": 7706
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 114.538,
+			"time_ms": 7816
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 114.538,
+			"time_ms": 8033
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8141
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8248
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8357
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					230.0,
+					97.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8465
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.83285522460938,
+					104.2337646484375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8574
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					277.304443359375,
+					112.67315673828125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8683
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					299.13720703125,
+					119.90692138671875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8791
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					310.632568359375,
+					138.84617614746094
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 8899
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					311.50103759765625,
+					161.8297576904297
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 217.472,
+			"time_ms": 9009
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					312.5142517089844,
+					188.64393615722656
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9117
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					303.239990234375,
+					208.2903594970703
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9224
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					286.50347900390625,
+					229.26451110839844
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9335
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					272.15789794921875,
+					247.2423553466797
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9444
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					255.42137145996094,
+					268.2165222167969
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9553
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					241.0757293701172,
+					286.1943664550781
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9661
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					224.33917236328125,
+					307.16851806640625
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9769
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					209.99354553222656,
+					325.1463623046875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9877
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					193.25698852539063,
+					346.1205139160156
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 9986
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					178.91136169433594,
+					364.0983581542969
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · counter back",
+			"process_ms": 108.49300000000001,
+			"time_ms": 10093
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10201
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10421
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10533
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10645
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10756
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 10869
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					201.4571075439453,
+					373.4773254394531
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 11000
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					227.91421508789063,
+					377.9546813964844
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 110.46499999999999,
+			"time_ms": 11110
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					240.97988891601563,
+					397.5925598144531
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 219.679,
+			"time_ms": 11221
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					248.68894958496094,
+					423.29461669921875
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table back",
+			"process_ms": 219.679,
+			"time_ms": 11332
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 11443
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 11658
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 11769
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 11881
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 11990
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					251.0,
+					431.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 219.679,
+			"time_ms": 12101
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					245.34251403808594,
+					457.2301330566406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 215.368,
+			"time_ms": 12213
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					236.76773071289063,
+					480.6158752441406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 215.368,
+			"time_ms": 12325
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					214.4146728515625,
+					486.0325012207031
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 215.368,
+			"time_ms": 12437
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					188.30870056152344,
+					492.2301940917969
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table side",
+			"process_ms": 215.368,
+			"time_ms": 12549
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 215.368,
+			"time_ms": 12661
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 215.368,
+			"time_ms": 12887
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 215.368,
+			"time_ms": 12998
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 215.368,
+			"time_ms": 13109
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 225.714,
+			"time_ms": 13217
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					495.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Willi explores · table front",
+			"process_ms": 225.714,
+			"time_ms": 13327
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					148.68772888183594,
+					489.73760986328125
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 225.714,
+			"time_ms": 13996
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					122.37547302246094,
+					484.4751281738281
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 225.714,
+			"time_ms": 14109
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					114.1351547241211,
+					467.6552734375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14219
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					112.87069702148438,
+					440.8517761230469
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14332
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					111.60623168945313,
+					414.04827880859375
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14446
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					110.3417739868164,
+					387.2447814941406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14558
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					128.87095642089844,
+					379.2559509277344
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14669
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					155.06466674804688,
+					373.4322814941406
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14781
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 222.443,
+			"time_ms": 14894
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 220.575,
+			"time_ms": 15565
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 220.575,
+			"time_ms": 15702
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					965.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "A small café. A cup made with care.",
+			"process_ms": 220.575,
+			"time_ms": 15838
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					895.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer enters",
+			"process_ms": 220.575,
+			"time_ms": 16104
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					895.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer enters",
+			"process_ms": 265.796,
+			"time_ms": 16240
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					874.5831909179688
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer enters",
+			"process_ms": 265.796,
+			"time_ms": 16374
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					319.03375244140625,
+					846.3035888671875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 265.796,
+			"time_ms": 16509
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					316.4570617675781,
+					823.1131591796875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 265.796,
+			"time_ms": 16644
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					313.88031005859375,
+					799.9227294921875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 265.796,
+			"time_ms": 16780
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					311.30352783203125,
+					776.7322998046875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 265.796,
+			"time_ms": 16913
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					308.7267761230469,
+					753.5418701171875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 265.796,
+			"time_ms": 17049
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					306.1501159667969,
+					730.3514404296875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17184
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					303.57342529296875,
+					707.1610107421875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17324
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					300.9967346191406,
+					683.9705810546875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17459
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					298.4200134277344,
+					660.7801513671875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17594
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					295.8433532714844,
+					637.5897216796875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17732
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					293.2666931152344,
+					614.3992919921875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 17868
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					290.6899719238281,
+					591.2088623046875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 135.34199999999998,
+			"time_ms": 18001
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					288.11322021484375,
+					568.0184326171875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18139
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					285.5364990234375,
+					544.8280029296875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18272
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					282.95977783203125,
+					521.6375732421875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18408
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					280.38299560546875,
+					498.4469909667969
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18557
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					273.26092529296875,
+					476.2333679199219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18693
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					265.63861083984375,
+					454.1801452636719
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18829
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					258.0164489746094,
+					432.1269226074219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 18964
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					250.39425659179688,
+					410.0736999511719
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.917,
+			"time_ms": 19099
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					242.77206420898438,
+					388.0204772949219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19232
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					228.1561737060547,
+					370.0927429199219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19370
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					212.5411834716797,
+					352.7543640136719
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19509
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					196.9261932373047,
+					335.4159851074219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19644
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					181.3112030029297,
+					318.0776062011719
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19777
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					165.6962127685547,
+					300.7392272949219
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 19909
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					150.0812225341797,
+					283.40087890625
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 148.835,
+			"time_ms": 20042
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					134.4662322998047,
+					266.06268310546875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.732,
+			"time_ms": 20174
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.732,
+			"time_ms": 20307
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 138.732,
+			"time_ms": 21092
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 262.629,
+			"time_ms": 21225
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 262.629,
+			"time_ms": 21354
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 262.629,
+			"time_ms": 21484
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					222.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 262.629,
+			"time_ms": 21620
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					227.83334350585938
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					335.0,
+					135.0
+				]
+			},
+			"phase": "Customer orders coffee",
+			"process_ms": 262.629,
+			"time_ms": 21752
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					337.34930419921875,
+					140.33932495117188
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 262.629,
+			"time_ms": 21887
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					346.74652099609375,
+					161.69662475585938
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 262.629,
+			"time_ms": 22019
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					356.14373779296875,
+					183.05392456054688
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22151
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					370.32171630859375,
+					200.53343200683594
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22286
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					389.28045654296875,
+					214.13511657714844
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22418
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22556
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22690
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 22824
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 135.223,
+			"time_ms": 23088
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23221
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23355
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23486
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23617
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23751
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 23884
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 263.81300000000005,
+			"time_ms": 24014
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 133.962,
+			"time_ms": 24145
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					410.0,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 133.962,
+			"time_ms": 24275
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					430.4165954589844,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 133.962,
+			"time_ms": 24407
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					450.83319091796875,
+					229.0
+				]
+			},
+			"phase": "Willi prepares coffee",
+			"process_ms": 133.962,
+			"time_ms": 24537
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					440.5720520019531,
+					222.72332763671875
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 133.962,
+			"time_ms": 24670
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					418.3686828613281,
+					215.54994201660156
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 133.962,
+			"time_ms": 24807
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					396.1653137207031,
+					208.37652587890625
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 133.962,
+			"time_ms": 24938
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					373.9619445800781,
+					201.20310974121094
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 133.962,
+			"time_ms": 25069
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					357.183837890625,
+					186.6286163330078
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25199
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					343.660888671875,
+					167.6134796142578
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25329
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					330.137939453125,
+					148.5983428955078
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25460
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					318.30535888671875,
+					131.96009826660156
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25590
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					297.53875732421875,
+					125.21101379394531
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25721
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					274.35760498046875,
+					122.55061340332031
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25852
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					251.17645263671875,
+					119.89019775390625
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 25986
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					227.99530029296875,
+					117.22976684570313
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 136.84199999999998,
+			"time_ms": 26118
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					204.81414794921875,
+					114.5693359375
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 135.298,
+			"time_ms": 26254
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					181.63299560546875,
+					111.9089126586914
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 135.298,
+			"time_ms": 26386
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					165.0,
+					155.0
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 135.298,
+			"time_ms": 26521
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					165.0,
+					155.0
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 135.298,
+			"time_ms": 26785
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					165.0,
+					155.0
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 267.54,
+			"time_ms": 27587
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					165.0,
+					155.0
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 267.54,
+			"time_ms": 27720
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					165.0,
+					155.0
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 267.54,
+			"time_ms": 27853
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					120.0,
+					250.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					181.72430419921875,
+					115.77373504638672
+				]
+			},
+			"phase": "Willi serves customer",
+			"process_ms": 267.54,
+			"time_ms": 27986
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					116.83859252929688,
+					267.21209716796875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 267.54,
+			"time_ms": 28119
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					112.62338256835938,
+					290.16156005859375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28250
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					108.40817260742188,
+					313.11102294921875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28382
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					104.1929702758789,
+					336.06048583984375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28514
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					99.97776794433594,
+					359.00994873046875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28647
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					95.76255798339844,
+					381.95941162109375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28777
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					91.54734802246094,
+					404.90887451171875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 28907
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					87.85903930664063,
+					424.9896545410156
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.77100000000002,
+			"time_ms": 29037
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					83.64382934570313,
+					447.9391174316406
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29167
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					79.42861938476563,
+					470.8885803222656
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29298
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					75.70035552978516,
+					493.8857421875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29428
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					75.38066864013672,
+					517.216796875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29557
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					75.06100463867188,
+					540.5478515625
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29689
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					89.39215087890625,
+					555.089599609375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29820
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 29953
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.376,
+			"time_ms": 30087
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 30220
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 30355
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 30621
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 30756
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 30892
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 132.923,
+			"time_ms": 31025
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31158
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31292
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31424
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31558
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31691
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31822
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 31953
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					532.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 265.08799999999997,
+			"time_ms": 32083
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					110.0,
+					553.7208251953125
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer sits",
+			"process_ms": 133.018,
+			"time_ms": 32212
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					112.6163330078125,
+					581.2137451171875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 32347
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					123.0816650390625,
+					602.0687255859375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 32479
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					133.5469970703125,
+					622.9237060546875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 32613
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					144.0123291015625,
+					643.7786865234375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 32745
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					154.47769165039063,
+					664.633544921875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 32875
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					164.94308471679688,
+					685.4883422851563
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.018,
+			"time_ms": 33006
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					174.10031127929688,
+					703.7362060546875
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33136
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					189.48863220214844,
+					720.9132690429688
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33265
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					206.51792907714844,
+					736.8646850585938
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33396
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					224.06321716308594,
+					752.2439575195313
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33526
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					241.6821746826172,
+					767.5415649414063
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33657
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					256.8305969238281,
+					781.2252197265625
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33785
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					273.91326904296875,
+					797.1192626953125
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 33915
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					290.99578857421875,
+					813.013427734375
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 134.102,
+			"time_ms": 34046
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					308.0783386230469,
+					828.9076538085938
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34179
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					895.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34312
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					895.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34444
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					903.7500610351563
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34578
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					927.0835571289063
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34712
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					950.4170532226563
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					190.0,
+					110.0
+				]
+			},
+			"phase": "Customer leaves",
+			"process_ms": 133.039,
+			"time_ms": 34850
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					966.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					203.86917114257813,
+					105.49230194091797
+				]
+			},
+			"phase": "Willi returns idle",
+			"process_ms": 133.039,
+			"time_ms": 34985
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					966.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					230.0,
+					97.0
+				]
+			},
+			"phase": "Ready for next customer",
+			"process_ms": 133.039,
+			"time_ms": 35120
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					966.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					230.0,
+					97.0
+				]
+			},
+			"phase": "Ready for next customer",
+			"process_ms": 137.713,
+			"time_ms": 35255
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					966.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					230.0,
+					97.0
+				]
+			},
+			"phase": "Ready for next customer",
+			"process_ms": 137.713,
+			"time_ms": 35391
+		},
+		{
+			"actor_positions": {
+				"Customer": [
+					320.0,
+					966.0
+				],
+				"Visitor": [
+					175.0,
+					369.0
+				],
+				"Worker": [
+					230.0,
+					97.0
+				]
+			},
+			"phase": "Ready for next customer",
+			"process_ms": 137.713,
+			"time_ms": 35524
+		}
+	]
+}

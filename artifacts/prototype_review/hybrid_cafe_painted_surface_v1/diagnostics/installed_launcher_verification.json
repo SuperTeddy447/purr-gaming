@@ -1,0 +1,15 @@
+{
+  "scope": "Installed DEV launcher/source/runtime identity check; no production approval",
+  "passed": true,
+  "preexisting_files_unchanged": 6804,
+  "approved_2d_binding_files": 164,
+  "exact_reused_glbs": 29,
+  "tested_runtime_files_equal": 30,
+  "fresh_installed_project": "/private/tmp/willicat_painted_surface_human_review/project",
+  "distinct_save_namespace": "WilliCatCafePaintedSurfaceDEVV1",
+  "git_head_unchanged": true,
+  "commit": false,
+  "push": false,
+  "installed_import_errors": 0,
+  "inherited_case_mismatch_warnings": 5
+}

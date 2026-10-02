@@ -1,0 +1,7 @@
+{
+  "earlier_texture_memory_bytes": 1.8446744072916863e+19,
+  "earlier_counter_interpretation": "INVALID_OVERFLOW_LIKE; not converted to memory claim",
+  "current_texture_memory_bytes": 178423552.0,
+  "current_texture_interpretation": "provisional process monitor; includes retained resources; earlier instability disclosed",
+  "process_time_interpretation": "inconclusive across runs/foreground scheduling; not GPU frame time or phone FPS"
+}

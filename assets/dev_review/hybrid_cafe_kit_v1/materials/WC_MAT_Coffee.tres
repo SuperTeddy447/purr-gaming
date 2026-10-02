@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=1 format=3]
+[resource]
+resource_name = "WC_MAT_Coffee"
+albedo_color = Color(0.07000000029802322, 0.03700000047683716, 0.02199999988079071, 1.0)
+roughness = 0.9399999976158142
+metallic = 0.0
+specular_mode = 0
+cull_mode = 0
+texture_filter = 3

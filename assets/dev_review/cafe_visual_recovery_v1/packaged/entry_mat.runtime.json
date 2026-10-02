@@ -1,0 +1,47 @@
+{
+  "asset_id": "entry_mat",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/entry_mat_extracted.png",
+  "runtime_path": "/private/tmp/willicat_cafe_recovery_stage/assets/dev_review/cafe_visual_recovery_v1/packaged/entry_mat.png",
+  "source_sha256": "5401be9432d57b64060673d4abda05a4b547d0f2a401c7b680e58503502e8859",
+  "runtime_sha256": "583280347dc725f3e362f8e1d36c1f851cfb7ee83c8473b5fe2eefdfdbdffb6b",
+  "source_dimensions": [
+    501,
+    736
+  ],
+  "runtime_dimensions": [
+    521,
+    189
+  ],
+  "source_visual_bounds": [
+    6,
+    426,
+    495,
+    599
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    505,
+    189
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    260.5,
+    189
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 2500,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

@@ -1,0 +1,337 @@
+{
+	"authored_piece_count": 283,
+	"batched_mesh_count": 58,
+	"custom_shader_resource": "res://scripts/dev/stylized_fidelity/painted_albedo.gdshader",
+	"custom_shader_resources": 1,
+	"geometry_instances": [
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "Floor/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "Floor/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "Floor/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "Floor/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "Floor/StaticMaterialBatch_4"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "RearArchitecture/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "RearArchitecture/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "RearArchitecture/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "WindowOpening/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "WindowOpening/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "WindowOpening/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "WindowOpening/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Label3D",
+			"path": "SmallShelf/@Label3D@150"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_4"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_5"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_6"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "SmallShelf/StaticMaterialBatch_7"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "counter_shell/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "counter_shell/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "counter_shell/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "counter_shell/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "counter_shell/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "espresso_station/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "espresso_station/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "espresso_station/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "EspressoMachine/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "EspressoMachine/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "EspressoMachine/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "EspressoMachine/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "ServiceCeramics/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "ServiceCeramics/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "ServiceCeramics/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "table_a/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_4"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_5"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_6"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "table_a/StaticMaterialBatch_7"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "chair_a/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_a/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_a/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_a/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_a/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "chair_b/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_b/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_b/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_b/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "chair_b/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": false,
+			"class": "Sprite3D",
+			"path": "plant/AuthoredContactGrounding"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_2"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_3"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_4"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "plant/StaticMaterialBatch_5"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "PracticalLamp/StaticMaterialBatch_0"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "PracticalLamp/StaticMaterialBatch_1"
+		},
+		{
+			"cast_shadow": true,
+			"class": "MeshInstance3D",
+			"path": "PracticalLamp/StaticMaterialBatch_2"
+		}
+	],
+	"label3d_count": 1,
+	"live_subviewport_count": 0,
+	"shadow_casters": 58,
+	"triangles": 39272
+}

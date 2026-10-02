@@ -1,0 +1,99 @@
+{
+  "scope": "DEV_VISUAL_FRAMING_PROOF",
+  "generation_calls": 0,
+  "source_path": "assets/dev_review/cafe_interior_kit_v1/runtime/counter_main.png",
+  "source_hash": "e734601e2db8a24d259aa103aabddb6f1e7a5322238ce7e4dd0c7aa1e2e3ceb9",
+  "counter_plane_slope": 0.1111111111111111,
+  "slope_basis": "artist-inspected existing painted front-frame endpoints",
+  "front_top_partition_y_px": 122,
+  "pieces": [
+    {
+      "piece_id": "left",
+      "source_rect_after_deshear_px": [
+        0,
+        0,
+        128,
+        290
+      ],
+      "canvas_px": [
+        128,
+        290
+      ],
+      "pivot_px": [
+        0,
+        217
+      ],
+      "registration": "left-edge, common authored ground contact",
+      "mirror_policy": "middle material segment may be mirrored horizontally; this is not a furniture directional view"
+    },
+    {
+      "piece_id": "middle",
+      "source_rect_after_deshear_px": [
+        128,
+        0,
+        384,
+        290
+      ],
+      "canvas_px": [
+        256,
+        290
+      ],
+      "pivot_px": [
+        0,
+        217
+      ],
+      "registration": "left-edge, common authored ground contact",
+      "mirror_policy": "middle material segment may be mirrored horizontally; this is not a furniture directional view"
+    },
+    {
+      "piece_id": "right",
+      "source_rect_after_deshear_px": [
+        384,
+        0,
+        512,
+        290
+      ],
+      "canvas_px": [
+        128,
+        290
+      ],
+      "pivot_px": [
+        0,
+        217
+      ],
+      "registration": "left-edge, common authored ground contact",
+      "mirror_policy": "middle material segment may be mirrored horizontally; this is not a furniture directional view"
+    }
+  ],
+  "material_crops": {
+    "counter_surface_material": [
+      135,
+      83,
+      375,
+      112
+    ],
+    "cedar_post_face": [
+      91,
+      116,
+      173,
+      692
+    ]
+  },
+  "recipe_code_hash": "e17b44caedc7d08b99ee679a5cedfd7d8fa81667fe3d211ec1f7e1c43bc3ad49",
+  "output_hashes": {
+    "counter_right_front.png": "a98950f9f5e14e30e81d7e642ece0f7adf285527436d1d34711d27fd256ac36d",
+    "menu_flat.png": "7393850d42042842556a754290195f63bfbbbaebc184c6778345064a9c815c71",
+    "counter_left_top.png": "5e945aad9aee600135de9ecc9ef2b39cb7c220ca3c804b25a2f00bd47d542b21",
+    "seating_rug.png": "f6c6fe6157845006d49e5a59f7b21ff4b7a91698e483006ada4391fb1099a123",
+    "counter_middle_top.png": "ad93dbd1fbee687c319d53663d7fc1e6c5591e538bf0bae37e0b108231d921ba",
+    "entry_mat.png": "d85a8bb13c9d64fade53d8d0729ab94a39260bef9ed8103ca6a0009a97427a7b",
+    "cedar_post_face.png": "e8ec901bdfaa762aae85fab99f0601672370f1c4eaad3990a40d0b28a9cbb687",
+    "counter_left_front.png": "4d3539af93ee8e179ae6a53d1b8659c692a47bd218c5318668dec0055a6a5867",
+    "counter_aligned.png": "7f3f5f8918e1e531f077e522223b63d31735e745f903a700b28695de8349a5f2",
+    "counter_surface_material.png": "e58998b46efaecda5ad7c6289dd2b3b2e5977d8968de1926fc12437cb704ae91",
+    "counter_middle_front.png": "73d19a9877d31c6473f6175774862035f9e54f72aec8cad2c21487c19fdbd881",
+    "counter_right_top.png": "77b96e68a7e99761658baefa6557ecfe1d4aa7e0a6f14f7205bec092a1238080",
+    "sisal_post.png": "93e1148999beb8b9d9d462ea09ee750e47ce7d6acf44d1ab95b748e8035ad212"
+  },
+  "geometry_and_calibration_thresholds": "no new canonical values; visual recipe choices only"
+}

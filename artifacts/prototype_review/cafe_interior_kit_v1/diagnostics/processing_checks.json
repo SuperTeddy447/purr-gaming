@@ -1,0 +1,126 @@
+{
+  "count": 30,
+  "passed": true,
+  "checks": [
+    {
+      "test": "exactly three distinct generated families",
+      "passed": true
+    },
+    {
+      "test": "architecture_family_v1 immutable raw copy",
+      "passed": true
+    },
+    {
+      "test": "counter_family_v1 immutable raw copy",
+      "passed": true
+    },
+    {
+      "test": "decor_family_v1 immutable raw copy",
+      "passed": true
+    },
+    {
+      "test": "eighteen explicit authored role mappings",
+      "passed": true
+    },
+    {
+      "test": "art_framed nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "beam_cedar nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "cat_bed_empty nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "ceramic_service nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "counter_front nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "counter_main nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "counter_short nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "counter_top nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "divider_cedar nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "floor_quiet nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "flower_small nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "lamp_pendant nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "menu_blank nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "plant_hanging nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "post_cedar nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "shelf_ceramics nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "shelf_empty nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "tea_tray nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "wall_framed nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "wall_plain nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "window_shoji nonempty normalized pixels",
+      "passed": true
+    },
+    {
+      "test": "floor outer pixels match on both seamless atlas axes",
+      "passed": true
+    },
+    {
+      "test": "counter planes share exact normalized canvas",
+      "passed": true
+    },
+    {
+      "test": "counter planes partition original alpha exactly",
+      "passed": true
+    },
+    {
+      "test": "counter plane masks do not duplicate opaque pixels",
+      "passed": true
+    }
+  ]
+}

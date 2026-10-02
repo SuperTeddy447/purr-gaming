@@ -1,0 +1,827 @@
+{
+  "existing_files_changed": [],
+  "count_excluding_this_self_describing_inventory": 164,
+  "self_reference": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/created_file_inventory.json",
+  "files": [
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/01_FULL_PORTRAIT_GAMEPLAY_540x960.png",
+      "sha256": "ecd37b0e7578f0fee6100234b6c6cc5ffa497a8393b6beb2dcea55b11ba53d3e",
+      "bytes": 400944
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/02_CAT_CAFE_ENTRANCE.png",
+      "sha256": "b1e29ada1f55f1f27f170126f2de4878a21021018ceef66e4a5146e1b8574b0c",
+      "bytes": 400185
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/03_CAT_RIVER_WALK.png",
+      "sha256": "ef8750c02cb7606469e80cb6bd28bffa7ecc5f492f37171e4a32f0ced11931d9",
+      "bytes": 401107
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/04_CAT_BRIDGE_CROSSING.png",
+      "sha256": "f72da55e0469a7aad2305849bc892604cc1bb370e1de5c235f4b572c1f670a63",
+      "bytes": 401171
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/05_CAFE_FACADE_CLOSE_3Q.png",
+      "sha256": "9d8e6f55fb08ea9b1fa96f9933cc1cc34a531043d7edba8a8978c38bacc4d09f",
+      "bytes": 593982
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/06_RIVER_EDGE_WATER_CLOSE.png",
+      "sha256": "5cf7b12ae69174c8ce2257556ba9beff03f9c29deb9beefc84c589f8d7e50018",
+      "bytes": 574001
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/07_TOP_VIEW_PLAYABLE_ROUTE.png",
+      "sha256": "6cf55c76f0ff91a5165a8ef7c29d9bce8305288b69995118dc0ae409985f1343",
+      "bytes": 401659
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/08_MOBILE_360_CAFE.png",
+      "sha256": "b27c87c89b142bcf2e56fffe7223f1daee6e0ce598af51f905baea837645f80d",
+      "bytes": 194143
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/09_MOBILE_360_RIVER.png",
+      "sha256": "239065a8df66c298dd76470d4780648874f2cdf40b1c3a22e8a2d4b45616ef17",
+      "bytes": 194110
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/10_MOBILE_360_BRIDGE.png",
+      "sha256": "4bfcf959c23f271d7dbfcf1aa855edb1d0d0061b612d7960919364c4249b33ec",
+      "bytes": 194025
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/11_TWO_CAT_WIDTH_TEST.png",
+      "sha256": "1d19d8588b761871844982b409e748450a05faf6c98df0f0c7cdb55d7a929c59",
+      "bytes": 401768
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/12_WATER_FOLIAGE_TIME_A.png",
+      "sha256": "b6da85d5e4675929c8745bed913d341fa3a5a7372c172fdec6153b66a6f8e5dc",
+      "bytes": 401122
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/13_WATER_FOLIAGE_TIME_B.png",
+      "sha256": "20a4ad1307468312983cf8ed4f38124a0e7dcefa5d8567c7cfa278f31ddfb6b4",
+      "bytes": 401392
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/14_CAFE_V1_V2.png",
+      "sha256": "faa52ef5a4e8d32c3a0c0521bfc51379b4fcd41c76bd0020530b0382272b72a0",
+      "bytes": 1203340
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/15_BRIDGE_V1_V2.png",
+      "sha256": "8f49d56cc495630907e50d2bed2bebe020100b83b9c98d19185ac6e01cba73a2",
+      "bytes": 1112206
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/16_BANK_V1_V2.png",
+      "sha256": "ea93627f264ff4a02c84fdf67b8e1450210b199d5e41e1d4cf581c2284ba70db",
+      "bytes": 1150042
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/17_VEGETATION_V1_V2.png",
+      "sha256": "63308226d01eee807d6d97604a68ef3627a3c1138eab3773a9ab86ece0e1c533",
+      "bytes": 670998
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/18_GAMEPLAY_V1_V2.png",
+      "sha256": "07c02bb936b187533e56576454fc6da0b6fe05162a8e5a361e2ce450fdfa9563",
+      "bytes": 743426
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/19_MASTER_V1_V2.png",
+      "sha256": "65488f940830ac4e7bd845643da047b400442e43fb77d1b92bffb55f452e1bed",
+      "bytes": 1799947
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/20_INSTALLED_PLAYABLE_CONTROLS.png",
+      "sha256": "7f10d6456ebba43168a1facde02b8ad193c88dbeef8be77a0953f251717ccc1b",
+      "bytes": 414142
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/WILLICAT_RIVERSIDE_3D_ART_TRANSLATION_REFINEMENT_V2.mp4",
+      "sha256": "7604879a0be09b3aac1594c6f6901e6fa21f663d9f4f8bc53939e0f9bf3d8b99",
+      "bytes": 380897
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/bridge_actor_only.png",
+      "sha256": "531bfb0f62e914f42c51c25d019dc6acd2d8ac9ce48947fc797f2e282d302a39",
+      "bytes": 6031
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/bridge_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/bridge_environment.png",
+      "sha256": "c22e9cb580b9811a81f90470c15c6efc20666ea91638c63be3170621686e8446",
+      "bytes": 400179
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/bridge_full.png",
+      "sha256": "7c973cc63b0ace942163f83b5dca6814f1877dab3557b4465afc5f993d3c7d22",
+      "bytes": 400643
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/entrance_actor_only.png",
+      "sha256": "5306497db294c2bba8c4af1b79cf7d06445071ddea1fb68897dab1790d32dd8a",
+      "bytes": 6005
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/entrance_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/entrance_environment.png",
+      "sha256": "c22e9cb580b9811a81f90470c15c6efc20666ea91638c63be3170621686e8446",
+      "bytes": 400179
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/entrance_full.png",
+      "sha256": "756b401e60ba0b5df915be11559d69e73242dddfa62069f15bf1d403deea2338",
+      "bytes": 400353
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/native_input_report.json",
+      "sha256": "13da2d183f38c47d91c568de0aff6e388ce9fbb645fb4138788f65f0910f0d5f",
+      "bytes": 623
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/scale_360_actor.png",
+      "sha256": "f2522930dba66abec469c85aae6e299bf55e5e0cac0de853583ac48f7590971b",
+      "bytes": 3216
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/scale_360_empty.png",
+      "sha256": "7fb8ed0b2e1ca17b4fee4346ed0bd469c17cad3641850e3b326c4e64ebc52bcd",
+      "bytes": 2025
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/scale_540_actor.png",
+      "sha256": "364839a1b02216e3930d43362eeac51e4ad1b08e5fefcbc537b25bf8197911b0",
+      "bytes": 5997
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/depth/scale_540_empty.png",
+      "sha256": "5d177ec1938cd5fe7d75490588dbc082ec9ea85f733beef2d544fc49d515bd87",
+      "bytes": 3585
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/document_json_validation.json",
+      "sha256": "653db20953abc71a41d75c91d0bd16040badbb1371c805628c9828d6e04a213c",
+      "bytes": 70
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/effective_Godot_import_settings.json",
+      "sha256": "edc093b1e32e8a14def40f2ea31b4d0475c68d06173384df0e690a72edfc8e75",
+      "bytes": 78075
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/image_depth_scale_motion_analysis.json",
+      "sha256": "d1a65306bd5693524aae1abce4238ebf0c3d74aa70649062c5e9e640cef288a4",
+      "bytes": 1042
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/installed_controls.json",
+      "sha256": "09c3b2c957dec6087f3895f15a8905509681184cc2460df83b34976c23448776",
+      "bytes": 388
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/installed_controls.log",
+      "sha256": "86d96af2e0ea130ab11e67fd698ac13311c39b7b72f82277f8d0208e29ef4270",
+      "bytes": 149
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/installed_import.log",
+      "sha256": "06c66700bb76c9ea733c1e77c98fbe401045819cf64244b40f76e19d5c836e54",
+      "bytes": 30002
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/installed_intake_receipt.json",
+      "sha256": "6df12de85ecb0e2b12ba991d3072323eaef442a11788604abf2ed44b563501a1",
+      "bytes": 16563
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/launcher_tests.log",
+      "sha256": "ec83b3c456c77fbfd941032cee006c132ed17c1cb01117189f1e28836e31cb7b",
+      "bytes": 105
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/motion_frame_receipt.json",
+      "sha256": "2a36338812513d5024cfb05a3473a2e6bc02ae5f4eda5647969ca989686fc183",
+      "bytes": 41276
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/native_capture.log",
+      "sha256": "bf63c7c2a4f2166d49038e53178cd28f20c3da8d72daa8b967e1331cbf06f192",
+      "bytes": 207
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/native_import.log",
+      "sha256": "06c66700bb76c9ea733c1e77c98fbe401045819cf64244b40f76e19d5c836e54",
+      "bytes": 30002
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/native_input.log",
+      "sha256": "a513946fdb5e7c0cce69de7f1e8c0b3d2fe8587ddb3a270f7e15247d1988028e",
+      "bytes": 183
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/native_matched.log",
+      "sha256": "86d96af2e0ea130ab11e67fd698ac13311c39b7b72f82277f8d0208e29ef4270",
+      "bytes": 149
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/protected_file_parity.json",
+      "sha256": "94f3dfbe4b436877009c8eddc4d95f752361a104744ef26339405ce4124a235f",
+      "bytes": 346
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/regression_execution.json",
+      "sha256": "0492aa57e5b61b49b24651bf7a38910c62c854333e787d2eafb5aad9b3290ba0",
+      "bytes": 1652
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/source_runtime_GLb_parity.json",
+      "sha256": "8f34bfaf081bf97e8bdfd8f178d35ade39006de2aa32b508734295e21dbcd9b2",
+      "bytes": 6750
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_cafe_visual_recovery_v1.json",
+      "sha256": "604eb75c06dd3666d1ec77e69dd1c17924be917396d3f87d5a627612477b611f",
+      "bytes": 3284
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_cafe_visual_recovery_v1.log",
+      "sha256": "c37429b7f88d9ead03976b06dd7f38016c3184dea76a7b1d5141ef6c28ee8df4",
+      "bytes": 587
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_focus_retreat_v1.json",
+      "sha256": "3e6671f4aa74e2fcf2726fd6696c9b6075126eef0b4c8e8d3ef2b5ec89e656e4",
+      "bytes": 2572
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_focus_retreat_v1.log",
+      "sha256": "a7b3b85ecfbce2eddb2b004ab56e231b1db7d11f4d7432e28da8e2cbe723fffb",
+      "bytes": 103
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_home_continuous_world_v1.log",
+      "sha256": "b3dae6e3b754029b0c6c88c552d0e5841331eda389026ab9e3ea4d91c64bf297",
+      "bytes": 1950
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_summary.json",
+      "sha256": "5d3d8f7002eb30120aa3cc468e79b8a148ef71b37359258c028a8a9175a57d51",
+      "bytes": 1137
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/test_world_architecture_hardening_v1.log",
+      "sha256": "40cd901c89229e73b59210fc869b3d20f00074634fd9d5c33713b973c827c9dc",
+      "bytes": 2228
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/toolchain_source_receipt.json",
+      "sha256": "b1652e8007b0fc04a2639a7c300e2e3f34f849dabccddf7afc8eafbf84f3bd0f",
+      "bytes": 2984
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/top_10_triangle_contributors.json",
+      "sha256": "3f2635d1407a36a3911418ed19c4fe507a3556bce672773de29fbd0aac284dc4",
+      "bytes": 9485
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/diagnostics/video_media_probe.json",
+      "sha256": "bf061932a770c789663183150f99e937ddf989491286a4cc1299cc4d097c15e4",
+      "bytes": 189
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/BANK_V1.png",
+      "sha256": "72babb3427e9ff2fb782fcc59e9922808d31b34e989a11e14bc44eaf331ad289",
+      "bytes": 582376
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/BANK_V2.png",
+      "sha256": "d832bc5174901c4b92881cf91a368e211fdef255f299bd27a2ae56dd84ad2e54",
+      "bytes": 587868
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/BRIDGE_V1.png",
+      "sha256": "d4b9d7b185c8e54d55c1882e0094e1601eb6dcba3aece68bd79ec4c959c58610",
+      "bytes": 560873
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/BRIDGE_V2.png",
+      "sha256": "a011685120452797ead247c517a5db7895a8614ea11e2a44ca4244aa417bc661",
+      "bytes": 573724
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/CAFE_V1.png",
+      "sha256": "9174770fe48be7a4bcf5349749c23fedf76c866733cd571fe40ec216749d10a1",
+      "bytes": 599682
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/CAFE_V2.png",
+      "sha256": "dae37ca5cb43e0457b02008b7a21e9f0b5e43e8741596028d4096d098c7db990",
+      "bytes": 593863
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/GAMEPLAY_V1.png",
+      "sha256": "3da9e7db532563a6ad1c82d7ee2cdaf87d988479424ad24f700c99b417895c11",
+      "bytes": 329729
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/GAMEPLAY_V2.png",
+      "sha256": "b742987cb935152210e3743a0fa50a2198e6da45dd9437e3d1f36cec7219c428",
+      "bytes": 400772
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/V1_WITH_V2_CAMERA_CONTROL.png",
+      "sha256": "5a14d7bfa5558c77b7f95d72ab7ecb445e019d6d5440c92815af6e2ec7ee3027",
+      "bytes": 373534
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/VEGETATION_V1.png",
+      "sha256": "c957f380c2fe3cec3e83d85b7b313fb38ddc0f1940158142f223168ddb5d905b",
+      "bytes": 337504
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/matched/VEGETATION_V2.png",
+      "sha256": "de1ded48e1008005a33ab0e69d400578adb3a7f6ae0a77d793210544fe1b552d",
+      "bytes": 323488
+    },
+    {
+      "path": "artifacts/prototype_review/riverside_3d_art_refinement_v2/native_runtime_report.json",
+      "sha256": "54a65242281e5429897ce3959b991989043b6131f8fe1454f63cd946a951d39e",
+      "bytes": 411703
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/asset_manifest.json",
+      "sha256": "034253f86f8b1042d3935f88734c855c228ba48a6371429f1032887311175f5c",
+      "bytes": 49083
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/foliage_sway.gdshader",
+      "sha256": "4fd4383698fe5e5d594d716c318d621273b0db8ee919b11d6a1439b8b7b7c2cd",
+      "bytes": 2310
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Awning_Jade_A.glb",
+      "sha256": "ba7a3aa0ea35cddeedb4c6861949053f912a2f61491af4d4e4ab5118a6bf63a4",
+      "bytes": 64928
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Background_House_A.glb",
+      "sha256": "c67a590fa96ae99f7b040073f0196336c02e73a83104018bd7bd9323df76683f",
+      "bytes": 43032
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Background_Rise_A.glb",
+      "sha256": "489e36be11b1d07627e8904dbd663c977914d2dc0cb7b2f1e346a8355500a94b",
+      "bytes": 3240
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_Inner_A.glb",
+      "sha256": "1d7b8079ac5fc121498bf9dfb1b6ea70f30bfd90c543b45c704e2edf228d06f5",
+      "bytes": 137208
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_Outer_A.glb",
+      "sha256": "9ddd91246cc86953626e7e1628d41c68efb13e3d2705c557e666ad1d28caef9d",
+      "bytes": 137208
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_PathTransition_A.glb",
+      "sha256": "531354d70214bb123b9bc00c65f4c6a975dac63d357b8185b4516b2217c8bd61",
+      "bytes": 75688
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_Straight_A.glb",
+      "sha256": "240e2a0e99d097eb8099ab217992c3c3efe82be1e2c186bac0cdecd973ff2fb8",
+      "bytes": 51048
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_Straight_B.glb",
+      "sha256": "ce01a6efc607567ea0ac9e7edde9ccb8472c6b2c607ddbdb4be5a1418da3f21a",
+      "bytes": 51104
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bank_Vegetation_A.glb",
+      "sha256": "2eb66bd208e8c2e53f51f46a6eec2111c53ef4f41b0dd40d193a0aed8f9a30db",
+      "bytes": 64448
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bridge_Abutment_A.glb",
+      "sha256": "377769badbb19f7697848e078ce7d19c31116b73b91a2abbe548ca84638820ff",
+      "bytes": 42844
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bridge_Deck_A.glb",
+      "sha256": "da136758df36583aa7d1bd37048a3cf1ad0cb813dd91f80d259fafcec589db45",
+      "bytes": 86248
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Bridge_Rail_A.glb",
+      "sha256": "098bb05619d51be9a91842f407ccbb3a1d702a6fd0b5ee1009e28b303edbfa07",
+      "bytes": 78756
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Entrance_Open_A.glb",
+      "sha256": "e48b20a93e624a1663ede4e7cba65dbfb1a88110eb1ecca32dd47af7ecefc7ba",
+      "bytes": 42284
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Grass_Bank_A.glb",
+      "sha256": "8e063e544ee0a8c7dfa9f1ae23753bacbb6271405b623d0e06a2e54526ed6641",
+      "bytes": 5152
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Ground_Stone_A.glb",
+      "sha256": "6f6e1e7d9ed28220aabf7c93978f39c359a9c2e7d30fdd8a9709244b128262d6",
+      "bytes": 71616
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Ground_Stone_B.glb",
+      "sha256": "4b7486c8abbd7b6d8533ec9bb4d593ea2ceab62df320b369254a269e965c9c60",
+      "bytes": 61692
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Ground_Stone_C.glb",
+      "sha256": "0456a5d3c07fb420bcb44498414916fa79dada4be2f608a1ef8fb4d2bbbbf531",
+      "bytes": 69924
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Potted_Plant_A.glb",
+      "sha256": "66b946a02ccc8b6864141e8fdb11b9e3ee050580059f16e3413cb91da0dc9b48",
+      "bytes": 39236
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Roof_CedarSlate_A.glb",
+      "sha256": "86c07734ec31d767941ef57619a8aa638e23cda99e2c3f5378c1719ccc777a3e",
+      "bytes": 475360
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Shrub_Riverside_A.glb",
+      "sha256": "f578527f5b39fe0ff3a1dfeef4943c23cb28141aa26d7c428debbb24017aa77b",
+      "bytes": 53252
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Sign_Blank_A.glb",
+      "sha256": "4b0d9072cf8b73a7cfbfcc5eab2a8b158e02b64a90eb57dc5712e03d9ddf5195",
+      "bytes": 23880
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Tree_Medium_A.glb",
+      "sha256": "f0558d54919a88ccbee7679106751ef71fef340eacd78f45abd56604c329edbc",
+      "bytes": 157372
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Tree_Small_A.glb",
+      "sha256": "4af0cecb4cfd7c00ed36aefbe2cd1ca58ea8adafae746716bb47a728419596ac",
+      "bytes": 157384
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Wall_Plain_A.glb",
+      "sha256": "8792dbf1cda72b63584c4a6dbce8648ff1f61d46066508890d1d788d280bb64f",
+      "bytes": 53580
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/glb/WC_RIVER_Wall_Window_A.glb",
+      "sha256": "cf9284f170825e3b58903f9695101ff630920073cb2ab8ef4725d8cfc676b55c",
+      "bytes": 148472
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/painted_variation.gdshader",
+      "sha256": "3d4eba2520cc1c10c56324f92a7c29c55bf02c1ada2ca5d4e1663de60bc1f838",
+      "bytes": 2071
+    },
+    {
+      "path": "assets/dev_review/riverside_refinement_v2/water.gdshader",
+      "sha256": "944e7a65ca80120373cdc9f06135518c0ad75c8757307bf19cfbee39cdcb3279",
+      "bytes": 543
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Awning_Jade_A.blend",
+      "sha256": "e75e4342766e7b7f2fb6efd67e9b408372b6bf67bc967fcb861d9c6a2ef487a6",
+      "bytes": 115508
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Awning_Jade_A.glb",
+      "sha256": "ba7a3aa0ea35cddeedb4c6861949053f912a2f61491af4d4e4ab5118a6bf63a4",
+      "bytes": 64928
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Entrance_Open_A.blend",
+      "sha256": "6fefbe870f4033154721cbf0c16d44f1b47d755787f91664ba654567f94922f0",
+      "bytes": 110473
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Entrance_Open_A.glb",
+      "sha256": "e48b20a93e624a1663ede4e7cba65dbfb1a88110eb1ecca32dd47af7ecefc7ba",
+      "bytes": 42284
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Roof_CedarSlate_A.blend",
+      "sha256": "d4e4a3799f65ec2a5fce2740f732d5f0b05fa4c45d8096269a0cd7066ce0c0b4",
+      "bytes": 164178
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Roof_CedarSlate_A.glb",
+      "sha256": "86c07734ec31d767941ef57619a8aa638e23cda99e2c3f5378c1719ccc777a3e",
+      "bytes": 475360
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Sign_Blank_A.blend",
+      "sha256": "8a561042ec796eafb2232091e27f9eb02d3de4d11b4f40c64147c627e248f71e",
+      "bytes": 110211
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Sign_Blank_A.glb",
+      "sha256": "4b0d9072cf8b73a7cfbfcc5eab2a8b158e02b64a90eb57dc5712e03d9ddf5195",
+      "bytes": 23880
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Wall_Plain_A.blend",
+      "sha256": "db2ee8ad36f3b6ce8949565dc904ba66ce6697491ad5bc5325fc2a0580dcd9b7",
+      "bytes": 111749
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Wall_Plain_A.glb",
+      "sha256": "8792dbf1cda72b63584c4a6dbce8648ff1f61d46066508890d1d788d280bb64f",
+      "bytes": 53580
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Wall_Window_A.blend",
+      "sha256": "1476f77afce67b51d189e862949066425620e91d8e739cb248e3dd13edc2f7bd",
+      "bytes": 127515
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/architecture/WC_RIVER_Wall_Window_A.glb",
+      "sha256": "cf9284f170825e3b58903f9695101ff630920073cb2ab8ef4725d8cfc676b55c",
+      "bytes": 148472
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/background/WC_RIVER_Background_House_A.blend",
+      "sha256": "66c36296605396ee188aa9c28da8be33fd48b25f511748923baa35b5d79bfe39",
+      "bytes": 115052
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/background/WC_RIVER_Background_House_A.glb",
+      "sha256": "c67a590fa96ae99f7b040073f0196336c02e73a83104018bd7bd9323df76683f",
+      "bytes": 43032
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/background/WC_RIVER_Background_Rise_A.blend",
+      "sha256": "a64aef275a7eb4bf46dbe8893d547477fd2fdb333341df60c74ea33c41be9211",
+      "bytes": 111408
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/background/WC_RIVER_Background_Rise_A.glb",
+      "sha256": "489e36be11b1d07627e8904dbd663c977914d2dc0cb7b2f1e346a8355500a94b",
+      "bytes": 3240
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Abutment_A.blend",
+      "sha256": "a184941d87411ce7a85f72fe498b304901a1cabedd62c50e30a0b8272aba1ef9",
+      "bytes": 107313
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Abutment_A.glb",
+      "sha256": "377769badbb19f7697848e078ce7d19c31116b73b91a2abbe548ca84638820ff",
+      "bytes": 42844
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Deck_A.blend",
+      "sha256": "03de3f38bcf8d76f1e9dc3e68477a81f81a7e35daf948ec1af871a467c8ea383",
+      "bytes": 110559
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Deck_A.glb",
+      "sha256": "da136758df36583aa7d1bd37048a3cf1ad0cb813dd91f80d259fafcec589db45",
+      "bytes": 86248
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Rail_A.blend",
+      "sha256": "feb758826a0abd9b73d98e7977ca2316bc7119fbdf1cb252d1f117b64baac757",
+      "bytes": 112440
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/bridge/WC_RIVER_Bridge_Rail_A.glb",
+      "sha256": "098bb05619d51be9a91842f407ccbb3a1d702a6fd0b5ee1009e28b303edbfa07",
+      "bytes": 78756
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/build_receipt.json",
+      "sha256": "14cfc086fbd1598c93df063c944b381a306f989266c2acc1b77130c50d3557c9",
+      "bytes": 48728
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_A.blend",
+      "sha256": "3713e8f127605bdb0b521a54f77aee55fc994c189e34651886eccae10237cff3",
+      "bytes": 102732
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_A.glb",
+      "sha256": "6f6e1e7d9ed28220aabf7c93978f39c359a9c2e7d30fdd8a9709244b128262d6",
+      "bytes": 71616
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_B.blend",
+      "sha256": "127be2eb7c83173ff68109ea1aa9a9f3b2482c0cf00b7748efdfb9f4790778c1",
+      "bytes": 102061
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_B.glb",
+      "sha256": "4b7486c8abbd7b6d8533ec9bb4d593ea2ceab62df320b369254a269e965c9c60",
+      "bytes": 61692
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_C.blend",
+      "sha256": "61bacad299052dcf42f1a1800a27b961bc03f0ee552ef2eb9aed4fff690a0ce2",
+      "bytes": 102784
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/ground/WC_RIVER_Ground_Stone_C.glb",
+      "sha256": "0456a5d3c07fb420bcb44498414916fa79dada4be2f608a1ef8fb4d2bbbbf531",
+      "bytes": 69924
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Inner_A.blend",
+      "sha256": "0778ffb1cf421c2f1cfd6ccfd8b6906376a462c58291445830cfea1d043ba07f",
+      "bytes": 113788
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Inner_A.glb",
+      "sha256": "1d7b8079ac5fc121498bf9dfb1b6ea70f30bfd90c543b45c704e2edf228d06f5",
+      "bytes": 137208
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Outer_A.blend",
+      "sha256": "200e5d456428dfd2b9c73b5529338b90c1622ab673fc8fe827274e473d90db36",
+      "bytes": 113663
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Outer_A.glb",
+      "sha256": "9ddd91246cc86953626e7e1628d41c68efb13e3d2705c557e666ad1d28caef9d",
+      "bytes": 137208
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_PathTransition_A.blend",
+      "sha256": "c0e315681ee84765806f6e24a79d3a58ffcb5086ba9a95f521bbb1b5c115540f",
+      "bytes": 107347
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_PathTransition_A.glb",
+      "sha256": "531354d70214bb123b9bc00c65f4c6a975dac63d357b8185b4516b2217c8bd61",
+      "bytes": 75688
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Straight_A.blend",
+      "sha256": "2a0700768b5a204112adb599a881014f50192a2a7b986cbf260fe178a904fee5",
+      "bytes": 102987
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Straight_A.glb",
+      "sha256": "240e2a0e99d097eb8099ab217992c3c3efe82be1e2c186bac0cdecd973ff2fb8",
+      "bytes": 51048
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Straight_B.blend",
+      "sha256": "bfd46a86ea05c344607de8cb40ab920a2e1dfddde0ddfa905f5319514d7f04d0",
+      "bytes": 102964
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Straight_B.glb",
+      "sha256": "ce01a6efc607567ea0ac9e7edde9ccb8472c6b2c607ddbdb4be5a1418da3f21a",
+      "bytes": 51104
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Vegetation_A.blend",
+      "sha256": "ea8a58e5d085c925de16332169ef6e08284ef4f3f3abd8896ce14ceee3835bfc",
+      "bytes": 109661
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/river/WC_RIVER_Bank_Vegetation_A.glb",
+      "sha256": "2eb66bd208e8c2e53f51f46a6eec2111c53ef4f41b0dd40d193a0aed8f9a30db",
+      "bytes": 64448
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Grass_Bank_A.blend",
+      "sha256": "d56ce6b5d00ba9e9ae5be9dff6968cea08aa87e7671e0b15be0ebd47e366b1bb",
+      "bytes": 114404
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Grass_Bank_A.glb",
+      "sha256": "8e063e544ee0a8c7dfa9f1ae23753bacbb6271405b623d0e06a2e54526ed6641",
+      "bytes": 5152
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Potted_Plant_A.blend",
+      "sha256": "90eb47ae0c4b9c2cf71ae093024e09d38841176db916be7527e1a0a4bff853cf",
+      "bytes": 127191
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Potted_Plant_A.glb",
+      "sha256": "66b946a02ccc8b6864141e8fdb11b9e3ee050580059f16e3413cb91da0dc9b48",
+      "bytes": 39236
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Shrub_Riverside_A.blend",
+      "sha256": "563b53f428e2babfc97ca3f4e82b079905ed02c0577ffed925de70d0db62298a",
+      "bytes": 131450
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Shrub_Riverside_A.glb",
+      "sha256": "f578527f5b39fe0ff3a1dfeef4943c23cb28141aa26d7c428debbb24017aa77b",
+      "bytes": 53252
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Tree_Medium_A.blend",
+      "sha256": "75cf9337a9e5cc916a493a6c6c3a22e408e72a57bfdb8211bf8dd44c92f21010",
+      "bytes": 175510
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Tree_Medium_A.glb",
+      "sha256": "f0558d54919a88ccbee7679106751ef71fef340eacd78f45abd56604c329edbc",
+      "bytes": 157372
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Tree_Small_A.blend",
+      "sha256": "2dd5f9ea58c1ff70a7256db1a21b235a53c30d971e62eb313a10777f18e0c5e9",
+      "bytes": 174968
+    },
+    {
+      "path": "assets_src/3d/riverside_refinement_v2/vegetation/WC_RIVER_Tree_Small_A.glb",
+      "sha256": "4af0cecb4cfd7c00ed36aefbe2cd1ca58ea8adafae746716bb47a728419596ac",
+      "bytes": 157384
+    },
+    {
+      "path": "docs/production/WILLICAT_RIVERSIDE_3D_ART_TRANSLATION_REFINEMENT_V2_RESULT.md",
+      "sha256": "12a14da8e8a89bb25adeb6697e7f1da72118d9a18ce4f6601d1021199443cb8a",
+      "bytes": 19067
+    },
+    {
+      "path": "scenes/dev/riverside_refinement_v2/DEV_WILLICAT_RIVERSIDE_3D_ART_REFINEMENT_V2.tscn",
+      "sha256": "f0039741d96dcd4d3e43abdc87a840f3f449ddd94711c323adebe072fb3d6c1d",
+      "bytes": 243
+    },
+    {
+      "path": "scripts/dev/riverside_refinement_v2/riverside_refinement_v2.gd",
+      "sha256": "e43490639705265340fcae73d10c27367a640d4e3d3f0dd7169ce2899833d247",
+      "bytes": 9605
+    },
+    {
+      "path": "tests/capture_riverside_matched_refinement_v2.gd",
+      "sha256": "ebdb39bd770779ba5de82372b9870d97bfcb76d16b25bc7081629a9ad48e28b0",
+      "bytes": 1776
+    },
+    {
+      "path": "tests/capture_riverside_refinement_v2.gd",
+      "sha256": "26fe2daefc1fcfda6e97ab354e76e15e342eeb1abca80b8fa2d9c74e9602e944",
+      "bytes": 12311
+    },
+    {
+      "path": "tests/test_riverside_controls_refinement_v2.gd",
+      "sha256": "a13f79abd3a9acdf95518b0aa16a3523787ab9df0e580f736f9eb836937c79be",
+      "bytes": 1350
+    },
+    {
+      "path": "tests/test_riverside_input_refinement_v2.gd",
+      "sha256": "5b09a249bc8ea5c9545b0724acd5edae8d714559f95b668215d3f723b1fafe16",
+      "bytes": 3820
+    },
+    {
+      "path": "tests/test_riverside_launcher_refinement_v2.py",
+      "sha256": "009bce782dc7f68903b99e264bb930469773efc4ba8b5c0f63704db2e8d1955e",
+      "bytes": 1911
+    },
+    {
+      "path": "tools/willicat_riverside_refinement_v2/Open_Riverside_Refinement_V2.command",
+      "sha256": "2c813b0414573a3cd33d521a452e653579ae3b3ae8c0ffff302dbc15f5163923",
+      "bytes": 116
+    },
+    {
+      "path": "tools/willicat_riverside_refinement_v2/README.md",
+      "sha256": "edccec1e7ea374a4287e91a784fb25fef0fd40e474a54d451a0367fab4ccf361",
+      "bytes": 1604
+    },
+    {
+      "path": "tools/willicat_riverside_refinement_v2/blender_build.py",
+      "sha256": "0242d5bade0cd3a675bb35439fddb032c239fd02208efba5e7c85798fb8173d7",
+      "bytes": 21626
+    },
+    {
+      "path": "tools/willicat_riverside_refinement_v2/run.py",
+      "sha256": "9efebd8144528d006f7aa7992cbd680d56563deec8cbcb143140dbc56dfcc671",
+      "bytes": 2687
+    }
+  ]
+}

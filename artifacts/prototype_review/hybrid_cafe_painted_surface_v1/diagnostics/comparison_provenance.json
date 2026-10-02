@@ -1,0 +1,11 @@
+{
+  "scope": "DEV; final human visual review open",
+  "primary": {
+    "01_CURRENT_SURFACE_BASELINE.png": "47810c11ca4032fb1ecbd7e2c09dec40eaf03faf9fa0686b54fbf47255e51723",
+    "02_PAINTED_SURFACE_PASS.png": "c275eb1b393d2615acc556819c4545f9bca13682e2acd938abb67747dad4f219"
+  },
+  "geometry": "Native exact geometry hash equality including transforms, vertices, normals, tangents, UVs and indices; original GLBs unchanged",
+  "actor": "Identical existing sprite, approach325,300 then325,355. Moving tour uses authoritative 2D navigation.",
+  "processing": "Raw PNG copies and labeled side-by-side layouts only; no retouch/recolor/filter/new geometry/camera changes. Closeups use matched cameras.",
+  "material_control": "diagnostics/material_only_baseline_lighting.png"
+}

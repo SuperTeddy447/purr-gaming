@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "executions": {
+    "cavity": {
+      "exit_code": 0,
+      "seconds": 0.549619208,
+      "script": "test_hero_service_colors_v2.gd",
+      "count": 14
+    },
+    "input": {
+      "exit_code": 0,
+      "seconds": 4.3450901250000005,
+      "script": "test_cafe_hero_fidelity_input_v2.gd",
+      "count": 5
+    },
+    "regression_cafe": {
+      "exit_code": 0,
+      "seconds": 29.235911166999998,
+      "script": "test_cafe_visual_recovery_v1.gd",
+      "count": 39
+    },
+    "regression_home": {
+      "exit_code": 0,
+      "seconds": 52.98995825,
+      "script": "v2_regression_test_home_continuous_world_v1.gd",
+      "count": 28
+    },
+    "regression_world": {
+      "exit_code": 0,
+      "seconds": 26.427324541999994,
+      "script": "v2_regression_test_world_architecture_hardening_v1.gd",
+      "count": 172
+    },
+    "regression_focus": {
+      "exit_code": 0,
+      "seconds": 0.2795583750000077,
+      "script": "test_focus_retreat_v1.gd",
+      "count": 33
+    }
+  },
+  "instrumentation": "Original scripts unchanged; two temporary Home/world test copies add execution counting only."
+}

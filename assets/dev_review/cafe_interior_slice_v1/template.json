@@ -1,0 +1,695 @@
+{
+  "status": "DEV_REVIEW_CANDIDATE",
+  "template_id": "cafe_interior_slice_v1",
+  "version": "1.0.0-dev",
+  "world_authority": "scenes/dev/first_party_style_proof/home_first_party_style_proof_001.tscn after existing installers",
+  "authority_snapshot": {
+    "camera": {
+      "position": [
+        320.0,
+        688.69482421875
+      ],
+      "zoom": [
+        1.60000002384186,
+        1.60000002384186
+      ]
+    },
+    "markers": {
+      "back_garden": [
+        550.0,
+        -400.0
+      ],
+      "cafe_return": [
+        500.0,
+        350.0
+      ],
+      "cafe_start": [
+        320.0,
+        800.0
+      ],
+      "cat_entry": [
+        90.0,
+        700.0
+      ],
+      "customer_entry": [
+        320.0,
+        965.0
+      ],
+      "final_cafe": [
+        320.0,
+        780.0
+      ],
+      "front_plaza": [
+        325.0,
+        1280.0
+      ],
+      "front_threshold": [
+        320.0,
+        1060.0
+      ],
+      "garden_return": [
+        525.0,
+        135.0
+      ],
+      "rear_threshold": [
+        512.0,
+        -90.0
+      ],
+      "return_plaza": [
+        320.0,
+        1150.0
+      ],
+      "river_behind_depth": [
+        -378.0,
+        1165.0
+      ],
+      "river_front_depth": [
+        -320.0,
+        1305.0
+      ],
+      "riverside": [
+        -520.0,
+        1220.0
+      ]
+    },
+    "objects": {
+      "BackDoor": {
+        "kind": "entrance",
+        "markers": {
+          "CameraStoryFocus": [
+            512.0,
+            86.0
+          ],
+          "DoorFXAnchor": [
+            512.0,
+            63.0
+          ],
+          "DoorStoryPoint": [
+            462.0,
+            73.0
+          ],
+          "EnterSlot/ActionAnchor": [
+            512.0,
+            115.0
+          ],
+          "EnterSlot/ApproachAnchor": [
+            512.0,
+            186.0
+          ],
+          "EnterSlot/ExitAnchor": [
+            512.0,
+            75.0
+          ],
+          "LeaveSlot/ActionAnchor": [
+            512.0,
+            115.0
+          ],
+          "LeaveSlot/ApproachAnchor": [
+            512.0,
+            60.0
+          ],
+          "LeaveSlot/ExitAnchor": [
+            512.0,
+            186.0
+          ],
+          "StorySlot/ActionAnchor": [
+            459.0,
+            87.0
+          ],
+          "StorySlot/ApproachAnchor": [
+            445.0,
+            85.0
+          ],
+          "StorySlot/ExitAnchor": [
+            445.0,
+            85.0
+          ]
+        },
+        "position": [
+          512.0,
+          130.0
+        ],
+        "stable_id": "back_door"
+      },
+      "CatBed": {
+        "footprint": {
+          "position": [
+            100.0,
+            782.0
+          ],
+          "size": [
+            88.0,
+            41.0
+          ]
+        },
+        "kind": "bed",
+        "markers": {
+          "RestSlot/ActionAnchor": [
+            100.0,
+            787.0
+          ],
+          "RestSlot/ApproachAnchor": [
+            162.0,
+            818.0
+          ],
+          "RestSlot/ExitAnchor": [
+            162.0,
+            818.0
+          ],
+          "SleepSlot/ActionAnchor": [
+            100.0,
+            787.0
+          ],
+          "SleepSlot/ApproachAnchor": [
+            162.0,
+            818.0
+          ],
+          "SleepSlot/ExitAnchor": [
+            162.0,
+            818.0
+          ]
+        },
+        "position": [
+          100.0,
+          790.0
+        ],
+        "stable_id": "cat_bed"
+      },
+      "ChairA": {
+        "footprint": {
+          "position": [
+            110.0,
+            520.0
+          ],
+          "size": [
+            48.0,
+            28.0
+          ]
+        },
+        "kind": "chair",
+        "markers": {
+          "SeatSlot/ActionAnchor": [
+            110.0,
+            532.0
+          ],
+          "SeatSlot/ApproachAnchor": [
+            110.0,
+            576.0
+          ],
+          "SeatSlot/ExitAnchor": [
+            110.0,
+            576.0
+          ]
+        },
+        "position": [
+          110.0,
+          530.0
+        ],
+        "stable_id": "chair_a"
+      },
+      "ChairB": {
+        "footprint": {
+          "position": [
+            245.0,
+            520.0
+          ],
+          "size": [
+            48.0,
+            28.0
+          ]
+        },
+        "kind": "chair",
+        "markers": {
+          "SeatSlot/ActionAnchor": [
+            245.0,
+            532.0
+          ],
+          "SeatSlot/ApproachAnchor": [
+            245.0,
+            576.0
+          ],
+          "SeatSlot/ExitAnchor": [
+            245.0,
+            576.0
+          ]
+        },
+        "position": [
+          245.0,
+          530.0
+        ],
+        "stable_id": "chair_b"
+      },
+      "ChairC": {
+        "footprint": {
+          "position": [
+            385.0,
+            625.0
+          ],
+          "size": [
+            48.0,
+            28.0
+          ]
+        },
+        "kind": "chair",
+        "markers": {
+          "SeatSlot/ActionAnchor": [
+            385.0,
+            637.0
+          ],
+          "SeatSlot/ApproachAnchor": [
+            385.0,
+            681.0
+          ],
+          "SeatSlot/ExitAnchor": [
+            385.0,
+            681.0
+          ]
+        },
+        "position": [
+          385.0,
+          635.0
+        ],
+        "stable_id": "chair_c"
+      },
+      "ChairD": {
+        "footprint": {
+          "position": [
+            525.0,
+            625.0
+          ],
+          "size": [
+            48.0,
+            28.0
+          ]
+        },
+        "kind": "chair",
+        "markers": {
+          "SeatSlot/ActionAnchor": [
+            525.0,
+            637.0
+          ],
+          "SeatSlot/ApproachAnchor": [
+            525.0,
+            681.0
+          ],
+          "SeatSlot/ExitAnchor": [
+            525.0,
+            681.0
+          ]
+        },
+        "position": [
+          525.0,
+          635.0
+        ],
+        "stable_id": "chair_d"
+      },
+      "CounterShell": {
+        "footprint": {
+          "position": [
+            190.0,
+            163.0
+          ],
+          "size": [
+            224.0,
+            55.0
+          ]
+        },
+        "kind": "counter",
+        "markers": {
+          "CustomerApproach": [
+            190.0,
+            260.0
+          ],
+          "OrderPoint": [
+            116.0,
+            240.0
+          ],
+          "OrderSlot/ActionAnchor": [
+            120.0,
+            222.0
+          ],
+          "OrderSlot/ApproachAnchor": [
+            120.0,
+            250.0
+          ],
+          "OrderSlot/ExitAnchor": [
+            120.0,
+            250.0
+          ],
+          "ServePoint": [
+            262.0,
+            240.0
+          ],
+          "ServeSlot/ActionAnchor": [
+            165.0,
+            155.0
+          ],
+          "ServeSlot/ApproachAnchor": [
+            165.0,
+            110.0
+          ],
+          "ServeSlot/ExitAnchor": [
+            190.0,
+            110.0
+          ],
+          "WorkerIdle": [
+            230.0,
+            97.0
+          ]
+        },
+        "position": [
+          190.0,
+          185.0
+        ],
+        "stable_id": "counter_shell"
+      },
+      "Entrance": {
+        "kind": "entrance",
+        "markers": {
+          "CameraStoryFocus": [
+            320.0,
+            866.0
+          ],
+          "DoorFXAnchor": [
+            320.0,
+            843.0
+          ],
+          "DoorStoryPoint": [
+            270.0,
+            853.0
+          ],
+          "EnterSlot/ActionAnchor": [
+            320.0,
+            895.0
+          ],
+          "EnterSlot/ApproachAnchor": [
+            320.0,
+            966.0
+          ],
+          "EnterSlot/ExitAnchor": [
+            320.0,
+            855.0
+          ],
+          "LeaveSlot/ActionAnchor": [
+            320.0,
+            895.0
+          ],
+          "LeaveSlot/ApproachAnchor": [
+            320.0,
+            840.0
+          ],
+          "LeaveSlot/ExitAnchor": [
+            320.0,
+            966.0
+          ],
+          "StorySlot/ActionAnchor": [
+            267.0,
+            867.0
+          ],
+          "StorySlot/ApproachAnchor": [
+            253.0,
+            865.0
+          ],
+          "StorySlot/ExitAnchor": [
+            253.0,
+            865.0
+          ]
+        },
+        "position": [
+          320.0,
+          910.0
+        ],
+        "stable_id": "entrance_door"
+      },
+      "EspressoStation": {
+        "footprint": {
+          "position": [
+            410.0,
+            164.0
+          ],
+          "size": [
+            73.0,
+            45.0
+          ]
+        },
+        "kind": "espresso",
+        "markers": {
+          "CameraBrewFocus": [
+            410.0,
+            141.0
+          ],
+          "CameraCupReveal": [
+            432.0,
+            164.0
+          ],
+          "CoffeeActionSlot/ActionAnchor": [
+            410.0,
+            229.0
+          ],
+          "CoffeeActionSlot/ApproachAnchor": [
+            410.0,
+            229.0
+          ],
+          "CoffeeActionSlot/ExitAnchor": [
+            460.0,
+            229.0
+          ],
+          "CupSpawnAnchor": [
+            432.0,
+            160.0
+          ],
+          "SteamFXAnchor": [
+            410.0,
+            114.0
+          ]
+        },
+        "position": [
+          410.0,
+          182.0
+        ],
+        "stable_id": "espresso_station"
+      },
+      "Grinder": {
+        "footprint": {
+          "position": [
+            555.0,
+            198.0
+          ],
+          "size": [
+            48.0,
+            35.0
+          ]
+        },
+        "kind": "grinder",
+        "markers": {
+          "GrindFXAnchor": [
+            555.0,
+            154.0
+          ],
+          "GrindSlot/ActionAnchor": [
+            555.0,
+            240.0
+          ],
+          "GrindSlot/ApproachAnchor": [
+            555.0,
+            251.0
+          ],
+          "GrindSlot/ExitAnchor": [
+            555.0,
+            251.0
+          ]
+        },
+        "position": [
+          555.0,
+          210.0
+        ],
+        "stable_id": "grinder_station"
+      },
+      "POS": {
+        "footprint": {
+          "position": [
+            130.0,
+            175.0
+          ],
+          "size": [
+            58.0,
+            30.0
+          ]
+        },
+        "kind": "pos",
+        "markers": {
+          "POSSlot/ActionAnchor": [
+            130.0,
+            214.0
+          ],
+          "POSSlot/ApproachAnchor": [
+            130.0,
+            224.0
+          ],
+          "POSSlot/ExitAnchor": [
+            130.0,
+            224.0
+          ]
+        },
+        "position": [
+          130.0,
+          185.0
+        ],
+        "stable_id": "pos_station"
+      },
+      "PastryCase": {
+        "footprint": {
+          "position": [
+            505.0,
+            285.0
+          ],
+          "size": [
+            88.0,
+            32.0
+          ]
+        },
+        "kind": "pastry",
+        "markers": {
+          "BrowseSlot/ActionAnchor": [
+            505.0,
+            335.0
+          ],
+          "BrowseSlot/ApproachAnchor": [
+            505.0,
+            346.0
+          ],
+          "BrowseSlot/ExitAnchor": [
+            505.0,
+            346.0
+          ]
+        },
+        "position": [
+          505.0,
+          295.0
+        ],
+        "stable_id": "pastry_case"
+      },
+      "Plant": {
+        "footprint": {
+          "position": [
+            205.0,
+            690.0
+          ],
+          "size": [
+            30.0,
+            25.0
+          ]
+        },
+        "kind": "plant",
+        "markers": {
+          "SniffSlot/ActionAnchor": [
+            175.0,
+            715.0
+          ],
+          "SniffSlot/ApproachAnchor": [
+            165.0,
+            722.0
+          ],
+          "SniffSlot/ExitAnchor": [
+            165.0,
+            722.0
+          ]
+        },
+        "position": [
+          205.0,
+          700.0
+        ],
+        "stable_id": "plant"
+      },
+      "ScratchPost": {
+        "footprint": {
+          "position": [
+            220.0,
+            800.0
+          ],
+          "size": [
+            42.0,
+            25.0
+          ]
+        },
+        "kind": "scratch",
+        "markers": {
+          "ScratchSlot/ActionAnchor": [
+            220.0,
+            827.0
+          ],
+          "ScratchSlot/ApproachAnchor": [
+            220.0,
+            840.0
+          ],
+          "ScratchSlot/ExitAnchor": [
+            220.0,
+            840.0
+          ],
+          "StretchSlot/ActionAnchor": [
+            220.0,
+            827.0
+          ],
+          "StretchSlot/ApproachAnchor": [
+            220.0,
+            840.0
+          ],
+          "StretchSlot/ExitAnchor": [
+            220.0,
+            840.0
+          ]
+        },
+        "position": [
+          220.0,
+          805.0
+        ],
+        "stable_id": "scratch_post"
+      },
+      "TableA": {
+        "footprint": {
+          "position": [
+            175.0,
+            431.0
+          ],
+          "size": [
+            108.0,
+            80.0
+          ]
+        },
+        "kind": "table",
+        "markers": {},
+        "position": [
+          175.0,
+          455.0
+        ],
+        "stable_id": "table_a"
+      },
+      "TableB": {
+        "footprint": {
+          "position": [
+            455.0,
+            536.0
+          ],
+          "size": [
+            108.0,
+            80.0
+          ]
+        },
+        "kind": "table",
+        "markers": {},
+        "position": [
+          455.0,
+          560.0
+        ],
+        "stable_id": "table_b"
+      }
+    }
+  },
+  "authority_snapshot_sha256": "5cc464909d21d4d1cc65338d5462eb77e9cd0219d7043964a61c175e9909bd61",
+  "style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "style_family_version": "1.0.0",
+  "production_publication": false,
+  "generation_reference_inputs": [],
+  "reference_boundary": "Approved boards visually studied for QA; unresolved image-conditioning scopes mean no board or competitor image submitted to generator. Prompt uses human-approved written palette/material/projection rules only.",
+  "registration": "Gameplay roots, footprints, marker positions unchanged. Runtime visible dimensions chosen from measured footprints; registration derivative and elevation are review candidates, not global geometric calibration."
+}

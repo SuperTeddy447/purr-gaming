@@ -1,0 +1,47 @@
+{
+  "asset_id": "tea_tray",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/tea_tray.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/tea_tray.png",
+  "source_sha256": "eea33d3be5258a935462dcea65d28d4de8dbf1d86673642c5cb0aa08a4282d17",
+  "runtime_sha256": "f9d12d53a2f7712eb141b3191ae50659d0f63dc48d9cf0c12528d2a82e9e0bc4",
+  "source_dimensions": [
+    535,
+    349
+  ],
+  "runtime_dimensions": [
+    555,
+    353
+  ],
+  "source_visual_bounds": [
+    6,
+    6,
+    529,
+    343
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    539,
+    353
+  ],
+  "pivot": "FLOOR_CONTACT_BOTTOM_CENTER",
+  "pivot_pixel": [
+    277.5,
+    353
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 5370,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

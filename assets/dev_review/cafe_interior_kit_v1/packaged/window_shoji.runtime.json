@@ -1,0 +1,47 @@
+{
+  "asset_id": "window_shoji",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/extracted/window_shoji.png",
+  "runtime_path": "/private/tmp/willicat_cafe_kit_stage/assets/dev_review/cafe_interior_kit_v1/packaged/window_shoji.png",
+  "source_sha256": "5a7f458c14b6453ba4e4ed156b6d5a1448351ad6aceec2488b3be5d9d0c5663b",
+  "runtime_sha256": "b6d3d8a67c901787e2eb01fb1ab97564e82a225089cc37dee42b5650b2ea1d0a",
+  "source_dimensions": [
+    373,
+    296
+  ],
+  "runtime_dimensions": [
+    393,
+    302
+  ],
+  "source_visual_bounds": [
+    6,
+    16,
+    367,
+    286
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    377,
+    286
+  ],
+  "pivot": "WALL_MOUNT_CENTER",
+  "pivot_pixel": [
+    196.5,
+    151.0
+  ],
+  "floor_contact": false,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 3163,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

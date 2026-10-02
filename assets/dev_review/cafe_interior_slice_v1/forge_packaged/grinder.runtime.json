@@ -1,0 +1,47 @@
+{
+  "asset_id": "grinder",
+  "status": "CANDIDATE",
+  "source_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/source/grinder.png",
+  "runtime_path": "/private/tmp/willicat_cafe_slice_stage/assets/dev_review/cafe_interior_slice_v1/forge_packaged/grinder.png",
+  "source_sha256": "70f89cf81656900993914b2f9effc946c5f703c43ea9ec6a10ae7771fcde5c5d",
+  "runtime_sha256": "9e6da84d7b754c65e4965a2e41c7339c4f2f5132ce43001561b56d0f42ee2a7a",
+  "source_dimensions": [
+    1024,
+    1536
+  ],
+  "runtime_dimensions": [
+    674,
+    1500
+  ],
+  "source_visual_bounds": [
+    223,
+    27,
+    865,
+    1511
+  ],
+  "runtime_visual_bounds": [
+    16,
+    16,
+    658,
+    1500
+  ],
+  "pivot": "COUNTERTOP_BASE_CENTER",
+  "pivot_pixel": [
+    337.0,
+    1500
+  ],
+  "floor_contact": true,
+  "alpha_threshold": 16,
+  "padding": 16,
+  "low_alpha_fringe_pixels_removed": 10060,
+  "preserve_canvas": false,
+  "edge_touch": {
+    "left": false,
+    "top": false,
+    "right": false,
+    "bottom": false
+  },
+  "expected_size": null,
+  "technical_qa": "PASS",
+  "status_note": "Technical packaging only; subjective visual approval remains pending."
+}

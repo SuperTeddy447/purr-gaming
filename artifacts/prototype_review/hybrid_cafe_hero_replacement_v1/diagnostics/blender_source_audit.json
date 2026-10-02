@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "count": 10,
+  "checks": {
+    "WC_CAFE_Counter_Straight_A": true,
+    "WC_CAFE_Counter_End_A": true,
+    "WC_CAFE_Counter_Short_A": true,
+    "WC_CAFE_Espresso_A": true,
+    "WC_CAFE_Chair_A": true,
+    "WC_CAFE_Wall_Window_A": true,
+    "WC_CAFE_Planter_Floor_A": true,
+    "WC_CAFE_Planter_Table_A": true,
+    "WC_CAFE_Plant_Trailing_A": true,
+    "WC_CAFE_Plant_Flowering_A": true
+  },
+  "sources": [
+    {
+      "asset": "WC_CAFE_Counter_Straight_A",
+      "editable_mesh_parts": 37,
+      "unapplied_modifiers": 74,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Counter_End_A",
+      "editable_mesh_parts": 19,
+      "unapplied_modifiers": 38,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Counter_Short_A",
+      "editable_mesh_parts": 19,
+      "unapplied_modifiers": 38,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Espresso_A",
+      "editable_mesh_parts": 51,
+      "unapplied_modifiers": 66,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Chair_A",
+      "editable_mesh_parts": 17,
+      "unapplied_modifiers": 28,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Wall_Window_A",
+      "editable_mesh_parts": 25,
+      "unapplied_modifiers": 50,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Planter_Floor_A",
+      "editable_mesh_parts": 34,
+      "unapplied_modifiers": 0,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Planter_Table_A",
+      "editable_mesh_parts": 16,
+      "unapplied_modifiers": 0,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Plant_Trailing_A",
+      "editable_mesh_parts": 59,
+      "unapplied_modifiers": 0,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    },
+    {
+      "asset": "WC_CAFE_Plant_Flowering_A",
+      "editable_mesh_parts": 51,
+      "unapplied_modifiers": 0,
+      "UV0": true,
+      "root_identity": true,
+      "packed_texture_sources": true,
+      "cavity_attributes": true
+    }
+  ],
+  "scope": "Read-only reopen of every editable Blender source; no resave. Bevel modifiers remain editable where used; plants use directly authored profile/leaf topology and need no artificial modifier."
+}

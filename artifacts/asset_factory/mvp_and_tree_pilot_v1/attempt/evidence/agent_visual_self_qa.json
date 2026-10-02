@@ -1,0 +1,57 @@
+{
+  "scope": "development_visual_evidence",
+  "owner_role": "agent_self_qa",
+  "timestamp": "2026-09-30T14:31:30.844925+00:00",
+  "asset_id": "willicat_tree_pilot_dev_01",
+  "asset_version": "1-dev",
+  "attempt_id": "DEV_DIAGNOSTIC_tree_5e47090652224f75a183823ebc8581cc",
+  "style_family_id": "WILLICAT_JAPANESE_RIVERSIDE_STORYBOOK_V1",
+  "style_version": "1.0.0",
+  "result": "PASS",
+  "authority": "Agent self-QA only; neither human technical animator nor art lead approval",
+  "method": "Inspected normalized/rest frame contact sheet, root overlay and actual Godot before/crossing/behind rendered frames; compared authoring curve, measurements and resource timing",
+  "observations": {
+    "projection": "Illustrated elevated 3/4-compatible grouped volume",
+    "materials": "Muted moss/sage leaves and warm wood, neutral intrinsic shading",
+    "root_and_shadow": "Fixed lower trunk and separate unchanged shadow",
+    "motion": "Canopy-led asymmetric X bend; no global scale transform or obvious expansion/contraction in compared silhouettes",
+    "readability": "Moving orange actor readable before/front; actual canopy occlusion behind",
+    "source_lighting": "No baked ground plane/cast shadow or dramatic environmental lighting"
+  },
+  "evidence": [
+    {
+      "artifact_ref": "evidence/root_baseline_overlay.png",
+      "sha256": "7cb5bf2468505eac59035dc7cd8d697e5a7ea9b5eeda6e889426e2e31be3789e"
+    },
+    {
+      "artifact_ref": "evidence/animation_contact_sheet.png",
+      "sha256": "776e09138cd07564d286dcc3bb7cdcd34730a8ba5131c9f50b58a2897fb31301"
+    },
+    {
+      "artifact_ref": "evidence/scene_speed_loop.gif",
+      "sha256": "684ba1114ae7c4e9ecf5dcf7925472ffbd0f09b234d83ba996a898f52a395085"
+    },
+    {
+      "artifact_ref": "evidence/development_motion_evidence.json",
+      "sha256": "df08f5c8c949f59aa2dc21738718e482df3deae0517d1b89790bbc8e7e0eeaf3"
+    },
+    {
+      "artifact_ref": "evidence/diagnostic_runtime_proof.json",
+      "sha256": "c9965ef10c559b102e288c3664e52b8b3f7efe2623eb84a8cc5491583bbac5c3"
+    },
+    {
+      "artifact_ref": "evidence/DEV_DIAGNOSTIC/actor_depth_contact_sheet.png",
+      "sha256": "5ebd52029cfa3d963a3a2bf8a4fa820f93f67a52109bf3f765bfac8e0d7759c3"
+    },
+    {
+      "artifact_ref": "evidence/DEV_DIAGNOSTIC/DEV_DIAGNOSTIC_moving_actor_tree.mp4",
+      "sha256": "82bbd2b961ccb1f5423e92acae7f891d2a918b2eefcf7b21300bc397b5b19f06"
+    }
+  ],
+  "human_technical_animation_review": "PENDING",
+  "human_art_lead_review": "PENDING",
+  "motion_calibration": "CANDIDATE_REQUIRES_CALIBRATION",
+  "canonical_visual_gate": "pending",
+  "canonical_motion_gate": "pending",
+  "production": "BLOCKED"
+}
